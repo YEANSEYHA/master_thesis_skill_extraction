@@ -24,7 +24,7 @@ const TABS = [
   { key: "E", label: "Analytics (ESCO Exact Match)" },
   { key: "R8", label: "Curriculum–Market Gap Analysis" },
   { key: "F2", label: "Skill Demand & Trends" },
-  { key: "DASH", label: "Dashboard" },
+  // { key: "DASH", label: "Dashboard" },
 ];
 
 export default function Home() {
