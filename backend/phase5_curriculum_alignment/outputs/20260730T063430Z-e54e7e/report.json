@@ -1,0 +1,1811 @@
+{
+ "dataset": "stage2_result.json",
+ "source": "cambodia",
+ "cohort": "Y5",
+ "segment_mode": "category",
+ "n_jobs": 254,
+ "courses": [
+  "Cloud Computing",
+  "Introduction To Artificial Intelligence",
+  "Natural Language Processing",
+  "Data Mining",
+  "Image Processing",
+  "Information Security",
+  "Network Security",
+  "It Project Management"
+ ],
+ "n_clo_skills": 226,
+ "kl": 0.3768,
+ "covered": 17,
+ "demand_weighted_coverage": 0.5628,
+ "demand_weighted_coverage_half_credit": 0.6457,
+ "top_n": 30,
+ "skills": [
+  {
+   "skill": "technical documentation",
+   "jobs": 49,
+   "per_course": {
+    "Cloud Computing": 0.63,
+    "Introduction To Artificial Intelligence": 0.67,
+    "Natural Language Processing": 0.66,
+    "Data Mining": 0.65,
+    "Image Processing": 0.63,
+    "Information Security": 0.64,
+    "Network Security": 0.67,
+    "It Project Management": 0.67
+   },
+   "per_course_clo": {
+    "Cloud Computing": "DevOps Methodology",
+    "Introduction To Artificial Intelligence": "Feature Encoding",
+    "Natural Language Processing": "Text Processing",
+    "Data Mining": "Sensor Data Collection",
+    "Image Processing": "Image Compression",
+    "Information Security": "Security Standards and Policies",
+    "Network Security": "Network Protocols and Standards",
+    "It Project Management": "Project Status Reporting"
+   },
+   "program": 0.67,
+   "status": "gap",
+   "host_ok": false,
+   "best_course": "It Project Management",
+   "best_clo": "Project Status Reporting",
+   "priority": 0.0639,
+   "verify": {
+    "argmax_rerank": 0.02,
+    "best_clo": "Project Status Reporting",
+    "best_course": "It Project Management",
+    "best_rerank": 0.02,
+    "verdict": "NOT SUPPORTED"
+   }
+  },
+  {
+   "skill": "database management",
+   "jobs": 42,
+   "per_course": {
+    "Cloud Computing": 0.62,
+    "Introduction To Artificial Intelligence": 0.68,
+    "Natural Language Processing": 0.64,
+    "Data Mining": 0.91,
+    "Image Processing": 0.61,
+    "Information Security": 0.63,
+    "Network Security": 0.65,
+    "It Project Management": 0.65
+   },
+   "per_course_clo": {
+    "Cloud Computing": "Service-Oriented Architecture",
+    "Introduction To Artificial Intelligence": "Data Preprocessing",
+    "Natural Language Processing": "Text Processing",
+    "Data Mining": "Database Management Systems (DBMS)",
+    "Image Processing": "Pattern Recognition and Classification",
+    "Information Security": "Risk Management",
+    "Network Security": "Access Control and Permissions",
+    "It Project Management": "Project Issue Management"
+   },
+   "program": 0.91,
+   "status": "covered",
+   "host_ok": true,
+   "best_course": "Data Mining",
+   "best_clo": "Database Management Systems (DBMS)",
+   "priority": 0.0155,
+   "verify": {
+    "argmax_rerank": 0.99,
+    "best_clo": "Database Management Systems (DBMS)",
+    "best_course": "Data Mining",
+    "best_rerank": 0.99,
+    "verdict": "SUPPORTED"
+   }
+  },
+  {
+   "skill": "java programming",
+   "jobs": 41,
+   "per_course": {
+    "Cloud Computing": 0.63,
+    "Introduction To Artificial Intelligence": 0.62,
+    "Natural Language Processing": 0.66,
+    "Data Mining": 0.69,
+    "Image Processing": 0.74,
+    "Information Security": 0.59,
+    "Network Security": 0.6,
+    "It Project Management": 0.6
+   },
+   "per_course_clo": {
+    "Cloud Computing": "Service-Oriented Architecture",
+    "Introduction To Artificial Intelligence": "Clustering",
+    "Natural Language Processing": "String Comparison",
+    "Data Mining": "Database Queries",
+    "Image Processing": "Python",
+    "Information Security": "Information Security Threats and Vulnerabilities Protection",
+    "Network Security": "Network Protocols and Standards",
+    "It Project Management": "Project Management Fundamentals"
+   },
+   "program": 0.74,
+   "status": "covered",
+   "host_ok": true,
+   "best_course": "Image Processing",
+   "best_clo": "Python",
+   "priority": 0.0414,
+   "verify": {
+    "argmax_rerank": 0.05,
+    "best_clo": "Python",
+    "best_course": "Image Processing",
+    "best_rerank": 0.05,
+    "verdict": "NOT SUPPORTED"
+   }
+  },
+  {
+   "skill": "project management",
+   "jobs": 37,
+   "per_course": {
+    "Cloud Computing": 0.62,
+    "Introduction To Artificial Intelligence": 0.6,
+    "Natural Language Processing": 0.61,
+    "Data Mining": 0.65,
+    "Image Processing": 0.61,
+    "Information Security": 0.75,
+    "Network Security": 0.7,
+    "It Project Management": 0.87
+   },
+   "per_course_clo": {
+    "Cloud Computing": "DevOps Methodology",
+    "Introduction To Artificial Intelligence": "Support Vector Machines (SVM)",
+    "Natural Language Processing": "Pointwise Mutual Information (PMI)",
+    "Data Mining": "Database Management Systems (DBMS)",
+    "Image Processing": "Python",
+    "Information Security": "Risk Management",
+    "Network Security": "Risk Management and Assessment",
+    "It Project Management": "Project Team Management"
+   },
+   "program": 0.87,
+   "status": "covered",
+   "host_ok": true,
+   "best_course": "It Project Management",
+   "best_clo": "Project Team Management",
+   "priority": 0.019,
+   "verify": {
+    "argmax_rerank": 0.86,
+    "best_clo": "Project Management Fundamentals",
+    "best_course": "It Project Management",
+    "best_rerank": 0.98,
+    "verdict": "SUPPORTED"
+   }
+  },
+  {
+   "skill": "network troubleshooting",
+   "jobs": 35,
+   "per_course": {
+    "Cloud Computing": 0.63,
+    "Introduction To Artificial Intelligence": 0.63,
+    "Natural Language Processing": 0.56,
+    "Data Mining": 0.62,
+    "Image Processing": 0.59,
+    "Information Security": 0.67,
+    "Network Security": 0.77,
+    "It Project Management": 0.67
+   },
+   "per_course_clo": {
+    "Cloud Computing": "Load Balancing",
+    "Introduction To Artificial Intelligence": "Performance Evaluation and Overfitting/Underfitting Diagnosis",
+    "Natural Language Processing": "Text Processing",
+    "Data Mining": "Sensor Data Collection",
+    "Image Processing": "Pattern Recognition and Classification",
+    "Information Security": "Security Solutions for System Support and Operations",
+    "Network Security": "Network Devices",
+    "It Project Management": "Project Issue Management"
+   },
+   "program": 0.77,
+   "status": "covered",
+   "host_ok": true,
+   "best_course": "Network Security",
+   "best_clo": "Network Devices",
+   "priority": 0.0316,
+   "verify": {
+    "argmax_rerank": 0.1,
+    "best_clo": "Network Devices",
+    "best_course": "Network Security",
+    "best_rerank": 0.1,
+    "verdict": "WEAK"
+   }
+  },
+  {
+   "skill": "system maintenance",
+   "jobs": 34,
+   "per_course": {
+    "Cloud Computing": 0.67,
+    "Introduction To Artificial Intelligence": 0.6,
+    "Natural Language Processing": 0.61,
+    "Data Mining": 0.65,
+    "Image Processing": 0.61,
+    "Information Security": 0.71,
+    "Network Security": 0.64,
+    "It Project Management": 0.66
+   },
+   "per_course_clo": {
+    "Cloud Computing": "Virtualization",
+    "Introduction To Artificial Intelligence": "Support Vector Regression (SVR)",
+    "Natural Language Processing": "Text Processing",
+    "Data Mining": "Database Management Systems (DBMS)",
+    "Image Processing": "Image Degradation Model",
+    "Information Security": "Security Solutions for System Support and Operations",
+    "Network Security": "Intrusion Prevention System (IPS)",
+    "It Project Management": "Project Issue Management"
+   },
+   "program": 0.71,
+   "status": "borderline",
+   "host_ok": true,
+   "best_course": "Information Security",
+   "best_clo": "Security Solutions for System Support and Operations",
+   "priority": 0.0386,
+   "verify": {
+    "argmax_rerank": 0.07,
+    "best_clo": "Security Solutions for System Support and Operations",
+    "best_course": "Information Security",
+    "best_rerank": 0.07,
+    "verdict": "NOT SUPPORTED"
+   }
+  },
+  {
+   "skill": "mysql database",
+   "jobs": 30,
+   "per_course": {
+    "Cloud Computing": 0.56,
+    "Introduction To Artificial Intelligence": 0.56,
+    "Natural Language Processing": 0.56,
+    "Data Mining": 0.78,
+    "Image Processing": 0.61,
+    "Information Security": 0.55,
+    "Network Security": 0.61,
+    "It Project Management": 0.53
+   },
+   "per_course_clo": {
+    "Cloud Computing": "CentOS",
+    "Introduction To Artificial Intelligence": "Random Forest",
+    "Natural Language Processing": "Naive Bayes Classifier",
+    "Data Mining": "Database Queries",
+    "Image Processing": "Python",
+    "Information Security": "Access Control",
+    "Network Security": "Access Control and Permissions",
+    "It Project Management": "Resource Estimation"
+   },
+   "program": 0.78,
+   "status": "covered",
+   "host_ok": true,
+   "best_course": "Data Mining",
+   "best_clo": "Database Queries",
+   "priority": 0.0256,
+   "verify": {
+    "argmax_rerank": 0.37,
+    "best_clo": "Database Queries",
+    "best_course": "Data Mining",
+    "best_rerank": 0.37,
+    "verdict": "WEAK"
+   }
+  },
+  {
+   "skill": "restful api development",
+   "jobs": 28,
+   "per_course": {
+    "Cloud Computing": 0.68,
+    "Introduction To Artificial Intelligence": 0.57,
+    "Natural Language Processing": 0.59,
+    "Data Mining": 0.6,
+    "Image Processing": 0.59,
+    "Information Security": 0.55,
+    "Network Security": 0.57,
+    "It Project Management": 0.59
+   },
+   "per_course_clo": {
+    "Cloud Computing": "Service-Oriented Architecture",
+    "Introduction To Artificial Intelligence": "Data Preprocessing",
+    "Natural Language Processing": "Tokenization",
+    "Data Mining": "Exploratory Data Analysis (EDA)",
+    "Image Processing": "Python",
+    "Information Security": "Security Solution Management",
+    "Network Security": "Network Protocols and Standards",
+    "It Project Management": "Project Status Reporting"
+   },
+   "program": 0.68,
+   "status": "gap",
+   "host_ok": false,
+   "best_course": "Cloud Computing",
+   "best_clo": "Service-Oriented Architecture",
+   "priority": 0.0353,
+   "verify": {
+    "argmax_rerank": 0.0,
+    "best_clo": "Service-Oriented Architecture",
+    "best_course": "Cloud Computing",
+    "best_rerank": 0.0,
+    "verdict": "NOT SUPPORTED"
+   }
+  },
+  {
+   "skill": "postgresql database",
+   "jobs": 27,
+   "per_course": {
+    "Cloud Computing": 0.56,
+    "Introduction To Artificial Intelligence": 0.53,
+    "Natural Language Processing": 0.53,
+    "Data Mining": 0.72,
+    "Image Processing": 0.59,
+    "Information Security": 0.52,
+    "Network Security": 0.59,
+    "It Project Management": 0.52
+   },
+   "per_course_clo": {
+    "Cloud Computing": "Cloud Computing Architectures",
+    "Introduction To Artificial Intelligence": "Data Preprocessing",
+    "Natural Language Processing": "Naive Bayes Classifier",
+    "Data Mining": "Database Queries",
+    "Image Processing": "Python",
+    "Information Security": "Access Control",
+    "Network Security": "Access Control and Permissions",
+    "It Project Management": "Resource Estimation"
+   },
+   "program": 0.72,
+   "status": "borderline",
+   "host_ok": true,
+   "best_course": "Data Mining",
+   "best_clo": "Database Queries",
+   "priority": 0.0301,
+   "verify": {
+    "argmax_rerank": 0.11,
+    "best_clo": "Database Queries",
+    "best_course": "Data Mining",
+    "best_rerank": 0.11,
+    "verdict": "WEAK"
+   }
+  },
+  {
+   "skill": "technical support",
+   "jobs": 27,
+   "per_course": {
+    "Cloud Computing": 0.59,
+    "Introduction To Artificial Intelligence": 0.62,
+    "Natural Language Processing": 0.58,
+    "Data Mining": 0.61,
+    "Image Processing": 0.58,
+    "Information Security": 0.68,
+    "Network Security": 0.61,
+    "It Project Management": 0.62
+   },
+   "per_course_clo": {
+    "Cloud Computing": "Load Balancing",
+    "Introduction To Artificial Intelligence": "Support Vector Machines (SVM)",
+    "Natural Language Processing": "Text Processing",
+    "Data Mining": "Sensor Data Collection",
+    "Image Processing": "Python",
+    "Information Security": "Security Solutions for System Support and Operations",
+    "Network Security": "Network Devices",
+    "It Project Management": "Project Issue Management"
+   },
+   "program": 0.68,
+   "status": "gap",
+   "host_ok": false,
+   "best_course": "Information Security",
+   "best_clo": "Security Solutions for System Support and Operations",
+   "priority": 0.0338,
+   "verify": {
+    "argmax_rerank": 0.04,
+    "best_clo": "Project Issue Management",
+    "best_course": "It Project Management",
+    "best_rerank": 0.07,
+    "verdict": "NOT SUPPORTED"
+   }
+  },
+  {
+   "skill": "ci/cd pipelines",
+   "jobs": 26,
+   "per_course": {
+    "Cloud Computing": 0.67,
+    "Introduction To Artificial Intelligence": 0.69,
+    "Natural Language Processing": 0.56,
+    "Data Mining": 0.61,
+    "Image Processing": 0.55,
+    "Information Security": 0.61,
+    "Network Security": 0.57,
+    "It Project Management": 0.62
+   },
+   "per_course_clo": {
+    "Cloud Computing": "DevOps Methodology",
+    "Introduction To Artificial Intelligence": "Machine Learning Pipeline",
+    "Natural Language Processing": "Tokenization",
+    "Data Mining": "Exploratory Data Analysis (EDA)",
+    "Image Processing": "Run-Length Encoding (RLE)",
+    "Information Security": "Security Solutions for System Support and Operations",
+    "Network Security": "Security Technology Deployment",
+    "It Project Management": "Project Lifecycle Management"
+   },
+   "program": 0.69,
+   "status": "borderline",
+   "host_ok": true,
+   "best_course": "Introduction To Artificial Intelligence",
+   "best_clo": "Machine Learning Pipeline",
+   "priority": 0.0314,
+   "verify": {
+    "argmax_rerank": 0.02,
+    "best_clo": "Machine Learning Pipeline",
+    "best_course": "Introduction To Artificial Intelligence",
+    "best_rerank": 0.02,
+    "verdict": "NOT SUPPORTED"
+   }
+  },
+  {
+   "skill": "docker containerization",
+   "jobs": 24,
+   "per_course": {
+    "Cloud Computing": 0.89,
+    "Introduction To Artificial Intelligence": 0.63,
+    "Natural Language Processing": 0.59,
+    "Data Mining": 0.58,
+    "Image Processing": 0.55,
+    "Information Security": 0.54,
+    "Network Security": 0.54,
+    "It Project Management": 0.56
+   },
+   "per_course_clo": {
+    "Cloud Computing": "Containerization",
+    "Introduction To Artificial Intelligence": "Pooling Layers",
+    "Natural Language Processing": "Tokenization",
+    "Data Mining": "Data Warehousing",
+    "Image Processing": "Python",
+    "Information Security": "Security Solutions for System Support and Operations",
+    "Network Security": "Network Protocols and Standards",
+    "It Project Management": "Resource Estimation"
+   },
+   "program": 0.89,
+   "status": "covered",
+   "host_ok": true,
+   "best_course": "Cloud Computing",
+   "best_clo": "Containerization",
+   "priority": 0.0103,
+   "verify": {
+    "argmax_rerank": 0.99,
+    "best_clo": "Containerization",
+    "best_course": "Cloud Computing",
+    "best_rerank": 0.99,
+    "verdict": "SUPPORTED"
+   }
+  },
+  {
+   "skill": "git version control",
+   "jobs": 24,
+   "per_course": {
+    "Cloud Computing": 0.57,
+    "Introduction To Artificial Intelligence": 0.49,
+    "Natural Language Processing": 0.47,
+    "Data Mining": 0.49,
+    "Image Processing": 0.52,
+    "Information Security": 0.57,
+    "Network Security": 0.56,
+    "It Project Management": 0.64
+   },
+   "per_course_clo": {
+    "Cloud Computing": "CentOS",
+    "Introduction To Artificial Intelligence": "Model Evaluation Metrics",
+    "Natural Language Processing": "Regular Expressions",
+    "Data Mining": "Model Evaluation",
+    "Image Processing": "Python",
+    "Information Security": "Access Control",
+    "Network Security": "Access Control and Permissions",
+    "It Project Management": "Change Management"
+   },
+   "program": 0.64,
+   "status": "gap",
+   "host_ok": false,
+   "best_course": "It Project Management",
+   "best_clo": "Change Management",
+   "priority": 0.0341,
+   "verify": {
+    "argmax_rerank": 0.02,
+    "best_clo": "Change Management",
+    "best_course": "It Project Management",
+    "best_rerank": 0.02,
+    "verdict": "NOT SUPPORTED"
+   }
+  },
+  {
+   "skill": "firewall configuration",
+   "jobs": 23,
+   "per_course": {
+    "Cloud Computing": 0.57,
+    "Introduction To Artificial Intelligence": 0.54,
+    "Natural Language Processing": 0.44,
+    "Data Mining": 0.51,
+    "Image Processing": 0.5,
+    "Information Security": 0.62,
+    "Network Security": 0.83,
+    "It Project Management": 0.52
+   },
+   "per_course_clo": {
+    "Cloud Computing": "Load Balancing",
+    "Introduction To Artificial Intelligence": "Fully Connected Layers",
+    "Natural Language Processing": "Lexical Semantics",
+    "Data Mining": "Sensor Data Collection",
+    "Image Processing": "Frequency Domain Filtering",
+    "Information Security": "Security Solutions for System Support and Operations",
+    "Network Security": "Firewall Technology",
+    "It Project Management": "Project Issue Management"
+   },
+   "program": 0.83,
+   "status": "covered",
+   "host_ok": true,
+   "best_course": "Network Security",
+   "best_clo": "Firewall Technology",
+   "priority": 0.0152,
+   "verify": {
+    "argmax_rerank": 0.19,
+    "best_clo": "Firewall Technology",
+    "best_course": "Network Security",
+    "best_rerank": 0.19,
+    "verdict": "WEAK"
+   }
+  },
+  {
+   "skill": "security compliance",
+   "jobs": 23,
+   "per_course": {
+    "Cloud Computing": 0.69,
+    "Introduction To Artificial Intelligence": 0.55,
+    "Natural Language Processing": 0.53,
+    "Data Mining": 0.59,
+    "Image Processing": 0.54,
+    "Information Security": 1.0,
+    "Network Security": 0.76,
+    "It Project Management": 0.64
+   },
+   "per_course_clo": {
+    "Cloud Computing": "Cloud Computing Security",
+    "Introduction To Artificial Intelligence": "Support Vector Regression (SVR)",
+    "Natural Language Processing": "Pointwise Mutual Information (PMI)",
+    "Data Mining": "Sensor Data Collection",
+    "Image Processing": "Pattern Recognition and Classification",
+    "Information Security": "Security Compliance",
+    "Network Security": "Security Technology Deployment",
+    "It Project Management": "Risk Management"
+   },
+   "program": 1.0,
+   "status": "covered",
+   "host_ok": true,
+   "best_course": "Information Security",
+   "best_clo": "Security Compliance",
+   "priority": 0.0,
+   "verify": {
+    "argmax_rerank": 1.0,
+    "best_clo": "Security Compliance",
+    "best_course": "Information Security",
+    "best_rerank": 1.0,
+    "verdict": "SUPPORTED"
+   }
+  },
+  {
+   "skill": "server management",
+   "jobs": 21,
+   "per_course": {
+    "Cloud Computing": 0.76,
+    "Introduction To Artificial Intelligence": 0.6,
+    "Natural Language Processing": 0.61,
+    "Data Mining": 0.72,
+    "Image Processing": 0.58,
+    "Information Security": 0.71,
+    "Network Security": 0.68,
+    "It Project Management": 0.7
+   },
+   "per_course_clo": {
+    "Cloud Computing": "Load Balancing",
+    "Introduction To Artificial Intelligence": "Clustering",
+    "Natural Language Processing": "Text Processing",
+    "Data Mining": "Database Management Systems (DBMS)",
+    "Image Processing": "Python",
+    "Information Security": "Security Solution Management",
+    "Network Security": "Access Control and Permissions",
+    "It Project Management": "Project Issue Management"
+   },
+   "program": 0.76,
+   "status": "covered",
+   "host_ok": true,
+   "best_course": "Cloud Computing",
+   "best_clo": "Load Balancing",
+   "priority": 0.0202,
+   "verify": {
+    "argmax_rerank": 0.35,
+    "best_clo": "Load Balancing",
+    "best_course": "Cloud Computing",
+    "best_rerank": 0.35,
+    "verdict": "WEAK"
+   }
+  },
+  {
+   "skill": "aws cloud platforms",
+   "jobs": 19,
+   "per_course": {
+    "Cloud Computing": 0.82,
+    "Introduction To Artificial Intelligence": 0.56,
+    "Natural Language Processing": 0.52,
+    "Data Mining": 0.6,
+    "Image Processing": 0.5,
+    "Information Security": 0.61,
+    "Network Security": 0.68,
+    "It Project Management": 0.57
+   },
+   "per_course_clo": {
+    "Cloud Computing": "AWS",
+    "Introduction To Artificial Intelligence": "Machine Learning Pipeline",
+    "Natural Language Processing": "Tokenization",
+    "Data Mining": "Apache Hadoop",
+    "Image Processing": "HSI Color Model",
+    "Information Security": "Security Solutions for System Support and Operations",
+    "Network Security": "Cloud Computing Security",
+    "It Project Management": "Resource Estimation"
+   },
+   "program": 0.82,
+   "status": "covered",
+   "host_ok": true,
+   "best_course": "Cloud Computing",
+   "best_clo": "AWS",
+   "priority": 0.0131,
+   "verify": {
+    "argmax_rerank": 0.73,
+    "best_clo": "AWS",
+    "best_course": "Cloud Computing",
+    "best_rerank": 0.73,
+    "verdict": "SUPPORTED"
+   }
+  },
+  {
+   "skill": "incident response",
+   "jobs": 19,
+   "per_course": {
+    "Cloud Computing": 0.56,
+    "Introduction To Artificial Intelligence": 0.53,
+    "Natural Language Processing": 0.53,
+    "Data Mining": 0.61,
+    "Image Processing": 0.54,
+    "Information Security": 0.62,
+    "Network Security": 0.66,
+    "It Project Management": 0.61
+   },
+   "per_course_clo": {
+    "Cloud Computing": "Infrastructure as a Service (IaaS)",
+    "Introduction To Artificial Intelligence": "Principal Component Analysis (PCA)",
+    "Natural Language Processing": "Text Processing",
+    "Data Mining": "Sensor Data Collection",
+    "Image Processing": "Pattern Recognition and Classification",
+    "Information Security": "Security Solutions for System Support and Operations",
+    "Network Security": "Disaster Recovery Planning",
+    "It Project Management": "Project Status Reporting"
+   },
+   "program": 0.66,
+   "status": "gap",
+   "host_ok": false,
+   "best_course": "Network Security",
+   "best_clo": "Disaster Recovery Planning",
+   "priority": 0.0256,
+   "verify": {
+    "argmax_rerank": 0.01,
+    "best_clo": "Disaster Recovery Planning",
+    "best_course": "Network Security",
+    "best_rerank": 0.01,
+    "verdict": "NOT SUPPORTED"
+   }
+  },
+  {
+   "skill": "security monitoring",
+   "jobs": 19,
+   "per_course": {
+    "Cloud Computing": 0.7,
+    "Introduction To Artificial Intelligence": 0.63,
+    "Natural Language Processing": 0.57,
+    "Data Mining": 0.71,
+    "Image Processing": 0.64,
+    "Information Security": 0.83,
+    "Network Security": 0.78,
+    "It Project Management": 0.74
+   },
+   "per_course_clo": {
+    "Cloud Computing": "Cloud Computing Security",
+    "Introduction To Artificial Intelligence": "Support Vector Regression (SVR)",
+    "Natural Language Processing": "Pointwise Mutual Information (PMI)",
+    "Data Mining": "Sensor Data Collection",
+    "Image Processing": "Pattern Recognition and Classification",
+    "Information Security": "Information Security Threat Trend Monitoring",
+    "Network Security": "Security Technology Deployment",
+    "It Project Management": "Project Progress Monitoring"
+   },
+   "program": 0.83,
+   "status": "covered",
+   "host_ok": true,
+   "best_course": "Information Security",
+   "best_clo": "Information Security Threat Trend Monitoring",
+   "priority": 0.0126,
+   "verify": {
+    "argmax_rerank": 0.89,
+    "best_clo": "Information Security Threat Trend Monitoring",
+    "best_course": "Information Security",
+    "best_rerank": 0.89,
+    "verdict": "SUPPORTED"
+   }
+  },
+  {
+   "skill": "api integration",
+   "jobs": 18,
+   "per_course": {
+    "Cloud Computing": 0.65,
+    "Introduction To Artificial Intelligence": 0.59,
+    "Natural Language Processing": 0.57,
+    "Data Mining": 0.6,
+    "Image Processing": 0.61,
+    "Information Security": 0.54,
+    "Network Security": 0.56,
+    "It Project Management": 0.58
+   },
+   "per_course_clo": {
+    "Cloud Computing": "Platform as a Service (PaaS)",
+    "Introduction To Artificial Intelligence": "Fully Connected Layers",
+    "Natural Language Processing": "Tokenization",
+    "Data Mining": "Online Analytical Processing (OLAP)",
+    "Image Processing": "Python",
+    "Information Security": "Security Solution Management",
+    "Network Security": "Access Control and Permissions",
+    "It Project Management": "Project Status Reporting"
+   },
+   "program": 0.65,
+   "status": "gap",
+   "host_ok": false,
+   "best_course": "Cloud Computing",
+   "best_clo": "Platform as a Service (PaaS)",
+   "priority": 0.0247,
+   "verify": {
+    "argmax_rerank": 0.0,
+    "best_clo": "Platform as a Service (PaaS)",
+    "best_course": "Cloud Computing",
+    "best_rerank": 0.0,
+    "verdict": "NOT SUPPORTED"
+   }
+  },
+  {
+   "skill": "code reviews",
+   "jobs": 18,
+   "per_course": {
+    "Cloud Computing": 0.6,
+    "Introduction To Artificial Intelligence": 0.64,
+    "Natural Language Processing": 0.61,
+    "Data Mining": 0.65,
+    "Image Processing": 0.67,
+    "Information Security": 0.59,
+    "Network Security": 0.6,
+    "It Project Management": 0.6
+   },
+   "per_course_clo": {
+    "Cloud Computing": "Software as a Service (SaaS)",
+    "Introduction To Artificial Intelligence": "Model Evaluation Metrics",
+    "Natural Language Processing": "Text Processing",
+    "Data Mining": "Model Evaluation",
+    "Image Processing": "Huffman Coding",
+    "Information Security": "Information Security Threats and Vulnerabilities Protection",
+    "Network Security": "Penetration Testing",
+    "It Project Management": "Project Issue Management"
+   },
+   "program": 0.67,
+   "status": "gap",
+   "host_ok": false,
+   "best_course": "Image Processing",
+   "best_clo": "Huffman Coding",
+   "priority": 0.0233,
+   "verify": {
+    "argmax_rerank": 0.0,
+    "best_clo": "Huffman Coding",
+    "best_course": "Image Processing",
+    "best_rerank": 0.0,
+    "verdict": "NOT SUPPORTED"
+   }
+  },
+  {
+   "skill": "data analysis",
+   "jobs": 18,
+   "per_course": {
+    "Cloud Computing": 0.58,
+    "Introduction To Artificial Intelligence": 0.74,
+    "Natural Language Processing": 0.66,
+    "Data Mining": 0.79,
+    "Image Processing": 0.73,
+    "Information Security": 0.62,
+    "Network Security": 0.61,
+    "It Project Management": 0.64
+   },
+   "per_course_clo": {
+    "Cloud Computing": "Cloud Computing Architectures",
+    "Introduction To Artificial Intelligence": "Principal Component Analysis (PCA)",
+    "Natural Language Processing": "Text Feature Extraction",
+    "Data Mining": "Correlation Analysis",
+    "Image Processing": "Pattern Recognition and Classification",
+    "Information Security": "Information Security Risk Analysis",
+    "Network Security": "Intrusion Detection System (IDS)",
+    "It Project Management": "Resource Estimation"
+   },
+   "program": 0.79,
+   "status": "covered",
+   "host_ok": true,
+   "best_course": "Data Mining",
+   "best_clo": "Correlation Analysis",
+   "priority": 0.0149,
+   "verify": {
+    "argmax_rerank": 0.25,
+    "best_clo": "Data Mining",
+    "best_course": "Data Mining",
+    "best_rerank": 0.93,
+    "verdict": "SUPPORTED"
+   }
+  },
+  {
+   "skill": "it infrastructure management",
+   "jobs": 18,
+   "per_course": {
+    "Cloud Computing": 0.75,
+    "Introduction To Artificial Intelligence": 0.59,
+    "Natural Language Processing": 0.58,
+    "Data Mining": 0.65,
+    "Image Processing": 0.56,
+    "Information Security": 0.73,
+    "Network Security": 0.7,
+    "It Project Management": 0.73
+   },
+   "per_course_clo": {
+    "Cloud Computing": "Infrastructure as a Service (IaaS)",
+    "Introduction To Artificial Intelligence": "Model Evaluation Metrics",
+    "Natural Language Processing": "Pointwise Mutual Information (PMI)",
+    "Data Mining": "Database Management Systems (DBMS)",
+    "Image Processing": "Pattern Recognition and Classification",
+    "Information Security": "Information Security Policy Management",
+    "Network Security": "Security Technology Deployment",
+    "It Project Management": "Project Issue Management"
+   },
+   "program": 0.75,
+   "status": "covered",
+   "host_ok": true,
+   "best_course": "Cloud Computing",
+   "best_clo": "Infrastructure as a Service (IaaS)",
+   "priority": 0.018,
+   "verify": {
+    "argmax_rerank": 0.06,
+    "best_clo": "Infrastructure as a Service (IaaS)",
+    "best_course": "Cloud Computing",
+    "best_rerank": 0.06,
+    "verdict": "NOT SUPPORTED"
+   }
+  },
+  {
+   "skill": "microsoft office proficiency",
+   "jobs": 18,
+   "per_course": {
+    "Cloud Computing": 0.56,
+    "Introduction To Artificial Intelligence": 0.57,
+    "Natural Language Processing": 0.61,
+    "Data Mining": 0.61,
+    "Image Processing": 0.55,
+    "Information Security": 0.59,
+    "Network Security": 0.58,
+    "It Project Management": 0.57
+   },
+   "per_course_clo": {
+    "Cloud Computing": "Software as a Service (SaaS)",
+    "Introduction To Artificial Intelligence": "Performance Evaluation and Overfitting/Underfitting Diagnosis",
+    "Natural Language Processing": "Text Processing",
+    "Data Mining": "Data Quality Assessment",
+    "Image Processing": "Thresholding",
+    "Information Security": "Information Security Standards",
+    "Network Security": "Penetration Testing",
+    "It Project Management": "Project Management Fundamentals"
+   },
+   "program": 0.61,
+   "status": "gap",
+   "host_ok": false,
+   "best_course": "Data Mining",
+   "best_clo": "Data Quality Assessment",
+   "priority": 0.0274,
+   "verify": {
+    "argmax_rerank": 0.0,
+    "best_clo": "Data Quality Assessment",
+    "best_course": "Data Mining",
+    "best_rerank": 0.0,
+    "verdict": "NOT SUPPORTED"
+   }
+  },
+  {
+   "skill": "software development",
+   "jobs": 18,
+   "per_course": {
+    "Cloud Computing": 0.71,
+    "Introduction To Artificial Intelligence": 0.61,
+    "Natural Language Processing": 0.59,
+    "Data Mining": 0.63,
+    "Image Processing": 0.65,
+    "Information Security": 0.62,
+    "Network Security": 0.61,
+    "It Project Management": 0.68
+   },
+   "per_course_clo": {
+    "Cloud Computing": "Software as a Service (SaaS)",
+    "Introduction To Artificial Intelligence": "Model Evaluation Metrics",
+    "Natural Language Processing": "Text Processing",
+    "Data Mining": "Discretization",
+    "Image Processing": "Python",
+    "Information Security": "Security Solution Management",
+    "Network Security": "Risk Management and Assessment",
+    "It Project Management": "Agile Project Management"
+   },
+   "program": 0.71,
+   "status": "borderline",
+   "host_ok": true,
+   "best_course": "Cloud Computing",
+   "best_clo": "Software as a Service (SaaS)",
+   "priority": 0.0208,
+   "verify": {
+    "argmax_rerank": 0.04,
+    "best_clo": "DevOps Methodology",
+    "best_course": "Cloud Computing",
+    "best_rerank": 0.11,
+    "verdict": "WEAK"
+   }
+  },
+  {
+   "skill": "system integration",
+   "jobs": 18,
+   "per_course": {
+    "Cloud Computing": 0.7,
+    "Introduction To Artificial Intelligence": 0.61,
+    "Natural Language Processing": 0.62,
+    "Data Mining": 0.66,
+    "Image Processing": 0.59,
+    "Information Security": 0.71,
+    "Network Security": 0.67,
+    "It Project Management": 0.67
+   },
+   "per_course_clo": {
+    "Cloud Computing": "Virtualization",
+    "Introduction To Artificial Intelligence": "Fully Connected Layers",
+    "Natural Language Processing": "Pointwise Mutual Information (PMI)",
+    "Data Mining": "Database Management Systems (DBMS)",
+    "Image Processing": "Python",
+    "Information Security": "Security Solutions for System Support and Operations",
+    "Network Security": "Security Technology Deployment",
+    "It Project Management": "Project Issue Management"
+   },
+   "program": 0.71,
+   "status": "borderline",
+   "host_ok": true,
+   "best_course": "Information Security",
+   "best_clo": "Security Solutions for System Support and Operations",
+   "priority": 0.0203,
+   "verify": {
+    "argmax_rerank": 0.01,
+    "best_clo": "Security Solutions for System Support and Operations",
+    "best_course": "Information Security",
+    "best_rerank": 0.01,
+    "verdict": "NOT SUPPORTED"
+   }
+  },
+  {
+   "skill": "vmware virtualization",
+   "jobs": 18,
+   "per_course": {
+    "Cloud Computing": 0.89,
+    "Introduction To Artificial Intelligence": 0.61,
+    "Natural Language Processing": 0.54,
+    "Data Mining": 0.61,
+    "Image Processing": 0.54,
+    "Information Security": 0.64,
+    "Network Security": 0.67,
+    "It Project Management": 0.61
+   },
+   "per_course_clo": {
+    "Cloud Computing": "Virtualization",
+    "Introduction To Artificial Intelligence": "Support Vector Regression (SVR)",
+    "Natural Language Processing": "Vector Semantics",
+    "Data Mining": "Apache Hadoop",
+    "Image Processing": "Image Formation Model",
+    "Information Security": "Security Solutions for System Support and Operations",
+    "Network Security": "Cloud Computing Security",
+    "It Project Management": "Resource Estimation"
+   },
+   "program": 0.89,
+   "status": "covered",
+   "host_ok": true,
+   "best_course": "Cloud Computing",
+   "best_clo": "Virtualization",
+   "priority": 0.0075,
+   "verify": {
+    "argmax_rerank": 0.84,
+    "best_clo": "Virtualization",
+    "best_course": "Cloud Computing",
+    "best_rerank": 0.84,
+    "verdict": "SUPPORTED"
+   }
+  },
+  {
+   "skill": "performance tuning",
+   "jobs": 17,
+   "per_course": {
+    "Cloud Computing": 0.72,
+    "Introduction To Artificial Intelligence": 0.74,
+    "Natural Language Processing": 0.63,
+    "Data Mining": 0.7,
+    "Image Processing": 0.67,
+    "Information Security": 0.62,
+    "Network Security": 0.6,
+    "It Project Management": 0.69
+   },
+   "per_course_clo": {
+    "Cloud Computing": "Cloud Workload Optimization",
+    "Introduction To Artificial Intelligence": "Performance Evaluation and Overfitting/Underfitting Diagnosis",
+    "Natural Language Processing": "Text Processing",
+    "Data Mining": "Task-Relevant Data Selection",
+    "Image Processing": "Image Smoothing",
+    "Information Security": "Security Solutions for System Support and Operations",
+    "Network Security": "Intrusion Prevention System (IPS)",
+    "It Project Management": "Resource Estimation"
+   },
+   "program": 0.74,
+   "status": "covered",
+   "host_ok": true,
+   "best_course": "Introduction To Artificial Intelligence",
+   "best_clo": "Performance Evaluation and Overfitting/Underfitting Diagnosis",
+   "priority": 0.0174,
+   "verify": {
+    "argmax_rerank": 0.07,
+    "best_clo": "Load Balancing",
+    "best_course": "Cloud Computing",
+    "best_rerank": 0.16,
+    "verdict": "WEAK"
+   }
+  },
+  {
+   "skill": "disaster recovery planning",
+   "jobs": 16,
+   "per_course": {
+    "Cloud Computing": 0.61,
+    "Introduction To Artificial Intelligence": 0.59,
+    "Natural Language Processing": 0.59,
+    "Data Mining": 0.6,
+    "Image Processing": 0.55,
+    "Information Security": 0.65,
+    "Network Security": 1.0,
+    "It Project Management": 0.65
+   },
+   "per_course_clo": {
+    "Cloud Computing": "DevOps Methodology",
+    "Introduction To Artificial Intelligence": "Support Vector Regression (SVR)",
+    "Natural Language Processing": "Pointwise Mutual Information (PMI)",
+    "Data Mining": "Bayesian Networks",
+    "Image Processing": "Thresholding",
+    "Information Security": "Risk Management",
+    "Network Security": "Disaster Recovery Planning",
+    "It Project Management": "Risk Management"
+   },
+   "program": 1.0,
+   "status": "covered",
+   "host_ok": true,
+   "best_course": "Network Security",
+   "best_clo": "Disaster Recovery Planning",
+   "priority": 0.0,
+   "verify": {
+    "argmax_rerank": 1.0,
+    "best_clo": "Disaster Recovery Planning",
+    "best_course": "Network Security",
+    "best_rerank": 1.0,
+    "verdict": "SUPPORTED"
+   }
+  },
+  {
+   "skill": "network administration",
+   "jobs": 16,
+   "per_course": {
+    "Cloud Computing": 0.66,
+    "Introduction To Artificial Intelligence": 0.54,
+    "Natural Language Processing": 0.54,
+    "Data Mining": 0.57,
+    "Image Processing": 0.54,
+    "Information Security": 0.66,
+    "Network Security": 0.75,
+    "It Project Management": 0.61
+   },
+   "per_course_clo": {
+    "Cloud Computing": "Infrastructure as a Service (IaaS)",
+    "Introduction To Artificial Intelligence": "Fully Connected Layers",
+    "Natural Language Processing": "Text Processing",
+    "Data Mining": "Database Management Systems (DBMS)",
+    "Image Processing": "Median Filtering",
+    "Information Security": "Access Control",
+    "Network Security": "Network Devices",
+    "It Project Management": "Project Issue Management"
+   },
+   "program": 0.75,
+   "status": "covered",
+   "host_ok": true,
+   "best_course": "Network Security",
+   "best_clo": "Network Devices",
+   "priority": 0.0155,
+   "verify": {
+    "argmax_rerank": 0.0,
+    "best_clo": "Network Security Policies",
+    "best_course": "Network Security",
+    "best_rerank": 0.08,
+    "verdict": "NOT SUPPORTED"
+   }
+  }
+ ],
+ "recommendations": [
+  {
+   "skill": "technical documentation",
+   "jobs": 49,
+   "coverage": 0.67,
+   "status": "gap",
+   "no_host": true,
+   "host": null,
+   "best_clo": null,
+   "argmax_clo": "Project Status Reporting",
+   "argmax_course": "It Project Management",
+   "verify": {
+    "argmax_rerank": 0.02,
+    "best_clo": "Project Status Reporting",
+    "best_course": "It Project Management",
+    "best_rerank": 0.02,
+    "verdict": "NOT SUPPORTED"
+   }
+  },
+  {
+   "skill": "system maintenance",
+   "jobs": 34,
+   "coverage": 0.71,
+   "status": "borderline",
+   "no_host": true,
+   "host": null,
+   "best_clo": null,
+   "argmax_clo": "Security Solutions for System Support and Operations",
+   "argmax_course": "Information Security",
+   "verify": {
+    "argmax_rerank": 0.07,
+    "best_clo": "Security Solutions for System Support and Operations",
+    "best_course": "Information Security",
+    "best_rerank": 0.07,
+    "verdict": "NOT SUPPORTED"
+   }
+  },
+  {
+   "skill": "restful api development",
+   "jobs": 28,
+   "coverage": 0.68,
+   "status": "gap",
+   "no_host": true,
+   "host": null,
+   "best_clo": null,
+   "argmax_clo": "Service-Oriented Architecture",
+   "argmax_course": "Cloud Computing",
+   "verify": {
+    "argmax_rerank": 0.0,
+    "best_clo": "Service-Oriented Architecture",
+    "best_course": "Cloud Computing",
+    "best_rerank": 0.0,
+    "verdict": "NOT SUPPORTED"
+   }
+  },
+  {
+   "skill": "git version control",
+   "jobs": 24,
+   "coverage": 0.64,
+   "status": "gap",
+   "no_host": true,
+   "host": null,
+   "best_clo": null,
+   "argmax_clo": "Change Management",
+   "argmax_course": "It Project Management",
+   "verify": {
+    "argmax_rerank": 0.02,
+    "best_clo": "Change Management",
+    "best_course": "It Project Management",
+    "best_rerank": 0.02,
+    "verdict": "NOT SUPPORTED"
+   }
+  },
+  {
+   "skill": "technical support",
+   "jobs": 27,
+   "coverage": 0.68,
+   "status": "gap",
+   "no_host": true,
+   "host": null,
+   "best_clo": null,
+   "argmax_clo": "Security Solutions for System Support and Operations",
+   "argmax_course": "Information Security",
+   "verify": {
+    "argmax_rerank": 0.04,
+    "best_clo": "Project Issue Management",
+    "best_course": "It Project Management",
+    "best_rerank": 0.07,
+    "verdict": "NOT SUPPORTED"
+   }
+  },
+  {
+   "skill": "ci/cd pipelines",
+   "jobs": 26,
+   "coverage": 0.69,
+   "status": "borderline",
+   "no_host": true,
+   "host": null,
+   "best_clo": null,
+   "argmax_clo": "Machine Learning Pipeline",
+   "argmax_course": "Introduction To Artificial Intelligence",
+   "verify": {
+    "argmax_rerank": 0.02,
+    "best_clo": "Machine Learning Pipeline",
+    "best_course": "Introduction To Artificial Intelligence",
+    "best_rerank": 0.02,
+    "verdict": "NOT SUPPORTED"
+   }
+  },
+  {
+   "skill": "postgresql database",
+   "jobs": 27,
+   "coverage": 0.72,
+   "status": "borderline",
+   "no_host": true,
+   "host": null,
+   "best_clo": null,
+   "argmax_clo": "Database Queries",
+   "argmax_course": "Data Mining",
+   "verify": {
+    "argmax_rerank": 0.11,
+    "best_clo": "Database Queries",
+    "best_course": "Data Mining",
+    "best_rerank": 0.11,
+    "verdict": "WEAK"
+   }
+  },
+  {
+   "skill": "microsoft office proficiency",
+   "jobs": 18,
+   "coverage": 0.61,
+   "status": "gap",
+   "no_host": true,
+   "host": null,
+   "best_clo": null,
+   "argmax_clo": "Data Quality Assessment",
+   "argmax_course": "Data Mining",
+   "verify": {
+    "argmax_rerank": 0.0,
+    "best_clo": "Data Quality Assessment",
+    "best_course": "Data Mining",
+    "best_rerank": 0.0,
+    "verdict": "NOT SUPPORTED"
+   }
+  },
+  {
+   "skill": "incident response",
+   "jobs": 19,
+   "coverage": 0.66,
+   "status": "gap",
+   "no_host": true,
+   "host": null,
+   "best_clo": null,
+   "argmax_clo": "Disaster Recovery Planning",
+   "argmax_course": "Network Security",
+   "verify": {
+    "argmax_rerank": 0.01,
+    "best_clo": "Disaster Recovery Planning",
+    "best_course": "Network Security",
+    "best_rerank": 0.01,
+    "verdict": "NOT SUPPORTED"
+   }
+  },
+  {
+   "skill": "api integration",
+   "jobs": 18,
+   "coverage": 0.65,
+   "status": "gap",
+   "no_host": true,
+   "host": null,
+   "best_clo": null,
+   "argmax_clo": "Platform as a Service (PaaS)",
+   "argmax_course": "Cloud Computing",
+   "verify": {
+    "argmax_rerank": 0.0,
+    "best_clo": "Platform as a Service (PaaS)",
+    "best_course": "Cloud Computing",
+    "best_rerank": 0.0,
+    "verdict": "NOT SUPPORTED"
+   }
+  },
+  {
+   "skill": "code reviews",
+   "jobs": 18,
+   "coverage": 0.67,
+   "status": "gap",
+   "no_host": true,
+   "host": null,
+   "best_clo": null,
+   "argmax_clo": "Huffman Coding",
+   "argmax_course": "Image Processing",
+   "verify": {
+    "argmax_rerank": 0.0,
+    "best_clo": "Huffman Coding",
+    "best_course": "Image Processing",
+    "best_rerank": 0.0,
+    "verdict": "NOT SUPPORTED"
+   }
+  },
+  {
+   "skill": "software development",
+   "jobs": 18,
+   "coverage": 0.71,
+   "status": "borderline",
+   "no_host": true,
+   "host": null,
+   "best_clo": null,
+   "argmax_clo": "Software as a Service (SaaS)",
+   "argmax_course": "Cloud Computing",
+   "verify": {
+    "argmax_rerank": 0.04,
+    "best_clo": "DevOps Methodology",
+    "best_course": "Cloud Computing",
+    "best_rerank": 0.11,
+    "verdict": "WEAK"
+   }
+  },
+  {
+   "skill": "system integration",
+   "jobs": 18,
+   "coverage": 0.71,
+   "status": "borderline",
+   "no_host": true,
+   "host": null,
+   "best_clo": null,
+   "argmax_clo": "Security Solutions for System Support and Operations",
+   "argmax_course": "Information Security",
+   "verify": {
+    "argmax_rerank": 0.01,
+    "best_clo": "Security Solutions for System Support and Operations",
+    "best_course": "Information Security",
+    "best_rerank": 0.01,
+    "verdict": "NOT SUPPORTED"
+   }
+  }
+ ],
+ "thresholds": {
+  "covered": 0.7368,
+  "borderline": 0.6903,
+  "host_min": 0.6903
+ },
+ "reranker": "BAAI/bge-reranker-v2-m3",
+ "rerank_bands": {
+  "supported": 0.5,
+  "weak": 0.1,
+  "note": "PROVISIONAL until task #1 annotation"
+ },
+ "selection": {
+  "cum_frac": 0.8,
+  "n_selected": 9,
+  "kl0": 0.3768,
+  "covered0": 17,
+  "plan": [
+   {
+    "skill": "technical documentation",
+    "jobs": 49,
+    "gain_pct": 2.8,
+    "kl_after": 0.3706,
+    "covered_after": 18,
+    "selected": true,
+    "spillover": [
+     {
+      "skill": "technical support",
+      "to": 0.73,
+      "flipped": false
+     },
+     {
+      "skill": "microsoft office proficiency",
+      "to": 0.67,
+      "flipped": false
+     }
+    ],
+    "route": {
+     "kind": "new",
+     "where": null,
+     "clo": null,
+     "score": 0.02
+    },
+    "relationship": {
+     "kind": "none",
+     "target_status": "missing",
+     "reason": "No existing CLO shows verified evidence of teaching this skill.",
+     "addition_required": true,
+     "course": null,
+     "clo": null,
+     "score": 0.02,
+     "evidence_source": "cross_encoder"
+    },
+    "recommended_action": {
+     "kind": "new_content",
+     "title": "Add new technical documentation content",
+     "detail": "Introduce a CLO or module that explicitly teaches technical documentation."
+    }
+   },
+   {
+    "skill": "software development",
+    "jobs": 18,
+    "gain_pct": 2.2,
+    "kl_after": 0.3684,
+    "covered_after": 19,
+    "selected": true,
+    "spillover": [],
+    "route": {
+     "kind": "partial",
+     "where": "Cloud Computing",
+     "clo": "DevOps Methodology",
+     "score": 0.11
+    },
+    "relationship": {
+     "kind": "foundation",
+     "target_status": "missing",
+     "reason": "Related foundation exists in Cloud Computing (\"DevOps Methodology\"), but broader software development outcomes are not explicitly evidenced.",
+     "addition_required": true,
+     "course": "Cloud Computing",
+     "clo": "DevOps Methodology",
+     "score": 0.11,
+     "evidence_source": "cross_encoder"
+    },
+    "recommended_action": {
+     "kind": "add_module",
+     "title": "Add software development content building on Cloud Computing",
+     "detail": "Introduce explicit software development outcomes on top of the existing foundation; do not duplicate Cloud Computing."
+    }
+   },
+   {
+    "skill": "system maintenance",
+    "jobs": 34,
+    "gain_pct": 2.2,
+    "kl_after": 0.3661,
+    "covered_after": 21,
+    "selected": true,
+    "spillover": [
+     {
+      "skill": "system integration",
+      "to": 0.77,
+      "flipped": true
+     }
+    ],
+    "route": {
+     "kind": "new",
+     "where": null,
+     "clo": null,
+     "score": 0.07
+    },
+    "relationship": {
+     "kind": "none",
+     "target_status": "missing",
+     "reason": "No existing CLO shows verified evidence of teaching this skill.",
+     "addition_required": true,
+     "course": null,
+     "clo": null,
+     "score": 0.07,
+     "evidence_source": "cross_encoder"
+    },
+    "recommended_action": {
+     "kind": "new_content",
+     "title": "Add new system maintenance content",
+     "detail": "Introduce a CLO or module that explicitly teaches system maintenance."
+    }
+   },
+   {
+    "skill": "microsoft office proficiency",
+    "jobs": 18,
+    "gain_pct": 1.6,
+    "kl_after": 0.3646,
+    "covered_after": 22,
+    "selected": true,
+    "spillover": [],
+    "route": {
+     "kind": "new",
+     "where": null,
+     "clo": null,
+     "score": 0.0
+    },
+    "relationship": {
+     "kind": "none",
+     "target_status": "missing",
+     "reason": "No existing CLO shows verified evidence of teaching this skill.",
+     "addition_required": true,
+     "course": null,
+     "clo": null,
+     "score": 0.0,
+     "evidence_source": "cross_encoder"
+    },
+    "recommended_action": {
+     "kind": "new_content",
+     "title": "Add new microsoft office proficiency content",
+     "detail": "Introduce a CLO or module that explicitly teaches microsoft office proficiency."
+    }
+   },
+   {
+    "skill": "restful api development",
+    "jobs": 28,
+    "gain_pct": 1.5,
+    "kl_after": 0.3613,
+    "covered_after": 24,
+    "selected": true,
+    "spillover": [
+     {
+      "skill": "api integration",
+      "to": 0.78,
+      "flipped": true
+     }
+    ],
+    "route": {
+     "kind": "new",
+     "where": null,
+     "clo": null,
+     "score": 0.0
+    },
+    "relationship": {
+     "kind": "none",
+     "target_status": "missing",
+     "reason": "No existing CLO shows verified evidence of teaching this skill.",
+     "addition_required": true,
+     "course": null,
+     "clo": null,
+     "score": 0.0,
+     "evidence_source": "cross_encoder"
+    },
+    "recommended_action": {
+     "kind": "new_content",
+     "title": "Add new restful api development content",
+     "detail": "Introduce a CLO or module that explicitly teaches restful api development."
+    }
+   },
+   {
+    "skill": "technical support",
+    "jobs": 27,
+    "gain_pct": 1.4,
+    "kl_after": 0.3601,
+    "covered_after": 25,
+    "selected": true,
+    "spillover": [],
+    "route": {
+     "kind": "new",
+     "where": null,
+     "clo": null,
+     "score": 0.07
+    },
+    "relationship": {
+     "kind": "none",
+     "target_status": "missing",
+     "reason": "No existing CLO shows verified evidence of teaching this skill.",
+     "addition_required": true,
+     "course": null,
+     "clo": null,
+     "score": 0.07,
+     "evidence_source": "cross_encoder"
+    },
+    "recommended_action": {
+     "kind": "new_content",
+     "title": "Add new technical support content",
+     "detail": "Introduce a CLO or module that explicitly teaches technical support."
+    }
+   },
+   {
+    "skill": "git version control",
+    "jobs": 24,
+    "gain_pct": 1.1,
+    "kl_after": 0.3573,
+    "covered_after": 26,
+    "selected": true,
+    "spillover": [],
+    "route": {
+     "kind": "new",
+     "where": null,
+     "clo": null,
+     "score": 0.02
+    },
+    "relationship": {
+     "kind": "none",
+     "target_status": "missing",
+     "reason": "No existing CLO shows verified evidence of teaching this skill.",
+     "addition_required": true,
+     "course": null,
+     "clo": null,
+     "score": 0.02,
+     "evidence_source": "cross_encoder"
+    },
+    "recommended_action": {
+     "kind": "new_content",
+     "title": "Add new git version control content",
+     "detail": "Introduce a CLO or module that explicitly teaches git version control."
+    }
+   },
+   {
+    "skill": "ci/cd pipelines",
+    "jobs": 26,
+    "gain_pct": 1.1,
+    "kl_after": 0.3549,
+    "covered_after": 27,
+    "selected": true,
+    "spillover": [],
+    "route": {
+     "kind": "new",
+     "where": null,
+     "clo": null,
+     "score": 0.02
+    },
+    "relationship": {
+     "kind": "none",
+     "target_status": "missing",
+     "reason": "No existing CLO shows verified evidence of teaching this skill.",
+     "addition_required": true,
+     "course": null,
+     "clo": null,
+     "score": 0.02,
+     "evidence_source": "cross_encoder"
+    },
+    "recommended_action": {
+     "kind": "new_content",
+     "title": "Add new ci/cd pipelines content",
+     "detail": "Introduce a CLO or module that explicitly teaches ci/cd pipelines."
+    }
+   },
+   {
+    "skill": "postgresql database",
+    "jobs": 27,
+    "gain_pct": 1.0,
+    "kl_after": 0.3523,
+    "covered_after": 28,
+    "selected": true,
+    "spillover": [],
+    "route": {
+     "kind": "partial",
+     "where": "Data Mining",
+     "clo": "Database Queries",
+     "score": 0.11
+    },
+    "relationship": {
+     "kind": "foundation",
+     "target_status": "missing",
+     "reason": "Related foundation exists in Data Mining (\"Database Queries\"), but broader postgresql database outcomes are not explicitly evidenced.",
+     "addition_required": true,
+     "course": "Data Mining",
+     "clo": "Database Queries",
+     "score": 0.11,
+     "evidence_source": "cross_encoder"
+    },
+    "recommended_action": {
+     "kind": "add_module",
+     "title": "Add postgresql database content building on Data Mining",
+     "detail": "Introduce explicit postgresql database outcomes on top of the existing foundation; do not duplicate Data Mining."
+    }
+   },
+   {
+    "skill": "code reviews",
+    "jobs": 18,
+    "gain_pct": 0.9,
+    "kl_after": 0.3506,
+    "covered_after": 29,
+    "selected": false,
+    "spillover": [],
+    "route": {
+     "kind": "new",
+     "where": null,
+     "clo": null,
+     "score": 0.0
+    },
+    "relationship": {
+     "kind": "none",
+     "target_status": "missing",
+     "reason": "No existing CLO shows verified evidence of teaching this skill.",
+     "addition_required": true,
+     "course": null,
+     "clo": null,
+     "score": 0.0,
+     "evidence_source": "cross_encoder"
+    },
+    "recommended_action": {
+     "kind": "new_content",
+     "title": "Add new code reviews content",
+     "detail": "Introduce a CLO or module that explicitly teaches code reviews."
+    },
+    "cov_after_plan": 0.67,
+    "absorbed_by": null
+   },
+   {
+    "skill": "system integration",
+    "jobs": 18,
+    "gain_pct": 0.9,
+    "kl_after": 0.3505,
+    "covered_after": 29,
+    "selected": false,
+    "spillover": [],
+    "route": {
+     "kind": "new",
+     "where": null,
+     "clo": null,
+     "score": 0.01
+    },
+    "relationship": {
+     "kind": "none",
+     "target_status": "missing",
+     "reason": "No existing CLO shows verified evidence of teaching this skill.",
+     "addition_required": true,
+     "course": null,
+     "clo": null,
+     "score": 0.01,
+     "evidence_source": "cross_encoder"
+    },
+    "recommended_action": {
+     "kind": "new_content",
+     "title": "Add new system integration content",
+     "detail": "Introduce a CLO or module that explicitly teaches system integration."
+    },
+    "cov_after_plan": 0.77,
+    "absorbed_by": "system maintenance"
+   },
+   {
+    "skill": "incident response",
+    "jobs": 19,
+    "gain_pct": 0.8,
+    "kl_after": 0.3486,
+    "covered_after": 30,
+    "selected": false,
+    "spillover": [],
+    "route": {
+     "kind": "new",
+     "where": null,
+     "clo": null,
+     "score": 0.01
+    },
+    "relationship": {
+     "kind": "none",
+     "target_status": "missing",
+     "reason": "No existing CLO shows verified evidence of teaching this skill.",
+     "addition_required": true,
+     "course": null,
+     "clo": null,
+     "score": 0.01,
+     "evidence_source": "cross_encoder"
+    },
+    "recommended_action": {
+     "kind": "new_content",
+     "title": "Add new incident response content",
+     "detail": "Introduce a CLO or module that explicitly teaches incident response."
+    },
+    "cov_after_plan": 0.66,
+    "absorbed_by": null
+   },
+   {
+    "skill": "api integration",
+    "jobs": 18,
+    "gain_pct": 0.5,
+    "kl_after": 0.3478,
+    "covered_after": 30,
+    "selected": false,
+    "spillover": [],
+    "route": {
+     "kind": "new",
+     "where": null,
+     "clo": null,
+     "score": 0.0
+    },
+    "relationship": {
+     "kind": "none",
+     "target_status": "missing",
+     "reason": "No existing CLO shows verified evidence of teaching this skill.",
+     "addition_required": true,
+     "course": null,
+     "clo": null,
+     "score": 0.0,
+     "evidence_source": "cross_encoder"
+    },
+    "recommended_action": {
+     "kind": "new_content",
+     "title": "Add new api integration content",
+     "detail": "Introduce a CLO or module that explicitly teaches api integration."
+    },
+    "cov_after_plan": 0.78,
+    "absorbed_by": "restful api development"
+   }
+  ]
+ }
+}

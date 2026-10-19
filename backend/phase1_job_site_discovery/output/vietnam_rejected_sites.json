@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://advertisingvietnam.com",
+    "domain": "advertisingvietnam.com",
+    "name": "Adjob Vietnam: Danh s\u00e1ch c\u00f4ng vi\u1ec7c",
+    "snippet": "There are currently 361 jobs available \u00b7 Optimization Intern \u00b7 Media Intern \u00b7 Square Experiential Communications | Account Intern [Event/Activation] \u00b7 Associate ...",
+    "found_in_queries": 1,
+    "country": "vietnam",
+    "final_url": "https://advertisingvietnam.com",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.95,
+      "site_type": "classifieds",
+      "reason": "The site focuses on advertising/marketing content with categories like 'Brand' and 'Agency', but lacks job listings, search features, or career sections. It serves as an industry information hub rather than a job platform.",
+      "features_found": [
+        "industry_news",
+        "company_profiles",
+        "marketing_content",
+        "search_functionality",
+        "Vietnam_language"
+      ]
+    }
+  },
+  {
+    "url": "https://careerone.vn",
+    "domain": "careerone.vn",
+    "name": "Jobs - CareerONE",
+    "snippet": "CareerONE is a specialized job portal focused on opportunities in the development sector. Through CareerONE, international organisations, NGOs, universities ...",
+    "found_in_queries": 1,
+    "country": "vietnam",
+    "final_url": "https://careerone.vn",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.2,
+      "site_type": "not_job_site",
+      "reason": "HTML content lacks visible job listing elements, search functionality, or employer/seeker features. The domain is Vietnamese but the provided HTML only contains generic site structure without job-specific content.",
+      "features_found": []
+    }
+  }
+]

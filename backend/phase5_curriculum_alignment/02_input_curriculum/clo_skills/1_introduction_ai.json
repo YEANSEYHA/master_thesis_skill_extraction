@@ -1,0 +1,40 @@
+[
+  {
+    "skill": "Artificial Intelligence Fundamentals",
+    "source": "weekly_content"
+  },
+  { "skill": "Exploratory Data Analysis (EDA)", "source": "weekly_content" },
+  { "skill": "Data Preparation", "source": "clo" },
+  { "skill": "Unsupervised Learning", "source": "weekly_content" },
+  { "skill": "Clustering", "source": "weekly_content" },
+  { "skill": "K-Means Algorithm", "source": "weekly_content" },
+  { "skill": "Gaussian Mixture Models", "source": "weekly_content" },
+  { "skill": "Supervised Learning", "source": "weekly_content" },
+  { "skill": "Linear Regression", "source": "weekly_content" },
+  { "skill": "Decision Trees", "source": "weekly_content" },
+  {
+    "skill": "Overfitting and Underfitting Prevention",
+    "source": "weekly_content"
+  },
+  { "skill": "Cross-Validation", "source": "weekly_content" },
+  { "skill": "Model Evaluation", "source": "weekly_content" },
+  { "skill": "Linear Classification", "source": "weekly_content" },
+  { "skill": "Logistic Regression", "source": "weekly_content" },
+  { "skill": "Classification Algorithms", "source": "weekly_content" },
+  { "skill": "K-Nearest Neighbors (KNN)", "source": "weekly_content" },
+  { "skill": "Gradient Descent", "source": "weekly_content" },
+  { "skill": "Gradient Boosting", "source": "weekly_content" },
+  { "skill": "Data Storage Types", "source": "weekly_content" },
+  { "skill": "Dataset Discovery and Selection", "source": "weekly_content" },
+  { "skill": "Algorithm Selection for Datasets", "source": "clo" },
+  {
+    "skill": "Machine Learning Model Implementation",
+    "source": "weekly_content"
+  },
+  { "skill": "Regression Models", "source": "description" },
+  { "skill": "Neural Networks / Deep Learning", "source": "description" },
+  { "skill": "AI Application Development (e.g., Chatbot)", "source": "clo" },
+  { "skill": "Python Programming", "source": "tools" },
+  { "skill": "Pandas", "source": "tools" },
+  { "skill": "Google Colab", "source": "tools" }
+]

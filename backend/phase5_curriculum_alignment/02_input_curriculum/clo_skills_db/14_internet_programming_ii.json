@@ -1,0 +1,106 @@
+[
+  {
+    "skill": "Client-Server Architecture",
+    "source": "Description"
+  },
+  {
+    "skill": "Server-Side Scripting (PHP)",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Application Programming Interfaces (APIs)",
+    "source": "Description"
+  },
+  {
+    "skill": "Model-View-Controller (MVC) Architecture",
+    "source": "CLO"
+  },
+  {
+    "skill": "Routing",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "User Authentication",
+    "source": "CLO"
+  },
+  {
+    "skill": "User Authorization",
+    "source": "CLO"
+  },
+  {
+    "skill": "Authorization Gates",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Session Management",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Eloquent ORM",
+    "source": "CLO"
+  },
+  {
+    "skill": "Structured Query Language (SQL)",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Create, Read, Update, Delete (CRUD)",
+    "source": "CLO"
+  },
+  {
+    "skill": "Database Relationships (One-to-One, One-to-Many, Many-to-Many)",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Database Migrations",
+    "source": "CLO"
+  },
+  {
+    "skill": "Database Seeding",
+    "source": "CLO"
+  },
+  {
+    "skill": "Queues",
+    "source": "CLO"
+  },
+  {
+    "skill": "Background Jobs",
+    "source": "CLO"
+  },
+  {
+    "skill": "Input Validation",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Cross-Site Scripting (XSS)",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "SQL Injection",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Laravel Security Features",
+    "source": "CLO"
+  },
+  {
+    "skill": "Unit Testing",
+    "source": "CLO"
+  },
+  {
+    "skill": "Integration Testing",
+    "source": "CLO"
+  },
+  {
+    "skill": "PHPUnit",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Web Server Configuration",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Production Deployment",
+    "source": "CLO"
+  }
+]

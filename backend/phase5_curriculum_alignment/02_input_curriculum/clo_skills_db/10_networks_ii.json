@@ -1,0 +1,34 @@
+[
+  {
+    "skill": "VLAN Configuration",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "802.1Q Tunneling (Q-in-Q)",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Link Aggregation (LAG)",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Wireless LANs",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Wi-Fi Security Protocols",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Static Routing",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "OSPF",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Network Infrastructure Design",
+    "source": "CLO"
+  }
+]

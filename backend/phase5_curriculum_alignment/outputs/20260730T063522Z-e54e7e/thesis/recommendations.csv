@@ -1,0 +1,6 @@
+step,skill,job_count,selected,gain_pct,kl_after,covered_after,route_kind,route_course,route_clo,route_score,relationship_kind,action_kind,action_title,spillover
+1,technical support,27,true,1.9,0.3669,26,extend,Systems And Networks Administration,Network Troubleshooting,0.58,content_exists,extend,Extend Systems And Networks Administration with explicit technical support content,
+2,microsoft office proficiency,18,true,1.9,0.3649,27,new,,,0.0,none,new_content,Add new microsoft office proficiency content,
+3,postgresql database,27,true,1.2,0.3623,28,partial,Data Mining,Database Queries,0.11,foundation,add_module,Add postgresql database content building on Data Mining,
+4,code reviews,18,true,1.0,0.3605,29,new,,,0.0,none,new_content,Add new code reviews content,
+5,incident response,19,false,0.9,0.3588,30,partial,Software Development And It Operations Devops,Alerting,0.11,foundation,add_module,Add incident response content building on Software Development And It Operations Devops,

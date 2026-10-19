@@ -1,0 +1,97 @@
+# OS and editor files
+.DS_Store
+~$*.docx
+
+# Python and Node build artefacts
+__pycache__/
+*.pyc
+node_modules/
+.next/
+
+# Secrets: copy backend/.env.example to backend/.env and fill it in
+.env
+.env.*
+.env-*
+!.env.example
+!.env.*.example
+
+# Model weights and embedding caches, rebuilt on first run
+*.safetensors
+*.npz
+.esco_cache/
+
+# Data not distributed with this repository (see DATA.md)
+backend/phase2_crawling/outputs/
+backend/phase3_skill_extraction/outputs/*
+!backend/phase3_skill_extraction/outputs/skillspan_benchmark/
+backend/phase3_skill_extraction/01_data_collection/htmls/
+backend/phase5_curriculum_alignment/01_input_jobmarket/
+backend/phase5_curriculum_alignment/cache/
+backend/archive/phase2_playwright_crawler/outputs/
+backend/archive/phase5_legacy/linkedin_job_posting/
+
+# Course documents (contain lecturer contact details), their full-text
+# conversions, scraped job pages and LinkedIn-derived records (see DATA.md)
+backend/course_syllabus/
+backend/phase5_curriculum_alignment/02_input_curriculum/*.pdf
+backend/archive/playground/extract_skill_from_curriculum/md_docling/
+backend/phase3_skill_extraction/01_data_collection/data/**/*.html
+backend/archive/phase5_legacy/baseline_analyze/linked_esco_normalize.jsonl
+
+# Identifiable annotation exports never leave the author's machine.
+# Only the pseudonymised *_anon.* files are part of the repository.
+backend/phase5_curriculum_alignment/05_evaluation/annotation/human_ratings_250.csv
+backend/phase5_curriculum_alignment/05_evaluation/annotation/human_ratings_250.json
+backend/phase5_curriculum_alignment/05_evaluation/annotation/rater_code_map.local.json
+
+# Local credentials, service-account files, and private signing material
+.aws/
+.ssh/
+credentials.json
+credentials.*.json
+service-account*.json
+service_account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+id_rsa*
+id_ed25519*
+
+# Local assistant/editor settings can contain private paths and tokens
+.claude/
+.codex/
+.agents/
+.idea/
+.vscode/
+
+# Local databases, backups and logs (retain frozen thesis logs)
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+*.sql
+*.sql.gz
+*.dump
+*.bak
+*.log
+
+# Identifiable study exports; retain the reviewed pseudonymised thesis data
+web_annotate/**/exports/
+web_annotate/**/ratings*.csv
+web_annotate/**/ratings*.json
+backend/phase5_curriculum_alignment/05_evaluation/annotation/human_ratings_*.csv
+backend/phase5_curriculum_alignment/05_evaluation/annotation/human_ratings_*.json
+!backend/phase5_curriculum_alignment/05_evaluation/annotation/human_ratings_*_anon.csv
+!backend/phase5_curriculum_alignment/05_evaluation/annotation/human_ratings_*_anon.json
+backend/phase5_curriculum_alignment/05_evaluation/annotation/rater_code_map*.json
+
+# Local Python environments
+.venv/
+venv/
+
+# Clean publication copy (has its own Git repository)
+/public-release/

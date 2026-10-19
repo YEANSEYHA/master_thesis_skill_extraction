@@ -1,0 +1,25 @@
+[
+  { "skill": "C++ Programming", "source": "weekly_content" },
+  { "skill": "Computer Fundamentals", "source": "weekly_content" },
+  { "skill": "Algorithm Design", "source": "weekly_content" },
+  { "skill": "Programming Fundamentals", "source": "description" },
+  { "skill": "Compiler Basics", "source": "description" },
+  { "skill": "Data Types and Operators", "source": "weekly_content" },
+  {
+    "skill": "Decision Constructs (Conditional Statements)",
+    "source": "weekly_content"
+  },
+  { "skill": "Loop Constructs", "source": "weekly_content" },
+  { "skill": "Arrays", "source": "weekly_content" },
+  { "skill": "Modular Programming", "source": "weekly_content" },
+  { "skill": "Data Storage Types", "source": "weekly_content" },
+  { "skill": "User-Defined Data Types", "source": "weekly_content" },
+  { "skill": "Object-Oriented Programming (OOP)", "source": "weekly_content" },
+  { "skill": "Class Concept", "source": "description" },
+  { "skill": "Constructors", "source": "description" },
+  { "skill": "Inheritance", "source": "description" },
+  { "skill": "File Processing (File I/O)", "source": "weekly_content" },
+  { "skill": "Structured Programming", "source": "clo" },
+  { "skill": "Problem Solving and Solution Formulation", "source": "clo" },
+  { "skill": "Moodle (LMS)", "source": "tools" }
+]

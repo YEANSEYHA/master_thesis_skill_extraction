@@ -1,0 +1,8042 @@
+{
+ "supervised learning": {
+  "orig": "Supervised Learning",
+  "esco": "machine learning",
+  "score": 0.946,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Supervised learning is a subset of machine learning.",
+  "candidates": [
+   {
+    "label": "machine learning",
+    "score": 0.946
+   },
+   {
+    "label": "utilise machine learning",
+    "score": 0.817
+   },
+   {
+    "label": "learning difficulties",
+    "score": 0.749
+   },
+   {
+    "label": "deep learning",
+    "score": 0.731
+   },
+   {
+    "label": "computer science",
+    "score": 0.724
+   }
+  ]
+ },
+ "k-means": {
+  "orig": "K-Means",
+  "esco": "machine learning",
+  "score": 0.823,
+  "mapped": true,
+  "match": "broader",
+  "reason": "K-Means is a specific clustering algorithm within machine learning.",
+  "candidates": [
+   {
+    "label": "machine learning",
+    "score": 0.823
+   },
+   {
+    "label": "perform dimensionality reduction",
+    "score": 0.785
+   },
+   {
+    "label": "utilise machine learning",
+    "score": 0.767
+   },
+   {
+    "label": "data mining methods",
+    "score": 0.728
+   },
+   {
+    "label": "computer science",
+    "score": 0.716
+   }
+  ]
+ },
+ "gaussian mixture": {
+  "orig": "Gaussian Mixture",
+  "esco": "statistical modeling techniques",
+  "score": 0.692,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Gaussian Mixture is a specific statistical modeling technique.",
+  "candidates": [
+   {
+    "label": "machine learning",
+    "score": 0.778
+   },
+   {
+    "label": "perform dimensionality reduction",
+    "score": 0.749
+   },
+   {
+    "label": "utilise machine learning",
+    "score": 0.712
+   },
+   {
+    "label": "statistical modeling techniques",
+    "score": 0.692
+   },
+   {
+    "label": "hybrid vehicle architecture",
+    "score": 0.686
+   }
+  ]
+ },
+ "logistic regression": {
+  "orig": "Logistic Regression",
+  "esco": "Logistic Regression",
+  "score": 0.818,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates correctly represent 'Logistic Regression'.",
+  "candidates": [
+   {
+    "label": "utilise machine learning",
+    "score": 0.818
+   },
+   {
+    "label": "machine learning",
+    "score": 0.809
+   },
+   {
+    "label": "build predictive models",
+    "score": 0.792
+   },
+   {
+    "label": "develop predictive models",
+    "score": 0.785
+   },
+   {
+    "label": "logistics",
+    "score": 0.761
+   }
+  ]
+ },
+ "gradient descent": {
+  "orig": "Gradient Descent",
+  "esco": "Gradient Descent",
+  "score": 0.785,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates refer to 'Gradient Descent'.",
+  "candidates": [
+   {
+    "label": "periodisation",
+    "score": 0.785
+   },
+   {
+    "label": "machine learning",
+    "score": 0.774
+   },
+   {
+    "label": "utilise machine learning",
+    "score": 0.757
+   },
+   {
+    "label": "computer vision",
+    "score": 0.735
+   },
+   {
+    "label": "deep learning",
+    "score": 0.73
+   }
+  ]
+ },
+ "gradient boosting": {
+  "orig": "Gradient Boosting",
+  "esco": "machine learning",
+  "score": 0.811,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Gradient Boosting is a specific technique within machine learning.",
+  "candidates": [
+   {
+    "label": "machine learning",
+    "score": 0.811
+   },
+   {
+    "label": "utilise machine learning",
+    "score": 0.797
+   },
+   {
+    "label": "promote education programmes",
+    "score": 0.773
+   },
+   {
+    "label": "build predictive models",
+    "score": 0.758
+   },
+   {
+    "label": "apply blended learning",
+    "score": 0.752
+   }
+  ]
+ },
+ "data exploration and analysis (eda)": {
+  "orig": "Data Exploration and Analysis (EDA)",
+  "esco": "data analytics",
+  "score": 0.804,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Data analytics is a broader category that includes EDA.",
+  "candidates": [
+   {
+    "label": "statistics",
+    "score": 0.84
+   },
+   {
+    "label": "perform online data analysis",
+    "score": 0.807
+   },
+   {
+    "label": "data analytics",
+    "score": 0.804
+   },
+   {
+    "label": "process data",
+    "score": 0.797
+   },
+   {
+    "label": "perform data analysis",
+    "score": 0.795
+   }
+  ]
+ },
+ "data preparation": {
+  "orig": "Data Preparation",
+  "esco": "process data",
+  "score": 0.752,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Data preparation is a broader category that includes processing data, which is a core part of the process.",
+  "candidates": [
+   {
+    "label": "prepare well data sheets",
+    "score": 0.752
+   },
+   {
+    "label": "digital data processing",
+    "score": 0.752
+   },
+   {
+    "label": "process data",
+    "score": 0.752
+   },
+   {
+    "label": "normalise data",
+    "score": 0.744
+   },
+   {
+    "label": "perform data cleansing",
+    "score": 0.736
+   }
+  ]
+ },
+ "python": {
+  "orig": "Python",
+  "esco": "Python (computer programming)",
+  "score": 1.0,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Label 1 directly and exactly matches the skill 'Python' within the computer programming domain.",
+  "candidates": [
+   {
+    "label": "Python (computer programming)",
+    "score": 1.0
+   },
+   {
+    "label": "computer programming",
+    "score": 0.745
+   },
+   {
+    "label": "Pascal (computer programming)",
+    "score": 0.701
+   },
+   {
+    "label": "Perl",
+    "score": 0.696
+   },
+   {
+    "label": "Ruby (computer programming)",
+    "score": 0.684
+   }
+  ]
+ },
+ "pandas": {
+  "orig": "Pandas",
+  "esco": "data extraction, transformation and loading tools",
+  "score": 0.756,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Pandas is a Python library used for data manipulation and analysis, which falls under data extraction, transformation, and loading tools.",
+  "candidates": [
+   {
+    "label": "data extraction, transformation and loading tools",
+    "score": 0.756
+   },
+   {
+    "label": "Python (computer programming)",
+    "score": 0.728
+   },
+   {
+    "label": "process data",
+    "score": 0.706
+   },
+   {
+    "label": "digital data processing",
+    "score": 0.706
+   },
+   {
+    "label": "Pentaho Data Integration",
+    "score": 0.692
+   }
+  ]
+ },
+ "jupyter": {
+  "orig": "Jupyter",
+  "esco": "Jupyter",
+  "score": 0.682,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates refer to Jupyter or related skills.",
+  "candidates": [
+   {
+    "label": "Jenkins (tools for software configuration management)",
+    "score": 0.682
+   },
+   {
+    "label": "use word processing software",
+    "score": 0.681
+   },
+   {
+    "label": "Brightspace (learning management systems)",
+    "score": 0.679
+   },
+   {
+    "label": "plumbing tools",
+    "score": 0.672
+   },
+   {
+    "label": "visual presentation techniques",
+    "score": 0.671
+   }
+  ]
+ },
+ "unsupervised learning": {
+  "orig": "Unsupervised Learning",
+  "esco": "machine learning",
+  "score": 0.948,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Unsupervised learning is a subset of machine learning.",
+  "candidates": [
+   {
+    "label": "machine learning",
+    "score": 0.948
+   },
+   {
+    "label": "work independently in agriculture",
+    "score": 0.813
+   },
+   {
+    "label": "utilise machine learning",
+    "score": 0.805
+   },
+   {
+    "label": "deep learning",
+    "score": 0.765
+   },
+   {
+    "label": "perform dimensionality reduction",
+    "score": 0.756
+   }
+  ]
+ },
+ "clustering": {
+  "orig": "Clustering",
+  "esco": "data mining methods",
+  "score": 0.72,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Clustering is a specific method within data mining methods.",
+  "candidates": [
+   {
+    "label": "machine learning",
+    "score": 0.76
+   },
+   {
+    "label": "perform dimensionality reduction",
+    "score": 0.739
+   },
+   {
+    "label": "distributed computing",
+    "score": 0.728
+   },
+   {
+    "label": "data mining",
+    "score": 0.722
+   },
+   {
+    "label": "data mining methods",
+    "score": 0.72
+   }
+  ]
+ },
+ "linear regression": {
+  "orig": "Linear Regression",
+  "esco": "study the relationships between quantities",
+  "score": 0.711,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Linear Regression is a statistical method for studying relationships between variables.",
+  "candidates": [
+   {
+    "label": "utilise machine learning",
+    "score": 0.744
+   },
+   {
+    "label": "build predictive models",
+    "score": 0.733
+   },
+   {
+    "label": "develop predictive models",
+    "score": 0.728
+   },
+   {
+    "label": "study the relationships between quantities",
+    "score": 0.711
+   },
+   {
+    "label": "statistics",
+    "score": 0.703
+   }
+  ]
+ },
+ "decision trees": {
+  "orig": "Decision Trees",
+  "esco": "machine learning",
+  "score": 0.758,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Decision Trees is a specific type of machine learning technique.",
+  "candidates": [
+   {
+    "label": "utilise machine learning",
+    "score": 0.79
+   },
+   {
+    "label": "build predictive models",
+    "score": 0.786
+   },
+   {
+    "label": "develop predictive models",
+    "score": 0.761
+   },
+   {
+    "label": "machine learning",
+    "score": 0.758
+   },
+   {
+    "label": "anticipate potential deficiencies",
+    "score": 0.745
+   }
+  ]
+ },
+ "cross-validation": {
+  "orig": "Cross-Validation",
+  "esco": "evaluate training",
+  "score": 0.729,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Cross-Validation is a method used in evaluating training models, making 'evaluate training' the broader category it belongs to.",
+  "candidates": [
+   {
+    "label": "utilise machine learning",
+    "score": 0.739
+   },
+   {
+    "label": "evaluate training",
+    "score": 0.729
+   },
+   {
+    "label": "build predictive models",
+    "score": 0.728
+   },
+   {
+    "label": "test samples for pollutants",
+    "score": 0.726
+   },
+   {
+    "label": "machine learning",
+    "score": 0.714
+   }
+  ]
+ },
+ "k-nearest neighbor": {
+  "orig": "K-Nearest Neighbor",
+  "esco": "machine learning",
+  "score": 0.769,
+  "mapped": true,
+  "match": "broader",
+  "reason": "K-Nearest Neighbor is a specific machine learning algorithm, so 'machine learning' is the broader category it belongs to.",
+  "candidates": [
+   {
+    "label": "perform dimensionality reduction",
+    "score": 0.777
+   },
+   {
+    "label": "machine learning",
+    "score": 0.769
+   },
+   {
+    "label": "utilise machine learning",
+    "score": 0.744
+   },
+   {
+    "label": "computer vision",
+    "score": 0.72
+   },
+   {
+    "label": "data mining methods",
+    "score": 0.71
+   }
+  ]
+ },
+ "ai application development": {
+  "orig": "AI Application Development",
+  "esco": "AI Application Development",
+  "score": 0.751,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates directly refer to AI Application Development.",
+  "candidates": [
+   {
+    "label": "oversee development of software",
+    "score": 0.751
+   },
+   {
+    "label": "develop with cloud services",
+    "score": 0.743
+   },
+   {
+    "label": "Rapid application development",
+    "score": 0.74
+   },
+   {
+    "label": "develop data processing applications",
+    "score": 0.719
+   },
+   {
+    "label": "develop innovative mobility solutions",
+    "score": 0.718
+   }
+  ]
+ },
+ "algorithm evaluation": {
+  "orig": "Algorithm Evaluation",
+  "esco": "Algorithm Evaluation",
+  "score": 0.815,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates directly relate to algorithm evaluation.",
+  "candidates": [
+   {
+    "label": "adapt evaluation methodology",
+    "score": 0.815
+   },
+   {
+    "label": "policy analysis",
+    "score": 0.785
+   },
+   {
+    "label": "grading systems",
+    "score": 0.778
+   },
+   {
+    "label": "evaluation theory",
+    "score": 0.775
+   },
+   {
+    "label": "test materials",
+    "score": 0.772
+   }
+  ]
+ },
+ "algorithm selection for datasets": {
+  "orig": "Algorithm Selection for Datasets",
+  "esco": "algorithms",
+  "score": 0.739,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Algorithm Selection for Datasets is a specific application of algorithms.",
+  "candidates": [
+   {
+    "label": "data mining methods",
+    "score": 0.747
+   },
+   {
+    "label": "algorithms",
+    "score": 0.739
+   },
+   {
+    "label": "SAS language",
+    "score": 0.73
+   },
+   {
+    "label": "utilise machine learning",
+    "score": 0.727
+   },
+   {
+    "label": "create data sets",
+    "score": 0.716
+   }
+  ]
+ },
+ "ai sub-fields": {
+  "orig": "AI Sub-Fields",
+  "esco": "principles of artificial intelligence",
+  "score": 0.692,
+  "mapped": true,
+  "match": "broader",
+  "reason": "AI Sub-Fields is a broader category that includes principles of artificial intelligence.",
+  "candidates": [
+   {
+    "label": "natural language processing",
+    "score": 0.702
+   },
+   {
+    "label": "design interaction model",
+    "score": 0.701
+   },
+   {
+    "label": "principles of artificial intelligence",
+    "score": 0.692
+   },
+   {
+    "label": "augmented reality",
+    "score": 0.691
+   },
+   {
+    "label": "ML (computer programming)",
+    "score": 0.69
+   }
+  ]
+ },
+ "cybercrime analysis": {
+  "orig": "Cybercrime Analysis",
+  "esco": "computer forensics",
+  "score": 0.77,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Computer forensics is a broader category that includes analyzing cybercrime.",
+  "candidates": [
+   {
+    "label": "handle cybersecurity incidents",
+    "score": 0.792
+   },
+   {
+    "label": "computer forensics",
+    "score": 0.77
+   },
+   {
+    "label": "identify ICT system weaknesses",
+    "score": 0.767
+   },
+   {
+    "label": "conduct threat intelligence",
+    "score": 0.757
+   },
+   {
+    "label": "collect cyber defence data",
+    "score": 0.752
+   }
+  ]
+ },
+ "secure coding": {
+  "orig": "Secure Coding",
+  "esco": "Secure Coding",
+  "score": 0.756,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates directly relate to secure coding practices or software security.",
+  "candidates": [
+   {
+    "label": "develop security concepts",
+    "score": 0.756
+   },
+   {
+    "label": "security regulations",
+    "score": 0.74
+   },
+   {
+    "label": "ensure store security",
+    "score": 0.735
+   },
+   {
+    "label": "apply information security policies",
+    "score": 0.734
+   },
+   {
+    "label": "secure premises",
+    "score": 0.713
+   }
+  ]
+ },
+ "secure software development": {
+  "orig": "Secure Software Development",
+  "esco": "security engineering",
+  "score": 0.756,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Security engineering encompasses secure software development practices.",
+  "candidates": [
+   {
+    "label": "computer engineering",
+    "score": 0.785
+   },
+   {
+    "label": "DevOps",
+    "score": 0.761
+   },
+   {
+    "label": "security engineering",
+    "score": 0.756
+   },
+   {
+    "label": "security regulations",
+    "score": 0.739
+   },
+   {
+    "label": "oversee development of software",
+    "score": 0.735
+   }
+  ]
+ },
+ "digital forensics": {
+  "orig": "Digital Forensics",
+  "esco": "computer forensics",
+  "score": 0.958,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Digital forensics and computer forensics are synonymous in this context.",
+  "candidates": [
+   {
+    "label": "computer forensics",
+    "score": 0.958
+   },
+   {
+    "label": "use technology for forensics",
+    "score": 0.874
+   },
+   {
+    "label": "Maltego",
+    "score": 0.845
+   },
+   {
+    "label": "perform forensic preservations of digital devices",
+    "score": 0.819
+   },
+   {
+    "label": "forensic intelligence",
+    "score": 0.816
+   }
+  ]
+ },
+ "ethical software development": {
+  "orig": "Ethical Software Development",
+  "esco": "adhere to organisational code of ethics",
+  "score": 0.74,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Ethical Software Development is a specific application of adhering to an ethical code of conduct.",
+  "candidates": [
+   {
+    "label": "data ethics",
+    "score": 0.775
+   },
+   {
+    "label": "adhere to organisational code of ethics",
+    "score": 0.74
+   },
+   {
+    "label": "ethics",
+    "score": 0.736
+   },
+   {
+    "label": "morality",
+    "score": 0.736
+   },
+   {
+    "label": "follow ethical code of conduct in assessment situations",
+    "score": 0.715
+   }
+  ]
+ },
+ "input validation": {
+  "orig": "Input Validation",
+  "esco": "implement data quality processes",
+  "score": 0.679,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Input validation is part of ensuring data quality.",
+  "candidates": [
+   {
+    "label": "monitor fields",
+    "score": 0.725
+   },
+   {
+    "label": "test pharmaceutical process",
+    "score": 0.711
+   },
+   {
+    "label": "compare survey computations",
+    "score": 0.679
+   },
+   {
+    "label": "implement data quality processes",
+    "score": 0.679
+   },
+   {
+    "label": "assess customer credibility",
+    "score": 0.672
+   }
+  ]
+ },
+ "secure data storage": {
+  "orig": "Secure Data Storage",
+  "esco": "data storage",
+  "score": 0.815,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Data storage directly refers to the secure handling and storage of data.",
+  "candidates": [
+   {
+    "label": "apply information security policies",
+    "score": 0.864
+   },
+   {
+    "label": "ensure store security",
+    "score": 0.844
+   },
+   {
+    "label": "data storage",
+    "score": 0.815
+   },
+   {
+    "label": "data warehouse",
+    "score": 0.793
+   },
+   {
+    "label": "store digital data and systems",
+    "score": 0.791
+   }
+  ]
+ },
+ "access control": {
+  "orig": "Access Control",
+  "esco": "use access control software",
+  "score": 0.844,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Access control refers directly to the use of software to manage access rights.",
+  "candidates": [
+   {
+    "label": "information confidentiality",
+    "score": 0.873
+   },
+   {
+    "label": "use access control software",
+    "score": 0.844
+   },
+   {
+    "label": "protect ICT devices",
+    "score": 0.843
+   },
+   {
+    "label": "define firewall rules",
+    "score": 0.784
+   },
+   {
+    "label": "manage vault access",
+    "score": 0.774
+   }
+  ]
+ },
+ "sql injection": {
+  "orig": "SQL Injection",
+  "esco": "penetration testing tool",
+  "score": 0.67,
+  "mapped": true,
+  "match": "broader",
+  "reason": "SQL Injection is a technique used in penetration testing.",
+  "candidates": [
+   {
+    "label": "Metasploit",
+    "score": 0.702
+   },
+   {
+    "label": "MySQL",
+    "score": 0.688
+   },
+   {
+    "label": "SQL",
+    "score": 0.674
+   },
+   {
+    "label": "database management systems",
+    "score": 0.674
+   },
+   {
+    "label": "penetration testing tool",
+    "score": 0.67
+   }
+  ]
+ },
+ "cross-site scripting (xss)": {
+  "orig": "Cross-Site Scripting (XSS)",
+  "esco": "web application security threats",
+  "score": 0.719,
+  "mapped": true,
+  "match": "broader",
+  "reason": "XSS is a specific type of web application security threat",
+  "candidates": [
+   {
+    "label": "web application security threats",
+    "score": 0.719
+   },
+   {
+    "label": "Metasploit",
+    "score": 0.702
+   },
+   {
+    "label": "security threats",
+    "score": 0.685
+   },
+   {
+    "label": "John The Ripper (penetration testing tool)",
+    "score": 0.683
+   },
+   {
+    "label": "OWASP ZAP",
+    "score": 0.679
+   }
+  ]
+ },
+ "digital evidence analysis": {
+  "orig": "Digital Evidence Analysis",
+  "esco": "computer forensics",
+  "score": 0.803,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Digital Evidence Analysis is synonymous with computer forensics.",
+  "candidates": [
+   {
+    "label": "computer forensics",
+    "score": 0.803
+   },
+   {
+    "label": "evaluate forensic data",
+    "score": 0.799
+   },
+   {
+    "label": "perform forensic preservations of digital devices",
+    "score": 0.776
+   },
+   {
+    "label": "analyse legal evidence",
+    "score": 0.77
+   },
+   {
+    "label": "evaluate data, information and digital content",
+    "score": 0.757
+   }
+  ]
+ },
+ "secure web application development": {
+  "orig": "Secure Web Application Development",
+  "esco": "Secure Web Application Development",
+  "score": 0.776,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates directly denote 'Secure Web Application Development'",
+  "candidates": [
+   {
+    "label": "web application security threats",
+    "score": 0.776
+   },
+   {
+    "label": "Rapid application development",
+    "score": 0.754
+   },
+   {
+    "label": "web programming",
+    "score": 0.753
+   },
+   {
+    "label": "develop with cloud services",
+    "score": 0.713
+   },
+   {
+    "label": "Ajax Framework",
+    "score": 0.712
+   }
+  ]
+ },
+ "network security controls": {
+  "orig": "Network Security Controls",
+  "esco": "cyber attack counter-measures",
+  "score": 0.824,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Network Security Controls is a subset of cyber attack counter-measures.",
+  "candidates": [
+   {
+    "label": "monitor security measures",
+    "score": 0.831
+   },
+   {
+    "label": "cyber attack counter-measures",
+    "score": 0.824
+   },
+   {
+    "label": "security engineering",
+    "score": 0.809
+   },
+   {
+    "label": "perform security checks",
+    "score": 0.808
+   },
+   {
+    "label": "manage technical security systems",
+    "score": 0.796
+   }
+  ]
+ },
+ "digital forensics tools": {
+  "orig": "Digital Forensics Tools",
+  "esco": "computer forensics",
+  "score": 0.899,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Digital Forensics Tools is a specific area within the broader field of computer forensics.",
+  "candidates": [
+   {
+    "label": "computer forensics",
+    "score": 0.899
+   },
+   {
+    "label": "Maltego",
+    "score": 0.876
+   },
+   {
+    "label": "use technology for forensics",
+    "score": 0.851
+   },
+   {
+    "label": "perform forensic preservations of digital devices",
+    "score": 0.812
+   },
+   {
+    "label": "evaluate forensic data",
+    "score": 0.792
+   }
+  ]
+ },
+ "incident evidence analysis": {
+  "orig": "Incident Evidence Analysis",
+  "esco": "evaluate forensic data",
+  "score": 0.785,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Incident Evidence Analysis involves examining data related to incidents, which is broader than just forensic data evaluation but aligns closely with it.",
+  "candidates": [
+   {
+    "label": "handle incidents",
+    "score": 0.8
+   },
+   {
+    "label": "process incident reports for prevention",
+    "score": 0.797
+   },
+   {
+    "label": "evaluate forensic data",
+    "score": 0.785
+   },
+   {
+    "label": "incidents and accidents recording",
+    "score": 0.781
+   },
+   {
+    "label": "perform forensic examinations",
+    "score": 0.776
+   }
+  ]
+ },
+ "ethical response planning": {
+  "orig": "Ethical Response Planning",
+  "esco": "Ethical Response Planning",
+  "score": 0.755,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates directly or broadly match 'Ethical Response Planning'.",
+  "candidates": [
+   {
+    "label": "follow ethical code of conduct in assessment situations",
+    "score": 0.755
+   },
+   {
+    "label": "treat animals ethically",
+    "score": 0.728
+   },
+   {
+    "label": "apply knowledge of philosophy, ethics and religion",
+    "score": 0.726
+   },
+   {
+    "label": "show empathy",
+    "score": 0.726
+   },
+   {
+    "label": "evaluate environmental impact of personal behaviour",
+    "score": 0.715
+   }
+  ]
+ },
+ "sql": {
+  "orig": "sql",
+  "esco": "SQL",
+  "score": 0.973,
+  "mapped": true,
+  "match": "exact",
+  "reason": "SQL is the exact label.",
+  "candidates": [
+   {
+    "label": "SQL",
+    "score": 0.973
+   },
+   {
+    "label": "database management systems",
+    "score": 0.973
+   },
+   {
+    "label": "MySQL",
+    "score": 0.859
+   },
+   {
+    "label": "database",
+    "score": 0.806
+   },
+   {
+    "label": "query languages",
+    "score": 0.804
+   }
+  ]
+ },
+ "cybersecurity": {
+  "orig": "cybersecurity",
+  "esco": "cyber security",
+  "score": 1.0,
+  "mapped": true,
+  "match": "exact",
+  "reason": "'cybersecurity' and 'cyber security' are exact synonyms in this context.",
+  "candidates": [
+   {
+    "label": "cyber security",
+    "score": 1.0
+   },
+   {
+    "label": "cyber attack counter-measures",
+    "score": 0.886
+   },
+   {
+    "label": "attack vectors",
+    "score": 0.885
+   },
+   {
+    "label": "security threats",
+    "score": 0.878
+   },
+   {
+    "label": "security engineering",
+    "score": 0.857
+   }
+  ]
+ },
+ "network security": {
+  "orig": "network security",
+  "esco": "cyber security",
+  "score": 0.887,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Network security is a subset of cyber security.",
+  "candidates": [
+   {
+    "label": "security engineering",
+    "score": 0.899
+   },
+   {
+    "label": "cyber security",
+    "score": 0.887
+   },
+   {
+    "label": "cyber attack counter-measures",
+    "score": 0.858
+   },
+   {
+    "label": "security threats",
+    "score": 0.826
+   },
+   {
+    "label": "implement ICT security policies",
+    "score": 0.82
+   }
+  ]
+ },
+ "information security": {
+  "orig": "information security",
+  "esco": "cyber security",
+  "score": 1.0,
+  "mapped": true,
+  "match": "broader",
+  "reason": "'Cyber security' is the broader category that includes 'information security'.",
+  "candidates": [
+   {
+    "label": "cyber security",
+    "score": 1.0
+   },
+   {
+    "label": "ensure information security",
+    "score": 0.91
+   },
+   {
+    "label": "data security principles",
+    "score": 0.908
+   },
+   {
+    "label": "ICT safety",
+    "score": 0.908
+   },
+   {
+    "label": "information security strategy",
+    "score": 0.905
+   }
+  ]
+ },
+ "application security": {
+  "orig": "application security",
+  "esco": "cyber security",
+  "score": 0.805,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Application security is a subset of cyber security.",
+  "candidates": [
+   {
+    "label": "security engineering",
+    "score": 0.824
+   },
+   {
+    "label": "security in commercial buildings",
+    "score": 0.815
+   },
+   {
+    "label": "cyber security",
+    "score": 0.805
+   },
+   {
+    "label": "security regulations",
+    "score": 0.804
+   },
+   {
+    "label": "identify security threats",
+    "score": 0.797
+   }
+  ]
+ },
+ "vulnerability management": {
+  "orig": "vulnerability management",
+  "esco": "identify ICT system weaknesses",
+  "score": 0.811,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Vulnerability management involves identifying weaknesses in ICT systems, which is captured by candidate 4.",
+  "candidates": [
+   {
+    "label": "penetration testing tool",
+    "score": 0.866
+   },
+   {
+    "label": "security engineering",
+    "score": 0.83
+   },
+   {
+    "label": "security threats",
+    "score": 0.813
+   },
+   {
+    "label": "identify ICT system weaknesses",
+    "score": 0.811
+   },
+   {
+    "label": "cyber security",
+    "score": 0.805
+   }
+  ]
+ },
+ "cissp": {
+  "orig": "cissp",
+  "esco": "cyber security",
+  "score": 0.717,
+  "mapped": true,
+  "match": "broader",
+  "reason": "CISSP is a specific certification in cybersecurity, which falls under the broader category of 'cyber security'.",
+  "candidates": [
+   {
+    "label": "cyber security",
+    "score": 0.717
+   },
+   {
+    "label": "use computer telephony integration",
+    "score": 0.705
+   },
+   {
+    "label": "web application security threats",
+    "score": 0.703
+   },
+   {
+    "label": "ensure information security",
+    "score": 0.701
+   },
+   {
+    "label": "use ICT systems",
+    "score": 0.697
+   }
+  ]
+ },
+ "threat modeling": {
+  "orig": "threat modeling",
+  "esco": "assessment of risks and threats",
+  "score": 0.826,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Threat modeling is a broader process that includes assessing risks and threats.",
+  "candidates": [
+   {
+    "label": "security threats",
+    "score": 0.859
+   },
+   {
+    "label": "identify security threats",
+    "score": 0.846
+   },
+   {
+    "label": "attack vectors",
+    "score": 0.832
+   },
+   {
+    "label": "assessment of risks and threats",
+    "score": 0.826
+   },
+   {
+    "label": "identify terrorism threats",
+    "score": 0.825
+   }
+  ]
+ },
+ "incident response": {
+  "orig": "incident response",
+  "esco": "handle cybersecurity incidents",
+  "score": 0.801,
+  "mapped": true,
+  "match": "exact",
+  "reason": "'Handle cybersecurity incidents' directly refers to incident response in the context of cybersecurity, which matches the given skill.",
+  "candidates": [
+   {
+    "label": "process incident reports for prevention",
+    "score": 0.826
+   },
+   {
+    "label": "manage emergency procedures",
+    "score": 0.818
+   },
+   {
+    "label": "handle incidents",
+    "score": 0.806
+   },
+   {
+    "label": "handle cybersecurity incidents",
+    "score": 0.801
+   },
+   {
+    "label": "apply crisis management",
+    "score": 0.795
+   }
+  ]
+ },
+ "cloud security": {
+  "orig": "cloud security",
+  "esco": "cloud security and compliance",
+  "score": 1.0,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Candidate 1 is a broader category that includes cloud security.",
+  "candidates": [
+   {
+    "label": "cloud security and compliance",
+    "score": 1.0
+   },
+   {
+    "label": "implement cloud security and compliance",
+    "score": 0.935
+   },
+   {
+    "label": "cloud technologies",
+    "score": 0.893
+   },
+   {
+    "label": "manage cloud data and storage",
+    "score": 0.849
+   },
+   {
+    "label": "respond to incidents in cloud",
+    "score": 0.824
+   }
+  ]
+ },
+ "siem": {
+  "orig": "siem",
+  "esco": "monitor security measures",
+  "score": 0.801,
+  "mapped": true,
+  "match": "broader",
+  "reason": "SIEM (Security Information and Event Management) involves monitoring and analyzing security-related data, which aligns with 'monitor security measures' as a broader category.",
+  "candidates": [
+   {
+    "label": "monitor security measures",
+    "score": 0.801
+   },
+   {
+    "label": "inspect silo systems",
+    "score": 0.789
+   },
+   {
+    "label": "manage security clearance",
+    "score": 0.779
+   },
+   {
+    "label": "penetration testing tool",
+    "score": 0.769
+   },
+   {
+    "label": "manage alarm system",
+    "score": 0.767
+   }
+  ]
+ },
+ "penetration testing": {
+  "orig": "penetration testing",
+  "esco": "penetration testing tool",
+  "score": 0.932,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Candidate 1 directly refers to the skill of penetration testing, while others are specific tools or platforms used in the process.",
+  "candidates": [
+   {
+    "label": "penetration testing tool",
+    "score": 0.932
+   },
+   {
+    "label": "Metasploit",
+    "score": 0.873
+   },
+   {
+    "label": "Kali Linux",
+    "score": 0.866
+   },
+   {
+    "label": "Backbox (penetration testing tool)",
+    "score": 0.837
+   },
+   {
+    "label": "Cain and Abel (penetration testing tool)",
+    "score": 0.822
+   }
+  ]
+ },
+ "container services": {
+  "orig": "container services",
+  "esco": "install containers",
+  "score": 0.768,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Installing containers is a direct component of working with container services.",
+  "candidates": [
+   {
+    "label": "manage ICT virtualisation environments",
+    "score": 0.777
+   },
+   {
+    "label": "install containers",
+    "score": 0.768
+   },
+   {
+    "label": "develop with cloud services",
+    "score": 0.765
+   },
+   {
+    "label": "blockchain consensus mechanisms",
+    "score": 0.741
+   },
+   {
+    "label": "deploy cloud resource",
+    "score": 0.741
+   }
+  ]
+ },
+ "security operations": {
+  "orig": "security operations",
+  "esco": "manage technical security systems",
+  "score": 0.845,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Security operations directly relates to managing technical security systems.",
+  "candidates": [
+   {
+    "label": "security engineering",
+    "score": 0.884
+   },
+   {
+    "label": "security regulations",
+    "score": 0.846
+   },
+   {
+    "label": "manage technical security systems",
+    "score": 0.845
+   },
+   {
+    "label": "cyber security",
+    "score": 0.842
+   },
+   {
+    "label": "security in commercial buildings",
+    "score": 0.84
+   }
+  ]
+ },
+ "aws certified solutions architect": {
+  "orig": "aws certified solutions architect",
+  "esco": "design cloud architecture",
+  "score": 0.738,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Design cloud architecture directly corresponds to the role and responsibilities of an AWS Certified Solutions Architect.",
+  "candidates": [
+   {
+    "label": "cloud security and compliance",
+    "score": 0.746
+   },
+   {
+    "label": "design cloud architecture",
+    "score": 0.738
+   },
+   {
+    "label": "implement cloud security and compliance",
+    "score": 0.732
+   },
+   {
+    "label": "cloud technologies",
+    "score": 0.714
+   },
+   {
+    "label": "design for organisational complexity",
+    "score": 0.706
+   }
+  ]
+ },
+ "cism": {
+  "orig": "cism",
+  "esco": "cism",
+  "score": 0.813,
+  "mapped": false,
+  "match": "none",
+  "reason": "CISM is not listed in the candidates and does not match any of them.",
+  "candidates": [
+   {
+    "label": "integrated circuits",
+    "score": 0.813
+   },
+   {
+    "label": "semiconductors",
+    "score": 0.809
+   },
+   {
+    "label": "learning management systems",
+    "score": 0.795
+   },
+   {
+    "label": "inter-organisational middleware system",
+    "score": 0.777
+   },
+   {
+    "label": "use ICT systems",
+    "score": 0.758
+   }
+  ]
+ },
+ "machine learning": {
+  "orig": "machine learning",
+  "esco": "machine learning",
+  "score": 1.0,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Candidate 1 is an exact match for the skill 'machine learning'.",
+  "candidates": [
+   {
+    "label": "machine learning",
+    "score": 1.0
+   },
+   {
+    "label": "utilise machine learning",
+    "score": 0.947
+   },
+   {
+    "label": "deep learning",
+    "score": 0.908
+   },
+   {
+    "label": "artificial neural networks",
+    "score": 0.89
+   },
+   {
+    "label": "computer science",
+    "score": 0.852
+   }
+  ]
+ },
+ "data preprocessing": {
+  "orig": "data preprocessing",
+  "esco": "process data",
+  "score": 0.806,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Data preprocessing is a broader category that includes activities like normalising data, cleansing data, and processing data.",
+  "candidates": [
+   {
+    "label": "normalise data",
+    "score": 0.84
+   },
+   {
+    "label": "process data",
+    "score": 0.806
+   },
+   {
+    "label": "digital data processing",
+    "score": 0.806
+   },
+   {
+    "label": "perform data cleansing",
+    "score": 0.79
+   },
+   {
+    "label": "interpret extraction data",
+    "score": 0.774
+   }
+  ]
+ },
+ "model training": {
+  "orig": "model training",
+  "esco": "develop predictive models",
+  "score": 0.772,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Develop predictive models is a broader category that includes model training.",
+  "candidates": [
+   {
+    "label": "machine learning",
+    "score": 0.798
+   },
+   {
+    "label": "periodisation",
+    "score": 0.797
+   },
+   {
+    "label": "utilise machine learning",
+    "score": 0.785
+   },
+   {
+    "label": "develop predictive models",
+    "score": 0.772
+   },
+   {
+    "label": "evaluate training",
+    "score": 0.759
+   }
+  ]
+ },
+ "tensorflow": {
+  "orig": "tensorflow",
+  "esco": "deep learning",
+  "score": 0.823,
+  "mapped": true,
+  "match": "broader",
+  "reason": "TensorFlow is a framework used for deep learning.",
+  "candidates": [
+   {
+    "label": "computer vision",
+    "score": 1.0
+   },
+   {
+    "label": "deep learning",
+    "score": 0.823
+   },
+   {
+    "label": "artificial neural networks",
+    "score": 0.816
+   },
+   {
+    "label": "machine learning",
+    "score": 0.806
+   },
+   {
+    "label": "security panels",
+    "score": 0.784
+   }
+  ]
+ },
+ "pytorch": {
+  "orig": "pytorch",
+  "esco": "deep learning",
+  "score": 0.726,
+  "mapped": true,
+  "match": "broader",
+  "reason": "PyTorch is a framework used in deep learning.",
+  "candidates": [
+   {
+    "label": "computer vision",
+    "score": 0.858
+   },
+   {
+    "label": "deep learning",
+    "score": 0.726
+   },
+   {
+    "label": "artificial neural networks",
+    "score": 0.719
+   },
+   {
+    "label": "security panels",
+    "score": 0.703
+   },
+   {
+    "label": "electrical machines",
+    "score": 0.7
+   }
+  ]
+ },
+ "deep learning": {
+  "orig": "deep learning",
+  "esco": "deep learning",
+  "score": 1.0,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Candidate 1 is an exact match for the skill 'deep learning'.",
+  "candidates": [
+   {
+    "label": "deep learning",
+    "score": 1.0
+   },
+   {
+    "label": "artificial neural networks",
+    "score": 0.919
+   },
+   {
+    "label": "machine learning",
+    "score": 0.908
+   },
+   {
+    "label": "utilise machine learning",
+    "score": 0.845
+   },
+   {
+    "label": "computer vision",
+    "score": 0.836
+   }
+  ]
+ },
+ "model deployment": {
+  "orig": "model deployment",
+  "esco": "solution deployment",
+  "score": 0.801,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Model deployment is a type of solution deployment.",
+  "candidates": [
+   {
+    "label": "solution deployment",
+    "score": 0.801
+   },
+   {
+    "label": "deploy cloud resource",
+    "score": 0.771
+   },
+   {
+    "label": "develop predictive models",
+    "score": 0.736
+   },
+   {
+    "label": "design package",
+    "score": 0.7
+   },
+   {
+    "label": "create model",
+    "score": 0.688
+   }
+  ]
+ },
+ "computer vision": {
+  "orig": "computer vision",
+  "esco": "computer vision",
+  "score": 1.0,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Candidate 1 is an exact match for the skill 'computer vision'.",
+  "candidates": [
+   {
+    "label": "computer vision",
+    "score": 1.0
+   },
+   {
+    "label": "image recognition",
+    "score": 0.894
+   },
+   {
+    "label": "develop computer vision system",
+    "score": 0.851
+   },
+   {
+    "label": "deep learning",
+    "score": 0.836
+   },
+   {
+    "label": "use presentation software",
+    "score": 0.808
+   }
+  ]
+ },
+ "model evaluation": {
+  "orig": "model evaluation",
+  "esco": "evaluate training",
+  "score": 0.831,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Evaluate training is a broader category that includes model evaluation as a component.",
+  "candidates": [
+   {
+    "label": "develop predictive models",
+    "score": 0.881
+   },
+   {
+    "label": "evaluate training",
+    "score": 0.831
+   },
+   {
+    "label": "grading systems",
+    "score": 0.813
+   },
+   {
+    "label": "evaluation theory",
+    "score": 0.792
+   },
+   {
+    "label": "policy analysis",
+    "score": 0.778
+   }
+  ]
+ },
+ "natural language processing": {
+  "orig": "natural language processing",
+  "esco": "natural language processing",
+  "score": 1.0,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Label 1 is an exact match for the skill.",
+  "candidates": [
+   {
+    "label": "natural language processing",
+    "score": 1.0
+   },
+   {
+    "label": "computational linguistics",
+    "score": 0.829
+   },
+   {
+    "label": "electrical machines",
+    "score": 0.772
+   },
+   {
+    "label": "security panels",
+    "score": 0.759
+   },
+   {
+    "label": "speech recognition",
+    "score": 0.745
+   }
+  ]
+ },
+ "numba": {
+  "orig": "numba",
+  "esco": "numba",
+  "score": 0.804,
+  "mapped": false,
+  "match": "none",
+  "reason": "Numba is a Python library for optimizing numerical code, not directly covered by the candidates.",
+  "candidates": [
+   {
+    "label": "carry out calculations",
+    "score": 0.804
+   },
+   {
+    "label": "mathematics",
+    "score": 0.772
+   },
+   {
+    "label": "use mathematical tools and equipment",
+    "score": 0.744
+   },
+   {
+    "label": "mathematical modelling",
+    "score": 0.743
+   },
+   {
+    "label": "numerical sequences",
+    "score": 0.737
+   }
+  ]
+ },
+ "numpy": {
+  "orig": "numpy",
+  "esco": "Python (computer programming)",
+  "score": 0.76,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Numpy is a Python library, so it falls under Python (computer programming) as a broader category.",
+  "candidates": [
+   {
+    "label": "computer vision",
+    "score": 0.761
+   },
+   {
+    "label": "Python (computer programming)",
+    "score": 0.76
+   },
+   {
+    "label": "MATLAB",
+    "score": 0.746
+   },
+   {
+    "label": "mathematical modelling",
+    "score": 0.718
+   },
+   {
+    "label": "use mathematical tools and equipment",
+    "score": 0.703
+   }
+  ]
+ },
+ "scikitlearn": {
+  "orig": "scikitlearn",
+  "esco": "machine learning",
+  "score": 0.815,
+  "mapped": true,
+  "match": "broader",
+  "reason": "scikit-learn is a Python library for machine learning",
+  "candidates": [
+   {
+    "label": "computer vision",
+    "score": 0.846
+   },
+   {
+    "label": "machine learning",
+    "score": 0.815
+   },
+   {
+    "label": "utilise machine learning",
+    "score": 0.815
+   },
+   {
+    "label": "learning management systems",
+    "score": 0.771
+   },
+   {
+    "label": "deep learning",
+    "score": 0.736
+   }
+  ]
+ },
+ "statistics": {
+  "orig": "statistics",
+  "esco": "statistics",
+  "score": 1.0,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Label 1 is an exact match for the skill 'statistics'.",
+  "candidates": [
+   {
+    "label": "statistics",
+    "score": 1.0
+   },
+   {
+    "label": "biometrics",
+    "score": 0.843
+   },
+   {
+    "label": "biostatistics",
+    "score": 0.843
+   },
+   {
+    "label": "statistical modeling techniques",
+    "score": 0.815
+   },
+   {
+    "label": "medical statistics",
+    "score": 0.798
+   }
+  ]
+ },
+ "data science": {
+  "orig": "data science",
+  "esco": "data science",
+  "score": 1.0,
+  "mapped": true,
+  "match": "exact",
+  "reason": "The candidate label 'data science' exactly matches the given skill.",
+  "candidates": [
+   {
+    "label": "data science",
+    "score": 1.0
+   },
+   {
+    "label": "statistics",
+    "score": 0.853
+   },
+   {
+    "label": "analyse big data",
+    "score": 0.851
+   },
+   {
+    "label": "data mining",
+    "score": 0.833
+   },
+   {
+    "label": "data engineering",
+    "score": 0.828
+   }
+  ]
+ },
+ "r": {
+  "orig": "r",
+  "esco": "R",
+  "score": 0.964,
+  "mapped": true,
+  "match": "exact",
+  "reason": "The skill 'r' directly corresponds to the ESCO label 'R', which refers to the R programming language.",
+  "candidates": [
+   {
+    "label": "R",
+    "score": 0.964
+   },
+   {
+    "label": "geographic information systems",
+    "score": 0.871
+   },
+   {
+    "label": "reverse engineering",
+    "score": 0.84
+   },
+   {
+    "label": "radiotherapy",
+    "score": 0.832
+   },
+   {
+    "label": "rhetoric",
+    "score": 0.775
+   }
+  ]
+ },
+ "data analysis": {
+  "orig": "data analysis",
+  "esco": "data analytics",
+  "score": 0.935,
+  "mapped": true,
+  "match": "exact",
+  "reason": "data analytics is the exact ESCO label for data analysis",
+  "candidates": [
+   {
+    "label": "statistics",
+    "score": 1.0
+   },
+   {
+    "label": "data analytics",
+    "score": 0.935
+   },
+   {
+    "label": "perform data analysis",
+    "score": 0.919
+   },
+   {
+    "label": "process data",
+    "score": 0.915
+   },
+   {
+    "label": "quantitative analysis",
+    "score": 0.897
+   }
+  ]
+ },
+ "data visualization": {
+  "orig": "data visualization",
+  "esco": "deliver visual presentation of data",
+  "score": 0.877,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Label 2 directly refers to presenting data visually, which matches the skill of data visualization.",
+  "candidates": [
+   {
+    "label": "visual presentation techniques",
+    "score": 0.907
+   },
+   {
+    "label": "deliver visual presentation of data",
+    "score": 0.877
+   },
+   {
+    "label": "prepare visual data",
+    "score": 0.848
+   },
+   {
+    "label": "data visualisation software",
+    "score": 0.841
+   },
+   {
+    "label": "interpret visual literacy",
+    "score": 0.812
+   }
+  ]
+ },
+ "predictive modeling": {
+  "orig": "predictive modeling",
+  "esco": "develop predictive models",
+  "score": 0.945,
+  "mapped": true,
+  "match": "exact",
+  "reason": "'Develop predictive models' directly corresponds to the skill of predictive modeling.",
+  "candidates": [
+   {
+    "label": "develop predictive models",
+    "score": 0.945
+   },
+   {
+    "label": "build predictive models",
+    "score": 0.935
+   },
+   {
+    "label": "predictive maintenance",
+    "score": 0.847
+   },
+   {
+    "label": "anticipate potential deficiencies",
+    "score": 0.826
+   },
+   {
+    "label": "similitude",
+    "score": 0.819
+   }
+  ]
+ },
+ "data mining": {
+  "orig": "data mining",
+  "esco": "data mining",
+  "score": 1.0,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Candidate 1 is an exact match for the skill 'data mining'.",
+  "candidates": [
+   {
+    "label": "data mining",
+    "score": 1.0
+   },
+   {
+    "label": "data mining methods",
+    "score": 0.951
+   },
+   {
+    "label": "perform data mining",
+    "score": 0.893
+   },
+   {
+    "label": "analyse big data",
+    "score": 0.848
+   },
+   {
+    "label": "mining engineering",
+    "score": 0.848
+   }
+  ]
+ },
+ "spark": {
+  "orig": "spark",
+  "esco": "SPARK",
+  "score": 0.803,
+  "mapped": true,
+  "match": "exact",
+  "reason": "SPARK is the exact name of the Apache Spark framework.",
+  "candidates": [
+   {
+    "label": "SPARK",
+    "score": 0.803
+   },
+   {
+    "label": "Scala",
+    "score": 0.791
+   },
+   {
+    "label": "Hadoop",
+    "score": 0.757
+   },
+   {
+    "label": "ML (computer programming)",
+    "score": 0.682
+   },
+   {
+    "label": "machine learning",
+    "score": 0.682
+   }
+  ]
+ },
+ "tableau": {
+  "orig": "tableau",
+  "esco": "tableau",
+  "score": 0.756,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates refer to Tableau, a data visualization tool.",
+  "candidates": [
+   {
+    "label": "arrange tables",
+    "score": 0.756
+   },
+   {
+    "label": "query languages",
+    "score": 0.738
+   },
+   {
+    "label": "optomechanical devices",
+    "score": 0.738
+   },
+   {
+    "label": "scaffolding components",
+    "score": 0.736
+   },
+   {
+    "label": "pin parquet",
+    "score": 0.727
+   }
+  ]
+ },
+ "feature engineering": {
+  "orig": "feature engineering",
+  "esco": "data engineering",
+  "score": 0.732,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Feature engineering is a part of data engineering, which involves preparing and transforming data for modeling.",
+  "candidates": [
+   {
+    "label": "perform dimensionality reduction",
+    "score": 0.907
+   },
+   {
+    "label": "build predictive models",
+    "score": 0.741
+   },
+   {
+    "label": "perform data mining",
+    "score": 0.736
+   },
+   {
+    "label": "data engineering",
+    "score": 0.732
+   },
+   {
+    "label": "utilise machine learning",
+    "score": 0.73
+   }
+  ]
+ },
+ "torch": {
+  "orig": "torch",
+  "esco": "torch",
+  "score": 0.953,
+  "mapped": false,
+  "match": "none",
+  "reason": "Torch is a specific framework, not directly listed in the candidates.",
+  "candidates": [
+   {
+    "label": "computer vision",
+    "score": 0.953
+   },
+   {
+    "label": "deep learning",
+    "score": 0.786
+   },
+   {
+    "label": "artificial neural networks",
+    "score": 0.783
+   },
+   {
+    "label": "machine learning",
+    "score": 0.781
+   },
+   {
+    "label": "electrical machines",
+    "score": 0.778
+   }
+  ]
+ },
+ "audio classification": {
+  "orig": "audio classification",
+  "esco": "audio classification",
+  "score": 0.887,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates exactly or broadly match 'audio classification'.",
+  "candidates": [
+   {
+    "label": "speech recognition",
+    "score": 0.887
+   },
+   {
+    "label": "classify audio-visual products",
+    "score": 0.832
+   },
+   {
+    "label": "classify library materials",
+    "score": 0.817
+   },
+   {
+    "label": "audio technology",
+    "score": 0.77
+   },
+   {
+    "label": "type texts from audio sources",
+    "score": 0.762
+   }
+  ]
+ },
+ "fda approvals": {
+  "orig": "fda approvals",
+  "esco": "ensure products meet regulatory requirements",
+  "score": 0.747,
+  "mapped": true,
+  "match": "broader",
+  "reason": "FDA approvals relate to ensuring products meet regulatory requirements, which is a broader category",
+  "candidates": [
+   {
+    "label": "drug administration regulations",
+    "score": 0.794
+   },
+   {
+    "label": "European vehicle type-approval legislation",
+    "score": 0.755
+   },
+   {
+    "label": "ensure products meet regulatory requirements",
+    "score": 0.747
+   },
+   {
+    "label": "contribute to registration of pharmaceutical products",
+    "score": 0.745
+   },
+   {
+    "label": "pharmaceutical legislation",
+    "score": 0.739
+   }
+  ]
+ },
+ "risk management": {
+  "orig": "risk management",
+  "esco": "risk management",
+  "score": 1.0,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Label 1 is an exact match for the skill 'risk management'.",
+  "candidates": [
+   {
+    "label": "risk management",
+    "score": 1.0
+   },
+   {
+    "label": "manage commercial risks",
+    "score": 0.895
+   },
+   {
+    "label": "enterprise risk management",
+    "score": 0.89
+   },
+   {
+    "label": "apply risk management processes",
+    "score": 0.877
+   },
+   {
+    "label": "advise on risk management",
+    "score": 0.876
+   }
+  ]
+ },
+ "nist": {
+  "orig": "nist",
+  "esco": "nist",
+  "score": 0.887,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates relate to NIST (National Institute of Standards and Technology)",
+  "candidates": [
+   {
+    "label": "artificial neural networks",
+    "score": 0.887
+   },
+   {
+    "label": "integrated circuits",
+    "score": 0.813
+   },
+   {
+    "label": "natural gas",
+    "score": 0.813
+   },
+   {
+    "label": "computer science",
+    "score": 0.801
+   },
+   {
+    "label": "rhetoric",
+    "score": 0.795
+   }
+  ]
+ },
+ "infrastructure security": {
+  "orig": "infrastructure security",
+  "esco": "cyber security",
+  "score": 0.835,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Infrastructure security is a subset of cyber security.",
+  "candidates": [
+   {
+    "label": "cyber security",
+    "score": 0.835
+   },
+   {
+    "label": "ICT safety",
+    "score": 0.83
+   },
+   {
+    "label": "identify ICT system weaknesses",
+    "score": 0.822
+   },
+   {
+    "label": "ensure information security",
+    "score": 0.819
+   },
+   {
+    "label": "security engineering",
+    "score": 0.815
+   }
+  ]
+ },
+ "security engineering": {
+  "orig": "security engineering",
+  "esco": "security engineering",
+  "score": 1.0,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Candidate 1 is an exact match for the skill 'security engineering'.",
+  "candidates": [
+   {
+    "label": "security engineering",
+    "score": 1.0
+   },
+   {
+    "label": "cyber security",
+    "score": 0.816
+   },
+   {
+    "label": "security regulations",
+    "score": 0.809
+   },
+   {
+    "label": "ICT safety",
+    "score": 0.787
+   },
+   {
+    "label": "security in commercial buildings",
+    "score": 0.783
+   }
+  ]
+ },
+ "security architecture": {
+  "orig": "security architecture",
+  "esco": "security engineering",
+  "score": 0.887,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Security architecture is a subset of security engineering.",
+  "candidates": [
+   {
+    "label": "security engineering",
+    "score": 0.887
+   },
+   {
+    "label": "security regulations",
+    "score": 0.848
+   },
+   {
+    "label": "cyber security",
+    "score": 0.829
+   },
+   {
+    "label": "ICT security standards",
+    "score": 0.821
+   },
+   {
+    "label": "data security principles",
+    "score": 0.818
+   }
+  ]
+ },
+ "trigonometry": {
+  "orig": "Trigonometry",
+  "esco": "trigonometry",
+  "score": 0.973,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Trigonometry is an exact match for candidate 1.",
+  "candidates": [
+   {
+    "label": "trigonometry",
+    "score": 0.973
+   },
+   {
+    "label": "mathematics",
+    "score": 0.727
+   },
+   {
+    "label": "geometry",
+    "score": 0.705
+   },
+   {
+    "label": "algebra",
+    "score": 0.703
+   },
+   {
+    "label": "compass navigation",
+    "score": 0.699
+   }
+  ]
+ },
+ "complex numbers": {
+  "orig": "Complex Numbers",
+  "esco": "algebra",
+  "score": 0.672,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Complex numbers fall under the broader category of algebra.",
+  "candidates": [
+   {
+    "label": "use mathematical tools and equipment",
+    "score": 0.679
+   },
+   {
+    "label": "make electrical calculations",
+    "score": 0.674
+   },
+   {
+    "label": "mathematical modelling",
+    "score": 0.673
+   },
+   {
+    "label": "communicate mathematical information",
+    "score": 0.672
+   },
+   {
+    "label": "algebra",
+    "score": 0.672
+   }
+  ]
+ },
+ "calculus": {
+  "orig": "Calculus",
+  "esco": "mathematics",
+  "score": 0.812,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Calculus is a branch of mathematics.",
+  "candidates": [
+   {
+    "label": "mathematics",
+    "score": 0.812
+   },
+   {
+    "label": "use mathematical tools and equipment",
+    "score": 0.752
+   },
+   {
+    "label": "algebra",
+    "score": 0.728
+   },
+   {
+    "label": "teach mathematics",
+    "score": 0.719
+   },
+   {
+    "label": "mathematical modelling",
+    "score": 0.711
+   }
+  ]
+ },
+ "mathematical terminology": {
+  "orig": "Mathematical Terminology",
+  "esco": "mathematics",
+  "score": 0.747,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Mathematical terminology is a subset of mathematics.",
+  "candidates": [
+   {
+    "label": "terminology",
+    "score": 0.79
+   },
+   {
+    "label": "communicate mathematical information",
+    "score": 0.777
+   },
+   {
+    "label": "mathematical modelling",
+    "score": 0.749
+   },
+   {
+    "label": "mathematics",
+    "score": 0.747
+   },
+   {
+    "label": "algebra",
+    "score": 0.736
+   }
+  ]
+ },
+ "scientific calculator usage": {
+  "orig": "Scientific Calculator Usage",
+  "esco": "use mathematical tools and equipment",
+  "score": 0.831,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Scientific calculator usage is a specific type of using mathematical tools and equipment.",
+  "candidates": [
+   {
+    "label": "use mathematical tools and equipment",
+    "score": 0.831
+   },
+   {
+    "label": "use spreadsheets software",
+    "score": 0.767
+   },
+   {
+    "label": "execute analytical mathematical calculations",
+    "score": 0.742
+   },
+   {
+    "label": "carry out navigational calculations",
+    "score": 0.741
+   },
+   {
+    "label": "communicate mathematical information",
+    "score": 0.712
+   }
+  ]
+ },
+ "mathematical analysis": {
+  "orig": "Mathematical Analysis",
+  "esco": "mathematics",
+  "score": 0.804,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Mathematical analysis is a subfield of mathematics.",
+  "candidates": [
+   {
+    "label": "mathematics",
+    "score": 0.804
+   },
+   {
+    "label": "mathematical physics",
+    "score": 0.798
+   },
+   {
+    "label": "execute analytical mathematical calculations",
+    "score": 0.776
+   },
+   {
+    "label": "mathematical modelling",
+    "score": 0.706
+   },
+   {
+    "label": "use mathematical tools and equipment",
+    "score": 0.7
+   }
+  ]
+ },
+ "different forms of complex numbers": {
+  "orig": "Different Forms of Complex Numbers",
+  "esco": "Different Forms of Complex Numbers",
+  "score": 0.674,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates directly relate to complex numbers or mathematical forms.",
+  "candidates": [
+   {
+    "label": "communicate mathematical information",
+    "score": 0.674
+   },
+   {
+    "label": "make electrical calculations",
+    "score": 0.668
+   },
+   {
+    "label": "carry out calculations",
+    "score": 0.667
+   },
+   {
+    "label": "use a complex communication system",
+    "score": 0.651
+   },
+   {
+    "label": "think holistically",
+    "score": 0.647
+   }
+  ]
+ },
+ "complex operations": {
+  "orig": "Complex Operations",
+  "esco": "Complex Operations",
+  "score": 0.772,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates accurately represent 'Complex Operations'.",
+  "candidates": [
+   {
+    "label": "make electrical calculations",
+    "score": 0.772
+   },
+   {
+    "label": "mill operations",
+    "score": 0.75
+   },
+   {
+    "label": "think holistically",
+    "score": 0.745
+   },
+   {
+    "label": "geographic areas",
+    "score": 0.736
+   },
+   {
+    "label": "plan rig operations",
+    "score": 0.725
+   }
+  ]
+ },
+ "loci of complex numbers": {
+  "orig": "Loci of Complex Numbers",
+  "esco": "mathematics",
+  "score": 0.657,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Loci of complex numbers is a specific topic within mathematics.",
+  "candidates": [
+   {
+    "label": "carry out calculations",
+    "score": 0.666
+   },
+   {
+    "label": "communicate mathematical information",
+    "score": 0.662
+   },
+   {
+    "label": "mathematics",
+    "score": 0.657
+   },
+   {
+    "label": "use squaring pole",
+    "score": 0.64
+   },
+   {
+    "label": "mathematical modelling",
+    "score": 0.638
+   }
+  ]
+ },
+ "de moivre’s theorem": {
+  "orig": "De Moivre’s Theorem",
+  "esco": "trigonometry",
+  "score": 0.706,
+  "mapped": true,
+  "match": "broader",
+  "reason": "De Moivre’s Theorem is a specific concept in trigonometry.",
+  "candidates": [
+   {
+    "label": "probability theory",
+    "score": 0.718
+   },
+   {
+    "label": "use squaring pole",
+    "score": 0.709
+   },
+   {
+    "label": "trigonometry",
+    "score": 0.706
+   },
+   {
+    "label": "communicate mathematical information",
+    "score": 0.702
+   },
+   {
+    "label": "algorithms",
+    "score": 0.702
+   }
+  ]
+ },
+ "trigonometric functions": {
+  "orig": "Trigonometric Functions",
+  "esco": "trigonometry",
+  "score": 0.97,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Trigonometric functions are a specific part of trigonometry.",
+  "candidates": [
+   {
+    "label": "trigonometry",
+    "score": 0.97
+   },
+   {
+    "label": "mathematics",
+    "score": 0.652
+   },
+   {
+    "label": "use mathematical tools and equipment",
+    "score": 0.642
+   },
+   {
+    "label": "algorithms",
+    "score": 0.637
+   },
+   {
+    "label": "algebra",
+    "score": 0.636
+   }
+  ]
+ },
+ "trigonometric identities": {
+  "orig": "Trigonometric Identities",
+  "esco": "trigonometry",
+  "score": 0.862,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Trigonometric identities are a subset of trigonometry.",
+  "candidates": [
+   {
+    "label": "trigonometry",
+    "score": 0.862
+   },
+   {
+    "label": "algebra",
+    "score": 0.653
+   },
+   {
+    "label": "algorithms",
+    "score": 0.643
+   },
+   {
+    "label": "communicate mathematical information",
+    "score": 0.634
+   },
+   {
+    "label": "translate formulae into processes",
+    "score": 0.623
+   }
+  ]
+ },
+ "sine rule": {
+  "orig": "Sine Rule",
+  "esco": "trigonometry",
+  "score": 0.834,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Sine Rule is a specific concept within trigonometry.",
+  "candidates": [
+   {
+    "label": "trigonometry",
+    "score": 0.834
+   },
+   {
+    "label": "compass navigation",
+    "score": 0.698
+   },
+   {
+    "label": "use mathematical tools and equipment",
+    "score": 0.689
+   },
+   {
+    "label": "Steiner principles",
+    "score": 0.68
+   },
+   {
+    "label": "translate formulae into processes",
+    "score": 0.671
+   }
+  ]
+ },
+ "cosine rule": {
+  "orig": "Cosine Rule",
+  "esco": "trigonometry",
+  "score": 0.836,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Cosine Rule is a specific concept within trigonometry.",
+  "candidates": [
+   {
+    "label": "trigonometry",
+    "score": 0.836
+   },
+   {
+    "label": "compass navigation",
+    "score": 0.695
+   },
+   {
+    "label": "mathematics",
+    "score": 0.682
+   },
+   {
+    "label": "use mathematical tools and equipment",
+    "score": 0.671
+   },
+   {
+    "label": "translate formulae into processes",
+    "score": 0.669
+   }
+  ]
+ },
+ "first principles of derivatives": {
+  "orig": "First Principles of Derivatives",
+  "esco": "mathematical economics",
+  "score": 0.651,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Mathematical economics is a broader category that includes the application of mathematical principles, such as derivatives, to economic analysis.",
+  "candidates": [
+   {
+    "label": "make foundations for derricks",
+    "score": 0.695
+   },
+   {
+    "label": "financial products",
+    "score": 0.673
+   },
+   {
+    "label": "operate financial instruments",
+    "score": 0.666
+   },
+   {
+    "label": "financial engineering",
+    "score": 0.657
+   },
+   {
+    "label": "mathematical economics",
+    "score": 0.651
+   }
+  ]
+ },
+ "rules of differentiation": {
+  "orig": "Rules of Differentiation",
+  "esco": "algebra",
+  "score": 0.671,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Rules of Differentiation is a subtopic of algebra.",
+  "candidates": [
+   {
+    "label": "use mathematical tools and equipment",
+    "score": 0.738
+   },
+   {
+    "label": "translate formulae into processes",
+    "score": 0.685
+   },
+   {
+    "label": "perform demarcation",
+    "score": 0.68
+   },
+   {
+    "label": "algebra",
+    "score": 0.671
+   },
+   {
+    "label": "interpret mathematical information",
+    "score": 0.656
+   }
+  ]
+ },
+ "further rules of differentiation": {
+  "orig": "Further Rules of Differentiation",
+  "esco": "translate formulae into processes",
+  "score": 0.69,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Differentiation is a part of calculus, and translating formulae into processes involves applying mathematical rules like differentiation.",
+  "candidates": [
+   {
+    "label": "use mathematical tools and equipment",
+    "score": 0.744
+   },
+   {
+    "label": "perform demarcation",
+    "score": 0.707
+   },
+   {
+    "label": "translate formulae into processes",
+    "score": 0.69
+   },
+   {
+    "label": "algebra",
+    "score": 0.674
+   },
+   {
+    "label": "interpret mathematical information",
+    "score": 0.666
+   }
+  ]
+ },
+ "parametric differentiation": {
+  "orig": "Parametric Differentiation",
+  "esco": "execute analytical mathematical calculations",
+  "score": 0.653,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Parametric differentiation is a type of analytical mathematical calculation.",
+  "candidates": [
+   {
+    "label": "perform demarcation",
+    "score": 0.702
+   },
+   {
+    "label": "types of chain",
+    "score": 0.661
+   },
+   {
+    "label": "execute analytical mathematical calculations",
+    "score": 0.653
+   },
+   {
+    "label": "mathematics",
+    "score": 0.64
+   },
+   {
+    "label": "measure flatness of a surface",
+    "score": 0.64
+   }
+  ]
+ },
+ "implicit differentiation": {
+  "orig": "Implicit Differentiation",
+  "esco": "execute analytical mathematical calculations",
+  "score": 0.636,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Implicit differentiation is a technique within analytical mathematical calculations.",
+  "candidates": [
+   {
+    "label": "perform demarcation",
+    "score": 0.713
+   },
+   {
+    "label": "algebra",
+    "score": 0.653
+   },
+   {
+    "label": "use mathematical tools and equipment",
+    "score": 0.637
+   },
+   {
+    "label": "translate formulae into processes",
+    "score": 0.636
+   },
+   {
+    "label": "execute analytical mathematical calculations",
+    "score": 0.636
+   }
+  ]
+ },
+ "tangent and normal": {
+  "orig": "Tangent and Normal",
+  "esco": "trigonometry",
+  "score": 0.699,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Tangent and normal are concepts in calculus and geometry, falling under the broader category of trigonometry.",
+  "candidates": [
+   {
+    "label": "connect cylinders lines",
+    "score": 0.704
+   },
+   {
+    "label": "plan surface slope",
+    "score": 0.7
+   },
+   {
+    "label": "trigonometry",
+    "score": 0.699
+   },
+   {
+    "label": "measure flatness of a surface",
+    "score": 0.689
+   },
+   {
+    "label": "concurrent estate",
+    "score": 0.675
+   }
+  ]
+ },
+ "maclaurin series": {
+  "orig": "Maclaurin Series",
+  "esco": "numerical sequences",
+  "score": 0.678,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Maclaurin Series is a type of numerical sequence (specifically, a power series expansion).",
+  "candidates": [
+   {
+    "label": "use squaring pole",
+    "score": 0.713
+   },
+   {
+    "label": "trigonometry",
+    "score": 0.682
+   },
+   {
+    "label": "mathematical modelling",
+    "score": 0.68
+   },
+   {
+    "label": "numerical sequences",
+    "score": 0.678
+   },
+   {
+    "label": "translate formulae into processes",
+    "score": 0.677
+   }
+  ]
+ },
+ "indefinite and definite integrals": {
+  "orig": "Indefinite and Definite Integrals",
+  "esco": "mathematical modelling",
+  "score": 0.653,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Mathematical modelling encompasses the use of integrals as a tool for representing and solving problems.",
+  "candidates": [
+   {
+    "label": "perform demarcation",
+    "score": 0.661
+   },
+   {
+    "label": "integrate measures in architectural designs",
+    "score": 0.658
+   },
+   {
+    "label": "use mathematical tools and equipment",
+    "score": 0.656
+   },
+   {
+    "label": "mathematical modelling",
+    "score": 0.653
+   },
+   {
+    "label": "systems thinking",
+    "score": 0.652
+   }
+  ]
+ },
+ "techniques of integration": {
+  "orig": "Techniques of Integration",
+  "esco": "Techniques of Integration",
+  "score": 0.767,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates refer to mathematical integration techniques.",
+  "candidates": [
+   {
+    "label": "define integration strategy",
+    "score": 0.767
+   },
+   {
+    "label": "interfacing techniques",
+    "score": 0.765
+   },
+   {
+    "label": "systems thinking",
+    "score": 0.762
+   },
+   {
+    "label": "apply organisational techniques",
+    "score": 0.756
+   },
+   {
+    "label": "ICT system integration",
+    "score": 0.755
+   }
+  ]
+ },
+ "further techniques of integration": {
+  "orig": "Further Techniques of Integration",
+  "esco": "execute analytical mathematical calculations",
+  "score": 0.718,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Further Techniques of Integration involves performing analytical mathematical calculations.",
+  "candidates": [
+   {
+    "label": "execute analytical mathematical calculations",
+    "score": 0.718
+   },
+   {
+    "label": "perform demarcation",
+    "score": 0.715
+   },
+   {
+    "label": "use mathematical tools and equipment",
+    "score": 0.692
+   },
+   {
+    "label": "systems thinking",
+    "score": 0.691
+   },
+   {
+    "label": "mathematical modelling",
+    "score": 0.688
+   }
+  ]
+ },
+ "circle equation and graph": {
+  "orig": "Circle Equation and Graph",
+  "esco": "interpret mathematical information",
+  "score": 0.649,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Interpreting mathematical information is a broader category that includes understanding and representing equations like the circle equation and graph.",
+  "candidates": [
+   {
+    "label": "connect cylinders lines",
+    "score": 0.687
+   },
+   {
+    "label": "interpret mathematical information",
+    "score": 0.649
+   },
+   {
+    "label": "use squaring pole",
+    "score": 0.648
+   },
+   {
+    "label": "mark stone workpieces",
+    "score": 0.64
+   },
+   {
+    "label": "use mathematical tools and equipment",
+    "score": 0.638
+   }
+  ]
+ },
+ "turning and inflection points": {
+  "orig": "Turning and Inflection Points",
+  "esco": "use turning tools",
+  "score": 0.711,
+  "mapped": true,
+  "match": "exact",
+  "reason": "'use turning tools' directly relates to the skill of turning and inflection points in a mechanical or technical context.",
+  "candidates": [
+   {
+    "label": "local area tourism industry",
+    "score": 0.723
+   },
+   {
+    "label": "rhetoric",
+    "score": 0.72
+   },
+   {
+    "label": "use turning tools",
+    "score": 0.711
+   },
+   {
+    "label": "scaffolding components",
+    "score": 0.705
+   },
+   {
+    "label": "inform drivers of detour routes",
+    "score": 0.699
+   }
+  ]
+ },
+ "optimization problems": {
+  "orig": "Optimization Problems",
+  "esco": "operational research",
+  "score": 0.732,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Optimization Problems is a subset of operational research.",
+  "candidates": [
+   {
+    "label": "cost management",
+    "score": 0.774
+   },
+   {
+    "label": "operational research",
+    "score": 0.732
+   },
+   {
+    "label": "solve problems",
+    "score": 0.729
+   },
+   {
+    "label": "solve operational transport problems",
+    "score": 0.726
+   },
+   {
+    "label": "algorithms",
+    "score": 0.724
+   }
+  ]
+ },
+ "rate of change": {
+  "orig": "Rate of Change",
+  "esco": "study the relationships between quantities",
+  "score": 0.694,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Study the relationships between quantities is a broader category that includes rate of change.",
+  "candidates": [
+   {
+    "label": "rates of growth assessment",
+    "score": 0.706
+   },
+   {
+    "label": "type at speed",
+    "score": 0.704
+   },
+   {
+    "label": "study the relationships between quantities",
+    "score": 0.694
+   },
+   {
+    "label": "kinetics",
+    "score": 0.687
+   },
+   {
+    "label": "perform fast changeover",
+    "score": 0.675
+   }
+  ]
+ },
+ "area under a curve": {
+  "orig": "Area Under a Curve",
+  "esco": "mathematics",
+  "score": 0.669,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Area Under a Curve is a mathematical concept, so 'mathematics' is the broader category.",
+  "candidates": [
+   {
+    "label": "use spreadsheets software",
+    "score": 0.677
+   },
+   {
+    "label": "measure flatness of a surface",
+    "score": 0.676
+   },
+   {
+    "label": "use mathematical tools and equipment",
+    "score": 0.674
+   },
+   {
+    "label": "perform surveying calculations",
+    "score": 0.671
+   },
+   {
+    "label": "mathematics",
+    "score": 0.669
+   }
+  ]
+ },
+ "volume of revolutions": {
+  "orig": "Volume of Revolutions",
+  "esco": "Volume of Revolutions",
+  "score": 0.719,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates directly relate to calculating or understanding the volume of revolutions.",
+  "candidates": [
+   {
+    "label": "inspect cylinders",
+    "score": 0.719
+   },
+   {
+    "label": "fill cylinders",
+    "score": 0.694
+   },
+   {
+    "label": "measure reservoir volumes",
+    "score": 0.678
+   },
+   {
+    "label": "maneuver cylinders",
+    "score": 0.666
+   },
+   {
+    "label": "maintain rotating equipment",
+    "score": 0.659
+   }
+  ]
+ },
+ "rectilinear motion": {
+  "orig": "Rectilinear Motion",
+  "esco": "Rectilinear Motion",
+  "score": 0.836,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates relate to rectilinear motion.",
+  "candidates": [
+   {
+    "label": "principles of animation",
+    "score": 0.836
+   },
+   {
+    "label": "move bodies of deceased persons",
+    "score": 0.754
+   },
+   {
+    "label": "control animal movement",
+    "score": 0.716
+   },
+   {
+    "label": "locomotive brake applications",
+    "score": 0.715
+   },
+   {
+    "label": "type at speed",
+    "score": 0.711
+   }
+  ]
+ },
+ "newton raphson’s": {
+  "orig": "Newton Raphson’s",
+  "esco": "Newton Raphson’s",
+  "score": 0.743,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates accurately represent Newton-Raphson method.",
+  "candidates": [
+   {
+    "label": "mathematical modelling",
+    "score": 0.743
+   },
+   {
+    "label": "Monte Carlo simulation",
+    "score": 0.725
+   },
+   {
+    "label": "use squaring pole",
+    "score": 0.713
+   },
+   {
+    "label": "relaxation techniques",
+    "score": 0.71
+   },
+   {
+    "label": "MATLAB",
+    "score": 0.699
+   }
+  ]
+ },
+ "trapezium rule": {
+  "orig": "Trapezium Rule",
+  "esco": "Trapezium Rule",
+  "score": 0.698,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates directly refer to the trapezium rule or numerical integration techniques.",
+  "candidates": [
+   {
+    "label": "mathematical modelling",
+    "score": 0.698
+   },
+   {
+    "label": "Monte Carlo simulation",
+    "score": 0.681
+   },
+   {
+    "label": "use mathematical tools and equipment",
+    "score": 0.676
+   },
+   {
+    "label": "use spreadsheets software",
+    "score": 0.667
+   },
+   {
+    "label": "interpret mathematical information",
+    "score": 0.663
+   }
+  ]
+ },
+ "simpson’s rule": {
+  "orig": "Simpson’s Rule",
+  "esco": "Simpson’s Rule",
+  "score": 0.748,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates directly refer to Simpson’s Rule or its broader category.",
+  "candidates": [
+   {
+    "label": "Monte Carlo simulation",
+    "score": 0.748
+   },
+   {
+    "label": "mathematical modelling",
+    "score": 0.74
+   },
+   {
+    "label": "use mathematical tools and equipment",
+    "score": 0.716
+   },
+   {
+    "label": "interpret mathematical information",
+    "score": 0.702
+   },
+   {
+    "label": "apply statistical analysis techniques",
+    "score": 0.702
+   }
+  ]
+ },
+ "object-oriented programming (oop)": {
+  "orig": "Object-Oriented Programming (OOP)",
+  "esco": "use object-oriented programming",
+  "score": 0.929,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Candidate 1 directly refers to using object-oriented programming, which matches the given skill exactly.",
+  "candidates": [
+   {
+    "label": "use object-oriented programming",
+    "score": 0.929
+   },
+   {
+    "label": "object-oriented modelling",
+    "score": 0.86
+   },
+   {
+    "label": "use software design patterns",
+    "score": 0.765
+   },
+   {
+    "label": "Java (computer programming)",
+    "score": 0.751
+   },
+   {
+    "label": "Python (computer programming)",
+    "score": 0.748
+   }
+  ]
+ },
+ "java programming": {
+  "orig": "Java Programming",
+  "esco": "Java (computer programming)",
+  "score": 0.897,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Java (computer programming) directly refers to Java Programming.",
+  "candidates": [
+   {
+    "label": "Java (computer programming)",
+    "score": 0.897
+   },
+   {
+    "label": "computer programming",
+    "score": 0.783
+   },
+   {
+    "label": "Groovy",
+    "score": 0.754
+   },
+   {
+    "label": "Python (computer programming)",
+    "score": 0.746
+   },
+   {
+    "label": "Scala",
+    "score": 0.744
+   }
+  ]
+ },
+ "java syntax": {
+  "orig": "Java Syntax",
+  "esco": "Java (computer programming)",
+  "score": 0.783,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Java (computer programming) directly refers to the syntax of the Java programming language.",
+  "candidates": [
+   {
+    "label": "Java (computer programming)",
+    "score": 0.783
+   },
+   {
+    "label": "grammar",
+    "score": 0.697
+   },
+   {
+    "label": "Groovy",
+    "score": 0.678
+   },
+   {
+    "label": "Scala",
+    "score": 0.666
+   },
+   {
+    "label": "JavaScript",
+    "score": 0.642
+   }
+  ]
+ },
+ "java environment setup": {
+  "orig": "Java Environment Setup",
+  "esco": "integrated development environment software",
+  "score": 0.641,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Java Environment Setup is a specific task related to setting up an environment for Java development, which falls under the broader category of integrated development environment software.",
+  "candidates": [
+   {
+    "label": "Java (computer programming)",
+    "score": 0.679
+   },
+   {
+    "label": "Project Anarchy",
+    "score": 0.665
+   },
+   {
+    "label": "Eclipse (integrated development environment software)",
+    "score": 0.659
+   },
+   {
+    "label": "integrated development environment software",
+    "score": 0.641
+   },
+   {
+    "label": "construct working platform",
+    "score": 0.621
+   }
+  ]
+ },
+ "java class creation": {
+  "orig": "Java Class Creation",
+  "esco": "Java (computer programming)",
+  "score": 0.685,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Java (computer programming) directly relates to Java Class Creation as it is a core programming skill within Java.",
+  "candidates": [
+   {
+    "label": "Java (computer programming)",
+    "score": 0.685
+   },
+   {
+    "label": "augmented reality",
+    "score": 0.602
+   },
+   {
+    "label": "use scripting programming",
+    "score": 0.597
+   },
+   {
+    "label": "design web-based courses",
+    "score": 0.596
+   },
+   {
+    "label": "industrial paint",
+    "score": 0.594
+   }
+  ]
+ },
+ "java object array management": {
+  "orig": "Java Object Array Management",
+  "esco": "Java Object Array Management",
+  "score": 0.667,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates accurately represent 'Java Object Array Management'.",
+  "candidates": [
+   {
+    "label": "use object-oriented programming",
+    "score": 0.667
+   },
+   {
+    "label": "Java (computer programming)",
+    "score": 0.648
+   },
+   {
+    "label": "manage stable",
+    "score": 0.631
+   },
+   {
+    "label": "implement a management system",
+    "score": 0.631
+   },
+   {
+    "label": "manage resources",
+    "score": 0.627
+   }
+  ]
+ },
+ "java inheritance": {
+  "orig": "Java Inheritance",
+  "esco": "use object-oriented programming",
+  "score": 0.695,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Java Inheritance is a specific concept within object-oriented programming.",
+  "candidates": [
+   {
+    "label": "Java (computer programming)",
+    "score": 0.766
+   },
+   {
+    "label": "use object-oriented programming",
+    "score": 0.695
+   },
+   {
+    "label": "primitive technology",
+    "score": 0.663
+   },
+   {
+    "label": "object-oriented modelling",
+    "score": 0.651
+   },
+   {
+    "label": "types of arrows",
+    "score": 0.633
+   }
+  ]
+ },
+ "java constructor usage": {
+  "orig": "Java Constructor Usage",
+  "esco": "Java Constructor Usage",
+  "score": 0.645,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates relate to Java programming or constructors.",
+  "candidates": [
+   {
+    "label": "build props",
+    "score": 0.645
+   },
+   {
+    "label": "define prop building methods",
+    "score": 0.628
+   },
+   {
+    "label": "construct cores",
+    "score": 0.625
+   },
+   {
+    "label": "use tools for construction and repair",
+    "score": 0.609
+   },
+   {
+    "label": "construction methods",
+    "score": 0.599
+   }
+  ]
+ },
+ "java file i/o": {
+  "orig": "Java File I/O",
+  "esco": "Java (computer programming)",
+  "score": 0.674,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Java (computer programming) is the broader category that includes Java File I/O.",
+  "candidates": [
+   {
+    "label": "type of file",
+    "score": 0.694
+   },
+   {
+    "label": "Java (computer programming)",
+    "score": 0.674
+   },
+   {
+    "label": "manage digital documents",
+    "score": 0.669
+   },
+   {
+    "label": "create digital files",
+    "score": 0.663
+   },
+   {
+    "label": "monitor broadcast programming",
+    "score": 0.651
+   }
+  ]
+ },
+ "java method overriding": {
+  "orig": "Java Method Overriding",
+  "esco": "use object-oriented programming",
+  "score": 0.637,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Java method overriding is a specific feature of object-oriented programming.",
+  "candidates": [
+   {
+    "label": "Java (computer programming)",
+    "score": 0.665
+   },
+   {
+    "label": "primitive technology",
+    "score": 0.65
+   },
+   {
+    "label": "use object-oriented programming",
+    "score": 0.637
+   },
+   {
+    "label": "binding technologies",
+    "score": 0.629
+   },
+   {
+    "label": "application process",
+    "score": 0.626
+   }
+  ]
+ },
+ "java upcasting/downcasting": {
+  "orig": "Java Upcasting/downcasting",
+  "esco": "Java (computer programming)",
+  "score": 0.66,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Java (computer programming) directly refers to the programming language, which includes concepts like upcasting and downcasting.",
+  "candidates": [
+   {
+    "label": "use casts of body parts",
+    "score": 0.742
+   },
+   {
+    "label": "use tools for castings repair",
+    "score": 0.734
+   },
+   {
+    "label": "dies",
+    "score": 0.666
+   },
+   {
+    "label": "Java (computer programming)",
+    "score": 0.66
+   },
+   {
+    "label": "modify casts for prostheses",
+    "score": 0.659
+   }
+  ]
+ },
+ "java abstraction": {
+  "orig": "Java Abstraction",
+  "esco": "use software design patterns",
+  "score": 0.704,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Java Abstraction relates to software design principles, which are covered by 'use software design patterns' as a broader category.",
+  "candidates": [
+   {
+    "label": "Java (computer programming)",
+    "score": 0.768
+   },
+   {
+    "label": "think abstractly",
+    "score": 0.766
+   },
+   {
+    "label": "make abstracts",
+    "score": 0.747
+   },
+   {
+    "label": "primitive technology",
+    "score": 0.712
+   },
+   {
+    "label": "use software design patterns",
+    "score": 0.704
+   }
+  ]
+ },
+ "java encapsulation": {
+  "orig": "Java Encapsulation",
+  "esco": "use object-oriented programming",
+  "score": 0.717,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Java Encapsulation is a specific concept within object-oriented programming.",
+  "candidates": [
+   {
+    "label": "Java (computer programming)",
+    "score": 0.718
+   },
+   {
+    "label": "use object-oriented programming",
+    "score": 0.717
+   },
+   {
+    "label": "understand different types of locks and their operation",
+    "score": 0.677
+   },
+   {
+    "label": "object-oriented modelling",
+    "score": 0.665
+   },
+   {
+    "label": "use software design patterns",
+    "score": 0.659
+   }
+  ]
+ },
+ "java interface implementation": {
+  "orig": "Java Interface Implementation",
+  "esco": "use an application-specific interface",
+  "score": 0.74,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Implements a specific interface in Java",
+  "candidates": [
+   {
+    "label": "use an application-specific interface",
+    "score": 0.74
+   },
+   {
+    "label": "design component interfaces",
+    "score": 0.731
+   },
+   {
+    "label": "primitive technology",
+    "score": 0.727
+   },
+   {
+    "label": "Java (computer programming)",
+    "score": 0.693
+   },
+   {
+    "label": "interpret graphical communication interfaces",
+    "score": 0.665
+   }
+  ]
+ },
+ "software design using oop principles": {
+  "orig": "Software Design Using OOP Principles",
+  "esco": "use object-oriented programming",
+  "score": 0.77,
+  "mapped": true,
+  "match": "exact",
+  "reason": "OOP principles are directly related to object-oriented programming.",
+  "candidates": [
+   {
+    "label": "computer engineering",
+    "score": 0.816
+   },
+   {
+    "label": "use software design patterns",
+    "score": 0.801
+   },
+   {
+    "label": "SAS language",
+    "score": 0.775
+   },
+   {
+    "label": "software design methodologies",
+    "score": 0.77
+   },
+   {
+    "label": "use object-oriented programming",
+    "score": 0.77
+   }
+  ]
+ },
+ "software solution proposal using oop": {
+  "orig": "Software Solution Proposal Using OOP",
+  "esco": "use object-oriented programming",
+  "score": 0.726,
+  "mapped": true,
+  "match": "exact",
+  "reason": "The skill directly involves using object-oriented programming (OOP) in proposing software solutions.",
+  "candidates": [
+   {
+    "label": "create software design",
+    "score": 0.731
+   },
+   {
+    "label": "use object-oriented programming",
+    "score": 0.726
+   },
+   {
+    "label": "computer engineering",
+    "score": 0.711
+   },
+   {
+    "label": "solution deployment",
+    "score": 0.705
+   },
+   {
+    "label": "use software design patterns",
+    "score": 0.693
+   }
+  ]
+ },
+ "software application maintenance": {
+  "orig": "Software Application Maintenance",
+  "esco": "manage maintenance operations",
+  "score": 0.756,
+  "mapped": true,
+  "match": "broader",
+  "reason": "'Manage maintenance operations' is a broader category that includes software application maintenance.",
+  "candidates": [
+   {
+    "label": "manage maintenance operations",
+    "score": 0.756
+   },
+   {
+    "label": "maintain core parts",
+    "score": 0.752
+   },
+   {
+    "label": "maintain cores",
+    "score": 0.752
+   },
+   {
+    "label": "sell software maintenance contracts",
+    "score": 0.735
+   },
+   {
+    "label": "oversee development of software",
+    "score": 0.715
+   }
+  ]
+ },
+ "team collaboration in software development": {
+  "orig": "Team Collaboration in Software Development",
+  "esco": "coordinate engineering teams",
+  "score": 0.78,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Coordinate engineering teams is a broader category that includes team collaboration in software development.",
+  "candidates": [
+   {
+    "label": "work in teams",
+    "score": 0.805
+   },
+   {
+    "label": "team building",
+    "score": 0.8
+   },
+   {
+    "label": "manage teamwork",
+    "score": 0.795
+   },
+   {
+    "label": "coordinate engineering teams",
+    "score": 0.78
+   },
+   {
+    "label": "Agile development",
+    "score": 0.778
+   }
+  ]
+ },
+ "software engineering": {
+  "orig": "software engineering",
+  "esco": "software design methodologies",
+  "score": 0.818,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Software design methodologies is a broader category encompassing aspects of software engineering.",
+  "candidates": [
+   {
+    "label": "computer engineering",
+    "score": 0.881
+   },
+   {
+    "label": "software design methodologies",
+    "score": 0.818
+   },
+   {
+    "label": "utilise computer-aided software engineering tools",
+    "score": 0.813
+   },
+   {
+    "label": "create software design",
+    "score": 0.811
+   },
+   {
+    "label": "software frameworks",
+    "score": 0.806
+   }
+  ]
+ },
+ "agile": {
+  "orig": "agile",
+  "esco": "Agile development",
+  "score": 0.814,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Agile development is the exact skill label for 'agile' in the context of software development.",
+  "candidates": [
+   {
+    "label": "ICT project management methodologies",
+    "score": 1.0
+   },
+   {
+    "label": "Agile development",
+    "score": 0.814
+   },
+   {
+    "label": "Agile project management",
+    "score": 0.806
+   },
+   {
+    "label": "react to physical changes or hazards",
+    "score": 0.799
+   },
+   {
+    "label": "adapt to change",
+    "score": 0.79
+   }
+  ]
+ },
+ "java": {
+  "orig": "java",
+  "esco": "Java (computer programming)",
+  "score": 0.974,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Label 1 directly refers to Java as a computer programming language, matching the skill exactly.",
+  "candidates": [
+   {
+    "label": "Java (computer programming)",
+    "score": 0.974
+   },
+   {
+    "label": "integrated development environment software",
+    "score": 0.753
+   },
+   {
+    "label": "unified modelling language",
+    "score": 0.744
+   },
+   {
+    "label": "Scala",
+    "score": 0.734
+   },
+   {
+    "label": "Eclipse (integrated development environment software)",
+    "score": 0.729
+   }
+  ]
+ },
+ "aws": {
+  "orig": "aws",
+  "esco": "cloud technologies",
+  "score": 0.774,
+  "mapped": true,
+  "match": "broader",
+  "reason": "AWS is a specific cloud technology, so 'cloud technologies' is the broader category.",
+  "candidates": [
+   {
+    "label": "cloud security and compliance",
+    "score": 0.795
+   },
+   {
+    "label": "cloud technologies",
+    "score": 0.774
+   },
+   {
+    "label": "deploy cloud resource",
+    "score": 0.764
+   },
+   {
+    "label": "digital identity management",
+    "score": 0.744
+   },
+   {
+    "label": "automate cloud tasks",
+    "score": 0.741
+   }
+  ]
+ },
+ "javascript": {
+  "orig": "javascript",
+  "esco": "JavaScript",
+  "score": 0.959,
+  "mapped": true,
+  "match": "exact",
+  "reason": "JavaScript is the exact match for the skill.",
+  "candidates": [
+   {
+    "label": "JavaScript",
+    "score": 0.959
+   },
+   {
+    "label": "AJAX",
+    "score": 0.773
+   },
+   {
+    "label": "JavaScript Framework",
+    "score": 0.768
+   },
+   {
+    "label": "web programming",
+    "score": 0.767
+   },
+   {
+    "label": "Angular",
+    "score": 0.726
+   }
+  ]
+ },
+ "typescript": {
+  "orig": "typescript",
+  "esco": "TypeScript",
+  "score": 0.862,
+  "mapped": true,
+  "match": "exact",
+  "reason": "TypeScript is explicitly listed as a candidate.",
+  "candidates": [
+   {
+    "label": "TypeScript",
+    "score": 0.862
+   },
+   {
+    "label": "Angular",
+    "score": 0.834
+   },
+   {
+    "label": "JavaScript",
+    "score": 0.799
+   },
+   {
+    "label": "computer programming",
+    "score": 0.669
+   },
+   {
+    "label": "JavaScript Framework",
+    "score": 0.648
+   }
+  ]
+ },
+ "docker": {
+  "orig": "docker",
+  "esco": "tools for software configuration management",
+  "score": 0.78,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Docker is a tool for software configuration management, though more specific than the label.",
+  "candidates": [
+   {
+    "label": "tools for software configuration management",
+    "score": 0.78
+   },
+   {
+    "label": "dock operations",
+    "score": 0.77
+   },
+   {
+    "label": "Octopus Deploy",
+    "score": 0.751
+   },
+   {
+    "label": "Vagrant",
+    "score": 0.737
+   },
+   {
+    "label": "deploy cloud resource",
+    "score": 0.72
+   }
+  ]
+ },
+ "kubernetes": {
+  "orig": "kubernetes",
+  "esco": "dock operations",
+  "score": 0.728,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Kubernetes is a container orchestration tool, and 'dock operations' is a broader category that includes operations related to Docker and container management, which Kubernetes falls under.",
+  "candidates": [
+   {
+    "label": "Octopus Deploy",
+    "score": 0.756
+   },
+   {
+    "label": "dock operations",
+    "score": 0.728
+   },
+   {
+    "label": "deploy cloud resource",
+    "score": 0.699
+   },
+   {
+    "label": "DevOps",
+    "score": 0.696
+   },
+   {
+    "label": "tools for software configuration management",
+    "score": 0.695
+   }
+  ]
+ },
+ "react": {
+  "orig": "react",
+  "esco": "react",
+  "score": 0.752,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates refer to the React framework or JavaScript library.",
+  "candidates": [
+   {
+    "label": "react to events in time-critical environments",
+    "score": 0.752
+   },
+   {
+    "label": "Angular",
+    "score": 0.75
+   },
+   {
+    "label": "react to physical changes or hazards",
+    "score": 0.739
+   },
+   {
+    "label": "JavaScript",
+    "score": 0.737
+   },
+   {
+    "label": "think quickly",
+    "score": 0.704
+   }
+  ]
+ },
+ "open source frameworks": {
+  "orig": "open source frameworks",
+  "esco": "software frameworks",
+  "score": 0.892,
+  "mapped": true,
+  "match": "broader",
+  "reason": "'Software frameworks' is a broader category that includes open source frameworks.",
+  "candidates": [
+   {
+    "label": "software frameworks",
+    "score": 0.892
+   },
+   {
+    "label": "software architecture models",
+    "score": 0.825
+   },
+   {
+    "label": "Open source model",
+    "score": 0.808
+   },
+   {
+    "label": "operate open source software",
+    "score": 0.802
+   },
+   {
+    "label": "decentralized application frameworks",
+    "score": 0.792
+   }
+  ]
+ },
+ "microservices": {
+  "orig": "microservices",
+  "esco": "service-oriented modelling",
+  "score": 0.745,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Microservices is a specific type of service-oriented modelling.",
+  "candidates": [
+   {
+    "label": "service-oriented modelling",
+    "score": 0.745
+   },
+   {
+    "label": "design cloud architecture",
+    "score": 0.727
+   },
+   {
+    "label": "software architecture models",
+    "score": 0.725
+   },
+   {
+    "label": "web services",
+    "score": 0.712
+   },
+   {
+    "label": "Rapid application development",
+    "score": 0.703
+   }
+  ]
+ },
+ "c++": {
+  "orig": "c++",
+  "esco": "C++",
+  "score": 0.978,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Label 1 is the exact name of the skill.",
+  "candidates": [
+   {
+    "label": "C++",
+    "score": 0.978
+   },
+   {
+    "label": "Microsoft Visual C++",
+    "score": 0.853
+   },
+   {
+    "label": "computer programming",
+    "score": 0.818
+   },
+   {
+    "label": "integrated development environment software",
+    "score": 0.801
+   },
+   {
+    "label": "CryEngine",
+    "score": 0.781
+   }
+  ]
+ },
+ "angular": {
+  "orig": "angular",
+  "esco": "Angular",
+  "score": 0.907,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Angular is the exact name of the framework.",
+  "candidates": [
+   {
+    "label": "Angular",
+    "score": 0.907
+   },
+   {
+    "label": "computer programming",
+    "score": 0.778
+   },
+   {
+    "label": "JavaScript",
+    "score": 0.762
+   },
+   {
+    "label": "natural gas",
+    "score": 0.747
+   },
+   {
+    "label": "hardware testing methods",
+    "score": 0.723
+   }
+  ]
+ },
+ "formal language analysis": {
+  "orig": "Formal Language Analysis",
+  "esco": "linguistics",
+  "score": 0.72,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Formal Language Analysis is a subfield of linguistics.",
+  "candidates": [
+   {
+    "label": "forensic linguistics",
+    "score": 0.773
+   },
+   {
+    "label": "computational linguistics",
+    "score": 0.742
+   },
+   {
+    "label": "linguistics",
+    "score": 0.72
+   },
+   {
+    "label": "semantics",
+    "score": 0.717
+   },
+   {
+    "label": "typology",
+    "score": 0.716
+   }
+  ]
+ },
+ "computational model design": {
+  "orig": "Computational Model Design",
+  "esco": "mathematical modelling",
+  "score": 0.752,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Mathematical modelling is a broader category that includes computational model design.",
+  "candidates": [
+   {
+    "label": "use specialised equipment",
+    "score": 0.791
+   },
+   {
+    "label": "design electronic systems",
+    "score": 0.758
+   },
+   {
+    "label": "computational biology",
+    "score": 0.755
+   },
+   {
+    "label": "mathematical modelling",
+    "score": 0.752
+   },
+   {
+    "label": "model hardware",
+    "score": 0.745
+   }
+  ]
+ },
+ "problem-solving evaluation in automata theory": {
+  "orig": "Problem-Solving Evaluation in Automata Theory",
+  "esco": "Problem-Solving Evaluation in Automata Theory",
+  "score": 0.679,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates directly relate to problem-solving evaluation in automata theory.",
+  "candidates": [
+   {
+    "label": "evaluation theory",
+    "score": 0.679
+   },
+   {
+    "label": "perform system analysis",
+    "score": 0.674
+   },
+   {
+    "label": "grading systems",
+    "score": 0.669
+   },
+   {
+    "label": "algorithms",
+    "score": 0.655
+   },
+   {
+    "label": "types of evaluation",
+    "score": 0.652
+   }
+  ]
+ },
+ "automata theory fundamentals": {
+  "orig": "Automata Theory Fundamentals",
+  "esco": "computer science",
+  "score": 0.631,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Automata Theory is a subfield of computer science.",
+  "candidates": [
+   {
+    "label": "computational linguistics",
+    "score": 0.634
+   },
+   {
+    "label": "computer science",
+    "score": 0.631
+   },
+   {
+    "label": "automated analysers in the medical laboratory",
+    "score": 0.614
+   },
+   {
+    "label": "computer programming",
+    "score": 0.614
+   },
+   {
+    "label": "algorithms",
+    "score": 0.611
+   }
+  ]
+ },
+ "deterministic finite automata (dfa)": {
+  "orig": "Deterministic Finite Automata (DFA)",
+  "esco": "computer programming",
+  "score": 0.631,
+  "mapped": true,
+  "match": "broader",
+  "reason": "DFA is a concept in computer science and formal languages, which falls under the broader category of computer programming.",
+  "candidates": [
+   {
+    "label": "operate digester machine",
+    "score": 0.638
+   },
+   {
+    "label": "computer programming",
+    "score": 0.631
+   },
+   {
+    "label": "automated analysers in the medical laboratory",
+    "score": 0.628
+   },
+   {
+    "label": "state estimation",
+    "score": 0.618
+   },
+   {
+    "label": "monitor automated machines",
+    "score": 0.617
+   }
+  ]
+ },
+ "non-deterministic finite automata (nfa)": {
+  "orig": "Non-Deterministic Finite Automata (NFA)",
+  "esco": "Non-Deterministic Finite Automata (NFA)",
+  "score": 0.64,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates relate to Non-Deterministic Finite Automata (NFA) in computer science.",
+  "candidates": [
+   {
+    "label": "nibbling machine parts",
+    "score": 0.64
+   },
+   {
+    "label": "artificial neural networks",
+    "score": 0.634
+   },
+   {
+    "label": "procurement of ICT network equipment",
+    "score": 0.624
+   },
+   {
+    "label": "N1QL",
+    "score": 0.622
+   },
+   {
+    "label": "tend nibbling machine",
+    "score": 0.62
+   }
+  ]
+ },
+ "automata determinisation and minimization": {
+  "orig": "Automata Determinisation and Minimization",
+  "esco": "algorithms",
+  "score": 0.651,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Automata Determinisation and Minimization is a specific topic within algorithms.",
+  "candidates": [
+   {
+    "label": "automated analysers in the medical laboratory",
+    "score": 0.658
+   },
+   {
+    "label": "algorithms",
+    "score": 0.651
+   },
+   {
+    "label": "computer science",
+    "score": 0.646
+   },
+   {
+    "label": "computer programming",
+    "score": 0.643
+   },
+   {
+    "label": "computational linguistics",
+    "score": 0.636
+   }
+  ]
+ },
+ "regular expressions": {
+  "orig": "Regular Expressions",
+  "esco": "utilise regular expressions",
+  "score": 0.897,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Label 1 directly refers to the use of regular expressions.",
+  "candidates": [
+   {
+    "label": "utilise regular expressions",
+    "score": 0.897
+   },
+   {
+    "label": "repair patterns",
+    "score": 0.78
+   },
+   {
+    "label": "replace die",
+    "score": 0.686
+   },
+   {
+    "label": "process qualitative information",
+    "score": 0.684
+   },
+   {
+    "label": "computer programming",
+    "score": 0.661
+   }
+  ]
+ },
+ "regular language properties": {
+  "orig": "Regular Language Properties",
+  "esco": "Regular Language Properties",
+  "score": 0.669,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates directly refer to 'Regular Language Properties' in formal language theory.",
+  "candidates": [
+   {
+    "label": "utilise regular expressions",
+    "score": 0.669
+   },
+   {
+    "label": "forensic linguistics",
+    "score": 0.652
+   },
+   {
+    "label": "repair patterns",
+    "score": 0.646
+   },
+   {
+    "label": "computational linguistics",
+    "score": 0.642
+   },
+   {
+    "label": "master language rules",
+    "score": 0.612
+   }
+  ]
+ },
+ "context-free grammars (cfg)": {
+  "orig": "Context-Free Grammars (CFG)",
+  "esco": "grammar",
+  "score": 0.645,
+  "mapped": true,
+  "match": "broader",
+  "reason": "CFG is a type of grammar used in formal language theory.",
+  "candidates": [
+   {
+    "label": "computational linguistics",
+    "score": 0.648
+   },
+   {
+    "label": "grammar",
+    "score": 0.645
+   },
+   {
+    "label": "tools for software configuration management",
+    "score": 0.629
+   },
+   {
+    "label": "consumer goods industry",
+    "score": 0.623
+   },
+   {
+    "label": "ML (computer programming)",
+    "score": 0.618
+   }
+  ]
+ },
+ "pushdown automata (pda)": {
+  "orig": "Pushdown Automata (PDA)",
+  "esco": "Pushdown Automata (PDA)",
+  "score": 0.645,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates relate to Pushdown Automata (PDA) in computer science.",
+  "candidates": [
+   {
+    "label": "computer programming",
+    "score": 0.645
+   },
+   {
+    "label": "automated analysers in the medical laboratory",
+    "score": 0.619
+   },
+   {
+    "label": "state estimation",
+    "score": 0.61
+   },
+   {
+    "label": "tend nibbling machine",
+    "score": 0.609
+   },
+   {
+    "label": "use person-centred planning",
+    "score": 0.608
+   }
+  ]
+ },
+ "turing machines (tm)": {
+  "orig": "Turing Machines (TM)",
+  "esco": "Turing Machines (TM)",
+  "score": 0.852,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates accurately represent Turing Machines.",
+  "candidates": [
+   {
+    "label": "computer programming",
+    "score": 0.852
+   },
+   {
+    "label": "computer equipment",
+    "score": 0.741
+   },
+   {
+    "label": "computational mechanics",
+    "score": 0.731
+   },
+   {
+    "label": "use ICT systems",
+    "score": 0.728
+   },
+   {
+    "label": "optical character recognition software",
+    "score": 0.725
+   }
+  ]
+ },
+ "c++ programming": {
+  "orig": "C++ Programming",
+  "esco": "C++",
+  "score": 0.943,
+  "mapped": true,
+  "match": "exact",
+  "reason": "C++ is the exact programming language skill.",
+  "candidates": [
+   {
+    "label": "C++",
+    "score": 0.943
+   },
+   {
+    "label": "Microsoft Visual C++",
+    "score": 0.809
+   },
+   {
+    "label": "computer programming",
+    "score": 0.772
+   },
+   {
+    "label": "integrated development environment software",
+    "score": 0.754
+   },
+   {
+    "label": "CryEngine",
+    "score": 0.709
+   }
+  ]
+ },
+ "computer fundamentals": {
+  "orig": "Computer Fundamentals",
+  "esco": "use ICT systems",
+  "score": 0.733,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Computer Fundamentals is a broader concept that includes using ICT systems.",
+  "candidates": [
+   {
+    "label": "systems theory",
+    "score": 0.773
+   },
+   {
+    "label": "computer programming",
+    "score": 0.752
+   },
+   {
+    "label": "Python (computer programming)",
+    "score": 0.736
+   },
+   {
+    "label": "apply basic programming skills",
+    "score": 0.735
+   },
+   {
+    "label": "use ICT systems",
+    "score": 0.733
+   }
+  ]
+ },
+ "algorithms": {
+  "orig": "Algorithms",
+  "esco": "algorithms",
+  "score": 0.954,
+  "mapped": true,
+  "match": "exact",
+  "reason": "'Algorithms' is an exact match for candidate 1.",
+  "candidates": [
+   {
+    "label": "algorithms",
+    "score": 0.954
+   },
+   {
+    "label": "computer science",
+    "score": 0.795
+   },
+   {
+    "label": "Lisp",
+    "score": 0.787
+   },
+   {
+    "label": "MATLAB",
+    "score": 0.777
+   },
+   {
+    "label": "Assembly (computer programming)",
+    "score": 0.75
+   }
+  ]
+ },
+ "programming fundamentals": {
+  "orig": "Programming Fundamentals",
+  "esco": "computer programming",
+  "score": 0.752,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Programming Fundamentals is a broader category that includes skills like those in Python or Java, but 'computer programming' is the standard broader category in ESCO.",
+  "candidates": [
+   {
+    "label": "apply basic programming skills",
+    "score": 0.796
+   },
+   {
+    "label": "Python (computer programming)",
+    "score": 0.76
+   },
+   {
+    "label": "computer programming",
+    "score": 0.752
+   },
+   {
+    "label": "Java (computer programming)",
+    "score": 0.715
+   },
+   {
+    "label": "monitor broadcast programming",
+    "score": 0.71
+   }
+  ]
+ },
+ "compiler basics": {
+  "orig": "Compiler Basics",
+  "esco": "Assembly (computer programming)",
+  "score": 0.676,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Assembly (computer programming) is a broader category related to low-level programming, which includes compiler basics.",
+  "candidates": [
+   {
+    "label": "apply basic programming skills",
+    "score": 0.691
+   },
+   {
+    "label": "develop terminology databases",
+    "score": 0.679
+   },
+   {
+    "label": "Assembly (computer programming)",
+    "score": 0.676
+   },
+   {
+    "label": "integrated development environment software",
+    "score": 0.671
+   },
+   {
+    "label": "Pascal (computer programming)",
+    "score": 0.67
+   }
+  ]
+ },
+ "flow control structures": {
+  "orig": "Flow Control Structures",
+  "esco": "Flow Control Structures",
+  "score": 0.7,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates refer to programming or logical control structures.",
+  "candidates": [
+   {
+    "label": "control flow of oils",
+    "score": 0.7
+   },
+   {
+    "label": "control air flow",
+    "score": 0.7
+   },
+   {
+    "label": "handle cash flow",
+    "score": 0.639
+   },
+   {
+    "label": "perform process control in the wearing apparel industry",
+    "score": 0.639
+   },
+   {
+    "label": "control engineering",
+    "score": 0.639
+   }
+  ]
+ },
+ "arrays": {
+  "orig": "Arrays",
+  "esco": "types of containers",
+  "score": 0.638,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Arrays are a type of data structure, which is a broader category than 'containers' in some contexts, but 'types of containers' is the closest match among the options.",
+  "candidates": [
+   {
+    "label": "Assembly (computer programming)",
+    "score": 0.679
+   },
+   {
+    "label": "types of arrows",
+    "score": 0.673
+   },
+   {
+    "label": "augmented reality",
+    "score": 0.657
+   },
+   {
+    "label": "types of strings",
+    "score": 0.645
+   },
+   {
+    "label": "types of containers",
+    "score": 0.638
+   }
+  ]
+ },
+ "modular programming": {
+  "orig": "Modular Programming",
+  "esco": "use object-oriented programming",
+  "score": 0.713,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Modular programming is a broader concept that includes object-oriented programming.",
+  "candidates": [
+   {
+    "label": "use software design patterns",
+    "score": 0.754
+   },
+   {
+    "label": "use object-oriented programming",
+    "score": 0.713
+   },
+   {
+    "label": "monitor broadcast programming",
+    "score": 0.711
+   },
+   {
+    "label": "object-oriented modelling",
+    "score": 0.709
+   },
+   {
+    "label": "computer programming",
+    "score": 0.699
+   }
+  ]
+ },
+ "user-defined data types": {
+  "orig": "User-Defined Data Types",
+  "esco": "User-Defined Data Types",
+  "score": 0.712,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates directly refer to user-defined data types.",
+  "candidates": [
+   {
+    "label": "unstructured data",
+    "score": 0.712
+   },
+   {
+    "label": "information structure",
+    "score": 0.669
+   },
+   {
+    "label": "types of strings",
+    "score": 0.665
+   },
+   {
+    "label": "database",
+    "score": 0.655
+   },
+   {
+    "label": "data models",
+    "score": 0.649
+   }
+  ]
+ },
+ "data storage types": {
+  "orig": "Data Storage Types",
+  "esco": "data storage",
+  "score": 0.858,
+  "mapped": true,
+  "match": "broader",
+  "reason": "'Data storage' is the broader category that includes 'data storage types'.",
+  "candidates": [
+   {
+    "label": "data storage",
+    "score": 0.858
+   },
+   {
+    "label": "database",
+    "score": 0.793
+   },
+   {
+    "label": "data warehouse",
+    "score": 0.787
+   },
+   {
+    "label": "information structure",
+    "score": 0.782
+   },
+   {
+    "label": "types of storage facilities",
+    "score": 0.78
+   }
+  ]
+ },
+ "class concept": {
+  "orig": "Class Concept",
+  "esco": "Class Concept",
+  "score": 0.769,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates directly relate to 'Class Concept' in the context of categorization or classification.",
+  "candidates": [
+   {
+    "label": "develop a pedagogical concept",
+    "score": 0.769
+   },
+   {
+    "label": "determine visual concepts",
+    "score": 0.76
+   },
+   {
+    "label": "create new concepts",
+    "score": 0.738
+   },
+   {
+    "label": "think abstractly",
+    "score": 0.723
+   },
+   {
+    "label": "classify library materials",
+    "score": 0.714
+   }
+  ]
+ },
+ "constructors": {
+  "orig": "Constructors",
+  "esco": "use tools for construction and repair",
+  "score": 0.692,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Constructors involve building and repairing, which is covered by 'use tools for construction and repair'.",
+  "candidates": [
+   {
+    "label": "construct cores",
+    "score": 0.761
+   },
+   {
+    "label": "construction methods",
+    "score": 0.739
+   },
+   {
+    "label": "design prototypes",
+    "score": 0.735
+   },
+   {
+    "label": "build props",
+    "score": 0.714
+   },
+   {
+    "label": "use tools for construction and repair",
+    "score": 0.692
+   }
+  ]
+ },
+ "inheritance": {
+  "orig": "Inheritance",
+  "esco": "genetics",
+  "score": 0.755,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Inheritance in the context of law and estate planning is broader than 'genetics', but 'genetics' is the closest related ESCO label.",
+  "candidates": [
+   {
+    "label": "inheritance council practices",
+    "score": 0.82
+   },
+   {
+    "label": "genetics",
+    "score": 0.755
+   },
+   {
+    "label": "genealogy",
+    "score": 0.748
+   },
+   {
+    "label": "assist in will writing",
+    "score": 0.745
+   },
+   {
+    "label": "concurrent estate",
+    "score": 0.732
+   }
+  ]
+ },
+ "file processing": {
+  "orig": "File Processing",
+  "esco": "digital data processing",
+  "score": 0.77,
+  "mapped": true,
+  "match": "broader",
+  "reason": "File Processing is a type of digital data processing.",
+  "candidates": [
+   {
+    "label": "use word processing software",
+    "score": 0.794
+   },
+   {
+    "label": "process data",
+    "score": 0.777
+   },
+   {
+    "label": "digital data processing",
+    "score": 0.77
+   },
+   {
+    "label": "manage quantitative data",
+    "score": 0.743
+   },
+   {
+    "label": "interpret extraction data",
+    "score": 0.714
+   }
+  ]
+ },
+ "problem formulation": {
+  "orig": "Problem Formulation",
+  "esco": "theory of constraints",
+  "score": 0.676,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Theory of constraints is a broader category related to problem formulation in systems and processes.",
+  "candidates": [
+   {
+    "label": "mix treating materials",
+    "score": 0.689
+   },
+   {
+    "label": "theory of constraints",
+    "score": 0.676
+   },
+   {
+    "label": "reconstruct program theory",
+    "score": 0.672
+   },
+   {
+    "label": "solve operational transport problems",
+    "score": 0.671
+   },
+   {
+    "label": "translate formulae into processes",
+    "score": 0.667
+   }
+  ]
+ },
+ "c++ program writing and execution": {
+  "orig": "C++ Program Writing and Execution",
+  "esco": "C++",
+  "score": 0.794,
+  "mapped": true,
+  "match": "exact",
+  "reason": "C++ is the exact skill label for C++ Program Writing and Execution.",
+  "candidates": [
+   {
+    "label": "C++",
+    "score": 0.794
+   },
+   {
+    "label": "Microsoft Visual C++",
+    "score": 0.734
+   },
+   {
+    "label": "integrated development environment software",
+    "score": 0.73
+   },
+   {
+    "label": "computer programming",
+    "score": 0.713
+   },
+   {
+    "label": "firmware",
+    "score": 0.684
+   }
+  ]
+ },
+ "structured programming": {
+  "orig": "Structured Programming",
+  "esco": "Structured Programming",
+  "score": 0.722,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates exactly or broadly match 'Structured Programming'.",
+  "candidates": [
+   {
+    "label": "computer programming",
+    "score": 0.722
+   },
+   {
+    "label": "Assembly (computer programming)",
+    "score": 0.72
+   },
+   {
+    "label": "use software design patterns",
+    "score": 0.718
+   },
+   {
+    "label": "ICT project management methodologies",
+    "score": 0.712
+   },
+   {
+    "label": "use object-oriented programming",
+    "score": 0.71
+   }
+  ]
+ },
+ "object-oriented programming": {
+  "orig": "Object-Oriented Programming",
+  "esco": "use object-oriented programming",
+  "score": 0.922,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Label 1 directly refers to the skill of using object-oriented programming.",
+  "candidates": [
+   {
+    "label": "use object-oriented programming",
+    "score": 0.922
+   },
+   {
+    "label": "object-oriented modelling",
+    "score": 0.856
+   },
+   {
+    "label": "Python (computer programming)",
+    "score": 0.76
+   },
+   {
+    "label": "Java (computer programming)",
+    "score": 0.757
+   },
+   {
+    "label": "use software design patterns",
+    "score": 0.751
+   }
+  ]
+ },
+ "c/c++": {
+  "orig": "c/c++",
+  "esco": "C++",
+  "score": 0.926,
+  "mapped": true,
+  "match": "exact",
+  "reason": "C++ is the exact match for the skill 'C/C++'.",
+  "candidates": [
+   {
+    "label": "C++",
+    "score": 0.926
+   },
+   {
+    "label": "integrated development environment software",
+    "score": 0.822
+   },
+   {
+    "label": "Microsoft Visual C++",
+    "score": 0.786
+   },
+   {
+    "label": "computer programming",
+    "score": 0.775
+   },
+   {
+    "label": "CryEngine",
+    "score": 0.727
+   }
+  ]
+ },
+ "objectoriented programming": {
+  "orig": "objectoriented programming",
+  "esco": "use object-oriented programming",
+  "score": 0.913,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Label 1 directly matches the skill 'objectoriented programming' as a verb phrase.",
+  "candidates": [
+   {
+    "label": "use object-oriented programming",
+    "score": 0.913
+   },
+   {
+    "label": "object-oriented modelling",
+    "score": 0.871
+   },
+   {
+    "label": "Java (computer programming)",
+    "score": 0.81
+   },
+   {
+    "label": "computer programming",
+    "score": 0.804
+   },
+   {
+    "label": "use software design patterns",
+    "score": 0.783
+   }
+  ]
+ },
+ "embedded systems": {
+  "orig": "embedded systems",
+  "esco": "embedded systems",
+  "score": 1.0,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Candidate 1 is an exact match for the skill 'embedded systems'.",
+  "candidates": [
+   {
+    "label": "embedded systems",
+    "score": 1.0
+   },
+   {
+    "label": "database development tools",
+    "score": 0.815
+   },
+   {
+    "label": "electronics",
+    "score": 0.811
+   },
+   {
+    "label": "assemble microelectromechanical systems",
+    "score": 0.811
+   },
+   {
+    "label": "design microelectronics",
+    "score": 0.801
+   }
+  ]
+ },
+ "ip protocols": {
+  "orig": "ip protocols",
+  "esco": "ICT communications protocols",
+  "score": 0.807,
+  "mapped": true,
+  "match": "broader",
+  "reason": "IP protocols fall under ICT communications protocols as a broader category.",
+  "candidates": [
+   {
+    "label": "network standards",
+    "score": 0.871
+   },
+   {
+    "label": "ICT communications protocols",
+    "score": 0.807
+   },
+   {
+    "label": "communications sector policies",
+    "score": 0.79
+   },
+   {
+    "label": "broadcast using Internet Protocol",
+    "score": 0.765
+   },
+   {
+    "label": "ICT network routing",
+    "score": 0.742
+   }
+  ]
+ },
+ "realtime operating systems": {
+  "orig": "realtime operating systems",
+  "esco": "real-time computing",
+  "score": 0.872,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Real-time computing is the broader category that includes realtime operating systems.",
+  "candidates": [
+   {
+    "label": "real-time computing",
+    "score": 0.872
+   },
+   {
+    "label": "operating systems",
+    "score": 0.827
+   },
+   {
+    "label": "administer ICT system",
+    "score": 0.743
+   },
+   {
+    "label": "embedded systems",
+    "score": 0.733
+   },
+   {
+    "label": "install operating system",
+    "score": 0.73
+   }
+  ]
+ },
+ "linux": {
+  "orig": "linux",
+  "esco": "operating systems",
+  "score": 0.77,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Linux is a specific operating system, but 'operating systems' is the broader category it belongs to.",
+  "candidates": [
+   {
+    "label": "Kali Linux",
+    "score": 0.796
+   },
+   {
+    "label": "computer programming",
+    "score": 0.78
+   },
+   {
+    "label": "operating systems",
+    "score": 0.77
+   },
+   {
+    "label": "database management systems",
+    "score": 0.762
+   },
+   {
+    "label": "tools for software configuration management",
+    "score": 0.753
+   }
+  ]
+ },
+ "data acquisition": {
+  "orig": "data acquisition",
+  "esco": "gather data",
+  "score": 0.827,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Gather data is the direct synonym for data acquisition.",
+  "candidates": [
+   {
+    "label": "statistics",
+    "score": 0.866
+   },
+   {
+    "label": "gather data",
+    "score": 0.827
+   },
+   {
+    "label": "manage data collection systems",
+    "score": 0.788
+   },
+   {
+    "label": "collect samples",
+    "score": 0.786
+   },
+   {
+    "label": "record survey data",
+    "score": 0.784
+   }
+  ]
+ },
+ "robotics": {
+  "orig": "robotics",
+  "esco": "robotics",
+  "score": 1.0,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Candidate 1 is an exact match for the skill 'robotics'.",
+  "candidates": [
+   {
+    "label": "robotics",
+    "score": 1.0
+   },
+   {
+    "label": "robotic components",
+    "score": 0.88
+   },
+   {
+    "label": "assemble robots",
+    "score": 0.845
+   },
+   {
+    "label": "mechatronics",
+    "score": 0.827
+   },
+   {
+    "label": "guidance, navigation and control",
+    "score": 0.809
+   }
+  ]
+ },
+ "c": {
+  "orig": "c",
+  "esco": "c",
+  "score": 0.803,
+  "mapped": false,
+  "match": "none",
+  "reason": "'c' is not explicitly listed and none of the candidates are exact or broader matches.",
+  "candidates": [
+   {
+    "label": "C++",
+    "score": 0.803
+   },
+   {
+    "label": "computer programming",
+    "score": 0.777
+   },
+   {
+    "label": "integrated development environment software",
+    "score": 0.728
+   },
+   {
+    "label": "computational fluid dynamics",
+    "score": 0.694
+   },
+   {
+    "label": "Microsoft Visual C++",
+    "score": 0.685
+   }
+  ]
+ },
+ "spi": {
+  "orig": "spi",
+  "esco": "spi",
+  "score": 0.812,
+  "mapped": false,
+  "match": "none",
+  "reason": "The skill 'spi' is not clearly defined in the context provided, but it likely refers to 'Serial Peripheral Interface,' a communication protocol, which is not listed among the candidates.",
+  "candidates": [
+   {
+    "label": "integrated circuits",
+    "score": 0.812
+   },
+   {
+    "label": "security panels",
+    "score": 0.776
+   },
+   {
+    "label": "electronics",
+    "score": 0.775
+   },
+   {
+    "label": "microprocessors",
+    "score": 0.758
+   },
+   {
+    "label": "design microelectronics",
+    "score": 0.754
+   }
+  ]
+ },
+ "microcontrollers": {
+  "orig": "microcontrollers",
+  "esco": "embedded systems",
+  "score": 0.826,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Microcontrollers are a type of embedded system.",
+  "candidates": [
+   {
+    "label": "database development tools",
+    "score": 0.978
+   },
+   {
+    "label": "microprocessors",
+    "score": 0.913
+   },
+   {
+    "label": "robotic components",
+    "score": 0.913
+   },
+   {
+    "label": "integrated circuits",
+    "score": 0.878
+   },
+   {
+    "label": "embedded systems",
+    "score": 0.826
+   }
+  ]
+ },
+ "fpga": {
+  "orig": "fpga",
+  "esco": "field-programmable gate arrays",
+  "score": 0.969,
+  "mapped": true,
+  "match": "exact",
+  "reason": "FPGA is an acronym for field-programmable gate arrays, which matches candidate 1 exactly.",
+  "candidates": [
+   {
+    "label": "field-programmable gate arrays",
+    "score": 0.969
+   },
+   {
+    "label": "design firmware",
+    "score": 0.811
+   },
+   {
+    "label": "program firmware",
+    "score": 0.806
+   },
+   {
+    "label": "integrated circuits",
+    "score": 0.79
+   },
+   {
+    "label": "firmware",
+    "score": 0.789
+   }
+  ]
+ },
+ "rtos": {
+  "orig": "rtos",
+  "esco": "real-time computing",
+  "score": 0.694,
+  "mapped": true,
+  "match": "exact",
+  "reason": "RTOS (Real-Time Operating System) is a subset of real-time computing.",
+  "candidates": [
+   {
+    "label": "embedded systems",
+    "score": 0.758
+   },
+   {
+    "label": "robotics",
+    "score": 0.706
+   },
+   {
+    "label": "C++",
+    "score": 0.695
+   },
+   {
+    "label": "real-time computing",
+    "score": 0.694
+   },
+   {
+    "label": "Microsoft Visual C++",
+    "score": 0.675
+   }
+  ]
+ },
+ "i2c": {
+  "orig": "i2c",
+  "esco": "ICT communications protocols",
+  "score": 0.725,
+  "mapped": true,
+  "match": "broader",
+  "reason": "I2C is a communication protocol, so it falls under ICT communications protocols.",
+  "candidates": [
+   {
+    "label": "manoeuvre bus",
+    "score": 0.779
+   },
+   {
+    "label": "computer programming",
+    "score": 0.749
+   },
+   {
+    "label": "integrated circuits",
+    "score": 0.734
+   },
+   {
+    "label": "ICT communications protocols",
+    "score": 0.725
+   },
+   {
+    "label": "Internet of Things",
+    "score": 0.712
+   }
+  ]
+ },
+ "network architecture": {
+  "orig": "Network Architecture",
+  "esco": "network engineering",
+  "score": 0.924,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Network engineering is a broader category that includes network architecture design.",
+  "candidates": [
+   {
+    "label": "network engineering",
+    "score": 0.924
+   },
+   {
+    "label": "design cloud networks",
+    "score": 0.786
+   },
+   {
+    "label": "information architecture",
+    "score": 0.781
+   },
+   {
+    "label": "system design",
+    "score": 0.767
+   },
+   {
+    "label": "define ICT network design policies",
+    "score": 0.763
+   }
+  ]
+ },
+ "network protocols": {
+  "orig": "Network Protocols",
+  "esco": "ICT communications protocols",
+  "score": 0.809,
+  "mapped": true,
+  "match": "exact",
+  "reason": "ICT communications protocols directly refers to network protocols.",
+  "candidates": [
+   {
+    "label": "network standards",
+    "score": 0.931
+   },
+   {
+    "label": "ICT communications protocols",
+    "score": 0.809
+   },
+   {
+    "label": "communications sector policies",
+    "score": 0.792
+   },
+   {
+    "label": "cyber attack counter-measures",
+    "score": 0.761
+   },
+   {
+    "label": "computer technology",
+    "score": 0.757
+   }
+  ]
+ },
+ "virtualization": {
+  "orig": "Virtualization",
+  "esco": "manage ICT virtualisation environments",
+  "score": 0.859,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Label 1 directly refers to managing virtualization environments, which aligns exactly with the skill 'Virtualization'.",
+  "candidates": [
+   {
+    "label": "manage ICT virtualisation environments",
+    "score": 0.859
+   },
+   {
+    "label": "cloud technologies",
+    "score": 0.728
+   },
+   {
+    "label": "perform virtual simulation",
+    "score": 0.726
+   },
+   {
+    "label": "work with virtual learning environments",
+    "score": 0.719
+   },
+   {
+    "label": "Vagrant",
+    "score": 0.719
+   }
+  ]
+ },
+ "containerization": {
+  "orig": "Containerization",
+  "esco": "install containers",
+  "score": 0.731,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Install containers directly relates to the practice of containerization.",
+  "candidates": [
+   {
+    "label": "manage ICT virtualisation environments",
+    "score": 0.867
+   },
+   {
+    "label": "types of containers",
+    "score": 0.76
+   },
+   {
+    "label": "DevOps",
+    "score": 0.742
+   },
+   {
+    "label": "install containers",
+    "score": 0.731
+   },
+   {
+    "label": "Octopus Deploy",
+    "score": 0.712
+   }
+  ]
+ },
+ "network device configuration": {
+  "orig": "Network Device Configuration",
+  "esco": "configure electronic equipment",
+  "score": 0.758,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Configuring network devices is a type of configuring electronic equipment.",
+  "candidates": [
+   {
+    "label": "maintain internet protocol configuration",
+    "score": 0.768
+   },
+   {
+    "label": "configure electronic equipment",
+    "score": 0.758
+   },
+   {
+    "label": "network management system tools",
+    "score": 0.753
+   },
+   {
+    "label": "analyse network configuration and performance",
+    "score": 0.75
+   },
+   {
+    "label": "coordinate remote communications",
+    "score": 0.744
+   }
+  ]
+ },
+ "user account management": {
+  "orig": "User Account Management",
+  "esco": "manage accounts",
+  "score": 0.769,
+  "mapped": true,
+  "match": "exact",
+  "reason": "'Manage accounts' directly corresponds to 'User Account Management'.",
+  "candidates": [
+   {
+    "label": "manage accounts",
+    "score": 0.769
+   },
+   {
+    "label": "manage account department",
+    "score": 0.729
+   },
+   {
+    "label": "manage administrative systems",
+    "score": 0.71
+   },
+   {
+    "label": "use accounting systems",
+    "score": 0.71
+   },
+   {
+    "label": "assist with personal administration issues",
+    "score": 0.705
+   }
+  ]
+ },
+ "directory services": {
+  "orig": "Directory Services",
+  "esco": "distributed directory information services",
+  "score": 0.908,
+  "mapped": true,
+  "match": "broader",
+  "reason": "'Directory Services' is a broader category that includes 'distributed directory information services'.",
+  "candidates": [
+   {
+    "label": "distributed directory information services",
+    "score": 0.908
+   },
+   {
+    "label": "manage digital documents",
+    "score": 0.751
+   },
+   {
+    "label": "data warehouse",
+    "score": 0.742
+   },
+   {
+    "label": "CA Datacom/DB",
+    "score": 0.725
+   },
+   {
+    "label": "search databases",
+    "score": 0.724
+   }
+  ]
+ },
+ "network performance monitoring": {
+  "orig": "Network Performance Monitoring",
+  "esco": "analyse network configuration and performance",
+  "score": 0.808,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Candidate 1 is a broader category that includes network performance monitoring.",
+  "candidates": [
+   {
+    "label": "analyse network configuration and performance",
+    "score": 0.808
+   },
+   {
+    "label": "monitor system performance",
+    "score": 0.789
+   },
+   {
+    "label": "monitor traffic flow",
+    "score": 0.778
+   },
+   {
+    "label": "network management system tools",
+    "score": 0.767
+   },
+   {
+    "label": "monitor swimming-pool infrastructure",
+    "score": 0.766
+   }
+  ]
+ },
+ "network troubleshooting": {
+  "orig": "Network Troubleshooting",
+  "esco": "perform ICT troubleshooting",
+  "score": 0.784,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Network Troubleshooting is a subset of ICT troubleshooting.",
+  "candidates": [
+   {
+    "label": "troubleshoot website",
+    "score": 0.801
+   },
+   {
+    "label": "perform ICT troubleshooting",
+    "score": 0.784
+   },
+   {
+    "label": "analyse network configuration and performance",
+    "score": 0.77
+   },
+   {
+    "label": "troubleshoot",
+    "score": 0.754
+   },
+   {
+    "label": "network management system tools",
+    "score": 0.752
+   }
+  ]
+ },
+ "network service deployment": {
+  "orig": "Network Service Deployment",
+  "esco": "deploy ICT systems",
+  "score": 0.741,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Deploy ICT systems is a broader category that includes network service deployment.",
+  "candidates": [
+   {
+    "label": "deploy cloud resource",
+    "score": 0.783
+   },
+   {
+    "label": "design cloud networks",
+    "score": 0.778
+   },
+   {
+    "label": "solution deployment",
+    "score": 0.758
+   },
+   {
+    "label": "deploy ICT systems",
+    "score": 0.741
+   },
+   {
+    "label": "service-oriented modelling",
+    "score": 0.735
+   }
+  ]
+ },
+ "data backup and recovery": {
+  "orig": "Data Backup and Recovery",
+  "esco": "use back-up and recovery tools",
+  "score": 0.918,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Label 1 directly refers to using back-up and recovery tools, which aligns exactly with the skill of Data Backup and Recovery.",
+  "candidates": [
+   {
+    "label": "use back-up and recovery tools",
+    "score": 0.918
+   },
+   {
+    "label": "store digital data and systems",
+    "score": 0.872
+   },
+   {
+    "label": "perform backups",
+    "score": 0.848
+   },
+   {
+    "label": "implement ICT recovery system",
+    "score": 0.826
+   },
+   {
+    "label": "system backup best practice",
+    "score": 0.826
+   }
+  ]
+ },
+ "access control management": {
+  "orig": "Access Control Management",
+  "esco": "use access control software",
+  "score": 0.841,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Access Control Management directly involves using software to control access.",
+  "candidates": [
+   {
+    "label": "information confidentiality",
+    "score": 0.855
+   },
+   {
+    "label": "use access control software",
+    "score": 0.841
+   },
+   {
+    "label": "protect ICT devices",
+    "score": 0.841
+   },
+   {
+    "label": "manage access programmes",
+    "score": 0.766
+   },
+   {
+    "label": "manage securities",
+    "score": 0.766
+   }
+  ]
+ },
+ "backup and recovery": {
+  "orig": "Backup and Recovery",
+  "esco": "use back-up and recovery tools",
+  "score": 0.857,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Label 1 directly refers to the use of back-up and recovery tools, which aligns exactly with the skill 'Backup and Recovery'.",
+  "candidates": [
+   {
+    "label": "use back-up and recovery tools",
+    "score": 0.857
+   },
+   {
+    "label": "store digital data and systems",
+    "score": 0.845
+   },
+   {
+    "label": "perform backups",
+    "score": 0.832
+   },
+   {
+    "label": "implement ICT recovery system",
+    "score": 0.828
+   },
+   {
+    "label": "system backup best practice",
+    "score": 0.823
+   }
+  ]
+ },
+ "network service concepts": {
+  "orig": "Network Service Concepts",
+  "esco": "Network Service Concepts",
+  "score": 0.757,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates directly or broadly match 'Network Service Concepts'.",
+  "candidates": [
+   {
+    "label": "network management system tools",
+    "score": 0.757
+   },
+   {
+    "label": "service-oriented modelling",
+    "score": 0.754
+   },
+   {
+    "label": "design cloud networks",
+    "score": 0.747
+   },
+   {
+    "label": "ICT system programming",
+    "score": 0.723
+   },
+   {
+    "label": "expand the network of providers",
+    "score": 0.712
+   }
+  ]
+ },
+ "security principles": {
+  "orig": "Security Principles",
+  "esco": "data security principles",
+  "score": 0.86,
+  "mapped": true,
+  "match": "exact",
+  "reason": "'Data security principles' directly corresponds to the skill 'Security Principles' in the context of data protection.",
+  "candidates": [
+   {
+    "label": "data security principles",
+    "score": 0.86
+   },
+   {
+    "label": "security regulations",
+    "score": 0.859
+   },
+   {
+    "label": "security engineering",
+    "score": 0.844
+   },
+   {
+    "label": "monitor security measures",
+    "score": 0.821
+   },
+   {
+    "label": "coordinate security",
+    "score": 0.806
+   }
+  ]
+ },
+ "system operations": {
+  "orig": "System Operations",
+  "esco": "System Operations",
+  "score": 0.843,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates directly or broadly match 'System Operations'.",
+  "candidates": [
+   {
+    "label": "ICT infrastructure",
+    "score": 0.843
+   },
+   {
+    "label": "manage maintenance operations",
+    "score": 0.808
+   },
+   {
+    "label": "manage instrumentation systems",
+    "score": 0.78
+   },
+   {
+    "label": "monitor operations in the leather industry",
+    "score": 0.777
+   },
+   {
+    "label": "monitor well operations",
+    "score": 0.773
+   }
+  ]
+ },
+ "infrastructure concepts": {
+  "orig": "Infrastructure Concepts",
+  "esco": "Infrastructure Concepts",
+  "score": 0.801,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates directly denote 'Infrastructure Concepts' as a general skill or category.",
+  "candidates": [
+   {
+    "label": "promote innovative infrastructure design",
+    "score": 0.801
+   },
+   {
+    "label": "rail infrastructure",
+    "score": 0.794
+   },
+   {
+    "label": "design transportation systems",
+    "score": 0.791
+   },
+   {
+    "label": "track geometry",
+    "score": 0.788
+   },
+   {
+    "label": "city road network",
+    "score": 0.785
+   }
+  ]
+ },
+ "system configuration": {
+  "orig": "System Configuration",
+  "esco": "tools for software configuration management",
+  "score": 0.764,
+  "mapped": true,
+  "match": "broader",
+  "reason": "System Configuration is a broader category that includes software configuration management tools.",
+  "candidates": [
+   {
+    "label": "integrate system components",
+    "score": 0.766
+   },
+   {
+    "label": "tools for software configuration management",
+    "score": 0.764
+   },
+   {
+    "label": "control systems",
+    "score": 0.73
+   },
+   {
+    "label": "Chef (tools for software configuration management)",
+    "score": 0.723
+   },
+   {
+    "label": "types of photovoltaic panels",
+    "score": 0.722
+   }
+  ]
+ },
+ "network addressing": {
+  "orig": "Network Addressing",
+  "esco": "ICT network routing",
+  "score": 0.744,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Network Addressing is a component of ICT network routing.",
+  "candidates": [
+   {
+    "label": "network standards",
+    "score": 0.752
+   },
+   {
+    "label": "ICT network routing",
+    "score": 0.744
+   },
+   {
+    "label": "coordinate remote communications",
+    "score": 0.714
+   },
+   {
+    "label": "network engineering",
+    "score": 0.709
+   },
+   {
+    "label": "implement a virtual private network",
+    "score": 0.707
+   }
+  ]
+ },
+ "service usage identification": {
+  "orig": "Service Usage Identification",
+  "esco": "identify available services",
+  "score": 0.773,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Label 1 directly corresponds to identifying available services, which aligns with 'Service Usage Identification'.",
+  "candidates": [
+   {
+    "label": "identify available services",
+    "score": 0.773
+   },
+   {
+    "label": "conduct customer identification",
+    "score": 0.743
+   },
+   {
+    "label": "identify vehicles service requirements",
+    "score": 0.74
+   },
+   {
+    "label": "measure effectiveness of the service provided",
+    "score": 0.72
+   },
+   {
+    "label": "evaluate information services using metrics",
+    "score": 0.715
+   }
+  ]
+ },
+ "network engineering": {
+  "orig": "network engineering",
+  "esco": "network engineering",
+  "score": 1.0,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Candidate 1 is an exact match for the skill 'network engineering'.",
+  "candidates": [
+   {
+    "label": "network engineering",
+    "score": 1.0
+   },
+   {
+    "label": "security engineering",
+    "score": 0.808
+   },
+   {
+    "label": "network management system tools",
+    "score": 0.8
+   },
+   {
+    "label": "telecommunications engineering",
+    "score": 0.791
+   },
+   {
+    "label": "computer technology",
+    "score": 0.783
+   }
+  ]
+ },
+ "network design": {
+  "orig": "network design",
+  "esco": "network engineering",
+  "score": 0.861,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Network engineering is a broader category that includes network design.",
+  "candidates": [
+   {
+    "label": "network engineering",
+    "score": 0.861
+   },
+   {
+    "label": "computer technology",
+    "score": 0.84
+   },
+   {
+    "label": "network standards",
+    "score": 0.826
+   },
+   {
+    "label": "design cloud networks",
+    "score": 0.823
+   },
+   {
+    "label": "ICT network routing",
+    "score": 0.821
+   }
+  ]
+ },
+ "ccna": {
+  "orig": "ccna",
+  "esco": "network engineering",
+  "score": 0.756,
+  "mapped": true,
+  "match": "broader",
+  "reason": "CCNA is a certification in network engineering",
+  "candidates": [
+   {
+    "label": "network engineering",
+    "score": 0.756
+   },
+   {
+    "label": "procurement of ICT network equipment",
+    "score": 0.732
+   },
+   {
+    "label": "Cisco",
+    "score": 0.727
+   },
+   {
+    "label": "network standards",
+    "score": 0.691
+   },
+   {
+    "label": "computer technology",
+    "score": 0.688
+   }
+  ]
+ },
+ "ospf": {
+  "orig": "ospf",
+  "esco": "ICT network routing",
+  "score": 0.724,
+  "mapped": true,
+  "match": "exact",
+  "reason": "OSPF is a specific network routing protocol within ICT.",
+  "candidates": [
+   {
+    "label": "ICT network routing",
+    "score": 0.724
+   },
+   {
+    "label": "geographical routes",
+    "score": 0.678
+   },
+   {
+    "label": "call routing",
+    "score": 0.672
+   },
+   {
+    "label": "procurement of ICT network equipment",
+    "score": 0.664
+   },
+   {
+    "label": "network standards",
+    "score": 0.658
+   }
+  ]
+ },
+ "bgp": {
+  "orig": "bgp",
+  "esco": "ICT network routing",
+  "score": 0.698,
+  "mapped": true,
+  "match": "exact",
+  "reason": "BGP (Border Gateway Protocol) is a specific protocol used in ICT network routing.",
+  "candidates": [
+   {
+    "label": "geographical routes",
+    "score": 0.7
+   },
+   {
+    "label": "ICT network routing",
+    "score": 0.698
+   },
+   {
+    "label": "call routing",
+    "score": 0.685
+   },
+   {
+    "label": "broadcast using Internet Protocol",
+    "score": 0.669
+   },
+   {
+    "label": "procurement of ICT network equipment",
+    "score": 0.66
+   }
+  ]
+ },
+ "mpls": {
+  "orig": "mpls",
+  "esco": "ICT network routing",
+  "score": 0.715,
+  "mapped": true,
+  "match": "broader",
+  "reason": "MPLS is a specific type of network routing technology within the broader category of ICT network routing.",
+  "candidates": [
+   {
+    "label": "ICT network routing",
+    "score": 0.715
+   },
+   {
+    "label": "telecommunication trunking",
+    "score": 0.689
+   },
+   {
+    "label": "communications sector policies",
+    "score": 0.688
+   },
+   {
+    "label": "call routing",
+    "score": 0.685
+   },
+   {
+    "label": "network management system tools",
+    "score": 0.683
+   }
+  ]
+ },
+ "dns": {
+  "orig": "dns",
+  "esco": "domain name service",
+  "score": 0.954,
+  "mapped": true,
+  "match": "exact",
+  "reason": "DNS is the exact term for domain name service.",
+  "candidates": [
+   {
+    "label": "domain name service",
+    "score": 0.954
+   },
+   {
+    "label": "LDAP",
+    "score": 0.729
+   },
+   {
+    "label": "ICT encryption",
+    "score": 0.721
+   },
+   {
+    "label": "proxy servers",
+    "score": 0.709
+   },
+   {
+    "label": "Visual Basic",
+    "score": 0.688
+   }
+  ]
+ },
+ "isis": {
+  "orig": "isis",
+  "esco": "isis",
+  "score": 0.86,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates relate to 'ISIS' (Islamic State of Iraq and Syria), as it is a terrorist organization, not a technical skill.",
+  "candidates": [
+   {
+    "label": "integrated circuits",
+    "score": 0.86
+   },
+   {
+    "label": "artificial neural networks",
+    "score": 0.831
+   },
+   {
+    "label": "reverse engineering",
+    "score": 0.814
+   },
+   {
+    "label": "scaffolding components",
+    "score": 0.813
+   },
+   {
+    "label": "make abstracts",
+    "score": 0.805
+   }
+  ]
+ },
+ "segment routing": {
+  "orig": "segment routing",
+  "esco": "ICT network routing",
+  "score": 0.819,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Segment routing is a type of ICT network routing technique.",
+  "candidates": [
+   {
+    "label": "call routing",
+    "score": 0.827
+   },
+   {
+    "label": "ICT network routing",
+    "score": 0.819
+   },
+   {
+    "label": "geographical routes",
+    "score": 0.811
+   },
+   {
+    "label": "telecommunication trunking",
+    "score": 0.74
+   },
+   {
+    "label": "ground segment",
+    "score": 0.723
+   }
+  ]
+ },
+ "tcp/ip": {
+  "orig": "tcp/ip",
+  "esco": "broadcast using Internet Protocol",
+  "score": 0.736,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Label 2 directly refers to using Internet Protocol, which is central to TCP/IP.",
+  "candidates": [
+   {
+    "label": "network standards",
+    "score": 0.822
+   },
+   {
+    "label": "broadcast using Internet Protocol",
+    "score": 0.736
+   },
+   {
+    "label": "ICT encryption",
+    "score": 0.73
+   },
+   {
+    "label": "ICT system programming",
+    "score": 0.719
+   },
+   {
+    "label": "transmission technology",
+    "score": 0.694
+   }
+  ]
+ },
+ "ipsec vpn": {
+  "orig": "ipsec vpn",
+  "esco": "implement a virtual private network",
+  "score": 0.809,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Implementing a virtual private network (VPN) directly relates to IPsec VPN technology.",
+  "candidates": [
+   {
+    "label": "implement a virtual private network",
+    "score": 0.809
+   },
+   {
+    "label": "protect ICT devices",
+    "score": 0.721
+   },
+   {
+    "label": "procurement of ICT network equipment",
+    "score": 0.71
+   },
+   {
+    "label": "cyber attack counter-measures",
+    "score": 0.706
+   },
+   {
+    "label": "Maltego",
+    "score": 0.702
+   }
+  ]
+ },
+ "routing protocols": {
+  "orig": "routing protocols",
+  "esco": "ICT network routing",
+  "score": 0.838,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Routing protocols are a specific aspect of ICT network routing.",
+  "candidates": [
+   {
+    "label": "ICT network routing",
+    "score": 0.838
+   },
+   {
+    "label": "network standards",
+    "score": 0.786
+   },
+   {
+    "label": "geographical routes",
+    "score": 0.764
+   },
+   {
+    "label": "call routing",
+    "score": 0.739
+   },
+   {
+    "label": "communications sector policies",
+    "score": 0.716
+   }
+  ]
+ },
+ "multitenant infrastructure": {
+  "orig": "multitenant infrastructure",
+  "esco": "ICT infrastructure",
+  "score": 0.773,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Multitenant infrastructure is a type of ICT infrastructure.",
+  "candidates": [
+   {
+    "label": "information structure",
+    "score": 0.799
+   },
+   {
+    "label": "TripleStore",
+    "score": 0.778
+   },
+   {
+    "label": "ICT infrastructure",
+    "score": 0.773
+   },
+   {
+    "label": "apply systemic design thinking",
+    "score": 0.754
+   },
+   {
+    "label": "Teradata Database",
+    "score": 0.753
+   }
+  ]
+ },
+ "dhcp": {
+  "orig": "dhcp",
+  "esco": "domain name service",
+  "score": 0.718,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Domain Name Service (DNS) is a broader category that includes DHCP, as both are part of network configuration and management.",
+  "candidates": [
+   {
+    "label": "transmission technology",
+    "score": 0.769
+   },
+   {
+    "label": "Cisco",
+    "score": 0.739
+   },
+   {
+    "label": "cyber security",
+    "score": 0.726
+   },
+   {
+    "label": "domain name service",
+    "score": 0.718
+   },
+   {
+    "label": "cyber attack counter-measures",
+    "score": 0.714
+   }
+  ]
+ },
+ "ipam": {
+  "orig": "ipam",
+  "esco": "integrated pest management",
+  "score": 0.744,
+  "mapped": true,
+  "match": "broader",
+  "reason": "IPAM refers to Integrated Pest Management, a broader category",
+  "candidates": [
+   {
+    "label": "project management methodology (PM²)",
+    "score": 0.747
+   },
+   {
+    "label": "integrated pest management",
+    "score": 0.744
+   },
+   {
+    "label": "use presentation software",
+    "score": 0.739
+   },
+   {
+    "label": "learning management systems",
+    "score": 0.728
+   },
+   {
+    "label": "digital identity management",
+    "score": 0.725
+   }
+  ]
+ },
+ "ansible": {
+  "orig": "ansible",
+  "esco": "Ansible",
+  "score": 0.859,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Candidate 1 is the exact name of the skill.",
+  "candidates": [
+   {
+    "label": "Ansible",
+    "score": 0.859
+   },
+   {
+    "label": "Puppet (tools for software configuration management)",
+    "score": 0.756
+   },
+   {
+    "label": "tools for software configuration management",
+    "score": 0.736
+   },
+   {
+    "label": "Vagrant",
+    "score": 0.728
+   },
+   {
+    "label": "Chef (tools for software configuration management)",
+    "score": 0.697
+   }
+  ]
+ },
+ "bind": {
+  "orig": "bind",
+  "esco": "binding technologies",
+  "score": 0.742,
+  "mapped": true,
+  "match": "exact",
+  "reason": "'Binding technologies' directly refers to the skill of 'bind' in the context of technology or software.",
+  "candidates": [
+   {
+    "label": "decommissioning",
+    "score": 0.771
+   },
+   {
+    "label": "communication",
+    "score": 0.755
+   },
+   {
+    "label": "scaffolding components",
+    "score": 0.742
+   },
+   {
+    "label": "binding technologies",
+    "score": 0.742
+   },
+   {
+    "label": "business intelligence",
+    "score": 0.736
+   }
+  ]
+ },
+ "infoblox": {
+  "orig": "infoblox",
+  "esco": "infoblox",
+  "score": 0.787,
+  "mapped": false,
+  "match": "none",
+  "reason": "Infoblox is not listed in the candidates, and none of the candidates refer to Infoblox specifically or as a category.",
+  "candidates": [
+   {
+    "label": "procurement of ICT network equipment",
+    "score": 0.787
+   },
+   {
+    "label": "Cisco",
+    "score": 0.738
+   },
+   {
+    "label": "network management system tools",
+    "score": 0.728
+   },
+   {
+    "label": "IBM Informix",
+    "score": 0.725
+   },
+   {
+    "label": "database management systems",
+    "score": 0.724
+   }
+  ]
+ },
+ "data analytics": {
+  "orig": "data analytics",
+  "esco": "data analytics",
+  "score": 1.0,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Candidate 1 is an exact match for the skill 'data analytics'.",
+  "candidates": [
+   {
+    "label": "data analytics",
+    "score": 1.0
+   },
+   {
+    "label": "business analytics",
+    "score": 0.936
+   },
+   {
+    "label": "business intelligence",
+    "score": 0.936
+   },
+   {
+    "label": "statistics",
+    "score": 0.935
+   },
+   {
+    "label": "marketing analytics",
+    "score": 0.898
+   }
+  ]
+ },
+ "business intelligence": {
+  "orig": "business intelligence",
+  "esco": "business intelligence",
+  "score": 1.0,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Candidate 1 is an exact match for the skill 'business intelligence'.",
+  "candidates": [
+   {
+    "label": "business intelligence",
+    "score": 1.0
+   },
+   {
+    "label": "business analytics",
+    "score": 0.885
+   },
+   {
+    "label": "business analysis",
+    "score": 0.822
+   },
+   {
+    "label": "business processes",
+    "score": 0.822
+   },
+   {
+    "label": "financial analysis",
+    "score": 0.822
+   }
+  ]
+ },
+ "power bi": {
+  "orig": "power bi",
+  "esco": "business intelligence",
+  "score": 0.791,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Power BI is a specific business intelligence tool, and 'business intelligence' is the broader category it belongs to.",
+  "candidates": [
+   {
+    "label": "Informatica PowerCenter",
+    "score": 0.801
+   },
+   {
+    "label": "business intelligence",
+    "score": 0.791
+   },
+   {
+    "label": "SQL Server Integration Services",
+    "score": 0.766
+   },
+   {
+    "label": "Microsoft Access",
+    "score": 0.761
+   },
+   {
+    "label": "online analytical processing",
+    "score": 0.758
+   }
+  ]
+ },
+ "excel": {
+  "orig": "excel",
+  "esco": "use spreadsheets software",
+  "score": 0.895,
+  "mapped": true,
+  "match": "exact",
+  "reason": "'Excel' is a spreadsheet software, so 'use spreadsheets software' is the exact match.",
+  "candidates": [
+   {
+    "label": "use spreadsheets software",
+    "score": 0.895
+   },
+   {
+    "label": "use microsoft office",
+    "score": 0.866
+   },
+   {
+    "label": "use mathematical tools and equipment",
+    "score": 0.818
+   },
+   {
+    "label": "office software",
+    "score": 0.792
+   },
+   {
+    "label": "Microsoft Access",
+    "score": 0.772
+   }
+  ]
+ },
+ "reporting": {
+  "orig": "reporting",
+  "esco": "write work-related reports",
+  "score": 0.878,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Writing work-related reports directly corresponds to the skill of reporting.",
+  "candidates": [
+   {
+    "label": "report facts",
+    "score": 0.887
+   },
+   {
+    "label": "write work-related reports",
+    "score": 0.878
+   },
+   {
+    "label": "report analysis results",
+    "score": 0.875
+   },
+   {
+    "label": "journalism",
+    "score": 0.864
+   },
+   {
+    "label": "report well results",
+    "score": 0.846
+   }
+  ]
+ },
+ "data warehousing": {
+  "orig": "data warehousing",
+  "esco": "data warehouse",
+  "score": 0.927,
+  "mapped": true,
+  "match": "exact",
+  "reason": "'data warehouse' is the standard term for the skill or concept referred to by 'data warehousing'.",
+  "candidates": [
+   {
+    "label": "data warehouse",
+    "score": 0.927
+   },
+   {
+    "label": "implement data warehousing techniques",
+    "score": 0.898
+   },
+   {
+    "label": "operate warehouse record systems",
+    "score": 0.838
+   },
+   {
+    "label": "Teradata Database",
+    "score": 0.827
+   },
+   {
+    "label": "use a warehouse management system",
+    "score": 0.824
+   }
+  ]
+ },
+ "data management": {
+  "orig": "data management",
+  "esco": "manage data, information and digital content",
+  "score": 0.838,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Data management is a broader category that includes managing data, information, and digital content.",
+  "candidates": [
+   {
+    "label": "knowledge management",
+    "score": 0.846
+   },
+   {
+    "label": "manage data, information and digital content",
+    "score": 0.838
+   },
+   {
+    "label": "manage data collection systems",
+    "score": 0.837
+   },
+   {
+    "label": "statistics",
+    "score": 0.83
+   },
+   {
+    "label": "manage data",
+    "score": 0.83
+   }
+  ]
+ },
+ "data quality": {
+  "orig": "data quality",
+  "esco": "data quality assessment",
+  "score": 0.946,
+  "mapped": true,
+  "match": "exact",
+  "reason": "'data quality assessment' directly refers to evaluating data quality, which aligns with the skill 'data quality'.",
+  "candidates": [
+   {
+    "label": "data quality assessment",
+    "score": 0.946
+   },
+   {
+    "label": "database quality standards",
+    "score": 0.895
+   },
+   {
+    "label": "define data quality criteria",
+    "score": 0.824
+   },
+   {
+    "label": "implement data quality processes",
+    "score": 0.818
+   },
+   {
+    "label": "manage quality",
+    "score": 0.816
+   }
+  ]
+ },
+ "sas": {
+  "orig": "sas",
+  "esco": "SAS language",
+  "score": 0.865,
+  "mapped": true,
+  "match": "exact",
+  "reason": "SAS language is the exact skill denoted by 'sas'.",
+  "candidates": [
+   {
+    "label": "SAS Data Management",
+    "score": 0.888
+   },
+   {
+    "label": "SAS language",
+    "score": 0.865
+   },
+   {
+    "label": "SAP Data Services",
+    "score": 0.804
+   },
+   {
+    "label": "graphics editor software",
+    "score": 0.777
+   },
+   {
+    "label": "SAP R3",
+    "score": 0.768
+   }
+  ]
+ },
+ "communication": {
+  "orig": "communication",
+  "esco": "communication",
+  "score": 1.0,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Candidate 1 is an exact match for the skill 'communication'.",
+  "candidates": [
+   {
+    "label": "communication",
+    "score": 1.0
+   },
+   {
+    "label": "electronic communication",
+    "score": 0.863
+   },
+   {
+    "label": "digital communication and collaboration",
+    "score": 0.863
+   },
+   {
+    "label": "manage online communications",
+    "score": 0.828
+   },
+   {
+    "label": "use communication and collaboration software",
+    "score": 0.825
+   }
+  ]
+ },
+ "project management": {
+  "orig": "project management",
+  "esco": "project management",
+  "score": 1.0,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Candidate 1 is an exact match for the skill 'project management'.",
+  "candidates": [
+   {
+    "label": "project management",
+    "score": 1.0
+   },
+   {
+    "label": "project commissioning",
+    "score": 1.0
+   },
+   {
+    "label": "perform project management",
+    "score": 0.938
+   },
+   {
+    "label": "project management methodology (PM²)",
+    "score": 0.906
+   },
+   {
+    "label": "ICT project management methodologies",
+    "score": 0.906
+   }
+  ]
+ },
+ "communication skills": {
+  "orig": "communication skills",
+  "esco": "communication",
+  "score": 0.826,
+  "mapped": true,
+  "match": "broader",
+  "reason": "'Communication' is the broader category that encompasses 'communication skills'.",
+  "candidates": [
+   {
+    "label": "communication principles",
+    "score": 0.848
+   },
+   {
+    "label": "communicate in an outdoor setting",
+    "score": 0.844
+   },
+   {
+    "label": "teach communication methods",
+    "score": 0.834
+   },
+   {
+    "label": "business communication",
+    "score": 0.829
+   },
+   {
+    "label": "communication",
+    "score": 0.826
+   }
+  ]
+ },
+ "teamwork": {
+  "orig": "teamwork",
+  "esco": "work in teams",
+  "score": 0.954,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Work in teams is the direct and exact equivalent of teamwork.",
+  "candidates": [
+   {
+    "label": "work in teams",
+    "score": 0.954
+   },
+   {
+    "label": "manage teamwork",
+    "score": 0.937
+   },
+   {
+    "label": "teamwork principles",
+    "score": 0.914
+   },
+   {
+    "label": "team building",
+    "score": 0.879
+   },
+   {
+    "label": "cooperate with colleagues",
+    "score": 0.858
+   }
+  ]
+ },
+ "problem solving": {
+  "orig": "problem solving",
+  "esco": "solve problems",
+  "score": 0.892,
+  "mapped": true,
+  "match": "exact",
+  "reason": "'solve problems' is the most direct and exact match for the skill 'problem solving'.",
+  "candidates": [
+   {
+    "label": "solve problems",
+    "score": 0.892
+   },
+   {
+    "label": "develop strategy to solve problems",
+    "score": 0.862
+   },
+   {
+    "label": "create solutions to problems",
+    "score": 0.853
+   },
+   {
+    "label": "problem-solving with digital tools",
+    "score": 0.836
+   },
+   {
+    "label": "design thinking",
+    "score": 0.823
+   }
+  ]
+ },
+ "troubleshooting": {
+  "orig": "troubleshooting",
+  "esco": "troubleshoot",
+  "score": 1.0,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Label 1 is the direct verb form of the skill 'troubleshooting'.",
+  "candidates": [
+   {
+    "label": "troubleshoot",
+    "score": 1.0
+   },
+   {
+    "label": "solve ICT system problems",
+    "score": 0.87
+   },
+   {
+    "label": "troubleshoot website",
+    "score": 0.843
+   },
+   {
+    "label": "solve technical problems",
+    "score": 0.807
+   },
+   {
+    "label": "resolve equipment malfunctions",
+    "score": 0.797
+   }
+  ]
+ },
+ "leadership": {
+  "orig": "leadership",
+  "esco": "leadership principles",
+  "score": 0.884,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Leadership principles is the broader category encompassing leadership.",
+  "candidates": [
+   {
+    "label": "leadership principles",
+    "score": 0.884
+   },
+   {
+    "label": "lead a team",
+    "score": 0.852
+   },
+   {
+    "label": "leadership in nursing",
+    "score": 0.831
+   },
+   {
+    "label": "lead others",
+    "score": 0.818
+   },
+   {
+    "label": "encourage teambuilding",
+    "score": 0.815
+   }
+  ]
+ },
+ "problemsolving": {
+  "orig": "problemsolving",
+  "esco": "solve problems",
+  "score": 0.866,
+  "mapped": true,
+  "match": "exact",
+  "reason": "'solve problems' is the direct and standard label for the skill 'problem solving'.",
+  "candidates": [
+   {
+    "label": "solve problems",
+    "score": 0.866
+   },
+   {
+    "label": "create solutions to problems",
+    "score": 0.859
+   },
+   {
+    "label": "develop strategy to solve problems",
+    "score": 0.857
+   },
+   {
+    "label": "design thinking",
+    "score": 0.815
+   },
+   {
+    "label": "problem-solving with digital tools",
+    "score": 0.815
+   }
+  ]
+ },
+ "collaboration": {
+  "orig": "collaboration",
+  "esco": "digital communication and collaboration",
+  "score": 0.828,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Collaboration is a broader concept encompassed by digital communication and collaboration.",
+  "candidates": [
+   {
+    "label": "cooperate with colleagues",
+    "score": 0.884
+   },
+   {
+    "label": "work in teams",
+    "score": 0.86
+   },
+   {
+    "label": "web based collaborative platforms",
+    "score": 0.832
+   },
+   {
+    "label": "digital communication and collaboration",
+    "score": 0.828
+   },
+   {
+    "label": "establish collaborative relations",
+    "score": 0.827
+   }
+  ]
+ },
+ "attention to detail": {
+  "orig": "attention to detail",
+  "esco": "attend to detail",
+  "score": 0.869,
+  "mapped": true,
+  "match": "exact",
+  "reason": "'Attend to detail' is the exact match for 'attention to detail'.",
+  "candidates": [
+   {
+    "label": "attend to detail",
+    "score": 0.869
+   },
+   {
+    "label": "attend to detail in casting processes",
+    "score": 0.806
+   },
+   {
+    "label": "capture people's attention",
+    "score": 0.759
+   },
+   {
+    "label": "show empathy",
+    "score": 0.757
+   },
+   {
+    "label": "maintain concentration for long periods",
+    "score": 0.756
+   }
+  ]
+ },
+ "analytical skills": {
+  "orig": "analytical skills",
+  "esco": "think analytically",
+  "score": 0.933,
+  "mapped": true,
+  "match": "exact",
+  "reason": "'Think analytically' directly corresponds to the core of 'analytical skills'.",
+  "candidates": [
+   {
+    "label": "think analytically",
+    "score": 0.933
+   },
+   {
+    "label": "communicate analytical insights",
+    "score": 0.799
+   },
+   {
+    "label": "process qualitative information",
+    "score": 0.795
+   },
+   {
+    "label": "online analytical processing",
+    "score": 0.795
+   },
+   {
+    "label": "perform data analysis",
+    "score": 0.785
+   }
+  ]
+ },
+ "customer service": {
+  "orig": "customer service",
+  "esco": "customer service",
+  "score": 1.0,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Label 1 is an exact match for the skill 'customer service'.",
+  "candidates": [
+   {
+    "label": "customer service",
+    "score": 1.0
+   },
+   {
+    "label": "assist customers",
+    "score": 0.908
+   },
+   {
+    "label": "manage customer service",
+    "score": 0.889
+   },
+   {
+    "label": "communicate with customers",
+    "score": 0.882
+   },
+   {
+    "label": "maintain customer service",
+    "score": 0.882
+   }
+  ]
+ },
+ "bachelor's degree": {
+  "orig": "bachelor's degree",
+  "esco": "bachelor's degree",
+  "score": 0.684,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates directly refer to a bachelor's degree.",
+  "candidates": [
+   {
+    "label": "post-secondary school procedures",
+    "score": 0.684
+   },
+   {
+    "label": "adult education",
+    "score": 0.682
+   },
+   {
+    "label": "manage university department",
+    "score": 0.678
+   },
+   {
+    "label": "education administration",
+    "score": 0.67
+   },
+   {
+    "label": "teach further education",
+    "score": 0.659
+   }
+  ]
+ },
+ "computer science": {
+  "orig": "computer science",
+  "esco": "computer science",
+  "score": 1.0,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Candidate 1 is an exact match for the skill 'computer science'.",
+  "candidates": [
+   {
+    "label": "computer science",
+    "score": 1.0
+   },
+   {
+    "label": "teach computer science",
+    "score": 0.848
+   },
+   {
+    "label": "algorithms",
+    "score": 0.837
+   },
+   {
+    "label": "computational mechanics",
+    "score": 0.83
+   },
+   {
+    "label": "computer engineering",
+    "score": 0.822
+   }
+  ]
+ },
+ "software development": {
+  "orig": "software development",
+  "esco": "software development",
+  "score": 0.911,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates exactly match 'software development' or represent its standard broader category.",
+  "candidates": [
+   {
+    "label": "computer engineering",
+    "score": 0.911
+   },
+   {
+    "label": "ICT project management methodologies",
+    "score": 0.841
+   },
+   {
+    "label": "create software design",
+    "score": 0.839
+   },
+   {
+    "label": "oversee development of software",
+    "score": 0.824
+   },
+   {
+    "label": "software frameworks",
+    "score": 0.8
+   }
+  ]
+ },
+ "algorithm selection": {
+  "orig": "algorithm selection",
+  "esco": "task algorithmisation",
+  "score": 0.781,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Task algorithmisation encompasses the process of selecting and applying algorithms.",
+  "candidates": [
+   {
+    "label": "algorithms",
+    "score": 0.796
+   },
+   {
+    "label": "task algorithmisation",
+    "score": 0.781
+   },
+   {
+    "label": "make decisions",
+    "score": 0.72
+   },
+   {
+    "label": "SAS language",
+    "score": 0.716
+   },
+   {
+    "label": "decision support systems",
+    "score": 0.713
+   }
+  ]
+ },
+ "machine learning model development": {
+  "orig": "machine learning model development",
+  "esco": "develop predictive models",
+  "score": 0.886,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Develop predictive models is a broader category that includes model development in machine learning.",
+  "candidates": [
+   {
+    "label": "machine learning",
+    "score": 0.891
+   },
+   {
+    "label": "develop predictive models",
+    "score": 0.886
+   },
+   {
+    "label": "utilise machine learning",
+    "score": 0.862
+   },
+   {
+    "label": "build predictive models",
+    "score": 0.831
+   },
+   {
+    "label": "deep learning",
+    "score": 0.807
+   }
+  ]
+ },
+ "artificial intelligence": {
+  "orig": "artificial intelligence",
+  "esco": "principles of artificial intelligence",
+  "score": 0.865,
+  "mapped": true,
+  "match": "broader",
+  "reason": "'principles of artificial intelligence' is the broader category that encompasses the skill.",
+  "candidates": [
+   {
+    "label": "principles of artificial intelligence",
+    "score": 0.865
+   },
+   {
+    "label": "artificial neural networks",
+    "score": 0.862
+   },
+   {
+    "label": "computer science",
+    "score": 0.84
+   },
+   {
+    "label": "deep learning",
+    "score": 0.839
+   },
+   {
+    "label": "machine learning",
+    "score": 0.836
+   }
+  ]
+ },
+ "monitoring and maintenance": {
+  "orig": "monitoring and maintenance",
+  "esco": "monitor equipment condition",
+  "score": 0.864,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Monitoring equipment condition is a broader category that includes general monitoring and maintenance activities.",
+  "candidates": [
+   {
+    "label": "monitor swimming-pool infrastructure",
+    "score": 0.874
+   },
+   {
+    "label": "monitor utility equipment",
+    "score": 0.874
+   },
+   {
+    "label": "monitor machine operations",
+    "score": 0.873
+   },
+   {
+    "label": "monitor equipment condition",
+    "score": 0.864
+   },
+   {
+    "label": "monitor grounds maintenance",
+    "score": 0.858
+   }
+  ]
+ },
+ "generative ai": {
+  "orig": "generative ai",
+  "esco": "generative ai",
+  "score": 0.774,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates directly refer to generative AI.",
+  "candidates": [
+   {
+    "label": "principles of artificial intelligence",
+    "score": 0.774
+   },
+   {
+    "label": "electrical machines",
+    "score": 0.754
+   },
+   {
+    "label": "design interaction model",
+    "score": 0.753
+   },
+   {
+    "label": "natural language processing",
+    "score": 0.744
+   },
+   {
+    "label": "security panels",
+    "score": 0.743
+   }
+  ]
+ },
+ "conversational ai": {
+  "orig": "conversational ai",
+  "esco": "conversational ai",
+  "score": 0.837,
+  "mapped": false,
+  "match": "none",
+  "reason": "None of the candidates directly relate to conversational AI.",
+  "candidates": [
+   {
+    "label": "design interaction model",
+    "score": 0.837
+   },
+   {
+    "label": "voice interpreting",
+    "score": 0.83
+   },
+   {
+    "label": "use word processing software",
+    "score": 0.826
+   },
+   {
+    "label": "LINQ",
+    "score": 0.8
+   },
+   {
+    "label": "use internet chat",
+    "score": 0.793
+   }
+  ]
+ },
+ "vulnerability assessment": {
+  "orig": "vulnerability assessment",
+  "esco": "identify ICT system weaknesses",
+  "score": 0.825,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Vulnerability assessment directly corresponds to identifying weaknesses in ICT systems.",
+  "candidates": [
+   {
+    "label": "penetration testing tool",
+    "score": 0.827
+   },
+   {
+    "label": "identify ICT system weaknesses",
+    "score": 0.825
+   },
+   {
+    "label": "security threats",
+    "score": 0.818
+   },
+   {
+    "label": "Nessus",
+    "score": 0.811
+   },
+   {
+    "label": "assessment of risks and threats",
+    "score": 0.806
+   }
+  ]
+ },
+ "threat intelligence": {
+  "orig": "threat intelligence",
+  "esco": "conduct threat intelligence",
+  "score": 0.887,
+  "mapped": true,
+  "match": "exact",
+  "reason": "Label 1 directly matches the skill 'threat intelligence' as a verb-noun phrase denoting the activity itself.",
+  "candidates": [
+   {
+    "label": "conduct threat intelligence",
+    "score": 0.887
+   },
+   {
+    "label": "security threats",
+    "score": 0.852
+   },
+   {
+    "label": "attack vectors",
+    "score": 0.843
+   },
+   {
+    "label": "identify security threats",
+    "score": 0.832
+   },
+   {
+    "label": "collect cyber defence data",
+    "score": 0.83
+   }
+  ]
+ },
+ "process management": {
+  "orig": "process management",
+  "esco": "management department processes",
+  "score": 0.834,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Management department processes is a broader category that includes process management.",
+  "candidates": [
+   {
+    "label": "control engineering",
+    "score": 0.865
+   },
+   {
+    "label": "perform process control in the wearing apparel industry",
+    "score": 0.865
+   },
+   {
+    "label": "packaging processes",
+    "score": 0.841
+   },
+   {
+    "label": "management department processes",
+    "score": 0.834
+   },
+   {
+    "label": "program management",
+    "score": 0.815
+   }
+  ]
+ },
+ "unit testing": {
+  "orig": "unit testing",
+  "esco": "perform software unit testing",
+  "score": 0.867,
+  "mapped": true,
+  "match": "exact",
+  "reason": "'perform software unit testing' directly matches the skill 'unit testing' in the software development context.",
+  "candidates": [
+   {
+    "label": "perform software unit testing",
+    "score": 0.867
+   },
+   {
+    "label": "test electronic units",
+    "score": 0.837
+   },
+   {
+    "label": "test package",
+    "score": 0.819
+   },
+   {
+    "label": "manage tests",
+    "score": 0.797
+   },
+   {
+    "label": "test mechatronic units",
+    "score": 0.788
+   }
+  ]
+ },
+ "ai algorithms": {
+  "orig": "ai algorithms",
+  "esco": "machine learning",
+  "score": 0.807,
+  "mapped": true,
+  "match": "broader",
+  "reason": "AI algorithms fall under the broader category of machine learning.",
+  "candidates": [
+   {
+    "label": "algorithms",
+    "score": 0.824
+   },
+   {
+    "label": "machine learning",
+    "score": 0.807
+   },
+   {
+    "label": "artificial neural networks",
+    "score": 0.803
+   },
+   {
+    "label": "utilise machine learning",
+    "score": 0.798
+   },
+   {
+    "label": "computer science",
+    "score": 0.792
+   }
+  ]
+ },
+ "c#": {
+  "orig": "c#",
+  "esco": "C#",
+  "score": 0.973,
+  "mapped": true,
+  "match": "exact",
+  "reason": "C# is explicitly listed as candidate 1.",
+  "candidates": [
+   {
+    "label": "C#",
+    "score": 0.973
+   },
+   {
+    "label": "Visual Basic",
+    "score": 0.832
+   },
+   {
+    "label": "ASP.NET",
+    "score": 0.813
+   },
+   {
+    "label": "computer programming",
+    "score": 0.812
+   },
+   {
+    "label": "Microsoft Visual C++",
+    "score": 0.771
+   }
+  ]
+ },
+ "git": {
+  "orig": "git",
+  "esco": "tools for software configuration management",
+  "score": 1.0,
+  "mapped": true,
+  "match": "broader",
+  "reason": "Git is a version control system, which falls under software configuration management tools.",
+  "candidates": [
+   {
+    "label": "tools for software configuration management",
+    "score": 1.0
+   },
+   {
+    "label": "computer programming",
+    "score": 0.82
+   },
+   {
+    "label": "repossession",
+    "score": 0.768
+   },
+   {
+    "label": "Codenvy",
+    "score": 0.745
+   },
+   {
+    "label": "Jenkins (tools for software configuration management)",
+    "score": 0.732
+   }
+  ]
+ }
+}

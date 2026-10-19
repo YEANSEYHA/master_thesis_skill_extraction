@@ -1,0 +1,6 @@
+# Python cache
+__pycache__/
+
+# Large regenerable corpus cache (8.4MB, rebuilt by 01_corpus.py from LinkedIn).
+# The small pipeline results (cohorts/verified/rejected/profiles) ARE committed.
+output/it_slice.json

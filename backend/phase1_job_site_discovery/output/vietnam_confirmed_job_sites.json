@@ -1,0 +1,174 @@
+[
+  {
+    "url": "https://www.careerbox.vn",
+    "domain": "careerbox.vn",
+    "name": "T\u1ed5ng h\u1ee3p Job-boards cho nh\u00e0 tuy\u1ec3n d\u1ee5ng - Rbox",
+    "snippet": "23 Jobboard tuy\u1ec3n d\u1ee5ng t\u1ea1i Vi\u1ec7t Nam \u00b7 1 - https://www.topcv.vn/ Job boards for Fresher/Middle levels (Sales, Customer services, MKT,...) \u00b7 2 - https://www.",
+    "found_in_queries": 1,
+    "country": "vietnam",
+    "final_url": "https://www.careerbox.vn",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.95,
+      "site_type": "job_portal",
+      "reason": "Vietnamese language, geo-targeting Vietnam, contains job search features, career services, and recruitment-related menu items",
+      "features_found": [
+        "job_search",
+        "career_services",
+        "employer_services",
+        "geo_targeting",
+        "job_posting_menu"
+      ]
+    }
+  },
+  {
+    "url": "https://www.vietnamworks.com",
+    "domain": "vietnamworks.com",
+    "name": "VietnamWorks: N\u1ec1n t\u1ea3ng Vi\u1ec7c l\u00e0m ch\u1ea5t l\u01b0\u1ee3ng & Tuy\u1ec3n d\u1ee5ng ...",
+    "snippet": "N\u1ec1n t\u1ea3ng tuy\u1ec3n d\u1ee5ng l\u1edbn nh\u1ea5t t\u1ea1i Vi\u1ec7t Nam v\u1edbi h\u01a1n 10.000 c\u01a1 h\u1ed9i vi\u1ec7c l\u00e0m m\u1edbi nh\u1ea5t, ch\u1ea5t l\u01b0\u1ee3ng. Ti\u1ebfp c\u1eadn 10000+ doanh nghi\u1ec7p tuy\u1ec3n d\u1ee5ng uy t\u00edn. Tra c\u1ee9u l\u01b0\u01a1ng ...",
+    "found_in_queries": 1,
+    "country": "vietnam",
+    "final_url": "https://www.vietnamworks.com",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.95,
+      "site_type": "job_portal",
+      "reason": "Website explicitly promotes job recruitment in Vietnam with metrics about 10,000+ job opportunities and 10,000+ companies. Content is in Vietnamese and targets Vietnamese job seekers.",
+      "features_found": [
+        "job_search",
+        "employer_section",
+        "job_listings",
+        "career_guidance",
+        "country_relevance"
+      ]
+    }
+  },
+  {
+    "url": "https://careerviet.vn",
+    "domain": "careerviet.vn",
+    "name": "T\u00ecm vi\u1ec7c l\u00e0m v\u00e0 tuy\u1ec3n d\u1ee5ng hi\u1ec7u qu\u1ea3 nh\u1ea5t t\u1ea1i CareerViet.vn",
+    "snippet": "T\u00ecm vi\u1ec7c l\u00e0m m\u1edbi nh\u1ea5t v\u00e0 tuy\u1ec3n d\u1ee5ng hi\u1ec7u qu\u1ea3 t\u1ea1i CareerViet. H\u01a1n 450.000 vi\u1ec7c l\u00e0m ch\u1ea5t l\u01b0\u1ee3ng t\u1eeb 20.000+ nh\u00e0 tuy\u1ec3n d\u1ee5ng uy t\u00edn tr\u00ean to\u00e0n qu\u1ed1c.",
+    "found_in_queries": 1,
+    "country": "vietnam",
+    "final_url": "https://careerviet.vn",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.8,
+      "site_type": "job_portal",
+      "reason": "The domain 'careerviet.vn' uses Vietnam's country code (vn) and the HTML specifies language 'vi' (Vietnamese). This strongly indicates a Vietnam-focused job portal.",
+      "features_found": [
+        "language_vietnam",
+        "country_code_vn"
+      ]
+    }
+  },
+  {
+    "url": "https://jobboard.vn",
+    "domain": "jobboard.vn",
+    "name": "JobBoard.vn - N\u1ec1n t\u1ea3ng Freelancer & Tuy\u1ec3n d\u1ee5ng h\u00e0ng \u0111\u1ea7u",
+    "snippet": "K\u1ebft n\u1ed1i Freelancer t\u00e0i n\u0103ng v\u1edbi c\u00e1c d\u1ef1 \u00e1n ch\u1ea5t l\u01b0\u1ee3ng. T\u00ecm vi\u1ec7c l\u00e0m freelance, tuy\u1ec3n d\u1ee5ng nh\u00e2n s\u1ef1 nhanh ch\u00f3ng, uy t\u00edn t\u1ea1i JobBoard.vn.",
+    "found_in_queries": 1,
+    "country": "vietnam",
+    "final_url": "https://jobboard.vn",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.95,
+      "site_type": "job_portal",
+      "reason": "Vietnamese language (vi), meta tags containing job search keywords, and domain .vn indicate a Vietnam-focused job platform. The title mentions 'tuy\u1ec3n d\u1ee5ng' (recruitment) and 't\u00ecm vi\u1ec7c l\u00e0m' (job search) with freelance focus.",
+      "features_found": [
+        "job_search_keywords",
+        "local_language",
+        "domain_relevance",
+        "recruitment_messaging"
+      ]
+    }
+  },
+  {
+    "url": "https://www.monster.com.vn",
+    "domain": "monster.com.vn",
+    "name": "Jobs in Vietnam - Latest Job Vacancies - Job Search at ...",
+    "snippet": "Search and apply for latest jobs in Vietnam posted by top companies & consultants agencies for Fresher's & Experienced. Register Free and upload your resume ...",
+    "found_in_queries": 1,
+    "country": "vietnam",
+    "final_url": "https://www.monster.com.vn",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.95,
+      "site_type": "job_portal",
+      "reason": "Website explicitly targets Vietnam with job search functionality, career services, and job listing features. Contains 'Jobs' navigation section, job application references, and Vietnam-specific meta tags.",
+      "features_found": [
+        "Jobs",
+        "Career Solutions",
+        "Job Search",
+        "Resume Upload",
+        "Vacancies",
+        "Employer Sections",
+        "Country Relevance (Vietnam)"
+      ]
+    }
+  },
+  {
+    "url": "https://www.careerlink.vn",
+    "domain": "careerlink.vn",
+    "name": "Ki\u1ebfm vi\u1ec7c l\u00e0m tr\u00ean M\u1ea1ng tuy\u1ec3n d\u1ee5ng tr\u1ef1c tuy\u1ebfn | CareerLink.vn",
+    "snippet": "T\u00ecm ki\u1ebfm vi\u1ec7c l\u00e0m nhanh, hi\u1ec7u qu\u1ea3 v\u00e0 ch\u00ednh x\u00e1c t\u1ea1i CareerLink.vn. H\u01a1n 40.000 tin tuy\u1ec3n d\u1ee5ng, vi\u1ec7c l\u00e0m 24h h\u1ea5p d\u1eabn \u0111ang ch\u1edd b\u1ea1n. K\u1ebft n\u1ed1i s\u1ef1 nghi\u1ec7p ngay h\u00f4m ...",
+    "found_in_queries": 1,
+    "country": "vietnam",
+    "final_url": "https://www.careerlink.vn",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.95,
+      "site_type": "job_portal",
+      "reason": "Contains explicit job search features, Vietnamese location data, and job listing descriptions. Schema.org markup indicates job service functionality with Vietnamese address/telephone details.",
+      "features_found": [
+        "job_listings",
+        "job_search",
+        "employer_registration",
+        "cv_upload",
+        "country_relevance"
+      ]
+    }
+  },
+  {
+    "url": "https://www.topcv.vn",
+    "domain": "topcv.vn",
+    "name": "TopCV - CV x\u1ecbn vi\u1ec7c l\u00e0m ch\u1ea5t - T\u1ea1o CV & T\u00ecm vi\u1ec7c mi\u1ec5n ph\u00ed",
+    "snippet": "TopCV - N\u1ec1n t\u1ea3ng tuy\u1ec3n d\u1ee5ng truy c\u1eadp nhi\u1ec1u nh\u1ea5t t\u1ea1i Vi\u1ec7t Nam, k\u1ebft n\u1ed1i 9.5 tri\u1ec7u+ ng\u01b0\u1eddi t\u00ecm vi\u1ec7c & 200.000+ doanh nghi\u1ec7p uy t\u00edn, v\u1edbi 60.000+ vi\u1ec7c l\u00e0m m\u1edbi m\u1ed7i ...",
+    "found_in_queries": 1,
+    "country": "vietnam",
+    "final_url": "https://www.topcv.vn",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.95,
+      "site_type": "job_portal",
+      "reason": "Website explicitly targets Vietnam with Vietnamese language content, mentions 9.5M+ job seekers and 200k+ companies, and promotes CV creation/job search features",
+      "features_found": [
+        "job_listings",
+        "job_search",
+        "cv_creation",
+        "employer_features",
+        "country_relevance"
+      ]
+    }
+  },
+  {
+    "url": "https://acecookcareer.com",
+    "domain": "acecookcareer.com",
+    "name": "C\u00f4ng Ty CP Acecook Vi\u1ec7t Nam: Tuy\u1ec3n d\u1ee5ng v\u00e0 t\u00ecm ki\u1ebfm vi\u1ec7c ...",
+    "snippet": "English \u00b7 Trang Ch\u1ee7 \u00b7 C\u01a1 h\u1ed9i ngh\u1ec1 nghi\u1ec7p \u00b7 Nhu c\u1ea7u tuy\u1ec3n d\u1ee5ng \u00b7 B\u1ea3n \u0111\u1ed3 vi\u1ec7c l\u00e0m \u00b7 D\u00e0nh cho sinh vi\u00ean \u00b7 V\u1ec1 Acecook.",
+    "found_in_queries": 1,
+    "country": "vietnam",
+    "final_url": "https://acecookcareer.com",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.8,
+      "site_type": "recruitment_agency",
+      "reason": "The site is explicitly associated with Acecook Vietnam (a Vietnamese company) and uses Vietnamese language/meta tags. While no direct job listings are visible in the HTML snippet, it functions as a career portal for the company rather than a general job portal.",
+      "features_found": [
+        "company_name_in_title",
+        "vietnam_language",
+        "career_portal_indicators"
+      ]
+    }
+  }
+]

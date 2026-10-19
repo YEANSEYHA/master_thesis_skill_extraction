@@ -1,0 +1,12 @@
+
+=== qwen3:14b: impostors WRONGLY KEPT ===
+   [artificial_intelligence] robotics technician
+   [mobile_development] automotive mobility engineer
+
+=== qwen3:8b: impostors WRONGLY KEPT ===
+   [artificial_intelligence] robotics technician
+   [artificial_intelligence] ai sales specialist
+   [game_development] game warden
+
+=== llama3.1:8b: impostors WRONGLY KEPT ===
+   (none — caught every impostor)

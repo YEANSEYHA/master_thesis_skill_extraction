@@ -1,0 +1,58 @@
+[
+  {
+    "skill": "Information Security Governance",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Information Security Policy Management",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Information Security Risk Analysis",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Risk Management",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Access Control",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Security Solutions for System Support and Operations",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Information Security Standards",
+    "source": "CLO"
+  },
+  {
+    "skill": "Security Compliance",
+    "source": "CLO"
+  },
+  {
+    "skill": "Access Control Technologies",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Security Solution Management",
+    "source": "CLO"
+  },
+  {
+    "skill": "Information Security Threat Trend Monitoring",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Information Security Threats and Vulnerabilities Protection",
+    "source": "CLO"
+  },
+  {
+    "skill": "Information Security Roles and Responsibilities",
+    "source": "CLO"
+  },
+  {
+    "skill": "Security Standards and Policies",
+    "source": "CLO"
+  }
+]

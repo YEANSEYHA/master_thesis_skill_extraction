@@ -1,0 +1,33 @@
+embedding 10,071 titles once...
+done embedding. sweeping configs...
+
+config          floor margin  cap   kept starved capped   lex%
+--------------------------------------------------------------
+baseline         0.45   0.05  500  2,400       2      1  88.1
+strict-floor     0.55   0.05  500  1,228       4      0  91.9
+strict-margin    0.45    0.1  500  1,885       2      1  89.7
+strict-both      0.52   0.08  300  1,355       3      1  91.9
+loose             0.4   0.03  500  3,242       1      1  84.3
+
+per-domain cohort sizes (baseline vs strict-both):
+domain                        baseline  strict-both
+artificial_intelligence             33           11
+data_science                        43           21
+software_engineering               500          300
+cybersecurity                      265          147
+cloud_devops                       242          165
+networking                          60           32
+data_engineering                    96           50
+data_analytics                      36           24
+qa_testing                         225          136
+business_analysis                  272          136
+web_frontend                        21            8
+mobile_development                  34           24
+embedded_systems                    44           22
+database_administration            114           49
+it_operations                       74           36
+it_support                          17           13
+project_product_management         288          163
+blockchain                           2            2
+ui_ux_design                         9            4
+game_development                    25           12

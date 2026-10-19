@@ -1,0 +1,106 @@
+[
+  {
+    "skill": "Boolean Algebra",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Logic Gates",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Karnaugh Maps",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Combinational Circuit Design",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Combinational Logic Simplification",
+    "source": "CLO"
+  },
+  {
+    "skill": "Multiplexers",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Encoders",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Decoders",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Adder Design",
+    "source": "CLO"
+  },
+  {
+    "skill": "Subtractor Design",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Flip-Flops",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "SR Flip-Flops",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "JK Flip-Flops",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "D Flip-Flops",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "T Flip-Flops",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Counters",
+    "source": "CLO"
+  },
+  {
+    "skill": "Shift Registers",
+    "source": "CLO"
+  },
+  {
+    "skill": "Synchronous Counters",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Asynchronous Counters",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Finite State Machines (FSMs)",
+    "source": "CLO"
+  },
+  {
+    "skill": "Mealy Machines",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Moore Machines",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "State Diagrams",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "State Tables",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Base Conversion",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Binary Arithmetic Operations",
+    "source": "Lesson Topic"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "skill": "Information System Components",
+    "source": "CLO"
+  },
+  {
+    "skill": "Data Models",
+    "source": "CLO"
+  },
+  {
+    "skill": "Database Management Systems (DBMS)",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Entity-Relationship Modeling",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Entity-Relationship Diagrams (ERDs)",
+    "source": "CLO"
+  },
+  {
+    "skill": "Relational Database Design",
+    "source": "CLO"
+  },
+  {
+    "skill": "Relational Model",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Integrity Constraints",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Relational Database Normalization",
+    "source": "CLO"
+  },
+  {
+    "skill": "First Normal Form (1NF)",
+    "source": "CLO"
+  },
+  {
+    "skill": "Second Normal Form (2NF)",
+    "source": "CLO"
+  },
+  {
+    "skill": "Third Normal Form (3NF)",
+    "source": "CLO"
+  },
+  {
+    "skill": "Boyce-Codd Normal Form (BCNF)",
+    "source": "CLO"
+  },
+  {
+    "skill": "Functional Dependencies",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Data Anomaly Resolution",
+    "source": "CLO"
+  },
+  {
+    "skill": "Database Decomposition",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Denormalization",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Relational Database Schema Translation",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Entity-Relationship to Relational Mapping",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Data Integrity and Data Quality Documentation",
+    "source": "CLO"
+  }
+]

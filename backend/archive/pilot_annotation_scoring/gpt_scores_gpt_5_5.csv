@@ -1,0 +1,201 @@
+row,skill,clo,course,gpt_score,gpt_verdict
+1,artificial intelligence,Machine Learning Model Implementation,Introduction to AI,8,Yes
+2,c++,Object-Oriented Programming (OOP),C++ Programming,7,Yes
+3,authentication,Java Programming,Object-Oriented Programming,3,No
+4,docker,Modular Programming,C++ Programming,0,No
+5,computer vision,VMware vSphere,System Administration,0,No
+6,customer focus,Data Storage Types,Introduction to AI,0,No
+7,network security,Network Security,System Administration,10,Yes
+8,algorithms,Algorithm Design,C++ Programming,10,Yes
+9,business administration,Network Administration,System Administration,0,No
+10,threat modeling,NIST Cybersecurity Framework,Cybersecurity,5,Partly
+11,computer science,Computer Fundamentals,C++ Programming,6,Partly
+12,automation,System Configuration and Management,System Administration,5,Partly
+13,data analysis,Exploratory Data Analysis (EDA),Introduction to AI,9,Yes
+14,data warehouse,Application Services Management,System Administration,2,No
+15,project management,System Configuration and Management,System Administration,1,No
+16,data management,Data Storage Types,Introduction to AI,5,Partly
+17,network maintenance,System Configuration and Management,System Administration,6,Partly
+18,aws,Network Services Deployment and Management,System Administration,4,Partly
+19,python,Java Programming,Object-Oriented Programming,4,Partly
+20,programming,Java Programming,Object-Oriented Programming,9,Yes
+21,aws,Server Administration,System Administration,4,Partly
+22,servers,Ubuntu Server Administration,System Administration,9,Yes
+23,functional programming,C++ Programming,C++ Programming,3,No
+24,software development,Secure Software Development Ethics,Cybersecurity,5,Partly
+25,c++,Compiler Basics,C++ Programming,4,Partly
+26,testing,Constructors,Object-Oriented Programming,0,No
+27,root cause analysis,Exploratory Data Analysis (EDA),Introduction to AI,4,Partly
+28,group policy,Network Services Deployment and Management,System Administration,4,Partly
+29,programming,Python Programming,Introduction to AI,10,Yes
+30,vulnerability management,K-Nearest Neighbors (KNN),Introduction to AI,0,No
+31,optimization,Classification Algorithms,Introduction to AI,4,Partly
+32,full stack development,Network Protocols,System Administration,2,No
+33,system administration,Linux/UNIX System Administration,System Administration,9,Yes
+34,system integration,Operating System Setup and Configuration,System Administration,5,Partly
+35,agile,Modular Programming,C++ Programming,1,No
+36,threat modeling,Cyberattack Stages (Attack Lifecycle),Cybersecurity,5,Partly
+37,requirements gathering,Application Services Management,System Administration,1,No
+38,mvc,Network Administration,System Administration,0,No
+39,machine learning,Decision Trees,Introduction to AI,7,Yes
+40,azure,VMware vSphere,System Administration,3,No
+41,automation,Artificial Intelligence Fundamentals,Introduction to AI,4,Partly
+42,rust,Java Programming,Object-Oriented Programming,3,No
+43,network maintenance,Network Troubleshooting,System Administration,8,Yes
+44,microsoft office suite,User Account Management,System Administration,0,No
+45,aws,Systems Administration,System Administration,3,No
+46,application security,Secure Software Development Ethics,Cybersecurity,6,Partly
+47,sql,SQL Injection Prevention,Cybersecurity,5,Partly
+48,standards,Secure Web Application Development,Cybersecurity,3,No
+49,full stack development,Software Analysis and Design with OOP,Object-Oriented Programming,4,Partly
+50,emr,Network Troubleshooting,System Administration,0,No
+51,quality assurance,Containerization,System Administration,2,No
+52,applications,Regression Models,Introduction to AI,2,No
+53,db2,Pandas,Introduction to AI,2,No
+54,c++,C++ Programming,C++ Programming,10,Yes
+55,databases,Data Storage Types,C++ Programming,3,No
+56,security analysis,Cyber Threats and Vulnerabilities Analysis,Cybersecurity,9,Yes
+57,java,Java Swing,Object-Oriented Programming,7,Yes
+58,docker,Virtualization,System Administration,5,Partly
+59,storage,Data Storage Types,C++ Programming,5,Partly
+60,data science,Interfaces,Object-Oriented Programming,2,No
+61,unix,Interfaces,Object-Oriented Programming,0,No
+62,infrastructure as code,Infrastructure Services Management,System Administration,4,Partly
+63,data analysis,Logistic Regression,Introduction to AI,7,Yes
+64,documentation,System Configuration and Management,System Administration,2,No
+65,data management,Data Preparation,Introduction to AI,6,Partly
+66,simulation,Artificial Intelligence Fundamentals,Introduction to AI,4,Partly
+67,itil,Exploratory Data Analysis (EDA),Introduction to AI,0,No
+68,network analysis,Network Fundamentals,System Administration,5,Partly
+69,network security,Network Monitoring,System Administration,5,Partly
+70,documentation,Compiler Basics,C++ Programming,0,No
+71,networking,Cisco Networking,System Administration,10,Yes
+72,linux,System Configuration and Management,System Administration,6,Partly
+73,optimization,K-Means Algorithm,Introduction to AI,5,Partly
+74,data pipelines,Arrays,Object-Oriented Programming,2,No
+75,troubleshooting,System Operations and Maintenance,System Administration,6,Partly
+76,data preparation,Exploratory Data Analysis (EDA),Introduction to AI,6,Partly
+77,word,Linear Classification,Introduction to AI,0,No
+78,automation,Abstraction,Object-Oriented Programming,3,No
+79,program management,Server Administration,System Administration,0,No
+80,db2,Data Types and Operators,C++ Programming,0,No
+81,oracle,Java Packages,Object-Oriented Programming,0,No
+82,remote work,Infrastructure Services Management,System Administration,2,No
+83,product development,Data Storage Types,Introduction to AI,1,No
+84,cloud computing,Virtualization,System Administration,6,Partly
+85,devops,System Configuration and Management,System Administration,5,Partly
+86,machine learning,Gradient Descent,Introduction to AI,6,Partly
+87,network analysis,Network Monitoring,System Administration,7,Yes
+88,documentation,Data Preparation,Introduction to AI,1,No
+89,pytorch,Input Validation,Cybersecurity,0,No
+90,javascript,"Control Statements (If/Else, Switch)",Object-Oriented Programming,5,Partly
+91,data center operations,Linux/UNIX System Administration,System Administration,6,Partly
+92,dashboards,Arrays,Object-Oriented Programming,1,No
+93,docker,Containerization,System Administration,8,Yes
+94,mvc,Software Analysis and Design with OOP,Object-Oriented Programming,5,Partly
+95,data analysis,Data Preparation,Introduction to AI,6,Partly
+96,computer systems,Operating System Setup and Configuration,System Administration,7,Yes
+97,operations,System Operations and Maintenance,System Administration,9,Yes
+98,microsoft office suite,Operating System Setup and Configuration,System Administration,1,No
+99,rest,Programming Fundamentals,C++ Programming,2,No
+100,software development,Software Analysis and Design with OOP,Object-Oriented Programming,7,Yes
+101,javascript,Cross-Site Scripting (XSS) Prevention,Cybersecurity,4,Partly
+102,containerization,Containerization,System Administration,10,Yes
+103,data visualization,Exploratory Data Analysis (EDA),Introduction to AI,7,Yes
+104,machine learning,Supervised Learning,Introduction to AI,8,Yes
+105,cism,C++ Programming,C++ Programming,0,No
+106,six sigma,Decision Trees,Introduction to AI,1,No
+107,java,Java Programming,Object-Oriented Programming,10,Yes
+108,python,Python Programming,Introduction to AI,10,Yes
+109,performance tuning,Linux/UNIX System Administration,System Administration,6,Partly
+110,troubleshooting,Network Troubleshooting,System Administration,9,Yes
+111,linux,Operating System Setup and Configuration,System Administration,6,Partly
+112,s3,Virtualization,System Administration,0,No
+113,etl,Exploratory Data Analysis (EDA),Introduction to AI,4,Partly
+114,deep learning,Gradient Boosting,Introduction to AI,2,No
+115,computer science,C++ Programming,C++ Programming,5,Partly
+116,azure,Virtualization,System Administration,4,Partly
+117,python,C++ Programming,C++ Programming,3,No
+118,testing,Java Programming,Object-Oriented Programming,3,No
+119,agile,Structured Programming,C++ Programming,0,No
+120,web services,Application Services Management,System Administration,6,Partly
+121,systems analysis,Regression Models,Introduction to AI,1,No
+122,verification,Model Evaluation,Introduction to AI,6,Partly
+123,data preparation,Data Preparation,Introduction to AI,10,Yes
+124,kerberos,Python Programming,Introduction to AI,0,No
+125,cloud computing,Network Services Deployment and Management,System Administration,4,Partly
+126,mongodb,Secure Software Development Ethics,Cybersecurity,0,No
+127,plc,Data Preparation,Introduction to AI,0,No
+128,vulnerability management,Infrastructure Services Management,System Administration,4,Partly
+129,computer systems,System Operations and Maintenance,System Administration,8,Yes
+130,workflows,Java Programming,Object-Oriented Programming,1,No
+131,prototyping,Modular Programming,C++ Programming,4,Partly
+132,design,Algorithm Design,C++ Programming,7,Yes
+133,open source frameworks,Network Fundamentals,System Administration,2,No
+134,git,Console Input/Output (Scanner Class),Object-Oriented Programming,0,No
+135,verification,Constructors,C++ Programming,0,No
+136,project management,Application Services Management,System Administration,2,No
+137,system integration,System Operations and Maintenance,System Administration,4,Partly
+138,devops,Network Services Deployment and Management,System Administration,5,Partly
+139,kubernetes,Virtualization,System Administration,4,Partly
+140,load balancing,K-Means Algorithm,Introduction to AI,0,No
+141,enterprise applications,Exploratory Data Analysis (EDA),Introduction to AI,1,No
+142,software development,Object-Oriented Programming (OOP),Object-Oriented Programming,7,Yes
+143,artificial intelligence,Artificial Intelligence Fundamentals,Introduction to AI,9,Yes
+144,vulnerability management,Access Control Management,System Administration,4,Partly
+145,hybrid work,Network Fundamentals,System Administration,2,No
+146,emerging technologies,Neural Networks / Deep Learning,Introduction to AI,7,Yes
+147,linux,Linux/UNIX System Administration,System Administration,10,Yes
+148,java,Java Packages,Object-Oriented Programming,6,Partly
+149,test cases,Inheritance,C++ Programming,1,No
+150,systems analysis,System Operations and Maintenance,System Administration,4,Partly
+151,automation,System Operations and Maintenance,System Administration,5,Partly
+152,application security,Unsupervised Learning,Introduction to AI,0,No
+153,access control,Access Control,Cybersecurity,10,Yes
+154,authentication,Secure Data Storage,Cybersecurity,2,No
+155,pl/sql,Problem Solving and Solution Formulation,C++ Programming,2,No
+156,solidworks,Model Evaluation,Introduction to AI,0,No
+157,data security,Secure Data Storage,Cybersecurity,8,Yes
+158,code reviews,Eclipse IDE,Object-Oriented Programming,1,No
+159,machine learning,Classification Algorithms,Introduction to AI,8,Yes
+160,kubernetes,Containerization,System Administration,5,Partly
+161,distributed systems,Artificial Intelligence Fundamentals,Introduction to AI,0,No
+162,devops,System Operations and Maintenance,System Administration,5,Partly
+163,infrastructure as code,Structured Programming,C++ Programming,2,No
+164,computer science,Object-Oriented Programming (OOP),Object-Oriented Programming,5,Partly
+165,auditing,System Operations and Maintenance,System Administration,4,Partly
+166,microsoft office suite,System Configuration and Management,System Administration,1,No
+167,containerization,Encapsulation,Object-Oriented Programming,0,No
+168,protocols,Network Protocols,System Administration,10,Yes
+169,performance tuning,Overfitting and Underfitting Prevention,Introduction to AI,5,Partly
+170,sql,Java Programming,Object-Oriented Programming,0,No
+171,hive,Java Packages,Object-Oriented Programming,0,No
+172,design patterns,Attack-Resistant Software Development,Cybersecurity,4,Partly
+173,angular,Class Concept,C++ Programming,2,No
+174,kubernetes,Network Services Deployment and Management,System Administration,4,Partly
+175,troubleshooting,System Configuration and Management,System Administration,5,Partly
+176,security engineering,Attack-Resistant Software Development,Cybersecurity,8,Yes
+177,machine learning,Machine Learning Model Implementation,Introduction to AI,10,Yes
+178,emerging technologies,Polymorphism,Object-Oriented Programming,2,No
+179,agile,Object-Oriented Programming (OOP),Object-Oriented Programming,0,No
+180,project management,Infrastructure Services Management,System Administration,4,Partly
+181,code reviews,Compiler Basics,C++ Programming,1,No
+182,security analysis,Exploratory Data Analysis (EDA),Introduction to AI,2,No
+183,distributed systems,Network Architectures,System Administration,5,Partly
+184,oop,Object-Oriented Programming (OOP),C++ Programming,10,Yes
+185,vmware,VMware vSphere,System Administration,10,Yes
+186,scheduling,Data Backup and Recovery,System Administration,3,No
+187,sql,Python Programming,Introduction to AI,2,No
+188,data mining,Clustering,Introduction to AI,7,Yes
+189,javascript,Java Programming,Object-Oriented Programming,3,No
+190,azure,Network Services Deployment and Management,System Administration,3,No
+191,algorithms,Classification Algorithms,Introduction to AI,7,Yes
+192,networking,Network Protocols,System Administration,8,Yes
+193,data security,Secure Coding Practices,Cybersecurity,7,Yes
+194,information assurance,Secure Data Storage,Cybersecurity,6,Partly
+195,scripting,Modular Programming,C++ Programming,4,Partly
+196,continuous learning,Classification Algorithms,Introduction to AI,0,No
+197,networking,Network Administration,System Administration,10,Yes
+198,system administration,Systems Administration,System Administration,10,Yes
+199,program management,Application Services Management,System Administration,2,No
+200,cloud computing,System Configuration and Management,System Administration,5,Partly

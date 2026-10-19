@@ -1,0 +1,9 @@
+pdfplumber
+ollama
+pydantic
+sentence-transformers
+numpy
+fastapi
+uvicorn[standard]
+python-multipart
+ftfy

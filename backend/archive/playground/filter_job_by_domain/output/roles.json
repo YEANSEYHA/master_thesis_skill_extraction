@@ -1,0 +1,32 @@
+{
+  "Data Science": [
+    "Data Scientist",
+    "Machine Learning Engineer",
+    "Data Analyst",
+    "Business Intelligence Analyst",
+    "Data Engineer",
+    "Quantitative Analyst",
+    "AI Research Scientist",
+    "Big Data Engineer"
+  ],
+  "Network": [
+    "Network Engineer",
+    "Network Administrator",
+    "Network Analyst",
+    "Senior Network Engineer",
+    "IT Network Specialist",
+    "Network Security Engineer",
+    "Network Operations Center (NOC) Technician",
+    "Telecommunications Engineer"
+  ],
+  "Software Engineering": [
+    "Software Engineer",
+    "Senior Software Engineer",
+    "Full Stack Developer",
+    "Front End Developer",
+    "Back End Developer",
+    "DevOps Engineer",
+    "Mobile Application Developer",
+    "Cloud Software Engineer"
+  ]
+}

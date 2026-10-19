@@ -1,0 +1,161 @@
+[
+  {
+    "url": "https://fedace.org",
+    "domain": "fedace.org",
+    "name": "Recruitment Websites That Deliver Results for Employers ...",
+    "snippet": "Recruitment Websites That Deliver Results for Employers in Hong Kong ... - **no-cost job portals**: Employers can post jobs without extra expense.",
+    "found_in_queries": 3,
+    "country": "hong kong",
+    "final_url": "https://fedace.org",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.95,
+      "site_type": "not_job_site",
+      "reason": "The website is a Spanish non-profit organization focused on brain injury support, rehabilitation, and disability resources. It contains no job listings, career sections, employment features, or Hong Kong-specific content.",
+      "features_found": [
+        "brain injury information",
+        "rehabilitation resources",
+        "donation links",
+        "multilingual support",
+        "medical condition guidance"
+      ]
+    }
+  },
+  {
+    "url": "https://snaphunt.com",
+    "domain": "snaphunt.com",
+    "name": "Top job posting sites in Hong Kong",
+    "snippet": "Top job posting sites in Hong Kong \u00b7 Snaphunt \u00b7 JobsDB Hong Kong \u00b7 CTgoodjobs \u00b7 Indeed Hong Kong \u00b7 LinkedIn Hong Kong \u00b7 cpjobs.com \u00b7 JobMarket.",
+    "found_in_queries": 1,
+    "country": "hong kong",
+    "final_url": "https://snaphunt.com",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.6,
+      "site_type": "recruitment_agency",
+      "reason": "The website describes AI recruitment solutions and job posting services but lacks explicit Hong Kong targeting. Features like 'global hiring' and 'remote jobs' suggest international focus rather than primary service to Hong Kong.",
+      "features_found": [
+        "job_posting",
+        "ai_recruitment_tools",
+        "employer_services"
+      ]
+    }
+  },
+  {
+    "url": "https://svarecruitment.com",
+    "domain": "svarecruitment.com",
+    "name": "Best Job Boards & Platforms to Find Candidates in Hong ...",
+    "snippet": "JobsDB is one of the largest and most recognized job boards in the city. With thousands of listings daily, it's a go-to platform for both employers and ...",
+    "found_in_queries": 1,
+    "country": "hong kong",
+    "final_url": "https://svarecruitment.com",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.3,
+      "site_type": "recruitment_agency",
+      "reason": "The site describes itself as an IT recruitment agency serving APAC but lacks explicit Hong Kong targeting. Location data in schema.org appears incorrect (coordinates suggest Africa, not Hong Kong). No job listings, search features, or Hong Kong-specific content found.",
+      "features_found": [
+        "EmploymentAgency schema type",
+        "Company contact information",
+        "Social media links",
+        "Video content"
+      ]
+    }
+  },
+  {
+    "url": "https://allremote.jobs",
+    "domain": "allremote.jobs",
+    "name": "Top Job Posting Sites in Hong Kong",
+    "snippet": "Best Job Posting Sites in Hong Kong \u00b7 AllRemote \u00b7 Indeed \u00b7 Glassdoor \u00b7 CP Jobs \u00b7 Monster \u00b7 JobsDB \u00b7 StartUpJobs.Asia. Visit Website. StartupJobs is a free job ...",
+    "found_in_queries": 1,
+    "country": "hong kong",
+    "final_url": "https://allremote.jobs",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.2,
+      "site_type": "not_job_site",
+      "reason": "The provided HTML lacks job listings, search functionality, and Hong Kong-specific localization. The site appears to be a general remote job board rather than a Hong Kong-focused platform.",
+      "features_found": []
+    }
+  },
+  {
+    "url": "https://seek.com",
+    "domain": "seek.com",
+    "name": "SEEK Employer Hong Kong: #1 for Hiring & Recruitment",
+    "snippet": "Hiring made easy - post your jobs for free today. Let our AI-powered system match you with the right candidate in no time. Enter your email. Register.",
+    "found_in_queries": 1,
+    "country": "hong kong",
+    "final_url": "https://www.seek.com.au/?tracking=CLP-WEB-SeekLandingPage",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.9,
+      "site_type": "job_portal",
+      "reason": "The site is Australia's leading job marketplace (seek.com.au) but the target country is Hong Kong. The HTML contains job search features but the domain and content are explicitly focused on Australia, not Hong Kong.",
+      "features_found": [
+        "job_search",
+        "job_listings",
+        "employer_section",
+        "career_resources"
+      ]
+    }
+  },
+  {
+    "url": "https://www.iarticlesnet.com",
+    "domain": "iarticlesnet.com",
+    "name": "\u62db\u8077job market - \u8cc7\u8a0a\u66f8\u7c64",
+    "snippet": "\u81f4\u529b\u4e8e\u6536\u96c6\u9999\u6e2f\u6700\u65b0\u6700\u5168\u7684\u6c42\u8077\u62db\u8058\u7db2\u7ad9\u7db2\u5740,\u5305\u62ec\uff1a JiuJik \u62db\u8077,\u52de\u5de5\u8655-\u4e92\u52d5\u5c31\u696d\u670d\u52d9,Jobs DB,\u661f\u5cf6\u65e5\u5831\u6c42\u8077\u5ee3\u5834,CareerTimes,JOBXP \u6c42\u8077\u7ad9...\u9999\u6e2f\u6c42\u8077\u62db\u8058\u7db2\u7ad9,\u9999\u6e2f\u6c42\u8077 ...",
+    "found_in_queries": 1,
+    "country": "hong kong",
+    "final_url": "https://www.iarticlesnet.com",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.95,
+      "site_type": "classifieds",
+      "reason": "The site appears to be a content aggregation platform for articles, images, and videos rather than a job portal. It lacks job listing features, career categories, or employer/seeker tools.",
+      "features_found": [
+        "article sharing",
+        "user-generated content",
+        "advertising slots",
+        "blog platform elements"
+      ]
+    }
+  },
+  {
+    "url": "https://shopline.hk",
+    "domain": "shopline.hk",
+    "name": "\u3010\u5728\u5bb6\u5de5\u4f5c\u517c\u8077\u3011\u63a8\u85a6\u9999\u6e2f\u7dda\u4e0aWFH\u526f\u696d\u5275\u696d\u3001\u6559\u66f8\u90fd\u5f97\uff01 |",
+    "snippet": "\u5728\u7dda\u62db\u8058\u7db2\u7ad9. \u4f8b\u5982\uff1aJobsDB\u3001ctgoodjobs\u3001Indeed \u7b49\uff0c\u9019\u4e9b\u7db2\u7ad9\u63d0\u4f9b\u5927\u91cf\u5168\u8077\u53ca\u517c\u8077\u6a5f\u6703\uff0c\u4f60\u53ef\u4ee5\u5728\u7db2\u7ad9\u4e0a\u641c\u7d22\u4e26\u7533\u8acb\u9069\u5408\u7684\u8077\u4f4d\u3002",
+    "found_in_queries": 1,
+    "country": "hong kong",
+    "final_url": "https://shopline.hk",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.95,
+      "site_type": "not_job_site",
+      "reason": "The website focuses on e-commerce solutions (online store creation, POS systems, social media commerce) rather than job listings/recruitment. No job-related features found.",
+      "features_found": [
+        "e-commerce platform services",
+        "business solutions",
+        "online store creation",
+        "POS systems",
+        "social media commerce tools"
+      ]
+    }
+  },
+  {
+    "url": "https://fasthirehk.online",
+    "domain": "fasthirehk.online",
+    "name": "CloudJob HK - \u9999\u6e2f\u7dda\u4e0a\u5de5\u4f5c\u3001\u9060\u7a0b\u517c\u8077\u914d\u5c0d\u5e73\u53f0",
+    "snippet": "\u6435\u5de5\u53ef\u4ee5\u66f4\u7c21\u55ae\uff0c \u9060\u7a0b\u517c\u8077\u4e00\u6309\u5373\u914d\u5c0d\u3002 CloudJob HK \u5c08\u6ce8\u9999\u6e2f\u7dda\u4e0a\u5de5\u4f5c\u3001\u9060\u7a0b\u517c\u8077\u914d\u5c0d\u3002 \u7acb\u5373\u7533\u8acb. Woman working from home ...",
+    "found_in_queries": 1,
+    "country": "hong kong",
+    "final_url": "https://fasthirehk.online",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.1,
+      "site_type": "not_job_site",
+      "reason": "The HTML contains no job listing elements, search functionality, or location-specific content for Hong Kong. It appears to be a generic template/framework with no visible job-related features.",
+      "features_found": []
+    }
+  }
+]

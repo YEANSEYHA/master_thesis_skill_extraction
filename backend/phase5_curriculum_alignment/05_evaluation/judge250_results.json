@@ -1,0 +1,348 @@
+{
+ "sheet_hash": "78dfd3fe9b637a36fa0f8afe6f1d2ef567aca85e6c6f9a30fe90d15af579a169",
+ "locked_run": "20260727T105055Z-475eb3",
+ "models": {
+  "claude": "claude-sonnet-5",
+  "gpt": "gpt-5.6-terra"
+ },
+ "n_scored": 250,
+ "score_histogram": {
+  "claude": {
+   "0": 46,
+   "1": 25,
+   "2": 14,
+   "3": 48,
+   "4": 35,
+   "5": 25,
+   "6": 25,
+   "7": 1,
+   "8": 9,
+   "9": 6,
+   "10": 16
+  },
+  "gpt": {
+   "0": 21,
+   "1": 25,
+   "2": 23,
+   "3": 28,
+   "4": 31,
+   "5": 9,
+   "6": 26,
+   "7": 22,
+   "8": 34,
+   "9": 10,
+   "10": 21
+  }
+ },
+ "inter_judge": {
+  "pearson_r": 0.895,
+  "mean_abs_diff": 1.396,
+  "within_1": 0.604,
+  "within_2": 0.8,
+  "categorical_agreement": 0.628,
+  "categorical_kappa": 0.436
+ },
+ "silver_threshold_fit": {
+  "definition": "consensus mean score >= 7 treated as covered",
+  "n_covered_consensus": 52,
+  "best_threshold_by_f1": 0.76,
+  "best_f1": 0.752,
+  "sweep": {
+   "0.6": {
+    "precision": 0.226,
+    "recall": 1.0,
+    "f1": 0.369
+   },
+   "0.61": {
+    "precision": 0.228,
+    "recall": 1.0,
+    "f1": 0.371
+   },
+   "0.62": {
+    "precision": 0.23,
+    "recall": 1.0,
+    "f1": 0.374
+   },
+   "0.63": {
+    "precision": 0.231,
+    "recall": 1.0,
+    "f1": 0.375
+   },
+   "0.64": {
+    "precision": 0.232,
+    "recall": 1.0,
+    "f1": 0.377
+   },
+   "0.65": {
+    "precision": 0.233,
+    "recall": 1.0,
+    "f1": 0.378
+   },
+   "0.66": {
+    "precision": 0.256,
+    "recall": 1.0,
+    "f1": 0.408
+   },
+   "0.67": {
+    "precision": 0.291,
+    "recall": 0.981,
+    "f1": 0.449
+   },
+   "0.68": {
+    "precision": 0.342,
+    "recall": 0.981,
+    "f1": 0.507
+   },
+   "0.69": {
+    "precision": 0.364,
+    "recall": 0.923,
+    "f1": 0.522
+   },
+   "0.7": {
+    "precision": 0.402,
+    "recall": 0.865,
+    "f1": 0.549
+   },
+   "0.71": {
+    "precision": 0.469,
+    "recall": 0.865,
+    "f1": 0.608
+   },
+   "0.72": {
+    "precision": 0.543,
+    "recall": 0.846,
+    "f1": 0.662
+   },
+   "0.73": {
+    "precision": 0.566,
+    "recall": 0.827,
+    "f1": 0.672
+   },
+   "0.74": {
+    "precision": 0.646,
+    "recall": 0.808,
+    "f1": 0.718
+   },
+   "0.75": {
+    "precision": 0.672,
+    "recall": 0.788,
+    "f1": 0.726
+   },
+   "0.76": {
+    "precision": 0.776,
+    "recall": 0.731,
+    "f1": 0.752
+   },
+   "0.77": {
+    "precision": 0.818,
+    "recall": 0.692,
+    "f1": 0.75
+   },
+   "0.78": {
+    "precision": 0.829,
+    "recall": 0.654,
+    "f1": 0.731
+   },
+   "0.79": {
+    "precision": 0.912,
+    "recall": 0.596,
+    "f1": 0.721
+   },
+   "0.8": {
+    "precision": 0.912,
+    "recall": 0.596,
+    "f1": 0.721
+   },
+   "0.81": {
+    "precision": 0.912,
+    "recall": 0.596,
+    "f1": 0.721
+   },
+   "0.82": {
+    "precision": 1.0,
+    "recall": 0.538,
+    "f1": 0.7
+   },
+   "0.83": {
+    "precision": 1.0,
+    "recall": 0.462,
+    "f1": 0.632
+   },
+   "0.84": {
+    "precision": 1.0,
+    "recall": 0.404,
+    "f1": 0.575
+   },
+   "0.85": {
+    "precision": 1.0,
+    "recall": 0.385,
+    "f1": 0.556
+   },
+   "0.86": {
+    "precision": 1.0,
+    "recall": 0.365,
+    "f1": 0.535
+   },
+   "0.87": {
+    "precision": 1.0,
+    "recall": 0.327,
+    "f1": 0.493
+   },
+   "0.88": {
+    "precision": 1.0,
+    "recall": 0.308,
+    "f1": 0.471
+   },
+   "0.89": {
+    "precision": 1.0,
+    "recall": 0.269,
+    "f1": 0.424
+   },
+   "0.9": {
+    "precision": 1.0,
+    "recall": 0.212,
+    "f1": 0.349
+   }
+  }
+ },
+ "per_band_consensus_mean": {
+  "A >=0.85": {
+   "n": 20,
+   "mean": 9.38
+  },
+  "B 0.78-0.85": {
+   "n": 21,
+   "mean": 7.62
+  },
+  "C 0.73-0.78": {
+   "n": 35,
+   "mean": 5.33
+  },
+  "D 0.69-0.73 borderline": {
+   "n": 56,
+   "mean": 3.79
+  },
+  "E 0.66-0.69 host floor": {
+   "n": 71,
+   "mean": 3.42
+  },
+  "F 0.60-0.66 near-miss": {
+   "n": 27,
+   "mean": 2.33
+  },
+  "G 0.50-0.60": {
+   "n": 10,
+   "mean": 0.3
+  },
+  "H <0.50 clear negative": {
+   "n": 10,
+   "mean": 0.05
+  }
+ },
+ "clear_negative_check": {
+  "n": 10,
+  "consensus_mean": 0.05,
+  "max": 0.5
+ },
+ "large_disagreements": [
+  {
+   "id": "R031",
+   "skill": "technical documentation",
+   "clo": "Project Status Reporting",
+   "course": "It Project Management (Year 5)",
+   "claude": 3,
+   "gpt": 8,
+   "cos": 0.669
+  },
+  {
+   "id": "R053",
+   "skill": "data analysis",
+   "clo": "Data Warehousing",
+   "course": "Advanced Database And Database Management Systems (Year 4)",
+   "claude": 4,
+   "gpt": 8,
+   "cos": 0.704
+  },
+  {
+   "id": "R086",
+   "skill": "performance tuning",
+   "clo": "Network Performance Monitoring",
+   "course": "Systems And Networks Administration (Year 4)",
+   "claude": 4,
+   "gpt": 8,
+   "cos": 0.716
+  },
+  {
+   "id": "R097",
+   "skill": "api integration",
+   "clo": "Continuous Integration Tools Setup and Configuration",
+   "course": "Software Development And It Operations Devops (Year 4)",
+   "claude": 2,
+   "gpt": 6,
+   "cos": 0.7
+  },
+  {
+   "id": "R105",
+   "skill": "network administration",
+   "clo": "Infrastructure as a Service (IaaS)",
+   "course": "Cloud Computing (Year 5)",
+   "claude": 3,
+   "gpt": 7,
+   "cos": 0.656
+  },
+  {
+   "id": "R108",
+   "skill": "performance tuning",
+   "clo": "Distributed System Performance Analysis",
+   "course": "Distributed Systems (Year 4)",
+   "claude": 6,
+   "gpt": 10,
+   "cos": 0.765
+  },
+  {
+   "id": "R129",
+   "skill": "network administration",
+   "clo": "Infrastructure Provisioning and Management with IaC",
+   "course": "Software Development And It Operations Devops (Year 4)",
+   "claude": 4,
+   "gpt": 8,
+   "cos": 0.68
+  },
+  {
+   "id": "R158",
+   "skill": "network troubleshooting",
+   "clo": "Infrastructure Monitoring",
+   "course": "Software Development And It Operations Devops (Year 4)",
+   "claude": 4,
+   "gpt": 8,
+   "cos": 0.671
+  },
+  {
+   "id": "R183",
+   "skill": "security monitoring",
+   "clo": "Infrastructure Monitoring",
+   "course": "Software Development And It Operations Devops (Year 4)",
+   "claude": 4,
+   "gpt": 9,
+   "cos": 0.818
+  },
+  {
+   "id": "R185",
+   "skill": "performance tuning",
+   "clo": "Network Optimization",
+   "course": "Network Design (Year 4)",
+   "claude": 3,
+   "gpt": 8,
+   "cos": 0.689
+  },
+  {
+   "id": "R196",
+   "skill": "performance tuning",
+   "clo": "Scalable Software Design",
+   "course": "Object Oriented Programming (Year 3)",
+   "claude": 3,
+   "gpt": 7,
+   "cos": 0.704
+  }
+ ]
+}

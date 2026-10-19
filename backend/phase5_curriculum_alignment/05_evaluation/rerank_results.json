@@ -1,0 +1,963 @@
+{
+ "bi_encoder": "BAAI/bge-base-en-v1.5",
+ "reranker": "BAAI/bge-reranker-v2-m3",
+ "top_n": 25,
+ "top_k": 3,
+ "bands": {
+  "supported": 0.5,
+  "weak": 0.1,
+  "note": "PROVISIONAL until task #1 annotation"
+ },
+ "results": [
+  {
+   "skill": "python",
+   "jobs": 19734,
+   "candidates": [
+    {
+     "clo": "Python Programming",
+     "course": "Introduction Ai",
+     "cosine": 0.92,
+     "rerank": 0.96
+    },
+    {
+     "clo": "Java Programming",
+     "course": "Oop",
+     "cosine": 0.74,
+     "rerank": 0.04
+    },
+    {
+     "clo": "C++ Programming",
+     "course": "Programming C++",
+     "cosine": 0.71,
+     "rerank": 0.01
+    }
+   ],
+   "cosine_best": {
+    "clo": "Python Programming",
+    "course": "Introduction Ai",
+    "cosine": 0.92,
+    "rerank": 0.96
+   },
+   "rerank_best": {
+    "clo": "Python Programming",
+    "course": "Introduction Ai",
+    "cosine": 0.92,
+    "rerank": 0.96
+   },
+   "agree": true,
+   "verdict": "SUPPORTED"
+  },
+  {
+   "skill": "sql",
+   "jobs": 18522,
+   "candidates": [
+    {
+     "clo": "SQL Injection Prevention",
+     "course": "Cybersecurity",
+     "cosine": 0.69,
+     "rerank": 0.03
+    },
+    {
+     "clo": "Java Programming",
+     "course": "Oop",
+     "cosine": 0.66,
+     "rerank": 0.0
+    },
+    {
+     "clo": "Python Programming",
+     "course": "Introduction Ai",
+     "cosine": 0.65,
+     "rerank": 0.0
+    }
+   ],
+   "cosine_best": {
+    "clo": "SQL Injection Prevention",
+    "course": "Cybersecurity",
+    "cosine": 0.69,
+    "rerank": 0.03
+   },
+   "rerank_best": {
+    "clo": "SQL Injection Prevention",
+    "course": "Cybersecurity",
+    "cosine": 0.69,
+    "rerank": 0.03
+   },
+   "agree": true,
+   "verdict": "NOT SUPPORTED"
+  },
+  {
+   "skill": "software development",
+   "jobs": 17761,
+   "candidates": [
+    {
+     "clo": "Object-Oriented Programming (OOP)",
+     "course": "Oop",
+     "cosine": 0.7,
+     "rerank": 0.15
+    },
+    {
+     "clo": "Object-Oriented Programming (OOP)",
+     "course": "Programming C++",
+     "cosine": 0.7,
+     "rerank": 0.15
+    },
+    {
+     "clo": "Secure Software Development Ethics",
+     "course": "Cybersecurity",
+     "cosine": 0.7,
+     "rerank": 0.06
+    }
+   ],
+   "cosine_best": {
+    "clo": "Secure Software Development Ethics",
+    "course": "Cybersecurity",
+    "cosine": 0.7,
+    "rerank": 0.06
+   },
+   "rerank_best": {
+    "clo": "Object-Oriented Programming (OOP)",
+    "course": "Oop",
+    "cosine": 0.7,
+    "rerank": 0.15
+   },
+   "agree": false,
+   "verdict": "WEAK"
+  },
+  {
+   "skill": "agile",
+   "jobs": 16272,
+   "candidates": [
+    {
+     "clo": "Modular Programming",
+     "course": "Programming C++",
+     "cosine": 0.67,
+     "rerank": 0.02
+    },
+    {
+     "clo": "Structured Programming",
+     "course": "Programming C++",
+     "cosine": 0.67,
+     "rerank": 0.01
+    },
+    {
+     "clo": "Object-Oriented Programming (OOP)",
+     "course": "Oop",
+     "cosine": 0.66,
+     "rerank": 0.01
+    }
+   ],
+   "cosine_best": {
+    "clo": "Structured Programming",
+    "course": "Programming C++",
+    "cosine": 0.67,
+    "rerank": 0.01
+   },
+   "rerank_best": {
+    "clo": "Modular Programming",
+    "course": "Programming C++",
+    "cosine": 0.67,
+    "rerank": 0.02
+   },
+   "agree": false,
+   "verdict": "NOT SUPPORTED"
+  },
+  {
+   "skill": "data analysis",
+   "jobs": 14614,
+   "candidates": [
+    {
+     "clo": "Exploratory Data Analysis (EDA)",
+     "course": "Introduction Ai",
+     "cosine": 0.79,
+     "rerank": 0.49
+    },
+    {
+     "clo": "Data Preparation",
+     "course": "Introduction Ai",
+     "cosine": 0.72,
+     "rerank": 0.12
+    },
+    {
+     "clo": "Logistic Regression",
+     "course": "Introduction Ai",
+     "cosine": 0.71,
+     "rerank": 0.03
+    }
+   ],
+   "cosine_best": {
+    "clo": "Exploratory Data Analysis (EDA)",
+    "course": "Introduction Ai",
+    "cosine": 0.79,
+    "rerank": 0.49
+   },
+   "rerank_best": {
+    "clo": "Exploratory Data Analysis (EDA)",
+    "course": "Introduction Ai",
+    "cosine": 0.79,
+    "rerank": 0.49
+   },
+   "agree": true,
+   "verdict": "WEAK"
+  },
+  {
+   "skill": "project management",
+   "jobs": 13366,
+   "candidates": [
+    {
+     "clo": "Infrastructure Services Management",
+     "course": "System Admin",
+     "cosine": 0.68,
+     "rerank": 0.03
+    },
+    {
+     "clo": "Application Services Management",
+     "course": "System Admin",
+     "cosine": 0.66,
+     "rerank": 0.01
+    },
+    {
+     "clo": "System Configuration and Management",
+     "course": "System Admin",
+     "cosine": 0.65,
+     "rerank": 0.01
+    }
+   ],
+   "cosine_best": {
+    "clo": "Infrastructure Services Management",
+    "course": "System Admin",
+    "cosine": 0.68,
+    "rerank": 0.03
+   },
+   "rerank_best": {
+    "clo": "Infrastructure Services Management",
+    "course": "System Admin",
+    "cosine": 0.68,
+    "rerank": 0.03
+   },
+   "agree": true,
+   "verdict": "NOT SUPPORTED"
+  },
+  {
+   "skill": "aws",
+   "jobs": 11943,
+   "candidates": [
+    {
+     "clo": "Network Services Deployment and Management",
+     "course": "System Admin",
+     "cosine": 0.64,
+     "rerank": 0.06
+    },
+    {
+     "clo": "Server Administration",
+     "course": "System Admin",
+     "cosine": 0.63,
+     "rerank": 0.05
+    },
+    {
+     "clo": "Systems Administration",
+     "course": "System Admin",
+     "cosine": 0.63,
+     "rerank": 0.01
+    }
+   ],
+   "cosine_best": {
+    "clo": "Network Services Deployment and Management",
+    "course": "System Admin",
+    "cosine": 0.64,
+    "rerank": 0.06
+   },
+   "rerank_best": {
+    "clo": "Network Services Deployment and Management",
+    "course": "System Admin",
+    "cosine": 0.64,
+    "rerank": 0.06
+   },
+   "agree": true,
+   "verdict": "NOT SUPPORTED"
+  },
+  {
+   "skill": "java",
+   "jobs": 11742,
+   "candidates": [
+    {
+     "clo": "Java Programming",
+     "course": "Oop",
+     "cosine": 0.87,
+     "rerank": 0.99
+    },
+    {
+     "clo": "Java Packages",
+     "course": "Oop",
+     "cosine": 0.75,
+     "rerank": 0.73
+    },
+    {
+     "clo": "Java Swing",
+     "course": "Oop",
+     "cosine": 0.76,
+     "rerank": 0.18
+    }
+   ],
+   "cosine_best": {
+    "clo": "Java Programming",
+    "course": "Oop",
+    "cosine": 0.87,
+    "rerank": 0.99
+   },
+   "rerank_best": {
+    "clo": "Java Programming",
+    "course": "Oop",
+    "cosine": 0.87,
+    "rerank": 0.99
+   },
+   "agree": true,
+   "verdict": "SUPPORTED"
+  },
+  {
+   "skill": "testing",
+   "jobs": 11629,
+   "candidates": [
+    {
+     "clo": "Java Programming",
+     "course": "Oop",
+     "cosine": 0.67,
+     "rerank": 0.0
+    },
+    {
+     "clo": "Constructors",
+     "course": "Oop",
+     "cosine": 0.66,
+     "rerank": 0.0
+    },
+    {
+     "clo": "Constructors",
+     "course": "Programming C++",
+     "cosine": 0.66,
+     "rerank": 0.0
+    }
+   ],
+   "cosine_best": {
+    "clo": "Java Programming",
+    "course": "Oop",
+    "cosine": 0.67,
+    "rerank": 0.0
+   },
+   "rerank_best": {
+    "clo": "Java Programming",
+    "course": "Oop",
+    "cosine": 0.67,
+    "rerank": 0.0
+   },
+   "agree": true,
+   "verdict": "NOT SUPPORTED"
+  },
+  {
+   "skill": "cloud computing",
+   "jobs": 11193,
+   "candidates": [
+    {
+     "clo": "Virtualization",
+     "course": "System Admin",
+     "cosine": 0.74,
+     "rerank": 0.78
+    },
+    {
+     "clo": "System Configuration and Management",
+     "course": "System Admin",
+     "cosine": 0.65,
+     "rerank": 0.0
+    },
+    {
+     "clo": "Network Services Deployment and Management",
+     "course": "System Admin",
+     "cosine": 0.64,
+     "rerank": 0.0
+    }
+   ],
+   "cosine_best": {
+    "clo": "Virtualization",
+    "course": "System Admin",
+    "cosine": 0.74,
+    "rerank": 0.78
+   },
+   "rerank_best": {
+    "clo": "Virtualization",
+    "course": "System Admin",
+    "cosine": 0.74,
+    "rerank": 0.78
+   },
+   "agree": true,
+   "verdict": "SUPPORTED"
+  },
+  {
+   "skill": "troubleshooting",
+   "jobs": 11096,
+   "candidates": [
+    {
+     "clo": "Network Troubleshooting",
+     "course": "System Admin",
+     "cosine": 0.87,
+     "rerank": 0.92
+    },
+    {
+     "clo": "System Operations and Maintenance",
+     "course": "System Admin",
+     "cosine": 0.74,
+     "rerank": 0.17
+    },
+    {
+     "clo": "System Configuration and Management",
+     "course": "System Admin",
+     "cosine": 0.72,
+     "rerank": 0.09
+    }
+   ],
+   "cosine_best": {
+    "clo": "Network Troubleshooting",
+    "course": "System Admin",
+    "cosine": 0.87,
+    "rerank": 0.92
+   },
+   "rerank_best": {
+    "clo": "Network Troubleshooting",
+    "course": "System Admin",
+    "cosine": 0.87,
+    "rerank": 0.92
+   },
+   "agree": true,
+   "verdict": "SUPPORTED"
+  },
+  {
+   "skill": "data management",
+   "jobs": 10788,
+   "candidates": [
+    {
+     "clo": "Data Preparation",
+     "course": "Introduction Ai",
+     "cosine": 0.79,
+     "rerank": 0.45
+    },
+    {
+     "clo": "Data Storage Types",
+     "course": "Introduction Ai",
+     "cosine": 0.75,
+     "rerank": 0.01
+    },
+    {
+     "clo": "Data Storage Types",
+     "course": "Programming C++",
+     "cosine": 0.75,
+     "rerank": 0.01
+    }
+   ],
+   "cosine_best": {
+    "clo": "Data Preparation",
+    "course": "Introduction Ai",
+    "cosine": 0.79,
+    "rerank": 0.45
+   },
+   "rerank_best": {
+    "clo": "Data Preparation",
+    "course": "Introduction Ai",
+    "cosine": 0.79,
+    "rerank": 0.45
+   },
+   "agree": true,
+   "verdict": "WEAK"
+  },
+  {
+   "skill": "computer science",
+   "jobs": 8863,
+   "candidates": [
+    {
+     "clo": "Computer Fundamentals",
+     "course": "Programming C++",
+     "cosine": 0.73,
+     "rerank": 0.92
+    },
+    {
+     "clo": "Object-Oriented Programming (OOP)",
+     "course": "Oop",
+     "cosine": 0.69,
+     "rerank": 0.07
+    },
+    {
+     "clo": "C++ Programming",
+     "course": "Programming C++",
+     "cosine": 0.72,
+     "rerank": 0.0
+    }
+   ],
+   "cosine_best": {
+    "clo": "Computer Fundamentals",
+    "course": "Programming C++",
+    "cosine": 0.73,
+    "rerank": 0.92
+   },
+   "rerank_best": {
+    "clo": "Computer Fundamentals",
+    "course": "Programming C++",
+    "cosine": 0.73,
+    "rerank": 0.92
+   },
+   "agree": true,
+   "verdict": "SUPPORTED"
+  },
+  {
+   "skill": "automation",
+   "jobs": 8176,
+   "candidates": [
+    {
+     "clo": "System Configuration and Management",
+     "course": "System Admin",
+     "cosine": 0.67,
+     "rerank": 0.03
+    },
+    {
+     "clo": "System Operations and Maintenance",
+     "course": "System Admin",
+     "cosine": 0.69,
+     "rerank": 0.02
+    },
+    {
+     "clo": "Artificial Intelligence Fundamentals",
+     "course": "Introduction Ai",
+     "cosine": 0.66,
+     "rerank": 0.01
+    }
+   ],
+   "cosine_best": {
+    "clo": "System Operations and Maintenance",
+    "course": "System Admin",
+    "cosine": 0.69,
+    "rerank": 0.02
+   },
+   "rerank_best": {
+    "clo": "System Configuration and Management",
+    "course": "System Admin",
+    "cosine": 0.67,
+    "rerank": 0.03
+   },
+   "agree": false,
+   "verdict": "NOT SUPPORTED"
+  },
+  {
+   "skill": "azure",
+   "jobs": 7841,
+   "candidates": [
+    {
+     "clo": "Virtualization",
+     "course": "System Admin",
+     "cosine": 0.69,
+     "rerank": 0.0
+    },
+    {
+     "clo": "VMware vSphere",
+     "course": "System Admin",
+     "cosine": 0.62,
+     "rerank": 0.0
+    },
+    {
+     "clo": "Network Services Deployment and Management",
+     "course": "System Admin",
+     "cosine": 0.62,
+     "rerank": 0.0
+    }
+   ],
+   "cosine_best": {
+    "clo": "Virtualization",
+    "course": "System Admin",
+    "cosine": 0.69,
+    "rerank": 0.0
+   },
+   "rerank_best": {
+    "clo": "Virtualization",
+    "course": "System Admin",
+    "cosine": 0.69,
+    "rerank": 0.0
+   },
+   "agree": true,
+   "verdict": "NOT SUPPORTED"
+  },
+  {
+   "skill": "javascript",
+   "jobs": 7524,
+   "candidates": [
+    {
+     "clo": "Java Programming",
+     "course": "Oop",
+     "cosine": 0.7,
+     "rerank": 0.51
+    },
+    {
+     "clo": "Cross-Site Scripting (XSS) Prevention",
+     "course": "Cybersecurity",
+     "cosine": 0.64,
+     "rerank": 0.01
+    },
+    {
+     "clo": "Control Statements (If/Else, Switch)",
+     "course": "Oop",
+     "cosine": 0.65,
+     "rerank": 0.0
+    }
+   ],
+   "cosine_best": {
+    "clo": "Java Programming",
+    "course": "Oop",
+    "cosine": 0.7,
+    "rerank": 0.51
+   },
+   "rerank_best": {
+    "clo": "Java Programming",
+    "course": "Oop",
+    "cosine": 0.7,
+    "rerank": 0.51
+   },
+   "agree": true,
+   "verdict": "SUPPORTED"
+  },
+  {
+   "skill": "documentation",
+   "jobs": 7267,
+   "candidates": [
+    {
+     "clo": "Data Preparation",
+     "course": "Introduction Ai",
+     "cosine": 0.69,
+     "rerank": 0.03
+    },
+    {
+     "clo": "System Configuration and Management",
+     "course": "System Admin",
+     "cosine": 0.67,
+     "rerank": 0.02
+    },
+    {
+     "clo": "Compiler Basics",
+     "course": "Programming C++",
+     "cosine": 0.66,
+     "rerank": 0.0
+    }
+   ],
+   "cosine_best": {
+    "clo": "Data Preparation",
+    "course": "Introduction Ai",
+    "cosine": 0.69,
+    "rerank": 0.03
+   },
+   "rerank_best": {
+    "clo": "Data Preparation",
+    "course": "Introduction Ai",
+    "cosine": 0.69,
+    "rerank": 0.03
+   },
+   "agree": true,
+   "verdict": "NOT SUPPORTED"
+  },
+  {
+   "skill": "linux",
+   "jobs": 6972,
+   "candidates": [
+    {
+     "clo": "Operating System Setup and Configuration",
+     "course": "System Admin",
+     "cosine": 0.68,
+     "rerank": 0.93
+    },
+    {
+     "clo": "Linux/UNIX System Administration",
+     "course": "System Admin",
+     "cosine": 0.76,
+     "rerank": 0.45
+    },
+    {
+     "clo": "System Configuration and Management",
+     "course": "System Admin",
+     "cosine": 0.67,
+     "rerank": 0.06
+    }
+   ],
+   "cosine_best": {
+    "clo": "Linux/UNIX System Administration",
+    "course": "System Admin",
+    "cosine": 0.76,
+    "rerank": 0.45
+   },
+   "rerank_best": {
+    "clo": "Operating System Setup and Configuration",
+    "course": "System Admin",
+    "cosine": 0.68,
+    "rerank": 0.93
+   },
+   "agree": false,
+   "verdict": "SUPPORTED"
+  },
+  {
+   "skill": "devops",
+   "jobs": 6870,
+   "candidates": [
+    {
+     "clo": "Network Services Deployment and Management",
+     "course": "System Admin",
+     "cosine": 0.64,
+     "rerank": 0.11
+    },
+    {
+     "clo": "System Configuration and Management",
+     "course": "System Admin",
+     "cosine": 0.66,
+     "rerank": 0.04
+    },
+    {
+     "clo": "System Operations and Maintenance",
+     "course": "System Admin",
+     "cosine": 0.64,
+     "rerank": 0.01
+    }
+   ],
+   "cosine_best": {
+    "clo": "System Configuration and Management",
+    "course": "System Admin",
+    "cosine": 0.66,
+    "rerank": 0.04
+   },
+   "rerank_best": {
+    "clo": "Network Services Deployment and Management",
+    "course": "System Admin",
+    "cosine": 0.64,
+    "rerank": 0.11
+   },
+   "agree": false,
+   "verdict": "WEAK"
+  },
+  {
+   "skill": "machine learning",
+   "jobs": 6847,
+   "candidates": [
+    {
+     "clo": "Machine Learning Model Implementation",
+     "course": "Introduction Ai",
+     "cosine": 0.85,
+     "rerank": 0.84
+    },
+    {
+     "clo": "Classification Algorithms",
+     "course": "Introduction Ai",
+     "cosine": 0.83,
+     "rerank": 0.03
+    },
+    {
+     "clo": "Supervised Learning",
+     "course": "Introduction Ai",
+     "cosine": 0.84,
+     "rerank": 0.01
+    }
+   ],
+   "cosine_best": {
+    "clo": "Machine Learning Model Implementation",
+    "course": "Introduction Ai",
+    "cosine": 0.85,
+    "rerank": 0.84
+   },
+   "rerank_best": {
+    "clo": "Machine Learning Model Implementation",
+    "course": "Introduction Ai",
+    "cosine": 0.85,
+    "rerank": 0.84
+   },
+   "agree": true,
+   "verdict": "SUPPORTED"
+  },
+  {
+   "skill": "microsoft office suite",
+   "jobs": 6634,
+   "candidates": [
+    {
+     "clo": "Operating System Setup and Configuration",
+     "course": "System Admin",
+     "cosine": 0.61,
+     "rerank": 0.02
+    },
+    {
+     "clo": "System Configuration and Management",
+     "course": "System Admin",
+     "cosine": 0.62,
+     "rerank": 0.01
+    },
+    {
+     "clo": "User Account Management",
+     "course": "System Admin",
+     "cosine": 0.62,
+     "rerank": 0.0
+    }
+   ],
+   "cosine_best": {
+    "clo": "User Account Management",
+    "course": "System Admin",
+    "cosine": 0.62,
+    "rerank": 0.0
+   },
+   "rerank_best": {
+    "clo": "Operating System Setup and Configuration",
+    "course": "System Admin",
+    "cosine": 0.61,
+    "rerank": 0.02
+   },
+   "agree": false,
+   "verdict": "NOT SUPPORTED"
+  },
+  {
+   "skill": "c++",
+   "jobs": 6613,
+   "candidates": [
+    {
+     "clo": "C++ Programming",
+     "course": "Programming C++",
+     "cosine": 0.87,
+     "rerank": 1.0
+    },
+    {
+     "clo": "Compiler Basics",
+     "course": "Programming C++",
+     "cosine": 0.71,
+     "rerank": 0.24
+    },
+    {
+     "clo": "Object-Oriented Programming (OOP)",
+     "course": "Programming C++",
+     "cosine": 0.7,
+     "rerank": 0.05
+    }
+   ],
+   "cosine_best": {
+    "clo": "C++ Programming",
+    "course": "Programming C++",
+    "cosine": 0.87,
+    "rerank": 1.0
+   },
+   "rerank_best": {
+    "clo": "C++ Programming",
+    "course": "Programming C++",
+    "cosine": 0.87,
+    "rerank": 1.0
+   },
+   "agree": true,
+   "verdict": "SUPPORTED"
+  },
+  {
+   "skill": "networking",
+   "jobs": 6528,
+   "candidates": [
+    {
+     "clo": "Network Protocols",
+     "course": "System Admin",
+     "cosine": 0.81,
+     "rerank": 0.45
+    },
+    {
+     "clo": "Network Administration",
+     "course": "System Admin",
+     "cosine": 0.78,
+     "rerank": 0.33
+    },
+    {
+     "clo": "Cisco Networking",
+     "course": "System Admin",
+     "cosine": 0.82,
+     "rerank": 0.11
+    }
+   ],
+   "cosine_best": {
+    "clo": "Cisco Networking",
+    "course": "System Admin",
+    "cosine": 0.82,
+    "rerank": 0.11
+   },
+   "rerank_best": {
+    "clo": "Network Protocols",
+    "course": "System Admin",
+    "cosine": 0.81,
+    "rerank": 0.45
+   },
+   "agree": false,
+   "verdict": "WEAK"
+  },
+  {
+   "skill": "kubernetes",
+   "jobs": 6141,
+   "candidates": [
+    {
+     "clo": "Virtualization",
+     "course": "System Admin",
+     "cosine": 0.73,
+     "rerank": 0.02
+    },
+    {
+     "clo": "Containerization",
+     "course": "System Admin",
+     "cosine": 0.72,
+     "rerank": 0.01
+    },
+    {
+     "clo": "Network Services Deployment and Management",
+     "course": "System Admin",
+     "cosine": 0.72,
+     "rerank": 0.0
+    }
+   ],
+   "cosine_best": {
+    "clo": "Virtualization",
+    "course": "System Admin",
+    "cosine": 0.73,
+    "rerank": 0.02
+   },
+   "rerank_best": {
+    "clo": "Virtualization",
+    "course": "System Admin",
+    "cosine": 0.73,
+    "rerank": 0.02
+   },
+   "agree": true,
+   "verdict": "NOT SUPPORTED"
+  },
+  {
+   "skill": "docker",
+   "jobs": 5795,
+   "candidates": [
+    {
+     "clo": "Virtualization",
+     "course": "System Admin",
+     "cosine": 0.68,
+     "rerank": 0.14
+    },
+    {
+     "clo": "Containerization",
+     "course": "System Admin",
+     "cosine": 0.77,
+     "rerank": 0.01
+    },
+    {
+     "clo": "Modular Programming",
+     "course": "Programming C++",
+     "cosine": 0.63,
+     "rerank": 0.0
+    }
+   ],
+   "cosine_best": {
+    "clo": "Containerization",
+    "course": "System Admin",
+    "cosine": 0.77,
+    "rerank": 0.01
+   },
+   "rerank_best": {
+    "clo": "Virtualization",
+    "course": "System Admin",
+    "cosine": 0.68,
+    "rerank": 0.14
+   },
+   "agree": false,
+   "verdict": "WEAK"
+  }
+ ]
+}

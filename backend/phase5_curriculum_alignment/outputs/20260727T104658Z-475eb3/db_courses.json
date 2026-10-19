@@ -1,0 +1,74 @@
+[
+  {
+    "file": "1_information_system_analysis_and_design.json",
+    "course_id": 68,
+    "course_code": "GICI31ACI",
+    "course_title": "Information System Analysis and Design",
+    "year": "Y3",
+    "n_skills": 20
+  },
+  {
+    "file": "2_algorithm_and_programming.json",
+    "course_id": 62,
+    "course_code": "GICI31ALP",
+    "course_title": "Algorithm and programming",
+    "year": "Y3",
+    "n_skills": 17
+  },
+  {
+    "file": "3_combinational_and_sequential_logics.json",
+    "course_id": 63,
+    "course_code": "GICI31CSL",
+    "course_title": "Combinational and Sequential Logics",
+    "year": "Y3",
+    "n_skills": 26
+  },
+  {
+    "file": "4_introduction_to_computer_systems_and_networks.json",
+    "course_id": 64,
+    "course_code": "GICI31CSN",
+    "course_title": "Introduction to Computer Systems and Networks",
+    "year": "Y3",
+    "n_skills": 27
+  },
+  {
+    "file": "5_soft_skills.json",
+    "course_id": 67,
+    "course_code": "GICI31SS",
+    "course_title": "Soft Skills",
+    "year": "Y3",
+    "n_skills": 2
+  },
+  {
+    "file": "6_object_oriented_programming.json",
+    "course_id": 66,
+    "course_code": "GICI32OOP",
+    "course_title": "Object-Oriented Programming",
+    "year": "Y3",
+    "n_skills": 20
+  },
+  {
+    "file": "7_discrete_mathematics.json",
+    "course_id": 65,
+    "course_code": "GICI3DM",
+    "course_title": "Discrete Mathematics",
+    "year": "Y3",
+    "n_skills": 38
+  },
+  {
+    "file": "8_electronics.json",
+    "course_id": 60,
+    "course_code": "GICI3ELE",
+    "course_title": "Electronics",
+    "year": "Y3",
+    "n_skills": 30
+  },
+  {
+    "file": "9_research_methodology.json",
+    "course_id": 61,
+    "course_code": "GICI3RM",
+    "course_title": "Research Methodology",
+    "year": "Y3",
+    "n_skills": 38
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "skill": "Array Data Structures",
+    "source": "CLO"
+  },
+  {
+    "skill": "Linked List Data Structures",
+    "source": "CLO"
+  },
+  {
+    "skill": "Hash Table Data Structures",
+    "source": "CLO"
+  },
+  {
+    "skill": "File Input/Output (File IO)",
+    "source": "CLO"
+  },
+  {
+    "skill": "C++ Programming",
+    "source": "Description"
+  },
+  {
+    "skill": "Structure Data Types",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Hash Table Implementation",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Basic File IO",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "CSV File IO",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Linked List Operations",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Linked List Search and Delete",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Stack (LIFO)",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Queue (FIFO)",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Selection Sort",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Bubble Sort",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Insertion Sort",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Merge Sort",
+    "source": "Lesson Topic"
+  }
+]

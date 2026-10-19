@@ -1,0 +1,150 @@
+{"id": "P001", "answer": "No", "note": "Modular programming in C++ teaches code organization/structure, not scripting skills."}
+{"id": "P002", "answer": "No", "note": "The CLO covers Java programming fundamentals, not testing practices."}
+{"id": "P003", "answer": "No", "note": "Data backup and recovery does not address scheduling tasks or job scheduling."}
+{"id": "P004", "answer": "Partly", "note": "Virtualization is a foundational technology for cloud computing but doesn't cover cloud platforms/services directly."}
+{"id": "P005", "answer": "No", "note": "K-Means clustering is an unsupervised ML algorithm and has no relation to load balancing, a systems/networking concept."}
+{"id": "P006", "answer": "No", "note": "Course teaches Java, not Rust programming."}
+{"id": "P007", "answer": "Partly", "note": "IT infrastructure/service management is related but not the same as general project management skills."}
+{"id": "P008", "answer": "Partly", "note": "Managing infrastructure services relates to infrastructure operations but doesn't specifically teach codifying infrastructure via IaC tools/practices."}
+{"id": "P009", "answer": "No", "note": "Structured programming in C++ teaches basic coding fundamentals, not infrastructure as code practices or tools."}
+{"id": "P010", "answer": "No", "note": "Classification algorithms relate to predictive modeling, not optimization techniques."}
+{"id": "P011", "answer": "No", "note": "Network administration is a technical IT skill, unrelated to business administration."}
+{"id": "P012", "answer": "No", "note": "Arrays as a basic data structure topic do not cover building or managing data pipelines."}
+{"id": "P013", "answer": "Yes", "note": "Analyzing cyber threats and vulnerabilities directly constitutes security analysis."}
+{"id": "P014", "answer": "No", "note": "Data preparation is a data processing step, not related to documentation skills."}
+{"id": "P015", "answer": "No", "note": "Modular programming teaches code organization/structure, not prototyping skills."}
+{"id": "P016", "answer": "No", "note": "Focuses on operating/maintaining systems, not analyzing requirements or system design/analysis."}
+{"id": "P017", "answer": "Partly", "note": "Covers general network/services administration, not specifically AWS cloud skills."}
+{"id": "P018", "answer": "Yes", "note": "Course explicitly covers AI fundamentals, directly teaching the skill."}
+{"id": "P019", "answer": "No", "note": "Python programming basics do not cover Kerberos authentication protocol."}
+{"id": "P020", "answer": "Partly", "note": "EDA often involves visualizing data but the outcome doesn't explicitly teach visualization skills/tools."}
+{"id": "P021", "answer": "No", "note": "This CLO covers managing infrastructure services, not remote work practices or tools specifically."}
+{"id": "P022", "answer": "Yes", "note": "CLO explicitly covers Java programming skill."}
+{"id": "P023", "answer": "Partly", "note": "Addresses model generalization issues, a subset of performance tuning, but not broader performance optimization techniques."}
+{"id": "P024", "answer": "No", "note": "Network protocols relate to system administration/networking, not full stack development."}
+{"id": "P025", "answer": "No", "note": "Structured programming teaches coding fundamentals, not Agile methodology or project management practices."}
+{"id": "P026", "answer": "Partly", "note": "Data preparation relates to data management but is narrower, focusing on preprocessing rather than full data management practices."}
+{"id": "P027", "answer": "Yes", "note": "Course directly teaches Java programming, a programming skill."}
+{"id": "P028", "answer": "Partly", "note": "Covers ethics in secure software development, which relates to but doesn't directly teach application security techniques."}
+{"id": "P029", "answer": "Partly", "note": "Covers ethics within software development context, not general software development skills themselves."}
+{"id": "P030", "answer": "No", "note": "Model Evaluation in AI refers to assessing ML/AI models, unrelated to SolidWorks CAD software."}
+{"id": "P031", "answer": "No", "note": "Compiler basics concerns language translation concepts, not code review practices."}
+{"id": "P032", "answer": "Partly", "note": "ML model implementation is a subset of AI, but doesn't cover the full breadth of AI skills."}
+{"id": "P033", "answer": "Partly", "note": "Covers algorithm design specifically, not general design skills broadly implied by the job-market term."}
+{"id": "P034", "answer": "Yes", "note": "The course outcome directly teaches C++ programming."}
+{"id": "P035", "answer": "Partly", "note": "Computer Fundamentals covers basic concepts, not the full breadth of computer science skills."}
+{"id": "P036", "answer": "No", "note": "Data storage types is a technical database concept unrelated to product development skills."}
+{"id": "P037", "answer": "No", "note": "Unsupervised learning is a machine learning concept unrelated to application security practices."}
+{"id": "P038", "answer": "No", "note": "Java Packages relates to Java organization, not Oracle database/technology skills."}
+{"id": "P039", "answer": "No", "note": "EDA relates to data analysis, not ITIL IT service management framework."}
+{"id": "P040", "answer": "Partly", "note": "K-Means involves an iterative optimization procedure but the CLO teaches clustering, not optimization techniques generally."}
+{"id": "P041", "answer": "No", "note": "Interfaces in OOP relate to class design/abstraction, not data science skills."}
+{"id": "P042", "answer": "Partly", "note": "OOP analysis/design principles underpin MVC but the outcome doesn't explicitly teach MVC architecture."}
+{"id": "P043", "answer": "No", "note": "Java Programming as a CLO teaches object-oriented coding skills, not workflow design or automation."}
+{"id": "P044", "answer": "Yes", "note": "Ubuntu Server Administration directly teaches server management skills."}
+{"id": "P045", "answer": "No", "note": "Pandas is a data analysis library unrelated to DB2 database skills"}
+{"id": "P046", "answer": "No", "note": "System operations and maintenance covers running/maintaining systems, not auditing controls or financial/compliance review."}
+{"id": "P047", "answer": "No", "note": "Gradient Boosting is a distinct ensemble ML technique, not deep learning (neural networks)."}
+{"id": "P048", "answer": "No", "note": "User account management relates to system administration, not Microsoft Office Suite skills."}
+{"id": "P049", "answer": "No", "note": "Learning Eclipse IDE usage does not teach code review skills/practices."}
+{"id": "P050", "answer": "Partly", "note": "Linux/UNIX system administration is foundational to data center operations but doesn't cover the full scope of data center management."}
+{"id": "P051", "answer": "No", "note": "Data storage types is a technical topic unrelated to customer focus skills."}
+{"id": "P052", "answer": "No", "note": "Regression models is a technique/topic, not teaching application development skills"}
+{"id": "P053", "answer": "Partly", "note": "Deep learning is one specific emerging technology, but the CLO doesn't cover emerging technologies broadly."}
+{"id": "P054", "answer": "Partly", "note": "Secure coding reduces vulnerabilities but is not the same as data security practices like encryption/access control"}
+{"id": "P055", "answer": "No", "note": "Java Packages relates to Java code organization, not Hive (a big data/SQL-on-Hadoop tool)."}
+{"id": "P056", "answer": "Yes", "note": "CLO explicitly names containerization as a taught topic in System Administration."}
+{"id": "P057", "answer": "Partly", "note": "Covers data storage concepts within a programming course, not storage systems/infrastructure as a market skill."}
+{"id": "P058", "answer": "Yes", "note": "Secure data storage directly addresses protecting data, aligning with data security skill."}
+{"id": "P059", "answer": "No", "note": "Outcome covers general infrastructure services management, not vulnerability identification or remediation processes."}
+{"id": "P060", "answer": "Yes", "note": "Building attack-resistant software is a core practice of security engineering."}
+{"id": "P061", "answer": "Yes", "note": "The CLO directly teaches algorithm design, matching the algorithms skill."}
+{"id": "P062", "answer": "Partly", "note": "OOP analysis and design is foundational to software development but doesn't cover full development lifecycle skills like implementation, testing, deployment."}
+{"id": "P063", "answer": "Yes", "note": "CLO explicitly covers network security as a topic in this course."}
+{"id": "P064", "answer": "Partly", "note": "System operations/maintenance may involve some automation tasks, but the CLO doesn't explicitly teach automation skills."}
+{"id": "P065", "answer": "No", "note": "Encapsulation is an OOP principle about bundling data/methods, unrelated to containerization technologies like Docker."}
+{"id": "P066", "answer": "Yes", "note": "Containerization directly covers Docker-style technology as taught in System Administration."}
+{"id": "P067", "answer": "Partly", "note": "OOP analysis/design underlies software development but doesn't cover full stack (frontend+backend+deployment) skills."}
+{"id": "P068", "answer": "No", "note": "Regression modeling is a statistical/predictive technique, not systems analysis."}
+{"id": "P069", "answer": "Yes", "note": "The CLO directly names network troubleshooting as a taught skill."}
+{"id": "P070", "answer": "No", "note": "Model evaluation assesses ML performance, not verification (formal proof/testing of correctness)"}
+{"id": "P071", "answer": "No", "note": "This CLO covers Java programming, not Python."}
+{"id": "P072", "answer": "No", "note": "A general Java programming outcome does not specifically address authentication concepts or implementation."}
+{"id": "P073", "answer": "Yes", "note": "Java Packages directly covers Java programming skills."}
+{"id": "P074", "answer": "Yes", "note": "The CLO explicitly names data preparation as a taught skill in the course."}
+{"id": "P075", "answer": "Partly", "note": "Gradient descent is a foundational optimization technique used in machine learning, but not machine learning itself as a broader skill."}
+{"id": "P076", "answer": "Partly", "note": "System configuration/management is foundational to DevOps but doesn't explicitly cover CI/CD, automation pipelines, or DevOps practices."}
+{"id": "P077", "answer": "Partly", "note": "Deploying/managing network services may involve Windows administration, but group policy specifically isn't mentioned."}
+{"id": "P078", "answer": "Partly", "note": "EDA involves examining data and may include some cleaning, but it's not the same as full data preparation (cleaning, transforming, integrating)."}
+{"id": "P079", "answer": "No", "note": "Input validation is a security practice unrelated to PyTorch or deep learning frameworks."}
+{"id": "P080", "answer": "No", "note": "Networking fundamentals do not cover open source frameworks specifically."}
+{"id": "P081", "answer": "No", "note": "Containerization relates to deployment/isolation, not quality assurance practices."}
+{"id": "P082", "answer": "No", "note": "This CLO covers secure development ethics, not MongoDB or database technology."}
+{"id": "P083", "answer": "No", "note": "C++ programming teaches coding skills, not CISM security management certification knowledge."}
+{"id": "P084", "answer": "No", "note": "vSphere is a virtualization platform, unrelated to computer vision."}
+{"id": "P085", "answer": "No", "note": "AI fundamentals course does not cover distributed systems concepts."}
+{"id": "P086", "answer": "No", "note": "Decision Trees relate to AI/machine learning, not Six Sigma process improvement methodology."}
+{"id": "P087", "answer": "No", "note": "This CLO covers Java console I/O with the Scanner class, unrelated to git version control."}
+{"id": "P088", "answer": "Partly", "note": "Application services management relates to IT service oversight, not general program management skills like planning, scheduling, and cross-team coordination."}
+{"id": "P089", "answer": "No", "note": "Arrays is a basic programming construct unrelated to building dashboards."}
+{"id": "P090", "answer": "No", "note": "Linear classification is a machine learning technique unrelated to word processing or text-related 'word' skills."}
+{"id": "P091", "answer": "Yes", "note": "The CLO directly covers Linux system administration skills."}
+{"id": "P092", "answer": "No", "note": "Data preparation for AI is unrelated to PLC (programmable logic controller) skills."}
+{"id": "P093", "answer": "Partly", "note": "Network architecture knowledge underlies distributed systems but doesn't directly teach distributed systems design/concepts."}
+{"id": "P094", "answer": "Partly", "note": "OS setup relates to computer systems but is narrower than general computer systems skill"}
+{"id": "P095", "answer": "Partly", "note": "Covers configuring/managing systems, which is foundational but not explicitly network maintenance."}
+{"id": "P096", "answer": "No", "note": "This outcome covers general AI fundamentals, not simulation techniques."}
+{"id": "P097", "answer": "No", "note": "Abstraction is an OOP concept, not related to automation skills."}
+{"id": "P098", "answer": "Partly", "note": "OS setup/configuration is foundational to system administration but doesn't specifically teach integrating multiple systems/components together."}
+{"id": "P099", "answer": "Yes", "note": "Course outcome explicitly covers Cisco Networking, directly teaching networking skills."}
+{"id": "P100", "answer": "Partly", "note": "Troubleshooting is a component of network maintenance but doesn't cover full maintenance tasks like updates, monitoring, and configuration."}
+{"id": "P101", "answer": "No", "note": "Course covers basic C++ programming concepts, not REST APIs or web services."}
+{"id": "P102", "answer": "Partly", "note": "Network monitoring supports security awareness but doesn't itself teach network security implementation."}
+{"id": "P103", "answer": "Partly", "note": "Secure data storage relates to data protection but does not specifically teach authentication mechanisms."}
+{"id": "P104", "answer": "Partly", "note": "Secure data storage supports information assurance but doesn't cover its full scope (confidentiality, integrity, availability, risk management)."}
+{"id": "P105", "answer": "No", "note": "Network Fundamentals covers networking basics, not hybrid work policies or practices."}
+{"id": "P106", "answer": "Yes", "note": "The CLO explicitly teaches Python programming skills."}
+{"id": "P107", "answer": "Yes", "note": "CLO explicitly teaches Python programming."}
+{"id": "P108", "answer": "Partly", "note": "Decision trees are a specific ML technique, so this covers part of ML but not the broader field."}
+{"id": "P109", "answer": "No", "note": "Application Services Management does not cover data warehouse concepts or implementation."}
+{"id": "P110", "answer": "Partly", "note": "Covers general data storage concepts, not specifically databases or database management systems."}
+{"id": "P111", "answer": "No", "note": "Java is a distinct language from JavaScript; the course teaches Java, not JavaScript."}
+{"id": "P112", "answer": "Partly", "note": "NIST framework covers broader cybersecurity governance/risk, not the specific technique of threat modeling."}
+{"id": "P113", "answer": "Yes", "note": "CLO directly covers Linux/UNIX system administration, matching the skill."}
+{"id": "P114", "answer": "Partly", "note": "EDA involves analyzing data patterns but does not specifically teach systematic root cause analysis methodology."}
+{"id": "P115", "answer": "Yes", "note": "CLO directly names access control as a taught topic in the cybersecurity course."}
+{"id": "P116", "answer": "Yes", "note": "The CLO explicitly covers Object-Oriented Programming, directly matching the skill."}
+{"id": "P117", "answer": "No", "note": "The outcome text 'Virtualization' does not relate to S3 or cloud object storage skills."}
+{"id": "P118", "answer": "Partly", "note": "Covers securing against SQL injection, not general SQL skills like querying/database management."}
+{"id": "P119", "answer": "Yes", "note": "Classification algorithms are a direct subset of algorithms taught in the course."}
+{"id": "P120", "answer": "Partly", "note": "Network monitoring relates to but is not the same as broader network analysis skills."}
+{"id": "P121", "answer": "Yes", "note": "Directly involves implementing machine learning models."}
+{"id": "P122", "answer": "No", "note": "C++ programming course covers object-oriented/procedural concepts, not functional programming paradigms."}
+{"id": "P123", "answer": "Partly", "note": "Focuses on system operation/maintenance rather than broad computer systems design, but is closely related."}
+{"id": "P124", "answer": "No", "note": "This CLO addresses general problem-solving in C++, not PL/SQL or database programming."}
+{"id": "P125", "answer": "Partly", "note": "Covers foundational networking concepts but not specifically network analysis techniques."}
+{"id": "P126", "answer": "No", "note": "Interfaces in OOP relate to abstraction/typing constructs, not Unix systems knowledge."}
+{"id": "P127", "answer": "No", "note": "Inheritance is an OOP concept, unrelated to writing test cases."}
+{"id": "P128", "answer": "Yes", "note": "CLO explicitly covers network protocols, directly matching the skill."}
+{"id": "P129", "answer": "No", "note": "This CLO teaches classification techniques, not continuous learning skills."}
+{"id": "P130", "answer": "No", "note": "Network troubleshooting does not cover electronic medical records systems."}
+{"id": "P131", "answer": "No", "note": "EDA is general data exploration/statistics, not security analysis."}
+{"id": "P132", "answer": "No", "note": "This CLO covers secure coding practices, not standards compliance or knowledge of specific standards."}
+{"id": "P133", "answer": "Partly", "note": "Access control management is related to security but does not specifically teach vulnerability identification and remediation."}
+{"id": "P134", "answer": "Partly", "note": "Virtualization is a foundational concept related to containerization but does not specifically teach Kubernetes."}
+{"id": "P135", "answer": "Yes", "note": "EDA is a core form of data analysis, directly teaching this skill."}
+{"id": "P136", "answer": "No", "note": "EDA relates to data analysis, not building or working with enterprise applications."}
+{"id": "P137", "answer": "No", "note": "Server administration teaches system/OS management skills, not program management competencies like planning, budgeting, or cross-team coordination."}
+{"id": "P138", "answer": "Partly", "note": "Clustering is a data mining technique but covers only one aspect, not data mining as a whole."}
+{"id": "P139", "answer": "Yes", "note": "CLO explicitly covers Object-Oriented Programming, matching the skill directly."}
+{"id": "P140", "answer": "Yes", "note": "CLO explicitly covers VMware vSphere, directly teaching the VMware skill."}
+{"id": "P141", "answer": "No", "note": "Class concept in C++ teaches OOP fundamentals, unrelated to Angular framework skills."}
+{"id": "P142", "answer": "Partly", "note": "Application services management may involve deploying or managing services, which could include web services, but it doesn't explicitly teach web services development or APIs."}
+{"id": "P143", "answer": "Partly", "note": "Virtualization is a foundational concept related to cloud computing but does not specifically teach Azure skills."}
+{"id": "P144", "answer": "Partly", "note": "Focuses on operating and maintaining systems, not on integrating disparate systems together."}
+{"id": "P145", "answer": "No", "note": "EDA is about analyzing data, not extracting/transforming/loading it from sources."}
+{"id": "P146", "answer": "No", "note": "This outcome addresses secure coding against attacks, not software design patterns."}
+{"id": "P147", "answer": "No", "note": "Application services management is about administering deployed services, not eliciting/gathering requirements."}
+{"id": "P148", "answer": "Partly", "note": "Understanding attack lifecycle supports threat modeling but doesn't explicitly teach the structured threat modeling process itself."}
+{"id": "P149", "answer": "Yes", "note": "The CLO directly states systems administration as the learning outcome, matching the required skill."}
+{"id": "P150", "answer": "Yes", "note": "The CLO explicitly covers system operations as part of system administration."}

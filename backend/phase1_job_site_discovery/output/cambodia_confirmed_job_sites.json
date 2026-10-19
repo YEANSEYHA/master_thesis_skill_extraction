@@ -1,0 +1,216 @@
+[
+  {
+    "url": "https://www.bongthom.com",
+    "domain": "bongthom.com",
+    "name": "Jobs and Classified Ads in Cambodia",
+    "snippet": "BongThom.com is Cambodia's premier job announcements portal. job, jobs, job in cambodia, jobs in cambodia, top job, top jobs, most popular job site, ...",
+    "found_in_queries": 3,
+    "country": "cambodia",
+    "final_url": "https://www.bongthom.com",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.95,
+      "site_type": "job_portal",
+      "reason": "Strong evidence of Cambodia-focused job listings with keywords like 'Jobs in Cambodia', 'premier job announcements portal', and explicit mention of Cambodia in title/meta tags. Contains RSS feeds for job listings and classified ads.",
+      "features_found": [
+        "job_search",
+        "classifieds",
+        "rss_feeds",
+        "country_relevance"
+      ]
+    }
+  },
+  {
+    "url": "https://www.camhr.com",
+    "domain": "camhr.com",
+    "name": "CamHR: Cambodia Jobs|Jobs|Job|Employer|Seeker ...",
+    "snippet": "cambodia jobs,jobs in cambodia,employment opportunities,Recruitment,job search in cambodia,free job in cambodia,cambodia jobs opportunity update everyday ...",
+    "found_in_queries": 2,
+    "country": "cambodia",
+    "final_url": "https://www.camhr.com",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.85,
+      "site_type": "job_portal",
+      "reason": "The website explicitly targets Cambodia with keywords like 'cambodia jobs', 'work in cambodia', and 'khmer Jobs'. It includes job-related meta tags and a domain name (camhr.com) associated with Cambodia.",
+      "features_found": [
+        "job_search_keywords",
+        "country_specific_content",
+        "employment_related_metadata",
+        "job_portal_keywords"
+      ]
+    }
+  },
+  {
+    "url": "https://www.jobnet.com.kh",
+    "domain": "jobnet.com.kh",
+    "name": "JobNet.com.kh | Cambodia no.1 Jobs, Vacancies and Career ...",
+    "snippet": "On JobNet Cambodia, you will find the best jobs in Finance or Accounting, Sales or Business Development, Marketing or PR and Communications, HR, Engineering, ...",
+    "found_in_queries": 2,
+    "country": "cambodia",
+    "final_url": "https://www.jobnet.com.kh",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.95,
+      "site_type": "job_portal",
+      "reason": "Website explicitly targets Cambodia with title/metadata, has job search functionality (schema.org/SearchAction), and uses .kh domain. Features include job vacancy listings, career sections, and employer integration.",
+      "features_found": [
+        "job_search",
+        "career_section",
+        "employer_features",
+        "country_specific_content",
+        "job_listings"
+      ]
+    }
+  },
+  {
+    "url": "https://www.khmeronlinejobs.com",
+    "domain": "khmeronlinejobs.com",
+    "name": "Khmer Online Jobs: Jobs in Cambodia",
+    "snippet": "Search thousands of new jobs across Cambodia and apply online today. Do not let the opportunity slip away, follow us to stay tuned.",
+    "found_in_queries": 2,
+    "country": "cambodia",
+    "final_url": "https://www.khmeronlinejobs.com",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.95,
+      "site_type": "job_portal",
+      "reason": "Primary focus on Cambodia job market with location-specific search filters, salary ranges, and explicit mention of Cambodian cities in the HTML",
+      "features_found": [
+        "job_search",
+        "location_filters",
+        "salary_filters",
+        "country_relevance"
+      ]
+    }
+  },
+  {
+    "url": "https://www.cambodiainvestment.gov.kh",
+    "domain": "cambodiainvestment.gov.kh",
+    "name": "Job Announcement",
+    "snippet": "\u1798\u17b7\u1793\u1798\u17b6\u1793\u1796\u17d0\u178f\u17cc\u1798\u17b6\u1793\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u1791\u17c6\u1796\u17d0\u179a\u1793\u17c1\u17c7\u1791\u17c1\u17d4",
+    "found_in_queries": 2,
+    "country": "cambodia",
+    "final_url": "https://www.cambodiainvestment.gov.kh",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.95,
+      "site_type": "job_portal",
+      "reason": "Contains job search interface elements (search bar, job categories), employer features (post job), and seeker tools (CV upload). SVG includes 'jobstreet.com' which is a regional job portal serving Cambodia and other Southeast Asian countries.",
+      "features_found": [
+        "job_search",
+        "job_categories",
+        "post_a_job",
+        "cv_upload",
+        "employer_login",
+        "job_alerts"
+      ]
+    }
+  },
+  {
+    "url": "https://www.cambojob.com",
+    "domain": "cambojob.com",
+    "name": "Cambojob",
+    "snippet": "Please click in order. Confirm.",
+    "found_in_queries": 1,
+    "country": "cambodia",
+    "final_url": "https://www.cambojob.com",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.95,
+      "site_type": "job_portal",
+      "reason": "Website explicitly targets Cambodia with job-related keywords, mentions employment opportunities, recruitment, and includes job search functionality elements in meta tags and scripts",
+      "features_found": [
+        "job_search",
+        "recruitment_services",
+        "country_specific_content",
+        "employer_features",
+        "job_posting_indicators"
+      ]
+    }
+  },
+  {
+    "url": "https://www.hrincjobs.com",
+    "domain": "hrincjobs.com",
+    "name": "Job Posting | Employer Branding Ads | Executive Search ...",
+    "snippet": "search Search Jobs. Function. Industry ... Search Job \u00b7 Job Tools and Templates \u00b7 Job Seeker Resources \u00b7 Questions & Answers. HRINC Group. HRINC (Cambodia) Co., ...",
+    "found_in_queries": 1,
+    "country": "cambodia",
+    "final_url": "https://www.hrincjobs.com",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.8,
+      "site_type": "job_portal",
+      "reason": "Meta tags explicitly mention 'job portal in ASEAN' and direct references to Cambodia job listings. Contains keywords like 'Free Job Posting' and 'Jobs in Cambodia' which align with the target country.",
+      "features_found": [
+        "job_search_keywords",
+        "country_specific_jobs",
+        "job_posting_features",
+        "asean_focus"
+      ]
+    }
+  },
+  {
+    "url": "https://camupjob.com",
+    "domain": "camupjob.com",
+    "name": "CamUp Job - Best Recruitment Agency, Job Posting Service ...",
+    "snippet": "CamUp Job Center has worked with full commitment to provide quality job posting service, human resource consultants, and recruitment service in Cambodia. We ...",
+    "found_in_queries": 1,
+    "country": "cambodia",
+    "final_url": "https://camupjob.com",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.85,
+      "site_type": "recruitment_agency",
+      "reason": "The website explicitly targets Cambodia with meta descriptions mentioning Japanese recruitment agency services in Cambodia, and includes structured data for a recruitment agency organization. While no direct job listings or search features are visible in the HTML snippet, the primary focus and country relevance are clearly Cambodia.",
+      "features_found": [
+        "recruitment_agency_services",
+        "country_relevance_cambodia",
+        "organization_schema"
+      ]
+    }
+  },
+  {
+    "url": "https://jobgether.com",
+    "domain": "jobgether.com",
+    "name": "(23995 jobs) Remote Jobs in Cambodia - Work From Home",
+    "snippet": "Explore exciting remote job opportunities in Cambodia with Jobgether. We empower professionals to connect with companies that value flexibility and work-life ...",
+    "found_in_queries": 1,
+    "country": "cambodia",
+    "final_url": "https://jobgether.com",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.95,
+      "site_type": "job_portal",
+      "reason": "Title and description explicitly mention 'remote jobs in Cambodia' with job-related keywords and country-specific targeting",
+      "features_found": [
+        "job_listings",
+        "remote_work_options",
+        "country_specific_targeting",
+        "job_portal_branding"
+      ]
+    }
+  },
+  {
+    "url": "https://acecambodia.org",
+    "domain": "acecambodia.org",
+    "name": "Careers",
+    "snippet": "CAREERS. IDP Education (Cambodia) employs over 600 local and international staff in Cambodia across all our various business streams in Phnom Penh and Siem ...",
+    "found_in_queries": 1,
+    "country": "cambodia",
+    "final_url": "https://acecambodia.org",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.7,
+      "site_type": "job_portal",
+      "reason": "The HTML contains job portal elements like 'JobStreet' branding, search functionality, and job listing features. While not explicitly stating Cambodia, JobStreet is a known platform operating in Cambodia and other Southeast Asian countries.",
+      "features_found": [
+        "job_search",
+        "job_listings",
+        "employer_sections",
+        "seeker_features",
+        "categories"
+      ]
+    }
+  }
+]

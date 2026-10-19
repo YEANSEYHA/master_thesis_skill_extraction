@@ -1,0 +1,31 @@
+rank,market_skill,job_count,program_score,status,best_course,best_clo,rerank_score,rerank_verdict,host_ok,priority
+1,technical documentation,49,0.78,covered,Information System Analysis And Design,Data Integrity and Data Quality Documentation,0.03,NOT_SUPPORTED,true,0.0418
+2,database management,42,0.91,covered,Information System Analysis And Design,Database Management Systems (DBMS),0.99,SUPPORTED,true,0.0155
+3,java programming,41,0.87,covered,Object Oriented Programming,Java,1.0,SUPPORTED,true,0.0202
+4,project management,37,0.65,gap,Information System Analysis And Design,Database Management Systems (DBMS),0.02,NOT_SUPPORTED,false,0.0515
+5,network troubleshooting,35,1.0,covered,Introduction To Computer Systems And Networks,Network Troubleshooting,1.0,SUPPORTED,true,0.0
+6,system maintenance,34,0.82,covered,Object Oriented Programming,Software Application Maintenance,0.56,SUPPORTED,true,0.0238
+7,mysql database,30,0.71,borderline,Information System Analysis And Design,Database Management Systems (DBMS),0.11,WEAK,true,0.0346
+8,restful api development,28,0.65,gap,Object Oriented Programming,Object-Oriented Analysis and Design,0.01,NOT_SUPPORTED,false,0.0383
+9,postgresql database,27,0.66,gap,Information System Analysis And Design,Relational Database Design,0.02,NOT_SUPPORTED,false,0.0357
+10,technical support,27,0.69,gap,Introduction To Computer Systems And Networks,Network Troubleshooting,0.65,SUPPORTED,false,0.0331
+11,ci/cd pipelines,26,0.63,gap,Information System Analysis And Design,Information System Components,0.0,NOT_SUPPORTED,false,0.0376
+12,docker containerization,24,0.61,gap,Object Oriented Programming,Encapsulation,0.55,SUPPORTED,false,0.0366
+13,git version control,24,0.65,gap,Object Oriented Programming,Control Statements,0.04,NOT_SUPPORTED,false,0.0329
+14,firewall configuration,23,1.0,covered,Introduction To Computer Systems And Networks,Firewall Configuration,1.0,SUPPORTED,true,0.0
+15,security compliance,23,0.72,borderline,Information System Analysis And Design,Integrity Constraints,0.02,NOT_SUPPORTED,true,0.0258
+16,server management,21,0.76,covered,Introduction To Computer Systems And Networks,Network Device Management,0.05,NOT_SUPPORTED,true,0.0195
+17,aws cloud platforms,19,0.61,gap,Introduction To Computer Systems And Networks,Network Architectures,0.0,NOT_SUPPORTED,false,0.0295
+18,incident response,19,0.65,gap,Object Oriented Programming,Exception Handling,0.81,SUPPORTED,false,0.0261
+19,security monitoring,19,0.7,borderline,Introduction To Computer Systems And Networks,Packet Tracer,0.02,NOT_SUPPORTED,true,0.0226
+20,api integration,18,0.67,gap,Object Oriented Programming,Interfaces,0.07,NOT_SUPPORTED,false,0.0234
+21,code reviews,18,0.68,gap,Research Methodology,Literature Review,0.0,NOT_SUPPORTED,false,0.0227
+22,data analysis,18,1.0,covered,Research Methodology,Data Analysis,1.0,SUPPORTED,true,0.0
+23,it infrastructure management,18,0.76,covered,Introduction To Computer Systems And Networks,Network Infrastructure Design,0.03,NOT_SUPPORTED,true,0.0168
+24,microsoft office proficiency,18,0.64,gap,Information System Analysis And Design,Information System Components,0.0,NOT_SUPPORTED,false,0.0257
+25,software development,18,0.74,covered,Object Oriented Programming,Software Requirements Analysis,0.4,WEAK,true,0.0186
+26,system integration,18,0.76,covered,Information System Analysis And Design,Information System Components,0.13,WEAK,true,0.017
+27,vmware virtualization,18,0.72,borderline,Introduction To Computer Systems And Networks,Virtual Network Design,0.01,NOT_SUPPORTED,true,0.02
+28,performance tuning,17,0.7,borderline,Object Oriented Programming,Scalable Software Design,0.08,NOT_SUPPORTED,true,0.0198
+29,disaster recovery planning,16,0.65,gap,Research Methodology,Analysis Plans,0.02,NOT_SUPPORTED,false,0.0221
+30,network administration,16,0.84,covered,Introduction To Computer Systems And Networks,Network Device Management,0.53,SUPPORTED,true,0.0103

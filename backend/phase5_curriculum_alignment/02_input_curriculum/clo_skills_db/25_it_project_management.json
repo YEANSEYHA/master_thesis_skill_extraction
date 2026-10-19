@@ -1,0 +1,74 @@
+[
+  {
+    "skill": "Project Management Fundamentals",
+    "source": "CLO"
+  },
+  {
+    "skill": "Scope Definition",
+    "source": "CLO"
+  },
+  {
+    "skill": "Work Breakdown Structure (WBS)",
+    "source": "CLO"
+  },
+  {
+    "skill": "Project Team Management",
+    "source": "CLO"
+  },
+  {
+    "skill": "Risk Management",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Change Management",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Earned Value Management (EVM)",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Project Issue Management",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Project Budget Monitoring and Cost Control",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Project Closure and Handover",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Agile Project Management",
+    "source": "CLO"
+  },
+  {
+    "skill": "Project Lifecycle Management",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "PMI Project Management Framework",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Gantt Charts",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "PERT",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Resource Estimation",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Project Status Reporting",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Project Progress Monitoring",
+    "source": "CLO"
+  }
+]

@@ -1,0 +1,765 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stage 2 — Statistics</title>
+    <script
+      src="https://unpkg.com/react@18/umd/react.production.min.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"
+      crossorigin
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone@7.26.10/babel.min.js"></script>
+    <style>
+      :root {
+        --bg: #1a1b26;
+        --bg-card: #1f2335;
+        --bg-hover: #24283b;
+        --border: #292e42;
+        --text: #c0caf5;
+        --text-sub: #565f89;
+        --accent: #7aa2f7;
+        --accent2: #bb9af7;
+        --green: #9ece6a;
+        --yellow: #e0af68;
+        --red: #f7768e;
+        --cyan: #7dcfff;
+      }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: "Segoe UI", sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        padding: 32px;
+        overflow-y: auto;
+      }
+      h1 {
+        font-size: 1.4rem;
+        color: var(--cyan);
+        margin-bottom: 8px;
+      }
+      .subtitle {
+        font-size: 0.82rem;
+        color: var(--text-sub);
+        margin-bottom: 24px;
+      }
+      .back-btn {
+        display: inline-block;
+        padding: 6px 16px;
+        background: var(--bg-card);
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        color: var(--accent);
+        font-size: 0.82rem;
+        cursor: pointer;
+        text-decoration: none;
+        margin-bottom: 20px;
+      }
+      .back-btn:hover {
+        background: var(--bg-hover);
+      }
+
+      /* Metrics row */
+      .metrics {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        gap: 14px;
+        margin-bottom: 28px;
+      }
+      .metric-card {
+        background: var(--bg-card);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 16px 18px;
+        text-align: center;
+      }
+      .metric-value {
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: var(--accent);
+      }
+      .metric-label {
+        font-size: 0.72rem;
+        color: var(--text-sub);
+        margin-top: 4px;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+      }
+
+      /* Charts grid */
+      .charts {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        margin-bottom: 28px;
+      }
+      .chart-card {
+        background: var(--bg-card);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 20px;
+      }
+      .chart-card.full {
+        grid-column: 1 / -1;
+      }
+      .chart-title {
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: var(--accent2);
+        margin-bottom: 14px;
+        font-weight: 600;
+      }
+      canvas {
+        max-height: 350px;
+      }
+
+      /* Table */
+      .table-card {
+        background: var(--bg-card);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 20px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.82rem;
+      }
+      th {
+        text-align: left;
+        padding: 8px 10px;
+        color: var(--text-sub);
+        border-bottom: 1px solid var(--border);
+        font-weight: 600;
+      }
+      td {
+        padding: 8px 10px;
+        border-bottom: 1px solid var(--border);
+        color: var(--text);
+      }
+      tr:hover {
+        background: var(--bg-hover);
+      }
+      .bar-cell {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .bar-fill {
+        height: 6px;
+        border-radius: 3px;
+        background: var(--accent);
+      }
+      tr.clickable {
+        cursor: pointer;
+      }
+      tr.clickable:hover {
+        background: var(--bg-hover);
+      }
+      .missing-list {
+        background: var(--bg);
+        border-radius: 6px;
+        padding: 10px 14px;
+        margin: 4px 0;
+        max-height: 300px;
+        overflow-y: auto;
+      }
+      .missing-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 6px 0;
+        border-bottom: 1px solid var(--border);
+        font-size: 0.78rem;
+      }
+      .missing-item:last-child {
+        border-bottom: none;
+      }
+      .missing-item a {
+        color: var(--cyan);
+        text-decoration: none;
+        font-size: 0.75rem;
+        word-break: break-all;
+      }
+      .missing-item a:hover {
+        text-decoration: underline;
+      }
+      .missing-title {
+        color: var(--text);
+        font-weight: 500;
+      }
+      .missing-file {
+        color: var(--text-sub);
+        font-size: 0.72rem;
+      }
+      .expand-icon {
+        color: var(--accent);
+        font-size: 0.7rem;
+        margin-left: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+      const { useState, useEffect, useRef } = React;
+
+      const KEY_FIELDS = [
+        "job_title",
+        "job_description",
+        "job_requirement",
+        "company_name",
+        "salary",
+        "location",
+        "posted_date",
+        "job_category",
+        "skills",
+      ];
+
+      function normalize(raw) {
+        if (raw && typeof raw === "object" && "output" in raw)
+          return { ...raw.output, _input: raw.input };
+        return raw;
+      }
+
+      function ChartCanvas({ id, drawFn, data }) {
+        const canvasRef = useRef(null);
+        const chartRef = useRef(null);
+        useEffect(() => {
+          if (!canvasRef.current || !data) return;
+          if (chartRef.current) chartRef.current.destroy();
+          chartRef.current = drawFn(canvasRef.current, data);
+          return () => {
+            if (chartRef.current) chartRef.current.destroy();
+          };
+        }, [data]);
+        return <canvas ref={canvasRef} />;
+      }
+
+      // ── Chart drawing functions ──
+      const chartColors = [
+        "#7aa2f7",
+        "#bb9af7",
+        "#7dcfff",
+        "#9ece6a",
+        "#e0af68",
+        "#f7768e",
+        "#ff9e64",
+        "#73daca",
+        "#b4f9f8",
+        "#2ac3de",
+      ];
+      const chartDefaults = {
+        color: "#565f89",
+        borderColor: "#292e42",
+        font: { family: "Segoe UI" },
+      };
+
+      function drawFieldCoverage(canvas, fieldData) {
+        return new Chart(canvas, {
+          type: "bar",
+          data: {
+            labels: fieldData.map((f) => f.name),
+            datasets: [
+              {
+                data: fieldData.map((f) => f.pct),
+                backgroundColor: fieldData.map((f) =>
+                  f.pct >= 80 ? "#9ece6a" : f.pct >= 50 ? "#e0af68" : "#f7768e",
+                ),
+                borderRadius: 4,
+              },
+            ],
+          },
+          options: {
+            indexAxis: "y",
+            plugins: { legend: { display: false } },
+            scales: {
+              x: {
+                max: 100,
+                ticks: { color: "#565f89", callback: (v) => v + "%" },
+                grid: { color: "#292e42" },
+              },
+              y: { ticks: { color: "#c0caf5" }, grid: { display: false } },
+            },
+          },
+        });
+      }
+
+      function drawSkillsHistogram(canvas, bins) {
+        return new Chart(canvas, {
+          type: "bar",
+          data: {
+            labels: bins.map((b) => b.label),
+            datasets: [
+              {
+                data: bins.map((b) => b.count),
+                backgroundColor: "#7aa2f7",
+                borderRadius: 4,
+              },
+            ],
+          },
+          options: {
+            plugins: { legend: { display: false } },
+            scales: {
+              x: {
+                title: {
+                  display: true,
+                  text: "Skills per job",
+                  color: "#565f89",
+                },
+                ticks: { color: "#565f89" },
+                grid: { color: "#292e42" },
+              },
+              y: {
+                title: {
+                  display: true,
+                  text: "Number of jobs",
+                  color: "#565f89",
+                },
+                ticks: { color: "#565f89" },
+                grid: { color: "#292e42" },
+              },
+            },
+          },
+        });
+      }
+
+      function drawCategoryPie(canvas, catData) {
+        return new Chart(canvas, {
+          type: "doughnut",
+          data: {
+            labels: catData.map((c) => c.name),
+            datasets: [
+              {
+                data: catData.map((c) => c.count),
+                backgroundColor: chartColors,
+                borderColor: "#1a1b26",
+                borderWidth: 2,
+              },
+            ],
+          },
+          options: {
+            plugins: {
+              legend: {
+                position: "right",
+                labels: { color: "#c0caf5", font: { size: 11 } },
+              },
+            },
+          },
+        });
+      }
+
+      function drawTopSkills(canvas, skillData) {
+        return new Chart(canvas, {
+          type: "bar",
+          data: {
+            labels: skillData.map((s) => s.name),
+            datasets: [
+              {
+                data: skillData.map((s) => s.count),
+                backgroundColor: "#7dcfff",
+                borderRadius: 4,
+              },
+            ],
+          },
+          options: {
+            indexAxis: "y",
+            plugins: { legend: { display: false } },
+            scales: {
+              x: { ticks: { color: "#565f89" }, grid: { color: "#292e42" } },
+              y: {
+                ticks: { color: "#c0caf5", font: { size: 11 } },
+                grid: { display: false },
+              },
+            },
+          },
+        });
+      }
+
+      function drawLocationBar(canvas, locData) {
+        return new Chart(canvas, {
+          type: "bar",
+          data: {
+            labels: locData.map((l) =>
+              l.name.length > 30 ? l.name.slice(0, 30) + "..." : l.name,
+            ),
+            datasets: [
+              {
+                data: locData.map((l) => l.count),
+                backgroundColor: "#73daca",
+                borderRadius: 4,
+              },
+            ],
+          },
+          options: {
+            indexAxis: "y",
+            plugins: { legend: { display: false } },
+            scales: {
+              x: { ticks: { color: "#565f89" }, grid: { color: "#292e42" } },
+              y: {
+                ticks: { color: "#c0caf5", font: { size: 11 } },
+                grid: { display: false },
+              },
+            },
+          },
+        });
+      }
+
+      function FieldCoverageTable({ fieldCoverage, total, jobs }) {
+        const [expanded, setExpanded] = useState(null);
+
+        const getMissingJobs = (fieldName) => {
+          return jobs.filter((j) => {
+            const v = j[fieldName];
+            return fieldName === "skills"
+              ? !Array.isArray(v) || v.length === 0
+              : v == null || v === "";
+          });
+        };
+
+        return (
+          <div className="table-card">
+            <div className="chart-title">
+              Field Coverage Detail{" "}
+              <span style={{ fontSize: "0.65rem", color: "var(--text-dim)" }}>
+                (click row to see missing jobs)
+              </span>
+            </div>
+            <table>
+              <thead>
+                <tr>
+                  <th>Field</th>
+                  <th>Filled</th>
+                  <th>Missing</th>
+                  <th>Coverage</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                {fieldCoverage.map((f) => {
+                  const isOpen = expanded === f.name;
+                  const missingCount = total - f.filled;
+                  return (
+                    <React.Fragment key={f.name}>
+                      <tr
+                        className="clickable"
+                        onClick={() => setExpanded(isOpen ? null : f.name)}
+                      >
+                        <td>
+                          {f.name}{" "}
+                          <span className="expand-icon">
+                            {missingCount > 0 ? (isOpen ? "▼" : "▶") : ""}
+                          </span>
+                        </td>
+                        <td>{f.filled}</td>
+                        <td
+                          style={{
+                            color: f.pct < 80 ? "var(--red)" : "var(--text)",
+                          }}
+                        >
+                          {missingCount}
+                        </td>
+                        <td>{f.pct}%</td>
+                        <td style={{ width: "40%" }}>
+                          <div className="bar-cell">
+                            <div
+                              className="bar-fill"
+                              style={{
+                                width: `${f.pct}%`,
+                                background:
+                                  f.pct >= 80
+                                    ? "var(--green)"
+                                    : f.pct >= 50
+                                      ? "var(--yellow)"
+                                      : "var(--red)",
+                              }}
+                            />
+                          </div>
+                        </td>
+                      </tr>
+                      {isOpen && missingCount > 0 && (
+                        <tr>
+                          <td colSpan="5" style={{ padding: "4px 10px" }}>
+                            <div className="missing-list">
+                              {getMissingJobs(f.name).map((j, i) => (
+                                <div className="missing-item" key={i}>
+                                  <div>
+                                    <div className="missing-title">
+                                      {j.job_title || "Unknown"}
+                                    </div>
+                                    <div className="missing-file">
+                                      {j.source_file || "—"}
+                                    </div>
+                                  </div>
+                                  {j.full_url ? (
+                                    <a
+                                      href={j.full_url}
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                      {j.full_url}
+                                    </a>
+                                  ) : (
+                                    <span
+                                      style={{
+                                        color: "var(--text-dim)",
+                                        fontSize: "0.75rem",
+                                      }}
+                                    >
+                                      no url
+                                    </span>
+                                  )}
+                                </div>
+                              ))}
+                            </div>
+                          </td>
+                        </tr>
+                      )}
+                    </React.Fragment>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        );
+      }
+
+      function App() {
+        const [jobs, setJobs] = useState(null);
+        const [error, setError] = useState(null);
+
+        useEffect(() => {
+          fetch("stage2_output.json")
+            .then((r) => {
+              if (!r.ok) throw new Error(r.status);
+              return r.json();
+            })
+            .then((data) => setJobs(data.map(normalize)))
+            .catch((err) => {
+              console.error(err);
+              setError(err.message);
+            });
+        }, []);
+
+        if (error)
+          return (
+            <div style={{ color: "var(--red)", padding: 40 }}>
+              Error loading data: {error}
+            </div>
+          );
+        if (!jobs)
+          return (
+            <div style={{ color: "var(--text-sub)", padding: 40 }}>
+              Loading...
+            </div>
+          );
+
+        const total = jobs.length;
+
+        // ── Compute stats ──
+        // Field coverage
+        const fieldCoverage = KEY_FIELDS.map((f) => {
+          const filled = jobs.filter((j) =>
+            f === "skills"
+              ? Array.isArray(j[f]) && j[f].length > 0
+              : j[f] != null && j[f] !== "",
+          ).length;
+          return { name: f, filled, pct: Math.round((filled / total) * 100) };
+        });
+
+        // Skills per job
+        const skillCounts = jobs.map((j) =>
+          Array.isArray(j.skills) ? j.skills.length : 0,
+        );
+        const avgSkills = (
+          skillCounts.reduce((a, b) => a + b, 0) / total
+        ).toFixed(1);
+        const maxSkills = Math.max(...skillCounts);
+        const minSkills = Math.min(...skillCounts);
+
+        // Skills histogram bins
+        const binSize = 2;
+        const histBins = [];
+        for (let i = 0; i <= maxSkills; i += binSize) {
+          const count = skillCounts.filter(
+            (c) => c >= i && c < i + binSize,
+          ).length;
+          histBins.push({ label: `${i}-${i + binSize - 1}`, count });
+        }
+
+        // Top skills
+        const skillFreq = {};
+        jobs.forEach((j) =>
+          (Array.isArray(j.skills) ? j.skills : []).forEach((s) => {
+            const k = s.toLowerCase().trim();
+            skillFreq[k] = (skillFreq[k] || 0) + 1;
+          }),
+        );
+        const topSkills = Object.entries(skillFreq)
+          .sort((a, b) => b[1] - a[1])
+          .slice(0, 25)
+          .map(([name, count]) => ({ name, count }));
+
+        // Category distribution
+        const catFreq = {};
+        jobs.forEach((j) => {
+          const c = j.job_category || "Unknown";
+          catFreq[c] = (catFreq[c] || 0) + 1;
+        });
+        const categories = Object.entries(catFreq)
+          .sort((a, b) => b[1] - a[1])
+          .map(([name, count]) => ({ name, count }));
+
+        // Location distribution
+        const locFreq = {};
+        jobs.forEach((j) => {
+          const l = j.location || "Unknown";
+          locFreq[l] = (locFreq[l] || 0) + 1;
+        });
+        const locations = Object.entries(locFreq)
+          .sort((a, b) => b[1] - a[1])
+          .slice(0, 15)
+          .map(([name, count]) => ({ name, count }));
+
+        // Quality distribution
+        const qualityDist = { good: 0, medium: 0, poor: 0 };
+        jobs.forEach((j) => {
+          const score = KEY_FIELDS.filter((f) =>
+            f === "skills"
+              ? Array.isArray(j[f]) && j[f].length > 0
+              : j[f] != null && j[f] !== "",
+          ).length;
+          const pct = score / KEY_FIELDS.length;
+          if (pct >= 0.8) qualityDist.good++;
+          else if (pct >= 0.5) qualityDist.medium++;
+          else qualityDist.poor++;
+        });
+
+        const totalSkillsMentions = Object.values(skillFreq).reduce(
+          (a, b) => a + b,
+          0,
+        );
+        const uniqueSkills = Object.keys(skillFreq).length;
+
+        return (
+          <div>
+            <a href="index.html" className="back-btn">
+              Back to Job List
+            </a>
+            <h1>Stage 2 — Extraction Statistics</h1>
+            <div className="subtitle">{total} jobs analyzed</div>
+
+            {/* Metrics */}
+            <div className="metrics">
+              <div className="metric-card">
+                <div className="metric-value">{total}</div>
+                <div className="metric-label">Total Jobs</div>
+              </div>
+              <div className="metric-card">
+                <div className="metric-value">{uniqueSkills}</div>
+                <div className="metric-label">Unique Skills</div>
+              </div>
+              <div className="metric-card">
+                <div className="metric-value">{totalSkillsMentions}</div>
+                <div className="metric-label">Total Skill Mentions</div>
+              </div>
+              <div className="metric-card">
+                <div className="metric-value">{avgSkills}</div>
+                <div className="metric-label">Avg Skills / Job</div>
+              </div>
+              <div className="metric-card">
+                <div className="metric-value" style={{ color: "var(--green)" }}>
+                  {qualityDist.good}
+                </div>
+                <div className="metric-label">Good Quality</div>
+              </div>
+              <div className="metric-card">
+                <div
+                  className="metric-value"
+                  style={{ color: "var(--yellow)" }}
+                >
+                  {qualityDist.medium}
+                </div>
+                <div className="metric-label">Medium Quality</div>
+              </div>
+              <div className="metric-card">
+                <div className="metric-value" style={{ color: "var(--red)" }}>
+                  {qualityDist.poor}
+                </div>
+                <div className="metric-label">Poor Quality</div>
+              </div>
+              <div className="metric-card">
+                <div className="metric-value">{categories.length}</div>
+                <div className="metric-label">Job Categories</div>
+              </div>
+            </div>
+
+            {/* Charts */}
+            <div className="charts">
+              <div className="chart-card">
+                <div className="chart-title">Field Coverage (%)</div>
+                <ChartCanvas
+                  id="field"
+                  drawFn={drawFieldCoverage}
+                  data={fieldCoverage}
+                />
+              </div>
+              <div className="chart-card">
+                <div className="chart-title">Skills per Job Distribution</div>
+                <ChartCanvas
+                  id="hist"
+                  drawFn={drawSkillsHistogram}
+                  data={histBins}
+                />
+              </div>
+              <div className="chart-card">
+                <div className="chart-title">Jobs by Category</div>
+                <ChartCanvas
+                  id="cat"
+                  drawFn={drawCategoryPie}
+                  data={categories}
+                />
+              </div>
+              <div className="chart-card">
+                <div className="chart-title">Top 15 Locations</div>
+                <ChartCanvas
+                  id="loc"
+                  drawFn={drawLocationBar}
+                  data={locations}
+                />
+              </div>
+              <div className="chart-card full">
+                <div className="chart-title">Top 25 Skills</div>
+                <ChartCanvas
+                  id="skills"
+                  drawFn={drawTopSkills}
+                  data={topSkills}
+                />
+              </div>
+            </div>
+
+            {/* Missing fields table */}
+            <FieldCoverageTable
+              fieldCoverage={fieldCoverage}
+              total={total}
+              jobs={jobs}
+            />
+          </div>
+        );
+      }
+
+      ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+    </script>
+  </body>
+</html>

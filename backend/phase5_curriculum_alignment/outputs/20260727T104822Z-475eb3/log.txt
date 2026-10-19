@@ -1,0 +1,22 @@
+run 20260727T104822Z-475eb3  config 475eb3 input 917674
+Loading model 'BAAI/bge-base-en-v1.5' + market (cached) ...
+  (market loaded from cache)
+Curriculum: 8 courses, 226 CLO skills
+Host verification: 30 skills x 3 CLOs, inline (BAAI/bge-reranker-v2-m3)
+written report_data.cambodia.js: covered 17/30, demand-weighted 56.3%, KL=0.3768
+written preview_data.cambodia.js: 5 preview jobs, 8 courses, job_total=4876
+
+SELECTION (greedy facility-location, stop at 80% of achievable gain): add 9/13 gaps
+  ADD  technical documentation  closes  2.8% KL->0.3706 covered->19 [none -> new_content: Add new technical documentation content]  lifts: technical support->0.73, microsoft office proficiency->0.67
+  ADD  software development     closes  2.2% KL->0.3684 covered->20 [foundation -> add_module: Add software development content building on Cloud Computing]
+  ADD  system maintenance       closes  2.2% KL->0.3661 covered->22 [none -> new_content: Add new system maintenance content]  lifts: system integration->0.77
+  ADD  microsoft office proficiency closes  1.6% KL->0.3646 covered->23 [none -> new_content: Add new microsoft office proficiency content]
+  ADD  restful api development  closes  1.5% KL->0.3613 covered->25 [none -> new_content: Add new restful api development content]  lifts: api integration->0.78
+  ADD  technical support        closes  1.4% KL->0.3601 covered->25 [none -> new_content: Add new technical support content]
+  ADD  git version control      closes  1.1% KL->0.3573 covered->26 [none -> new_content: Add new git version control content]
+  ADD  ci/cd pipelines          closes  1.1% KL->0.3549 covered->27 [none -> new_content: Add new ci/cd pipelines content]
+  ADD  postgresql database      closes  1.0% KL->0.3523 covered->28 [foundation -> add_module: Add postgresql database content building on Data Mining]
+  skip code reviews             closes  0.9% KL->0.3506 covered->29 [none -> new_content: Add new code reviews content]
+  skip system integration       closes  0.9% KL->0.3505 covered->29 [none -> new_content: Add new system integration content]
+  skip incident response        closes  0.8% KL->0.3486 covered->30 [none -> new_content: Add new incident response content]
+  skip api integration          closes  0.5% KL->0.3478 covered->30 [none -> new_content: Add new api integration content]

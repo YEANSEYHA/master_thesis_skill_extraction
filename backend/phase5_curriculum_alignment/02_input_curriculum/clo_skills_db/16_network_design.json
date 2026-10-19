@@ -1,0 +1,90 @@
+[
+  {
+    "skill": "Network Requirements Analysis",
+    "source": "CLO"
+  },
+  {
+    "skill": "Network Design Process",
+    "source": "CLO"
+  },
+  {
+    "skill": "Network Switching",
+    "source": "CLO"
+  },
+  {
+    "skill": "Network Routing",
+    "source": "CLO"
+  },
+  {
+    "skill": "Network Scalability Design",
+    "source": "CLO"
+  },
+  {
+    "skill": "Network Security Design",
+    "source": "CLO"
+  },
+  {
+    "skill": "System Reliability Engineering",
+    "source": "CLO"
+  },
+  {
+    "skill": "Network Technology Selection",
+    "source": "CLO"
+  },
+  {
+    "skill": "IP Addressing",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Network Topology Design",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Network Protocol Design",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "WAN Design",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Remote Access Technologies",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Enterprise Network Design",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "SME Network Design",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Network Convergence",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Network Management",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Network Monitoring",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Network Performance Measurement",
+    "source": "CLO"
+  },
+  {
+    "skill": "Real-Time Network Design",
+    "source": "CLO"
+  },
+  {
+    "skill": "Network Optimization",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Network Maintenance and Troubleshooting",
+    "source": "Description"
+  }
+]

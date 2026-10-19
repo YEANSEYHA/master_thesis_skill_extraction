@@ -1,0 +1,31 @@
+{
+ "dataset": "SkillMatch-1K (Techwolf, MIT), test.csv vendored",
+ "model": "BAAI/bge-base-en-v1.5",
+ "n_pairs": 2000,
+ "mean_words_per_pair": 3.2,
+ "frozen": {
+  "threshold": 0.73,
+  "tp": 189,
+  "fp": 1,
+  "fn": 811,
+  "tn": 999,
+  "precision": 0.995,
+  "recall": 0.189,
+  "f1": 0.318,
+  "macro_f1": 0.514
+ },
+ "fitted_diagnostic": {
+  "threshold": 0.55,
+  "tp": 704,
+  "fp": 160,
+  "fn": 296,
+  "tn": 840,
+  "precision": 0.815,
+  "recall": 0.704,
+  "f1": 0.755,
+  "macro_f1": 0.771
+ },
+ "median_related": 0.615,
+ "median_unrelated": 0.491,
+ "claim_scope": "Relation is 'related', weaker than our 'covered'; split point fitted on the full set is diagnostic only. Shows frozen 0.73 stays near-zero-false-positive on short x short pairs; supports task+distribution-specific cutoffs."
+}

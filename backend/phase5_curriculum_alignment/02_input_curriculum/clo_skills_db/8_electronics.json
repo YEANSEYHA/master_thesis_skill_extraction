@@ -1,0 +1,122 @@
+[
+  {
+    "skill": "Digital Number Systems Conversions",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Signed Number Representation (Complement and Sign-Magnitude)",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Binary Code Encoding and Decoding",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Boolean Algebra",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Truth Table Analysis",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Logic Gate Design",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Boolean Expression Simplification",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Karnaugh Map (K-Map)",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Logic Circuit Implementation",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Hazard Analysis (Static and Dynamic Hazards)",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Encoders and Decoders",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Truth-Table Derivation From Logic Diagrams",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Logic Diagram Drawing",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Combinational Logic Design Using Multiplexers and Demultiplexers",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Encoders and Decoders (Truth Table and Logic Expressions)",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Transcoding Logic (Transcoder)",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Barrel Shifter Design",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Gated SR Latch",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Gated D Latch",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "JK Flip-Flop",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "T Flip-Flop",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Master-Slave Flip-Flop",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Edge-Triggered Flip-Flops",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Flip-Flops With Asynchronous Inputs",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Operational Characteristics of Flip-Flops",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Number System Conversions",
+    "source": "CLO"
+  },
+  {
+    "skill": "Boolean Expression to Logic Diagram Translation",
+    "source": "CLO"
+  },
+  {
+    "skill": "Boolean Expression Simplification (Using Boolean K-Map)",
+    "source": "CLO"
+  },
+  {
+    "skill": "Karnaugh Map (K-Map) Simplification",
+    "source": "CLO"
+  },
+  {
+    "skill": "Combinational Logic Function Blocks",
+    "source": "CLO"
+  }
+]

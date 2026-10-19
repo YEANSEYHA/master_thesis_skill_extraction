@@ -1,0 +1,222 @@
+[
+  {
+    "skill": "Data Mining",
+    "source": "Description"
+  },
+  {
+    "skill": "Knowledge Discovery in Databases (KDD)",
+    "source": "Description"
+  },
+  {
+    "skill": "Data Warehousing",
+    "source": "Description"
+  },
+  {
+    "skill": "Online Analytical Processing (OLAP)",
+    "source": "Description"
+  },
+  {
+    "skill": "Exploratory Data Analysis (EDA)",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Data Cleaning",
+    "source": "CLO"
+  },
+  {
+    "skill": "Data Preprocessing",
+    "source": "CLO"
+  },
+  {
+    "skill": "Data Transformation",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Data Reduction",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Discretization",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Concept Hierarchies",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Data Quality Assessment",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Task-Relevant Data Selection",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Interestingness Measures",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Data Visualization",
+    "source": "CLO"
+  },
+  {
+    "skill": "Machine Learning",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Database Management Systems (DBMS)",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Multidimensional Data Model",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "OLAP Operations",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Bayesian Classification",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Bayesian Networks",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Nearest Neighbor",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Linear Models",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Classification",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Clustering",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "K-Means",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Expectation-Maximization (EM) Clustering",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Agglomerative Clustering",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Divisive Clustering",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Density-Based Clustering",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Graph-Based Clustering",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Feature Selection",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Feature Extraction",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Model Evaluation",
+    "source": "CLO"
+  },
+  {
+    "skill": "Model Assessment",
+    "source": "CLO"
+  },
+  {
+    "skill": "Data Mining Tools and Programming",
+    "source": "CLO"
+  },
+  {
+    "skill": "Data Ethics and Privacy",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Fairness and Bias",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Weather Data Pattern Mining",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Frequent Itemsets Mining",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Association Rule Mining",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Correlation Analysis",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Data Warehouse",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Data Cleaning Workflows",
+    "source": "Description"
+  },
+  {
+    "skill": "Knowledge Representation Methods",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Data Mining Trends",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Web Scraping",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Log File Analysis",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Sensor Data Collection",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Social Media Data Collection",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Database Queries",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Apache Hadoop",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Apache Spark",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Apache Kafka",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Exploratory and Visualization Techniques",
+    "source": "Lesson Topic"
+  }
+]

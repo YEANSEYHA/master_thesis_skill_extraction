@@ -1,0 +1,39 @@
+[
+  { "skill": "Systems Administration", "source": "weekly_content" },
+  { "skill": "Network Administration", "source": "weekly_content" },
+  { "skill": "Network Architectures", "source": "clo" },
+  { "skill": "Network Protocols", "source": "clo" },
+  { "skill": "Network Fundamentals", "source": "weekly_content" },
+  { "skill": "Network Security", "source": "weekly_content" },
+  { "skill": "Virtualization", "source": "description" },
+  { "skill": "Containerization", "source": "description" },
+  { "skill": "Network Device Configuration", "source": "clo" },
+  { "skill": "Infrastructure Services Management", "source": "weekly_content" },
+  {
+    "skill": "Operating System Setup and Configuration",
+    "source": "weekly_content"
+  },
+  {
+    "skill": "System Configuration and Management",
+    "source": "weekly_content"
+  },
+  { "skill": "IP Addressing and Connectivity", "source": "weekly_content" },
+  { "skill": "Server Administration", "source": "weekly_content" },
+  {
+    "skill": "Network Services Deployment and Management",
+    "source": "weekly_content"
+  },
+  { "skill": "Application Services Management", "source": "weekly_content" },
+  { "skill": "User Account Management", "source": "weekly_content" },
+  { "skill": "Access Control Management", "source": "weekly_content" },
+  { "skill": "Permissions and Group Policies", "source": "clo" },
+  { "skill": "Directory Services", "source": "clo" },
+  { "skill": "Network Monitoring", "source": "weekly_content" },
+  { "skill": "Network Troubleshooting", "source": "weekly_content" },
+  { "skill": "Data Backup and Recovery", "source": "weekly_content" },
+  { "skill": "System Operations and Maintenance", "source": "weekly_content" },
+  { "skill": "Linux/UNIX System Administration", "source": "tools" },
+  { "skill": "Ubuntu Server Administration", "source": "tools" },
+  { "skill": "VMware vSphere", "source": "tools" },
+  { "skill": "Cisco Networking", "source": "tools" }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "skill": "Supervised Learning",
+    "source": "CLO"
+  },
+  {
+    "skill": "Unsupervised Learning",
+    "source": "CLO"
+  },
+  {
+    "skill": "Deep Learning",
+    "source": "CLO"
+  },
+  {
+    "skill": "Model Evaluation Metrics",
+    "source": "CLO"
+  },
+  {
+    "skill": "Linear Regression",
+    "source": "CLO"
+  },
+  {
+    "skill": "Logistic Regression",
+    "source": "CLO"
+  },
+  {
+    "skill": "Decision Trees",
+    "source": "CLO"
+  },
+  {
+    "skill": "Data Preprocessing",
+    "source": "CLO"
+  },
+  {
+    "skill": "Train-Test-Validation Splitting",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Feature Scaling",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Feature Encoding",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Parameters and Hyperparameters",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Performance Evaluation and Overfitting/Underfitting Diagnosis",
+    "source": "CLO"
+  },
+  {
+    "skill": "Overfitting",
+    "source": "CLO"
+  },
+  {
+    "skill": "Underfitting",
+    "source": "CLO"
+  },
+  {
+    "skill": "Gradient Descent Optimization",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Least Squares",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Cost Function",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Sigmoid Activation Function",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Support Vector Machines (SVM)",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Support Vector Regression (SVR)",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Support Vector Classification (SVC)",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Information Gain and Entropy",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Random Forest",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Ensemble Methods",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Bagging",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Boosting",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Perceptron and Multi-Layer Perceptron",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Forward and Backward Propagation",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Convolutional Neural Networks (CNNs)",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Convolution",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Pooling Layers",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Fully Connected Layers",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Principal Component Analysis (PCA)",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Dimensionality Reduction",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Curse of Dimensionality",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "K-Means",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Clustering",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Similarity Calculation",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Machine Learning Pipeline",
+    "source": "CLO"
+  }
+]

@@ -1,0 +1,15 @@
+step,skill,job_count,selected,gain_pct,kl_after,covered_after,route_kind,route_course,route_clo,route_score,relationship_kind,action_kind,action_title,spillover
+1,technical documentation,49,true,3.1,0.3713,17,new,,,0.0,none,new_content,Add new technical documentation content,microsoft office proficiency:0.67
+2,java programming,41,true,2.3,0.3662,18,new,,,0.04,none,new_content,Add new java programming content,
+3,project management,37,true,1.9,0.3629,19,new,,,0.01,none,new_content,Add new project management content,
+4,microsoft office proficiency,18,true,1.9,0.361,20,new,,,0.0,none,new_content,Add new microsoft office proficiency content,
+5,mysql database,30,true,1.7,0.3567,22,partial,Advanced Database And Database Management Systems,Database Indexing,0.19,foundation,add_module,Add mysql database content building on Advanced Database And Database Management Systems,postgresql database:0.8
+6,software development,18,true,1.6,0.3551,23,new,,,0.06,none,new_content,Add new software development content,
+7,technical support,27,true,1.4,0.3539,24,extend,Systems And Networks Administration,Network Troubleshooting,0.58,content_exists,extend,Extend Systems And Networks Administration with explicit technical support content,
+8,security compliance,23,true,1.0,0.3523,25,partial,Systems And Networks Administration,Network Security Measures,0.31,foundation,add_module,Add security compliance content building on Systems And Networks Administration,
+9,data analysis,18,true,1.0,0.3511,26,new,,,0.07,none,new_content,Add new data analysis content,
+10,aws cloud platforms,19,true,0.9,0.3491,27,new,,,0.0,none,new_content,Add new aws cloud platforms content,
+11,code reviews,18,false,0.9,0.3478,28,new,,,0.0,none,new_content,Add new code reviews content,
+12,incident response,19,false,0.8,0.3462,29,partial,Software Development And It Operations Devops,Alerting,0.11,foundation,add_module,Add incident response content building on Software Development And It Operations Devops,
+13,postgresql database,27,false,0.7,0.3445,29,new,,,0.01,none,new_content,Add new postgresql database content,
+14,disaster recovery planning,16,false,0.7,0.3434,30,new,,,0.02,none,new_content,Add new disaster recovery planning content,

@@ -1,0 +1,31 @@
+{
+  "run_id": "20260730T063522Z-e54e7e",
+  "label": "V8 tab \u00b7 cambodia \u00b7 25 saved courses \u00b7 Y3+Y4+Y5",
+  "cohort": "Y3+Y4+Y5",
+  "config_hash": "e54e7e1775c650c85b6b3af01253fbf47a072db3af6f06a8d1b8e8cc651ff865",
+  "input_hash": "a7c8b24affb0dc5a8732361597373687762e108a9966d11150a59bc76cab04d9",
+  "git_sha": "0f226bb1",
+  "started_at": "2026-07-30T06:35:22+00:00",
+  "report_data_js": "./backend/phase5/out/report_data.cambodia.js",
+  "duration_s": 15.3,
+  "params": {
+    "encoder": "BAAI/bge-base-en-v1.5",
+    "covered_at": 0.7368,
+    "borderline_at": 0.6903,
+    "host_min": 0.6903,
+    "top_n": 30,
+    "job_source": "cambodia",
+    "segment_mode": "category",
+    "min_skill_freq": 2,
+    "skill_merge_threshold": 0.8,
+    "max_skills_to_normalize": 8000,
+    "eps": 1e-06,
+    "cache_version": "v3",
+    "cum_frac": 0.8,
+    "spill_min": 0.05,
+    "reranker": "BAAI/bge-reranker-v2-m3",
+    "rerank_top_k": 3,
+    "rerank_supported_at": 0.5,
+    "rerank_weak_at": 0.1
+  }
+}

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SkillSpan Jobs Viewer</title>
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0f172a; color: #e2e8f0; }
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: #1e293b; }
+    ::-webkit-scrollbar-thumb { background: #475569; border-radius: 3px; }
+    mark { background: #facc15; color: #0f172a; padding: 1px 2px; border-radius: 2px; font-weight: 500; }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="text/babel">
+    const { useState, useEffect, useMemo } = React;
+
+    function App() {
+      const [jobs, setJobs] = useState({});
+      const [search, setSearch] = useState("");
+      const [sourceFilter, setSourceFilter] = useState("all");
+      const [splitFilter, setSplitFilter] = useState("all");
+      const [selectedIdx, setSelectedIdx] = useState(0);
+      const [highlightSkills, setHighlightSkills] = useState(false);
+
+      useEffect(() => {
+        fetch("../03_extract/skill_span_jobs.json")
+          .then(r => r.json())
+          .then(data => setJobs(data))
+          .catch(err => console.error("Failed to load:", err));
+      }, []);
+
+      const jobEntries = useMemo(() => {
+        let entries = Object.entries(jobs).map(([id, job]) => ({
+          id, split: id.split("_")[0], idx: id.split("_").slice(1).join("_"), ...job
+        }));
+        if (sourceFilter !== "all") entries = entries.filter(j => j.source === sourceFilter);
+        if (splitFilter !== "all") entries = entries.filter(j => j.split === splitFilter);
+        if (search) {
+          const q = search.toLowerCase();
+          entries = entries.filter(j =>
+            j.text.toLowerCase().includes(q) ||
+            j.human_skills.some(s => s.toLowerCase().includes(q)) ||
+            j.id.toLowerCase().includes(q)
+          );
+        }
+        return entries;
+      }, [jobs, search, sourceFilter, splitFilter]);
+
+      const stats = useMemo(() => {
+        const all = Object.values(jobs);
+        const totalSkills = all.reduce((s, j) => s + j.human_skills.length, 0);
+        const sources = [...new Set(Object.entries(jobs).map(([, j]) => j.source))];
+        const splits = [...new Set(Object.keys(jobs).map(k => k.split("_")[0]))];
+        return { total: all.length, totalSkills, avgSkills: all.length ? (totalSkills / all.length).toFixed(1) : 0, sources, splits };
+      }, [jobs]);
+
+      const currentJob = jobEntries[selectedIdx] || null;
+
+      const highlightText = (text, skills) => {
+        if (!highlightSkills || !skills.length) return text;
+        // Sort by length descending so longer phrases match first
+        const sorted = [...skills].sort((a, b) => b.length - a.length);
+        const escaped = sorted.map(s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+        const regex = new RegExp(`(${escaped.join('|')})`, 'gi');
+        const parts = text.split(regex);
+        return parts.map((part, i) => {
+          const isMatch = sorted.some(s => s.toLowerCase() === part.toLowerCase());
+          return isMatch ? <mark key={i}>{part}</mark> : part;
+        });
+      };
+
+      return (
+        <div style={{ height: "100vh", display: "flex", flexDirection: "column" }}>
+          {/* Top Bar */}
+          <div style={{ background: "#1e293b", borderBottom: "1px solid #334155", padding: "12px 20px", display: "flex", alignItems: "center", gap: 16, flexWrap: "wrap" }}>
+            <h1 style={{ fontSize: 20, fontWeight: 700, color: "#38bdf8", whiteSpace: "nowrap" }}>SkillSpan Viewer</h1>
+            <div style={{ display: "flex", gap: 12, fontSize: 13, color: "#94a3b8" }}>
+              <span><b style={{ color: "#38bdf8" }}>{stats.total}</b> jobs</span>
+              <span><b style={{ color: "#a78bfa" }}>{stats.totalSkills}</b> skills</span>
+              <span><b style={{ color: "#34d399" }}>{stats.avgSkills}</b> avg/job</span>
+              <span><b style={{ color: "#fb923c" }}>{jobEntries.length}</b> showing</span>
+            </div>
+            <div style={{ flex: 1 }} />
+            <input type="text" placeholder="Search jobs, skills..." value={search} onChange={e => { setSearch(e.target.value); setSelectedIdx(0); }} style={inputStyle} />
+            <select value={sourceFilter} onChange={e => { setSourceFilter(e.target.value); setSelectedIdx(0); }} style={selectStyle}>
+              <option value="all">All Sources</option>
+              {stats.sources.map(s => <option key={s} value={s}>{s}</option>)}
+            </select>
+            <select value={splitFilter} onChange={e => { setSplitFilter(e.target.value); setSelectedIdx(0); }} style={selectStyle}>
+              <option value="all">All Splits</option>
+              {stats.splits.map(s => <option key={s} value={s}>{s}</option>)}
+            </select>
+          </div>
+
+          {/* Main: 3-column layout */}
+          <div style={{ flex: 1, display: "grid", gridTemplateColumns: "260px 1fr 320px", overflow: "hidden" }}>
+
+            {/* Left: Job List */}
+            <div style={{ borderRight: "1px solid #334155", overflowY: "auto", background: "#111827" }}>
+              {jobEntries.map((job, i) => (
+                <div
+                  key={job.id}
+                  onClick={() => setSelectedIdx(i)}
+                  style={{
+                    padding: "10px 14px",
+                    borderBottom: "1px solid #1e293b",
+                    cursor: "pointer",
+                    background: i === selectedIdx ? "#1e3a5f" : "transparent",
+                    borderLeft: i === selectedIdx ? "3px solid #38bdf8" : "3px solid transparent",
+                  }}
+                >
+                  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                    <span style={{ fontSize: 13, fontWeight: 600, color: i === selectedIdx ? "#7dd3fc" : "#e2e8f0" }}>{job.id}</span>
+                    <span style={{ fontSize: 11, color: "#64748b" }}>{job.human_skills.length}s</span>
+                  </div>
+                  <div style={{ display: "flex", gap: 4, marginTop: 4 }}>
+                    <Badge text={job.source} color={job.source === "tech" ? "#38bdf8" : "#fb923c"} />
+                    <Badge text={job.split} color="#a78bfa" />
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {/* Center: Job Text with highlighted skills */}
+            <div style={{ overflowY: "auto", padding: 24 }}>
+              {currentJob ? (
+                <>
+                  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 16 }}>
+                    <div>
+                      <h2 style={{ fontSize: 18, color: "#f1f5f9" }}>{currentJob.id}</h2>
+                      <div style={{ display: "flex", gap: 8, marginTop: 6 }}>
+                        <Badge text={`Source: ${currentJob.source}`} color={currentJob.source === "tech" ? "#38bdf8" : "#fb923c"} />
+                        <Badge text={`Split: ${currentJob.split}`} color="#a78bfa" />
+                        <Badge text={`${currentJob.human_skills.length} annotated skills`} color="#34d399" />
+                        <Badge text={`${currentJob.text.length} chars`} color="#94a3b8" />
+                      </div>
+                    </div>
+                    <label style={{ display: "flex", alignItems: "center", gap: 6, fontSize: 13, color: "#94a3b8", cursor: "pointer" }}>
+                      <input type="checkbox" checked={highlightSkills} onChange={e => setHighlightSkills(e.target.checked)} />
+                      Highlight skills in text
+                    </label>
+                  </div>
+
+                  <div style={{ display: "flex", gap: 8, marginBottom: 12 }}>
+                    <button onClick={() => setSelectedIdx(Math.max(0, selectedIdx - 1))} style={navBtnStyle} disabled={selectedIdx === 0}>Prev</button>
+                    <span style={{ fontSize: 13, color: "#64748b", padding: "6px 0" }}>{selectedIdx + 1} / {jobEntries.length}</span>
+                    <button onClick={() => setSelectedIdx(Math.min(jobEntries.length - 1, selectedIdx + 1))} style={navBtnStyle} disabled={selectedIdx >= jobEntries.length - 1}>Next</button>
+                  </div>
+
+                  <div style={{
+                    background: "#1e293b",
+                    borderRadius: 8,
+                    padding: 20,
+                    fontSize: 14,
+                    lineHeight: 1.8,
+                    color: "#cbd5e1",
+                    border: "1px solid #334155",
+                    whiteSpace: "pre-wrap",
+                    wordBreak: "break-word",
+                  }}>
+                    {highlightText(currentJob.text, currentJob.human_skills)}
+                  </div>
+
+                  {/* Legend */}
+                  {highlightSkills && (
+                    <div style={{ marginTop: 12, fontSize: 12, color: "#94a3b8" }}>
+                      <mark>Yellow highlights</mark> = human-annotated skill spans found in text
+                    </div>
+                  )}
+                </>
+              ) : (
+                <div style={{ textAlign: "center", padding: 60, color: "#64748b" }}>No job selected</div>
+              )}
+            </div>
+
+            {/* Right: Skills Panel */}
+            <div style={{ borderLeft: "1px solid #334155", overflowY: "auto", background: "#111827", padding: 16 }}>
+              {currentJob ? (
+                <>
+                  <h3 style={{ fontSize: 14, color: "#94a3b8", textTransform: "uppercase", marginBottom: 12 }}>
+                    Human-Annotated Skills ({currentJob.human_skills.length})
+                  </h3>
+                  <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
+                    {currentJob.human_skills.map((skill, i) => {
+                      const inText = currentJob.text.toLowerCase().includes(skill.toLowerCase());
+                      return (
+                        <div key={i} style={{
+                          display: "flex",
+                          alignItems: "center",
+                          gap: 8,
+                          padding: "6px 10px",
+                          borderRadius: 6,
+                          background: inText ? "#0f4c7522" : "#7f1d1d22",
+                          border: inText ? "1px solid #38bdf844" : "1px solid #ef444444",
+                          fontSize: 13,
+                        }}>
+                          <span style={{ color: inText ? "#22c55e" : "#ef4444", fontSize: 10, flexShrink: 0 }}>
+                            {inText ? "FOUND" : "MISS"}
+                          </span>
+                          <span style={{ color: inText ? "#7dd3fc" : "#fca5a5" }}>{skill}</span>
+                        </div>
+                      );
+                    })}
+                  </div>
+
+                  {/* Summary */}
+                  <div style={{ marginTop: 16, padding: 12, background: "#1e293b", borderRadius: 6, fontSize: 12, color: "#94a3b8" }}>
+                    {(() => {
+                      const found = currentJob.human_skills.filter(s => currentJob.text.toLowerCase().includes(s.toLowerCase())).length;
+                      const total = currentJob.human_skills.length;
+                      const pct = total ? ((found / total) * 100).toFixed(0) : 0;
+                      return <>
+                        <div>Found in text: <b style={{ color: "#22c55e" }}>{found}</b> / {total} ({pct}%)</div>
+                        <div>Not found: <b style={{ color: "#ef4444" }}>{total - found}</b></div>
+                        <div style={{ marginTop: 6, color: "#64748b" }}>
+                          "MISS" = skill annotated by humans but exact phrase not in text (may be paraphrased or inferred)
+                        </div>
+                      </>;
+                    })()}
+                  </div>
+                </>
+              ) : (
+                <div style={{ textAlign: "center", padding: 40, color: "#64748b" }}>Select a job</div>
+              )}
+            </div>
+          </div>
+        </div>
+      );
+    }
+
+    function Badge({ text, color }) {
+      return (
+        <span style={{
+          background: `${color}22`, color, fontSize: 11, padding: "2px 8px",
+          borderRadius: 10, border: `1px solid ${color}44`, fontWeight: 500,
+        }}>{text}</span>
+      );
+    }
+
+    const inputStyle = {
+      width: 220, padding: "6px 12px", borderRadius: 6,
+      border: "1px solid #334155", background: "#0f172a", color: "#e2e8f0", fontSize: 13, outline: "none",
+    };
+    const selectStyle = {
+      padding: "6px 10px", borderRadius: 6,
+      border: "1px solid #334155", background: "#0f172a", color: "#e2e8f0", fontSize: 13, outline: "none", cursor: "pointer",
+    };
+    const navBtnStyle = {
+      padding: "4px 14px", borderRadius: 4, border: "1px solid #334155",
+      background: "#1e293b", color: "#e2e8f0", cursor: "pointer", fontSize: 12,
+    };
+
+    ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+  </script>
+</body>
+</html>

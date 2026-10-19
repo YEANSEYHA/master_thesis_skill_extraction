@@ -1,0 +1,66 @@
+[
+  {
+    "skill": "Distributed Systems Architectures",
+    "source": "CLO"
+  },
+  {
+    "skill": "Distributed System Processes",
+    "source": "CLO"
+  },
+  {
+    "skill": "Distributed System Communication",
+    "source": "CLO"
+  },
+  {
+    "skill": "Interprocess Communication Protocols",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Distributed System Synchronization",
+    "source": "CLO"
+  },
+  {
+    "skill": "Distributed System Transparency",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Quality of Service (QoS)",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Distributed System Interaction Model",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Failure Models",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Security Models",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Networking Principles for Distributed Systems",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Internetworking Principles",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Distributed Application Design and Implementation",
+    "source": "CLO"
+  },
+  {
+    "skill": "Fault Tolerance in Distributed Systems",
+    "source": "CLO"
+  },
+  {
+    "skill": "Distributed System Security",
+    "source": "CLO"
+  },
+  {
+    "skill": "Distributed System Performance Analysis",
+    "source": "CLO"
+  }
+]

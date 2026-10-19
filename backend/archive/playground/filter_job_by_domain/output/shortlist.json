@@ -1,0 +1,488 @@
+{
+  "Data Science": [
+    [
+      "data analyst",
+      0.997
+    ],
+    [
+      "data engineer",
+      0.994
+    ],
+    [
+      "data scientist",
+      0.99
+    ],
+    [
+      "big data engineer",
+      0.988
+    ],
+    [
+      "machine learning engineer",
+      0.981
+    ],
+    [
+      "business intelligence analyst",
+      0.979
+    ],
+    [
+      "quantitative analyst",
+      0.96
+    ],
+    [
+      "senior quantitative analyst",
+      0.943
+    ],
+    [
+      "sr. data engineer",
+      0.937
+    ],
+    [
+      "senior data engineer",
+      0.933
+    ],
+    [
+      "senior machine learning engineer",
+      0.932
+    ],
+    [
+      "sr. quantitative analyst",
+      0.931
+    ],
+    [
+      "sr. data scientist",
+      0.93
+    ],
+    [
+      "sr. machine learning engineer",
+      0.927
+    ],
+    [
+      "senior data scientist",
+      0.919
+    ],
+    [
+      "senior data analyst",
+      0.918
+    ],
+    [
+      "sr data engineer",
+      0.915
+    ],
+    [
+      "senior data engineer / data engineer",
+      0.911
+    ],
+    [
+      "sr data analyst",
+      0.908
+    ],
+    [
+      "sr data scientist",
+      0.908
+    ],
+    [
+      "data scientist/senior data scientist",
+      0.899
+    ],
+    [
+      "senior data analyst in sunnyvale ca",
+      0.892
+    ],
+    [
+      "business intelligence engineer",
+      0.883
+    ],
+    [
+      "big data architect",
+      0.878
+    ],
+    [
+      "business data analyst",
+      0.878
+    ],
+    [
+      "senior (ai) data engineer",
+      0.875
+    ],
+    [
+      "data engineer || juno beach, fl",
+      0.874
+    ],
+    [
+      "data scientist - advana",
+      0.866
+    ],
+    [
+      "computational research scientist",
+      0.862
+    ],
+    [
+      "principal machine learning engineer",
+      0.86
+    ],
+    [
+      "data engineer (mid)",
+      0.858
+    ],
+    [
+      "senior data engineer (1024131)",
+      0.853
+    ],
+    [
+      "senior data engineer (mibi)",
+      0.851
+    ],
+    [
+      "data scientist associate",
+      0.849
+    ],
+    [
+      "data engineer(python)",
+      0.849
+    ],
+    [
+      "data management analyst",
+      0.848
+    ],
+    [
+      "data engineer - hybrid",
+      0.847
+    ],
+    [
+      "it data engineer",
+      0.845
+    ],
+    [
+      "senior data science engineer",
+      0.841
+    ],
+    [
+      "junior data engineer",
+      0.839
+    ]
+  ],
+  "Network": [
+    [
+      "network analyst",
+      0.995
+    ],
+    [
+      "senior network engineer",
+      0.995
+    ],
+    [
+      "network engineer",
+      0.993
+    ],
+    [
+      "network administrator",
+      0.992
+    ],
+    [
+      "network security engineer",
+      0.992
+    ],
+    [
+      "sr. network engineer",
+      0.978
+    ],
+    [
+      "principal network engineer",
+      0.942
+    ],
+    [
+      "senior network engineer - whiteley",
+      0.928
+    ],
+    [
+      "network firewall engineer",
+      0.919
+    ],
+    [
+      "jr network administrator",
+      0.916
+    ],
+    [
+      "sr. network administrator",
+      0.911
+    ],
+    [
+      "network engineer - senior",
+      0.908
+    ],
+    [
+      "senior telecoms engineer",
+      0.901
+    ],
+    [
+      "network architect / senior network engineer",
+      0.897
+    ],
+    [
+      "network operations engineer",
+      0.888
+    ],
+    [
+      "network specialist",
+      0.887
+    ],
+    [
+      "sr network engineer (1005443)",
+      0.883
+    ],
+    [
+      "senior it security network engineer",
+      0.882
+    ],
+    [
+      "senior network systems engineer",
+      0.88
+    ],
+    [
+      "network architect / engineer",
+      0.88
+    ],
+    [
+      "sr. it security network engineer",
+      0.875
+    ],
+    [
+      "it network manager",
+      0.871
+    ],
+    [
+      "senior firewall engineer",
+      0.869
+    ],
+    [
+      "senior network architect",
+      0.865
+    ],
+    [
+      "network security firewall analyst",
+      0.854
+    ],
+    [
+      "network support engineer",
+      0.851
+    ],
+    [
+      "network architect",
+      0.85
+    ],
+    [
+      "sr. network architect (ankg23065)",
+      0.85
+    ],
+    [
+      "senior telecom systems engineer",
+      0.848
+    ],
+    [
+      "network security analyst (firewall)",
+      0.848
+    ],
+    [
+      "network operations center analyst",
+      0.848
+    ],
+    [
+      "network administrator - senior",
+      0.844
+    ],
+    [
+      "network engineer ll (onsite)",
+      0.843
+    ],
+    [
+      "network administrator _ mountain top, pa",
+      0.841
+    ],
+    [
+      "network engineer consultant",
+      0.837
+    ],
+    [
+      "security engineer",
+      0.832
+    ],
+    [
+      "network engineering sme",
+      0.83
+    ],
+    [
+      "senior network & design engineering",
+      0.827
+    ],
+    [
+      "cybersecurity engineer",
+      0.818
+    ],
+    [
+      "it network engineer iii",
+      0.817
+    ]
+  ],
+  "Software Engineering": [
+    [
+      "software engineer",
+      0.995
+    ],
+    [
+      "senior software engineer",
+      0.993
+    ],
+    [
+      "senior software engineers",
+      0.989
+    ],
+    [
+      "mobile application developer",
+      0.989
+    ],
+    [
+      "back end developer",
+      0.983
+    ],
+    [
+      "frontend developer",
+      0.976
+    ],
+    [
+      "software engineer senior",
+      0.966
+    ],
+    [
+      "sr. software engineer",
+      0.952
+    ],
+    [
+      "front end software developer",
+      0.931
+    ],
+    [
+      "full stack developer",
+      0.93
+    ],
+    [
+      "sr software engineer",
+      0.927
+    ],
+    [
+      "senior, software engineer",
+      0.927
+    ],
+    [
+      "senior front-end developer",
+      0.921
+    ],
+    [
+      "senior frontend developer",
+      0.914
+    ],
+    [
+      "senior staff software engineer",
+      0.913
+    ],
+    [
+      "senior fullstack developer",
+      0.911
+    ],
+    [
+      "staff software engineer",
+      0.909
+    ],
+    [
+      "senior backend developer",
+      0.909
+    ],
+    [
+      "software developer full stack engineer",
+      0.902
+    ],
+    [
+      "principal software engineer",
+      0.898
+    ],
+    [
+      "senior fullstack software developer",
+      0.895
+    ],
+    [
+      "full stack web developer",
+      0.892
+    ],
+    [
+      "fellow software engineer",
+      0.89
+    ],
+    [
+      "sr. software dev engineer",
+      0.89
+    ],
+    [
+      "senior software developer",
+      0.888
+    ],
+    [
+      "lead software engineer",
+      0.884
+    ],
+    [
+      "senior full-stack software engineer",
+      0.883
+    ],
+    [
+      "senior/lead software engineer",
+      0.883
+    ],
+    [
+      "software engineer - senior",
+      0.881
+    ],
+    [
+      "senior full stack developer",
+      0.87
+    ],
+    [
+      "cloud engineer",
+      0.867
+    ],
+    [
+      "sr computer software engineer",
+      0.867
+    ],
+    [
+      "senior software engineer i",
+      0.866
+    ],
+    [
+      "software developer",
+      0.863
+    ],
+    [
+      "developer",
+      0.862
+    ],
+    [
+      "backend software engineer",
+      0.86
+    ],
+    [
+      "senior software development engineer",
+      0.858
+    ],
+    [
+      "full stack senior developer",
+      0.848
+    ],
+    [
+      "senior software engineer (ft)",
+      0.847
+    ],
+    [
+      "lead, software engineer",
+      0.845
+    ]
+  ]
+}

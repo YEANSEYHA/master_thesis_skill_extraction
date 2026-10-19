@@ -1,0 +1,27 @@
+run 20260727T104658Z-475eb3  config 475eb3 input f051a7
+Loading model 'BAAI/bge-base-en-v1.5' + market (cached) ...
+  (market loaded from cache)
+Curriculum: 9 courses, 218 CLO skills
+Host verification: 30 skills x 3 CLOs, inline (BAAI/bge-reranker-v2-m3)
+written report_data.cambodia.js: covered 12/30, demand-weighted 44.9%, KL=0.3810
+written preview_data.cambodia.js: 5 preview jobs, 9 courses, job_total=4876
+
+SELECTION (greedy facility-location, stop at 80% of achievable gain): add 12/18 gaps
+  ADD  project management       closes  2.4% KL->0.3768 covered->13 [none -> new_content: Add new project management content]
+  ADD  security monitoring      closes  2.0% KL->0.3758 covered->15 [none -> new_content: Add new security monitoring content]  lifts: security compliance->0.78
+  ADD  microsoft office proficiency closes  1.8% KL->0.3740 covered->16 [none -> new_content: Add new microsoft office proficiency content]
+  ADD  technical support        closes  1.8% KL->0.3729 covered->17 [content_exists -> extend: Extend Object Oriented Programming with explicit technical support content]
+  ADD  restful api development  closes  1.7% KL->0.3693 covered->19 [none -> new_content: Add new restful api development content]  lifts: api integration->0.78
+  ADD  mysql database           closes  1.5% KL->0.3650 covered->21 [foundation -> add_module: Add mysql database content building on Information System Analysis And Design]  lifts: postgresql database->0.8
+  ADD  ci/cd pipelines          closes  1.3% KL->0.3619 covered->22 [none -> new_content: Add new ci/cd pipelines content]
+  ADD  docker containerization  closes  1.1% KL->0.3586 covered->23 [content_exists -> extend: Extend Object Oriented Programming with explicit docker containerization content]
+  ADD  aws cloud platforms      closes  1.1% KL->0.3562 covered->24 [none -> new_content: Add new aws cloud platforms content]
+  ADD  git version control      closes  1.0% KL->0.3534 covered->25 [none -> new_content: Add new git version control content]
+  ADD  performance tuning       closes  0.9% KL->0.3524 covered->26 [none -> new_content: Add new performance tuning content]
+  ADD  security compliance      closes  0.9% KL->0.3513 covered->26 [none -> new_content: Add new security compliance content]
+  skip code reviews             closes  0.8% KL->0.3495 covered->27 [none -> new_content: Add new code reviews content]
+  skip incident response        closes  0.8% KL->0.3476 covered->28 [content_exists -> extend: Extend Object Oriented Programming with explicit incident response content]
+  skip api integration          closes  0.7% KL->0.3476 covered->28 [none -> new_content: Add new api integration content]
+  skip disaster recovery planning closes  0.7% KL->0.3463 covered->29 [none -> new_content: Add new disaster recovery planning content]
+  skip postgresql database      closes  0.7% KL->0.3446 covered->29 [none -> new_content: Add new postgresql database content]
+  skip vmware virtualization    closes  0.6% KL->0.3432 covered->30 [none -> new_content: Add new vmware virtualization content]

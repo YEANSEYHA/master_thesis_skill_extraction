@@ -1,0 +1,60 @@
+{
+  "curriculum": {
+    "dir": "./backend/phase5/02_input_curriculum/clo_skills_db",
+    "mode": "db",
+    "n_courses": 8,
+    "courses": [
+      {
+        "file": "1_networks_ii.json",
+        "n_skills": 8,
+        "sha256": "9a780c6121ea7fe006f54180135aa1792602f3d59fcaae187523df05cdb5ca50"
+      },
+      {
+        "file": "2_systems_and_networks_administration.json",
+        "n_skills": 31,
+        "sha256": "f6035ab03bd09c6ee5de22e9efc7e460024be1f0715dd5b9e9a7915d1ba6b9fd"
+      },
+      {
+        "file": "3_advanced_database_and_database_management_systems.json",
+        "n_skills": 14,
+        "sha256": "503e1c5fbea3dfae59adb6a42ca0403d05a240c114287323056704e7b006b0f2"
+      },
+      {
+        "file": "4_distributed_systems.json",
+        "n_skills": 16,
+        "sha256": "8185e37a66e56c10cfa77f46895f2a4170a4c348177399896da00b788c129fd0"
+      },
+      {
+        "file": "5_internet_programming_ii.json",
+        "n_skills": 26,
+        "sha256": "088367f8e175bc5279de52a39f08972081d555620d539519224d0c376156f554"
+      },
+      {
+        "file": "6_introduction_to_mobile_application_development.json",
+        "n_skills": 11,
+        "sha256": "5fc7ff1767b61e73f5c81c9fca87e4075f09b6e42b4d012edf62f8c31f7a618d"
+      },
+      {
+        "file": "7_network_design.json",
+        "n_skills": 22,
+        "sha256": "afe94450a05809f29fd3ce869b07520c028accadbde0b3e478aefefdae8ea763"
+      },
+      {
+        "file": "8_software_development_and_it_operations_devops.json",
+        "n_skills": 18,
+        "sha256": "cc88ec7dfa4aa1b30684b59701f7b68a06c1950dda9d0d0ee7479543f3207b77"
+      }
+    ],
+    "hash": "225fea631791bf4f25054abe30668fe875c947c679f3d504a743c9f75e0417c5",
+    "cohort": "Y4"
+  },
+  "market": {
+    "dataset": "stage2_result.json",
+    "path": "./backend/phase3_llm_html_data_extraction/outputs/stage2/api_full/stage2_result.json",
+    "bytes": 55714131
+  },
+  "adjudication": {
+    "file": "relationship_adjudication.json",
+    "sha256": "b89e54139cc3ee4b489fdc523e37c2e3f59ac9a9e6d19064761827d71c2941bf"
+  }
+}

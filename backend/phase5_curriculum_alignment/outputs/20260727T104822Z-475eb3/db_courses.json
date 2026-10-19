@@ -1,0 +1,66 @@
+[
+  {
+    "file": "1_cloud_computing.json",
+    "course_id": 52,
+    "course_code": "GICI51CC",
+    "course_title": "Cloud Computing",
+    "year": "Y5",
+    "n_skills": 18
+  },
+  {
+    "file": "2_introduction_to_artificial_intelligence.json",
+    "course_id": 59,
+    "course_code": "GICI51INA",
+    "course_title": "Introduction to Artificial Intelligence",
+    "year": "Y5",
+    "n_skills": 40
+  },
+  {
+    "file": "3_natural_language_processing.json",
+    "course_id": 51,
+    "course_code": "GICI51TRP",
+    "course_title": "Natural Language Processing",
+    "year": "Y5",
+    "n_skills": 19
+  },
+  {
+    "file": "4_data_mining.json",
+    "course_id": 55,
+    "course_code": "GICI5DM",
+    "course_title": "Data Mining",
+    "year": "Y5",
+    "n_skills": 55
+  },
+  {
+    "file": "5_image_processing.json",
+    "course_id": 47,
+    "course_code": "GICI5IP",
+    "course_title": "Image Processing",
+    "year": "Y5",
+    "n_skills": 41
+  },
+  {
+    "file": "6_information_security.json",
+    "course_id": 56,
+    "course_code": "GICI5IS",
+    "course_title": "Information Security",
+    "year": "Y5",
+    "n_skills": 14
+  },
+  {
+    "file": "7_network_security.json",
+    "course_id": 54,
+    "course_code": "GICI5NS",
+    "course_title": "Network Security",
+    "year": "Y5",
+    "n_skills": 21
+  },
+  {
+    "file": "8_it_project_management.json",
+    "course_id": 50,
+    "course_code": "GICI5PM",
+    "course_title": "IT Project Management",
+    "year": "Y5",
+    "n_skills": 18
+  }
+]

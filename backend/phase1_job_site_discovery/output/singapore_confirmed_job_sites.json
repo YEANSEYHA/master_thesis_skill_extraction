@@ -1,0 +1,238 @@
+[
+  {
+    "url": "https://jobstreet.com",
+    "domain": "jobstreet.com",
+    "name": "Jobstreet: Jobs in Singapore - Search Job Vacancies - Career",
+    "snippet": "Search job vacancies and find your next career opportunity with Jobstreet, no.1 recruitment site in Singapore.",
+    "found_in_queries": 6,
+    "country": "singapore",
+    "final_url": "https://www.jobstreet.com/",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.85,
+      "site_type": "job_portal",
+      "reason": "Contains employer sections (Post a Job/ Employer Login), job search interface elements, and categories like 'Jobs'. Domain (jobstreet.com) is a known Singapore-based job portal serving Southeast Asia.",
+      "features_found": [
+        "job_search",
+        "categories",
+        "employer_sections",
+        "job_seeker_features"
+      ]
+    }
+  },
+  {
+    "url": "https://www.fastjobs.sg",
+    "domain": "fastjobs.sg",
+    "name": "FastJobs: Singapore best non-executive job portal for both job ...",
+    "snippet": "FastJobs is a fast and simple mobile platform for both job seekers and employers to fill non-executive and part-time jobs on the go. Fill your job vacancies ...",
+    "found_in_queries": 5,
+    "country": "singapore",
+    "final_url": "https://www.fastjobs.sg",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.95,
+      "site_type": "job_portal",
+      "reason": "Contains explicit job portal features for Singapore, including job browsing, employer sections, and country-specific content",
+      "features_found": [
+        "job_search",
+        "employer_posting",
+        "country_specific_content",
+        "job_categories",
+        "user_authentication"
+      ]
+    }
+  },
+  {
+    "url": "https://www.mycareersfuture.gov.sg",
+    "domain": "mycareersfuture.gov.sg",
+    "name": "MyCareersFuture Singapore | Find jobs in Singapore that ...",
+    "snippet": "Learn how to improve your resume, identify skill gaps, get interview tips, and explore job opportunities",
+    "found_in_queries": 3,
+    "country": "singapore",
+    "final_url": "https://www.mycareersfuture.gov.sg",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.95,
+      "site_type": "job_portal",
+      "reason": "Government initiative focused on Singapore job search with keywords like 'job listings', 'skills match', 'government support', and specific Singapore programs (SGUnited, Workforce Singapore).",
+      "features_found": [
+        "job_search",
+        "government_support",
+        "skills_based_search",
+        "country_relevance"
+      ]
+    }
+  },
+  {
+    "url": "https://www.careers.gov.sg",
+    "domain": "careers.gov.sg",
+    "name": "Careers@Gov: Home",
+    "snippet": "Discover a career in the Singapore Public Service that is as rewarding as it is purposeful. Apply for jobs now Register for SG Public Service Career Fair 2026.",
+    "found_in_queries": 2,
+    "country": "singapore",
+    "final_url": "https://www.careers.gov.sg",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.95,
+      "site_type": "job_portal",
+      "reason": "Contains government agency job portal indicators (Singapore Government Agency Website identification), employer sections (Post a Job/Employer Login), and job seeker features (search bar implications). Primarily serves Singapore public sector roles.",
+      "features_found": [
+        "Job listings",
+        "Job search",
+        "Jobs category",
+        "Employer sections",
+        "Job seeker features",
+        "Singapore-focused"
+      ]
+    }
+  },
+  {
+    "url": "https://www.michaelpage.com.sg",
+    "domain": "michaelpage.com.sg",
+    "name": "Job Search",
+    "snippet": "Looking for your next job in Singapore? Use our job search platform to find mid to senior level employment opportunities.",
+    "found_in_queries": 2,
+    "country": "singapore",
+    "final_url": "https://www.michaelpage.com.sg",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.95,
+      "site_type": "recruitment_agency",
+      "reason": "The site contains job search-related content (meta description, title), features like 'Post a Job' button, and explicitly targets Singapore in its content and URL structure.",
+      "features_found": [
+        "job_search",
+        "career_advice",
+        "employer_features",
+        "location_specific_content",
+        "recruitment_agency_branding"
+      ]
+    }
+  },
+  {
+    "url": "https://www.hays.com.sg",
+    "domain": "hays.com.sg",
+    "name": "Hays Singapore | Top Recruitment Agency in Singapore ...",
+    "snippet": "Looking for jobs or hiring talent in Singapore? Hays connects top employers with skilled professionals across IT, finance, engineering, and more.",
+    "found_in_queries": 2,
+    "country": "singapore",
+    "final_url": "https://www.hays.com.sg",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.95,
+      "site_type": "recruitment_agency",
+      "reason": "Website is explicitly for Singapore (hays.com.sg), describes itself as a recruitment agency, and includes job search-related metadata with Singapore focus",
+      "features_found": [
+        "job_search_metadata",
+        "country_specific_domain",
+        "recruitment_agency_description",
+        "employment_connectivity_mentions"
+      ]
+    }
+  },
+  {
+    "url": "https://www.foundit.sg",
+    "domain": "foundit.sg",
+    "name": "Over 800,000+ Job Vacancies in Singapore March 2026 ...",
+    "snippet": "Explore Over 800000+ active jobs on foundit, Singapore's leading job portal. Apply for the latest vacancies across top companies and cities.",
+    "found_in_queries": 2,
+    "country": "singapore",
+    "final_url": "https://www.foundit.sg",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.95,
+      "site_type": "job_portal",
+      "reason": "The site explicitly claims to be Singapore's leading job portal with 800,000+ job vacancies, includes job application features, and targets Singapore-specific job seekers through meta tags and domain structure.",
+      "features_found": [
+        "job_vacancies",
+        "resume_creation",
+        "employer_promotions",
+        "country_specific_targeting",
+        "job_portal_branding"
+      ]
+    }
+  },
+  {
+    "url": "https://www.randstad.com.sg",
+    "domain": "randstad.com.sg",
+    "name": "Randstad Singapore: Recruitment Agency | Job Agency",
+    "snippet": "One of the top recruitment agencies in Singapore, Randstad is a leading recruitment company and job agency which serves as a hub for latest jobs and ...",
+    "found_in_queries": 2,
+    "country": "singapore",
+    "final_url": "https://www.randstad.com.sg",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.95,
+      "site_type": "job_portal",
+      "reason": "Website explicitly targets Singapore with job search functionality, recruitment agency branding, and job categories. Contains job search navigation, CV submission links, and Singapore-specific content.",
+      "features_found": [
+        "job_search",
+        "cv_submission",
+        "job_categories",
+        "location_specific_content",
+        "recruitment_agency_branding"
+      ]
+    }
+  },
+  {
+    "url": "https://www.manpower.com.sg",
+    "domain": "manpower.com.sg",
+    "name": "Recruitment Agency in Singapore | Manpower",
+    "snippet": "Manpower Singapore is your trusted recruitment agency in Singapore, proudly serving the local market for almost 30 years. As part of ManpowerGroup, a global ...",
+    "found_in_queries": 2,
+    "country": "singapore",
+    "final_url": "https://www.manpower.com.sg/en",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.95,
+      "site_type": "recruitment_agency",
+      "reason": "Domain is Singapore-specific (com.sg) and Manpower is a global recruitment agency with local presence",
+      "features_found": [
+        "job_listings",
+        "apply_buttons",
+        "employer_sections",
+        "country_relevance"
+      ]
+    }
+  },
+  {
+    "url": "https://welovesalt.com",
+    "domain": "welovesalt.com",
+    "name": "Singapore",
+    "snippet": "Tiada maklumat yang tersedia untuk halaman ini.",
+    "found_in_queries": 1,
+    "country": "singapore",
+    "final_url": "https://welovesalt.com",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.7,
+      "site_type": "recruitment_agency",
+      "reason": "The site promotes global talent connection and job opportunities with Singapore-specific hreflang=en-SG metadata. It describes itself as linking organizations and professionals worldwide, suggesting recruitment agency services rather than direct job listings.",
+      "features_found": [
+        "global_talent_network",
+        "country_specific_metadata",
+        "recruitment_agency_description"
+      ]
+    }
+  },
+  {
+    "url": "https://www.glassdoor.sg",
+    "domain": "glassdoor.sg",
+    "name": "1567 Work from home jobs in Singapore - Glassdoor",
+    "snippet": "Search Work from home jobs in Singapore with company ratings and salaries. 1567 open jobs for Work from home in Singapore.",
+    "found_in_queries": 1,
+    "country": "singapore",
+    "final_url": "https://www.glassdoor.sg/index.htm",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.95,
+      "site_type": "job_portal",
+      "reason": "Primary focus on job search, career community, and workplace conversation with Singapore-specific URL (glassdoor.sg) and localized language variants (en-SG). Features include job search functionality and career-related content.",
+      "features_found": [
+        "job_search",
+        "career_community",
+        "localized_content",
+        "search_functionality"
+      ]
+    }
+  }
+]

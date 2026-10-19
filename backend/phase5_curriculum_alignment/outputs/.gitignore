@@ -1,0 +1,14 @@
+# Every pipeline run writes a folder here. Only the ledger and the eight
+# runs reported in the thesis (listed in thesis_registry.csv) are kept.
+/*
+!/.gitignore
+!/index.md
+!/thesis_registry.csv
+!/20260727T104658Z-475eb3/
+!/20260727T104742Z-475eb3/
+!/20260727T104822Z-475eb3/
+!/20260727T105055Z-475eb3/
+!/20260730T063316Z-e54e7e/
+!/20260730T063353Z-e54e7e/
+!/20260730T063430Z-e54e7e/
+!/20260730T063522Z-e54e7e/

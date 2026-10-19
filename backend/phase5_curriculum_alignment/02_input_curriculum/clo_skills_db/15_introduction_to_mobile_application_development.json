@@ -1,0 +1,46 @@
+[
+  {
+    "skill": "Mobile Operating Systems Fundamentals",
+    "source": "Description"
+  },
+  {
+    "skill": "Android App Architecture",
+    "source": "CLO"
+  },
+  {
+    "skill": "iOS App Architecture",
+    "source": "CLO"
+  },
+  {
+    "skill": "Hybrid App Architecture",
+    "source": "CLO"
+  },
+  {
+    "skill": "Native Android App Development",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Native vs Hybrid App Development",
+    "source": "CLO"
+  },
+  {
+    "skill": "Hybrid App Development",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Mobile User Interface (UI) Design",
+    "source": "CLO"
+  },
+  {
+    "skill": "Mobile User Experience (UX) Design",
+    "source": "CLO"
+  },
+  {
+    "skill": "Mobile App Security",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Security Threat and Vulnerability Identification for Mobile Apps",
+    "source": "Lesson Topic"
+  }
+]

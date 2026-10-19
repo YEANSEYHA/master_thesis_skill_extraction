@@ -1,0 +1,31 @@
+rank,market_skill,job_count,program_score,status,best_course,best_clo,rerank_score,rerank_verdict,host_ok,priority
+1,technical documentation,49,0.69,gap,Software Development And It Operations Devops,Monitoring and Logging Strategies,0.0,NOT_SUPPORTED,false,0.06
+2,database management,42,0.86,covered,Advanced Database And Database Management Systems,Database Transaction Management,0.75,SUPPORTED,true,0.0234
+3,java programming,41,0.68,gap,Internet Programming Ii,Application Programming Interfaces (APIs),0.04,NOT_SUPPORTED,false,0.0518
+4,project management,37,0.7,borderline,Network Design,Network Management,0.01,NOT_SUPPORTED,true,0.0431
+5,network troubleshooting,35,1.0,covered,Systems And Networks Administration,Network Troubleshooting,1.0,SUPPORTED,true,0.0
+6,system maintenance,34,0.79,covered,Network Design,Network Maintenance and Troubleshooting,0.24,WEAK,true,0.0282
+7,mysql database,30,0.71,borderline,Internet Programming Ii,Database Seeding,0.19,WEAK,true,0.0344
+8,restful api development,28,0.76,covered,Internet Programming Ii,Application Programming Interfaces (APIs),0.01,NOT_SUPPORTED,true,0.0265
+9,postgresql database,27,0.67,gap,Internet Programming Ii,Database Migrations,0.01,NOT_SUPPORTED,false,0.0349
+10,technical support,27,0.7,borderline,Network Design,Network Maintenance and Troubleshooting,0.58,SUPPORTED,true,0.0323
+11,ci/cd pipelines,26,0.96,covered,Software Development And It Operations Devops,CI/CD Pipeline Implementation,0.93,SUPPORTED,true,0.0037
+12,docker containerization,24,0.88,covered,Software Development And It Operations Devops,Docker,0.2,WEAK,true,0.0109
+13,git version control,24,0.82,covered,Software Development And It Operations Devops,Git,0.13,WEAK,true,0.0174
+14,firewall configuration,23,0.85,covered,Systems And Networks Administration,Firewall Rules,0.76,SUPPORTED,true,0.0138
+15,security compliance,23,0.73,borderline,Distributed Systems,Security Models,0.31,WEAK,true,0.0241
+16,server management,21,0.82,covered,Network Design,Network Management,0.62,SUPPORTED,true,0.015
+17,aws cloud platforms,19,0.68,gap,Systems And Networks Administration,Virtualization With VMware Workstation,0.0,NOT_SUPPORTED,false,0.0241
+18,incident response,19,0.68,gap,Software Development And It Operations Devops,Alerting,0.11,WEAK,false,0.0238
+19,security monitoring,19,0.86,covered,Network Design,Network Monitoring,0.47,WEAK,true,0.0103
+20,api integration,18,0.83,covered,Internet Programming Ii,Application Programming Interfaces (APIs),0.45,WEAK,true,0.0123
+21,code reviews,18,0.67,gap,Software Development And It Operations Devops,Infrastructure as Code (IaC),0.0,NOT_SUPPORTED,false,0.0234
+22,data analysis,18,0.7,borderline,Advanced Database And Database Management Systems,Data Warehousing,0.07,NOT_SUPPORTED,true,0.021
+23,it infrastructure management,18,0.81,covered,Network Design,Network Management,0.29,WEAK,true,0.0134
+24,microsoft office proficiency,18,0.6,gap,Internet Programming Ii,Integration Testing,0.0,NOT_SUPPORTED,false,0.0281
+25,software development,18,0.72,borderline,Introduction To Mobile Application Development,Hybrid App Development,0.06,NOT_SUPPORTED,true,0.0199
+26,system integration,18,0.82,covered,Software Development And It Operations Devops,Continuous Integration Tools Setup and Configuration,0.05,NOT_SUPPORTED,true,0.0129
+27,vmware virtualization,18,0.94,covered,Systems And Networks Administration,Virtualization With VMware Workstation,1.0,SUPPORTED,true,0.0043
+28,performance tuning,17,0.76,covered,Distributed Systems,Distributed System Performance Analysis,0.31,WEAK,true,0.0158
+29,disaster recovery planning,16,0.7,borderline,Systems And Networks Administration,Network Service Backup and Recovery Strategies,0.02,NOT_SUPPORTED,true,0.019
+30,network administration,16,0.89,covered,Network Design,Network Management,1.0,SUPPORTED,true,0.0069

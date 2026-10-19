@@ -1,0 +1,1228 @@
+[
+ {
+  "id": 52,
+  "course_code": "GICI51CC",
+  "course_title": "Cloud Computing",
+  "category": "it",
+  "filename": "GICI51CC_Cloud Computing_2024_2025.docx",
+  "year": 5,
+  "skills_count": 18,
+  "updated_at": "2026-07-23 09:30:43.533286+00:00",
+  "skills": [
+   {
+    "name": "Cloud Computing Architectures",
+    "source": "CLO",
+    "evidence": "Define the fundamental concepts and architectures of cloud computing, including virtualization, multi-tenancy, and service-oriented architecture."
+   },
+   {
+    "name": "Virtualization",
+    "source": "CLO",
+    "evidence": "Define the fundamental concepts and architectures of cloud computing, including virtualization, multi-tenancy, and service-oriented architecture."
+   },
+   {
+    "name": "Multi-Tenancy",
+    "source": "CLO",
+    "evidence": "Define the fundamental concepts and architectures of cloud computing, including virtualization, multi-tenancy, and service-oriented architecture."
+   },
+   {
+    "name": "Service-Oriented Architecture",
+    "source": "CLO",
+    "evidence": "Define the fundamental concepts and architectures of cloud computing, including virtualization, multi-tenancy, and service-oriented architecture."
+   },
+   {
+    "name": "Infrastructure as a Service (IaaS)",
+    "source": "CLO",
+    "evidence": "Compare and contrast different types of cloud services, including Infrastructure-as-a-Service (IaaS), Platform-as-a-Service (PaaS), and Software-as-a-Service (SaaS)."
+   },
+   {
+    "name": "Platform as a Service (PaaS)",
+    "source": "CLO",
+    "evidence": "Compare and contrast different types of cloud services, including Infrastructure-as-a-Service (IaaS), Platform-as-a-Service (PaaS), and Software-as-a-Service (SaaS)."
+   },
+   {
+    "name": "Software as a Service (SaaS)",
+    "source": "CLO",
+    "evidence": "Compare and contrast different types of cloud services, including Infrastructure-as-a-Service (IaaS), Platform-as-a-Service (PaaS), and Software-as-a-Service (SaaS)."
+   },
+   {
+    "name": "Cloud Deployment Models",
+    "source": "CLO",
+    "evidence": "Compare and contrast different types of Deployment Model for Cloud Computing"
+   },
+   {
+    "name": "Cloud Computing Security",
+    "source": "Lesson Topic",
+    "evidence": "Cloud security threats"
+   },
+   {
+    "name": "AWS",
+    "source": "CLO",
+    "evidence": "Design and implement cloud-based solutions using industry-standard tools and platforms such as AWS"
+   },
+   {
+    "name": "Cloud Workload Optimization",
+    "source": "CLO",
+    "evidence": "Optimize cloud-based workloads for performance, availability, and cost, using techniques such as load balancing, auto-scaling, and containerization."
+   },
+   {
+    "name": "Load Balancing",
+    "source": "CLO",
+    "evidence": "Optimize cloud-based workloads for performance, availability, and cost, using techniques such as load balancing, auto-scaling, and containerization."
+   },
+   {
+    "name": "Auto-Scaling",
+    "source": "CLO",
+    "evidence": "Optimize cloud-based workloads for performance, availability, and cost, using techniques such as load balancing, auto-scaling, and containerization."
+   },
+   {
+    "name": "Containerization",
+    "source": "CLO",
+    "evidence": "Optimize cloud-based workloads for performance, availability, and cost, using techniques such as load balancing, auto-scaling, and containerization."
+   },
+   {
+    "name": "DevOps Methodology",
+    "source": "CLO",
+    "evidence": "Implement and manage team’s cloud-based projects and solutions by using DevOps methodology and Cloud Services."
+   },
+   {
+    "name": "OpenStack",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 7: OpenStack  (Create Open Source IaaS with OpenStack under CentOS)"
+   },
+   {
+    "name": "OpenStack (IaaS)",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 6: Cloud Service Providers  (Create Open Source IaaS with OpenStack under CentOS)"
+   },
+   {
+    "name": "CentOS",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 6: Cloud Service Providers  (Create Open Source IaaS with OpenStack under CentOS)"
+   }
+  ]
+ },
+ {
+  "id": 59,
+  "course_code": "GICI51INA",
+  "course_title": "Introduction to Artificial Intelligence",
+  "category": "it",
+  "filename": "GICI51INA_AI_2024_2025.docx",
+  "year": 5,
+  "skills_count": 40,
+  "updated_at": "2026-07-23 09:33:25.798097+00:00",
+  "skills": [
+   {
+    "name": "Supervised Learning",
+    "source": "CLO",
+    "evidence": "CLO1 | **Recall**  the definitions of key machine learning terms like supervised learning, unsupervised learning, deep learning, and model evaluation metrics (accuracy, precision, recall, etc.)."
+   },
+   {
+    "name": "Unsupervised Learning",
+    "source": "CLO",
+    "evidence": "CLO1 | **Recall**  the definitions of key machine learning terms like supervised learning, unsupervised learning, deep learning, and model evaluation metrics (accuracy, precision, recall, etc.)."
+   },
+   {
+    "name": "Deep Learning",
+    "source": "CLO",
+    "evidence": "CLO1 | **Recall**  the definitions of key machine learning terms like supervised learning, unsupervised learning, deep learning, and model evaluation metrics (accuracy, precision, recall, etc.)."
+   },
+   {
+    "name": "Model Evaluation Metrics",
+    "source": "CLO",
+    "evidence": "CLO1 | **Recall**  the definitions of key machine learning terms like supervised learning, unsupervised learning, deep learning, and model evaluation metrics (accuracy, precision, recall, etc.)."
+   },
+   {
+    "name": "Linear Regression",
+    "source": "CLO",
+    "evidence": "CLO2 | **Explain**  the core concepts behind machine learning algorithms (linear regression, logistic regression, decision trees)."
+   },
+   {
+    "name": "Logistic Regression",
+    "source": "CLO",
+    "evidence": "CLO2 | **Explain**  the core concepts behind machine learning algorithms (linear regression, logistic regression, decision trees)."
+   },
+   {
+    "name": "Decision Trees",
+    "source": "CLO",
+    "evidence": "CLO2 | **Explain**  the core concepts behind machine learning algorithms (linear regression, logistic regression, decision trees)."
+   },
+   {
+    "name": "Data Preprocessing",
+    "source": "CLO",
+    "evidence": "CLO3 | **Apply**  appropriate data pre-processing techniques to prepare data for machine learning tasks."
+   },
+   {
+    "name": "Train-Test-Validation Splitting",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 2: Data Preprocessing  (- Learn how to split data into training, testing, and optionally validation sets. - Learn about feature scaling and when to apply this to the dataset - Understand what is feature encoding and its types)"
+   },
+   {
+    "name": "Feature Scaling",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 2: Data Preprocessing  (- Learn how to split data into training, testing, and optionally validation sets. - Learn about feature scaling and when to apply this to the dataset - Understand what is feature encoding and its types)"
+   },
+   {
+    "name": "Feature Encoding",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 2: Data Preprocessing  (- Learn how to split data into training, testing, and optionally validation sets. - Learn about feature scaling and when to apply this to the dataset - Understand what is feature encoding and its types)"
+   },
+   {
+    "name": "Parameters and Hyperparameters",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 3: Training and Evaluation  (- Differentiate the difference between parameters and hyperparameters. - Learn how to split data into training, testing, and optionally validation sets. - Master different kinds of metrics for evaluation according to any given problem.)"
+   },
+   {
+    "name": "Performance Evaluation and Overfitting/Underfitting Diagnosis",
+    "source": "CLO",
+    "evidence": "CLO5 | **Evaluate**  the performance of machine learning models and diagnose potential issues like overfitting or underfitting."
+   },
+   {
+    "name": "Overfitting",
+    "source": "CLO",
+    "evidence": "CLO5 | **Evaluate**  the performance of machine learning models and diagnose potential issues like overfitting or underfitting."
+   },
+   {
+    "name": "Underfitting",
+    "source": "CLO",
+    "evidence": "CLO5 | **Evaluate**  the performance of machine learning models and diagnose potential issues like overfitting or underfitting."
+   },
+   {
+    "name": "Gradient Descent Optimization",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 4: Linear Regression  (- Differentiate Linear and Nonlinear Correlation - Know the basic concept of the cost function - Understand Gradient Descent Optimization algorithm - Able to find the best fit line via either least square and gradient descent)"
+   },
+   {
+    "name": "Least Squares",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 4: Linear Regression  (- Differentiate Linear and Nonlinear Correlation - Know the basic concept of the cost function - Understand Gradient Descent Optimization algorithm - Able to find the best fit line via either least square and gradient descent)"
+   },
+   {
+    "name": "Cost Function",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 4: Linear Regression  (- Differentiate Linear and Nonlinear Correlation - Know the basic concept of the cost function - Understand Gradient Descent Optimization algorithm - Able to find the best fit line via either least square and gradient descent)"
+   },
+   {
+    "name": "Sigmoid Activation Function",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 6: Logistic Regression  (- Understand the limitation of linear regression for classification problem - Understanding different between regression and classification - Applying logistic regression algorithm to student Admission - Know the concept of the sigmoid activation function)"
+   },
+   {
+    "name": "Support Vector Machines (SVM)",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 7: Support Vector Machine  (- Understand the concept behind SVM - Able to use SVR and SVC for their respective problems - Able to tune hyperparameters so that the model could perform better)"
+   },
+   {
+    "name": "Support Vector Regression (SVR)",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 7: Support Vector Machine  (- Understand the concept behind SVM - Able to use SVR and SVC for their respective problems - Able to tune hyperparameters so that the model could perform better)"
+   },
+   {
+    "name": "Support Vector Classification (SVC)",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 7: Support Vector Machine  (- Understand the concept behind SVM - Able to use SVR and SVC for their respective problems - Able to tune hyperparameters so that the model could perform better)"
+   },
+   {
+    "name": "Information Gain and Entropy",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 8:  Decision tree  (- Describe the structure of a decision tree, including nodes, branches, and leaves. - Understand the concept of information gain and entropy as splitting criteria. - Discuss the use of decision trees in various domains (e.g., finance, healthcare, marketing). - Applying decision tree or linear regression algorithm to predict Breast Cancer - Quiz)"
+   },
+   {
+    "name": "Random Forest",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 9:  Random Forest-Ensemble Method  (- Define ensemble methods and explain the concept of combining multiple models to improve predictive performance. - Understand the key principles of bagging and boosting as ensemble techniques. - Describe the Random Forest algorithm as an ensemble of decision trees. - Applying decision tree or linear regression algorithm to predict Breast Cancer)"
+   },
+   {
+    "name": "Ensemble Methods",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 9:  Random Forest-Ensemble Method  (- Define ensemble methods and explain the concept of combining multiple models to improve predictive performance. - Understand the key principles of bagging and boosting as ensemble techniques. - Describe the Random Forest algorithm as an ensemble of decision trees. - Applying decision tree or linear regression algorithm to predict Breast Cancer)"
+   },
+   {
+    "name": "Bagging",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 9:  Random Forest-Ensemble Method  (- Define ensemble methods and explain the concept of combining multiple models to improve predictive performance. - Understand the key principles of bagging and boosting as ensemble techniques. - Describe the Random Forest algorithm as an ensemble of decision trees. - Applying decision tree or linear regression algorithm to predict Breast Cancer)"
+   },
+   {
+    "name": "Boosting",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 9:  Random Forest-Ensemble Method  (- Define ensemble methods and explain the concept of combining multiple models to improve predictive performance. - Understand the key principles of bagging and boosting as ensemble techniques. - Describe the Random Forest algorithm as an ensemble of decision trees. - Applying decision tree or linear regression algorithm to predict Breast Cancer)"
+   },
+   {
+    "name": "Perceptron and Multi-Layer Perceptron",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 10:  Introduction to Deep Learning  (- Understanding what is deep learning - Realize the differences between ML and DL - Know about the concept of forward and backward propagation  - Understanding what is perceptron & multi-layer perceptron)"
+   },
+   {
+    "name": "Forward and Backward Propagation",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 10:  Introduction to Deep Learning  (- Understanding what is deep learning - Realize the differences between ML and DL - Know about the concept of forward and backward propagation  - Understanding what is perceptron & multi-layer perceptron)"
+   },
+   {
+    "name": "Convolutional Neural Networks (CNNs)",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 11: Convolutional Neural Network  (- Describe the concept of convolution and its role in extracting features from image data. - Understand the components of a CNN, including convolutional layers, pooling layers, and fully connected layers. - Apply CNN with image dataset.)"
+   },
+   {
+    "name": "Convolution",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 11: Convolutional Neural Network  (- Describe the concept of convolution and its role in extracting features from image data. - Understand the components of a CNN, including convolutional layers, pooling layers, and fully connected layers. - Apply CNN with image dataset.)"
+   },
+   {
+    "name": "Pooling Layers",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 11: Convolutional Neural Network  (- Describe the concept of convolution and its role in extracting features from image data. - Understand the components of a CNN, including convolutional layers, pooling layers, and fully connected layers. - Apply CNN with image dataset.)"
+   },
+   {
+    "name": "Fully Connected Layers",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 11: Convolutional Neural Network  (- Describe the concept of convolution and its role in extracting features from image data. - Understand the components of a CNN, including convolutional layers, pooling layers, and fully connected layers. - Apply CNN with image dataset.)"
+   },
+   {
+    "name": "Principal Component Analysis (PCA)",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 12:  Dimensionality Reduction  (- Describe the \"curse of dimensionality\" and its implications for machine learning models. - Understand the PCA algorithm - Learn about the concept of data compression - Apply PCA to reduce the dimensionality of a dataset and visualize the results.)"
+   },
+   {
+    "name": "Dimensionality Reduction",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 12:  Dimensionality Reduction  (- Describe the \"curse of dimensionality\" and its implications for machine learning models. - Understand the PCA algorithm - Learn about the concept of data compression - Apply PCA to reduce the dimensionality of a dataset and visualize the results.)"
+   },
+   {
+    "name": "Curse of Dimensionality",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 12:  Dimensionality Reduction  (- Describe the \"curse of dimensionality\" and its implications for machine learning models. - Understand the PCA algorithm - Learn about the concept of data compression - Apply PCA to reduce the dimensionality of a dataset and visualize the results.)"
+   },
+   {
+    "name": "K-Means",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 13: Clustering  (- Have a better idea of what Unsupervised learning - Understand the concept of clustering - Understand the concept of the K-mean algorithm - Learn how to calculate similarities between data points)"
+   },
+   {
+    "name": "Clustering",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 13: Clustering  (- Have a better idea of what Unsupervised learning - Understand the concept of clustering - Understand the concept of the K-mean algorithm - Learn how to calculate similarities between data points)"
+   },
+   {
+    "name": "Similarity Calculation",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 13: Clustering  (- Have a better idea of what Unsupervised learning - Understand the concept of clustering - Understand the concept of the K-mean algorithm - Learn how to calculate similarities between data points)"
+   },
+   {
+    "name": "Machine Learning Pipeline",
+    "source": "CLO",
+    "evidence": "CLO6 | **Design**  and  **implement**  a machine learning pipeline to solve a real-world problem using machine learning techniques."
+   }
+  ]
+ },
+ {
+  "id": 51,
+  "course_code": "GICI51TRP",
+  "course_title": "Natural Language Processing",
+  "category": "it",
+  "filename": "GICI51NLP_Natural Language Processing_2024_2025.docx",
+  "year": 5,
+  "skills_count": 19,
+  "updated_at": "2026-07-23 09:30:25.666852+00:00",
+  "skills": [
+   {
+    "name": "Text Processing",
+    "source": "Description",
+    "evidence": "The goal of this course is to explore the realm of Natural Language Processing. It focuses on essential techniques such as text processing, N-gram language models, text classification"
+   },
+   {
+    "name": "Tokenization",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 1: Text Processing  (- Explain the main point and keywords of the subject - Describe regular expressions, tokenization, lemmatization, stemming, and string comparison)"
+   },
+   {
+    "name": "Lemmatization",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 1: Text Processing  (- Explain the main point and keywords of the subject - Describe regular expressions, tokenization, lemmatization, stemming, and string comparison)"
+   },
+   {
+    "name": "Stemming",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 1: Text Processing  (- Explain the main point and keywords of the subject - Describe regular expressions, tokenization, lemmatization, stemming, and string comparison)"
+   },
+   {
+    "name": "Regular Expressions",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 1: Text Processing  (- Explain the main point and keywords of the subject - Describe regular expressions, tokenization, lemmatization, stemming, and string comparison)"
+   },
+   {
+    "name": "String Comparison",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 1: Text Processing  (- Explain the main point and keywords of the subject - Describe regular expressions, tokenization, lemmatization, stemming, and string comparison)"
+   },
+   {
+    "name": "N-Gram Language Models",
+    "source": "Description",
+    "evidence": "The goal of this course is to explore the realm of Natural Language Processing. It focuses on essential techniques such as text processing, N-gram language models, text classification"
+   },
+   {
+    "name": "Language Model Evaluation",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 2: N-gram Models  (- Explain the definition of probabilistic language models and n-gram models - Demonstrate how to evaluate language models - Master how to deal with zero-probability n-grams)"
+   },
+   {
+    "name": "Zero-Probability Handling for N-Grams",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 2: N-gram Models  (- Explain the definition of probabilistic language models and n-gram models - Demonstrate how to evaluate language models - Master how to deal with zero-probability n-grams)"
+   },
+   {
+    "name": "Text Classification",
+    "source": "Description",
+    "evidence": "The goal of this course is to explore the realm of Natural Language Processing. It focuses on essential techniques such as text processing, N-gram language models, text classification"
+   },
+   {
+    "name": "Naive Bayes Classifier",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 3: Text Classification  (- Demonstrate how to use Naïve Bayes classifier for texts - Explain how to extract features from texts)"
+   },
+   {
+    "name": "Text Feature Extraction",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 3: Text Classification  (- Demonstrate how to use Naïve Bayes classifier for texts - Explain how to extract features from texts)"
+   },
+   {
+    "name": "Lexical Semantics",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 4: Word Meaning  (- Show what are lexical and vector semantics - Explain how to measure word similarity - Master co-occurrence matrix using tf-idf and pointwise mutual information techniques - Describe word embeddings)"
+   },
+   {
+    "name": "Vector Semantics",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 4: Word Meaning  (- Show what are lexical and vector semantics - Explain how to measure word similarity - Master co-occurrence matrix using tf-idf and pointwise mutual information techniques - Describe word embeddings)"
+   },
+   {
+    "name": "Word Similarity Measurement",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 4: Word Meaning  (- Show what are lexical and vector semantics - Explain how to measure word similarity - Master co-occurrence matrix using tf-idf and pointwise mutual information techniques - Describe word embeddings)"
+   },
+   {
+    "name": "TF-IDF",
+    "source": "Description",
+    "evidence": "The goal of this course is to explore the realm of Natural Language Processing. It focuses on essential techniques such as text processing, N-gram language models, text classification, and uncover the meaning behind words using TF-IDF, Pointwise Mutual Information, and word embeddings."
+   },
+   {
+    "name": "Pointwise Mutual Information (PMI)",
+    "source": "Description",
+    "evidence": "The goal of this course is to explore the realm of Natural Language Processing. It focuses on essential techniques such as text processing, N-gram language models, text classification, and uncover the meaning behind words using TF-IDF, Pointwise Mutual Information, and word embeddings."
+   },
+   {
+    "name": "Word Embeddings",
+    "source": "Description",
+    "evidence": "The goal of this course is to explore the realm of Natural Language Processing. It focuses on essential techniques such as text processing, N-gram language models, text classification, and uncover the meaning behind words using TF-IDF, Pointwise Mutual Information, and word embeddings."
+   },
+   {
+    "name": "Co-Occurrence Matrix",
+    "source": "Lesson Topic",
+    "evidence": "Lecture 4: Word Meaning  (- Show what are lexical and vector semantics - Explain how to measure word similarity - Master co-occurrence matrix using tf-idf and pointwise mutual information techniques - Describe word embeddings)"
+   }
+  ]
+ },
+ {
+  "id": 55,
+  "course_code": "GICI5DM",
+  "course_title": "Data Mining",
+  "category": "it",
+  "filename": "GICI5DM_Data_Mining_2024_2025.docx",
+  "year": 5,
+  "skills_count": 55,
+  "updated_at": "2026-07-23 09:32:03.412999+00:00",
+  "skills": [
+   {
+    "name": "Data Mining",
+    "source": "Description",
+    "evidence": "Data Mining studies algorithms and computational paradigms that allow computers to find patterns and regularities in databases, perform prediction and forecasting, and generally improve student performance through interaction with data."
+   },
+   {
+    "name": "Knowledge Discovery in Databases (KDD)",
+    "source": "Description",
+    "evidence": "It is currently regarded as the key element of a more general process called Knowledge Discovery that deals with extracting useful knowledge from raw data."
+   },
+   {
+    "name": "Data Warehousing",
+    "source": "Description",
+    "evidence": "Important related technologies, as data warehousing and on-line analytical processing (OLAP) will be also discussed."
+   },
+   {
+    "name": "Online Analytical Processing (OLAP)",
+    "source": "Description",
+    "evidence": "Important related technologies, as data warehousing and on-line analytical processing (OLAP) will be also discussed."
+   },
+   {
+    "name": "Exploratory Data Analysis (EDA)",
+    "source": "Lesson Topic",
+    "evidence": "Data/Attribute types - Statistical Description of data - data quality - Exploratory and visualization technique"
+   },
+   {
+    "name": "Data Cleaning",
+    "source": "CLO",
+    "evidence": "CLO3 Improve the dataset quality through preprocessing techniques"
+   },
+   {
+    "name": "Data Preprocessing",
+    "source": "CLO",
+    "evidence": "CLO3 Improve the dataset quality through preprocessing techniques"
+   },
+   {
+    "name": "Data Transformation",
+    "source": "Lesson Topic",
+    "evidence": "Data cleaning - Data transformation - Data reduction - Discretization and generating concept hierarchies - experiments with Python- filters discretization"
+   },
+   {
+    "name": "Data Reduction",
+    "source": "Lesson Topic",
+    "evidence": "Data cleaning - Data transformation - Data reduction - Discretization and generating concept hierarchies - experiments with Python- filters discretization"
+   },
+   {
+    "name": "Discretization",
+    "source": "Lesson Topic",
+    "evidence": "Data cleaning - Data transformation - Data reduction - Discretization and generating concept hierarchies - experiments with Python- filters discretization"
+   },
+   {
+    "name": "Concept Hierarchies",
+    "source": "Lesson Topic",
+    "evidence": "Data cleaning - Data transformation - Data reduction - Discretization and generating concept hierarchies - experiments with Python- filters discretization"
+   },
+   {
+    "name": "Data Quality Assessment",
+    "source": "Lesson Topic",
+    "evidence": "Data/Attribute types - Statistical Description of data - data quality - Exploratory and visualization technique"
+   },
+   {
+    "name": "Task-Relevant Data Selection",
+    "source": "Lesson Topic",
+    "evidence": "Task relevant data - background knowledge - interestingness measure representing input data and output knowledge - visualizing techniques"
+   },
+   {
+    "name": "Interestingness Measures",
+    "source": "Lesson Topic",
+    "evidence": "Task relevant data - background knowledge - interestingness measure representing input data and output knowledge - visualizing techniques"
+   },
+   {
+    "name": "Data Visualization",
+    "source": "CLO",
+    "evidence": "CLO2 Interpret and visualize pattern explored in the dataset"
+   },
+   {
+    "name": "Machine Learning",
+    "source": "Lesson Topic",
+    "evidence": "What is data mining? - Related technologies - - Data Mining Goals - Stages of the Data - Data Mining Techniques - Knowledge Representation Methods - Applications - Example: weather data  Machine Learning,  DBMS, OLAP,  Statistics Mining Process"
+   },
+   {
+    "name": "Database Management Systems (DBMS)",
+    "source": "Lesson Topic",
+    "evidence": "What is data mining? - Related technologies - - Data Mining Goals - Stages of the Data - Data Mining Techniques - Knowledge Representation Methods - Applications - Example: weather data  Machine Learning,  DBMS, OLAP,  Statistics Mining Process"
+   },
+   {
+    "name": "Multidimensional Data Model",
+    "source": "Lesson Topic",
+    "evidence": "Data warehouse and DBMS - Multidimensional data model - OLAP operations - Example: loan dataset"
+   },
+   {
+    "name": "OLAP Operations",
+    "source": "Lesson Topic",
+    "evidence": "Data warehouse and DBMS - Multidimensional data model - OLAP operations - Example: loan dataset"
+   },
+   {
+    "name": "Bayesian Classification",
+    "source": "Lesson Topic",
+    "evidence": "The prediction task - Statistical (bayesian) classification - Bayesian networks - Instance-based method (nearest neighbor) - Linear model"
+   },
+   {
+    "name": "Bayesian Networks",
+    "source": "Lesson Topic",
+    "evidence": "The prediction task - Statistical (bayesian) classification - Bayesian networks - Instance-based method (nearest neighbor) - Linear model"
+   },
+   {
+    "name": "Nearest Neighbor",
+    "source": "Lesson Topic",
+    "evidence": "The prediction task - Statistical (bayesian) classification - Bayesian networks - Instance-based method (nearest neighbor) - Linear model"
+   },
+   {
+    "name": "Linear Models",
+    "source": "Lesson Topic",
+    "evidence": "The prediction task - Statistical (bayesian) classification - Bayesian networks - Instance-based method (nearest neighbor) - Linear model"
+   },
+   {
+    "name": "Classification",
+    "source": "Lesson Topic",
+    "evidence": "Prediction analysis - Classification"
+   },
+   {
+    "name": "Clustering",
+    "source": "Lesson Topic",
+    "evidence": "Basic issues in clustering - First conceptual clustering system - Partitioning methods k-means, expectation maximization (EM) - Hierarchical methods: distance-based agglomerative and divisive clustering - conceptual clustering cobweb"
+   },
+   {
+    "name": "K-Means",
+    "source": "Lesson Topic",
+    "evidence": "Basic issues in clustering - First conceptual clustering system - Partitioning methods k-means, expectation maximization (EM) - Hierarchical methods: distance-based agglomerative and divisive clustering - conceptual clustering cobweb"
+   },
+   {
+    "name": "Expectation-Maximization (EM) Clustering",
+    "source": "Lesson Topic",
+    "evidence": "Basic issues in clustering - First conceptual clustering system - Partitioning methods k-means, expectation maximization (EM) - Hierarchical methods: distance-based agglomerative and divisive clustering - conceptual clustering cobweb"
+   },
+   {
+    "name": "Agglomerative Clustering",
+    "source": "Lesson Topic",
+    "evidence": "Basic issues in clustering - First conceptual clustering system - Partitioning methods k-means, expectation maximization (EM) - Hierarchical methods: distance-based agglomerative and divisive clustering - conceptual clustering cobweb"
+   },
+   {
+    "name": "Divisive Clustering",
+    "source": "Lesson Topic",
+    "evidence": "Basic issues in clustering - First conceptual clustering system - Partitioning methods k-means, expectation maximization (EM) - Hierarchical methods: distance-based agglomerative and divisive clustering - conceptual clustering cobweb"
+   },
+   {
+    "name": "Density-Based Clustering",
+    "source": "Lesson Topic",
+    "evidence": "Property based - Density based - Graph based - Characteristics of Clustering algorithms"
+   },
+   {
+    "name": "Graph-Based Clustering",
+    "source": "Lesson Topic",
+    "evidence": "Property based - Density based - Graph based - Characteristics of Clustering algorithms"
+   },
+   {
+    "name": "Feature Selection",
+    "source": "Lesson Topic",
+    "evidence": "Feature selections - Feature extraction methods - Evaluation methods"
+   },
+   {
+    "name": "Feature Extraction",
+    "source": "Lesson Topic",
+    "evidence": "Feature selections - Feature extraction methods - Evaluation methods"
+   },
+   {
+    "name": "Model Evaluation",
+    "source": "CLO",
+    "evidence": "CLO4 Apply the right method/algorithm on the specific set of data or data mining problem through model evaluation and assessment"
+   },
+   {
+    "name": "Model Assessment",
+    "source": "CLO",
+    "evidence": "CLO4 Apply the right method/algorithm on the specific set of data or data mining problem through model evaluation and assessment"
+   },
+   {
+    "name": "Data Mining Tools and Programming",
+    "source": "CLO",
+    "evidence": "CLO5 Implementing the data mining techniques by using tools or programming on real world problem or dataset"
+   },
+   {
+    "name": "Data Ethics and Privacy",
+    "source": "Lesson Topic",
+    "evidence": "Data ethics and privacy - Fairness and bias - Social and ethical implication"
+   },
+   {
+    "name": "Fairness and Bias",
+    "source": "Lesson Topic",
+    "evidence": "Data ethics and privacy - Fairness and bias - Social and ethical implication"
+   },
+   {
+    "name": "Weather Data Pattern Mining",
+    "source": "Lesson Topic",
+    "evidence": "motivating and terminology - example: mining weather data - basic idea: item sets - generating itemsets and rules efficiency - correlation analysis"
+   },
+   {
+    "name": "Frequent Itemsets Mining",
+    "source": "Lesson Topic",
+    "evidence": "motivating and terminology - example: mining weather data - basic idea: item sets - generating itemsets and rules efficiency - correlation analysis"
+   },
+   {
+    "name": "Association Rule Mining",
+    "source": "Lesson Topic",
+    "evidence": "motivating and terminology - example: mining weather data - basic idea: item sets - generating itemsets and rules efficiency - correlation analysis"
+   },
+   {
+    "name": "Correlation Analysis",
+    "source": "Lesson Topic",
+    "evidence": "motivating and terminology - example: mining weather data - basic idea: item sets - generating itemsets and rules efficiency - correlation analysis"
+   },
+   {
+    "name": "Data Warehouse",
+    "source": "Lesson Topic",
+    "evidence": "Data warehouse and DBMS - Multidimensional data model - OLAP operations - Example: loan dataset"
+   },
+   {
+    "name": "Data Cleaning Workflows",
+    "source": "Description",
+    "evidence": "The knowledge discovery process includes data selection, cleaning, coding, using different statistical and machine learning techniques, and visualization of the generated structures."
+   },
+   {
+    "name": "Knowledge Representation Methods",
+    "source": "Lesson Topic",
+    "evidence": "What is data mining? - Related technologies - - Data Mining Goals - Stages of the Data - Data Mining Techniques - Knowledge Representation Methods - Applications - Example: weather data  Machine Learning,  DBMS, OLAP,  Statistics Mining Process"
+   },
+   {
+    "name": "Data Mining Trends",
+    "source": "Lesson Topic",
+    "evidence": "What is data mining trends in recent days - What sectors uses data mining nowaday? - Research trends in data mining?"
+   },
+   {
+    "name": "Web Scraping",
+    "source": "Lesson Topic",
+    "evidence": "survey questionnaire - database query - web scrapping - log file analysis - sensor data collection - social media data collection"
+   },
+   {
+    "name": "Log File Analysis",
+    "source": "Lesson Topic",
+    "evidence": "survey questionnaire - database query - web scrapping - log file analysis - sensor data collection - social media data collection"
+   },
+   {
+    "name": "Sensor Data Collection",
+    "source": "Lesson Topic",
+    "evidence": "survey questionnaire - database query - web scrapping - log file analysis - sensor data collection - social media data collection"
+   },
+   {
+    "name": "Social Media Data Collection",
+    "source": "Lesson Topic",
+    "evidence": "survey questionnaire - database query - web scrapping - log file analysis - sensor data collection - social media data collection"
+   },
+   {
+    "name": "Database Queries",
+    "source": "Lesson Topic",
+    "evidence": "survey questionnaire - database query - web scrapping - log file analysis - sensor data collection - social media data collection"
+   },
+   {
+    "name": "Apache Hadoop",
+    "source": "Lesson Topic",
+    "evidence": "Apache Hadoop - Apache spark - Apache Kafka"
+   },
+   {
+    "name": "Apache Spark",
+    "source": "Lesson Topic",
+    "evidence": "Apache Hadoop - Apache spark - Apache Kafka"
+   },
+   {
+    "name": "Apache Kafka",
+    "source": "Lesson Topic",
+    "evidence": "Apache Hadoop - Apache spark - Apache Kafka"
+   },
+   {
+    "name": "Exploratory and Visualization Techniques",
+    "source": "Lesson Topic",
+    "evidence": "Data/Attribute types - Statistical Description of data - data quality - Exploratory and visualization technique"
+   }
+  ]
+ },
+ {
+  "id": 47,
+  "course_code": "GICI5IP",
+  "course_title": "Image Processing",
+  "category": "engineering",
+  "filename": "GICI5IP_Image_Processing_2024-2025.docx",
+  "year": 5,
+  "skills_count": 41,
+  "updated_at": "2026-07-23 09:29:28.662841+00:00",
+  "skills": [
+   {
+    "name": "Digital Image Sampling",
+    "source": "CLO",
+    "evidence": "CLO1 Understanding the basic concepts of digital images, including sampling, quantization, and color models."
+   },
+   {
+    "name": "Image Quantization",
+    "source": "CLO",
+    "evidence": "CLO1 Understanding the basic concepts of digital images, including sampling, quantization, and color models."
+   },
+   {
+    "name": "Color Models",
+    "source": "CLO",
+    "evidence": "CLO1 Understanding the basic concepts of digital images, including sampling, quantization, and color models."
+   },
+   {
+    "name": "RGB Color Model",
+    "source": "Lesson Topic",
+    "evidence": "Color fundamentals and color models (RGB, HSI, CMYK)."
+   },
+   {
+    "name": "HSI Color Model",
+    "source": "Lesson Topic",
+    "evidence": "Color fundamentals and color models (RGB, HSI, CMYK)."
+   },
+   {
+    "name": "CMYK Color Model",
+    "source": "Lesson Topic",
+    "evidence": "Color fundamentals and color models (RGB, HSI, CMYK)."
+   },
+   {
+    "name": "Linear Filtering",
+    "source": "CLO",
+    "evidence": "CLO2 Applying linear and non-linear filtering techniques for image enhancement and noise reduction."
+   },
+   {
+    "name": "Non-Linear Filtering",
+    "source": "CLO",
+    "evidence": "CLO2 Applying linear and non-linear filtering techniques for image enhancement and noise reduction."
+   },
+   {
+    "name": "Averaging Filters",
+    "source": "Lesson Topic",
+    "evidence": "Noise reduction in images: Averaging filters, median filtering.."
+   },
+   {
+    "name": "Median Filtering",
+    "source": "Lesson Topic",
+    "evidence": "Noise reduction in images: Averaging filters, median filtering.."
+   },
+   {
+    "name": "Image Histogram Equalization",
+    "source": "Lesson Topic",
+    "evidence": "Histogram processing: Equalization, stretching."
+   },
+   {
+    "name": "Histogram Stretching",
+    "source": "Lesson Topic",
+    "evidence": "Histogram processing: Equalization, stretching."
+   },
+   {
+    "name": "Image Smoothing",
+    "source": "Lesson Topic",
+    "evidence": "Spatial filtering for image enhancement: Smoothing, sharpening."
+   },
+   {
+    "name": "Image Sharpening",
+    "source": "Lesson Topic",
+    "evidence": "Spatial filtering for image enhancement: Smoothing, sharpening."
+   },
+   {
+    "name": "Image Degradation Model",
+    "source": "Lesson Topic",
+    "evidence": "Image degradation model: Blurring, noise."
+   },
+   {
+    "name": "Inverse Filtering",
+    "source": "Lesson Topic",
+    "evidence": "Inverse filtering: Wiener filter."
+   },
+   {
+    "name": "Wiener Filter",
+    "source": "Lesson Topic",
+    "evidence": "Inverse filtering: Wiener filter."
+   },
+   {
+    "name": "Motion Blur Removal",
+    "source": "Lesson Topic",
+    "evidence": "Deblurring techniques: Motion blur removal"
+   },
+   {
+    "name": "Two-Dimensional Fourier Transform (2D-DFT)",
+    "source": "Lesson Topic",
+    "evidence": "Two-dimensional Fourier Transform (2D-DFT) and its properties."
+   },
+   {
+    "name": "Frequency Domain Filtering",
+    "source": "Lesson Topic",
+    "evidence": "Frequency domain filtering for noise reduction and image enhancement."
+   },
+   {
+    "name": "Image Formation Model",
+    "source": "Lesson Topic",
+    "evidence": "Spatial and frequency domain representation: Image formation model, point spread function (PSF)."
+   },
+   {
+    "name": "Point Spread Function (PSF)",
+    "source": "Lesson Topic",
+    "evidence": "Spatial and frequency domain representation: Image formation model, point spread function (PSF)."
+   },
+   {
+    "name": "Erosion",
+    "source": "Lesson Topic",
+    "evidence": "Basic morphological operations (erosion, dilation, opening, closing)."
+   },
+   {
+    "name": "Dilation",
+    "source": "Lesson Topic",
+    "evidence": "Basic morphological operations (erosion, dilation, opening, closing)."
+   },
+   {
+    "name": "Opening",
+    "source": "Lesson Topic",
+    "evidence": "Basic morphological operations (erosion, dilation, opening, closing)."
+   },
+   {
+    "name": "Closing",
+    "source": "Lesson Topic",
+    "evidence": "Basic morphological operations (erosion, dilation, opening, closing)."
+   },
+   {
+    "name": "Thresholding",
+    "source": "Lesson Topic",
+    "evidence": "Thresholding techniques for image segmentation."
+   },
+   {
+    "name": "Region-Based Segmentation",
+    "source": "Lesson Topic",
+    "evidence": "Region-based segmentation"
+   },
+   {
+    "name": "Edge-Based Segmentation",
+    "source": "Lesson Topic",
+    "evidence": "Edge-based segmentation: Detection methods (Canny edge detector)."
+   },
+   {
+    "name": "Canny Edge Detector",
+    "source": "Lesson Topic",
+    "evidence": "Edge-based segmentation: Detection methods (Canny edge detector)."
+   },
+   {
+    "name": "Feature Extraction",
+    "source": "CLO",
+    "evidence": "CLO3 Analyze features from images for object recognition and classification."
+   },
+   {
+    "name": "Pattern Recognition and Classification",
+    "source": "Lesson Topic",
+    "evidence": "Pattern recognition and classification for object recognition."
+   },
+   {
+    "name": "Image Compression",
+    "source": "Lesson Topic",
+    "evidence": "Fundamentals of image compression;"
+   },
+   {
+    "name": "Run-Length Encoding (RLE)",
+    "source": "Lesson Topic",
+    "evidence": "Run-length encoding, Huffman coding, JPEG compression."
+   },
+   {
+    "name": "Huffman Coding",
+    "source": "Lesson Topic",
+    "evidence": "Run-length encoding, Huffman coding, JPEG compression."
+   },
+   {
+    "name": "JPEG Compression",
+    "source": "Lesson Topic",
+    "evidence": "Run-length encoding, Huffman coding, JPEG compression."
+   },
+   {
+    "name": "OpenCV",
+    "source": "CLO",
+    "evidence": "CLO4 Design and implement image processing algorithms using software tools (e.g., Python with OpenCV)."
+   },
+   {
+    "name": "Python",
+    "source": "CLO",
+    "evidence": "CLO4 Design and implement image processing algorithms using software tools (e.g., Python with OpenCV)."
+   },
+   {
+    "name": "MATLAB",
+    "source": "Lesson Topic",
+    "evidence": "Implementing image processing algorithms using software tools (e.g., MATLAB, Python with OpenCV)."
+   },
+   {
+    "name": "Object Recognition",
+    "source": "CLO",
+    "evidence": "CLO3 Analyze features from images for object recognition and classification."
+   },
+   {
+    "name": "Image Segmentation",
+    "source": "Description",
+    "evidence": "implement image processing techniques for enhancement, restoration, and segmentation"
+   }
+  ]
+ },
+ {
+  "id": 56,
+  "course_code": "GICI5IS",
+  "course_title": "Information Security",
+  "category": "it",
+  "filename": "GICI5IS_Information_Security_2024_2025.docx",
+  "year": 5,
+  "skills_count": 14,
+  "updated_at": "2026-07-23 09:32:18.856286+00:00",
+  "skills": [
+   {
+    "name": "Information Security Governance",
+    "source": "Lesson Topic",
+    "evidence": "Infosec Governance"
+   },
+   {
+    "name": "Information Security Policy Management",
+    "source": "Lesson Topic",
+    "evidence": "Security Standard and Policies Management"
+   },
+   {
+    "name": "Information Security Risk Analysis",
+    "source": "Lesson Topic",
+    "evidence": "Risk Analysis and Management"
+   },
+   {
+    "name": "Risk Management",
+    "source": "Lesson Topic",
+    "evidence": "Risk Analysis and Management"
+   },
+   {
+    "name": "Access Control",
+    "source": "Lesson Topic",
+    "evidence": "Control Families (Be able to explain and perform the solution of access control and its technologies)"
+   },
+   {
+    "name": "Security Solutions for System Support and Operations",
+    "source": "Lesson Topic",
+    "evidence": "Security Consideration in System Support and Operations (Be able to pick up and introduce the various security solutions based on the set environment and the way of technologies are operated)"
+   },
+   {
+    "name": "Information Security Standards",
+    "source": "CLO",
+    "evidence": "CLO3 | Be able to provide the suitable and efficient security solutions based only security compliance and family such as access control and management"
+   },
+   {
+    "name": "Security Compliance",
+    "source": "CLO",
+    "evidence": "CLO3 | Be able to provide the suitable and efficient security solutions based only security compliance and family such as access control and management"
+   },
+   {
+    "name": "Access Control Technologies",
+    "source": "Lesson Topic",
+    "evidence": "Control Families (Be able to explain and perform the solution of access control and its technologies)"
+   },
+   {
+    "name": "Security Solution Management",
+    "source": "CLO",
+    "evidence": "CLO4 | Apply and build the information security solutions and standard based the existing security cultures and needs"
+   },
+   {
+    "name": "Information Security Threat Trend Monitoring",
+    "source": "Lesson Topic",
+    "evidence": "Emerging Threats and Trends"
+   },
+   {
+    "name": "Information Security Threats and Vulnerabilities Protection",
+    "source": "CLO",
+    "evidence": "CLO1 | Understand about the elements, roles and responsibilities of information security that are used for protecting from specific threats and vulnerabilities"
+   },
+   {
+    "name": "Information Security Roles and Responsibilities",
+    "source": "CLO",
+    "evidence": "CLO1 | Understand about the elements, roles and responsibilities of information security that are used for protecting from specific threats and vulnerabilities"
+   },
+   {
+    "name": "Security Standards and Policies",
+    "source": "CLO",
+    "evidence": "CLO2 | Be able to illustrate and explain the governance and policies for information security guide and management"
+   }
+  ]
+ },
+ {
+  "id": 54,
+  "course_code": "GICI5NS",
+  "course_title": "Network Security",
+  "category": "it",
+  "filename": "GICI5NS_Network_Security_2024_2025.docx",
+  "year": 5,
+  "skills_count": 21,
+  "updated_at": "2026-07-23 09:31:28.873791+00:00",
+  "skills": [
+   {
+    "name": "Network Security Concepts",
+    "source": "Lesson Topic",
+    "evidence": "Introduction to Network and Security  (- Understand about the network infrastructure, topologies, models and protocols - Understand the importance of network security - Be able to explain the basic security concepts such as security trinity and basic terminology)"
+   },
+   {
+    "name": "Network Threats and Attacks",
+    "source": "Lesson Topic",
+    "evidence": "Threats, Vulnerabilities and Attacks  (- Understand various types of threats and attacks vector - Be able to identify the threat and how it is proceeded  - Understand about the objective and effect of each type of threat and attacks)"
+   },
+   {
+    "name": "Network Vulnerability Scanning",
+    "source": "Lesson Topic",
+    "evidence": "Risk Management and Assessment  (- Understand and be able to predict the risk in network system - Be able to scan the network vulnerability and access to it - Be able to make a disaster recovery planning - Understand about Penetration testing)"
+   },
+   {
+    "name": "Cryptography",
+    "source": "Lesson Topic",
+    "evidence": "Cryptography  (- Understand about the different types of cryptography system and how it works - Be able to identify the different types of attacks related to cryptography - Understand about different types encryption techniques - Be able to present and build encryption techniques based on the applied practical cases)"
+   },
+   {
+    "name": "Encryption Techniques",
+    "source": "Lesson Topic",
+    "evidence": "Cryptography  (- Understand about the different types of cryptography system and how it works - Be able to identify the different types of attacks related to cryptography - Understand about different types encryption techniques - Be able to present and build encryption techniques based on the applied practical cases)"
+   },
+   {
+    "name": "Network Protocols and Standards",
+    "source": "Lesson Topic",
+    "evidence": "Networks Protocols and Standards  (- Understand about the way how each protocol works - Differentiate the flow of each protocol  Understand how security is compiled in each protocol)"
+   },
+   {
+    "name": "Firewall Technology",
+    "source": "Lesson Topic",
+    "evidence": "Security Devices and Its Functions  (- Understand about firewall technology - Be able to demonstrate and implement security firewall - Understand about Intrusion Detection System and Intrusion Prevention System)"
+   },
+   {
+    "name": "Intrusion Detection System (IDS)",
+    "source": "Lesson Topic",
+    "evidence": "Security Devices and Its Functions  (- Understand about firewall technology - Be able to demonstrate and implement security firewall - Understand about Intrusion Detection System and Intrusion Prevention System)"
+   },
+   {
+    "name": "Intrusion Prevention System (IPS)",
+    "source": "Lesson Topic",
+    "evidence": "Security Devices and Its Functions  (- Understand about firewall technology - Be able to demonstrate and implement security firewall - Understand about Intrusion Detection System and Intrusion Prevention System)"
+   },
+   {
+    "name": "Network Security Policies",
+    "source": "Lesson Topic",
+    "evidence": "Policies and Procedures  (- Understand about the assets’ policies such as information and devices - Be able to differentiate about each polices of different group of users and apply with different types of devices - Be able to set the policy in network infrastructure and system in terms of administration, access control and permission (security awareness))"
+   },
+   {
+    "name": "Access Control and Permissions",
+    "source": "Lesson Topic",
+    "evidence": "Policies and Procedures  (- Understand about the assets’ policies such as information and devices - Be able to differentiate about each polices of different group of users and apply with different types of devices  - Be able to set the policy in network infrastructure and system in terms of administration, access control and permission (security awareness))"
+   },
+   {
+    "name": "Risk Management and Assessment",
+    "source": "Lesson Topic",
+    "evidence": "Risk Management and Assessment  (- Understand and be able to predict the risk in network system - Be able to scan the network vulnerability and access to it - Be able to make a disaster recovery planning - Understand about Penetration testing)"
+   },
+   {
+    "name": "Disaster Recovery Planning",
+    "source": "Lesson Topic",
+    "evidence": "Risk Management and Assessment  (- Understand and be able to predict the risk in network system - Be able to scan the network vulnerability and access to it - Be able to make a disaster recovery planning - Understand about Penetration testing)"
+   },
+   {
+    "name": "Penetration Testing",
+    "source": "Lesson Topic",
+    "evidence": "Risk Management and Assessment  (- Understand and be able to predict the risk in network system - Be able to scan the network vulnerability and access to it - Be able to make a disaster recovery planning - Understand about Penetration testing)"
+   },
+   {
+    "name": "Cloud Computing Security",
+    "source": "Lesson Topic",
+    "evidence": "Emerging Technologies and Trends  (- Have knowledge about security alliances and its trend with current job market such as cloud computing security, IoT devices security - Have knowledge about the current solutions that we apply in modern technology such as AI and Machine Learning)"
+   },
+   {
+    "name": "IoT Devices Security",
+    "source": "Lesson Topic",
+    "evidence": "Emerging Technologies and Trends  (- Have knowledge about security alliances and its trend with current job market such as cloud computing security, IoT devices security - Have knowledge about the current solutions that we apply in modern technology such as AI and Machine Learning)"
+   },
+   {
+    "name": "AI and Machine Learning Security",
+    "source": "Lesson Topic",
+    "evidence": "Emerging Technologies and Trends  (- Have knowledge about security alliances and its trend with current job market such as cloud computing security, IoT devices security - Have knowledge about the current solutions that we apply in modern technology such as AI and Machine Learning)"
+   },
+   {
+    "name": "Network Devices",
+    "source": "CLO",
+    "evidence": "CLO1 | Understand the concept of Network Devices and its functionalities"
+   },
+   {
+    "name": "Security Technology Deployment",
+    "source": "CLO",
+    "evidence": "CLO2 | Select the security technologies, build and apply it with current network system"
+   },
+   {
+    "name": "Threat Modeling and Mitigation Demonstration",
+    "source": "CLO",
+    "evidence": "CLO3 | Be able to demonstrate the threat and solution to against it"
+   },
+   {
+    "name": "Network Security Assessment",
+    "source": "CLO",
+    "evidence": "CLO4 | Be able to report about the security assessment of current network infrastructure and system"
+   }
+  ]
+ },
+ {
+  "id": 50,
+  "course_code": "GICI5PM",
+  "course_title": "IT Project Management",
+  "category": "it",
+  "filename": "GICI5PM_IT Project Management_Syllabus_2024_2025.docx",
+  "year": 5,
+  "skills_count": 18,
+  "updated_at": "2026-07-23 09:30:10.469711+00:00",
+  "skills": [
+   {
+    "name": "Project Management Fundamentals",
+    "source": "CLO",
+    "evidence": "Master project management fundamentals and apply them to IT projects."
+   },
+   {
+    "name": "Scope Definition",
+    "source": "CLO",
+    "evidence": "Define project scope and create a detailed work breakdown structure (WBS)."
+   },
+   {
+    "name": "Work Breakdown Structure (WBS)",
+    "source": "CLO",
+    "evidence": "Define project scope and create a detailed work breakdown structure (WBS)."
+   },
+   {
+    "name": "Project Team Management",
+    "source": "CLO",
+    "evidence": "Manage project teams effectively and implement communication strategies."
+   },
+   {
+    "name": "Risk Management",
+    "source": "Lesson Topic",
+    "evidence": "Risk management: identification, assessment, mitigation"
+   },
+   {
+    "name": "Change Management",
+    "source": "Lesson Topic",
+    "evidence": "Change management processes"
+   },
+   {
+    "name": "Earned Value Management (EVM)",
+    "source": "Lesson Topic",
+    "evidence": "Earned Value Management (EVM) for project performance measurement"
+   },
+   {
+    "name": "Project Issue Management",
+    "source": "Lesson Topic",
+    "evidence": "Managing project issues and defects"
+   },
+   {
+    "name": "Project Budget Monitoring and Cost Control",
+    "source": "Lesson Topic",
+    "evidence": "Project budget monitoring and cost control"
+   },
+   {
+    "name": "Project Closure and Handover",
+    "source": "Lesson Topic",
+    "evidence": "Project handover and lessons learned documentation"
+   },
+   {
+    "name": "Agile Project Management",
+    "source": "CLO",
+    "evidence": "Gain exposure to Agile project management methodologies for IT projects."
+   },
+   {
+    "name": "Project Lifecycle Management",
+    "source": "Lesson Topic",
+    "evidence": "Project lifecycle and phases (initiating, planning, executing, monitoring & controlling, closing)"
+   },
+   {
+    "name": "PMI Project Management Framework",
+    "source": "Lesson Topic",
+    "evidence": "IT project management fundamentals and frameworks (PMI)"
+   },
+   {
+    "name": "Gantt Charts",
+    "source": "Lesson Topic",
+    "evidence": "Project scheduling techniques (Gantt charts, PERT)"
+   },
+   {
+    "name": "PERT",
+    "source": "Lesson Topic",
+    "evidence": "Project scheduling techniques (Gantt charts, PERT)"
+   },
+   {
+    "name": "Resource Estimation",
+    "source": "Lesson Topic",
+    "evidence": "Resource estimation (time, cost, human resources)"
+   },
+   {
+    "name": "Project Status Reporting",
+    "source": "Lesson Topic",
+    "evidence": "Project status reporting and communication techniques"
+   },
+   {
+    "name": "Project Progress Monitoring",
+    "source": "CLO",
+    "evidence": "Monitor project progress, identify and manage issues effectively."
+   }
+  ]
+ }
+]

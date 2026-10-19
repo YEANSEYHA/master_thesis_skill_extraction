@@ -1,0 +1,74 @@
+[
+  {
+    "skill": "Git",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Continuous Integration and Delivery (CI/CD)",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Jenkins",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Docker",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Infrastructure as Code (IaC)",
+    "source": "CLO"
+  },
+  {
+    "skill": "Terraform",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Load Balancing",
+    "source": "CLO"
+  },
+  {
+    "skill": "Automatic Scaling",
+    "source": "CLO"
+  },
+  {
+    "skill": "Application Performance Monitoring (APM)",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Infrastructure Monitoring",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Alerting",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Logging",
+    "source": "CLO"
+  },
+  {
+    "skill": "Monitoring and Logging Strategies",
+    "source": "CLO"
+  },
+  {
+    "skill": "Continuous Integration Tools Setup and Configuration",
+    "source": "CLO"
+  },
+  {
+    "skill": "CI/CD Pipeline Implementation",
+    "source": "CLO"
+  },
+  {
+    "skill": "Docker Application Packaging and Deployment",
+    "source": "CLO"
+  },
+  {
+    "skill": "Infrastructure Provisioning and Management with IaC",
+    "source": "CLO"
+  },
+  {
+    "skill": "Application Health Monitoring",
+    "source": "CLO"
+  }
+]

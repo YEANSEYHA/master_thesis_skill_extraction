@@ -1,0 +1,65 @@
+{
+  "curriculum": {
+    "dir": "./backend/phase5/02_input_curriculum/clo_skills_db",
+    "mode": "db",
+    "n_courses": 9,
+    "courses": [
+      {
+        "file": "1_information_system_analysis_and_design.json",
+        "n_skills": 20,
+        "sha256": "5b3a0578783ecf55d49446b8bb7496578ce39034c5b4d786ecdb706a66aa087a"
+      },
+      {
+        "file": "2_algorithm_and_programming.json",
+        "n_skills": 17,
+        "sha256": "5b871bd85a667e71976aa6e48a6fc9a4dda7a87e14a58842a116a79b99f89094"
+      },
+      {
+        "file": "3_combinational_and_sequential_logics.json",
+        "n_skills": 26,
+        "sha256": "84c4d09605009ee31b5eaab3ec108fa5945e3e02884ac8c82a10e2f31d4cff5b"
+      },
+      {
+        "file": "4_introduction_to_computer_systems_and_networks.json",
+        "n_skills": 27,
+        "sha256": "976897cfcf0186d718f0827ba97a9bc73480bdc235081e7e83ce1649c88d3e14"
+      },
+      {
+        "file": "5_soft_skills.json",
+        "n_skills": 2,
+        "sha256": "6cc36f2aa25a6102df3f0c82ddac5c4f66b8b0a9aa556ecfcb8afdaf47ae6dda"
+      },
+      {
+        "file": "6_object_oriented_programming.json",
+        "n_skills": 20,
+        "sha256": "f5df60a76f2c56ec2c1904ed138e12f0a603a76de450b7cb7b70cb2055903e34"
+      },
+      {
+        "file": "7_discrete_mathematics.json",
+        "n_skills": 38,
+        "sha256": "565f2b29180bc42d0c68d61e8dfa1875c5b05c5dc269e457e8b97f1927fb60f9"
+      },
+      {
+        "file": "8_electronics.json",
+        "n_skills": 30,
+        "sha256": "a488b02307c3590badf6d004418a593223f1fb42ffa7583da15bac7bbe493c57"
+      },
+      {
+        "file": "9_research_methodology.json",
+        "n_skills": 38,
+        "sha256": "26cde746d8c103e2d42f49c31d5669f1b245f908e5a6f49f0b67cc8bfc7251ff"
+      }
+    ],
+    "hash": "4e126cbbd4d47b73e7599ed0fd410f6572d3eb0c8f466e8ea9f57cf8be548a72",
+    "cohort": "Y3"
+  },
+  "market": {
+    "dataset": "stage2_result.json",
+    "path": "./backend/phase3_llm_html_data_extraction/outputs/stage2/api_full/stage2_result.json",
+    "bytes": 55714131
+  },
+  "adjudication": {
+    "file": "relationship_adjudication.json",
+    "sha256": "b89e54139cc3ee4b489fdc523e37c2e3f59ac9a9e6d19064761827d71c2941bf"
+  }
+}

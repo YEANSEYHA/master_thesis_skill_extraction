@@ -1,0 +1,232 @@
+{
+ "n_candidates": 13,
+ "greedy_order": [
+  "software development",
+  "sql",
+  "testing",
+  "project management",
+  "agile",
+  "aws",
+  "automation",
+  "javascript",
+  "documentation",
+  "microsoft office suite",
+  "azure",
+  "devops",
+  "kubernetes"
+ ],
+ "greedy_selected": [
+  "software development",
+  "sql",
+  "testing",
+  "project management",
+  "agile",
+  "aws",
+  "automation",
+  "javascript",
+  "documentation"
+ ],
+ "cum_frac": 0.8,
+ "self_check_order_match": true,
+ "exp1": {
+  "worst_ratio": 1.0,
+  "per_k": {
+   "1": {
+    "ratio": 1.0
+   },
+   "2": {
+    "ratio": 1.0
+   },
+   "3": {
+    "ratio": 1.0
+   },
+   "4": {
+    "ratio": 1.0
+   },
+   "5": {
+    "ratio": 1.0
+   },
+   "6": {
+    "ratio": 1.0
+   },
+   "7": {
+    "ratio": 1.0
+   },
+   "8": {
+    "ratio": 1.0
+   },
+   "9": {
+    "ratio": 1.0
+   },
+   "10": {
+    "ratio": 1.0
+   },
+   "11": {
+    "ratio": 1.0
+   },
+   "12": {
+    "ratio": 1.0
+   },
+   "13": {
+    "ratio": 1.0
+   }
+  },
+  "cover_greedy": 9,
+  "cover_exact": 9
+ },
+ "exp2": {
+  "B": 1000,
+  "selection_frequency": {
+   "sql": 1.0,
+   "software development": 1.0,
+   "agile": 1.0,
+   "project management": 1.0,
+   "aws": 1.0,
+   "testing": 1.0,
+   "automation": 1.0,
+   "azure": 0.0,
+   "javascript": 1.0,
+   "documentation": 1.0,
+   "devops": 0.0,
+   "microsoft office suite": 0.0,
+   "kubernetes": 0.0
+  },
+  "n_selected_hist": {
+   "9": 1000
+  },
+  "kendall_tau_mean": 0.9851025641025641,
+  "kendall_tau_min": 0.9230769230769231
+ },
+ "exp3_cum_frac": {
+  "0.60": [
+   "software development",
+   "sql",
+   "testing",
+   "project management",
+   "agile",
+   "aws"
+  ],
+  "0.65": [
+   "software development",
+   "sql",
+   "testing",
+   "project management",
+   "agile",
+   "aws"
+  ],
+  "0.70": [
+   "software development",
+   "sql",
+   "testing",
+   "project management",
+   "agile",
+   "aws",
+   "automation"
+  ],
+  "0.75": [
+   "software development",
+   "sql",
+   "testing",
+   "project management",
+   "agile",
+   "aws",
+   "automation",
+   "javascript"
+  ],
+  "0.80": [
+   "software development",
+   "sql",
+   "testing",
+   "project management",
+   "agile",
+   "aws",
+   "automation",
+   "javascript",
+   "documentation"
+  ],
+  "0.85": [
+   "software development",
+   "sql",
+   "testing",
+   "project management",
+   "agile",
+   "aws",
+   "automation",
+   "javascript",
+   "documentation",
+   "microsoft office suite"
+  ],
+  "0.90": [
+   "software development",
+   "sql",
+   "testing",
+   "project management",
+   "agile",
+   "aws",
+   "automation",
+   "javascript",
+   "documentation",
+   "microsoft office suite",
+   "azure"
+  ],
+  "0.95": [
+   "software development",
+   "sql",
+   "testing",
+   "project management",
+   "agile",
+   "aws",
+   "automation",
+   "javascript",
+   "documentation",
+   "microsoft office suite",
+   "azure",
+   "devops"
+  ]
+ },
+ "exp3_cutoff": {
+  "0.71": {
+   "n_candidates": 12,
+   "selected": [
+    "software development",
+    "sql",
+    "testing",
+    "project management",
+    "agile",
+    "aws",
+    "automation",
+    "javascript"
+   ]
+  },
+  "0.73": {
+   "n_candidates": 13,
+   "selected": [
+    "software development",
+    "sql",
+    "testing",
+    "project management",
+    "agile",
+    "aws",
+    "automation",
+    "javascript",
+    "documentation"
+   ]
+  },
+  "0.75": {
+   "n_candidates": 15,
+   "selected": [
+    "software development",
+    "sql",
+    "testing",
+    "project management",
+    "agile",
+    "aws",
+    "cloud computing",
+    "automation",
+    "javascript",
+    "documentation",
+    "computer science"
+   ]
+  }
+ }
+}

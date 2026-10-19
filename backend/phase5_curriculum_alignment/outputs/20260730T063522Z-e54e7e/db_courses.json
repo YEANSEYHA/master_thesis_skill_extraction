@@ -1,0 +1,202 @@
+[
+  {
+    "file": "1_information_system_analysis_and_design.json",
+    "course_id": 68,
+    "course_code": "GICI31ACI",
+    "course_title": "Information System Analysis and Design",
+    "year": "Y3",
+    "n_skills": 20
+  },
+  {
+    "file": "2_algorithm_and_programming.json",
+    "course_id": 62,
+    "course_code": "GICI31ALP",
+    "course_title": "Algorithm and programming",
+    "year": "Y3",
+    "n_skills": 17
+  },
+  {
+    "file": "3_combinational_and_sequential_logics.json",
+    "course_id": 63,
+    "course_code": "GICI31CSL",
+    "course_title": "Combinational and Sequential Logics",
+    "year": "Y3",
+    "n_skills": 26
+  },
+  {
+    "file": "4_introduction_to_computer_systems_and_networks.json",
+    "course_id": 64,
+    "course_code": "GICI31CSN",
+    "course_title": "Introduction to Computer Systems and Networks",
+    "year": "Y3",
+    "n_skills": 27
+  },
+  {
+    "file": "5_soft_skills.json",
+    "course_id": 67,
+    "course_code": "GICI31SS",
+    "course_title": "Soft Skills",
+    "year": "Y3",
+    "n_skills": 2
+  },
+  {
+    "file": "6_object_oriented_programming.json",
+    "course_id": 66,
+    "course_code": "GICI32OOP",
+    "course_title": "Object-Oriented Programming",
+    "year": "Y3",
+    "n_skills": 20
+  },
+  {
+    "file": "7_discrete_mathematics.json",
+    "course_id": 65,
+    "course_code": "GICI3DM",
+    "course_title": "Discrete Mathematics",
+    "year": "Y3",
+    "n_skills": 38
+  },
+  {
+    "file": "8_electronics.json",
+    "course_id": 60,
+    "course_code": "GICI3ELE",
+    "course_title": "Electronics",
+    "year": "Y3",
+    "n_skills": 30
+  },
+  {
+    "file": "9_research_methodology.json",
+    "course_id": 61,
+    "course_code": "GICI3RM",
+    "course_title": "Research Methodology",
+    "year": "Y3",
+    "n_skills": 38
+  },
+  {
+    "file": "10_networks_ii.json",
+    "course_id": 48,
+    "course_code": "GICI42NET2",
+    "course_title": "Networks II",
+    "year": "Y4",
+    "n_skills": 8
+  },
+  {
+    "file": "11_systems_and_networks_administration.json",
+    "course_id": 53,
+    "course_code": "GICI42SNA",
+    "course_title": "Systems and Networks Administration",
+    "year": "Y4",
+    "n_skills": 31
+  },
+  {
+    "file": "12_advanced_database_and_database_management_systems.json",
+    "course_id": 58,
+    "course_code": "GICI4DBMS",
+    "course_title": "Advanced Database and Database Management Systems",
+    "year": "Y4",
+    "n_skills": 14
+  },
+  {
+    "file": "13_distributed_systems.json",
+    "course_id": 46,
+    "course_code": "GICI4DS",
+    "course_title": "Distributed Systems",
+    "year": "Y4",
+    "n_skills": 16
+  },
+  {
+    "file": "14_internet_programming_ii.json",
+    "course_id": 44,
+    "course_code": "GICI4IP",
+    "course_title": "Internet Programming II",
+    "year": "Y4",
+    "n_skills": 26
+  },
+  {
+    "file": "15_introduction_to_mobile_application_development.json",
+    "course_id": 45,
+    "course_code": "GICI4MDEV",
+    "course_title": "Introduction to Mobile Application Development",
+    "year": "Y4",
+    "n_skills": 11
+  },
+  {
+    "file": "16_network_design.json",
+    "course_id": 49,
+    "course_code": "GICI4ND",
+    "course_title": "Network Design",
+    "year": "Y4",
+    "n_skills": 22
+  },
+  {
+    "file": "17_software_development_and_it_operations_devops.json",
+    "course_id": 57,
+    "course_code": "GICI4SDO",
+    "course_title": "Software Development and IT Operations (DevOps)",
+    "year": "Y4",
+    "n_skills": 18
+  },
+  {
+    "file": "18_cloud_computing.json",
+    "course_id": 52,
+    "course_code": "GICI51CC",
+    "course_title": "Cloud Computing",
+    "year": "Y5",
+    "n_skills": 18
+  },
+  {
+    "file": "19_introduction_to_artificial_intelligence.json",
+    "course_id": 59,
+    "course_code": "GICI51INA",
+    "course_title": "Introduction to Artificial Intelligence",
+    "year": "Y5",
+    "n_skills": 40
+  },
+  {
+    "file": "20_natural_language_processing.json",
+    "course_id": 51,
+    "course_code": "GICI51TRP",
+    "course_title": "Natural Language Processing",
+    "year": "Y5",
+    "n_skills": 19
+  },
+  {
+    "file": "21_data_mining.json",
+    "course_id": 55,
+    "course_code": "GICI5DM",
+    "course_title": "Data Mining",
+    "year": "Y5",
+    "n_skills": 55
+  },
+  {
+    "file": "22_image_processing.json",
+    "course_id": 47,
+    "course_code": "GICI5IP",
+    "course_title": "Image Processing",
+    "year": "Y5",
+    "n_skills": 41
+  },
+  {
+    "file": "23_information_security.json",
+    "course_id": 56,
+    "course_code": "GICI5IS",
+    "course_title": "Information Security",
+    "year": "Y5",
+    "n_skills": 14
+  },
+  {
+    "file": "24_network_security.json",
+    "course_id": 54,
+    "course_code": "GICI5NS",
+    "course_title": "Network Security",
+    "year": "Y5",
+    "n_skills": 21
+  },
+  {
+    "file": "25_it_project_management.json",
+    "course_id": 50,
+    "course_code": "GICI5PM",
+    "course_title": "IT Project Management",
+    "year": "Y5",
+    "n_skills": 18
+  }
+]

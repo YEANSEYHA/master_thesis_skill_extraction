@@ -1,0 +1,82 @@
+[
+  {
+    "skill": "Object-Oriented Programming (OOP)",
+    "source": "Description"
+  },
+  {
+    "skill": "Java",
+    "source": "Description"
+  },
+  {
+    "skill": "Object-Oriented Analysis and Design",
+    "source": "CLO"
+  },
+  {
+    "skill": "Software Requirements Analysis",
+    "source": "CLO"
+  },
+  {
+    "skill": "Scalable Software Design",
+    "source": "CLO"
+  },
+  {
+    "skill": "Flexible Software Design",
+    "source": "CLO"
+  },
+  {
+    "skill": "Software Application Maintenance",
+    "source": "CLO"
+  },
+  {
+    "skill": "Inheritance",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Polymorphism",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Abstraction",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Encapsulation",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Interfaces",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Exception Handling",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Java Threads",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Classes and Objects",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Constructors",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "File Input and Output (File Processing)",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Access Modifiers",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "ArrayList",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Control Statements",
+    "source": "Lesson Topic"
+  }
+]

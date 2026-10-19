@@ -1,0 +1,200 @@
+{"row": 1, "score": 8, "note": "Machine learning model implementation is a core practical component of artificial intelligence."}
+{"row": 2, "score": 7, "note": "OOP is a core part of C++ programming, but it does not cover the full C++ skill set."}
+{"row": 3, "score": 3, "note": "Java programming is a general foundation but does not specifically teach authentication."}
+{"row": 4, "score": 0, "note": "Modular programming in C++ does not teach Docker or containerization."}
+{"row": 5, "score": 0, "note": "VMware vSphere covers virtualization/system administration, not computer vision."}
+{"row": 6, "score": 0, "note": "Data storage types do not teach customer focus or customer-oriented practices."}
+{"row": 7, "score": 10, "note": "The learning outcome exactly matches the market skill of network security."}
+{"row": 8, "score": 10, "note": "The outcome directly teaches algorithm design, which is central to algorithms."}
+{"row": 9, "score": 0, "note": "Network administration is a technical IT skill, not business administration."}
+{"row": 10, "score": 5, "note": "NIST CSF provides risk management context related to threat modeling but does not specifically teach threat modeling techniques."}
+{"row": 11, "score": 6, "note": "Computer fundamentals provide a foundation for computer science but do not cover the full discipline."}
+{"row": 12, "score": 5, "note": "System configuration and management is related foundation for automation but does not explicitly teach automation itself."}
+{"row": 13, "score": 9, "note": "Exploratory Data Analysis is a core data analysis skill, though it may not cover the full breadth of data analysis."}
+{"row": 14, "score": 2, "note": "Application services management is only indirectly related to operating data warehouse systems and does not teach data warehousing concepts."}
+{"row": 15, "score": 1, "note": "This outcome covers managing system configurations, not project management practices."}
+{"row": 16, "score": 5, "note": "Covers a foundational aspect of data management, but not broader management practices."}
+{"row": 17, "score": 6, "note": "System configuration and management supports maintenance tasks but does not explicitly focus on network maintenance."}
+{"row": 18, "score": 4, "note": "Network service deployment is relevant foundation, but AWS-specific cloud services are not explicitly taught."}
+{"row": 19, "score": 4, "note": "Java programming builds general OOP skills but does not teach Python specifically."}
+{"row": 20, "score": 9, "note": "Java programming directly teaches core programming skills."}
+{"row": 21, "score": 4, "note": "Server administration provides relevant infrastructure foundations but does not specifically teach AWS."}
+{"row": 22, "score": 9, "note": "Ubuntu Server Administration directly teaches practical server management, though focused on Ubuntu."}
+{"row": 23, "score": 3, "note": "General C++ programming may include some relevant concepts but does not specifically teach functional programming."}
+{"row": 24, "score": 5, "note": "The outcome addresses ethical aspects of secure software development, but not general software development practice itself."}
+{"row": 25, "score": 4, "note": "Compiler basics are related to C++ development but do not directly teach C++ programming skills."}
+{"row": 26, "score": 0, "note": "Constructors are an OOP concept and do not address testing."}
+{"row": 27, "score": 4, "note": "EDA can support investigating causes in data but does not directly teach root cause analysis methods."}
+{"row": 28, "score": 4, "note": "Network services management is related to system administration but does not explicitly teach Group Policy."}
+{"row": 29, "score": 10, "note": "The outcome directly teaches programming through Python."}
+{"row": 30, "score": 0, "note": "KNN is a machine learning topic and does not teach vulnerability management."}
+{"row": 31, "score": 4, "note": "Classification algorithms may use optimization internally, but the outcome does not directly teach optimization methods."}
+{"row": 32, "score": 2, "note": "Network protocols provide background knowledge but do not teach full stack development."}
+{"row": 33, "score": 9, "note": "Directly teaches system administration, specifically for Linux/UNIX environments."}
+{"row": 34, "score": 5, "note": "OS setup and configuration is foundational for system integration but does not directly teach integrating multiple systems."}
+{"row": 35, "score": 1, "note": "Modular programming is a coding/design concept, not agile methodology."}
+{"row": 36, "score": 5, "note": "Attack lifecycle knowledge supports threat modeling but does not teach the threat modeling process itself."}
+{"row": 37, "score": 1, "note": "Application services management does not directly cover eliciting or documenting user requirements."}
+{"row": 38, "score": 0, "note": "Network administration does not teach the MVC software architecture pattern."}
+{"row": 39, "score": 7, "note": "Decision trees are a core machine learning method, but this covers only one part of the broader skill."}
+{"row": 40, "score": 3, "note": "VMware vSphere provides virtualization foundations but does not teach Microsoft Azure directly."}
+{"row": 41, "score": 4, "note": "AI fundamentals provide related concepts but do not explicitly teach automation skills."}
+{"row": 42, "score": 3, "note": "Java programming provides general coding foundations but does not teach Rust."}
+{"row": 43, "score": 8, "note": "Network troubleshooting is a core component of network maintenance, though maintenance also includes preventive and ongoing administration tasks."}
+{"row": 44, "score": 0, "note": "User account management does not teach Microsoft Office Suite applications."}
+{"row": 45, "score": 3, "note": "General systems administration is foundational but does not specifically teach AWS."}
+{"row": 46, "score": 6, "note": "Secure software development relates to application security, but the outcome emphasizes ethics rather than technical application security practices."}
+{"row": 47, "score": 5, "note": "Covers SQL-related security concepts but not general SQL querying or database use."}
+{"row": 48, "score": 3, "note": "Secure web application development may reference security standards, but standards are not explicitly taught."}
+{"row": 49, "score": 4, "note": "OOP analysis and design supports software development but does not cover full stack front-end, back-end, database, or deployment skills."}
+{"row": 50, "score": 0, "note": "Network troubleshooting does not teach electronic medical records (EMR) systems."}
+{"row": 51, "score": 2, "note": "Containerization can support consistent testing environments but does not directly teach quality assurance practices."}
+{"row": 52, "score": 2, "note": "Regression models are an AI technique, but the outcome does not directly teach general applications."}
+{"row": 53, "score": 2, "note": "Pandas supports data manipulation but does not teach IBM DB2 database skills."}
+{"row": 54, "score": 10, "note": "The outcome directly teaches C++ programming."}
+{"row": 55, "score": 3, "note": "Data storage types in C++ are only a basic programming foundation and do not teach database systems."}
+{"row": 56, "score": 9, "note": "The outcome directly covers analyzing cyber threats and vulnerabilities, a core part of security analysis."}
+{"row": 57, "score": 7, "note": "Java Swing teaches a Java-based GUI framework, covering part of the broader Java skill."}
+{"row": 58, "score": 5, "note": "Virtualization is related infrastructure knowledge but does not specifically teach Docker or containerization."}
+{"row": 59, "score": 5, "note": "Covers data storage concepts in programming, but not broader storage systems skills."}
+{"row": 60, "score": 2, "note": "Interfaces are a general programming concept and do not teach data science methods or workflows."}
+{"row": 61, "score": 0, "note": "Interfaces in object-oriented programming do not teach Unix skills."}
+{"row": 62, "score": 4, "note": "Infrastructure services management is related to infrastructure operations but does not specifically teach infrastructure as code."}
+{"row": 63, "score": 7, "note": "Logistic regression is a core data analysis modeling technique, but it covers only one part of the broader skill."}
+{"row": 64, "score": 2, "note": "System configuration and management may involve documentation, but it is not explicitly taught."}
+{"row": 65, "score": 6, "note": "Data preparation is a core component of data management but does not cover the broader skill comprehensively."}
+{"row": 66, "score": 4, "note": "AI fundamentals may introduce concepts related to simulation, but the outcome does not explicitly teach simulation skills."}
+{"row": 67, "score": 0, "note": "EDA in an AI course does not teach ITIL service management practices."}
+{"row": 68, "score": 5, "note": "Network fundamentals provide a foundation for network analysis but do not explicitly teach analysis methods."}
+{"row": 69, "score": 5, "note": "Network monitoring is related to network security but does not by itself teach security principles or controls."}
+{"row": 70, "score": 0, "note": "Compiler basics does not address documentation skills."}
+{"row": 71, "score": 10, "note": "Cisco Networking directly teaches core networking skills."}
+{"row": 72, "score": 6, "note": "Covers system configuration and management relevant to Linux administration, but Linux is not explicitly specified."}
+{"row": 73, "score": 5, "note": "K-Means involves an optimization objective, but it does not teach optimization as a general skill."}
+{"row": 74, "score": 2, "note": "Arrays provide basic data handling foundations but do not teach building data pipelines."}
+{"row": 75, "score": 6, "note": "System operations and maintenance is closely related to troubleshooting, but the outcome does not explicitly state diagnosing or resolving faults."}
+{"row": 76, "score": 6, "note": "EDA is closely related to data preparation but does not explicitly cover cleaning, transforming, or structuring data."}
+{"row": 77, "score": 0, "note": "Linear classification in an AI course does not teach Word or word-processing skills."}
+{"row": 78, "score": 3, "note": "Abstraction is a programming foundation that can support automation but does not teach automation itself."}
+{"row": 79, "score": 0, "note": "Server administration is a technical operations skill and does not teach program management."}
+{"row": 80, "score": 0, "note": "C++ data types and operators do not teach IBM DB2 database skills."}
+{"row": 81, "score": 0, "note": "Java packages do not teach Oracle technologies or databases."}
+{"row": 82, "score": 2, "note": "Infrastructure services management may support remote access, but it does not directly teach remote work practices."}
+{"row": 83, "score": 1, "note": "Data storage types may support technical implementation but do not teach product development."}
+{"row": 84, "score": 6, "note": "Virtualization is a core foundation of cloud computing, but it does not by itself cover cloud platforms or services."}
+{"row": 85, "score": 5, "note": "System configuration and management is foundational for DevOps but does not cover DevOps practices like CI/CD or automation explicitly."}
+{"row": 86, "score": 6, "note": "Gradient descent is a core optimization method used in machine learning, but it is only one component of the broader skill."}
+{"row": 87, "score": 7, "note": "Network monitoring is closely related to network analysis but may not cover deeper analytical methods fully."}
+{"row": 88, "score": 1, "note": "Data preparation does not explicitly teach documentation skills."}
+{"row": 89, "score": 0, "note": "Input validation in cybersecurity does not teach the PyTorch machine learning framework."}
+{"row": 90, "score": 5, "note": "Control statements are foundational for JavaScript, but the outcome does not teach JavaScript itself."}
+{"row": 91, "score": 6, "note": "Linux/UNIX administration is a core part of server operations but does not cover broader data center operations."}
+{"row": 92, "score": 1, "note": "Arrays are a basic programming concept but do not teach dashboard creation or design."}
+{"row": 93, "score": 8, "note": "Containerization directly covers the core concepts behind Docker, though Docker itself is not explicitly named."}
+{"row": 94, "score": 5, "note": "OOP analysis and design provides relevant foundations but does not explicitly teach MVC."}
+{"row": 95, "score": 6, "note": "Data preparation is a key foundation for data analysis but does not cover analysis itself."}
+{"row": 96, "score": 7, "note": "OS setup and configuration is a core practical part of working with computer systems, though the skill is broader."}
+{"row": 97, "score": 9, "note": "The outcome directly covers system operations and maintenance, closely matching the operations skill."}
+{"row": 98, "score": 1, "note": "Operating system setup is only tangentially related and does not teach Microsoft Office Suite skills."}
+{"row": 99, "score": 2, "note": "Programming fundamentals provide general coding foundation but do not teach REST APIs specifically."}
+{"row": 100, "score": 7, "note": "OOP analysis and design is a core part of software development, though the outcome does not explicitly cover implementation or full development lifecycle."}
+{"row": 101, "score": 4, "note": "XSS prevention relates to JavaScript security but does not teach JavaScript programming itself."}
+{"row": 102, "score": 10, "note": "The learning outcome directly matches the market skill of containerization."}
+{"row": 103, "score": 7, "note": "EDA commonly includes using visualizations to explore and understand data, but the outcome is broader than data visualization alone."}
+{"row": 104, "score": 8, "note": "Supervised learning is a core machine learning topic, but it does not cover the full breadth of machine learning."}
+{"row": 105, "score": 0, "note": "C++ programming does not teach CISM or information security management."}
+{"row": 106, "score": 1, "note": "Decision trees are an AI/ML technique and do not teach Six Sigma methodology."}
+{"row": 107, "score": 10, "note": "The outcome directly teaches Java programming, matching the Java skill."}
+{"row": 108, "score": 10, "note": "The outcome directly teaches Python programming."}
+{"row": 109, "score": 6, "note": "Linux/UNIX system administration is related and may include performance tuning, but the outcome does not explicitly teach it."}
+{"row": 110, "score": 9, "note": "The outcome directly teaches troubleshooting, specifically in a network context."}
+{"row": 111, "score": 6, "note": "OS setup and configuration is relevant to Linux administration but does not explicitly specify Linux."}
+{"row": 112, "score": 0, "note": "Virtualization does not directly teach Amazon S3 usage or concepts."}
+{"row": 113, "score": 4, "note": "EDA is related to working with data but does not teach ETL pipeline design or loading processes."}
+{"row": 114, "score": 2, "note": "Gradient boosting is a machine learning method but not deep learning."}
+{"row": 115, "score": 5, "note": "C++ programming is a foundational part of computer science but does not cover the broader field."}
+{"row": 116, "score": 4, "note": "Virtualization is foundational to cloud platforms like Azure but does not teach Azure itself."}
+{"row": 117, "score": 3, "note": "C++ programming builds general programming foundations but does not teach Python."}
+{"row": 118, "score": 3, "note": "Java programming is foundational but does not explicitly teach software testing."}
+{"row": 119, "score": 0, "note": "Structured programming does not teach agile methodology or practices."}
+{"row": 120, "score": 6, "note": "Application services management is related to administering web services but does not explicitly teach web services themselves."}
+{"row": 121, "score": 1, "note": "Regression models teach statistical prediction, not systems analysis."}
+{"row": 122, "score": 6, "note": "Model evaluation supports verifying AI model performance but is not general verification."}
+{"row": 123, "score": 10, "note": "The learning outcome directly matches the market skill of data preparation."}
+{"row": 124, "score": 0, "note": "Python programming does not teach the Kerberos authentication protocol."}
+{"row": 125, "score": 4, "note": "Network services deployment is relevant foundation for cloud computing but does not explicitly teach cloud platforms or cloud architecture."}
+{"row": 126, "score": 0, "note": "The outcome focuses on secure software development ethics and does not teach MongoDB."}
+{"row": 127, "score": 0, "note": "Data preparation in an AI course does not teach programmable logic controllers (PLC)."}
+{"row": 128, "score": 4, "note": "Infrastructure services management is related to system administration foundations but does not explicitly teach vulnerability management."}
+{"row": 129, "score": 8, "note": "System operations and maintenance directly develops practical computer systems administration skills."}
+{"row": 130, "score": 1, "note": "Java programming is a general coding skill and does not specifically teach workflows."}
+{"row": 131, "score": 4, "note": "Modular programming supports building prototypes but does not directly teach prototyping."}
+{"row": 132, "score": 7, "note": "Algorithm design teaches a specific technical form of design, but not design broadly."}
+{"row": 133, "score": 2, "note": "Network fundamentals provides general IT foundation but does not teach open source frameworks."}
+{"row": 134, "score": 0, "note": "Console input/output with Scanner does not teach Git or version control."}
+{"row": 135, "score": 0, "note": "Constructors in C++ do not teach verification skills."}
+{"row": 136, "score": 2, "note": "Application services management is operationally related but does not teach project management methods or skills."}
+{"row": 137, "score": 4, "note": "System operations and maintenance is related to managing integrated environments but does not directly teach system integration."}
+{"row": 138, "score": 5, "note": "Covers deployment and operations foundations, but not DevOps practices like CI/CD, automation, or collaboration workflows."}
+{"row": 139, "score": 4, "note": "Virtualization is a related infrastructure foundation, but it does not specifically teach Kubernetes or container orchestration."}
+{"row": 140, "score": 0, "note": "K-Means clustering does not teach load balancing."}
+{"row": 141, "score": 1, "note": "EDA is a data analysis skill and does not teach enterprise applications."}
+{"row": 142, "score": 7, "note": "OOP is a core software development skill but does not cover the full development lifecycle."}
+{"row": 143, "score": 9, "note": "The outcome directly covers artificial intelligence fundamentals, aligning strongly with the AI skill."}
+{"row": 144, "score": 4, "note": "Access control management is security-related but does not cover the broader process of identifying, assessing, and remediating vulnerabilities."}
+{"row": 145, "score": 2, "note": "Network fundamentals can support remote connectivity, but it does not teach hybrid work practices."}
+{"row": 146, "score": 7, "note": "Neural networks and deep learning are key emerging technologies, but the outcome is narrower than the broad skill."}
+{"row": 147, "score": 10, "note": "The outcome directly teaches Linux/UNIX system administration, covering the Linux skill."}
+{"row": 148, "score": 6, "note": "Covers a specific Java language feature but not full Java programming."}
+{"row": 149, "score": 1, "note": "Inheritance is an object-oriented programming concept and does not teach writing or using test cases."}
+{"row": 150, "score": 4, "note": "Operations and maintenance are related to understanding systems but do not directly teach systems analysis."}
+{"row": 151, "score": 5, "note": "System operations and maintenance is related to automation in sysadmin work, but automation is not explicitly taught in the outcome."}
+{"row": 152, "score": 0, "note": "Unsupervised learning does not teach application security."}
+{"row": 153, "score": 10, "note": "The course outcome directly matches and teaches the access control skill."}
+{"row": 154, "score": 2, "note": "Secure data storage is related to cybersecurity but does not directly teach authentication mechanisms."}
+{"row": 155, "score": 2, "note": "General problem-solving in C++ is foundational but does not teach PL/SQL."}
+{"row": 156, "score": 0, "note": "Model evaluation in AI does not teach SolidWorks or CAD modeling skills."}
+{"row": 157, "score": 8, "note": "Secure data storage directly addresses a core part of data security, though not all aspects of the broader skill."}
+{"row": 158, "score": 1, "note": "Using Eclipse IDE is only tangentially related and does not teach code review practices."}
+{"row": 159, "score": 8, "note": "Classification algorithms are a core machine learning topic, but they cover only part of the broader skill."}
+{"row": 160, "score": 5, "note": "Containerization is a foundation for Kubernetes but does not explicitly teach Kubernetes orchestration."}
+{"row": 161, "score": 0, "note": "AI fundamentals do not directly cover distributed systems."}
+{"row": 162, "score": 5, "note": "System operations and maintenance is foundational to DevOps but does not explicitly cover DevOps practices like CI/CD or automation."}
+{"row": 163, "score": 2, "note": "Structured programming provides basic coding foundations but does not teach infrastructure as code."}
+{"row": 164, "score": 5, "note": "OOP is a core computer science topic but does not cover the broader field of computer science."}
+{"row": 165, "score": 4, "note": "System operations and maintenance may involve logs and checks, but auditing is not explicitly taught."}
+{"row": 166, "score": 1, "note": "System configuration and management does not teach Microsoft Office Suite skills directly."}
+{"row": 167, "score": 0, "note": "Encapsulation is an OOP concept and does not teach software containerization."}
+{"row": 168, "score": 10, "note": "The outcome directly covers network protocols, matching the requested skill."}
+{"row": 169, "score": 5, "note": "Overfitting and underfitting prevention supports ML model performance tuning but not general performance tuning as a broad skill."}
+{"row": 170, "score": 0, "note": "Java programming does not indicate teaching SQL."}
+{"row": 171, "score": 0, "note": "Java packages in OOP do not teach Apache Hive or related data warehousing skills."}
+{"row": 172, "score": 4, "note": "Attack-resistant software development may touch secure design practices but does not specifically teach software design patterns."}
+{"row": 173, "score": 2, "note": "C++ class concepts provide minor OOP foundation but do not teach Angular."}
+{"row": 174, "score": 4, "note": "Covers general service deployment and management but not Kubernetes specifically."}
+{"row": 175, "score": 5, "note": "System configuration and management is related to troubleshooting but does not explicitly teach diagnostic or problem-resolution skills."}
+{"row": 176, "score": 8, "note": "Attack-resistant software development directly covers a core area of security engineering, though not the full breadth of the field."}
+{"row": 177, "score": 10, "note": "The outcome directly teaches implementing machine learning models."}
+{"row": 178, "score": 2, "note": "Polymorphism is a core OOP concept, not instruction in emerging technologies."}
+{"row": 179, "score": 0, "note": "The outcome covers object-oriented programming, not agile methods or practices."}
+{"row": 180, "score": 4, "note": "It covers managing IT infrastructure services, but not project management methods or practices directly."}
+{"row": 181, "score": 1, "note": "Compiler basics may support programming understanding but does not teach code review practices."}
+{"row": 182, "score": 2, "note": "EDA builds general analytical skills but does not teach security analysis specifically."}
+{"row": 183, "score": 5, "note": "Network architectures provide foundational knowledge for distributed systems but do not teach distributed systems concepts directly."}
+{"row": 184, "score": 10, "note": "The outcome directly and fully covers object-oriented programming."}
+{"row": 185, "score": 10, "note": "The outcome directly covers VMware vSphere, a core VMware virtualization platform."}
+{"row": 186, "score": 3, "note": "Backup and recovery may involve scheduled jobs, but scheduling is not explicitly taught."}
+{"row": 187, "score": 2, "note": "Python programming is a general coding foundation but does not teach SQL itself."}
+{"row": 188, "score": 7, "note": "Clustering is a core data mining technique, but it covers only part of the broader data mining skill set."}
+{"row": 189, "score": 3, "note": "Java programming provides general programming/OOP foundation but does not teach JavaScript itself."}
+{"row": 190, "score": 3, "note": "Network services deployment is relevant foundation, but Azure is not specifically taught."}
+{"row": 191, "score": 7, "note": "Covers a specific class of algorithms, but not algorithms broadly."}
+{"row": 192, "score": 8, "note": "Network protocols are a core component of networking, though the outcome is narrower than the full skill."}
+{"row": 193, "score": 7, "note": "Secure coding directly supports protecting data but does not cover the full scope of data security."}
+{"row": 194, "score": 6, "note": "Secure data storage is an important component of information assurance but does not cover the full breadth of the skill."}
+{"row": 195, "score": 4, "note": "Modular C++ programming provides general coding foundations but does not directly teach scripting."}
+{"row": 196, "score": 0, "note": "Classification algorithms do not address the professional skill of continuous learning."}
+{"row": 197, "score": 10, "note": "Network Administration directly teaches networking skills."}
+{"row": 198, "score": 10, "note": "The learning outcome directly matches the market skill of system administration."}
+{"row": 199, "score": 2, "note": "Application services management is a technical administration topic, not program management."}
+{"row": 200, "score": 5, "note": "System configuration and management is a foundation for cloud administration but does not explicitly teach cloud computing."}

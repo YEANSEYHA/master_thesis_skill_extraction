@@ -1,0 +1,110 @@
+[
+  {
+    "skill": "Network Protocols",
+    "source": "CLO"
+  },
+  {
+    "skill": "Network Device Configuration",
+    "source": "CLO"
+  },
+  {
+    "skill": "Network Device Management",
+    "source": "CLO"
+  },
+  {
+    "skill": "Network Troubleshooting",
+    "source": "CLO"
+  },
+  {
+    "skill": "Network Infrastructure Design",
+    "source": "CLO"
+  },
+  {
+    "skill": "Network Infrastructure Evaluation",
+    "source": "CLO"
+  },
+  {
+    "skill": "OSI Model",
+    "source": "Description"
+  },
+  {
+    "skill": "TCP/IP Protocol Suite",
+    "source": "Description"
+  },
+  {
+    "skill": "Network Topologies",
+    "source": "Description"
+  },
+  {
+    "skill": "Network Architectures",
+    "source": "Description"
+  },
+  {
+    "skill": "Router Configuration",
+    "source": "Description"
+  },
+  {
+    "skill": "Switch Configuration",
+    "source": "Description"
+  },
+  {
+    "skill": "Hub Configuration",
+    "source": "Description"
+  },
+  {
+    "skill": "Modem Functionality",
+    "source": "Description"
+  },
+  {
+    "skill": "Wireless Access Point (WAP)",
+    "source": "Description"
+  },
+  {
+    "skill": "Firewall Configuration",
+    "source": "Description"
+  },
+  {
+    "skill": "Subnetting",
+    "source": "Description"
+  },
+  {
+    "skill": "IP Addressing",
+    "source": "Description"
+  },
+  {
+    "skill": "LAN",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "WAN",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "PAN",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Network Cabling",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Packet Tracer",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Internet Service Provider (ISP) Selection",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Internet Protocol (IP) Addressing",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Media Access Control (MAC) Address",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Virtual Network Design",
+    "source": "Lesson Topic"
+  }
+]

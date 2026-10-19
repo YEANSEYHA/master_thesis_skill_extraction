@@ -1,0 +1,241 @@
+run_id,cohort,rank,market_skill,job_count,course_name,cosine,is_row_max,cell_status
+20260727T104822Z-475eb3,Y5,1,technical documentation,49,Cloud Computing,0.63,false,gap
+20260727T104822Z-475eb3,Y5,1,technical documentation,49,Introduction To Artificial Intelligence,0.67,false,gap
+20260727T104822Z-475eb3,Y5,1,technical documentation,49,Natural Language Processing,0.66,false,gap
+20260727T104822Z-475eb3,Y5,1,technical documentation,49,Data Mining,0.65,false,gap
+20260727T104822Z-475eb3,Y5,1,technical documentation,49,Image Processing,0.63,false,gap
+20260727T104822Z-475eb3,Y5,1,technical documentation,49,Information Security,0.64,false,gap
+20260727T104822Z-475eb3,Y5,1,technical documentation,49,Network Security,0.67,false,gap
+20260727T104822Z-475eb3,Y5,1,technical documentation,49,It Project Management,0.67,true,gap
+20260727T104822Z-475eb3,Y5,2,database management,42,Cloud Computing,0.62,false,gap
+20260727T104822Z-475eb3,Y5,2,database management,42,Introduction To Artificial Intelligence,0.68,false,gap
+20260727T104822Z-475eb3,Y5,2,database management,42,Natural Language Processing,0.64,false,gap
+20260727T104822Z-475eb3,Y5,2,database management,42,Data Mining,0.91,true,covered
+20260727T104822Z-475eb3,Y5,2,database management,42,Image Processing,0.61,false,gap
+20260727T104822Z-475eb3,Y5,2,database management,42,Information Security,0.63,false,gap
+20260727T104822Z-475eb3,Y5,2,database management,42,Network Security,0.65,false,gap
+20260727T104822Z-475eb3,Y5,2,database management,42,It Project Management,0.65,false,gap
+20260727T104822Z-475eb3,Y5,3,java programming,41,Cloud Computing,0.63,false,gap
+20260727T104822Z-475eb3,Y5,3,java programming,41,Introduction To Artificial Intelligence,0.62,false,gap
+20260727T104822Z-475eb3,Y5,3,java programming,41,Natural Language Processing,0.66,false,gap
+20260727T104822Z-475eb3,Y5,3,java programming,41,Data Mining,0.69,false,borderline
+20260727T104822Z-475eb3,Y5,3,java programming,41,Image Processing,0.74,true,covered
+20260727T104822Z-475eb3,Y5,3,java programming,41,Information Security,0.59,false,gap
+20260727T104822Z-475eb3,Y5,3,java programming,41,Network Security,0.6,false,gap
+20260727T104822Z-475eb3,Y5,3,java programming,41,It Project Management,0.6,false,gap
+20260727T104822Z-475eb3,Y5,4,project management,37,Cloud Computing,0.62,false,gap
+20260727T104822Z-475eb3,Y5,4,project management,37,Introduction To Artificial Intelligence,0.6,false,gap
+20260727T104822Z-475eb3,Y5,4,project management,37,Natural Language Processing,0.61,false,gap
+20260727T104822Z-475eb3,Y5,4,project management,37,Data Mining,0.65,false,gap
+20260727T104822Z-475eb3,Y5,4,project management,37,Image Processing,0.61,false,gap
+20260727T104822Z-475eb3,Y5,4,project management,37,Information Security,0.75,false,covered
+20260727T104822Z-475eb3,Y5,4,project management,37,Network Security,0.7,false,borderline
+20260727T104822Z-475eb3,Y5,4,project management,37,It Project Management,0.87,true,covered
+20260727T104822Z-475eb3,Y5,5,network troubleshooting,35,Cloud Computing,0.63,false,gap
+20260727T104822Z-475eb3,Y5,5,network troubleshooting,35,Introduction To Artificial Intelligence,0.63,false,gap
+20260727T104822Z-475eb3,Y5,5,network troubleshooting,35,Natural Language Processing,0.56,false,gap
+20260727T104822Z-475eb3,Y5,5,network troubleshooting,35,Data Mining,0.62,false,gap
+20260727T104822Z-475eb3,Y5,5,network troubleshooting,35,Image Processing,0.59,false,gap
+20260727T104822Z-475eb3,Y5,5,network troubleshooting,35,Information Security,0.67,false,gap
+20260727T104822Z-475eb3,Y5,5,network troubleshooting,35,Network Security,0.77,true,covered
+20260727T104822Z-475eb3,Y5,5,network troubleshooting,35,It Project Management,0.67,false,gap
+20260727T104822Z-475eb3,Y5,6,system maintenance,34,Cloud Computing,0.67,false,gap
+20260727T104822Z-475eb3,Y5,6,system maintenance,34,Introduction To Artificial Intelligence,0.6,false,gap
+20260727T104822Z-475eb3,Y5,6,system maintenance,34,Natural Language Processing,0.61,false,gap
+20260727T104822Z-475eb3,Y5,6,system maintenance,34,Data Mining,0.65,false,gap
+20260727T104822Z-475eb3,Y5,6,system maintenance,34,Image Processing,0.61,false,gap
+20260727T104822Z-475eb3,Y5,6,system maintenance,34,Information Security,0.71,true,borderline
+20260727T104822Z-475eb3,Y5,6,system maintenance,34,Network Security,0.64,false,gap
+20260727T104822Z-475eb3,Y5,6,system maintenance,34,It Project Management,0.66,false,gap
+20260727T104822Z-475eb3,Y5,7,mysql database,30,Cloud Computing,0.56,false,gap
+20260727T104822Z-475eb3,Y5,7,mysql database,30,Introduction To Artificial Intelligence,0.56,false,gap
+20260727T104822Z-475eb3,Y5,7,mysql database,30,Natural Language Processing,0.56,false,gap
+20260727T104822Z-475eb3,Y5,7,mysql database,30,Data Mining,0.78,true,covered
+20260727T104822Z-475eb3,Y5,7,mysql database,30,Image Processing,0.61,false,gap
+20260727T104822Z-475eb3,Y5,7,mysql database,30,Information Security,0.55,false,gap
+20260727T104822Z-475eb3,Y5,7,mysql database,30,Network Security,0.61,false,gap
+20260727T104822Z-475eb3,Y5,7,mysql database,30,It Project Management,0.53,false,gap
+20260727T104822Z-475eb3,Y5,8,restful api development,28,Cloud Computing,0.68,true,gap
+20260727T104822Z-475eb3,Y5,8,restful api development,28,Introduction To Artificial Intelligence,0.57,false,gap
+20260727T104822Z-475eb3,Y5,8,restful api development,28,Natural Language Processing,0.59,false,gap
+20260727T104822Z-475eb3,Y5,8,restful api development,28,Data Mining,0.6,false,gap
+20260727T104822Z-475eb3,Y5,8,restful api development,28,Image Processing,0.59,false,gap
+20260727T104822Z-475eb3,Y5,8,restful api development,28,Information Security,0.55,false,gap
+20260727T104822Z-475eb3,Y5,8,restful api development,28,Network Security,0.57,false,gap
+20260727T104822Z-475eb3,Y5,8,restful api development,28,It Project Management,0.59,false,gap
+20260727T104822Z-475eb3,Y5,9,postgresql database,27,Cloud Computing,0.56,false,gap
+20260727T104822Z-475eb3,Y5,9,postgresql database,27,Introduction To Artificial Intelligence,0.53,false,gap
+20260727T104822Z-475eb3,Y5,9,postgresql database,27,Natural Language Processing,0.53,false,gap
+20260727T104822Z-475eb3,Y5,9,postgresql database,27,Data Mining,0.72,true,borderline
+20260727T104822Z-475eb3,Y5,9,postgresql database,27,Image Processing,0.59,false,gap
+20260727T104822Z-475eb3,Y5,9,postgresql database,27,Information Security,0.52,false,gap
+20260727T104822Z-475eb3,Y5,9,postgresql database,27,Network Security,0.59,false,gap
+20260727T104822Z-475eb3,Y5,9,postgresql database,27,It Project Management,0.52,false,gap
+20260727T104822Z-475eb3,Y5,10,technical support,27,Cloud Computing,0.59,false,gap
+20260727T104822Z-475eb3,Y5,10,technical support,27,Introduction To Artificial Intelligence,0.62,false,gap
+20260727T104822Z-475eb3,Y5,10,technical support,27,Natural Language Processing,0.58,false,gap
+20260727T104822Z-475eb3,Y5,10,technical support,27,Data Mining,0.61,false,gap
+20260727T104822Z-475eb3,Y5,10,technical support,27,Image Processing,0.58,false,gap
+20260727T104822Z-475eb3,Y5,10,technical support,27,Information Security,0.68,true,gap
+20260727T104822Z-475eb3,Y5,10,technical support,27,Network Security,0.61,false,gap
+20260727T104822Z-475eb3,Y5,10,technical support,27,It Project Management,0.62,false,gap
+20260727T104822Z-475eb3,Y5,11,ci/cd pipelines,26,Cloud Computing,0.67,false,gap
+20260727T104822Z-475eb3,Y5,11,ci/cd pipelines,26,Introduction To Artificial Intelligence,0.69,true,borderline
+20260727T104822Z-475eb3,Y5,11,ci/cd pipelines,26,Natural Language Processing,0.56,false,gap
+20260727T104822Z-475eb3,Y5,11,ci/cd pipelines,26,Data Mining,0.61,false,gap
+20260727T104822Z-475eb3,Y5,11,ci/cd pipelines,26,Image Processing,0.55,false,gap
+20260727T104822Z-475eb3,Y5,11,ci/cd pipelines,26,Information Security,0.61,false,gap
+20260727T104822Z-475eb3,Y5,11,ci/cd pipelines,26,Network Security,0.57,false,gap
+20260727T104822Z-475eb3,Y5,11,ci/cd pipelines,26,It Project Management,0.62,false,gap
+20260727T104822Z-475eb3,Y5,12,docker containerization,24,Cloud Computing,0.89,true,covered
+20260727T104822Z-475eb3,Y5,12,docker containerization,24,Introduction To Artificial Intelligence,0.63,false,gap
+20260727T104822Z-475eb3,Y5,12,docker containerization,24,Natural Language Processing,0.59,false,gap
+20260727T104822Z-475eb3,Y5,12,docker containerization,24,Data Mining,0.58,false,gap
+20260727T104822Z-475eb3,Y5,12,docker containerization,24,Image Processing,0.55,false,gap
+20260727T104822Z-475eb3,Y5,12,docker containerization,24,Information Security,0.54,false,gap
+20260727T104822Z-475eb3,Y5,12,docker containerization,24,Network Security,0.54,false,gap
+20260727T104822Z-475eb3,Y5,12,docker containerization,24,It Project Management,0.56,false,gap
+20260727T104822Z-475eb3,Y5,13,git version control,24,Cloud Computing,0.57,false,gap
+20260727T104822Z-475eb3,Y5,13,git version control,24,Introduction To Artificial Intelligence,0.49,false,gap
+20260727T104822Z-475eb3,Y5,13,git version control,24,Natural Language Processing,0.47,false,gap
+20260727T104822Z-475eb3,Y5,13,git version control,24,Data Mining,0.49,false,gap
+20260727T104822Z-475eb3,Y5,13,git version control,24,Image Processing,0.52,false,gap
+20260727T104822Z-475eb3,Y5,13,git version control,24,Information Security,0.57,false,gap
+20260727T104822Z-475eb3,Y5,13,git version control,24,Network Security,0.56,false,gap
+20260727T104822Z-475eb3,Y5,13,git version control,24,It Project Management,0.64,true,gap
+20260727T104822Z-475eb3,Y5,14,firewall configuration,23,Cloud Computing,0.57,false,gap
+20260727T104822Z-475eb3,Y5,14,firewall configuration,23,Introduction To Artificial Intelligence,0.54,false,gap
+20260727T104822Z-475eb3,Y5,14,firewall configuration,23,Natural Language Processing,0.44,false,gap
+20260727T104822Z-475eb3,Y5,14,firewall configuration,23,Data Mining,0.51,false,gap
+20260727T104822Z-475eb3,Y5,14,firewall configuration,23,Image Processing,0.5,false,gap
+20260727T104822Z-475eb3,Y5,14,firewall configuration,23,Information Security,0.62,false,gap
+20260727T104822Z-475eb3,Y5,14,firewall configuration,23,Network Security,0.83,true,covered
+20260727T104822Z-475eb3,Y5,14,firewall configuration,23,It Project Management,0.52,false,gap
+20260727T104822Z-475eb3,Y5,15,security compliance,23,Cloud Computing,0.69,false,borderline
+20260727T104822Z-475eb3,Y5,15,security compliance,23,Introduction To Artificial Intelligence,0.55,false,gap
+20260727T104822Z-475eb3,Y5,15,security compliance,23,Natural Language Processing,0.53,false,gap
+20260727T104822Z-475eb3,Y5,15,security compliance,23,Data Mining,0.59,false,gap
+20260727T104822Z-475eb3,Y5,15,security compliance,23,Image Processing,0.54,false,gap
+20260727T104822Z-475eb3,Y5,15,security compliance,23,Information Security,1.0,true,covered
+20260727T104822Z-475eb3,Y5,15,security compliance,23,Network Security,0.76,false,covered
+20260727T104822Z-475eb3,Y5,15,security compliance,23,It Project Management,0.64,false,gap
+20260727T104822Z-475eb3,Y5,16,server management,21,Cloud Computing,0.76,true,covered
+20260727T104822Z-475eb3,Y5,16,server management,21,Introduction To Artificial Intelligence,0.6,false,gap
+20260727T104822Z-475eb3,Y5,16,server management,21,Natural Language Processing,0.61,false,gap
+20260727T104822Z-475eb3,Y5,16,server management,21,Data Mining,0.72,false,borderline
+20260727T104822Z-475eb3,Y5,16,server management,21,Image Processing,0.58,false,gap
+20260727T104822Z-475eb3,Y5,16,server management,21,Information Security,0.71,false,borderline
+20260727T104822Z-475eb3,Y5,16,server management,21,Network Security,0.68,false,gap
+20260727T104822Z-475eb3,Y5,16,server management,21,It Project Management,0.7,false,borderline
+20260727T104822Z-475eb3,Y5,17,aws cloud platforms,19,Cloud Computing,0.82,true,covered
+20260727T104822Z-475eb3,Y5,17,aws cloud platforms,19,Introduction To Artificial Intelligence,0.56,false,gap
+20260727T104822Z-475eb3,Y5,17,aws cloud platforms,19,Natural Language Processing,0.52,false,gap
+20260727T104822Z-475eb3,Y5,17,aws cloud platforms,19,Data Mining,0.6,false,gap
+20260727T104822Z-475eb3,Y5,17,aws cloud platforms,19,Image Processing,0.5,false,gap
+20260727T104822Z-475eb3,Y5,17,aws cloud platforms,19,Information Security,0.61,false,gap
+20260727T104822Z-475eb3,Y5,17,aws cloud platforms,19,Network Security,0.68,false,gap
+20260727T104822Z-475eb3,Y5,17,aws cloud platforms,19,It Project Management,0.57,false,gap
+20260727T104822Z-475eb3,Y5,18,incident response,19,Cloud Computing,0.56,false,gap
+20260727T104822Z-475eb3,Y5,18,incident response,19,Introduction To Artificial Intelligence,0.53,false,gap
+20260727T104822Z-475eb3,Y5,18,incident response,19,Natural Language Processing,0.53,false,gap
+20260727T104822Z-475eb3,Y5,18,incident response,19,Data Mining,0.61,false,gap
+20260727T104822Z-475eb3,Y5,18,incident response,19,Image Processing,0.54,false,gap
+20260727T104822Z-475eb3,Y5,18,incident response,19,Information Security,0.62,false,gap
+20260727T104822Z-475eb3,Y5,18,incident response,19,Network Security,0.66,true,gap
+20260727T104822Z-475eb3,Y5,18,incident response,19,It Project Management,0.61,false,gap
+20260727T104822Z-475eb3,Y5,19,security monitoring,19,Cloud Computing,0.7,false,borderline
+20260727T104822Z-475eb3,Y5,19,security monitoring,19,Introduction To Artificial Intelligence,0.63,false,gap
+20260727T104822Z-475eb3,Y5,19,security monitoring,19,Natural Language Processing,0.57,false,gap
+20260727T104822Z-475eb3,Y5,19,security monitoring,19,Data Mining,0.71,false,borderline
+20260727T104822Z-475eb3,Y5,19,security monitoring,19,Image Processing,0.64,false,gap
+20260727T104822Z-475eb3,Y5,19,security monitoring,19,Information Security,0.83,true,covered
+20260727T104822Z-475eb3,Y5,19,security monitoring,19,Network Security,0.78,false,covered
+20260727T104822Z-475eb3,Y5,19,security monitoring,19,It Project Management,0.74,false,covered
+20260727T104822Z-475eb3,Y5,20,api integration,18,Cloud Computing,0.65,true,gap
+20260727T104822Z-475eb3,Y5,20,api integration,18,Introduction To Artificial Intelligence,0.59,false,gap
+20260727T104822Z-475eb3,Y5,20,api integration,18,Natural Language Processing,0.57,false,gap
+20260727T104822Z-475eb3,Y5,20,api integration,18,Data Mining,0.6,false,gap
+20260727T104822Z-475eb3,Y5,20,api integration,18,Image Processing,0.61,false,gap
+20260727T104822Z-475eb3,Y5,20,api integration,18,Information Security,0.54,false,gap
+20260727T104822Z-475eb3,Y5,20,api integration,18,Network Security,0.56,false,gap
+20260727T104822Z-475eb3,Y5,20,api integration,18,It Project Management,0.58,false,gap
+20260727T104822Z-475eb3,Y5,21,code reviews,18,Cloud Computing,0.6,false,gap
+20260727T104822Z-475eb3,Y5,21,code reviews,18,Introduction To Artificial Intelligence,0.64,false,gap
+20260727T104822Z-475eb3,Y5,21,code reviews,18,Natural Language Processing,0.61,false,gap
+20260727T104822Z-475eb3,Y5,21,code reviews,18,Data Mining,0.65,false,gap
+20260727T104822Z-475eb3,Y5,21,code reviews,18,Image Processing,0.67,true,gap
+20260727T104822Z-475eb3,Y5,21,code reviews,18,Information Security,0.59,false,gap
+20260727T104822Z-475eb3,Y5,21,code reviews,18,Network Security,0.6,false,gap
+20260727T104822Z-475eb3,Y5,21,code reviews,18,It Project Management,0.6,false,gap
+20260727T104822Z-475eb3,Y5,22,data analysis,18,Cloud Computing,0.58,false,gap
+20260727T104822Z-475eb3,Y5,22,data analysis,18,Introduction To Artificial Intelligence,0.74,false,covered
+20260727T104822Z-475eb3,Y5,22,data analysis,18,Natural Language Processing,0.66,false,gap
+20260727T104822Z-475eb3,Y5,22,data analysis,18,Data Mining,0.79,true,covered
+20260727T104822Z-475eb3,Y5,22,data analysis,18,Image Processing,0.73,false,covered
+20260727T104822Z-475eb3,Y5,22,data analysis,18,Information Security,0.62,false,gap
+20260727T104822Z-475eb3,Y5,22,data analysis,18,Network Security,0.61,false,gap
+20260727T104822Z-475eb3,Y5,22,data analysis,18,It Project Management,0.64,false,gap
+20260727T104822Z-475eb3,Y5,23,it infrastructure management,18,Cloud Computing,0.75,true,covered
+20260727T104822Z-475eb3,Y5,23,it infrastructure management,18,Introduction To Artificial Intelligence,0.59,false,gap
+20260727T104822Z-475eb3,Y5,23,it infrastructure management,18,Natural Language Processing,0.58,false,gap
+20260727T104822Z-475eb3,Y5,23,it infrastructure management,18,Data Mining,0.65,false,gap
+20260727T104822Z-475eb3,Y5,23,it infrastructure management,18,Image Processing,0.56,false,gap
+20260727T104822Z-475eb3,Y5,23,it infrastructure management,18,Information Security,0.73,false,covered
+20260727T104822Z-475eb3,Y5,23,it infrastructure management,18,Network Security,0.7,false,borderline
+20260727T104822Z-475eb3,Y5,23,it infrastructure management,18,It Project Management,0.73,false,covered
+20260727T104822Z-475eb3,Y5,24,microsoft office proficiency,18,Cloud Computing,0.56,false,gap
+20260727T104822Z-475eb3,Y5,24,microsoft office proficiency,18,Introduction To Artificial Intelligence,0.57,false,gap
+20260727T104822Z-475eb3,Y5,24,microsoft office proficiency,18,Natural Language Processing,0.61,false,gap
+20260727T104822Z-475eb3,Y5,24,microsoft office proficiency,18,Data Mining,0.61,true,gap
+20260727T104822Z-475eb3,Y5,24,microsoft office proficiency,18,Image Processing,0.55,false,gap
+20260727T104822Z-475eb3,Y5,24,microsoft office proficiency,18,Information Security,0.59,false,gap
+20260727T104822Z-475eb3,Y5,24,microsoft office proficiency,18,Network Security,0.58,false,gap
+20260727T104822Z-475eb3,Y5,24,microsoft office proficiency,18,It Project Management,0.57,false,gap
+20260727T104822Z-475eb3,Y5,25,software development,18,Cloud Computing,0.71,true,borderline
+20260727T104822Z-475eb3,Y5,25,software development,18,Introduction To Artificial Intelligence,0.61,false,gap
+20260727T104822Z-475eb3,Y5,25,software development,18,Natural Language Processing,0.59,false,gap
+20260727T104822Z-475eb3,Y5,25,software development,18,Data Mining,0.63,false,gap
+20260727T104822Z-475eb3,Y5,25,software development,18,Image Processing,0.65,false,gap
+20260727T104822Z-475eb3,Y5,25,software development,18,Information Security,0.62,false,gap
+20260727T104822Z-475eb3,Y5,25,software development,18,Network Security,0.61,false,gap
+20260727T104822Z-475eb3,Y5,25,software development,18,It Project Management,0.68,false,gap
+20260727T104822Z-475eb3,Y5,26,system integration,18,Cloud Computing,0.7,false,borderline
+20260727T104822Z-475eb3,Y5,26,system integration,18,Introduction To Artificial Intelligence,0.61,false,gap
+20260727T104822Z-475eb3,Y5,26,system integration,18,Natural Language Processing,0.62,false,gap
+20260727T104822Z-475eb3,Y5,26,system integration,18,Data Mining,0.66,false,gap
+20260727T104822Z-475eb3,Y5,26,system integration,18,Image Processing,0.59,false,gap
+20260727T104822Z-475eb3,Y5,26,system integration,18,Information Security,0.71,true,borderline
+20260727T104822Z-475eb3,Y5,26,system integration,18,Network Security,0.67,false,gap
+20260727T104822Z-475eb3,Y5,26,system integration,18,It Project Management,0.67,false,gap
+20260727T104822Z-475eb3,Y5,27,vmware virtualization,18,Cloud Computing,0.89,true,covered
+20260727T104822Z-475eb3,Y5,27,vmware virtualization,18,Introduction To Artificial Intelligence,0.61,false,gap
+20260727T104822Z-475eb3,Y5,27,vmware virtualization,18,Natural Language Processing,0.54,false,gap
+20260727T104822Z-475eb3,Y5,27,vmware virtualization,18,Data Mining,0.61,false,gap
+20260727T104822Z-475eb3,Y5,27,vmware virtualization,18,Image Processing,0.54,false,gap
+20260727T104822Z-475eb3,Y5,27,vmware virtualization,18,Information Security,0.64,false,gap
+20260727T104822Z-475eb3,Y5,27,vmware virtualization,18,Network Security,0.67,false,gap
+20260727T104822Z-475eb3,Y5,27,vmware virtualization,18,It Project Management,0.61,false,gap
+20260727T104822Z-475eb3,Y5,28,performance tuning,17,Cloud Computing,0.72,false,borderline
+20260727T104822Z-475eb3,Y5,28,performance tuning,17,Introduction To Artificial Intelligence,0.74,true,covered
+20260727T104822Z-475eb3,Y5,28,performance tuning,17,Natural Language Processing,0.63,false,gap
+20260727T104822Z-475eb3,Y5,28,performance tuning,17,Data Mining,0.7,false,borderline
+20260727T104822Z-475eb3,Y5,28,performance tuning,17,Image Processing,0.67,false,gap
+20260727T104822Z-475eb3,Y5,28,performance tuning,17,Information Security,0.62,false,gap
+20260727T104822Z-475eb3,Y5,28,performance tuning,17,Network Security,0.6,false,gap
+20260727T104822Z-475eb3,Y5,28,performance tuning,17,It Project Management,0.69,false,borderline
+20260727T104822Z-475eb3,Y5,29,disaster recovery planning,16,Cloud Computing,0.61,false,gap
+20260727T104822Z-475eb3,Y5,29,disaster recovery planning,16,Introduction To Artificial Intelligence,0.59,false,gap
+20260727T104822Z-475eb3,Y5,29,disaster recovery planning,16,Natural Language Processing,0.59,false,gap
+20260727T104822Z-475eb3,Y5,29,disaster recovery planning,16,Data Mining,0.6,false,gap
+20260727T104822Z-475eb3,Y5,29,disaster recovery planning,16,Image Processing,0.55,false,gap
+20260727T104822Z-475eb3,Y5,29,disaster recovery planning,16,Information Security,0.65,false,gap
+20260727T104822Z-475eb3,Y5,29,disaster recovery planning,16,Network Security,1.0,true,covered
+20260727T104822Z-475eb3,Y5,29,disaster recovery planning,16,It Project Management,0.65,false,gap
+20260727T104822Z-475eb3,Y5,30,network administration,16,Cloud Computing,0.66,false,gap
+20260727T104822Z-475eb3,Y5,30,network administration,16,Introduction To Artificial Intelligence,0.54,false,gap
+20260727T104822Z-475eb3,Y5,30,network administration,16,Natural Language Processing,0.54,false,gap
+20260727T104822Z-475eb3,Y5,30,network administration,16,Data Mining,0.57,false,gap
+20260727T104822Z-475eb3,Y5,30,network administration,16,Image Processing,0.54,false,gap
+20260727T104822Z-475eb3,Y5,30,network administration,16,Information Security,0.66,false,gap
+20260727T104822Z-475eb3,Y5,30,network administration,16,Network Security,0.75,true,covered
+20260727T104822Z-475eb3,Y5,30,network administration,16,It Project Management,0.61,false,gap

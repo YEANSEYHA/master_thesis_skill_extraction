@@ -1,0 +1,271 @@
+{
+ "generated_by": "05_evaluation/annotation/rater_profile.py",
+ "sheet_hash": "78dfd3fe9b637a36fa0f8afe6f1d2ef567aca85e6c6f9a30fe90d15af579a169",
+ "exported_at": "2026-07-30T06:47:13.722Z",
+ "inclusion": "all raters who completed all 250 pairs (EVALUATION_RESULTS.md, ADOPTED)",
+ "profile": [
+  {
+   "code": "R01",
+   "role": "student",
+   "familiarity": "general",
+   "pairs": 250,
+   "median_rt_s": 4.15,
+   "anchor_rho_loo": 0.704,
+   "mean_score": 7.13,
+   "gate_rt": true,
+   "gate_rho": true
+  },
+  {
+   "code": "R02",
+   "role": "student",
+   "familiarity": "studied",
+   "pairs": 250,
+   "median_rt_s": 8.27,
+   "anchor_rho_loo": 0.909,
+   "mean_score": 6.18,
+   "gate_rt": true,
+   "gate_rho": true
+  },
+  {
+   "code": "R03",
+   "role": "student",
+   "familiarity": "studied",
+   "pairs": 250,
+   "median_rt_s": 1.96,
+   "anchor_rho_loo": 0.837,
+   "mean_score": 2.66,
+   "gate_rt": false,
+   "gate_rho": true
+  },
+  {
+   "code": "R04",
+   "role": "assistant",
+   "familiarity": "studied",
+   "pairs": 250,
+   "median_rt_s": 5.17,
+   "anchor_rho_loo": 0.313,
+   "mean_score": 4.3,
+   "gate_rt": true,
+   "gate_rho": true
+  },
+  {
+   "code": "R06",
+   "role": "student",
+   "familiarity": "general",
+   "pairs": 250,
+   "median_rt_s": 10.71,
+   "anchor_rho_loo": 0.9,
+   "mean_score": 5.94,
+   "gate_rt": true,
+   "gate_rho": true
+  },
+  {
+   "code": "R07",
+   "role": "student",
+   "familiarity": "studied",
+   "pairs": 250,
+   "median_rt_s": 3.9,
+   "anchor_rho_loo": 0.72,
+   "mean_score": 5.46,
+   "gate_rt": true,
+   "gate_rho": true
+  },
+  {
+   "code": "R09",
+   "role": "student",
+   "familiarity": "studied",
+   "pairs": 250,
+   "median_rt_s": 4.69,
+   "anchor_rho_loo": 0.462,
+   "mean_score": 5.73,
+   "gate_rt": true,
+   "gate_rho": true
+  },
+  {
+   "code": "R11",
+   "role": "student",
+   "familiarity": "studied",
+   "pairs": 250,
+   "median_rt_s": 4.87,
+   "anchor_rho_loo": 0.842,
+   "mean_score": 3.06,
+   "gate_rt": true,
+   "gate_rho": true
+  },
+  {
+   "code": "R12",
+   "role": "student",
+   "familiarity": "general",
+   "pairs": 250,
+   "median_rt_s": 2.0,
+   "anchor_rho_loo": 0.862,
+   "mean_score": 6.82,
+   "gate_rt": true,
+   "gate_rho": true
+  },
+  {
+   "code": "R13",
+   "role": "student",
+   "familiarity": "general",
+   "pairs": 250,
+   "median_rt_s": 2.15,
+   "anchor_rho_loo": 0.376,
+   "mean_score": 9.66,
+   "gate_rt": true,
+   "gate_rho": true
+  }
+ ],
+ "excluded_accounts": [
+  {
+   "code": "R05",
+   "role": "student",
+   "familiarity": "general",
+   "pairs": 1
+  },
+  {
+   "code": "R08",
+   "role": "lecturer",
+   "familiarity": "teach",
+   "pairs": 25
+  },
+  {
+   "code": "R10",
+   "role": "lecturer",
+   "familiarity": "teach",
+   "pairs": 1
+  }
+ ],
+ "composition": {
+  "complete": 10,
+  "by_role": {
+   "lecturer": 0,
+   "assistant": 1,
+   "student": 9,
+   "industry": 0
+  },
+  "by_familiarity": {
+   "teach": 0,
+   "studied": 6,
+   "general": 4,
+   "none": 0
+  },
+  "prereg_rule5_lecturer_weighting_triggered": false
+ },
+ "subgroups": {
+  "all": {
+   "k": 10,
+   "icc_2k": 0.77,
+   "icc_2_1": 0.251,
+   "mean_mos": 5.69,
+   "fits": {
+    "addresses": {
+     "n_positive": 160,
+     "t_star": 0.6884,
+     "youden_j": 0.433,
+     "auc": 0.809,
+     "ci95": [
+      0.6626,
+      0.7368
+     ],
+     "adopted": 0.6903,
+     "adopted_inside_ci": true
+    },
+    "teaches": {
+     "n_positive": 59,
+     "t_star": 0.7557,
+     "youden_j": 0.522,
+     "auc": 0.82,
+     "ci95": [
+      0.6977,
+      0.8243
+     ],
+     "adopted": 0.7368,
+     "adopted_inside_ci": true
+    }
+   }
+  },
+  "studied": {
+   "k": 6,
+   "icc_2k": 0.751,
+   "icc_2_1": 0.334,
+   "mean_mos": 4.56,
+   "fits": {
+    "addresses": {
+     "n_positive": 97,
+     "t_star": 0.7368,
+     "youden_j": 0.442,
+     "auc": 0.8,
+     "ci95": [
+      0.6755,
+      0.7664
+     ],
+     "adopted": 0.6903,
+     "adopted_inside_ci": true
+    },
+    "teaches": {
+     "n_positive": 41,
+     "t_star": 0.7557,
+     "youden_j": 0.632,
+     "auc": 0.888,
+     "ci95": [
+      0.7019,
+      0.8259
+     ],
+     "adopted": 0.7368,
+     "adopted_inside_ci": true
+    }
+   }
+  },
+  "general": {
+   "k": 4,
+   "icc_2k": 0.547,
+   "icc_2_1": 0.232,
+   "mean_mos": 7.39,
+   "fits": {
+    "addresses": {
+     "n_positive": 233,
+     "t_star": 0.6547,
+     "youden_j": 0.885,
+     "auc": 0.975,
+     "ci95": [
+      0.6018,
+      0.6686
+     ],
+     "adopted": 0.6903,
+     "adopted_inside_ci": false
+    },
+    "teaches": {
+     "n_positive": 173,
+     "t_star": 0.6892,
+     "youden_j": 0.487,
+     "auc": 0.823,
+     "ci95": [
+      0.6577,
+      0.719
+     ],
+     "adopted": 0.7368,
+     "adopted_inside_ci": false
+    }
+   }
+  }
+ },
+ "subgroup_agreement": {
+  "spearman_mos_studied_vs_general": 0.78,
+  "pearson_mos_studied_vs_general": 0.773,
+  "spearman_mos_studied_vs_all": 0.974,
+  "spearman_mos_general_vs_all": 0.893,
+  "mean_abs_diff_studied_general": 2.82,
+  "label_agreement_addresses": {
+   "raw": 0.456,
+   "kappa": 0.088,
+   "n_pos_studied": 97,
+   "n_pos_general": 233
+  },
+  "label_agreement_teaches": {
+   "raw": 0.472,
+   "kappa": 0.161,
+   "n_pos_studied": 41,
+   "n_pos_general": 173
+  }
+ }
+}

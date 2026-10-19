@@ -1,0 +1,7 @@
+gold: 12 members (keep) + 16 impostors (reject)
+
+model          imp-recall  mem-keep     F1   secs
+-------------------------------------------------
+qwen3:14b            88%      100%   0.93    7.2
+qwen3:8b             81%      100%   0.90    5.2
+llama3.1:8b         100%      100%   1.00    5.3

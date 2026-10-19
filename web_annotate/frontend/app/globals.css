@@ -1,0 +1,543 @@
+/* ITC curriculum-alignment rating study — a research instrument, so the
+   design goal is legibility and calm over 250 repetitions, not decoration.
+
+   One committed theme, flat white: every resting surface is #fff and
+   structure is carried entirely by borders, not by a ramp of greys or by
+   shadow. That costs the usual depth cue, so the two border tokens do real
+   work — --rule for passive dividers, --rule-strong for anything you can
+   click or type into. Hover lifts by a hair (--lift) purely as feedback.
+
+   Text is near-black rather than #000, which is softer to read across 250
+   repetitions on a bright field. */
+
+:root {
+  --paper: #ffffff; /* page */
+  --panel: #ffffff; /* cards, pair halves */
+  --panel-2: #ffffff; /* buttons, tags, kbd */
+  --lift: #f4f4f6; /* hover only — never a resting surface */
+
+  --ink: #16181c; /* headings, terms, answers */
+  --ink-2: #4c515a; /* body, glosses      ~8.3:1 */
+  --ink-3: #6c7078; /* labels, fine print ~5.1:1 */
+
+  --rule: #e3e3e8; /* passive dividers */
+  --rule-strong: #bcbfc6; /* input + control edges */
+
+  --accent: #12704f; /* dark enough to carry white text */
+  --accent-ink: #ffffff;
+  --accent-dim: #bfe8d6;
+
+  --amber: #8a5a09;
+  --amber-bg: #fdf3e2;
+  --danger: #b3261e;
+
+  --zero: #eeeef0; /* the 0 end of the score ramp */
+  --shadow: none;
+
+  --sans: ui-sans-serif, -apple-system, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+  --serif: ui-serif, "Iowan Old Style", "Palatino Linotype", Palatino, Georgia,
+    serif;
+  --mono: ui-monospace, Menlo, "SF Mono", Consolas, monospace;
+
+  --w: 46rem;
+  color-scheme: light;
+  accent-color: var(--accent);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--paper);
+}
+
+body {
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 17px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+::selection {
+  background: var(--accent-dim);
+  color: var(--ink);
+}
+
+::placeholder {
+  color: var(--ink-3);
+  opacity: 1;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+/* ------------------------------------------------------------- structure */
+
+.shell {
+  max-width: var(--w);
+  margin: 0 auto;
+  padding: 0 1.25rem 4rem;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.stack-sm {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.spread {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.center {
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+  padding: 2rem 1.25rem;
+}
+
+/* the card is the same colour as the page, so its border is the only thing
+   that makes it a card */
+.card {
+  background: var(--panel);
+  border: 1px solid var(--rule-strong);
+  border-radius: 6px;
+  padding: 1.6rem;
+  box-shadow: var(--shadow);
+}
+
+/* ---------------------------------------------------------------- typography */
+
+h1 {
+  font-family: var(--serif);
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  margin: 0;
+  text-wrap: balance;
+}
+
+h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  max-width: 62ch;
+}
+
+.eyebrow {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+
+.muted {
+  color: var(--ink-2);
+  font-size: 0.95rem;
+}
+
+.fine {
+  color: var(--ink-3);
+  font-size: 0.85rem;
+}
+
+kbd {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  border: 1px solid var(--rule-strong);
+  border-bottom-width: 2px;
+  border-radius: 4px;
+  padding: 0.08rem 0.35rem;
+  background: var(--panel-2);
+  color: var(--ink-2);
+}
+
+/* -------------------------------------------------------------- controls */
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.field > label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  background: var(--paper);
+  border: 1px solid var(--rule-strong);
+  border-radius: 4px;
+  padding: 0.7rem 0.8rem;
+  transition: border-color 0.12s ease;
+}
+
+input[type="text"]:hover,
+textarea:hover {
+  border-color: var(--ink-3);
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  border-color: var(--accent);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(18, 112, 79, 0.16);
+}
+
+input[type="checkbox"] {
+  width: 1.05rem;
+  height: 1.05rem;
+  accent-color: var(--accent);
+  cursor: pointer;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 3rem;
+}
+
+.btn {
+  border: 1px solid var(--rule-strong);
+  background: var(--panel-2);
+  color: var(--ink);
+  border-radius: 4px;
+  padding: 0.62rem 1.1rem;
+  min-height: 2.75rem;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background 0.12s ease, border-color 0.12s ease;
+}
+
+.btn:hover:not(:disabled) {
+  background: var(--lift);
+  border-color: var(--ink-3);
+}
+
+.btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.btn-primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-ink);
+  font-weight: 700;
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: #0d5b40;
+  border-color: #0d5b40;
+}
+
+.choice {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  text-align: left;
+  border: 1px solid var(--rule-strong);
+  background: var(--panel);
+  color: var(--ink);
+  border-radius: 4px;
+  padding: 0.75rem 0.95rem;
+  cursor: pointer;
+  transition: border-color 0.12s ease, background 0.12s ease;
+}
+
+.choice:hover {
+  background: var(--lift);
+  border-color: var(--ink-3);
+}
+
+.choice[aria-pressed="true"] {
+  border-color: var(--accent);
+  background: color-mix(in oklab, var(--accent) 18%, var(--panel));
+}
+
+.error {
+  color: var(--danger);
+  font-size: 0.9rem;
+}
+
+/* Session actions (sign out, start over). Deliberately quiet: they sit above
+   the rating flow all session and must never compete with the score buttons. */
+.linkish {
+  border: 0;
+  background: none;
+  padding: 0;
+  font-size: 0.85rem;
+  color: var(--ink-3);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
+.linkish:hover:not(:disabled) {
+  color: var(--ink);
+}
+
+.linkish:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  text-decoration: none;
+}
+
+.linkish.danger {
+  color: var(--danger);
+  font-weight: 600;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+/* ------------------------------------------------------------------ pair */
+
+.progress {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background: color-mix(in oklab, var(--paper) 92%, transparent);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--rule);
+  padding: 0.75rem 0;
+  margin-bottom: 1.5rem;
+}
+
+.bar {
+  height: 5px;
+  background: var(--rule-strong); /* the unfilled track has to read against
+                                     white, so it uses the heavier border */
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.bar > i {
+  display: block;
+  height: 100%;
+  background: var(--accent);
+  transition: width 0.25s ease;
+}
+
+.pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: var(--rule);
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.pair > div {
+  background: var(--panel);
+  padding: 1.25rem 1.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.term {
+  font-family: var(--serif);
+  font-size: 1.45rem;
+  line-height: 1.3;
+  font-weight: 600;
+  color: var(--ink);
+  text-wrap: balance;
+}
+
+.gloss {
+  color: var(--ink-2);
+  font-size: 0.9rem;
+}
+
+.tag {
+  align-self: flex-start;
+  font-size: 0.75rem;
+  font-family: var(--mono);
+  color: var(--ink-2);
+  background: var(--panel-2);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  padding: 0.1rem 0.4rem;
+}
+
+.ask {
+  font-size: 1rem;
+  text-align: center;
+  color: var(--ink-2);
+  padding: 0.2rem 0;
+}
+
+/* ----------------------------------------------------------------- scale */
+
+.scale {
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  gap: 0.35rem;
+}
+
+.scale > button {
+  position: relative; /* anchors the selected tick */
+  aspect-ratio: 1 / 1;
+  min-height: 2.75rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: 4px;
+  background: var(--tone);
+  color: var(--tone-ink);
+  /* >=18.66px bold, so WCAG large-text (3:1) applies — the mid-ramp tones
+     sit near 4.3:1 against either ink and would otherwise be marginal */
+  font-size: 1.15rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  cursor: pointer;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.scale > button:hover {
+  transform: translateY(-2px);
+  border-color: var(--ink-3);
+}
+
+/* the chosen number has to be unmistakable at a glance — a ring alone reads
+   as a hover on a ramp this smooth, so it also lifts and gets a tick */
+.scale > button[aria-pressed="true"] {
+  box-shadow: 0 0 0 3px var(--ink);
+  border-color: var(--ink);
+  font-weight: 800;
+  transform: translateY(-3px);
+}
+
+.scale > button[aria-pressed="true"]::after {
+  content: "✓";
+  position: absolute;
+  top: 3px;
+  right: 5px;
+  font-size: 0.6rem;
+  line-height: 1;
+  opacity: 0.8;
+}
+
+/* -------------------------------------------------------- answer read-back */
+
+.answer {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  min-height: 3.6rem;
+  padding: 0.6rem 0.85rem;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  font-size: 0.98rem;
+}
+
+.answer-set {
+  border-color: var(--accent);
+  background: color-mix(in oklab, var(--accent) 7%, var(--panel));
+}
+
+.answer-badge {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: 5px;
+  background: var(--tone);
+  color: var(--tone-ink);
+  font-size: 1.2rem;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+}
+
+.answer > .saved {
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+.legend {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 0.82rem;
+  color: var(--ink-2);
+}
+
+.legend > :nth-child(2) {
+  text-align: center;
+}
+
+.legend > :nth-child(3) {
+  text-align: right;
+}
+
+.saved {
+  font-size: 0.85rem;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+@media (max-width: 34rem) {
+  .pair {
+    grid-template-columns: 1fr;
+  }
+
+  .scale {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .term {
+    font-size: 1.25rem;
+  }
+}

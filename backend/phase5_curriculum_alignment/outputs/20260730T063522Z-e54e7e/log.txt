@@ -1,0 +1,14 @@
+run 20260730T063522Z-e54e7e  config e54e7e input a7c8b2
+Loading model 'BAAI/bge-base-en-v1.5' + market (cached) ...
+  (market loaded from cache)
+Curriculum: 25 courses, 590 CLO skills
+Host verification: 30 skills x 3 CLOs, inline (BAAI/bge-reranker-v2-m3)
+written report_data.cambodia.js: covered 25/30, demand-weighted 85.3%, KL=0.3689
+written preview_data.cambodia.js: 5 preview jobs, 25 courses, job_total=4876
+
+SELECTION (greedy facility-location, stop at 80% of achievable gain): add 4/5 gaps
+  ADD  technical support        closes  1.9% KL->0.3669 covered->26 [content_exists -> extend: Extend Systems And Networks Administration with explicit technical support content]
+  ADD  microsoft office proficiency closes  1.9% KL->0.3649 covered->27 [none -> new_content: Add new microsoft office proficiency content]
+  ADD  postgresql database      closes  1.2% KL->0.3623 covered->28 [foundation -> add_module: Add postgresql database content building on Data Mining]
+  ADD  code reviews             closes  1.0% KL->0.3605 covered->29 [none -> new_content: Add new code reviews content]
+  skip incident response        closes  0.9% KL->0.3588 covered->30 [foundation -> add_module: Add incident response content building on Software Development And It Operations Devops]

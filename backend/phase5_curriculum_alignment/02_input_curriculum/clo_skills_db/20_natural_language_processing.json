@@ -1,0 +1,78 @@
+[
+  {
+    "skill": "Text Processing",
+    "source": "Description"
+  },
+  {
+    "skill": "Tokenization",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Lemmatization",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Stemming",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Regular Expressions",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "String Comparison",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "N-Gram Language Models",
+    "source": "Description"
+  },
+  {
+    "skill": "Language Model Evaluation",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Zero-Probability Handling for N-Grams",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Text Classification",
+    "source": "Description"
+  },
+  {
+    "skill": "Naive Bayes Classifier",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Text Feature Extraction",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Lexical Semantics",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Vector Semantics",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Word Similarity Measurement",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "TF-IDF",
+    "source": "Description"
+  },
+  {
+    "skill": "Pointwise Mutual Information (PMI)",
+    "source": "Description"
+  },
+  {
+    "skill": "Word Embeddings",
+    "source": "Description"
+  },
+  {
+    "skill": "Co-Occurrence Matrix",
+    "source": "Lesson Topic"
+  }
+]

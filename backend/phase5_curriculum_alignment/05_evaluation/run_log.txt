@@ -1,0 +1,55 @@
+
+##### encoder: all-MiniLM-L6-v2
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 7797.23it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+  (market loaded from cache)
+
+##### encoder: BAAI/bge-base-en-v1.5
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 6725.27it/s]
+[1mBertModel LOAD REPORT[0m from: BAAI/bge-base-en-v1.5
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+
+=== STABILITY TABLE (baseline vs challenger) ===
+top-25 demanded-skill overlap : 88%
+coverage Spearman rho (shared)  : 0.901
+same best-matching CLO          : 55%
+top-5 gap ranking baseline      : ['sql', 'agile', 'aws', 'project management', 'software development']
+top-5 gap ranking challenger    : ['sql', 'software development', 'agile', 'aws', 'project management']
+KL baseline=0.6959  challenger=0.6952 (not directly comparable — different score scales)
+
+skill                       MiniLM     bge  same best CLO?
+python                        0.91    0.92  yes
+c++                           0.90    0.87  yes
+java                          0.89    0.87  yes
+machine learning              0.76    0.85  NO
+linux                         0.67    0.76  yes
+troubleshooting               0.66    0.87  yes
+computer science              0.62    0.73  yes
+software development          0.59    0.70  NO
+data analysis                 0.58    0.79  yes
+docker                        0.58    0.77  yes
+project management            0.47    0.68  NO
+cloud computing               0.47    0.74  NO
+documentation                 0.44    0.69  NO
+sql                           0.43    0.69  yes
+javascript                    0.39    0.70  yes
+kubernetes                    0.39    0.73  NO
+devops                        0.39    0.66  NO
+agile                         0.39    0.67  yes
+aws                           0.38    0.64  NO
+azure                         0.37    0.69  yes
+microsoft office suite        0.34    0.62  NO
+testing                       0.33    0.67  NO
+
+written encoder_comparison.json

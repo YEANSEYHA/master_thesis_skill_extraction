@@ -1,0 +1,186 @@
+[
+  {
+    "url": "https://seek.com",
+    "domain": "seek.com",
+    "name": "SEEK Employer Malaysia: #1 for Hiring & Recruitment",
+    "snippet": "Discover SEEK Employer, the best talent sourcing partner & job recruitment site in Malaysia. Let us help you hire the right talent!",
+    "found_in_queries": 2,
+    "country": "malaysia",
+    "final_url": "https://www.seek.com.au/?tracking=CLP-WEB-SeekLandingPage",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.93,
+      "site_type": "job_portal",
+      "reason": "The HTML clearly indicates SEEK is a job portal (jobs/employment marketplace with job search functionality), but it is specifically SEEK Australia (seek.com.au) and primarily serves Australia, not Malaysia as required.",
+      "features_found": [
+        "Title/description indicate jobs, employment, career and recruitment site",
+        "SearchAction schema for job search (https://www.seek.com.au/{search_term_string}-jobs)",
+        "Page/script references to /jobs and search UI assets"
+      ]
+    }
+  },
+  {
+    "url": "https://scribd.com",
+    "domain": "scribd.com",
+    "name": "Laman Web Cari Kerja di Malaysia | PDF",
+    "snippet": "This document lists numerous websites that can be used to search for job openings in Malaysia. It provides over 30 links to popular job search sites such as ...",
+    "found_in_queries": 2,
+    "country": "malaysia",
+    "final_url": "https://www.scribd.com/",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.98,
+      "site_type": "not_job_site",
+      "reason": "The HTML identifies Scribd as a document/library subscription platform ('Home to the world\u2019s documents') and contains privacy/analytics/payment scripts but no job listings, job search, employer posting, or job-seeker features. It also does not primarily target Malaysia job seekers.",
+      "features_found": []
+    }
+  },
+  {
+    "url": "https://www.jobslah.com",
+    "domain": "jobslah.com",
+    "name": "Jobs in Malaysia | MY Job Vacancies",
+    "snippet": "We are a Malaysia-focused job board where employers can post job openings and job seekers can search for opportunities within Malaysia. Jobs Lah does not ...",
+    "found_in_queries": 1,
+    "country": "malaysia",
+    "final_url": "https://www.jobslah.com",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.72,
+      "site_type": "not_job_site",
+      "reason": "The HTML is primarily a JavaScript app shell (app-root) with tracking/analytics and no visible job listings, search UI, employer/jobseeker features, or Malaysia-specific targeting in the provided content. Also the author is listed as 'SG JOBS LAH PTE. LTD.' suggesting a Singapore-based service rather than primarily Malaysia.",
+      "features_found": [
+        "SPA shell (Angular app-root) with no rendered job content in HTML",
+        "No job listings/titles/companies/salaries/apply buttons in provided HTML",
+        "No job search bar/filters in provided HTML",
+        "No employer section (post a job/employer login) in provided HTML",
+        "No jobseeker features (CV upload/job alerts) in provided HTML",
+        "Author indicates Singapore entity (SG JOBS LAH PTE. LTD.)"
+      ]
+    }
+  },
+  {
+    "url": "https://y-axis.com",
+    "domain": "y-axis.com",
+    "name": "What are the top job portals to find jobs in Malaysia?",
+    "snippet": "JobStreet Malaysia: The most popular portal with thousands of verified job listings. \u00b7 LinkedIn: Great for professional networking and finding direct company job ...",
+    "found_in_queries": 1,
+    "country": "malaysia",
+    "final_url": "https://www.y-axis.com/",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.93,
+      "site_type": "not_job_site",
+      "reason": "The HTML indicates Y-Axis is an immigration and visa consultancy (migrate/work/study visa services) rather than a job listings platform. No evidence of job postings, job search, employer tools, or jobseeker features. The page content and structured data emphasize India-focused immigration consulting, not Malaysia job seeking.",
+      "features_found": [
+        "Immigration & visa consultancy branding (Corporation schema)",
+        "Navigation focused on Migrate/Work/Study visas rather than Jobs/Careers listings",
+        "No job listings (titles/companies/salaries/apply buttons) detected in provided HTML",
+        "No job search UI or filters detected in provided HTML",
+        "No employer section (post a job/employer login) detected in provided HTML",
+        "No jobseeker features (CV upload/job alerts) detected in provided HTML",
+        "Primary service location appears India (address in Hyderabad, areaServed India)"
+      ]
+    }
+  },
+  {
+    "url": "https://gigexchange.com",
+    "domain": "gigexchange.com",
+    "name": "Find the best Job boards in Malaysia in 2026",
+    "snippet": "Top 5 ranked Job Portals in Malaysia in 2026? ; Jobstreet. Paid. Email sales for prices ; CareerJET. RM 150.00 ; gigexchange. FREE Job Advertising in Malaysia.",
+    "found_in_queries": 1,
+    "country": "malaysia",
+    "final_url": "https://gigexchange.com",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.74,
+      "site_type": "not_job_site",
+      "reason": "The HTML indicates a global gig/freelance marketplace/app (title: 'Future of Work Jobs & Freelance Gig Economy Gigs') but the provided content contains no visible job listings, job search UI, employer posting/login, or jobseeker tools. There is also no evidence in the snippet that the site primarily serves Malaysia specifically.",
+      "features_found": [
+        "gig/freelance marketplace positioning in page title",
+        "general site/app metadata (PWA/manifest, social tags)"
+      ]
+    }
+  },
+  {
+    "url": "https://www.blogarama.com",
+    "domain": "blogarama.com",
+    "name": "Top Job Portals in Malaysia: 7 Platforms You Need to ...",
+    "snippet": "1. JobJe: Your Gateway to Flexible Work Opportunities. Top Job Portal in Malaysia - JobJe has established itself as the leading platform for ...",
+    "found_in_queries": 1,
+    "country": "malaysia",
+    "final_url": "https://www.blogarama.com",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.98,
+      "site_type": "not_job_site",
+      "reason": "The HTML shows Blogarama as a blog directory/aggregator (articles, blog links, categories like Editorial/Featured) with no job listings, job search, employer posting, or job-seeker tools. It does not primarily serve Malaysia job seekers.",
+      "features_found": [
+        "blog directory",
+        "article feed/aggregation",
+        "featured/editorial posts",
+        "category links",
+        "external blog links"
+      ]
+    }
+  },
+  {
+    "url": "https://www.cadslist.com",
+    "domain": "cadslist.com",
+    "name": "Top Websites of Jobs in Malaysia",
+    "snippet": "Most Popular Websites by Traffic in Malaysia \u00b7 1. jobstreet.com.my \u00b7 2. indeed.com \u00b7 3. 16personalities.com \u00b7 4. maukerja.my \u00b7 5. jobstreet.com \u00b7 6.",
+    "found_in_queries": 1,
+    "country": "malaysia",
+    "final_url": "https://www.cadslist.com",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.96,
+      "site_type": "not_job_site",
+      "reason": "The HTML indicates CADSLIST is an SEO/blog site focused on citation building and backlinks (e.g., title/description/organization schema). No evidence of job listings, job search, employer posting, or Malaysia-focused job seeker features.",
+      "features_found": [
+        "SEO/blog branding in title and meta description",
+        "Schema.org defines WebSite/Organization as 'SEO BLOG'",
+        "Generic site search (?s=) but not job-specific"
+      ]
+    }
+  },
+  {
+    "url": "https://www.talentcorp.com.my",
+    "domain": "talentcorp.com.my",
+    "name": "National Talent Development | Ministry of Human Resources ...",
+    "snippet": "We are the national agency under the Ministry of Human Resources mandated to drive Malaysia's talent strategy towards becoming a dynamic talent hub.",
+    "found_in_queries": 1,
+    "country": "malaysia",
+    "final_url": "https://www.talentcorp.com.my",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.86,
+      "site_type": "not_job_site",
+      "reason": "The HTML indicates an official TalentCorp Malaysia informational site focused on national talent development initiatives (Ministry of Human Resources agency). The provided content shows no job listings, job search, apply flows, employer posting/login, or job seeker tools typical of a job portal.",
+      "features_found": [
+        "Government/agency informational positioning (TalentCorp Malaysia, Ministry of Human Resources)",
+        "General website navigation and branding content",
+        "No evidence of job listings/search/apply/employer or jobseeker features in provided HTML"
+      ]
+    }
+  },
+  {
+    "url": "https://www.upwork.com",
+    "domain": "upwork.com",
+    "name": "Malaysian Freelance Jobs: Work Remote & Earn Online",
+    "snippet": "Browse 146 open jobs and land a remote Malaysian job today. See detailed job requirements, compensation, duration, employer history, & apply today.",
+    "found_in_queries": 1,
+    "country": "malaysia",
+    "final_url": "https://www.upwork.com",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.72,
+      "site_type": "not_job_site",
+      "reason": "The title/description are clearly job-related (freelance jobs, browse open jobs, apply), but Upwork is a global freelance marketplace rather than a Malaysia-focused job portal; it does not primarily serve Malaysian job seekers.",
+      "features_found": [
+        "job-related keywords (freelance jobs, open jobs, apply)",
+        "remote work focus (work remote, earn online)",
+        "job listing details (requirements, compensation, duration, employer history)"
+      ]
+    }
+  }
+]

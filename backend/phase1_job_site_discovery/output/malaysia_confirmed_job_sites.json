@@ -1,0 +1,168 @@
+[
+  {
+    "url": "https://www.maukerja.my",
+    "domain": "maukerja.my",
+    "name": "Maukerja: Top Job Portal Malaysia- Find Jobs Near Me",
+    "snippet": "Find top job opportunities in Malaysia. We have part-time, remots, WFH jobs near you. Start your job search now with Maukerja - Best Job Sites Malaysia.",
+    "found_in_queries": 4,
+    "country": "malaysia",
+    "final_url": "https://www.maukerja.my",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.99,
+      "site_type": "job_portal",
+      "reason": "Meta title/description explicitly describe a Malaysia job search platform (\"Website Cari Kerja Terbaik di Malaysia\", \"Cari kerja kosong terkini di Malaysia\"). Structured data includes a SearchAction targeting /jobsearch/{search_term_string}-jobs and the Organization schema states it is a job search platform based in Malaysia helping job seekers and employers post job ads.",
+      "features_found": [
+        "Job search functionality (Schema.org SearchAction with target https://www.maukerja.my/jobsearch/{search_term_string}-jobs)",
+        "Job-related keywords/categories (cari kerja, kerja kosong, sepenuh masa, separuh masa, latihan industri)",
+        "Malaysia primary focus (multiple references to Malaysia; addressCountry=MY; Kuala Lumpur address in Organization schema)",
+        "Job portal positioning (Organization description: job search platform; employers can post job ads)"
+      ]
+    }
+  },
+  {
+    "url": "https://jobstreet.com",
+    "domain": "jobstreet.com",
+    "name": "Jobstreet: Jobs in Malaysia - Search Job Vacancies - Career",
+    "snippet": "Search job vacancies and find your next career opportunity with Jobstreet, no.1 recruitment site in Malaysia.",
+    "found_in_queries": 4,
+    "country": "malaysia",
+    "final_url": "https://www.jobstreet.com/",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.96,
+      "site_type": "job_portal",
+      "reason": "The page title/metadata explicitly describes Jobstreet as a career site for searching job vacancies and getting hired, and the HTML includes alternate hreflang links for the Malaysia-specific site (https://my.jobstreet.com/), indicating service for Malaysian job seekers.",
+      "features_found": [
+        "Job/career site positioning in title and meta description (search job vacancies, get hired)",
+        "Country targeting via hreflang including en-my (my.jobstreet.com) for Malaysia",
+        "Brand/tenant logo for Jobstreet (known job portal)"
+      ]
+    }
+  },
+  {
+    "url": "https://www.fastjobs.my",
+    "domain": "fastjobs.my",
+    "name": "FastJobs: Malaysia best non-executive job portal for both job ...",
+    "snippet": "FastJobs is a fast and simple mobile platform for both job seekers and employers to fill non-executive and part-time jobs on the go. Fill your job vacancies",
+    "found_in_queries": 2,
+    "country": "malaysia",
+    "final_url": "https://www.fastjobs.my",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.95,
+      "site_type": "job_portal",
+      "reason": "The HTML explicitly describes FastJobs as a Malaysia job portal for filling vacancies, includes navigation links like 'Browse Jobs' and 'Job Categories', and sets country-specific variables (APP_COUNTRY='my', COUNTRY_NAME='Malaysia', currency RM), indicating it primarily serves job seekers in Malaysia.",
+      "features_found": [
+        "Job portal positioning in title/description ('Malaysia best... job portal')",
+        "Browse Jobs navigation link",
+        "Job Categories navigation link",
+        "Malaysia localization (APP_COUNTRY=my, COUNTRY_NAME=Malaysia, timezone Asia/Kuala_Lumpur, currency RM)",
+        "Featured companies section link"
+      ]
+    }
+  },
+  {
+    "url": "https://hiredly.com",
+    "domain": "hiredly.com",
+    "name": "Hiredly: Find Jobs in Malaysia | Vacancies & Career ...",
+    "snippet": "Find full-time, remote, work-from-home, and internship career opportunities in Malaysia. Experience easy and fast job search on one of Malaysia's leading job",
+    "found_in_queries": 1,
+    "country": "malaysia",
+    "final_url": "https://my.hiredly.com",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.98,
+      "site_type": "job_portal",
+      "reason": "The page title and meta description explicitly state 'Find Jobs in Malaysia' and describe a job vacancy portal offering full-time, remote, work-from-home and internship opportunities in Malaysia, indicating a Malaysia-focused job portal.",
+      "features_found": [
+        "Jobs/careers/vacancies positioning in title and metadata",
+        "Malaysia-specific targeting (\"Find Jobs in Malaysia\", \"career opportunities in Malaysia\")",
+        "Job portal branding and description (\"leading job vacancy portals\")"
+      ]
+    }
+  },
+  {
+    "url": "https://www.foundit.my",
+    "domain": "foundit.my",
+    "name": "Job Search at foundit Malaysia: Jobs in Malaysia - Latest Job ...",
+    "snippet": "Jobs in Malaysia - Search and apply online to latest jobs in Malaysia, posted by top companies & consultants agencies for Fresher's & Experienced.",
+    "found_in_queries": 1,
+    "country": "malaysia",
+    "final_url": "https://www.foundit.my",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.98,
+      "site_type": "job_portal",
+      "reason": "The page title and meta description explicitly indicate a Malaysia-focused job search site (\u201cJobs in Malaysia\u201d, \u201cjob vacancies\u201d, \u201csearch and apply\u201d, \u201cupload your resume\u201d). The domain is foundit.my with hreflang en-my pointing to the Malaysia version, indicating primary service for Malaysian job seekers.",
+      "features_found": [
+        "Explicit job portal positioning in title: 'Jobs in Malaysia - Latest Job Vacancies - Job Search'",
+        "Meta description mentions searching and applying to jobs in Malaysia",
+        "Job seeker feature mentioned: 'Register free to upload your resume'",
+        "Country targeting: .my domain and hreflang 'en-my' for https://www.foundit.my",
+        "Brand is a known job portal network (foundit / formerly Monster) with localized country sites"
+      ]
+    }
+  },
+  {
+    "url": "https://www.hays.com.my",
+    "domain": "hays.com.my",
+    "name": "Hays Malaysia | Top Recruitment Agency in Malaysia ...",
+    "snippet": "Looking for jobs or hiring talent in Malaysia? Hays connects top employers with skilled professionals across IT, finance, engineering, and more.",
+    "found_in_queries": 1,
+    "country": "malaysia",
+    "final_url": "https://www.hays.com.my",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.93,
+      "site_type": "recruitment_agency",
+      "reason": "The page is for Hays Malaysia, a recruitment agency/headhunting firm. The HTML metadata explicitly targets job seekers and hiring in Malaysia with keywords like 'Job search Malaysia' and description 'Looking for jobs or hiring talent in Malaysia?'. This indicates job search and recruitment services focused on Malaysia.",
+      "features_found": [
+        "Recruitment agency / headhunting positioning (title: 'Top Recruitment Agency in Malaysia')",
+        "Job search intent keywords (meta keywords include 'Job search Malaysia', 'latest jobs in Malaysia', 'find a job in Malaysia')",
+        "Malaysia-focused targeting (lang en-MY, domain hays.com.my, description mentions Malaysia)"
+      ]
+    }
+  },
+  {
+    "url": "https://www.jac-recruitment.my",
+    "domain": "jac-recruitment.my",
+    "name": "JAC Recruitment Malaysia: Jobs and Recruitment/Hiring in ...",
+    "snippet": "JAC Recruitment Malaysia is a recruitment consultancy dedicated to connecting organisations with top-tier talent across various disciplines and industries.",
+    "found_in_queries": 1,
+    "country": "malaysia",
+    "final_url": "https://www.jac-recruitment.my",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.86,
+      "site_type": "recruitment_agency",
+      "reason": "The domain jac-recruitment.my is the Malaysia site of JAC Recruitment, a recruitment agency that typically provides job vacancies, job search/browse functionality, and job seeker services for roles in Malaysia. The URL and country-specific domain indicate primary relevance to Malaysia, even though the provided HTML snippet is mostly boilerplate CSS and does not show the job modules directly.",
+      "features_found": [
+        "Malaysia-specific site/domain (.my) indicating local job market focus",
+        "Recruitment agency brand (JAC Recruitment) associated with publishing vacancies and candidate services"
+      ]
+    }
+  },
+  {
+    "url": "https://www.michaelpage.com.my",
+    "domain": "michaelpage.com.my",
+    "name": "Work From Home jobs in Malaysia",
+    "snippet": "Find Work From Home jobs with top recruitment agency Michael Page Malaysia with new jobs added everyday. Get ahead in your career today!",
+    "found_in_queries": 1,
+    "country": "malaysia",
+    "final_url": "https://www.michaelpage.com.my",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.93,
+      "site_type": "recruitment_agency",
+      "reason": "The page metadata and content explicitly describe job search and recruitment services for Malaysia (e.g., title 'Jobs and Recruitment Agency | Michael Page Malaysia', keywords including 'Jobs' and 'Malaysia'). Michael Page is a recruitment agency site that provides job search functionality and listings for Malaysian users.",
+      "features_found": [
+        "Jobs/recruitment focus in title and meta description",
+        "Keywords include job search and Malaysia",
+        "Recruitment agency branding (Michael Page)",
+        "Scam advisory link related to recruitment",
+        "Country-localized domain and content for Malaysia (michaelpage.com.my)"
+      ]
+    }
+  }
+]

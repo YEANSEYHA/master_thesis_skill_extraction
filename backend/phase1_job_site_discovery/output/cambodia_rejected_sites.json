@@ -1,0 +1,332 @@
+[
+  {
+    "url": "https://wvscambodia.org",
+    "domain": "wvscambodia.org",
+    "name": "Layout",
+    "snippet": "Make a donation today to support WVS Cambodia.",
+    "found_in_queries": 2,
+    "country": "cambodia",
+    "final_url": "https://wvscambodia.org/en/",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.1,
+      "site_type": "not_job_site",
+      "reason": "No job listing elements, search functionality, or career categories detected in the provided HTML. The site appears to be an organization's general website rather than a job portal.",
+      "features_found": []
+    }
+  },
+  {
+    "url": "https://www.mlvt.gov.kh",
+    "domain": "mlvt.gov.kh",
+    "name": "\u1794\u17d2\u179a\u1780\u17b6\u179f",
+    "snippet": "\u1794\u17d2\u179a\u1780\u17b6\u179f \u00b7 \u1794\u17d2\u179a\u1780\u17b6\u179f \u179b\u17c1\u1781\u17e7\u17e4/\u17e2\u17e5 \u179f\u17d2\u178f\u17b8\u1796\u17b8 \u1793\u17b8\u178f\u17b7\u179c\u17b7\u1792\u17b8\u1793\u17c3\u1780\u17b6\u179a\u178a\u17c4\u17c7\u179f\u17d2\u179a\u17b6\u1799\u179c\u17b7\u179c\u17b6\u1791\u1780\u17b6\u179a\u1784\u17b6\u179a\u179a\u17bd\u1798 \u00b7 \u1794\u17d2\u179a\u1780\u17b6\u179f \u179b\u17c1\u1781\u17e7\u17e3/\u17e2\u17e5 \u179f\u17d2\u178f\u17b8\u1796\u17b8 \u1793\u17b8\u178f\u17b7\u179c\u17b7\u1792\u17b8\u1793\u17c3\u1780\u17b6\u179a\u178a\u17c4\u17c7\u179f\u17d2\u179a\u17b6\u1799\u179c\u17b7\u179c\u17b6\u1791\u1794\u17bb\u1782\u17d2\u1782\u179b \u00b7 \u1794\u17d2\u179a\u1780\u17b6\u179f \u179b\u17c1\u1781\u17e2\u17e1\u17e8/\u17e2\u17e4 \u179f\u17d2\u178f\u17b8\u1796\u17b8 \u1780\u17b6\u179a\u1788\u1794\u17cb\u1794\u17bb\u178e\u17d2\u1799\u178a\u17c2\u179b\u1798\u17b6\u1793\u1794\u17d2\u179a\u17b6\u1780\u17cb\u1788\u17d2\u1793\u17bd\u179b \u1794\u17d2\u179a\u1785\u17b6\u17c6\u1786\u17d2\u1793\u17b6\u17c6\u17e2\u17e0\u17e2\u17e5 \u00b7 \u179f\u17c1\u1785\u1780\u17d2\u178f\u17b8\u1790\u17d2\u179b\u17c2\u1784\u1780\u17b6\u179a\u178e\u17cd\u179a\u17bd\u1798 \u1793\u17c3\u1780\u17b7\u1785\u17d2\u1785\u1794\u17d2\u179a\u1787\u17bb\u17c6\u179a\u178a\u17d2\u178b\u1798\u1793\u17d2\u178f\u17d2\u179a\u17b8\u1780\u17b6\u179a\u1784\u17b6\u179a ...",
+    "found_in_queries": 2,
+    "country": "cambodia",
+    "final_url": "https://www.mlvt.gov.kh",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.95,
+      "site_type": "not_job_site",
+      "reason": "The website is an official Cambodian government ministry portal focused on labor regulations, vocational training, and workforce policies. It contains no job listings, career sections, job search functionality, or employer/seeker features.",
+      "features_found": [
+        "government ministry information",
+        "policy documents",
+        "organizational structure",
+        "search bar for internal content"
+      ]
+    }
+  },
+  {
+    "url": "https://lomatechnology.com",
+    "domain": "lomatechnology.com",
+    "name": "Top Job Websites in Cambodia 2026: Best Places to Find ...",
+    "snippet": "Among the top job website in Cambodia, Talent4U stands out as a pioneer, providing unrivalled job possibilities, professional networking, and career guidance.",
+    "found_in_queries": 1,
+    "country": "cambodia",
+    "final_url": "https://lomatechnology.com",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.3,
+      "site_type": "not_job_site",
+      "reason": "The website appears to be an IT services company's corporate site rather than a job portal. While it mentions Cambodia in keywords, there are no job listings, career sections, or job search features detected.",
+      "features_found": [
+        "technology services promotion",
+        "Cambodia keyword mention",
+        "company branding elements"
+      ]
+    }
+  },
+  {
+    "url": "https://www.pinterest.com",
+    "domain": "pinterest.com",
+    "name": "Top 10 Best Job Posting Websites in Cambodia for 2025",
+    "snippet": "Apr 5, 2025 - Discover the top 10 best job posting websites in Cambodia for 2025 to find jobs or hire top talent across various industries.",
+    "found_in_queries": 1,
+    "country": "cambodia",
+    "final_url": "https://www.pinterest.com",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.0,
+      "site_type": "not_job_site",
+      "reason": "No job-related features found in the HTML (no job listings, search bars, employer sections, or Cambodia-specific content). The site is a social media platform, not a job portal.",
+      "features_found": []
+    }
+  },
+  {
+    "url": "https://escapefromcity.com",
+    "domain": "escapefromcity.com",
+    "name": "The best Job Site in Cambodia - EscapeFromCity",
+    "snippet": "Top job cambodia.com Top job Cambodia is an online recruitment platform, connecting people to jobs and helping employers to source talented staff in Cambodia.",
+    "found_in_queries": 1,
+    "country": "cambodia",
+    "final_url": "https://escapefromcity.com",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.7,
+      "site_type": "classifieds",
+      "reason": "The website contains travel destination listings and tourism-related content (e.g., 'Popular Destinations', 'Kampot', 'Phnom 1500'), but no job listings, career sections, or employment features. It appears to be a travel/destination platform rather than a job site.",
+      "features_found": [
+        "travel_destinations",
+        "location_based_content",
+        "tourism_content"
+      ]
+    }
+  },
+  {
+    "url": "https://www.cdpo.org",
+    "domain": "cdpo.org",
+    "name": "\u1780\u17b6\u179a\u179f\u179a\u179f\u17c1\u179a\u179a\u1794\u17b6\u1799\u1780\u17b6\u179a\u178e\u17cd \u1793\u17b7\u1784\u1780\u17c6\u178e\u178f\u17cb\u17a0\u17c1\u178f\u17bb",
+    "snippet": "\u1797\u17b6\u1796\u178a\u17c2\u179b\u1794\u17b6\u1793\u17a2\u1793\u17bb\u179c\u178f\u17d2\u178f \u1793\u17b7\u1784\u178a\u17be\u1798\u17d2\u1794\u17b8\u1795\u17d2\u178a\u179b\u17cb\u1796\u17d0\u178f\u17cc\u1798\u17b6\u1793\u1794\u1793\u17d2\u178f\u178a\u179b\u17cb\u17a2\u17d2\u1793\u1780\u1796\u17b6\u1780\u17cb\u1796\u17d0\u1793\u17d2\u1792\u178a\u1791\u17c3\u1791\u17c0\u178f\u17b2\u17d2\u1799\u1794\u17b6\u1793\u178a\u17b9\u1784\u1780\u17cf\u178a\u17bc\u1785\u1787\u17b6\u178a\u17be\u1798\u17d2\u1794\u17b8\u179a\u1780\u17d2\u179f\u17b6. \u1791\u17bb\u1780\u1787\u17b6\u17af\u1780\u179f\u17b6\u179a\u17d4 \u1782\u17c4\u179b\u1794\u17c6\u178e\u1784\u179f\u17c6\u1781\u17b6\u1793\u17cb\u17d7\u1793\u17c3\u1780\u17b6\u179a\u179f\u179a\u179f\u17c1\u179a\u179a\u1794\u17b6\u1799\u1780\u17b6\u179a\u178e\u17cd\u179a\u17bd\u1798\u1798\u17b6\u1793\u17c8. \u17a2\u1784\u17d2\u1782\u1780\u17b6\u179a\u1787\u1793\u1796\u17b7\u1780\u17b6\u179a\u1780\u1798\u17d2\u1796\u17bb\u1787\u17b6. \u1791\u17c6\u1796\u17d0\u179a 5. Page 6. \u1780\u17b6\u179a\u179f\u179a\u179f\u17c1\u179a\u179a\u1794\u17b6\u1799\u1780\u17b6\u179a\u178e\u17cd \u1793\u17b7\u1784\u1780\u17c6\u178e\u178f\u17cb\u17a0\u17c1\u178f\u17bb.",
+    "found_in_queries": 1,
+    "country": "cambodia",
+    "final_url": "https://www.cdpo.org",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.1,
+      "site_type": "not_job_site",
+      "reason": "The site is a disabled people's organization focused on advocacy, not job listings. No job-related features found.",
+      "features_found": []
+    }
+  },
+  {
+    "url": "https://chantchhaya.com",
+    "domain": "chantchhaya.com",
+    "name": "\u1782\u17c6\u179a\u17bc\u179a\u1794\u17b6\u1799\u1780\u17b6\u179a\u178e\u17cd\u1794\u17d2\u179a\u1787\u17bb\u17c6\u1780\u17d2\u179a\u17bb\u1798\u1780\u17b6\u179a\u1784\u17b6\u179a\u1780\u17d2\u1793\u17bb\u1784 \u1793\u17b7\u1784\u1780\u17d2\u179a\u17c5 ...",
+    "snippet": "\u179b\u17c4\u1780\u17a2\u17d2\u1793\u1780\u1794\u17d2\u179a\u17a0\u17c2\u179b\u1787\u17b6\u1796\u17b7\u1794\u17b6\u1780\u1799\u179b\u17cb \u1794\u17be\u179f\u17b7\u1793\u1787\u17b6\u179b\u17c4\u1780\u17a2\u17d2\u1793\u1780\u1798\u17b7\u1793\u1792\u17d2\u179b\u17b6\u1794\u17cb\u17a2\u17b6\u1793\u17a2\u178f\u17d2\u1790\u1794\u1791 \u00ab\u179f\u1784\u17d2\u1781\u17c1\u1794\u179a\u1794\u17b6\u1799\u1780\u17b6\u179a\u178e\u17cd \u17e6 \u1794\u17d2\u179a\u1797\u17c1\u1791\u00bb\u17d4 \u178a\u17bc\u1785\u17d2\u1793\u17c1\u17c7\u179f\u17bc\u1798\u179b\u17c4\u1780\u17a2\u17d2\u1793\u1780\u1785\u17bc\u179b\u17a2\u17b6\u1793\u17a2\u178f\u17d2\u1790\u1794\u1791\u1793\u17c4\u17c7\u179f\u17b7\u1793\u1791\u17c5\u17d4 \u1780\u17d2\u1793\u17bb\u1784\u17a2\u178f\u17d2\u1790\u1794\u1791\u1793\u17c1\u17c7 \u1793\u17b6\u1784\u1781\u17d2\u1789\u17bb\u17c6\u1798\u17b6\u1793\u1782\u17c4\u179b\u1794\u17c6\u178e\u1784\u1796\u17b8\u179a\u17d6.",
+    "found_in_queries": 1,
+    "country": "cambodia",
+    "final_url": "https://chantchhaya.com",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.1,
+      "site_type": "not_job_site",
+      "reason": "No job listing elements, search features, or Cambodia-specific job categories detected in the HTML. The site appears to be a WordPress blog with no job portal functionality.",
+      "features_found": []
+    }
+  },
+  {
+    "url": "https://24hdansuneredaction.com",
+    "domain": "24hdansuneredaction.com",
+    "name": "\u17e1\u17e0-\u1780\u17b6\u179a\u179a\u17c0\u1794\u1785\u17c6\u1780\u17b6\u179a\u1784\u17b6\u179a",
+    "snippet": "\u17e1\u17e0-\u1780\u17b6\u179a\u179a\u17c0\u1794\u1785\u17c6\u1780\u17b6\u179a\u1784\u17b6\u179a \u00b7 \u179c\u17b7\u1793\u17d0\u1799\u1795\u17d2\u1791\u17b6\u179b\u17cb\u1781\u17d2\u179b\u17bd\u1793\u200b\u179a\u1794\u179f\u17cb\u17a2\u17d2\u1793\u1780 \u1794\u1784\u17d2\u17a0\u17b6\u1789\u200b\u17a2\u17c6\u1796\u17b8\u200b\u1780\u17b6\u179a\u200b\u1782\u17c4\u179a\u1796\u178a\u179b\u17cb\u200b\u1780\u17b6\u179a\u1784\u17b6\u179a\u200b\u17a2\u17d2\u1793\u1780\u178a\u1791\u17c3 \u00b7 \u179c\u17b7\u1793\u17d0\u1799\u1787\u17b6\u179a\u17bd\u1798\u200b\u1794\u1784\u17d2\u1780\u17be\u178f\u17b2\u17d2\u1799\u200b\u1798\u17b6\u1793\u200b\u179f\u17b6\u179a\u1796\u17d0\u178f\u17cc\u1798\u17b6\u1793\u179b\u17d2\u17a2.",
+    "found_in_queries": 1,
+    "country": "cambodia",
+    "final_url": "https://24hdansuneredaction.com",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.1,
+      "site_type": "not_job_site",
+      "reason": "The website appears to be an educational resource about journalism training (CFI/ESJ project) with content in French and Khmer, but no job listings, career sections, or job seeker features. While Khmer language option exists, content is not focused on Cambodia job market.",
+      "features_found": [
+        "language_options"
+      ]
+    }
+  },
+  {
+    "url": "https://tropkhnhom.com.kh",
+    "domain": "tropkhnhom.com.kh",
+    "name": "\u1782\u17c6\u179a\u17bc\u1780\u17b6\u179a\u1784\u17b6\u179a",
+    "snippet": "Job Title, \u1782\u17c6\u179a\u17bc\u1780\u17b6\u179a\u1784\u17b6\u179a ; Category, \u17a2\u17b6\u1787\u17b8\u1796 ; Location, \u1797\u17d2\u1793\u17c6\u1796\u17c1\u1789 ; Position, Stock Control/ Accounting Officer and Project Sale Manager ; Salary Range, 200 - 500$.",
+    "found_in_queries": 1,
+    "country": "cambodia",
+    "final_url": "https://tropkhnhom.com.kh",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.2,
+      "site_type": "not_job_site",
+      "reason": "The website appears to be a microfinance company's corporate site rather than a job portal. No job listings, career sections, or recruitment features were found. The .kh domain suggests Cambodia relevance but the content focuses on financial services.",
+      "features_found": [
+        "language_selector",
+        "company_logo",
+        "website_description"
+      ]
+    }
+  },
+  {
+    "url": "https://ncdd.gov.kh",
+    "domain": "ncdd.gov.kh",
+    "name": "\u179f\u17c0\u179c\u1797\u17c5\u178e\u17c2\u1793\u17b6\u17c6\u17a2\u17c6\u1796\u17b8\u1780\u17b6\u179a\u1794\u17d2\u179a\u17b9\u1780\u17d2\u179f\u17b6\u1799\u17c4\u1794\u179b\u17cb\u1780\u17b6\u179a\u1784\u17b6\u179a - NCDD",
+    "snippet": "\u179f\u17c0\u179c\u1797\u17c5\u178e\u17c2\u1793\u17b6\u17c6\u17a2\u17c6\u1796\u17b8\u1780\u17b6\u179a\u1794\u17d2\u179a\u17b9\u1780\u17d2\u179f\u17b6\u1799\u17c4\u1794\u179b\u17cb\u1780\u17b6\u179a\u1784\u17b6\u179a. \u1794\u17d2\u179a\u1797\u17c1\u1791\u17d6 \u179f\u17c0\u179c\u1797\u17c5; \u1785\u17c6\u1793\u17bd\u1793\u1791\u17c6\u1796\u17d0\u179a\u17d6 124 p. \u17a2\u17d2\u1793\u1780\u1794\u17c4\u17c7\u1796\u17bb\u1798\u17d2\u1796\u1795\u17d2\u179f\u17b6\u1799\u17d6 \u1791\u17b8\u1797\u17d2\u1793\u17b6\u1780\u17cb\u1784\u17b6\u179a\u1787\u17b6\u178f\u17b7\u1798\u17bb\u1781\u179a\u1794\u1794 \u1793\u17b7\u1784\u1780\u17b6\u179a\u1784\u17b6\u179a; \u17a2\u17d2\u1793\u1780\u1793\u17b7\u1796\u1793\u17d2\u1792\u17d6 National Agency for Labor and Employment; \u1786\u17d2\u1793\u17b6\u17c6\u178a\u17b6\u1780\u17cb\u1785\u17c1\u1789\u17d6 2017 ...",
+    "found_in_queries": 1,
+    "country": "cambodia",
+    "final_url": "https://ncdd.gov.kh",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.6,
+      "site_type": "job_portal",
+      "reason": "Contains Khmer language content and search functionality, but lacks explicit job listing elements",
+      "features_found": [
+        "search_bar",
+        "khmer_language",
+        "feedback_button"
+      ]
+    }
+  },
+  {
+    "url": "https://www.wa.gov",
+    "domain": "wa.gov",
+    "name": "(\u179a\u1794\u17b6\u1799\u1780\u17b6\u179a\u178e\u17cd\u179f\u17d2\u178a\u17b8\u1796\u17b8\u1796\u17b7\u1780\u17b6\u179a\u1797\u17b6\u1796) (\u179f\u17c1\u1785\u1780\u17d2\u178f\u17b8\u179f\u1798\u17d2\u179a\u17c1\u1785\u17a2\u17c6\u1796\u17b8 ...",
+    "snippet": "\u1794\u17b6\u1791 \u1790\u17b6\u179f. \u1791\u17c1. \u1794\u17d2\u179a\u179f\u17b7\u1793\u1794\u17be\u17a2\u17d2\u1793\u1780\u1786\u17d2\u179b\u17be\u1799\u1794\u17b6\u1791 \u1785\u17b6\u179f\u1785\u17c6\u1796\u17c4\u17c7. \u1780\u17b6\u179a\u1784\u17b6\u179a \u17ac\u178f\u17bd\u1793\u17b6\u1791\u17b8\u1780\u17b6\u179a\u1784\u17b6\u179a\u179a\u1794\u179f\u17cb\u17a2\u17d2\u1793\u1780. \u179c\u178f\u17d2\u178f\u1798\u17b6\u1793\u179a\u1794\u179f\u17cb\u17a2\u17d2\u1793\u1780. \u1798\u17c9\u17c4\u1784\u1792\u17d2\u179c\u17be\u1780\u17b6\u179a\u179a\u1794\u179f\u17cb\u17a2\u17d2\u1793\u1780. \u178f\u17be\u1798\u17b6\u1793\u17a2\u17d2\u179c\u17b8\u1795\u17d2\u179f\u17c1\u1784\u1791\u17c0\u178f\u17a2\u17c6\u1796\u17b8\u1780\u17b6\u179a\u1784\u17b6\u179a\u179a\u1794\u179f\u17cb\u17a2\u17d2\u1793\u1780\u1791\u17c1. \u1794\u17d2\u179a\u179f\u17b7\u1793\u1794\u17be\u17a2\u17d2\u1793\u1780\u1794\u17b6\u1793\u1786\u17d2\u179b\u17be\u1799\u1794\u17b6\u1791 \u1785\u17b6\u179f\u1785\u17c6\u1796\u17c4\u17c7\u1785\u17c6\u178e\u17bb\u1785\u178e\u17b6\u1798\u17bd\u1799\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784. \u1796\u1793\u17d2\u1799\u179b\u17cb\u1796\u17b8\u17a2\u17d2\u179c\u17b8\u178a\u17c2\u179b\u1780\u17b6\u179a\u1795\u17d2\u179b\u17b6\u179f\u17cb\u1794\u17d2\u178a\u17bc\u179a\u1793\u17c3\u179f\u17d2\u1790\u17b6\u1793\u1797\u17b6\u1796 ...",
+    "found_in_queries": 1,
+    "country": "cambodia",
+    "final_url": "https://wa.gov/",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.95,
+      "site_type": "not_job_site",
+      "reason": "The website is the official Washington State government portal (wa.gov) and contains no job listing features, career sections, or employer tools. It serves Washington State, USA, not Cambodia.",
+      "features_found": []
+    }
+  },
+  {
+    "url": "https://grassrootsjusticenetwork.org",
+    "domain": "grassrootsjusticenetwork.org",
+    "name": "\u1782\u17c6\u179a\u17bc\u179a\u1794\u17b6\u1799\u1780\u17b6\u179a\u178e\u17cd\u1794\u17d2\u179a\u1785\u17b6\u17c6\u1781\u17c2 Paralegal",
+    "snippet": "\u1792\u1793\u1792\u17b6\u1793\u1793\u17c1\u17c7\u178a\u17c4\u1799 WLC \u1782\u17ba\u1787\u17b6\u1782\u17c6\u179a\u17bc\u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u1785\u1784\u1780\u17d2\u179a\u1784\u17af\u1780\u179f\u17b6\u179a\u179f\u1780\u1798\u17d2\u1798\u1797\u17b6\u1796\u1794\u17c9\u17b6\u179a\u17c9\u17b6\u17a1\u17c2\u179b\u1794\u17d2\u179a\u1785\u17b6\u17c6\u1781\u17c2\u17d4",
+    "found_in_queries": 1,
+    "country": "cambodia",
+    "final_url": "https://grassrootsjusticenetwork.org",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.1,
+      "site_type": "not_job_site",
+      "reason": "No job listings, career sections, or job search features found. The site appears to be an advocacy organization's website rather than a job portal.",
+      "features_found": []
+    }
+  },
+  {
+    "url": "https://mithsamlanh.org",
+    "domain": "mithsamlanh.org",
+    "name": "\u179a\u1794\u17b6\u1799\u1780\u17b6\u179a\u178e\u17cf\u1794\u17d2\u179a\u1785\u17b6\u17c6 \u1786\u17d2\u1793\u17b6\u17c6\u17e2\u17e0\u17e1\u17e5",
+    "snippet": "... \u1780\u17b6\u179a\u1784\u17b6\u179a\u1792\u17d2\u179c\u17be \u1794\u1784\u17d2\u1780\u17be\u178f\u17a2\u17b6\u1787\u17b8\u179c\u1780\u1798\u17d2\u1798\u1795\u17d2\u1791\u17b6\u179b\u17cb\u1781\u17d2\u179b\u17bd\u1793\u178a\u17b6\u1780\u17cb\u1780\u17b6\u179a\u1784\u17b6\u179a\u1797\u17d2\u179b\u17b6\u1798\u17d7\u1793\u17b7\u1784\u179f\u17d2\u179c\u17c2\u1784\u179a\u1780\u1780\u17b6\u179a\u1784\u17b6\u179a\u178a\u17c4\u1799\u1781\u17d2\u179b\u17bd\u1793\u17af\u1784 ... \u1780\u17b6\u179a\u178e\u17cd\u1795\u179b\u1794\u17d2\u179a\u1799\u17c4\u1787\u1793\u17cd\u1793\u17b7\u1784\u1782\u17c4\u179b\u1780\u17b6\u179a\u179f\u1793\u17d2\u179f\u17c6\u1780\u17c6\u1796\u17bb\u1784\u178a\u17c6\u178e\u17be\u179a\u1780\u17b6\u179a\u178a\u17c4\u1799\u1798\u17b6\u1793\u1780\u17b6\u179a\u1796\u17b7\u1797\u17b6\u1780\u17d2\u179f\u17b6\u179a\u179c\u17b6\u1784\u17a2\u17d2\u1793\u1780\u179f.",
+    "found_in_queries": 1,
+    "country": "cambodia",
+    "final_url": "https://mithsamlanh.org",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.3,
+      "site_type": "not_job_site",
+      "reason": "The website appears to be a non-profit organization (Mith Samlanh) focused on child protection and community development in Cambodia. While it contains a 'Careers' menu link, there are no visible job listings, search features, or employer sections. The content emphasizes programs for street children rather than job opportunities.",
+      "features_found": [
+        "careers_link"
+      ]
+    }
+  },
+  {
+    "url": "https://www.khsearch.com",
+    "domain": "khsearch.com",
+    "name": "\u1780\u17b6\u179a\u1784\u17b6\u179a\u1793\u17c5\u1780\u17d2\u1793\u17bb\u1784\u179f\u1784\u17d2\u1782\u1798\u1791\u17c6\u1793\u17be\u1794 ( Modern Society ) \u178f\u17d2\u179a\u17bc\u179c ...",
+    "snippet": "\u179c\u17b6\u1780\u17c6\u178e\u178f\u17cb\u1793\u17bc\u179c\u1794\u17d2\u179a\u1797\u17c1\u1791\u1793\u17c3\u1780\u17b6\u179a\u1784\u17b6\u179a\u178a\u17c2\u179b\u178f\u17d2\u179a\u17bc\u179c\u1794\u17b6\u1793\u1794\u1784\u17d2\u1780\u17be\u178f\u1794\u17b6\u1793\u178a\u17c4\u1799\u1797\u17d2\u1793\u17b6\u1780\u17cb\u1784\u17b6\u179a\u1782\u17d2\u179a\u1794\u17cb\u1782\u17d2\u179a\u1784\u1791\u17c5\u179b\u17be\u1780\u17b6\u179a\u1784\u17b6\u179a\u178a\u17be\u1798\u17d2\u1794\u17b8\u17b2\u17d2\u1799\u1798\u17b6\u1793\u178a\u17c6\u178e\u17be\u179a\u1780\u17b6\u179a\u1791\u17c5\u1798\u17bb\u1781 \u17d4 \u1782\u17ba\u179f\u17c6\u178a\u17c5\u1791\u17c5\u179b\u17be\u179a\u1785\u1793\u17b6\u179f\u1798\u17d2\u1796\u17d0\u1793\u17d2\u1792\u1793\u17c3\u1780\u17b6\u179a\u1784\u17b6\u179a\u178a\u17c2\u179b\u1798\u17be\u179b\u1791\u17c5\u179b\u17be\u1794\u17d2\u179a\u1797\u17c1\u1791\u1793\u17c3\u1780\u17b6\u179a\u1784\u17b6\u179a\u178a\u17c2\u179b\u1798\u1793\u17bb\u179f\u17d2\u179f\u1792\u17d2\u179c\u17be\u178a\u17bc\u1785\u1787\u17b6\u1780\u17b6\u179a\u1784\u17b6\u179a\u1794\u17be\u1780\u179a\u1790\u1799\u1793\u17d2\u178f \u178a\u17b9\u1780\u1791\u17c6\u1793\u17b7\u1789 \u179f\u1798\u17d2\u17a2\u17b6\u178f\u1795\u17d2\u1791\u17c7\u179f\u17c6\u1794\u17c2\u1784 \u1793\u17c1\u179f\u17b6\u1791 \u17ac\u1792\u17d2\u179c\u17be ...",
+    "found_in_queries": 1,
+    "country": "cambodia",
+    "final_url": "https://www.khsearch.com",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.1,
+      "site_type": "not_job_site",
+      "reason": "The site focuses on knowledge sharing with keywords like education, Q&A, and Khmer language content. No job-related features (job listings, career sections, employer tools) found.",
+      "features_found": [
+        "knowledge-sharing",
+        "education",
+        "Khmer-language content",
+        "Q&A format"
+      ]
+    }
+  },
+  {
+    "url": "https://opendevelopmentcambodia.net",
+    "domain": "opendevelopmentcambodia.net",
+    "name": "\u1782\u17c4\u179b\u178a\u17c5\u1791\u17b8\u17e8 \u1780\u17b6\u179a\u1784\u17b6\u179a\u179f\u1798\u179a\u1798\u17d2\u1799 \u1793\u17b7\u1784\u1780\u17c6\u178e\u17be\u1793\u179f\u17c1\u178a\u17d2\u178b\u1780\u17b7\u1785\u17d2\u1785",
+    "snippet": "\u1782\u17c4\u179b\u178a\u17c5\u17a2\u1797\u17b7\u179c\u178c\u17d2\u178d\u200b\u1794\u17d2\u179a\u1780\u1794\u178a\u17c4\u1799\u200b\u1785\u17b8\u179a\u1797\u17b6\u1796\u200b\u1791\u17b8\u200b\u17e8\u200b \u178a\u17c2\u179b\u200b \u201c\u200b\u1792\u17b6\u1793\u17b6\u200b\u1780\u17c6\u178e\u17be\u1793\u179f\u17c1\u178a\u17d2\u178b\u1780\u17b7\u1785\u17d2\u1785\u200b\u1794\u17d2\u179a\u1780\u1794\u178a\u17c4\u1799\u200b\u1785\u17b8\u179a\u1797\u17b6\u1796\u200b\u1793\u17b7\u1784\u200b\u1794\u179a\u17b7\u200b\u1799\u17b6\u200b\u1794\u17d0\u1793\u17d2\u1793\u200b \u1798\u17b6\u1793\u1798\u17bb\u1781\u200b\u179a\u1794\u179a\u200b\u1796\u17c1\u1789\u179b\u17c1\u1789\u200b \u1793\u17b7\u1784\u200b\u1795\u179b\u17b7\u178f\u1797\u17b6\u1796\u200b \u1793\u17b7\u1784\u200b\u1798\u17b6\u1793\u200b\u1780\u17b6\u179a\u1784\u17b6\u179a\u200b\u179f\u1798\u179a\u1798\u17d2\u1799\u200b \u179f\u1798\u17d2\u179a\u17b6\u1794\u17cb\u200b\u1794\u17d2\u179a\u1787\u17b6\u1787\u1793\u200b\u1782\u17d2\u179a\u1794\u17cb\u200b\u179a\u17bc\u1794\u200b\u201d\u200b \u1798\u17b6\u1793\u200b\u1785\u17c6\u178e\u17bb\u1785\u200b\u178a\u17c5\u200b\u1791\u17bc\u1791\u17c5\u200b\u1785\u17c6\u1793\u17bd\u1793\u200b\u17e1\u17e0\u200b ...",
+    "found_in_queries": 1,
+    "country": "cambodia",
+    "final_url": "https://opendevelopmentcambodia.net",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.95,
+      "site_type": "not_job_site",
+      "reason": "The website focuses on development information sharing about Cambodia rather than job listings/recruitment. No job search features, career categories, or employment-related content found.",
+      "features_found": [
+        "organization_profile",
+        "country_specific_content",
+        "development_information"
+      ]
+    }
+  },
+  {
+    "url": "https://ams.com.kh",
+    "domain": "ams.com.kh",
+    "name": "\u1786\u17d2\u1793\u17b6\u17c6\u17e2\u17e0\u17e2\u17e6 \u1791\u17b8\u1795\u17d2\u179f\u17b6\u179a\u1780\u17b6\u179a\u1784\u17b6\u179a\u1780\u1798\u17d2\u1796\u17bb\u1787\u17b6\u1793\u17b9\u1784\u179c\u17b7\u179c\u178f\u17d2\u178f\u200b\u1791\u17c5\u200b ...",
+    "snippet": "\u1794\u17be\u178f\u17b6\u1798\u200b\u1780\u17d2\u179a\u179f\u17bd\u1784 \u1780\u17d2\u179a\u17bb\u1798\u200b\u1780\u1798\u17d2\u1798\u1780\u179a\u200b\u1787\u17c6\u1793\u17b6\u1789 \u1793\u17b7\u1784\u200b\u1780\u17b6\u179a\u17b8\u1798\u17c9\u17b6\u179f\u17ca\u17b8\u1793 \u1793\u17b9\u1784\u1798\u17b6\u1793\u178f\u1798\u17d2\u179a\u17bc\u179c\u200b\u1780\u17b6\u179a\u200b\u1781\u17d2\u1796\u179f\u17cb\u1787\u17b6\u1784\u1782\u17c1\u200b\u179a\u17a0\u17bc\u178f\u200b\u178a\u179b\u17cb\u1787\u17b7\u178f\u17e3\u179f\u17c2\u1793\u1793\u17b6\u1780\u17cb \u178a\u17c2\u179b\u1797\u17b6\u1782\u200b\u1785\u17d2\u179a\u17be\u200b\u1793\u200b\u1798\u1780\u200b\u1796\u17b8\u179c\u17b7\u179f\u17d0\u1799\u200b\u1780\u17b6\u178f\u17cb\u178a\u17c1\u179a \u179f\u17d2\u1794\u17c2\u1780\u1787\u17be\u1784 \u1793\u17b7\u1784\u200b\u1780\u17b6\u1794\u17bc\u1794 (GFT)\u17d4",
+    "found_in_queries": 1,
+    "country": "cambodia",
+    "final_url": "https://ams.com.kh",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.6,
+      "site_type": "not_job_site",
+      "reason": "The website appears to be a news/media platform (based on title 'APSARA MEDIA SERVICES' and subdomains like economy.ams.com.kh, sports.ams.com.kh) rather than a job portal. No job listing features, search bars, or career sections were found in the HTML.",
+      "features_found": [
+        "news-media-content",
+        "country-code-domain"
+      ]
+    }
+  },
+  {
+    "url": "https://freshnews.com.kh",
+    "domain": "freshnews.com.kh",
+    "name": "\u179a\u178a\u17d2\u178b\u1798\u1793\u17d2\u178f\u17d2\u179a\u17b8\u1780\u17b6\u179a\u1784\u17b6\u179a\u17d6 \u1780\u17b6\u179a\u179c\u17b7\u1793\u17b7\u1799\u17c4\u1782\u1787\u1794\u17c9\u17bb\u1793 \u1796\u17b6\u17c6\u1793\u17b6\u17c6 ...",
+    "snippet": "\u1780\u17b6\u179a\u179c\u17b7\u1793\u17b7\u1799\u17c4\u1782\u179a\u1794\u179f\u17cb\u1787\u1794\u17c9\u17bb\u1793\u1794\u17b6\u1793\u179a\u17bd\u1798\u1785\u17c6\u178e\u17c2\u1780\u178a\u179b\u17cb\u179f\u17c1\u178a\u17d2\u178b\u1780\u17b7\u1785\u17d2\u1785\u179a\u1794\u179f\u17cb\u1780\u1798\u17d2\u1796\u17bb\u1787\u17b6 \u1798\u17b6\u1793\u1794\u17d2\u179a\u1796\u17d0\u1793\u17d2\u1792\u1794\u1785\u17d2\u1785\u17c1\u1780\u179c\u17b7\u1791\u17d2\u1799\u17b6\u1791\u17c6\u1793\u17be\u1794 \u1791\u17b6\u1793\u17cb\u179f\u1798\u17d0\u1799\u17d4 \u1798\u1780\u178a\u179b\u17cb\u1794\u1785\u17d2\u1785\u17bb\u1794\u17d2\u1794\u1793\u17d2\u1793 \u1793\u17b7\u1784\u17b1\u1780\u17b6\u179f\u179c\u17b7\u1793\u17b7\u1799\u17c4\u1782\u17c4\u1793\u17c5\u1780\u1798\u17d2\u1796\u17bb\u1787\u17b6\u1798\u17b6\u1793\u1797\u17b6\u1796\u179b\u17d2\u17a2\u1794\u17d2\u179a\u179f\u17be\u179a \u178a\u17c4\u1799\u179f\u17b6\u179a\u1780\u1798\u17d2\u1796\u17bb\u1787\u17b6\u1798\u17b6\u1793\u179f\u1798\u178f\u17d2\u1790\u1797\u17b6\u1796\u17a2\u17b6\u1785\u1782\u17d2\u179a\u1794\u17cb\u1782\u17d2\u179a\u1784\u1794\u17b6\u1793\u1793\u17bc\u179c\u1780\u17b6\u179a\u1786\u17d2\u179b\u1784\u179a\u17b6\u179b\u178a\u17b6\u179b\u1793\u17c3\u1787\u17c6\u1784\u17ba\u1780\u17bc\u179c\u17b8\u178a-\u17e1\u17e9\u17d4",
+    "found_in_queries": 1,
+    "country": "cambodia",
+    "final_url": "https://freshnews.com.kh",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.95,
+      "site_type": "not_job_site",
+      "reason": "The website is a news portal focused on breaking news in Cambodia, with categories like 'Cambodia', 'World', and 'Business'. No job listings, job search features, or career-related sections are present.",
+      "features_found": [
+        "news_categories",
+        "ads_banners",
+        "social_media_links",
+        "country_specific_content"
+      ]
+    }
+  },
+  {
+    "url": "https://cdc.gov.kh",
+    "domain": "cdc.gov.kh",
+    "name": "\u1787\u17c6\u1793\u17bd\u1794\u1796\u17b7\u1797\u17b6\u1780\u17d2\u179f\u17b6\u1780\u17b6\u179a\u1784\u17b6\u179a\u179c\u17b6\u1784\u17af\u1780\u17a7\u178f\u17d2\u178f\u1798\u17a7\u1794\u1793\u17b6\u1799\u1780 ...",
+    "snippet": "\u1787\u17c6\u1793\u17bd\u1794\u1796\u17b7\u1797\u17b6\u1780\u17d2\u179f\u17b6\u1780\u17b6\u179a\u1784\u17b6\u179a\u179c\u17b6\u1784\u17af\u1780\u17a7\u178f\u17d2\u178f\u1798\u17a7\u1794\u1793\u17b6\u1799\u1780\u179a\u178a\u17d2\u178b\u1798\u1793\u17d2\u178f\u17d2\u179a\u17b8 \u1793\u17b7\u1784\u1793\u17b6\u1799\u1780\u1782\u17d2\u179a\u1794\u17cb\u1782\u17d2\u179a\u1784\u1795\u17d2\u179f\u17b6\u179a\u1791\u17c6\u1793\u17be\u1794\u17a2\u17ca\u17b8\u17a2\u1793\u1798\u17c9\u179b \u178a\u17be\u1798\u17d2\u1794\u17b8\u1796\u17b7\u1797\u17b6\u1780\u17d2\u179f\u17b6\u17a2\u17c6\u1796\u17b8\u1780\u17b7\u1785\u17d2\u1785\u1780\u17b6\u179a\u1784\u17b6\u179a\u179c\u17b7\u1793\u17b7\u1799\u17c4\u1782\u179a\u1794\u179f\u17cb\u1780\u17d2\u179a\u17bb\u1798\u17a0\u17ca\u17bb\u1793 AEON Mall \u1793\u17c5\u1780\u1798\u17d2\u1796\u17bb\u1787\u17b6. \u17bb\u1798\u1794\u17d2\u179a\u17b9\u1780\u17d2\u179f\u17b6\u17a2\u1797\u17b7\u179c\u178c\u17d2\u178d\u1793\u17cd\u1780\u1798\u17d2\u1796\u17bb\u1787\u17b6\u17d6 \u1793\u17b6\u179a\u179f\u17c0\u179b\u1790\u17d2\u1784\u17c3\u1796\u17d2\u179a\u17a0\u179f\u17d2\u1794\u178f\u17b7\u17cd \u17e7\u179a\u17c4\u1785 \u1781\u17c2\u1794\u17bb\u179f\u17d2\u179f \u1786\u17d2\u1793\u17b6\u17c6\u1790\u17c4\u17c7 \u1794\u1789\u17d2\u1785\u179f\u17d0\u1780 \u1796.",
+    "found_in_queries": 1,
+    "country": "cambodia",
+    "final_url": "https://cdc.gov.kh",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.6,
+      "site_type": "not_job_site",
+      "reason": "The website is officially named 'The Council for the Development of Cambodia (CDC)' and appears to be a government/development organization rather than a job portal. No job listing features, search bars, or career sections were found in the provided HTML.",
+      "features_found": []
+    }
+  }
+]

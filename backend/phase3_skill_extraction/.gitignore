@@ -1,0 +1,35 @@
+# Model outputs (too large for git)
+qwen3-job-extraction/
+fine_tuned/qwen3-job-extraction/
+qwen3-coder-job-extraction/
+fine_tuned/qwen3-coder-job-extraction/
+*.safetensors
+*.bin
+checkpoint-*/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Environment
+.env
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Unsloth auto-generated compiled cache (regenerated at runtime)
+unsloth_compiled_cache/

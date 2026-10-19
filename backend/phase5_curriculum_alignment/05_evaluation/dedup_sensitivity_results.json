@@ -1,0 +1,4303 @@
+{
+ "generated_by": "05_evaluation/dedup_sensitivity.py",
+ "config": {
+  "model": "BAAI/bge-base-en-v1.5",
+  "dataset": "stage2_result.json",
+  "top_n": 30,
+  "thresholds": {
+   "covered": 0.7368,
+   "borderline": 0.6903,
+   "host_min": 0.6903
+  },
+  "min_skill_freq": 2,
+  "locked_check": "PASSED"
+ },
+ "cleaning_funnel": {
+  "n_raw": 4876,
+  "kept": 4174,
+  "skipped_khmer": 630,
+  "dropped_non_job": 2,
+  "skipped_non_english": 51,
+  "dropped_duplicate": 19,
+  "it_segment": 254
+ },
+ "data_scope": {
+  "crawl_day": "2026-07-15",
+  "per_site": [
+   {
+    "site": "bongthom.com",
+    "n": 204,
+    "dated": 153,
+    "no_date": 51,
+    "unparsed": 0,
+    "field": "closing date",
+    "min": "2026-07-08",
+    "median": "2026-07-23",
+    "max": "2026-08-13",
+    "within_30d": 29,
+    "after_crawl": 124
+   },
+   {
+    "site": "cambojob.com",
+    "n": 160,
+    "dated": 159,
+    "no_date": 1,
+    "unparsed": 0,
+    "field": "posting date (site does not expire adverts)",
+    "min": "2021-05-21",
+    "median": "2023-12-11",
+    "max": "2026-07-14",
+    "within_30d": 14,
+    "after_crawl": 0
+   },
+   {
+    "site": "camhr.com",
+    "n": 1562,
+    "dated": 1562,
+    "no_date": 0,
+    "unparsed": 0,
+    "field": "posting date",
+    "min": "2025-05-24",
+    "median": "2026-06-30",
+    "max": "2026-07-15",
+    "within_30d": 1532,
+    "after_crawl": 0
+   },
+   {
+    "site": "camupjob.com",
+    "n": 676,
+    "dated": 15,
+    "no_date": 656,
+    "unparsed": 5,
+    "field": "mostly absent",
+    "min": "2020-10-25",
+    "median": "2026-06-25",
+    "max": "2026-10-25",
+    "within_30d": 2,
+    "after_crawl": 6
+   },
+   {
+    "site": "hrincjobs.com",
+    "n": 140,
+    "dated": 87,
+    "no_date": 52,
+    "unparsed": 1,
+    "field": "closing date",
+    "min": "2026-07-16",
+    "median": "2026-07-25",
+    "max": "2026-08-13",
+    "within_30d": 0,
+    "after_crawl": 87
+   },
+   {
+    "site": "jobify.works",
+    "n": 25,
+    "dated": 25,
+    "no_date": 0,
+    "unparsed": 0,
+    "field": "posting date",
+    "min": "2026-01-14",
+    "median": "2026-05-29",
+    "max": "2026-07-13",
+    "within_30d": 8,
+    "after_crawl": 0
+   },
+   {
+    "site": "jobnet.com.kh",
+    "n": 975,
+    "dated": 17,
+    "no_date": 525,
+    "unparsed": 433,
+    "field": "mostly absent / relative ('1 week ago')",
+    "min": "2025-07-16",
+    "median": "2026-03-23",
+    "max": "2026-07-06",
+    "within_30d": 3,
+    "after_crawl": 0
+   },
+   {
+    "site": "workingna.com",
+    "n": 432,
+    "dated": 432,
+    "no_date": 0,
+    "unparsed": 0,
+    "field": "posting date",
+    "min": "2026-06-15",
+    "median": "2026-06-29",
+    "max": "2026-07-14",
+    "within_30d": 432,
+    "after_crawl": 0
+   }
+  ],
+  "posting_date_window": {
+   "sites": [
+    "cambojob.com",
+    "camhr.com",
+    "jobify.works",
+    "workingna.com"
+   ],
+   "dated": 2178,
+   "within_30d": 1986,
+   "within_90d": 2024,
+   "older_than_1y": 116,
+   "median": "2026-06-30"
+  }
+ },
+ "duplicate_audit": {
+  "n_segment": 254,
+  "n_title_employer_keys": 236,
+  "repeat_groups": 15,
+  "repeat_records": 33,
+  "cross_site_groups": 1,
+  "cross_site_records": 2,
+  "cross_site_examples": [
+   {
+    "title": "cem platform engineer",
+    "employer": "huawei technologies cambodia co ltd",
+    "records": [
+     {
+      "site": "camhr.com",
+      "posted_date": "25-06-2026",
+      "url": "https://www.camhr.com/a/job/10663702"
+     },
+     {
+      "site": "jobnet.com.kh",
+      "posted_date": "22",
+      "url": "https://www.jobnet.com.kh/job/cem-platform-engineer-huawei-technologies-cambodia-co-ltd/4783"
+     }
+    ]
+   }
+  ],
+  "same_site_examples": [
+   {
+    "title": "management information system executive",
+    "employer": "premium care business consulting",
+    "records": [
+     {
+      "site": "camhr.com",
+      "posted_date": "2026-07-15",
+      "url": "https://www.camhr.com/a/job/10665785"
+     },
+     {
+      "site": "camhr.com",
+      "posted_date": "Jun-23-2026",
+      "url": "https://www.camhr.com/a/job/10663406?title=Management+Information+System+Executive+%7C+%28%24300+-+%24400%29+-+%28Khan+Chamkamorn%29+-+%28Icon+Building%29"
+     }
+    ]
+   },
+   {
+    "title": "it sales executive",
+    "employer": "premium care business consulting",
+    "records": [
+     {
+      "site": "camhr.com",
+      "posted_date": "15-07-2026",
+      "url": "https://www.camhr.com/a/job/10665780"
+     },
+     {
+      "site": "camhr.com",
+      "posted_date": "Jun-19-2026",
+      "url": "https://www.camhr.com/a/job/10663070?title=IT+Sales+Executive+-+%28%24250-%24350%29+-+Independent+Monument+Area"
+     }
+    ]
+   },
+   {
+    "title": "senior it",
+    "employer": "premium care business consulting",
+    "records": [
+     {
+      "site": "camhr.com",
+      "posted_date": "15-07-2026",
+      "url": "https://www.camhr.com/a/job/10665775"
+     },
+     {
+      "site": "camhr.com",
+      "posted_date": "Jun-19-2026",
+      "url": "https://www.camhr.com/a/job/10663071?title=Senior+IT+%7C+%28Negotiable%29+-+Sen+Sok"
+     },
+     {
+      "site": "camhr.com",
+      "posted_date": "Jun-21-2026",
+      "url": "https://www.camhr.com/a/job/10663184?title=Senior+IT+-+%28%24400+-+%24800%29+-+Toul+Tumpong"
+     },
+     {
+      "site": "camhr.com",
+      "posted_date": "2026-06-21",
+      "url": "https://www.camhr.com/a/job/10663184"
+     }
+    ]
+   },
+   {
+    "title": "business intelligence executive",
+    "employer": "essilorluxottica",
+    "records": [
+     {
+      "site": "camhr.com",
+      "posted_date": "13-07-2026",
+      "url": "https://www.camhr.com/a/job/10665528?title=Business+Intelligence+Executive+%28800%24-1000%24%29"
+     },
+     {
+      "site": "camhr.com",
+      "posted_date": "13-07-2026",
+      "url": "https://www.camhr.com/a/job/10665528"
+     }
+    ]
+   },
+   {
+    "title": "project leader on e commerce app",
+    "employer": "premium care business consulting",
+    "records": [
+     {
+      "site": "camhr.com",
+      "posted_date": "Jun-21-2026",
+      "url": "https://www.camhr.com/a/job/10663205?title=Project+Leader+on+E-commerce+%2F+App+%7C+%28%24900+-+%241000%29+-+Steung+Mean+Chey"
+     },
+     {
+      "site": "camhr.com",
+      "posted_date": "2026-06-21",
+      "url": "https://www.camhr.com/a/job/10663205"
+     }
+    ]
+   },
+   {
+    "title": "product specialist",
+    "employer": "premium care business consulting",
+    "records": [
+     {
+      "site": "camhr.com",
+      "posted_date": "Jun-21-2026",
+      "url": "https://www.camhr.com/a/job/10663216?title=Product+Specialist+%7C+%28%24250-%24300%29+-+Toul+Kork"
+     },
+     {
+      "site": "camhr.com",
+      "posted_date": "21-06-2026",
+      "url": "https://www.camhr.com/a/job/10663216"
+     }
+    ]
+   },
+   {
+    "title": "product manager",
+    "employer": "premium care business consulting",
+    "records": [
+     {
+      "site": "camhr.com",
+      "posted_date": "Jun-23-2026",
+      "url": "https://www.camhr.com/a/job/10663370?title=Product+Manager+%7C+%28%24300+-+%24350%29+-+Toul+Kork+Area"
+     },
+     {
+      "site": "camhr.com",
+      "posted_date": "23-06-2026",
+      "url": "https://www.camhr.com/a/job/10663370"
+     }
+    ]
+   },
+   {
+    "title": "senior business development manager",
+    "employer": "premium care business consulting",
+    "records": [
+     {
+      "site": "camhr.com",
+      "posted_date": "13-07-2026",
+      "url": "https://www.camhr.com/a/job/10665447"
+     },
+     {
+      "site": "camhr.com",
+      "posted_date": "10-07-2026",
+      "url": "https://www.camhr.com/a/job/10665229"
+     },
+     {
+      "site": "camhr.com",
+      "posted_date": "21-06-2026",
+      "url": "https://www.camhr.com/a/job/10663194"
+     }
+    ]
+   },
+   {
+    "title": "quality assurance manager",
+    "employer": "reef asia",
+    "records": [
+     {
+      "site": "hrincjobs.com",
+      "posted_date": "",
+      "url": "https://www.hrincjobs.com/job-detail/26948"
+     },
+     {
+      "site": "hrincjobs.com",
+      "posted_date": "",
+      "url": "https://www.hrincjobs.com/job-detail/26851"
+     }
+    ]
+   },
+   {
+    "title": "it manager",
+    "employer": "hrinc cambodia co ltd",
+    "records": [
+     {
+      "site": "hrincjobs.com",
+      "posted_date": "22-07-2026",
+      "url": "https://www.hrincjobs.com/job-detail/26852"
+     },
+     {
+      "site": "hrincjobs.com",
+      "posted_date": "22-07-2026",
+      "url": "https://www.hrincjobs.com/job-detail/26889"
+     }
+    ]
+   },
+   {
+    "title": "frontend engineer enterprise core systems",
+    "employer": "jobify",
+    "records": [
+     {
+      "site": "jobify.works",
+      "posted_date": "15-05-2026",
+      "url": "https://jobify.works/jobs/1244"
+     },
+     {
+      "site": "jobify.works",
+      "posted_date": "15-05-2026",
+      "url": "https://jobify.works/jobs/1245"
+     }
+    ]
+   },
+   {
+    "title": "senior technical account management specialist",
+    "employer": "smart axiata co ltd",
+    "records": [
+     {
+      "site": "jobnet.com.kh",
+      "posted_date": "1 week ago",
+      "url": "https://www.jobnet.com.kh/job/senior-technical-account-management-specialist-smart-axiata-co-ltd/1071"
+     },
+     {
+      "site": "jobnet.com.kh",
+      "posted_date": "1 week ago",
+      "url": "https://www.jobnet.com.kh/job/senior-technical-account-management-specialist-smart-axiata-co-ltd/433"
+     }
+    ]
+   },
+   {
+    "title": "assistant manager it security",
+    "employer": "ppc bank",
+    "records": [
+     {
+      "site": "jobnet.com.kh",
+      "posted_date": "",
+      "url": "https://www.jobnet.com.kh/job/assistant-manager-it-security-ppc-bank/1898"
+     },
+     {
+      "site": "jobnet.com.kh",
+      "posted_date": "",
+      "url": "https://www.jobnet.com.kh/job/assistant-manager-it-security-ppc-bank/2088"
+     }
+    ]
+   },
+   {
+    "title": "enterprise mobility big data proposition manager",
+    "employer": "smart axiata co ltd",
+    "records": [
+     {
+      "site": "jobnet.com.kh",
+      "posted_date": "1 week ago",
+      "url": "https://www.jobnet.com.kh/job/enterprise-mobility-and-big-data-proposition-manager-smart-axiata-co-ltd/1073"
+     },
+     {
+      "site": "jobnet.com.kh",
+      "posted_date": "1 week ago",
+      "url": "https://www.jobnet.com.kh/job/enterprise-mobility-and-big-data-proposition-manager-smart-axiata-co-ltd/432"
+     }
+    ]
+   }
+  ]
+ },
+ "variants": {
+  "locked": {
+   "n_jobs": 254,
+   "n_skills": 622,
+   "n_technical": 574,
+   "cohorts": {
+    "Y3": {
+     "top_n": 30,
+     "covered": 12,
+     "borderline": 5,
+     "gap": 13,
+     "coverage_rate": 0.4,
+     "demand_weighted_coverage": 0.4494,
+     "demand_weighted_coverage_half_credit": 0.5216,
+     "top_n_job_mentions": 741,
+     "demand_mass_captured": 0.2595,
+     "min_jobs_at_rank_n": 16,
+     "kl": 0.381,
+     "n_recommended": 12,
+     "kl_after_plan": 0.3513,
+     "skills": [
+      {
+       "skill": "technical documentation",
+       "jobs": 49,
+       "score": 0.7832,
+       "status": "covered"
+      },
+      {
+       "skill": "database management",
+       "jobs": 42,
+       "score": 0.9065,
+       "status": "covered"
+      },
+      {
+       "skill": "java programming",
+       "jobs": 41,
+       "score": 0.8747,
+       "status": "covered"
+      },
+      {
+       "skill": "project management",
+       "jobs": 37,
+       "score": 0.6462,
+       "status": "gap"
+      },
+      {
+       "skill": "network troubleshooting",
+       "jobs": 35,
+       "score": 1.0,
+       "status": "covered"
+      },
+      {
+       "skill": "system maintenance",
+       "jobs": 34,
+       "score": 0.8223,
+       "status": "covered"
+      },
+      {
+       "skill": "mysql database",
+       "jobs": 30,
+       "score": 0.7073,
+       "status": "borderline"
+      },
+      {
+       "skill": "restful api development",
+       "jobs": 28,
+       "score": 0.6524,
+       "status": "gap"
+      },
+      {
+       "skill": "postgresql database",
+       "jobs": 27,
+       "score": 0.6645,
+       "status": "gap"
+      },
+      {
+       "skill": "technical support",
+       "jobs": 27,
+       "score": 0.6884,
+       "status": "gap"
+      },
+      {
+       "skill": "ci/cd pipelines",
+       "jobs": 26,
+       "score": 0.6331,
+       "status": "gap"
+      },
+      {
+       "skill": "docker containerization",
+       "jobs": 24,
+       "score": 0.6125,
+       "status": "gap"
+      },
+      {
+       "skill": "git version control",
+       "jobs": 24,
+       "score": 0.6521,
+       "status": "gap"
+      },
+      {
+       "skill": "firewall configuration",
+       "jobs": 23,
+       "score": 1.0,
+       "status": "covered"
+      },
+      {
+       "skill": "security compliance",
+       "jobs": 23,
+       "score": 0.7151,
+       "status": "borderline"
+      },
+      {
+       "skill": "server management",
+       "jobs": 21,
+       "score": 0.7646,
+       "status": "covered"
+      },
+      {
+       "skill": "aws cloud platforms",
+       "jobs": 19,
+       "score": 0.606,
+       "status": "gap"
+      },
+      {
+       "skill": "incident response",
+       "jobs": 19,
+       "score": 0.6516,
+       "status": "gap"
+      },
+      {
+       "skill": "security monitoring",
+       "jobs": 19,
+       "score": 0.6979,
+       "status": "borderline"
+      },
+      {
+       "skill": "api integration",
+       "jobs": 18,
+       "score": 0.6695,
+       "status": "gap"
+      },
+      {
+       "skill": "code reviews",
+       "jobs": 18,
+       "score": 0.6802,
+       "status": "gap"
+      },
+      {
+       "skill": "data analysis",
+       "jobs": 18,
+       "score": 1.0,
+       "status": "covered"
+      },
+      {
+       "skill": "it infrastructure management",
+       "jobs": 18,
+       "score": 0.7634,
+       "status": "covered"
+      },
+      {
+       "skill": "microsoft office proficiency",
+       "jobs": 18,
+       "score": 0.6375,
+       "status": "gap"
+      },
+      {
+       "skill": "software development",
+       "jobs": 18,
+       "score": 0.7379,
+       "status": "covered"
+      },
+      {
+       "skill": "system integration",
+       "jobs": 18,
+       "score": 0.7595,
+       "status": "covered"
+      },
+      {
+       "skill": "vmware virtualization",
+       "jobs": 18,
+       "score": 0.7184,
+       "status": "borderline"
+      },
+      {
+       "skill": "performance tuning",
+       "jobs": 17,
+       "score": 0.7038,
+       "status": "borderline"
+      },
+      {
+       "skill": "disaster recovery planning",
+       "jobs": 16,
+       "score": 0.6492,
+       "status": "gap"
+      },
+      {
+       "skill": "network administration",
+       "jobs": 16,
+       "score": 0.8362,
+       "status": "covered"
+      }
+     ],
+     "boundary_tie": {
+      "boundary_jobs": 16,
+      "n_tied": 4,
+      "n_tied_inside": 2,
+      "n_resolutions": 6,
+      "tied_skills": [
+       "disaster recovery planning",
+       "network administration",
+       "process improvement",
+       "system testing"
+      ],
+      "covered_range": [
+       11,
+       12
+      ],
+      "dwc_range": [
+       0.4278,
+       0.4494
+      ]
+     },
+     "n_courses": 9
+    },
+    "Y4": {
+     "top_n": 30,
+     "covered": 16,
+     "borderline": 7,
+     "gap": 7,
+     "coverage_rate": 0.5333,
+     "demand_weighted_coverage": 0.5142,
+     "demand_weighted_coverage_half_credit": 0.6282,
+     "top_n_job_mentions": 741,
+     "demand_mass_captured": 0.2595,
+     "min_jobs_at_rank_n": 16,
+     "kl": 0.3771,
+     "n_recommended": 10,
+     "kl_after_plan": 0.3491,
+     "skills": [
+      {
+       "skill": "technical documentation",
+       "jobs": 49,
+       "score": 0.6892,
+       "status": "gap"
+      },
+      {
+       "skill": "database management",
+       "jobs": 42,
+       "score": 0.8585,
+       "status": "covered"
+      },
+      {
+       "skill": "java programming",
+       "jobs": 41,
+       "score": 0.6793,
+       "status": "gap"
+      },
+      {
+       "skill": "project management",
+       "jobs": 37,
+       "score": 0.7044,
+       "status": "borderline"
+      },
+      {
+       "skill": "network troubleshooting",
+       "jobs": 35,
+       "score": 1.0,
+       "status": "covered"
+      },
+      {
+       "skill": "system maintenance",
+       "jobs": 34,
+       "score": 0.7892,
+       "status": "covered"
+      },
+      {
+       "skill": "mysql database",
+       "jobs": 30,
+       "score": 0.7091,
+       "status": "borderline"
+      },
+      {
+       "skill": "restful api development",
+       "jobs": 28,
+       "score": 0.7598,
+       "status": "covered"
+      },
+      {
+       "skill": "postgresql database",
+       "jobs": 27,
+       "score": 0.6713,
+       "status": "gap"
+      },
+      {
+       "skill": "technical support",
+       "jobs": 27,
+       "score": 0.6957,
+       "status": "borderline"
+      },
+      {
+       "skill": "ci/cd pipelines",
+       "jobs": 26,
+       "score": 0.9634,
+       "status": "covered"
+      },
+      {
+       "skill": "docker containerization",
+       "jobs": 24,
+       "score": 0.8844,
+       "status": "covered"
+      },
+      {
+       "skill": "git version control",
+       "jobs": 24,
+       "score": 0.8162,
+       "status": "covered"
+      },
+      {
+       "skill": "firewall configuration",
+       "jobs": 23,
+       "score": 0.8472,
+       "status": "covered"
+      },
+      {
+       "skill": "security compliance",
+       "jobs": 23,
+       "score": 0.7336,
+       "status": "borderline"
+      },
+      {
+       "skill": "server management",
+       "jobs": 21,
+       "score": 0.8182,
+       "status": "covered"
+      },
+      {
+       "skill": "aws cloud platforms",
+       "jobs": 19,
+       "score": 0.6773,
+       "status": "gap"
+      },
+      {
+       "skill": "incident response",
+       "jobs": 19,
+       "score": 0.6816,
+       "status": "gap"
+      },
+      {
+       "skill": "security monitoring",
+       "jobs": 19,
+       "score": 0.862,
+       "status": "covered"
+      },
+      {
+       "skill": "api integration",
+       "jobs": 18,
+       "score": 0.8259,
+       "status": "covered"
+      },
+      {
+       "skill": "code reviews",
+       "jobs": 18,
+       "score": 0.6703,
+       "status": "gap"
+      },
+      {
+       "skill": "data analysis",
+       "jobs": 18,
+       "score": 0.7043,
+       "status": "borderline"
+      },
+      {
+       "skill": "it infrastructure management",
+       "jobs": 18,
+       "score": 0.8113,
+       "status": "covered"
+      },
+      {
+       "skill": "microsoft office proficiency",
+       "jobs": 18,
+       "score": 0.6032,
+       "status": "gap"
+      },
+      {
+       "skill": "software development",
+       "jobs": 18,
+       "score": 0.7199,
+       "status": "borderline"
+      },
+      {
+       "skill": "system integration",
+       "jobs": 18,
+       "score": 0.818,
+       "status": "covered"
+      },
+      {
+       "skill": "vmware virtualization",
+       "jobs": 18,
+       "score": 0.9394,
+       "status": "covered"
+      },
+      {
+       "skill": "performance tuning",
+       "jobs": 17,
+       "score": 0.7645,
+       "status": "covered"
+      },
+      {
+       "skill": "disaster recovery planning",
+       "jobs": 16,
+       "score": 0.6978,
+       "status": "borderline"
+      },
+      {
+       "skill": "network administration",
+       "jobs": 16,
+       "score": 0.8906,
+       "status": "covered"
+      }
+     ],
+     "boundary_tie": {
+      "boundary_jobs": 16,
+      "n_tied": 4,
+      "n_tied_inside": 2,
+      "n_resolutions": 6,
+      "tied_skills": [
+       "disaster recovery planning",
+       "network administration",
+       "process improvement",
+       "system testing"
+      ],
+      "covered_range": [
+       15,
+       17
+      ],
+      "dwc_range": [
+       0.4926,
+       0.5358
+      ]
+     },
+     "n_courses": 8
+    },
+    "Y5": {
+     "top_n": 30,
+     "covered": 17,
+     "borderline": 5,
+     "gap": 8,
+     "coverage_rate": 0.5667,
+     "demand_weighted_coverage": 0.5628,
+     "demand_weighted_coverage_half_credit": 0.6457,
+     "top_n_job_mentions": 741,
+     "demand_mass_captured": 0.2595,
+     "min_jobs_at_rank_n": 16,
+     "kl": 0.3768,
+     "n_recommended": 9,
+     "kl_after_plan": 0.3523,
+     "skills": [
+      {
+       "skill": "technical documentation",
+       "jobs": 49,
+       "score": 0.669,
+       "status": "gap"
+      },
+      {
+       "skill": "database management",
+       "jobs": 42,
+       "score": 0.9065,
+       "status": "covered"
+      },
+      {
+       "skill": "java programming",
+       "jobs": 41,
+       "score": 0.7437,
+       "status": "covered"
+      },
+      {
+       "skill": "project management",
+       "jobs": 37,
+       "score": 0.8697,
+       "status": "covered"
+      },
+      {
+       "skill": "network troubleshooting",
+       "jobs": 35,
+       "score": 0.771,
+       "status": "covered"
+      },
+      {
+       "skill": "system maintenance",
+       "jobs": 34,
+       "score": 0.7117,
+       "status": "borderline"
+      },
+      {
+       "skill": "mysql database",
+       "jobs": 30,
+       "score": 0.7834,
+       "status": "covered"
+      },
+      {
+       "skill": "restful api development",
+       "jobs": 28,
+       "score": 0.6793,
+       "status": "gap"
+      },
+      {
+       "skill": "postgresql database",
+       "jobs": 27,
+       "score": 0.7172,
+       "status": "borderline"
+      },
+      {
+       "skill": "technical support",
+       "jobs": 27,
+       "score": 0.6825,
+       "status": "gap"
+      },
+      {
+       "skill": "ci/cd pipelines",
+       "jobs": 26,
+       "score": 0.693,
+       "status": "borderline"
+      },
+      {
+       "skill": "docker containerization",
+       "jobs": 24,
+       "score": 0.8915,
+       "status": "covered"
+      },
+      {
+       "skill": "git version control",
+       "jobs": 24,
+       "score": 0.6393,
+       "status": "gap"
+      },
+      {
+       "skill": "firewall configuration",
+       "jobs": 23,
+       "score": 0.8325,
+       "status": "covered"
+      },
+      {
+       "skill": "security compliance",
+       "jobs": 23,
+       "score": 1.0,
+       "status": "covered"
+      },
+      {
+       "skill": "server management",
+       "jobs": 21,
+       "score": 0.7559,
+       "status": "covered"
+      },
+      {
+       "skill": "aws cloud platforms",
+       "jobs": 19,
+       "score": 0.8243,
+       "status": "covered"
+      },
+      {
+       "skill": "incident response",
+       "jobs": 19,
+       "score": 0.6579,
+       "status": "gap"
+      },
+      {
+       "skill": "security monitoring",
+       "jobs": 19,
+       "score": 0.8316,
+       "status": "covered"
+      },
+      {
+       "skill": "api integration",
+       "jobs": 18,
+       "score": 0.6514,
+       "status": "gap"
+      },
+      {
+       "skill": "code reviews",
+       "jobs": 18,
+       "score": 0.6716,
+       "status": "gap"
+      },
+      {
+       "skill": "data analysis",
+       "jobs": 18,
+       "score": 0.7899,
+       "status": "covered"
+      },
+      {
+       "skill": "it infrastructure management",
+       "jobs": 18,
+       "score": 0.7454,
+       "status": "covered"
+      },
+      {
+       "skill": "microsoft office proficiency",
+       "jobs": 18,
+       "score": 0.6139,
+       "status": "gap"
+      },
+      {
+       "skill": "software development",
+       "jobs": 18,
+       "score": 0.7069,
+       "status": "borderline"
+      },
+      {
+       "skill": "system integration",
+       "jobs": 18,
+       "score": 0.7137,
+       "status": "borderline"
+      },
+      {
+       "skill": "vmware virtualization",
+       "jobs": 18,
+       "score": 0.894,
+       "status": "covered"
+      },
+      {
+       "skill": "performance tuning",
+       "jobs": 17,
+       "score": 0.7395,
+       "status": "covered"
+      },
+      {
+       "skill": "disaster recovery planning",
+       "jobs": 16,
+       "score": 1.0,
+       "status": "covered"
+      },
+      {
+       "skill": "network administration",
+       "jobs": 16,
+       "score": 0.7542,
+       "status": "covered"
+      }
+     ],
+     "boundary_tie": {
+      "boundary_jobs": 16,
+      "n_tied": 4,
+      "n_tied_inside": 2,
+      "n_resolutions": 6,
+      "tied_skills": [
+       "disaster recovery planning",
+       "network administration",
+       "process improvement",
+       "system testing"
+      ],
+      "covered_range": [
+       16,
+       17
+      ],
+      "dwc_range": [
+       0.5412,
+       0.5628
+      ]
+     },
+     "n_courses": 8
+    },
+    "Y3+Y4+Y5": {
+     "top_n": 30,
+     "covered": 25,
+     "borderline": 2,
+     "gap": 3,
+     "coverage_rate": 0.8333,
+     "demand_weighted_coverage": 0.8529,
+     "demand_weighted_coverage_half_credit": 0.8893,
+     "top_n_job_mentions": 741,
+     "demand_mass_captured": 0.2595,
+     "min_jobs_at_rank_n": 16,
+     "kl": 0.3689,
+     "n_recommended": 4,
+     "kl_after_plan": 0.3605,
+     "skills": [
+      {
+       "skill": "technical documentation",
+       "jobs": 49,
+       "score": 0.7832,
+       "status": "covered"
+      },
+      {
+       "skill": "database management",
+       "jobs": 42,
+       "score": 0.9065,
+       "status": "covered"
+      },
+      {
+       "skill": "java programming",
+       "jobs": 41,
+       "score": 0.8747,
+       "status": "covered"
+      },
+      {
+       "skill": "project management",
+       "jobs": 37,
+       "score": 0.8697,
+       "status": "covered"
+      },
+      {
+       "skill": "network troubleshooting",
+       "jobs": 35,
+       "score": 1.0,
+       "status": "covered"
+      },
+      {
+       "skill": "system maintenance",
+       "jobs": 34,
+       "score": 0.8223,
+       "status": "covered"
+      },
+      {
+       "skill": "mysql database",
+       "jobs": 30,
+       "score": 0.7834,
+       "status": "covered"
+      },
+      {
+       "skill": "restful api development",
+       "jobs": 28,
+       "score": 0.7598,
+       "status": "covered"
+      },
+      {
+       "skill": "postgresql database",
+       "jobs": 27,
+       "score": 0.7172,
+       "status": "borderline"
+      },
+      {
+       "skill": "technical support",
+       "jobs": 27,
+       "score": 0.6957,
+       "status": "borderline"
+      },
+      {
+       "skill": "ci/cd pipelines",
+       "jobs": 26,
+       "score": 0.9634,
+       "status": "covered"
+      },
+      {
+       "skill": "docker containerization",
+       "jobs": 24,
+       "score": 0.8915,
+       "status": "covered"
+      },
+      {
+       "skill": "git version control",
+       "jobs": 24,
+       "score": 0.8162,
+       "status": "covered"
+      },
+      {
+       "skill": "firewall configuration",
+       "jobs": 23,
+       "score": 1.0,
+       "status": "covered"
+      },
+      {
+       "skill": "security compliance",
+       "jobs": 23,
+       "score": 1.0,
+       "status": "covered"
+      },
+      {
+       "skill": "server management",
+       "jobs": 21,
+       "score": 0.8182,
+       "status": "covered"
+      },
+      {
+       "skill": "aws cloud platforms",
+       "jobs": 19,
+       "score": 0.8243,
+       "status": "covered"
+      },
+      {
+       "skill": "incident response",
+       "jobs": 19,
+       "score": 0.6816,
+       "status": "gap"
+      },
+      {
+       "skill": "security monitoring",
+       "jobs": 19,
+       "score": 0.862,
+       "status": "covered"
+      },
+      {
+       "skill": "api integration",
+       "jobs": 18,
+       "score": 0.8259,
+       "status": "covered"
+      },
+      {
+       "skill": "code reviews",
+       "jobs": 18,
+       "score": 0.6802,
+       "status": "gap"
+      },
+      {
+       "skill": "data analysis",
+       "jobs": 18,
+       "score": 1.0,
+       "status": "covered"
+      },
+      {
+       "skill": "it infrastructure management",
+       "jobs": 18,
+       "score": 0.8113,
+       "status": "covered"
+      },
+      {
+       "skill": "microsoft office proficiency",
+       "jobs": 18,
+       "score": 0.6375,
+       "status": "gap"
+      },
+      {
+       "skill": "software development",
+       "jobs": 18,
+       "score": 0.7379,
+       "status": "covered"
+      },
+      {
+       "skill": "system integration",
+       "jobs": 18,
+       "score": 0.818,
+       "status": "covered"
+      },
+      {
+       "skill": "vmware virtualization",
+       "jobs": 18,
+       "score": 0.9394,
+       "status": "covered"
+      },
+      {
+       "skill": "performance tuning",
+       "jobs": 17,
+       "score": 0.7645,
+       "status": "covered"
+      },
+      {
+       "skill": "disaster recovery planning",
+       "jobs": 16,
+       "score": 1.0,
+       "status": "covered"
+      },
+      {
+       "skill": "network administration",
+       "jobs": 16,
+       "score": 0.8906,
+       "status": "covered"
+      }
+     ],
+     "boundary_tie": {
+      "boundary_jobs": 16,
+      "n_tied": 4,
+      "n_tied_inside": 2,
+      "n_resolutions": 6,
+      "tied_skills": [
+       "disaster recovery planning",
+       "network administration",
+       "process improvement",
+       "system testing"
+      ],
+      "covered_range": [
+       24,
+       25
+      ],
+      "dwc_range": [
+       0.8313,
+       0.8529
+      ]
+     },
+     "n_courses": 25
+    }
+   },
+   "removed": 0
+  },
+  "refit_locked": {
+   "n_jobs": 254,
+   "n_skills": 622,
+   "n_technical": 576,
+   "cohorts": {
+    "Y3": {
+     "top_n": 30,
+     "covered": 12,
+     "borderline": 4,
+     "gap": 14,
+     "coverage_rate": 0.4,
+     "demand_weighted_coverage": 0.4554,
+     "demand_weighted_coverage_half_credit": 0.5162,
+     "top_n_job_mentions": 740,
+     "demand_mass_captured": 0.2571,
+     "min_jobs_at_rank_n": 16,
+     "kl": 0.3776,
+     "n_recommended": 13,
+     "kl_after_plan": 0.3463,
+     "skills": [
+      {
+       "skill": "technical documentation",
+       "jobs": 49,
+       "score": 0.7832,
+       "status": "covered"
+      },
+      {
+       "skill": "database management",
+       "jobs": 44,
+       "score": 0.9065,
+       "status": "covered"
+      },
+      {
+       "skill": "java programming",
+       "jobs": 41,
+       "score": 0.8747,
+       "status": "covered"
+      },
+      {
+       "skill": "project management",
+       "jobs": 37,
+       "score": 0.6462,
+       "status": "gap"
+      },
+      {
+       "skill": "system maintenance",
+       "jobs": 33,
+       "score": 0.8223,
+       "status": "covered"
+      },
+      {
+       "skill": "network troubleshooting",
+       "jobs": 31,
+       "score": 1.0,
+       "status": "covered"
+      },
+      {
+       "skill": "mysql database",
+       "jobs": 30,
+       "score": 0.7073,
+       "status": "borderline"
+      },
+      {
+       "skill": "restful api development",
+       "jobs": 28,
+       "score": 0.6524,
+       "status": "gap"
+      },
+      {
+       "skill": "postgresql database",
+       "jobs": 27,
+       "score": 0.6645,
+       "status": "gap"
+      },
+      {
+       "skill": "ci/cd pipelines",
+       "jobs": 26,
+       "score": 0.6331,
+       "status": "gap"
+      },
+      {
+       "skill": "security monitoring",
+       "jobs": 25,
+       "score": 0.6979,
+       "status": "borderline"
+      },
+      {
+       "skill": "technical support",
+       "jobs": 25,
+       "score": 0.6884,
+       "status": "gap"
+      },
+      {
+       "skill": "docker containerization",
+       "jobs": 24,
+       "score": 0.6125,
+       "status": "gap"
+      },
+      {
+       "skill": "firewall configuration",
+       "jobs": 23,
+       "score": 1.0,
+       "status": "covered"
+      },
+      {
+       "skill": "git version control",
+       "jobs": 23,
+       "score": 0.6521,
+       "status": "gap"
+      },
+      {
+       "skill": "server management",
+       "jobs": 23,
+       "score": 0.7646,
+       "status": "covered"
+      },
+      {
+       "skill": "it infrastructure management",
+       "jobs": 20,
+       "score": 0.7634,
+       "status": "covered"
+      },
+      {
+       "skill": "incident response",
+       "jobs": 19,
+       "score": 0.6516,
+       "status": "gap"
+      },
+      {
+       "skill": "system integration",
+       "jobs": 19,
+       "score": 0.7595,
+       "status": "covered"
+      },
+      {
+       "skill": "api integration",
+       "jobs": 18,
+       "score": 0.6695,
+       "status": "gap"
+      },
+      {
+       "skill": "aws cloud platforms",
+       "jobs": 18,
+       "score": 0.606,
+       "status": "gap"
+      },
+      {
+       "skill": "code reviews",
+       "jobs": 18,
+       "score": 0.6802,
+       "status": "gap"
+      },
+      {
+       "skill": "data analysis",
+       "jobs": 18,
+       "score": 1.0,
+       "status": "covered"
+      },
+      {
+       "skill": "data security",
+       "jobs": 18,
+       "score": 0.7419,
+       "status": "covered"
+      },
+      {
+       "skill": "software development",
+       "jobs": 18,
+       "score": 0.7379,
+       "status": "covered"
+      },
+      {
+       "skill": "vmware virtualization",
+       "jobs": 18,
+       "score": 0.7184,
+       "status": "borderline"
+      },
+      {
+       "skill": "microsoft office proficiency",
+       "jobs": 17,
+       "score": 0.6375,
+       "status": "gap"
+      },
+      {
+       "skill": "performance tuning",
+       "jobs": 17,
+       "score": 0.7038,
+       "status": "borderline"
+      },
+      {
+       "skill": "vendor management",
+       "jobs": 17,
+       "score": 0.6765,
+       "status": "gap"
+      },
+      {
+       "skill": "cybersecurity best practices",
+       "jobs": 16,
+       "score": 0.6192,
+       "status": "gap"
+      }
+     ],
+     "boundary_tie": {
+      "boundary_jobs": 16,
+      "n_tied": 5,
+      "n_tied_inside": 1,
+      "n_resolutions": 5,
+      "tied_skills": [
+       "cybersecurity best practices",
+       "disaster recovery planning",
+       "network administration",
+       "process improvement",
+       "system testing"
+      ],
+      "covered_range": [
+       12,
+       13
+      ],
+      "dwc_range": [
+       0.4554,
+       0.477
+      ]
+     },
+     "n_courses": 9
+    },
+    "Y4": {
+     "top_n": 30,
+     "covered": 17,
+     "borderline": 6,
+     "gap": 7,
+     "coverage_rate": 0.5667,
+     "demand_weighted_coverage": 0.55,
+     "demand_weighted_coverage_half_credit": 0.6473,
+     "top_n_job_mentions": 740,
+     "demand_mass_captured": 0.2571,
+     "min_jobs_at_rank_n": 16,
+     "kl": 0.3728,
+     "n_recommended": 9,
+     "kl_after_plan": 0.3474,
+     "skills": [
+      {
+       "skill": "technical documentation",
+       "jobs": 49,
+       "score": 0.6892,
+       "status": "gap"
+      },
+      {
+       "skill": "database management",
+       "jobs": 44,
+       "score": 0.8585,
+       "status": "covered"
+      },
+      {
+       "skill": "java programming",
+       "jobs": 41,
+       "score": 0.6793,
+       "status": "gap"
+      },
+      {
+       "skill": "project management",
+       "jobs": 37,
+       "score": 0.7044,
+       "status": "borderline"
+      },
+      {
+       "skill": "system maintenance",
+       "jobs": 33,
+       "score": 0.7892,
+       "status": "covered"
+      },
+      {
+       "skill": "network troubleshooting",
+       "jobs": 31,
+       "score": 1.0,
+       "status": "covered"
+      },
+      {
+       "skill": "mysql database",
+       "jobs": 30,
+       "score": 0.7091,
+       "status": "borderline"
+      },
+      {
+       "skill": "restful api development",
+       "jobs": 28,
+       "score": 0.7598,
+       "status": "covered"
+      },
+      {
+       "skill": "postgresql database",
+       "jobs": 27,
+       "score": 0.6713,
+       "status": "gap"
+      },
+      {
+       "skill": "ci/cd pipelines",
+       "jobs": 26,
+       "score": 0.9634,
+       "status": "covered"
+      },
+      {
+       "skill": "security monitoring",
+       "jobs": 25,
+       "score": 0.862,
+       "status": "covered"
+      },
+      {
+       "skill": "technical support",
+       "jobs": 25,
+       "score": 0.6957,
+       "status": "borderline"
+      },
+      {
+       "skill": "docker containerization",
+       "jobs": 24,
+       "score": 0.8844,
+       "status": "covered"
+      },
+      {
+       "skill": "firewall configuration",
+       "jobs": 23,
+       "score": 0.8472,
+       "status": "covered"
+      },
+      {
+       "skill": "git version control",
+       "jobs": 23,
+       "score": 0.8162,
+       "status": "covered"
+      },
+      {
+       "skill": "server management",
+       "jobs": 23,
+       "score": 0.8182,
+       "status": "covered"
+      },
+      {
+       "skill": "it infrastructure management",
+       "jobs": 20,
+       "score": 0.8113,
+       "status": "covered"
+      },
+      {
+       "skill": "incident response",
+       "jobs": 19,
+       "score": 0.6816,
+       "status": "gap"
+      },
+      {
+       "skill": "system integration",
+       "jobs": 19,
+       "score": 0.818,
+       "status": "covered"
+      },
+      {
+       "skill": "api integration",
+       "jobs": 18,
+       "score": 0.8259,
+       "status": "covered"
+      },
+      {
+       "skill": "aws cloud platforms",
+       "jobs": 18,
+       "score": 0.6773,
+       "status": "gap"
+      },
+      {
+       "skill": "code reviews",
+       "jobs": 18,
+       "score": 0.6703,
+       "status": "gap"
+      },
+      {
+       "skill": "data analysis",
+       "jobs": 18,
+       "score": 0.7043,
+       "status": "borderline"
+      },
+      {
+       "skill": "data security",
+       "jobs": 18,
+       "score": 0.7606,
+       "status": "covered"
+      },
+      {
+       "skill": "software development",
+       "jobs": 18,
+       "score": 0.7199,
+       "status": "borderline"
+      },
+      {
+       "skill": "vmware virtualization",
+       "jobs": 18,
+       "score": 0.9394,
+       "status": "covered"
+      },
+      {
+       "skill": "microsoft office proficiency",
+       "jobs": 17,
+       "score": 0.6032,
+       "status": "gap"
+      },
+      {
+       "skill": "performance tuning",
+       "jobs": 17,
+       "score": 0.7645,
+       "status": "covered"
+      },
+      {
+       "skill": "vendor management",
+       "jobs": 17,
+       "score": 0.7419,
+       "status": "covered"
+      },
+      {
+       "skill": "cybersecurity best practices",
+       "jobs": 16,
+       "score": 0.6907,
+       "status": "borderline"
+      }
+     ],
+     "boundary_tie": {
+      "boundary_jobs": 16,
+      "n_tied": 5,
+      "n_tied_inside": 1,
+      "n_resolutions": 5,
+      "tied_skills": [
+       "cybersecurity best practices",
+       "disaster recovery planning",
+       "network administration",
+       "process improvement",
+       "system testing"
+      ],
+      "covered_range": [
+       17,
+       18
+      ],
+      "dwc_range": [
+       0.55,
+       0.5716
+      ]
+     },
+     "n_courses": 8
+    },
+    "Y5": {
+     "top_n": 30,
+     "covered": 16,
+     "borderline": 6,
+     "gap": 8,
+     "coverage_rate": 0.5333,
+     "demand_weighted_coverage": 0.5459,
+     "demand_weighted_coverage_half_credit": 0.6399,
+     "top_n_job_mentions": 740,
+     "demand_mass_captured": 0.2571,
+     "min_jobs_at_rank_n": 16,
+     "kl": 0.375,
+     "n_recommended": 10,
+     "kl_after_plan": 0.3485,
+     "skills": [
+      {
+       "skill": "technical documentation",
+       "jobs": 49,
+       "score": 0.669,
+       "status": "gap"
+      },
+      {
+       "skill": "database management",
+       "jobs": 44,
+       "score": 0.9065,
+       "status": "covered"
+      },
+      {
+       "skill": "java programming",
+       "jobs": 41,
+       "score": 0.7437,
+       "status": "covered"
+      },
+      {
+       "skill": "project management",
+       "jobs": 37,
+       "score": 0.8697,
+       "status": "covered"
+      },
+      {
+       "skill": "system maintenance",
+       "jobs": 33,
+       "score": 0.7117,
+       "status": "borderline"
+      },
+      {
+       "skill": "network troubleshooting",
+       "jobs": 31,
+       "score": 0.771,
+       "status": "covered"
+      },
+      {
+       "skill": "mysql database",
+       "jobs": 30,
+       "score": 0.7834,
+       "status": "covered"
+      },
+      {
+       "skill": "restful api development",
+       "jobs": 28,
+       "score": 0.6793,
+       "status": "gap"
+      },
+      {
+       "skill": "postgresql database",
+       "jobs": 27,
+       "score": 0.7172,
+       "status": "borderline"
+      },
+      {
+       "skill": "ci/cd pipelines",
+       "jobs": 26,
+       "score": 0.693,
+       "status": "borderline"
+      },
+      {
+       "skill": "security monitoring",
+       "jobs": 25,
+       "score": 0.8316,
+       "status": "covered"
+      },
+      {
+       "skill": "technical support",
+       "jobs": 25,
+       "score": 0.6825,
+       "status": "gap"
+      },
+      {
+       "skill": "docker containerization",
+       "jobs": 24,
+       "score": 0.8915,
+       "status": "covered"
+      },
+      {
+       "skill": "firewall configuration",
+       "jobs": 23,
+       "score": 0.8325,
+       "status": "covered"
+      },
+      {
+       "skill": "git version control",
+       "jobs": 23,
+       "score": 0.6393,
+       "status": "gap"
+      },
+      {
+       "skill": "server management",
+       "jobs": 23,
+       "score": 0.7559,
+       "status": "covered"
+      },
+      {
+       "skill": "it infrastructure management",
+       "jobs": 20,
+       "score": 0.7454,
+       "status": "covered"
+      },
+      {
+       "skill": "incident response",
+       "jobs": 19,
+       "score": 0.6579,
+       "status": "gap"
+      },
+      {
+       "skill": "system integration",
+       "jobs": 19,
+       "score": 0.7137,
+       "status": "borderline"
+      },
+      {
+       "skill": "api integration",
+       "jobs": 18,
+       "score": 0.6514,
+       "status": "gap"
+      },
+      {
+       "skill": "aws cloud platforms",
+       "jobs": 18,
+       "score": 0.8243,
+       "status": "covered"
+      },
+      {
+       "skill": "code reviews",
+       "jobs": 18,
+       "score": 0.6716,
+       "status": "gap"
+      },
+      {
+       "skill": "data analysis",
+       "jobs": 18,
+       "score": 0.7899,
+       "status": "covered"
+      },
+      {
+       "skill": "data security",
+       "jobs": 18,
+       "score": 0.7829,
+       "status": "covered"
+      },
+      {
+       "skill": "software development",
+       "jobs": 18,
+       "score": 0.7069,
+       "status": "borderline"
+      },
+      {
+       "skill": "vmware virtualization",
+       "jobs": 18,
+       "score": 0.894,
+       "status": "covered"
+      },
+      {
+       "skill": "microsoft office proficiency",
+       "jobs": 17,
+       "score": 0.6139,
+       "status": "gap"
+      },
+      {
+       "skill": "performance tuning",
+       "jobs": 17,
+       "score": 0.7395,
+       "status": "covered"
+      },
+      {
+       "skill": "vendor management",
+       "jobs": 17,
+       "score": 0.7495,
+       "status": "covered"
+      },
+      {
+       "skill": "cybersecurity best practices",
+       "jobs": 16,
+       "score": 0.7297,
+       "status": "borderline"
+      }
+     ],
+     "boundary_tie": {
+      "boundary_jobs": 16,
+      "n_tied": 5,
+      "n_tied_inside": 1,
+      "n_resolutions": 5,
+      "tied_skills": [
+       "cybersecurity best practices",
+       "disaster recovery planning",
+       "network administration",
+       "process improvement",
+       "system testing"
+      ],
+      "covered_range": [
+       16,
+       17
+      ],
+      "dwc_range": [
+       0.5459,
+       0.5676
+      ]
+     },
+     "n_courses": 8
+    },
+    "Y3+Y4+Y5": {
+     "top_n": 30,
+     "covered": 24,
+     "borderline": 3,
+     "gap": 3,
+     "coverage_rate": 0.8,
+     "demand_weighted_coverage": 0.8351,
+     "demand_weighted_coverage_half_credit": 0.8811,
+     "top_n_job_mentions": 740,
+     "demand_mass_captured": 0.2571,
+     "min_jobs_at_rank_n": 16,
+     "kl": 0.3675,
+     "n_recommended": 5,
+     "kl_after_plan": 0.3575,
+     "skills": [
+      {
+       "skill": "technical documentation",
+       "jobs": 49,
+       "score": 0.7832,
+       "status": "covered"
+      },
+      {
+       "skill": "database management",
+       "jobs": 44,
+       "score": 0.9065,
+       "status": "covered"
+      },
+      {
+       "skill": "java programming",
+       "jobs": 41,
+       "score": 0.8747,
+       "status": "covered"
+      },
+      {
+       "skill": "project management",
+       "jobs": 37,
+       "score": 0.8697,
+       "status": "covered"
+      },
+      {
+       "skill": "system maintenance",
+       "jobs": 33,
+       "score": 0.8223,
+       "status": "covered"
+      },
+      {
+       "skill": "network troubleshooting",
+       "jobs": 31,
+       "score": 1.0,
+       "status": "covered"
+      },
+      {
+       "skill": "mysql database",
+       "jobs": 30,
+       "score": 0.7834,
+       "status": "covered"
+      },
+      {
+       "skill": "restful api development",
+       "jobs": 28,
+       "score": 0.7598,
+       "status": "covered"
+      },
+      {
+       "skill": "postgresql database",
+       "jobs": 27,
+       "score": 0.7172,
+       "status": "borderline"
+      },
+      {
+       "skill": "ci/cd pipelines",
+       "jobs": 26,
+       "score": 0.9634,
+       "status": "covered"
+      },
+      {
+       "skill": "security monitoring",
+       "jobs": 25,
+       "score": 0.862,
+       "status": "covered"
+      },
+      {
+       "skill": "technical support",
+       "jobs": 25,
+       "score": 0.6957,
+       "status": "borderline"
+      },
+      {
+       "skill": "docker containerization",
+       "jobs": 24,
+       "score": 0.8915,
+       "status": "covered"
+      },
+      {
+       "skill": "firewall configuration",
+       "jobs": 23,
+       "score": 1.0,
+       "status": "covered"
+      },
+      {
+       "skill": "git version control",
+       "jobs": 23,
+       "score": 0.8162,
+       "status": "covered"
+      },
+      {
+       "skill": "server management",
+       "jobs": 23,
+       "score": 0.8182,
+       "status": "covered"
+      },
+      {
+       "skill": "it infrastructure management",
+       "jobs": 20,
+       "score": 0.8113,
+       "status": "covered"
+      },
+      {
+       "skill": "incident response",
+       "jobs": 19,
+       "score": 0.6816,
+       "status": "gap"
+      },
+      {
+       "skill": "system integration",
+       "jobs": 19,
+       "score": 0.818,
+       "status": "covered"
+      },
+      {
+       "skill": "api integration",
+       "jobs": 18,
+       "score": 0.8259,
+       "status": "covered"
+      },
+      {
+       "skill": "aws cloud platforms",
+       "jobs": 18,
+       "score": 0.8243,
+       "status": "covered"
+      },
+      {
+       "skill": "code reviews",
+       "jobs": 18,
+       "score": 0.6802,
+       "status": "gap"
+      },
+      {
+       "skill": "data analysis",
+       "jobs": 18,
+       "score": 1.0,
+       "status": "covered"
+      },
+      {
+       "skill": "data security",
+       "jobs": 18,
+       "score": 0.7829,
+       "status": "covered"
+      },
+      {
+       "skill": "software development",
+       "jobs": 18,
+       "score": 0.7379,
+       "status": "covered"
+      },
+      {
+       "skill": "vmware virtualization",
+       "jobs": 18,
+       "score": 0.9394,
+       "status": "covered"
+      },
+      {
+       "skill": "microsoft office proficiency",
+       "jobs": 17,
+       "score": 0.6375,
+       "status": "gap"
+      },
+      {
+       "skill": "performance tuning",
+       "jobs": 17,
+       "score": 0.7645,
+       "status": "covered"
+      },
+      {
+       "skill": "vendor management",
+       "jobs": 17,
+       "score": 0.7495,
+       "status": "covered"
+      },
+      {
+       "skill": "cybersecurity best practices",
+       "jobs": 16,
+       "score": 0.7297,
+       "status": "borderline"
+      }
+     ],
+     "boundary_tie": {
+      "boundary_jobs": 16,
+      "n_tied": 5,
+      "n_tied_inside": 1,
+      "n_resolutions": 5,
+      "tied_skills": [
+       "cybersecurity best practices",
+       "disaster recovery planning",
+       "network administration",
+       "process improvement",
+       "system testing"
+      ],
+      "covered_range": [
+       24,
+       25
+      ],
+      "dwc_range": [
+       0.8351,
+       0.8568
+      ]
+     },
+     "n_courses": 25
+    }
+   },
+   "removed": 0
+  },
+  "cross_site": {
+   "n_jobs": 253,
+   "n_skills": 617,
+   "n_technical": 571,
+   "cohorts": {
+    "Y3": {
+     "top_n": 30,
+     "covered": 12,
+     "borderline": 4,
+     "gap": 14,
+     "coverage_rate": 0.4,
+     "demand_weighted_coverage": 0.4554,
+     "demand_weighted_coverage_half_credit": 0.5162,
+     "top_n_job_mentions": 740,
+     "demand_mass_captured": 0.2587,
+     "min_jobs_at_rank_n": 16,
+     "kl": 0.3782,
+     "n_recommended": 13,
+     "kl_after_plan": 0.3469,
+     "skills": [
+      {
+       "skill": "technical documentation",
+       "jobs": 49,
+       "score": 0.7832,
+       "status": "covered"
+      },
+      {
+       "skill": "database management",
+       "jobs": 44,
+       "score": 0.9065,
+       "status": "covered"
+      },
+      {
+       "skill": "java programming",
+       "jobs": 41,
+       "score": 0.8747,
+       "status": "covered"
+      },
+      {
+       "skill": "project management",
+       "jobs": 37,
+       "score": 0.6462,
+       "status": "gap"
+      },
+      {
+       "skill": "system maintenance",
+       "jobs": 33,
+       "score": 0.8223,
+       "status": "covered"
+      },
+      {
+       "skill": "network troubleshooting",
+       "jobs": 31,
+       "score": 1.0,
+       "status": "covered"
+      },
+      {
+       "skill": "mysql database",
+       "jobs": 30,
+       "score": 0.7073,
+       "status": "borderline"
+      },
+      {
+       "skill": "restful api development",
+       "jobs": 28,
+       "score": 0.6524,
+       "status": "gap"
+      },
+      {
+       "skill": "postgresql database",
+       "jobs": 27,
+       "score": 0.6645,
+       "status": "gap"
+      },
+      {
+       "skill": "ci/cd pipelines",
+       "jobs": 26,
+       "score": 0.6331,
+       "status": "gap"
+      },
+      {
+       "skill": "security monitoring",
+       "jobs": 25,
+       "score": 0.6979,
+       "status": "borderline"
+      },
+      {
+       "skill": "technical support",
+       "jobs": 25,
+       "score": 0.6884,
+       "status": "gap"
+      },
+      {
+       "skill": "docker containerization",
+       "jobs": 24,
+       "score": 0.6125,
+       "status": "gap"
+      },
+      {
+       "skill": "firewall configuration",
+       "jobs": 23,
+       "score": 1.0,
+       "status": "covered"
+      },
+      {
+       "skill": "git version control",
+       "jobs": 23,
+       "score": 0.6521,
+       "status": "gap"
+      },
+      {
+       "skill": "server management",
+       "jobs": 23,
+       "score": 0.7646,
+       "status": "covered"
+      },
+      {
+       "skill": "it infrastructure management",
+       "jobs": 20,
+       "score": 0.7634,
+       "status": "covered"
+      },
+      {
+       "skill": "incident response",
+       "jobs": 19,
+       "score": 0.6516,
+       "status": "gap"
+      },
+      {
+       "skill": "system integration",
+       "jobs": 19,
+       "score": 0.7595,
+       "status": "covered"
+      },
+      {
+       "skill": "api integration",
+       "jobs": 18,
+       "score": 0.6695,
+       "status": "gap"
+      },
+      {
+       "skill": "aws cloud platforms",
+       "jobs": 18,
+       "score": 0.606,
+       "status": "gap"
+      },
+      {
+       "skill": "code reviews",
+       "jobs": 18,
+       "score": 0.6802,
+       "status": "gap"
+      },
+      {
+       "skill": "data analysis",
+       "jobs": 18,
+       "score": 1.0,
+       "status": "covered"
+      },
+      {
+       "skill": "data security",
+       "jobs": 18,
+       "score": 0.7419,
+       "status": "covered"
+      },
+      {
+       "skill": "software development",
+       "jobs": 18,
+       "score": 0.7379,
+       "status": "covered"
+      },
+      {
+       "skill": "vmware virtualization",
+       "jobs": 18,
+       "score": 0.7184,
+       "status": "borderline"
+      },
+      {
+       "skill": "microsoft office proficiency",
+       "jobs": 17,
+       "score": 0.6375,
+       "status": "gap"
+      },
+      {
+       "skill": "performance tuning",
+       "jobs": 17,
+       "score": 0.7038,
+       "status": "borderline"
+      },
+      {
+       "skill": "vendor management",
+       "jobs": 17,
+       "score": 0.6765,
+       "status": "gap"
+      },
+      {
+       "skill": "cybersecurity best practices",
+       "jobs": 16,
+       "score": 0.6192,
+       "status": "gap"
+      }
+     ],
+     "boundary_tie": {
+      "boundary_jobs": 16,
+      "n_tied": 5,
+      "n_tied_inside": 1,
+      "n_resolutions": 5,
+      "tied_skills": [
+       "cybersecurity best practices",
+       "disaster recovery planning",
+       "network administration",
+       "process improvement",
+       "system testing"
+      ],
+      "covered_range": [
+       12,
+       13
+      ],
+      "dwc_range": [
+       0.4554,
+       0.477
+      ]
+     },
+     "n_courses": 9
+    },
+    "Y4": {
+     "top_n": 30,
+     "covered": 17,
+     "borderline": 6,
+     "gap": 7,
+     "coverage_rate": 0.5667,
+     "demand_weighted_coverage": 0.55,
+     "demand_weighted_coverage_half_credit": 0.6473,
+     "top_n_job_mentions": 740,
+     "demand_mass_captured": 0.2587,
+     "min_jobs_at_rank_n": 16,
+     "kl": 0.3736,
+     "n_recommended": 9,
+     "kl_after_plan": 0.3482,
+     "skills": [
+      {
+       "skill": "technical documentation",
+       "jobs": 49,
+       "score": 0.6892,
+       "status": "gap"
+      },
+      {
+       "skill": "database management",
+       "jobs": 44,
+       "score": 0.8585,
+       "status": "covered"
+      },
+      {
+       "skill": "java programming",
+       "jobs": 41,
+       "score": 0.6793,
+       "status": "gap"
+      },
+      {
+       "skill": "project management",
+       "jobs": 37,
+       "score": 0.7044,
+       "status": "borderline"
+      },
+      {
+       "skill": "system maintenance",
+       "jobs": 33,
+       "score": 0.7892,
+       "status": "covered"
+      },
+      {
+       "skill": "network troubleshooting",
+       "jobs": 31,
+       "score": 1.0,
+       "status": "covered"
+      },
+      {
+       "skill": "mysql database",
+       "jobs": 30,
+       "score": 0.7091,
+       "status": "borderline"
+      },
+      {
+       "skill": "restful api development",
+       "jobs": 28,
+       "score": 0.7598,
+       "status": "covered"
+      },
+      {
+       "skill": "postgresql database",
+       "jobs": 27,
+       "score": 0.6713,
+       "status": "gap"
+      },
+      {
+       "skill": "ci/cd pipelines",
+       "jobs": 26,
+       "score": 0.9634,
+       "status": "covered"
+      },
+      {
+       "skill": "security monitoring",
+       "jobs": 25,
+       "score": 0.862,
+       "status": "covered"
+      },
+      {
+       "skill": "technical support",
+       "jobs": 25,
+       "score": 0.6957,
+       "status": "borderline"
+      },
+      {
+       "skill": "docker containerization",
+       "jobs": 24,
+       "score": 0.8844,
+       "status": "covered"
+      },
+      {
+       "skill": "firewall configuration",
+       "jobs": 23,
+       "score": 0.8472,
+       "status": "covered"
+      },
+      {
+       "skill": "git version control",
+       "jobs": 23,
+       "score": 0.8162,
+       "status": "covered"
+      },
+      {
+       "skill": "server management",
+       "jobs": 23,
+       "score": 0.8182,
+       "status": "covered"
+      },
+      {
+       "skill": "it infrastructure management",
+       "jobs": 20,
+       "score": 0.8113,
+       "status": "covered"
+      },
+      {
+       "skill": "incident response",
+       "jobs": 19,
+       "score": 0.6816,
+       "status": "gap"
+      },
+      {
+       "skill": "system integration",
+       "jobs": 19,
+       "score": 0.818,
+       "status": "covered"
+      },
+      {
+       "skill": "api integration",
+       "jobs": 18,
+       "score": 0.8259,
+       "status": "covered"
+      },
+      {
+       "skill": "aws cloud platforms",
+       "jobs": 18,
+       "score": 0.6773,
+       "status": "gap"
+      },
+      {
+       "skill": "code reviews",
+       "jobs": 18,
+       "score": 0.6703,
+       "status": "gap"
+      },
+      {
+       "skill": "data analysis",
+       "jobs": 18,
+       "score": 0.7043,
+       "status": "borderline"
+      },
+      {
+       "skill": "data security",
+       "jobs": 18,
+       "score": 0.7606,
+       "status": "covered"
+      },
+      {
+       "skill": "software development",
+       "jobs": 18,
+       "score": 0.7199,
+       "status": "borderline"
+      },
+      {
+       "skill": "vmware virtualization",
+       "jobs": 18,
+       "score": 0.9394,
+       "status": "covered"
+      },
+      {
+       "skill": "microsoft office proficiency",
+       "jobs": 17,
+       "score": 0.6032,
+       "status": "gap"
+      },
+      {
+       "skill": "performance tuning",
+       "jobs": 17,
+       "score": 0.7645,
+       "status": "covered"
+      },
+      {
+       "skill": "vendor management",
+       "jobs": 17,
+       "score": 0.7419,
+       "status": "covered"
+      },
+      {
+       "skill": "cybersecurity best practices",
+       "jobs": 16,
+       "score": 0.6907,
+       "status": "borderline"
+      }
+     ],
+     "boundary_tie": {
+      "boundary_jobs": 16,
+      "n_tied": 5,
+      "n_tied_inside": 1,
+      "n_resolutions": 5,
+      "tied_skills": [
+       "cybersecurity best practices",
+       "disaster recovery planning",
+       "network administration",
+       "process improvement",
+       "system testing"
+      ],
+      "covered_range": [
+       17,
+       18
+      ],
+      "dwc_range": [
+       0.55,
+       0.5716
+      ]
+     },
+     "n_courses": 8
+    },
+    "Y5": {
+     "top_n": 30,
+     "covered": 16,
+     "borderline": 6,
+     "gap": 8,
+     "coverage_rate": 0.5333,
+     "demand_weighted_coverage": 0.5459,
+     "demand_weighted_coverage_half_credit": 0.6399,
+     "top_n_job_mentions": 740,
+     "demand_mass_captured": 0.2587,
+     "min_jobs_at_rank_n": 16,
+     "kl": 0.3758,
+     "n_recommended": 10,
+     "kl_after_plan": 0.3492,
+     "skills": [
+      {
+       "skill": "technical documentation",
+       "jobs": 49,
+       "score": 0.669,
+       "status": "gap"
+      },
+      {
+       "skill": "database management",
+       "jobs": 44,
+       "score": 0.9065,
+       "status": "covered"
+      },
+      {
+       "skill": "java programming",
+       "jobs": 41,
+       "score": 0.7437,
+       "status": "covered"
+      },
+      {
+       "skill": "project management",
+       "jobs": 37,
+       "score": 0.8697,
+       "status": "covered"
+      },
+      {
+       "skill": "system maintenance",
+       "jobs": 33,
+       "score": 0.7117,
+       "status": "borderline"
+      },
+      {
+       "skill": "network troubleshooting",
+       "jobs": 31,
+       "score": 0.771,
+       "status": "covered"
+      },
+      {
+       "skill": "mysql database",
+       "jobs": 30,
+       "score": 0.7834,
+       "status": "covered"
+      },
+      {
+       "skill": "restful api development",
+       "jobs": 28,
+       "score": 0.6793,
+       "status": "gap"
+      },
+      {
+       "skill": "postgresql database",
+       "jobs": 27,
+       "score": 0.7172,
+       "status": "borderline"
+      },
+      {
+       "skill": "ci/cd pipelines",
+       "jobs": 26,
+       "score": 0.693,
+       "status": "borderline"
+      },
+      {
+       "skill": "security monitoring",
+       "jobs": 25,
+       "score": 0.8316,
+       "status": "covered"
+      },
+      {
+       "skill": "technical support",
+       "jobs": 25,
+       "score": 0.6825,
+       "status": "gap"
+      },
+      {
+       "skill": "docker containerization",
+       "jobs": 24,
+       "score": 0.8915,
+       "status": "covered"
+      },
+      {
+       "skill": "firewall configuration",
+       "jobs": 23,
+       "score": 0.8325,
+       "status": "covered"
+      },
+      {
+       "skill": "git version control",
+       "jobs": 23,
+       "score": 0.6393,
+       "status": "gap"
+      },
+      {
+       "skill": "server management",
+       "jobs": 23,
+       "score": 0.7559,
+       "status": "covered"
+      },
+      {
+       "skill": "it infrastructure management",
+       "jobs": 20,
+       "score": 0.7454,
+       "status": "covered"
+      },
+      {
+       "skill": "incident response",
+       "jobs": 19,
+       "score": 0.6579,
+       "status": "gap"
+      },
+      {
+       "skill": "system integration",
+       "jobs": 19,
+       "score": 0.7137,
+       "status": "borderline"
+      },
+      {
+       "skill": "api integration",
+       "jobs": 18,
+       "score": 0.6514,
+       "status": "gap"
+      },
+      {
+       "skill": "aws cloud platforms",
+       "jobs": 18,
+       "score": 0.8243,
+       "status": "covered"
+      },
+      {
+       "skill": "code reviews",
+       "jobs": 18,
+       "score": 0.6716,
+       "status": "gap"
+      },
+      {
+       "skill": "data analysis",
+       "jobs": 18,
+       "score": 0.7899,
+       "status": "covered"
+      },
+      {
+       "skill": "data security",
+       "jobs": 18,
+       "score": 0.7829,
+       "status": "covered"
+      },
+      {
+       "skill": "software development",
+       "jobs": 18,
+       "score": 0.7069,
+       "status": "borderline"
+      },
+      {
+       "skill": "vmware virtualization",
+       "jobs": 18,
+       "score": 0.894,
+       "status": "covered"
+      },
+      {
+       "skill": "microsoft office proficiency",
+       "jobs": 17,
+       "score": 0.6139,
+       "status": "gap"
+      },
+      {
+       "skill": "performance tuning",
+       "jobs": 17,
+       "score": 0.7395,
+       "status": "covered"
+      },
+      {
+       "skill": "vendor management",
+       "jobs": 17,
+       "score": 0.7495,
+       "status": "covered"
+      },
+      {
+       "skill": "cybersecurity best practices",
+       "jobs": 16,
+       "score": 0.7297,
+       "status": "borderline"
+      }
+     ],
+     "boundary_tie": {
+      "boundary_jobs": 16,
+      "n_tied": 5,
+      "n_tied_inside": 1,
+      "n_resolutions": 5,
+      "tied_skills": [
+       "cybersecurity best practices",
+       "disaster recovery planning",
+       "network administration",
+       "process improvement",
+       "system testing"
+      ],
+      "covered_range": [
+       16,
+       17
+      ],
+      "dwc_range": [
+       0.5459,
+       0.5676
+      ]
+     },
+     "n_courses": 8
+    },
+    "Y3+Y4+Y5": {
+     "top_n": 30,
+     "covered": 24,
+     "borderline": 3,
+     "gap": 3,
+     "coverage_rate": 0.8,
+     "demand_weighted_coverage": 0.8351,
+     "demand_weighted_coverage_half_credit": 0.8811,
+     "top_n_job_mentions": 740,
+     "demand_mass_captured": 0.2587,
+     "min_jobs_at_rank_n": 16,
+     "kl": 0.3684,
+     "n_recommended": 5,
+     "kl_after_plan": 0.3583,
+     "skills": [
+      {
+       "skill": "technical documentation",
+       "jobs": 49,
+       "score": 0.7832,
+       "status": "covered"
+      },
+      {
+       "skill": "database management",
+       "jobs": 44,
+       "score": 0.9065,
+       "status": "covered"
+      },
+      {
+       "skill": "java programming",
+       "jobs": 41,
+       "score": 0.8747,
+       "status": "covered"
+      },
+      {
+       "skill": "project management",
+       "jobs": 37,
+       "score": 0.8697,
+       "status": "covered"
+      },
+      {
+       "skill": "system maintenance",
+       "jobs": 33,
+       "score": 0.8223,
+       "status": "covered"
+      },
+      {
+       "skill": "network troubleshooting",
+       "jobs": 31,
+       "score": 1.0,
+       "status": "covered"
+      },
+      {
+       "skill": "mysql database",
+       "jobs": 30,
+       "score": 0.7834,
+       "status": "covered"
+      },
+      {
+       "skill": "restful api development",
+       "jobs": 28,
+       "score": 0.7598,
+       "status": "covered"
+      },
+      {
+       "skill": "postgresql database",
+       "jobs": 27,
+       "score": 0.7172,
+       "status": "borderline"
+      },
+      {
+       "skill": "ci/cd pipelines",
+       "jobs": 26,
+       "score": 0.9634,
+       "status": "covered"
+      },
+      {
+       "skill": "security monitoring",
+       "jobs": 25,
+       "score": 0.862,
+       "status": "covered"
+      },
+      {
+       "skill": "technical support",
+       "jobs": 25,
+       "score": 0.6957,
+       "status": "borderline"
+      },
+      {
+       "skill": "docker containerization",
+       "jobs": 24,
+       "score": 0.8915,
+       "status": "covered"
+      },
+      {
+       "skill": "firewall configuration",
+       "jobs": 23,
+       "score": 1.0,
+       "status": "covered"
+      },
+      {
+       "skill": "git version control",
+       "jobs": 23,
+       "score": 0.8162,
+       "status": "covered"
+      },
+      {
+       "skill": "server management",
+       "jobs": 23,
+       "score": 0.8182,
+       "status": "covered"
+      },
+      {
+       "skill": "it infrastructure management",
+       "jobs": 20,
+       "score": 0.8113,
+       "status": "covered"
+      },
+      {
+       "skill": "incident response",
+       "jobs": 19,
+       "score": 0.6816,
+       "status": "gap"
+      },
+      {
+       "skill": "system integration",
+       "jobs": 19,
+       "score": 0.818,
+       "status": "covered"
+      },
+      {
+       "skill": "api integration",
+       "jobs": 18,
+       "score": 0.8259,
+       "status": "covered"
+      },
+      {
+       "skill": "aws cloud platforms",
+       "jobs": 18,
+       "score": 0.8243,
+       "status": "covered"
+      },
+      {
+       "skill": "code reviews",
+       "jobs": 18,
+       "score": 0.6802,
+       "status": "gap"
+      },
+      {
+       "skill": "data analysis",
+       "jobs": 18,
+       "score": 1.0,
+       "status": "covered"
+      },
+      {
+       "skill": "data security",
+       "jobs": 18,
+       "score": 0.7829,
+       "status": "covered"
+      },
+      {
+       "skill": "software development",
+       "jobs": 18,
+       "score": 0.7379,
+       "status": "covered"
+      },
+      {
+       "skill": "vmware virtualization",
+       "jobs": 18,
+       "score": 0.9394,
+       "status": "covered"
+      },
+      {
+       "skill": "microsoft office proficiency",
+       "jobs": 17,
+       "score": 0.6375,
+       "status": "gap"
+      },
+      {
+       "skill": "performance tuning",
+       "jobs": 17,
+       "score": 0.7645,
+       "status": "covered"
+      },
+      {
+       "skill": "vendor management",
+       "jobs": 17,
+       "score": 0.7495,
+       "status": "covered"
+      },
+      {
+       "skill": "cybersecurity best practices",
+       "jobs": 16,
+       "score": 0.7297,
+       "status": "borderline"
+      }
+     ],
+     "boundary_tie": {
+      "boundary_jobs": 16,
+      "n_tied": 5,
+      "n_tied_inside": 1,
+      "n_resolutions": 5,
+      "tied_skills": [
+       "cybersecurity best practices",
+       "disaster recovery planning",
+       "network administration",
+       "process improvement",
+       "system testing"
+      ],
+      "covered_range": [
+       24,
+       25
+      ],
+      "dwc_range": [
+       0.8351,
+       0.8568
+      ]
+     },
+     "n_courses": 25
+    }
+   },
+   "removed": 1
+  },
+  "all_reposts": {
+   "n_jobs": 236,
+   "n_skills": 589,
+   "n_technical": 544,
+   "cohorts": {
+    "Y3": {
+     "top_n": 30,
+     "covered": 12,
+     "borderline": 4,
+     "gap": 14,
+     "coverage_rate": 0.4,
+     "demand_weighted_coverage": 0.443,
+     "demand_weighted_coverage_half_credit": 0.5065,
+     "top_n_job_mentions": 693,
+     "demand_mass_captured": 0.2615,
+     "min_jobs_at_rank_n": 15,
+     "kl": 0.3648,
+     "n_recommended": 13,
+     "kl_after_plan": 0.3336,
+     "skills": [
+      {
+       "skill": "technical documentation",
+       "jobs": 46,
+       "score": 0.7832,
+       "status": "covered"
+      },
+      {
+       "skill": "database management",
+       "jobs": 40,
+       "score": 0.9065,
+       "status": "covered"
+      },
+      {
+       "skill": "java programming",
+       "jobs": 40,
+       "score": 0.8747,
+       "status": "covered"
+      },
+      {
+       "skill": "project management",
+       "jobs": 33,
+       "score": 0.6462,
+       "status": "gap"
+      },
+      {
+       "skill": "mysql database",
+       "jobs": 30,
+       "score": 0.7073,
+       "status": "borderline"
+      },
+      {
+       "skill": "system maintenance",
+       "jobs": 30,
+       "score": 0.8223,
+       "status": "covered"
+      },
+      {
+       "skill": "network troubleshooting",
+       "jobs": 29,
+       "score": 1.0,
+       "status": "covered"
+      },
+      {
+       "skill": "restful api development",
+       "jobs": 27,
+       "score": 0.6524,
+       "status": "gap"
+      },
+      {
+       "skill": "postgresql database",
+       "jobs": 26,
+       "score": 0.6645,
+       "status": "gap"
+      },
+      {
+       "skill": "ci/cd pipelines",
+       "jobs": 25,
+       "score": 0.6331,
+       "status": "gap"
+      },
+      {
+       "skill": "security monitoring",
+       "jobs": 24,
+       "score": 0.6979,
+       "status": "borderline"
+      },
+      {
+       "skill": "technical support",
+       "jobs": 24,
+       "score": 0.6884,
+       "status": "gap"
+      },
+      {
+       "skill": "docker containerization",
+       "jobs": 23,
+       "score": 0.6125,
+       "status": "gap"
+      },
+      {
+       "skill": "git version control",
+       "jobs": 22,
+       "score": 0.6521,
+       "status": "gap"
+      },
+      {
+       "skill": "firewall configuration",
+       "jobs": 20,
+       "score": 1.0,
+       "status": "covered"
+      },
+      {
+       "skill": "server management",
+       "jobs": 19,
+       "score": 0.7646,
+       "status": "covered"
+      },
+      {
+       "skill": "api integration",
+       "jobs": 18,
+       "score": 0.6695,
+       "status": "gap"
+      },
+      {
+       "skill": "aws cloud platforms",
+       "jobs": 18,
+       "score": 0.606,
+       "status": "gap"
+      },
+      {
+       "skill": "incident response",
+       "jobs": 18,
+       "score": 0.6516,
+       "status": "gap"
+      },
+      {
+       "skill": "software development",
+       "jobs": 18,
+       "score": 0.7379,
+       "status": "covered"
+      },
+      {
+       "skill": "system integration",
+       "jobs": 18,
+       "score": 0.7595,
+       "status": "covered"
+      },
+      {
+       "skill": "vmware virtualization",
+       "jobs": 18,
+       "score": 0.7184,
+       "status": "borderline"
+      },
+      {
+       "skill": "code reviews",
+       "jobs": 17,
+       "score": 0.6802,
+       "status": "gap"
+      },
+      {
+       "skill": "vendor management",
+       "jobs": 17,
+       "score": 0.6765,
+       "status": "gap"
+      },
+      {
+       "skill": "data analysis",
+       "jobs": 16,
+       "score": 1.0,
+       "status": "covered"
+      },
+      {
+       "skill": "it infrastructure management",
+       "jobs": 16,
+       "score": 0.7634,
+       "status": "covered"
+      },
+      {
+       "skill": "system testing",
+       "jobs": 16,
+       "score": 0.7334,
+       "status": "borderline"
+      },
+      {
+       "skill": "cybersecurity best practices",
+       "jobs": 15,
+       "score": 0.6192,
+       "status": "gap"
+      },
+      {
+       "skill": "data security",
+       "jobs": 15,
+       "score": 0.7419,
+       "status": "covered"
+      },
+      {
+       "skill": "disaster recovery planning",
+       "jobs": 15,
+       "score": 0.6492,
+       "status": "gap"
+      }
+     ],
+     "boundary_tie": {
+      "boundary_jobs": 15,
+      "n_tied": 6,
+      "n_tied_inside": 3,
+      "n_resolutions": 20,
+      "tied_skills": [
+       "cybersecurity best practices",
+       "data security",
+       "disaster recovery planning",
+       "network administration",
+       "node.js development",
+       "performance tuning"
+      ],
+      "covered_range": [
+       11,
+       13
+      ],
+      "dwc_range": [
+       0.4214,
+       0.4646
+      ]
+     },
+     "n_courses": 9
+    },
+    "Y4": {
+     "top_n": 30,
+     "covered": 17,
+     "borderline": 7,
+     "gap": 6,
+     "coverage_rate": 0.5667,
+     "demand_weighted_coverage": 0.544,
+     "demand_weighted_coverage_half_credit": 0.653,
+     "top_n_job_mentions": 693,
+     "demand_mass_captured": 0.2615,
+     "min_jobs_at_rank_n": 15,
+     "kl": 0.3598,
+     "n_recommended": 9,
+     "kl_after_plan": 0.3346,
+     "skills": [
+      {
+       "skill": "technical documentation",
+       "jobs": 46,
+       "score": 0.6892,
+       "status": "gap"
+      },
+      {
+       "skill": "database management",
+       "jobs": 40,
+       "score": 0.8585,
+       "status": "covered"
+      },
+      {
+       "skill": "java programming",
+       "jobs": 40,
+       "score": 0.6793,
+       "status": "gap"
+      },
+      {
+       "skill": "project management",
+       "jobs": 33,
+       "score": 0.7044,
+       "status": "borderline"
+      },
+      {
+       "skill": "mysql database",
+       "jobs": 30,
+       "score": 0.7091,
+       "status": "borderline"
+      },
+      {
+       "skill": "system maintenance",
+       "jobs": 30,
+       "score": 0.7892,
+       "status": "covered"
+      },
+      {
+       "skill": "network troubleshooting",
+       "jobs": 29,
+       "score": 1.0,
+       "status": "covered"
+      },
+      {
+       "skill": "restful api development",
+       "jobs": 27,
+       "score": 0.7598,
+       "status": "covered"
+      },
+      {
+       "skill": "postgresql database",
+       "jobs": 26,
+       "score": 0.6713,
+       "status": "gap"
+      },
+      {
+       "skill": "ci/cd pipelines",
+       "jobs": 25,
+       "score": 0.9634,
+       "status": "covered"
+      },
+      {
+       "skill": "security monitoring",
+       "jobs": 24,
+       "score": 0.862,
+       "status": "covered"
+      },
+      {
+       "skill": "technical support",
+       "jobs": 24,
+       "score": 0.6957,
+       "status": "borderline"
+      },
+      {
+       "skill": "docker containerization",
+       "jobs": 23,
+       "score": 0.8844,
+       "status": "covered"
+      },
+      {
+       "skill": "git version control",
+       "jobs": 22,
+       "score": 0.8162,
+       "status": "covered"
+      },
+      {
+       "skill": "firewall configuration",
+       "jobs": 20,
+       "score": 0.8472,
+       "status": "covered"
+      },
+      {
+       "skill": "server management",
+       "jobs": 19,
+       "score": 0.8182,
+       "status": "covered"
+      },
+      {
+       "skill": "api integration",
+       "jobs": 18,
+       "score": 0.8259,
+       "status": "covered"
+      },
+      {
+       "skill": "aws cloud platforms",
+       "jobs": 18,
+       "score": 0.6773,
+       "status": "gap"
+      },
+      {
+       "skill": "incident response",
+       "jobs": 18,
+       "score": 0.6816,
+       "status": "gap"
+      },
+      {
+       "skill": "software development",
+       "jobs": 18,
+       "score": 0.7199,
+       "status": "borderline"
+      },
+      {
+       "skill": "system integration",
+       "jobs": 18,
+       "score": 0.818,
+       "status": "covered"
+      },
+      {
+       "skill": "vmware virtualization",
+       "jobs": 18,
+       "score": 0.9394,
+       "status": "covered"
+      },
+      {
+       "skill": "code reviews",
+       "jobs": 17,
+       "score": 0.6703,
+       "status": "gap"
+      },
+      {
+       "skill": "vendor management",
+       "jobs": 17,
+       "score": 0.7419,
+       "status": "covered"
+      },
+      {
+       "skill": "data analysis",
+       "jobs": 16,
+       "score": 0.7043,
+       "status": "borderline"
+      },
+      {
+       "skill": "it infrastructure management",
+       "jobs": 16,
+       "score": 0.8113,
+       "status": "covered"
+      },
+      {
+       "skill": "system testing",
+       "jobs": 16,
+       "score": 0.8132,
+       "status": "covered"
+      },
+      {
+       "skill": "cybersecurity best practices",
+       "jobs": 15,
+       "score": 0.6907,
+       "status": "borderline"
+      },
+      {
+       "skill": "data security",
+       "jobs": 15,
+       "score": 0.7606,
+       "status": "covered"
+      },
+      {
+       "skill": "disaster recovery planning",
+       "jobs": 15,
+       "score": 0.6978,
+       "status": "borderline"
+      }
+     ],
+     "boundary_tie": {
+      "boundary_jobs": 15,
+      "n_tied": 6,
+      "n_tied_inside": 3,
+      "n_resolutions": 20,
+      "tied_skills": [
+       "cybersecurity best practices",
+       "data security",
+       "disaster recovery planning",
+       "network administration",
+       "node.js development",
+       "performance tuning"
+      ],
+      "covered_range": [
+       16,
+       19
+      ],
+      "dwc_range": [
+       0.5224,
+       0.5873
+      ]
+     },
+     "n_courses": 8
+    },
+    "Y5": {
+     "top_n": 30,
+     "covered": 17,
+     "borderline": 6,
+     "gap": 7,
+     "coverage_rate": 0.5667,
+     "demand_weighted_coverage": 0.5613,
+     "demand_weighted_coverage_half_credit": 0.6566,
+     "top_n_job_mentions": 693,
+     "demand_mass_captured": 0.2615,
+     "min_jobs_at_rank_n": 15,
+     "kl": 0.3627,
+     "n_recommended": 9,
+     "kl_after_plan": 0.3372,
+     "skills": [
+      {
+       "skill": "technical documentation",
+       "jobs": 46,
+       "score": 0.669,
+       "status": "gap"
+      },
+      {
+       "skill": "database management",
+       "jobs": 40,
+       "score": 0.9065,
+       "status": "covered"
+      },
+      {
+       "skill": "java programming",
+       "jobs": 40,
+       "score": 0.7437,
+       "status": "covered"
+      },
+      {
+       "skill": "project management",
+       "jobs": 33,
+       "score": 0.8697,
+       "status": "covered"
+      },
+      {
+       "skill": "mysql database",
+       "jobs": 30,
+       "score": 0.7834,
+       "status": "covered"
+      },
+      {
+       "skill": "system maintenance",
+       "jobs": 30,
+       "score": 0.7117,
+       "status": "borderline"
+      },
+      {
+       "skill": "network troubleshooting",
+       "jobs": 29,
+       "score": 0.771,
+       "status": "covered"
+      },
+      {
+       "skill": "restful api development",
+       "jobs": 27,
+       "score": 0.6793,
+       "status": "gap"
+      },
+      {
+       "skill": "postgresql database",
+       "jobs": 26,
+       "score": 0.7172,
+       "status": "borderline"
+      },
+      {
+       "skill": "ci/cd pipelines",
+       "jobs": 25,
+       "score": 0.693,
+       "status": "borderline"
+      },
+      {
+       "skill": "security monitoring",
+       "jobs": 24,
+       "score": 0.8316,
+       "status": "covered"
+      },
+      {
+       "skill": "technical support",
+       "jobs": 24,
+       "score": 0.6825,
+       "status": "gap"
+      },
+      {
+       "skill": "docker containerization",
+       "jobs": 23,
+       "score": 0.8915,
+       "status": "covered"
+      },
+      {
+       "skill": "git version control",
+       "jobs": 22,
+       "score": 0.6393,
+       "status": "gap"
+      },
+      {
+       "skill": "firewall configuration",
+       "jobs": 20,
+       "score": 0.8325,
+       "status": "covered"
+      },
+      {
+       "skill": "server management",
+       "jobs": 19,
+       "score": 0.7559,
+       "status": "covered"
+      },
+      {
+       "skill": "api integration",
+       "jobs": 18,
+       "score": 0.6514,
+       "status": "gap"
+      },
+      {
+       "skill": "aws cloud platforms",
+       "jobs": 18,
+       "score": 0.8243,
+       "status": "covered"
+      },
+      {
+       "skill": "incident response",
+       "jobs": 18,
+       "score": 0.6579,
+       "status": "gap"
+      },
+      {
+       "skill": "software development",
+       "jobs": 18,
+       "score": 0.7069,
+       "status": "borderline"
+      },
+      {
+       "skill": "system integration",
+       "jobs": 18,
+       "score": 0.7137,
+       "status": "borderline"
+      },
+      {
+       "skill": "vmware virtualization",
+       "jobs": 18,
+       "score": 0.894,
+       "status": "covered"
+      },
+      {
+       "skill": "code reviews",
+       "jobs": 17,
+       "score": 0.6716,
+       "status": "gap"
+      },
+      {
+       "skill": "vendor management",
+       "jobs": 17,
+       "score": 0.7495,
+       "status": "covered"
+      },
+      {
+       "skill": "data analysis",
+       "jobs": 16,
+       "score": 0.7899,
+       "status": "covered"
+      },
+      {
+       "skill": "it infrastructure management",
+       "jobs": 16,
+       "score": 0.7454,
+       "status": "covered"
+      },
+      {
+       "skill": "system testing",
+       "jobs": 16,
+       "score": 0.7446,
+       "status": "covered"
+      },
+      {
+       "skill": "cybersecurity best practices",
+       "jobs": 15,
+       "score": 0.7297,
+       "status": "borderline"
+      },
+      {
+       "skill": "data security",
+       "jobs": 15,
+       "score": 0.7829,
+       "status": "covered"
+      },
+      {
+       "skill": "disaster recovery planning",
+       "jobs": 15,
+       "score": 1.0,
+       "status": "covered"
+      }
+     ],
+     "boundary_tie": {
+      "boundary_jobs": 15,
+      "n_tied": 6,
+      "n_tied_inside": 3,
+      "n_resolutions": 20,
+      "tied_skills": [
+       "cybersecurity best practices",
+       "data security",
+       "disaster recovery planning",
+       "network administration",
+       "node.js development",
+       "performance tuning"
+      ],
+      "covered_range": [
+       16,
+       18
+      ],
+      "dwc_range": [
+       0.5397,
+       0.583
+      ]
+     },
+     "n_courses": 8
+    },
+    "Y3+Y4+Y5": {
+     "top_n": 30,
+     "covered": 25,
+     "borderline": 3,
+     "gap": 2,
+     "coverage_rate": 0.8333,
+     "demand_weighted_coverage": 0.8557,
+     "demand_weighted_coverage_half_credit": 0.9026,
+     "top_n_job_mentions": 693,
+     "demand_mass_captured": 0.2615,
+     "min_jobs_at_rank_n": 15,
+     "kl": 0.3553,
+     "n_recommended": 4,
+     "kl_after_plan": 0.347,
+     "skills": [
+      {
+       "skill": "technical documentation",
+       "jobs": 46,
+       "score": 0.7832,
+       "status": "covered"
+      },
+      {
+       "skill": "database management",
+       "jobs": 40,
+       "score": 0.9065,
+       "status": "covered"
+      },
+      {
+       "skill": "java programming",
+       "jobs": 40,
+       "score": 0.8747,
+       "status": "covered"
+      },
+      {
+       "skill": "project management",
+       "jobs": 33,
+       "score": 0.8697,
+       "status": "covered"
+      },
+      {
+       "skill": "mysql database",
+       "jobs": 30,
+       "score": 0.7834,
+       "status": "covered"
+      },
+      {
+       "skill": "system maintenance",
+       "jobs": 30,
+       "score": 0.8223,
+       "status": "covered"
+      },
+      {
+       "skill": "network troubleshooting",
+       "jobs": 29,
+       "score": 1.0,
+       "status": "covered"
+      },
+      {
+       "skill": "restful api development",
+       "jobs": 27,
+       "score": 0.7598,
+       "status": "covered"
+      },
+      {
+       "skill": "postgresql database",
+       "jobs": 26,
+       "score": 0.7172,
+       "status": "borderline"
+      },
+      {
+       "skill": "ci/cd pipelines",
+       "jobs": 25,
+       "score": 0.9634,
+       "status": "covered"
+      },
+      {
+       "skill": "security monitoring",
+       "jobs": 24,
+       "score": 0.862,
+       "status": "covered"
+      },
+      {
+       "skill": "technical support",
+       "jobs": 24,
+       "score": 0.6957,
+       "status": "borderline"
+      },
+      {
+       "skill": "docker containerization",
+       "jobs": 23,
+       "score": 0.8915,
+       "status": "covered"
+      },
+      {
+       "skill": "git version control",
+       "jobs": 22,
+       "score": 0.8162,
+       "status": "covered"
+      },
+      {
+       "skill": "firewall configuration",
+       "jobs": 20,
+       "score": 1.0,
+       "status": "covered"
+      },
+      {
+       "skill": "server management",
+       "jobs": 19,
+       "score": 0.8182,
+       "status": "covered"
+      },
+      {
+       "skill": "api integration",
+       "jobs": 18,
+       "score": 0.8259,
+       "status": "covered"
+      },
+      {
+       "skill": "aws cloud platforms",
+       "jobs": 18,
+       "score": 0.8243,
+       "status": "covered"
+      },
+      {
+       "skill": "incident response",
+       "jobs": 18,
+       "score": 0.6816,
+       "status": "gap"
+      },
+      {
+       "skill": "software development",
+       "jobs": 18,
+       "score": 0.7379,
+       "status": "covered"
+      },
+      {
+       "skill": "system integration",
+       "jobs": 18,
+       "score": 0.818,
+       "status": "covered"
+      },
+      {
+       "skill": "vmware virtualization",
+       "jobs": 18,
+       "score": 0.9394,
+       "status": "covered"
+      },
+      {
+       "skill": "code reviews",
+       "jobs": 17,
+       "score": 0.6802,
+       "status": "gap"
+      },
+      {
+       "skill": "vendor management",
+       "jobs": 17,
+       "score": 0.7495,
+       "status": "covered"
+      },
+      {
+       "skill": "data analysis",
+       "jobs": 16,
+       "score": 1.0,
+       "status": "covered"
+      },
+      {
+       "skill": "it infrastructure management",
+       "jobs": 16,
+       "score": 0.8113,
+       "status": "covered"
+      },
+      {
+       "skill": "system testing",
+       "jobs": 16,
+       "score": 0.8132,
+       "status": "covered"
+      },
+      {
+       "skill": "cybersecurity best practices",
+       "jobs": 15,
+       "score": 0.7297,
+       "status": "borderline"
+      },
+      {
+       "skill": "data security",
+       "jobs": 15,
+       "score": 0.7829,
+       "status": "covered"
+      },
+      {
+       "skill": "disaster recovery planning",
+       "jobs": 15,
+       "score": 1.0,
+       "status": "covered"
+      }
+     ],
+     "boundary_tie": {
+      "boundary_jobs": 15,
+      "n_tied": 6,
+      "n_tied_inside": 3,
+      "n_resolutions": 20,
+      "tied_skills": [
+       "cybersecurity best practices",
+       "data security",
+       "disaster recovery planning",
+       "network administration",
+       "node.js development",
+       "performance tuning"
+      ],
+      "covered_range": [
+       24,
+       26
+      ],
+      "dwc_range": [
+       0.8341,
+       0.8773
+      ]
+     },
+     "n_courses": 25
+    }
+   },
+   "removed": 18
+  }
+ },
+ "mapping_drift": {
+  "Y3": {
+   "top30_overlap": 27,
+   "left_top30": [
+    "security compliance",
+    "disaster recovery planning",
+    "network administration"
+   ],
+   "entered_top30": [
+    "data security",
+    "vendor management",
+    "cybersecurity best practices"
+   ],
+   "rank_corr_shared": 0.9481,
+   "covered": [
+    12,
+    12
+   ],
+   "dwc": [
+    0.4494,
+    0.4554
+   ],
+   "dwc_delta_pts": 0.6,
+   "half_credit": [
+    0.5216,
+    0.5162
+   ],
+   "kl": [
+    0.381,
+    0.3776
+   ],
+   "status_changes": []
+  },
+  "Y4": {
+   "top30_overlap": 27,
+   "left_top30": [
+    "security compliance",
+    "disaster recovery planning",
+    "network administration"
+   ],
+   "entered_top30": [
+    "data security",
+    "vendor management",
+    "cybersecurity best practices"
+   ],
+   "rank_corr_shared": 0.9481,
+   "covered": [
+    16,
+    17
+   ],
+   "dwc": [
+    0.5142,
+    0.55
+   ],
+   "dwc_delta_pts": 3.58,
+   "half_credit": [
+    0.6282,
+    0.6473
+   ],
+   "kl": [
+    0.3771,
+    0.3728
+   ],
+   "status_changes": []
+  },
+  "Y5": {
+   "top30_overlap": 27,
+   "left_top30": [
+    "security compliance",
+    "disaster recovery planning",
+    "network administration"
+   ],
+   "entered_top30": [
+    "data security",
+    "vendor management",
+    "cybersecurity best practices"
+   ],
+   "rank_corr_shared": 0.9481,
+   "covered": [
+    17,
+    16
+   ],
+   "dwc": [
+    0.5628,
+    0.5459
+   ],
+   "dwc_delta_pts": -1.69,
+   "half_credit": [
+    0.6457,
+    0.6399
+   ],
+   "kl": [
+    0.3768,
+    0.375
+   ],
+   "status_changes": []
+  },
+  "Y3+Y4+Y5": {
+   "top30_overlap": 27,
+   "left_top30": [
+    "security compliance",
+    "disaster recovery planning",
+    "network administration"
+   ],
+   "entered_top30": [
+    "data security",
+    "vendor management",
+    "cybersecurity best practices"
+   ],
+   "rank_corr_shared": 0.9481,
+   "covered": [
+    25,
+    24
+   ],
+   "dwc": [
+    0.8529,
+    0.8351
+   ],
+   "dwc_delta_pts": -1.78,
+   "half_credit": [
+    0.8893,
+    0.8811
+   ],
+   "kl": [
+    0.3689,
+    0.3675
+   ],
+   "status_changes": []
+  }
+ },
+ "deltas": {
+  "cross_site": {
+   "Y3": {
+    "top30_overlap": 30,
+    "left_top30": [],
+    "entered_top30": [],
+    "rank_corr_shared": 1.0,
+    "covered": [
+     12,
+     12
+    ],
+    "dwc": [
+     0.4554,
+     0.4554
+    ],
+    "dwc_delta_pts": 0.0,
+    "half_credit": [
+     0.5162,
+     0.5162
+    ],
+    "kl": [
+     0.3776,
+     0.3782
+    ],
+    "status_changes": []
+   },
+   "Y4": {
+    "top30_overlap": 30,
+    "left_top30": [],
+    "entered_top30": [],
+    "rank_corr_shared": 1.0,
+    "covered": [
+     17,
+     17
+    ],
+    "dwc": [
+     0.55,
+     0.55
+    ],
+    "dwc_delta_pts": 0.0,
+    "half_credit": [
+     0.6473,
+     0.6473
+    ],
+    "kl": [
+     0.3728,
+     0.3736
+    ],
+    "status_changes": []
+   },
+   "Y5": {
+    "top30_overlap": 30,
+    "left_top30": [],
+    "entered_top30": [],
+    "rank_corr_shared": 1.0,
+    "covered": [
+     16,
+     16
+    ],
+    "dwc": [
+     0.5459,
+     0.5459
+    ],
+    "dwc_delta_pts": 0.0,
+    "half_credit": [
+     0.6399,
+     0.6399
+    ],
+    "kl": [
+     0.375,
+     0.3758
+    ],
+    "status_changes": []
+   },
+   "Y3+Y4+Y5": {
+    "top30_overlap": 30,
+    "left_top30": [],
+    "entered_top30": [],
+    "rank_corr_shared": 1.0,
+    "covered": [
+     24,
+     24
+    ],
+    "dwc": [
+     0.8351,
+     0.8351
+    ],
+    "dwc_delta_pts": 0.0,
+    "half_credit": [
+     0.8811,
+     0.8811
+    ],
+    "kl": [
+     0.3675,
+     0.3684
+    ],
+    "status_changes": []
+   }
+  },
+  "all_reposts": {
+   "Y3": {
+    "top30_overlap": 28,
+    "left_top30": [
+     "microsoft office proficiency",
+     "performance tuning"
+    ],
+    "entered_top30": [
+     "system testing",
+     "disaster recovery planning"
+    ],
+    "rank_corr_shared": 0.9446,
+    "covered": [
+     12,
+     12
+    ],
+    "dwc": [
+     0.4554,
+     0.443
+    ],
+    "dwc_delta_pts": -1.24,
+    "half_credit": [
+     0.5162,
+     0.5065
+    ],
+    "kl": [
+     0.3776,
+     0.3648
+    ],
+    "status_changes": []
+   },
+   "Y4": {
+    "top30_overlap": 28,
+    "left_top30": [
+     "microsoft office proficiency",
+     "performance tuning"
+    ],
+    "entered_top30": [
+     "system testing",
+     "disaster recovery planning"
+    ],
+    "rank_corr_shared": 0.9446,
+    "covered": [
+     17,
+     17
+    ],
+    "dwc": [
+     0.55,
+     0.544
+    ],
+    "dwc_delta_pts": -0.6,
+    "half_credit": [
+     0.6473,
+     0.653
+    ],
+    "kl": [
+     0.3728,
+     0.3598
+    ],
+    "status_changes": []
+   },
+   "Y5": {
+    "top30_overlap": 28,
+    "left_top30": [
+     "microsoft office proficiency",
+     "performance tuning"
+    ],
+    "entered_top30": [
+     "system testing",
+     "disaster recovery planning"
+    ],
+    "rank_corr_shared": 0.9446,
+    "covered": [
+     16,
+     17
+    ],
+    "dwc": [
+     0.5459,
+     0.5613
+    ],
+    "dwc_delta_pts": 1.54,
+    "half_credit": [
+     0.6399,
+     0.6566
+    ],
+    "kl": [
+     0.375,
+     0.3627
+    ],
+    "status_changes": []
+   },
+   "Y3+Y4+Y5": {
+    "top30_overlap": 28,
+    "left_top30": [
+     "microsoft office proficiency",
+     "performance tuning"
+    ],
+    "entered_top30": [
+     "system testing",
+     "disaster recovery planning"
+    ],
+    "rank_corr_shared": 0.9446,
+    "covered": [
+     24,
+     25
+    ],
+    "dwc": [
+     0.8351,
+     0.8557
+    ],
+    "dwc_delta_pts": 2.06,
+    "half_credit": [
+     0.8811,
+     0.9026
+    ],
+    "kl": [
+     0.3675,
+     0.3553
+    ],
+    "status_changes": []
+   }
+  }
+ }
+}

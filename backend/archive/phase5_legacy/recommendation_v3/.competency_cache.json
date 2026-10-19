@@ -1,0 +1,587 @@
+{
+  "c2b3486e36dfe165beb440be8a1f272cc0f5eb5d": {
+    "competencies": [
+      {
+        "competency": "machine learning",
+        "source": "market",
+        "evidence": [
+          "Supervised Learning",
+          "Unsupervised Learning",
+          "Clustering",
+          "K-Means",
+          "Gaussian Mixture",
+          "Linear Regression",
+          "Decision Trees",
+          "Logistic Regression",
+          "K-Nearest Neighbor",
+          "Gradient Descent",
+          "Gradient Boosting",
+          "Algorithm Evaluation",
+          "Algorithm Selection for Datasets"
+        ]
+      },
+      {
+        "competency": "data analysis",
+        "source": "market",
+        "evidence": [
+          "Data Exploration and Analysis (EDA)",
+          "Data Preparation"
+        ]
+      },
+      {
+        "competency": "artificial intelligence",
+        "source": "market",
+        "evidence": [
+          "AI Application Development",
+          "AI Sub-Fields"
+        ]
+      },
+      {
+        "competency": "data science",
+        "source": "market",
+        "evidence": [
+          "Cross-Validation"
+        ]
+      }
+    ],
+    "market": [
+      "machine learning",
+      "data analysis",
+      "artificial intelligence",
+      "data science"
+    ],
+    "specialized": [],
+    "domains": [
+      "data_science"
+    ],
+    "course_code": "AIECS031",
+    "n_input": 18
+  },
+  "a276f7992e32139c7c796a3d0b8ab54136d8d8ec": {
+    "competencies": [
+      {
+        "competency": "machine learning",
+        "source": "market",
+        "evidence": [
+          "Supervised Learning",
+          "Unsupervised Learning",
+          "Clustering",
+          "K-Means",
+          "Gaussian Mixture",
+          "Linear Regression",
+          "Decision Trees",
+          "Logistic Regression",
+          "K-Nearest Neighbor",
+          "Gradient Descent",
+          "Gradient Boosting",
+          "Algorithm Evaluation",
+          "Algorithm Selection for Datasets"
+        ]
+      },
+      {
+        "competency": "data preprocessing",
+        "source": "market",
+        "evidence": [
+          "Data Preparation"
+        ]
+      },
+      {
+        "competency": "data exploration and analysis (eda)",
+        "source": "specialized",
+        "evidence": [
+          "Data Exploration and Analysis (EDA)"
+        ]
+      },
+      {
+        "competency": "ai application development",
+        "source": "specialized",
+        "evidence": [
+          "AI Application Development"
+        ]
+      },
+      {
+        "competency": "ai sub-fields",
+        "source": "specialized",
+        "evidence": [
+          "AI Sub-Fields"
+        ]
+      },
+      {
+        "competency": "cross-validation",
+        "source": "specialized",
+        "evidence": [
+          "Cross-Validation"
+        ]
+      }
+    ],
+    "market": [
+      "machine learning",
+      "data preprocessing"
+    ],
+    "specialized": [
+      "data exploration and analysis (eda)",
+      "ai application development",
+      "ai sub-fields",
+      "cross-validation"
+    ],
+    "domains": [
+      "artificial_intelligence"
+    ],
+    "course_code": "AIECS031",
+    "n_input": 18
+  },
+  "a32ac5ad86796bd291cec3081984da490d782cb3": {
+    "competencies": [
+      {
+        "competency": "machine learning",
+        "source": "market",
+        "evidence": [
+          "Supervised Learning",
+          "Unsupervised Learning",
+          "Clustering",
+          "K-Means",
+          "Gaussian Mixture",
+          "Linear Regression",
+          "Decision Trees",
+          "Cross-Validation",
+          "Logistic Regression",
+          "K-Nearest Neighbor",
+          "Gradient Descent",
+          "Gradient Boosting",
+          "Algorithm Evaluation",
+          "Algorithm Selection for Datasets",
+          "AI Sub-Fields"
+        ]
+      },
+      {
+        "competency": "data preprocessing",
+        "source": "market",
+        "evidence": [
+          "Data Preparation",
+          "Data Exploration and Analysis (EDA)"
+        ]
+      },
+      {
+        "competency": "python",
+        "source": "market",
+        "evidence": [
+          "python"
+        ]
+      },
+      {
+        "competency": "pandas",
+        "source": "market",
+        "evidence": [
+          "pandas"
+        ]
+      },
+      {
+        "competency": "jupyter",
+        "source": "market",
+        "evidence": [
+          "jupyter"
+        ]
+      },
+      {
+        "competency": "AI Application Development",
+        "source": "specialized",
+        "evidence": [
+          "AI Application Development"
+        ]
+      }
+    ],
+    "market": [
+      "machine learning",
+      "data preprocessing",
+      "python",
+      "pandas",
+      "jupyter"
+    ],
+    "specialized": [
+      "AI Application Development"
+    ],
+    "domains": [
+      "artificial_intelligence"
+    ],
+    "course_code": "",
+    "n_input": 21
+  },
+  "699db6d000fb4bd3d0456ea2ecba2c15f151cb5b": {
+    "competencies": [
+      {
+        "competency": "Supervised Learning",
+        "source": "course",
+        "evidence": [
+          "Supervised Learning",
+          "Linear Regression",
+          "Logistic Regression",
+          "Decision Trees",
+          "K-Nearest Neighbor",
+          "Gradient Boosting",
+          "Gradient Descent",
+          "Algorithm Selection for Datasets",
+          "Algorithm Evaluation"
+        ]
+      },
+      {
+        "competency": "Unsupervised Learning",
+        "source": "course",
+        "evidence": [
+          "Unsupervised Learning",
+          "Clustering",
+          "K-Means",
+          "Gaussian Mixture"
+        ]
+      },
+      {
+        "competency": "Data Exploration and Analysis (EDA)",
+        "source": "course",
+        "evidence": [
+          "Data Exploration and Analysis (EDA)",
+          "Data Preparation"
+        ]
+      },
+      {
+        "competency": "AI Application Development",
+        "source": "course",
+        "evidence": [
+          "AI Application Development"
+        ]
+      },
+      {
+        "competency": "AI Sub-Fields",
+        "source": "course",
+        "evidence": [
+          "AI Sub-Fields"
+        ]
+      },
+      {
+        "competency": "Model Evaluation and Validation",
+        "source": "course",
+        "evidence": [
+          "Cross-Validation"
+        ]
+      }
+    ],
+    "course": [
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Data Exploration and Analysis (EDA)",
+      "AI Application Development",
+      "AI Sub-Fields",
+      "Model Evaluation and Validation"
+    ],
+    "market": [],
+    "specialized": [],
+    "domains": [],
+    "course_code": "AIECS031",
+    "n_input": 18,
+    "method": "independent_course_grouping"
+  },
+  "1fc5453f895b4ce588cecfa7f2940f9eb4757159": {
+    "competencies": [
+      {
+        "competency": "Supervised Learning",
+        "source": "course",
+        "evidence": [
+          "Supervised Learning",
+          "Linear Regression",
+          "Logistic Regression",
+          "Decision Trees",
+          "K-Nearest Neighbor",
+          "Gradient Boosting",
+          "Gradient Descent",
+          "Algorithm Selection for Datasets",
+          "Algorithm Evaluation"
+        ]
+      },
+      {
+        "competency": "Unsupervised Learning",
+        "source": "course",
+        "evidence": [
+          "Unsupervised Learning",
+          "Clustering",
+          "K-Means",
+          "Gaussian Mixture"
+        ]
+      },
+      {
+        "competency": "Python Programming Tools",
+        "source": "course",
+        "evidence": [
+          "python",
+          "pandas",
+          "jupyter"
+        ]
+      },
+      {
+        "competency": "Data Exploration and Analysis (EDA)",
+        "source": "course",
+        "evidence": [
+          "Data Exploration and Analysis (EDA)",
+          "Data Preparation"
+        ]
+      },
+      {
+        "competency": "AI Application Development",
+        "source": "course",
+        "evidence": [
+          "AI Application Development",
+          "AI Sub-Fields"
+        ]
+      },
+      {
+        "competency": "Model Evaluation and Validation",
+        "source": "course",
+        "evidence": [
+          "Cross-Validation"
+        ]
+      }
+    ],
+    "course": [
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Python Programming Tools",
+      "Data Exploration and Analysis (EDA)",
+      "AI Application Development",
+      "Model Evaluation and Validation"
+    ],
+    "market": [],
+    "specialized": [],
+    "domains": [],
+    "course_code": "AIECS031",
+    "n_input": 21,
+    "method": "independent_course_grouping"
+  },
+  "29a4e87f47281866b0d74f26e9f3e400a9a18747": {
+    "competencies": [
+      {
+        "competency": "application security",
+        "source": "market",
+        "evidence": [
+          "Secure Coding Practices",
+          "Secure Software Development",
+          "Input Validation",
+          "Secure Web Application Development",
+          "SQL Injection",
+          "Cross-Site Scripting (XSS)"
+        ]
+      },
+      {
+        "competency": "incident response",
+        "source": "market",
+        "evidence": [
+          "Incident Evidence Analysis",
+          "Ethical Response Planning"
+        ]
+      },
+      {
+        "competency": "security concepts",
+        "source": "market",
+        "evidence": [
+          "Ethical Software Development",
+          "Secure Data Storage"
+        ]
+      },
+      {
+        "competency": "security & access control management",
+        "source": "market",
+        "evidence": [
+          "Access Control"
+        ]
+      },
+      {
+        "competency": "network security",
+        "source": "market",
+        "evidence": [
+          "Network Security Controls"
+        ]
+      },
+      {
+        "competency": "digital forensics",
+        "source": "specialized",
+        "evidence": [
+          "Digital Forensics",
+          "Digital Evidence Analysis",
+          "Digital Forensics Tools"
+        ]
+      },
+      {
+        "competency": "Cybercrime Analysis",
+        "source": "specialized",
+        "evidence": [
+          "Cybercrime Analysis"
+        ]
+      }
+    ],
+    "market": [
+      "application security",
+      "incident response",
+      "security concepts",
+      "security & access control management",
+      "network security"
+    ],
+    "specialized": [
+      "digital forensics",
+      "Cybercrime Analysis"
+    ],
+    "domains": [
+      "cybersecurity"
+    ],
+    "course_code": "AIECS028",
+    "n_input": 16
+  },
+  "790e165743fec96d577bd7b32b3a395dee59cd54": {
+    "competencies": [
+      {
+        "competency": "application security",
+        "source": "market",
+        "evidence": [
+          "Secure Coding Practices",
+          "Secure Software Development",
+          "Input Validation",
+          "Secure Web Application Development",
+          "SQL Injection",
+          "Cross-Site Scripting (XSS)"
+        ]
+      },
+      {
+        "competency": "incident response",
+        "source": "market",
+        "evidence": [
+          "Incident Evidence Analysis",
+          "Ethical Response Planning"
+        ]
+      },
+      {
+        "competency": "security & access control management",
+        "source": "market",
+        "evidence": [
+          "Access Control"
+        ]
+      },
+      {
+        "competency": "network security",
+        "source": "market",
+        "evidence": [
+          "Network Security Controls"
+        ]
+      },
+      {
+        "competency": "security concepts",
+        "source": "market",
+        "evidence": [
+          "sql"
+        ]
+      },
+      {
+        "competency": "digital forensics",
+        "source": "specialized",
+        "evidence": [
+          "Digital Forensics",
+          "Digital Evidence Analysis",
+          "Digital Forensics Tools"
+        ]
+      },
+      {
+        "competency": "secure data storage",
+        "source": "specialized",
+        "evidence": [
+          "Secure Data Storage"
+        ]
+      },
+      {
+        "competency": "ethical software development",
+        "source": "specialized",
+        "evidence": [
+          "Ethical Software Development"
+        ]
+      },
+      {
+        "competency": "cybercrime analysis",
+        "source": "specialized",
+        "evidence": [
+          "Cybercrime Analysis"
+        ]
+      }
+    ],
+    "market": [
+      "application security",
+      "incident response",
+      "security & access control management",
+      "network security",
+      "security concepts"
+    ],
+    "specialized": [
+      "digital forensics",
+      "secure data storage",
+      "ethical software development",
+      "cybercrime analysis"
+    ],
+    "domains": [
+      "cybersecurity"
+    ],
+    "course_code": "AIECS028",
+    "n_input": 17
+  },
+  "63354171968ab6b0b94121c778f795f0407aa34c": {
+    "competencies": [
+      {
+        "competency": "machine learning",
+        "source": "market",
+        "evidence": [
+          "Supervised Learning",
+          "Unsupervised Learning",
+          "Clustering",
+          "K-Means",
+          "Gaussian Mixture",
+          "Linear Regression",
+          "Decision Trees",
+          "Logistic Regression",
+          "K-Nearest Neighbor",
+          "Gradient Descent",
+          "Gradient Boosting",
+          "Algorithm Evaluation",
+          "Algorithm Selection for Datasets"
+        ]
+      },
+      {
+        "competency": "data analysis",
+        "source": "market",
+        "evidence": [
+          "Data Exploration and Analysis (EDA)",
+          "Data Preparation"
+        ]
+      },
+      {
+        "competency": "artificial intelligence",
+        "source": "market",
+        "evidence": [
+          "AI Application Development",
+          "AI Sub-Fields"
+        ]
+      },
+      {
+        "competency": "Cross-Validation",
+        "source": "specialized",
+        "evidence": [
+          "Cross-Validation"
+        ]
+      }
+    ],
+    "market": [
+      "machine learning",
+      "data analysis",
+      "artificial intelligence"
+    ],
+    "specialized": [
+      "Cross-Validation"
+    ],
+    "domains": [
+      "artificial_intelligence",
+      "data_science"
+    ],
+    "course_code": "AIECS031",
+    "n_input": 18
+  }
+}

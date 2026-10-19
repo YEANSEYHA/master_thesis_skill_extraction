@@ -1,0 +1,90 @@
+{
+  "run_id": "20260727T104658Z-475eb3",
+  "cohort": "Y3",
+  "label": "V8 tab \u00b7 cambodia \u00b7 9 saved courses \u00b7 Y3",
+  "experiment_date": "2026-07-27",
+  "started_at": "2026-07-27T10:46:58+00:00",
+  "duration_s": 14.5,
+  "provenance": {
+    "git_sha": "32fab9b4",
+    "config_hash": "475eb38e6ff0a1eaabd0f377e56dcf53ca500fe19beb84aca06a771af0a90eb6",
+    "input_hash": "f051a7b241a1bd0445f45720a69938109f301fa44f80495092b14c412794ed3e",
+    "cache_version": "v3"
+  },
+  "curriculum": {
+    "source": "db",
+    "n_courses": 9,
+    "n_clo_skills": 218,
+    "dir": "./backend/phase5/02_input_curriculum/clo_skills_db"
+  },
+  "job_market": {
+    "dataset": "stage2_result.json",
+    "source": "cambodia",
+    "segment_mode": "category",
+    "n_jobs": 254,
+    "top_n": 30,
+    "min_skill_freq": 2
+  },
+  "configuration": {
+    "bi_encoder": "BAAI/bge-base-en-v1.5",
+    "cross_encoder": "BAAI/bge-reranker-v2-m3",
+    "skill_merge_threshold": 0.8,
+    "covered_at": 0.73,
+    "borderline_at": 0.69,
+    "host_min": 0.66,
+    "rerank_supported_at": 0.5,
+    "rerank_weak_at": 0.1,
+    "rerank_top_k": 3,
+    "eps": 1e-06,
+    "cum_frac": 0.8,
+    "spill_min": 0.05,
+    "thresholds_status": "PROVISIONAL \u2014 linearly mapped from MiniLM; the LLM-judge silver study fits strict `covered` at ~0.80. Awaiting human gold (remaining #1) -> calibration (#2). Every covered/borderline/gap count and every heatmap cell colour moves if the bar moves."
+  },
+  "measured_results": {
+    "kl_divergence": 0.381,
+    "covered": 12,
+    "borderline": 5,
+    "gap": 13,
+    "coverage_rate_percent": 40.0,
+    "demand_weighted_coverage_percent": 44.9,
+    "demand_weighted_coverage_half_credit_percent": 52.2,
+    "host_verified": 21,
+    "host_unverified": 9,
+    "rerank_supported": 10,
+    "rerank_weak": 3,
+    "rerank_not_supported": 17
+  },
+  "modelled_results": {
+    "_note": "Simulated by greedy facility-location: 'adding' a skill inserts a synthetic CLO that embeds the skill itself. An upper bound, not a forecast. Never report as an achieved result.",
+    "gaps_considered": 18,
+    "n_selected": 12,
+    "stop_rule": "0.8 of achievable gain",
+    "kl_final": 0.3513,
+    "covered_final": 26,
+    "kl_absolute_improvement": 0.0297,
+    "kl_relative_improvement_percent": 7.8,
+    "routes": {
+      "new": 14,
+      "extend": 3,
+      "partial": 1
+    },
+    "actions": {
+      "new_content": 14,
+      "extend": 3,
+      "add_module": 1
+    }
+  },
+  "evaluation_ref": {
+    "_note": "Precision/recall/F1 are properties of the INSTRUMENT (the 150-pair annotation study), not of a cohort run. Do not fill per-run.",
+    "calibration_record": "05_evaluation/llm_judge_itc_results.json",
+    "gold_status": "silver only (LLM judges, Cohen k=0.83); human gold 0/150"
+  },
+  "known_limits": [
+    "KL is a point estimate with no confidence interval (remaining #6).",
+    "KL is encoder-bound: the curriculum profile is raw unthresholded max-cosine and BGE's floor for unrelated pairs is ~0.5, so KL is systematically damped.",
+    "KL is computed over the full ~571-skill segment, not just top_n. At the coverage magnitudes a single cohort can reach (~12-17/30), KL sits within ~6% of the 'teaches nothing' baseline (measured: null=0.3988, cohorts 0.374-0.378) and does not usefully separate cohorts. demand_weighted_coverage_percent is the primary cross-cohort metric; KL is a secondary distributional stat, not a ranking metric.",
+    "KL is not comparable across corpora of different size; only cross-cohort comparisons on the same market segment are valid.",
+    "Coverage is max cosine, not a percentage. coverage_rate_percent is the SHARE OF SKILLS covered (e.g. 12/30), never a cosine as a percent.",
+    "demand_weighted_coverage_percent = share of top_n's job-count mass that is covered (Sigma jobs[covered] / Sigma jobs[top_n]), i.e. how much of what employers ask for (within the top_n) is taught, not how many of top_n skills are ticked. Inherits the covered_at threshold (0.73, provisional; silver LLM-judge study suggests the true 'fully covered' bar is closer to 0.80) -- report the half-credit variant alongside it as a sensitivity bound."
+  ]
+}

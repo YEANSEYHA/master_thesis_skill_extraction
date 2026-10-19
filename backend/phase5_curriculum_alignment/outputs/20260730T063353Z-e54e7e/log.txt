@@ -1,0 +1,23 @@
+run 20260730T063353Z-e54e7e  config e54e7e input 54f4ea
+Loading model 'BAAI/bge-base-en-v1.5' + market (cached) ...
+  (market loaded from cache)
+Curriculum: 8 courses, 146 CLO skills
+Host verification: 30 skills x 3 CLOs, inline (BAAI/bge-reranker-v2-m3)
+written report_data.cambodia.js: covered 16/30, demand-weighted 51.4%, KL=0.3771
+written preview_data.cambodia.js: 5 preview jobs, 8 courses, job_total=4876
+
+SELECTION (greedy facility-location, stop at 80% of achievable gain): add 10/14 gaps
+  ADD  technical documentation  closes  3.1% KL->0.3713 covered->17 [none -> new_content: Add new technical documentation content]  lifts: microsoft office proficiency->0.67
+  ADD  java programming         closes  2.3% KL->0.3662 covered->18 [none -> new_content: Add new java programming content]
+  ADD  project management       closes  1.9% KL->0.3629 covered->19 [none -> new_content: Add new project management content]
+  ADD  microsoft office proficiency closes  1.9% KL->0.3610 covered->20 [none -> new_content: Add new microsoft office proficiency content]
+  ADD  mysql database           closes  1.7% KL->0.3567 covered->22 [foundation -> add_module: Add mysql database content building on Advanced Database And Database Management Systems]  lifts: postgresql database->0.8
+  ADD  software development     closes  1.6% KL->0.3551 covered->23 [none -> new_content: Add new software development content]
+  ADD  technical support        closes  1.4% KL->0.3539 covered->24 [content_exists -> extend: Extend Systems And Networks Administration with explicit technical support content]
+  ADD  security compliance      closes  1.0% KL->0.3523 covered->25 [foundation -> add_module: Add security compliance content building on Systems And Networks Administration]
+  ADD  data analysis            closes  1.0% KL->0.3511 covered->26 [none -> new_content: Add new data analysis content]
+  ADD  aws cloud platforms      closes  0.9% KL->0.3491 covered->27 [none -> new_content: Add new aws cloud platforms content]
+  skip code reviews             closes  0.9% KL->0.3478 covered->28 [none -> new_content: Add new code reviews content]
+  skip incident response        closes  0.8% KL->0.3462 covered->29 [foundation -> add_module: Add incident response content building on Software Development And It Operations Devops]
+  skip postgresql database      closes  0.7% KL->0.3445 covered->29 [none -> new_content: Add new postgresql database content]
+  skip disaster recovery planning closes  0.7% KL->0.3434 covered->30 [none -> new_content: Add new disaster recovery planning content]

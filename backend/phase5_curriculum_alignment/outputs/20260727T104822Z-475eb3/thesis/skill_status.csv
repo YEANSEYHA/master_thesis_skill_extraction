@@ -1,0 +1,31 @@
+rank,market_skill,job_count,program_score,status,best_course,best_clo,rerank_score,rerank_verdict,host_ok,priority
+1,technical documentation,49,0.67,gap,It Project Management,Project Status Reporting,0.02,NOT_SUPPORTED,true,0.0639
+2,database management,42,0.91,covered,Data Mining,Database Management Systems (DBMS),0.99,SUPPORTED,true,0.0155
+3,java programming,41,0.74,covered,Image Processing,Python,0.05,NOT_SUPPORTED,true,0.0414
+4,project management,37,0.87,covered,It Project Management,Project Team Management,0.98,SUPPORTED,true,0.019
+5,network troubleshooting,35,0.77,covered,Network Security,Network Devices,0.1,WEAK,true,0.0316
+6,system maintenance,34,0.71,borderline,Information Security,Security Solutions for System Support and Operations,0.07,NOT_SUPPORTED,true,0.0386
+7,mysql database,30,0.78,covered,Data Mining,Database Queries,0.37,WEAK,true,0.0256
+8,restful api development,28,0.68,gap,Cloud Computing,Service-Oriented Architecture,0.0,NOT_SUPPORTED,true,0.0353
+9,postgresql database,27,0.72,borderline,Data Mining,Database Queries,0.11,WEAK,true,0.0301
+10,technical support,27,0.68,gap,Information Security,Security Solutions for System Support and Operations,0.07,NOT_SUPPORTED,true,0.0338
+11,ci/cd pipelines,26,0.69,borderline,Introduction To Artificial Intelligence,Machine Learning Pipeline,0.02,NOT_SUPPORTED,true,0.0314
+12,docker containerization,24,0.89,covered,Cloud Computing,Containerization,0.99,SUPPORTED,true,0.0103
+13,git version control,24,0.64,gap,It Project Management,Change Management,0.02,NOT_SUPPORTED,false,0.0341
+14,firewall configuration,23,0.83,covered,Network Security,Firewall Technology,0.19,WEAK,true,0.0152
+15,security compliance,23,1.0,covered,Information Security,Security Compliance,1.0,SUPPORTED,true,0.0
+16,server management,21,0.76,covered,Cloud Computing,Load Balancing,0.35,WEAK,true,0.0202
+17,aws cloud platforms,19,0.82,covered,Cloud Computing,AWS,0.73,SUPPORTED,true,0.0131
+18,incident response,19,0.66,gap,Network Security,Disaster Recovery Planning,0.01,NOT_SUPPORTED,false,0.0256
+19,security monitoring,19,0.83,covered,Information Security,Information Security Threat Trend Monitoring,0.89,SUPPORTED,true,0.0126
+20,api integration,18,0.65,gap,Cloud Computing,Platform as a Service (PaaS),0.0,NOT_SUPPORTED,false,0.0247
+21,code reviews,18,0.67,gap,Image Processing,Huffman Coding,0.0,NOT_SUPPORTED,true,0.0233
+22,data analysis,18,0.79,covered,Data Mining,Correlation Analysis,0.93,SUPPORTED,true,0.0149
+23,it infrastructure management,18,0.75,covered,Cloud Computing,Infrastructure as a Service (IaaS),0.06,NOT_SUPPORTED,true,0.018
+24,microsoft office proficiency,18,0.61,gap,Data Mining,Data Quality Assessment,0.0,NOT_SUPPORTED,false,0.0274
+25,software development,18,0.71,borderline,Cloud Computing,Software as a Service (SaaS),0.11,WEAK,true,0.0208
+26,system integration,18,0.71,borderline,Information Security,Security Solutions for System Support and Operations,0.01,NOT_SUPPORTED,true,0.0203
+27,vmware virtualization,18,0.89,covered,Cloud Computing,Virtualization,0.84,SUPPORTED,true,0.0075
+28,performance tuning,17,0.74,covered,Introduction To Artificial Intelligence,Performance Evaluation and Overfitting/Underfitting Diagnosis,0.16,WEAK,true,0.0174
+29,disaster recovery planning,16,1.0,covered,Network Security,Disaster Recovery Planning,1.0,SUPPORTED,true,0.0
+30,network administration,16,0.75,covered,Network Security,Network Devices,0.08,NOT_SUPPORTED,true,0.0155

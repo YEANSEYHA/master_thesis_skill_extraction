@@ -1,0 +1,58 @@
+[
+  {
+    "skill": "Advanced SQL Querying",
+    "source": "CLO"
+  },
+  {
+    "skill": "Database Transaction Management",
+    "source": "CLO"
+  },
+  {
+    "skill": "Concurrency Control",
+    "source": "CLO"
+  },
+  {
+    "skill": "Database Security Policy Design",
+    "source": "CLO"
+  },
+  {
+    "skill": "Distributed Database Management",
+    "source": "CLO"
+  },
+  {
+    "skill": "Database Normalization",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Database Indexing",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Transaction Concurrency Control",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Transaction Control (Commit, Rollback, Locking)",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Database Backup Strategies",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Database Recovery Techniques",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Distributed Database Replication",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Database Partitioning",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Data Warehousing",
+    "source": "Lesson Topic"
+  }
+]

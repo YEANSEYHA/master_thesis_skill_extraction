@@ -1,0 +1,271 @@
+run_id,cohort,rank,market_skill,job_count,course_name,cosine,is_row_max,cell_status
+20260727T104658Z-475eb3,Y3,1,technical documentation,49,Information System Analysis And Design,0.78,true,covered
+20260727T104658Z-475eb3,Y3,1,technical documentation,49,Algorithm And Programming,0.63,false,gap
+20260727T104658Z-475eb3,Y3,1,technical documentation,49,Combinational And Sequential Logics,0.66,false,gap
+20260727T104658Z-475eb3,Y3,1,technical documentation,49,Introduction To Computer Systems And Networks,0.65,false,gap
+20260727T104658Z-475eb3,Y3,1,technical documentation,49,Soft Skills,0.52,false,gap
+20260727T104658Z-475eb3,Y3,1,technical documentation,49,Object Oriented Programming,0.68,false,gap
+20260727T104658Z-475eb3,Y3,1,technical documentation,49,Discrete Mathematics,0.63,false,gap
+20260727T104658Z-475eb3,Y3,1,technical documentation,49,Electronics,0.63,false,gap
+20260727T104658Z-475eb3,Y3,1,technical documentation,49,Research Methodology,0.67,false,gap
+20260727T104658Z-475eb3,Y3,2,database management,42,Information System Analysis And Design,0.91,true,covered
+20260727T104658Z-475eb3,Y3,2,database management,42,Algorithm And Programming,0.63,false,gap
+20260727T104658Z-475eb3,Y3,2,database management,42,Combinational And Sequential Logics,0.66,false,gap
+20260727T104658Z-475eb3,Y3,2,database management,42,Introduction To Computer Systems And Networks,0.61,false,gap
+20260727T104658Z-475eb3,Y3,2,database management,42,Soft Skills,0.51,false,gap
+20260727T104658Z-475eb3,Y3,2,database management,42,Object Oriented Programming,0.64,false,gap
+20260727T104658Z-475eb3,Y3,2,database management,42,Discrete Mathematics,0.77,false,covered
+20260727T104658Z-475eb3,Y3,2,database management,42,Electronics,0.64,false,gap
+20260727T104658Z-475eb3,Y3,2,database management,42,Research Methodology,0.72,false,borderline
+20260727T104658Z-475eb3,Y3,3,java programming,41,Information System Analysis And Design,0.63,false,gap
+20260727T104658Z-475eb3,Y3,3,java programming,41,Algorithm And Programming,0.78,false,covered
+20260727T104658Z-475eb3,Y3,3,java programming,41,Combinational And Sequential Logics,0.62,false,gap
+20260727T104658Z-475eb3,Y3,3,java programming,41,Introduction To Computer Systems And Networks,0.61,false,gap
+20260727T104658Z-475eb3,Y3,3,java programming,41,Soft Skills,0.55,false,gap
+20260727T104658Z-475eb3,Y3,3,java programming,41,Object Oriented Programming,0.87,true,covered
+20260727T104658Z-475eb3,Y3,3,java programming,41,Discrete Mathematics,0.66,false,gap
+20260727T104658Z-475eb3,Y3,3,java programming,41,Electronics,0.62,false,gap
+20260727T104658Z-475eb3,Y3,3,java programming,41,Research Methodology,0.63,false,gap
+20260727T104658Z-475eb3,Y3,4,project management,37,Information System Analysis And Design,0.65,true,gap
+20260727T104658Z-475eb3,Y3,4,project management,37,Algorithm And Programming,0.64,false,gap
+20260727T104658Z-475eb3,Y3,4,project management,37,Combinational And Sequential Logics,0.57,false,gap
+20260727T104658Z-475eb3,Y3,4,project management,37,Introduction To Computer Systems And Networks,0.61,false,gap
+20260727T104658Z-475eb3,Y3,4,project management,37,Soft Skills,0.55,false,gap
+20260727T104658Z-475eb3,Y3,4,project management,37,Object Oriented Programming,0.63,false,gap
+20260727T104658Z-475eb3,Y3,4,project management,37,Discrete Mathematics,0.6,false,gap
+20260727T104658Z-475eb3,Y3,4,project management,37,Electronics,0.57,false,gap
+20260727T104658Z-475eb3,Y3,4,project management,37,Research Methodology,0.64,false,gap
+20260727T104658Z-475eb3,Y3,5,network troubleshooting,35,Information System Analysis And Design,0.64,false,gap
+20260727T104658Z-475eb3,Y3,5,network troubleshooting,35,Algorithm And Programming,0.56,false,gap
+20260727T104658Z-475eb3,Y3,5,network troubleshooting,35,Combinational And Sequential Logics,0.6,false,gap
+20260727T104658Z-475eb3,Y3,5,network troubleshooting,35,Introduction To Computer Systems And Networks,1.0,true,covered
+20260727T104658Z-475eb3,Y3,5,network troubleshooting,35,Soft Skills,0.46,false,gap
+20260727T104658Z-475eb3,Y3,5,network troubleshooting,35,Object Oriented Programming,0.63,false,gap
+20260727T104658Z-475eb3,Y3,5,network troubleshooting,35,Discrete Mathematics,0.59,false,gap
+20260727T104658Z-475eb3,Y3,5,network troubleshooting,35,Electronics,0.58,false,gap
+20260727T104658Z-475eb3,Y3,5,network troubleshooting,35,Research Methodology,0.62,false,gap
+20260727T104658Z-475eb3,Y3,6,system maintenance,34,Information System Analysis And Design,0.7,false,borderline
+20260727T104658Z-475eb3,Y3,6,system maintenance,34,Algorithm And Programming,0.59,false,gap
+20260727T104658Z-475eb3,Y3,6,system maintenance,34,Combinational And Sequential Logics,0.61,false,gap
+20260727T104658Z-475eb3,Y3,6,system maintenance,34,Introduction To Computer Systems And Networks,0.69,false,borderline
+20260727T104658Z-475eb3,Y3,6,system maintenance,34,Soft Skills,0.51,false,gap
+20260727T104658Z-475eb3,Y3,6,system maintenance,34,Object Oriented Programming,0.82,true,covered
+20260727T104658Z-475eb3,Y3,6,system maintenance,34,Discrete Mathematics,0.56,false,gap
+20260727T104658Z-475eb3,Y3,6,system maintenance,34,Electronics,0.59,false,gap
+20260727T104658Z-475eb3,Y3,6,system maintenance,34,Research Methodology,0.64,false,gap
+20260727T104658Z-475eb3,Y3,7,mysql database,30,Information System Analysis And Design,0.71,true,borderline
+20260727T104658Z-475eb3,Y3,7,mysql database,30,Algorithm And Programming,0.58,false,gap
+20260727T104658Z-475eb3,Y3,7,mysql database,30,Combinational And Sequential Logics,0.6,false,gap
+20260727T104658Z-475eb3,Y3,7,mysql database,30,Introduction To Computer Systems And Networks,0.58,false,gap
+20260727T104658Z-475eb3,Y3,7,mysql database,30,Soft Skills,0.5,false,gap
+20260727T104658Z-475eb3,Y3,7,mysql database,30,Object Oriented Programming,0.63,false,gap
+20260727T104658Z-475eb3,Y3,7,mysql database,30,Discrete Mathematics,0.65,false,gap
+20260727T104658Z-475eb3,Y3,7,mysql database,30,Electronics,0.56,false,gap
+20260727T104658Z-475eb3,Y3,7,mysql database,30,Research Methodology,0.6,false,gap
+20260727T104658Z-475eb3,Y3,8,restful api development,28,Information System Analysis And Design,0.59,false,gap
+20260727T104658Z-475eb3,Y3,8,restful api development,28,Algorithm And Programming,0.56,false,gap
+20260727T104658Z-475eb3,Y3,8,restful api development,28,Combinational And Sequential Logics,0.53,false,gap
+20260727T104658Z-475eb3,Y3,8,restful api development,28,Introduction To Computer Systems And Networks,0.56,false,gap
+20260727T104658Z-475eb3,Y3,8,restful api development,28,Soft Skills,0.5,false,gap
+20260727T104658Z-475eb3,Y3,8,restful api development,28,Object Oriented Programming,0.65,true,gap
+20260727T104658Z-475eb3,Y3,8,restful api development,28,Discrete Mathematics,0.57,false,gap
+20260727T104658Z-475eb3,Y3,8,restful api development,28,Electronics,0.55,false,gap
+20260727T104658Z-475eb3,Y3,8,restful api development,28,Research Methodology,0.58,false,gap
+20260727T104658Z-475eb3,Y3,9,postgresql database,27,Information System Analysis And Design,0.66,true,gap
+20260727T104658Z-475eb3,Y3,9,postgresql database,27,Algorithm And Programming,0.58,false,gap
+20260727T104658Z-475eb3,Y3,9,postgresql database,27,Combinational And Sequential Logics,0.58,false,gap
+20260727T104658Z-475eb3,Y3,9,postgresql database,27,Introduction To Computer Systems And Networks,0.53,false,gap
+20260727T104658Z-475eb3,Y3,9,postgresql database,27,Soft Skills,0.46,false,gap
+20260727T104658Z-475eb3,Y3,9,postgresql database,27,Object Oriented Programming,0.61,false,gap
+20260727T104658Z-475eb3,Y3,9,postgresql database,27,Discrete Mathematics,0.62,false,gap
+20260727T104658Z-475eb3,Y3,9,postgresql database,27,Electronics,0.53,false,gap
+20260727T104658Z-475eb3,Y3,9,postgresql database,27,Research Methodology,0.55,false,gap
+20260727T104658Z-475eb3,Y3,10,technical support,27,Information System Analysis And Design,0.62,false,gap
+20260727T104658Z-475eb3,Y3,10,technical support,27,Algorithm And Programming,0.55,false,gap
+20260727T104658Z-475eb3,Y3,10,technical support,27,Combinational And Sequential Logics,0.55,false,gap
+20260727T104658Z-475eb3,Y3,10,technical support,27,Introduction To Computer Systems And Networks,0.69,true,borderline
+20260727T104658Z-475eb3,Y3,10,technical support,27,Soft Skills,0.52,false,gap
+20260727T104658Z-475eb3,Y3,10,technical support,27,Object Oriented Programming,0.64,false,gap
+20260727T104658Z-475eb3,Y3,10,technical support,27,Discrete Mathematics,0.54,false,gap
+20260727T104658Z-475eb3,Y3,10,technical support,27,Electronics,0.6,false,gap
+20260727T104658Z-475eb3,Y3,10,technical support,27,Research Methodology,0.59,false,gap
+20260727T104658Z-475eb3,Y3,11,ci/cd pipelines,26,Information System Analysis And Design,0.63,true,gap
+20260727T104658Z-475eb3,Y3,11,ci/cd pipelines,26,Algorithm And Programming,0.56,false,gap
+20260727T104658Z-475eb3,Y3,11,ci/cd pipelines,26,Combinational And Sequential Logics,0.57,false,gap
+20260727T104658Z-475eb3,Y3,11,ci/cd pipelines,26,Introduction To Computer Systems And Networks,0.59,false,gap
+20260727T104658Z-475eb3,Y3,11,ci/cd pipelines,26,Soft Skills,0.51,false,gap
+20260727T104658Z-475eb3,Y3,11,ci/cd pipelines,26,Object Oriented Programming,0.61,false,gap
+20260727T104658Z-475eb3,Y3,11,ci/cd pipelines,26,Discrete Mathematics,0.56,false,gap
+20260727T104658Z-475eb3,Y3,11,ci/cd pipelines,26,Electronics,0.55,false,gap
+20260727T104658Z-475eb3,Y3,11,ci/cd pipelines,26,Research Methodology,0.59,false,gap
+20260727T104658Z-475eb3,Y3,12,docker containerization,24,Information System Analysis And Design,0.56,false,gap
+20260727T104658Z-475eb3,Y3,12,docker containerization,24,Algorithm And Programming,0.55,false,gap
+20260727T104658Z-475eb3,Y3,12,docker containerization,24,Combinational And Sequential Logics,0.54,false,gap
+20260727T104658Z-475eb3,Y3,12,docker containerization,24,Introduction To Computer Systems And Networks,0.61,false,gap
+20260727T104658Z-475eb3,Y3,12,docker containerization,24,Soft Skills,0.51,false,gap
+20260727T104658Z-475eb3,Y3,12,docker containerization,24,Object Oriented Programming,0.61,true,gap
+20260727T104658Z-475eb3,Y3,12,docker containerization,24,Discrete Mathematics,0.52,false,gap
+20260727T104658Z-475eb3,Y3,12,docker containerization,24,Electronics,0.49,false,gap
+20260727T104658Z-475eb3,Y3,12,docker containerization,24,Research Methodology,0.53,false,gap
+20260727T104658Z-475eb3,Y3,13,git version control,24,Information System Analysis And Design,0.57,false,gap
+20260727T104658Z-475eb3,Y3,13,git version control,24,Algorithm And Programming,0.51,false,gap
+20260727T104658Z-475eb3,Y3,13,git version control,24,Combinational And Sequential Logics,0.51,false,gap
+20260727T104658Z-475eb3,Y3,13,git version control,24,Introduction To Computer Systems And Networks,0.53,false,gap
+20260727T104658Z-475eb3,Y3,13,git version control,24,Soft Skills,0.43,false,gap
+20260727T104658Z-475eb3,Y3,13,git version control,24,Object Oriented Programming,0.65,true,gap
+20260727T104658Z-475eb3,Y3,13,git version control,24,Discrete Mathematics,0.5,false,gap
+20260727T104658Z-475eb3,Y3,13,git version control,24,Electronics,0.53,false,gap
+20260727T104658Z-475eb3,Y3,13,git version control,24,Research Methodology,0.52,false,gap
+20260727T104658Z-475eb3,Y3,14,firewall configuration,23,Information System Analysis And Design,0.53,false,gap
+20260727T104658Z-475eb3,Y3,14,firewall configuration,23,Algorithm And Programming,0.51,false,gap
+20260727T104658Z-475eb3,Y3,14,firewall configuration,23,Combinational And Sequential Logics,0.52,false,gap
+20260727T104658Z-475eb3,Y3,14,firewall configuration,23,Introduction To Computer Systems And Networks,1.0,true,covered
+20260727T104658Z-475eb3,Y3,14,firewall configuration,23,Soft Skills,0.44,false,gap
+20260727T104658Z-475eb3,Y3,14,firewall configuration,23,Object Oriented Programming,0.54,false,gap
+20260727T104658Z-475eb3,Y3,14,firewall configuration,23,Discrete Mathematics,0.49,false,gap
+20260727T104658Z-475eb3,Y3,14,firewall configuration,23,Electronics,0.51,false,gap
+20260727T104658Z-475eb3,Y3,14,firewall configuration,23,Research Methodology,0.52,false,gap
+20260727T104658Z-475eb3,Y3,15,security compliance,23,Information System Analysis And Design,0.72,true,borderline
+20260727T104658Z-475eb3,Y3,15,security compliance,23,Algorithm And Programming,0.5,false,gap
+20260727T104658Z-475eb3,Y3,15,security compliance,23,Combinational And Sequential Logics,0.57,false,gap
+20260727T104658Z-475eb3,Y3,15,security compliance,23,Introduction To Computer Systems And Networks,0.58,false,gap
+20260727T104658Z-475eb3,Y3,15,security compliance,23,Soft Skills,0.5,false,gap
+20260727T104658Z-475eb3,Y3,15,security compliance,23,Object Oriented Programming,0.6,false,gap
+20260727T104658Z-475eb3,Y3,15,security compliance,23,Discrete Mathematics,0.65,false,gap
+20260727T104658Z-475eb3,Y3,15,security compliance,23,Electronics,0.55,false,gap
+20260727T104658Z-475eb3,Y3,15,security compliance,23,Research Methodology,0.56,false,gap
+20260727T104658Z-475eb3,Y3,16,server management,21,Information System Analysis And Design,0.72,false,borderline
+20260727T104658Z-475eb3,Y3,16,server management,21,Algorithm And Programming,0.62,false,gap
+20260727T104658Z-475eb3,Y3,16,server management,21,Combinational And Sequential Logics,0.6,false,gap
+20260727T104658Z-475eb3,Y3,16,server management,21,Introduction To Computer Systems And Networks,0.76,true,covered
+20260727T104658Z-475eb3,Y3,16,server management,21,Soft Skills,0.51,false,gap
+20260727T104658Z-475eb3,Y3,16,server management,21,Object Oriented Programming,0.7,false,borderline
+20260727T104658Z-475eb3,Y3,16,server management,21,Discrete Mathematics,0.58,false,gap
+20260727T104658Z-475eb3,Y3,16,server management,21,Electronics,0.56,false,gap
+20260727T104658Z-475eb3,Y3,16,server management,21,Research Methodology,0.61,false,gap
+20260727T104658Z-475eb3,Y3,17,aws cloud platforms,19,Information System Analysis And Design,0.59,false,gap
+20260727T104658Z-475eb3,Y3,17,aws cloud platforms,19,Algorithm And Programming,0.51,false,gap
+20260727T104658Z-475eb3,Y3,17,aws cloud platforms,19,Combinational And Sequential Logics,0.52,false,gap
+20260727T104658Z-475eb3,Y3,17,aws cloud platforms,19,Introduction To Computer Systems And Networks,0.61,true,gap
+20260727T104658Z-475eb3,Y3,17,aws cloud platforms,19,Soft Skills,0.53,false,gap
+20260727T104658Z-475eb3,Y3,17,aws cloud platforms,19,Object Oriented Programming,0.57,false,gap
+20260727T104658Z-475eb3,Y3,17,aws cloud platforms,19,Discrete Mathematics,0.53,false,gap
+20260727T104658Z-475eb3,Y3,17,aws cloud platforms,19,Electronics,0.55,false,gap
+20260727T104658Z-475eb3,Y3,17,aws cloud platforms,19,Research Methodology,0.51,false,gap
+20260727T104658Z-475eb3,Y3,18,incident response,19,Information System Analysis And Design,0.58,false,gap
+20260727T104658Z-475eb3,Y3,18,incident response,19,Algorithm And Programming,0.53,false,gap
+20260727T104658Z-475eb3,Y3,18,incident response,19,Combinational And Sequential Logics,0.54,false,gap
+20260727T104658Z-475eb3,Y3,18,incident response,19,Introduction To Computer Systems And Networks,0.62,false,gap
+20260727T104658Z-475eb3,Y3,18,incident response,19,Soft Skills,0.47,false,gap
+20260727T104658Z-475eb3,Y3,18,incident response,19,Object Oriented Programming,0.65,true,gap
+20260727T104658Z-475eb3,Y3,18,incident response,19,Discrete Mathematics,0.51,false,gap
+20260727T104658Z-475eb3,Y3,18,incident response,19,Electronics,0.64,false,gap
+20260727T104658Z-475eb3,Y3,18,incident response,19,Research Methodology,0.62,false,gap
+20260727T104658Z-475eb3,Y3,19,security monitoring,19,Information System Analysis And Design,0.68,false,gap
+20260727T104658Z-475eb3,Y3,19,security monitoring,19,Algorithm And Programming,0.57,false,gap
+20260727T104658Z-475eb3,Y3,19,security monitoring,19,Combinational And Sequential Logics,0.65,false,gap
+20260727T104658Z-475eb3,Y3,19,security monitoring,19,Introduction To Computer Systems And Networks,0.7,true,borderline
+20260727T104658Z-475eb3,Y3,19,security monitoring,19,Soft Skills,0.46,false,gap
+20260727T104658Z-475eb3,Y3,19,security monitoring,19,Object Oriented Programming,0.65,false,gap
+20260727T104658Z-475eb3,Y3,19,security monitoring,19,Discrete Mathematics,0.66,false,gap
+20260727T104658Z-475eb3,Y3,19,security monitoring,19,Electronics,0.59,false,gap
+20260727T104658Z-475eb3,Y3,19,security monitoring,19,Research Methodology,0.6,false,gap
+20260727T104658Z-475eb3,Y3,20,api integration,18,Information System Analysis And Design,0.61,false,gap
+20260727T104658Z-475eb3,Y3,20,api integration,18,Algorithm And Programming,0.59,false,gap
+20260727T104658Z-475eb3,Y3,20,api integration,18,Combinational And Sequential Logics,0.56,false,gap
+20260727T104658Z-475eb3,Y3,20,api integration,18,Introduction To Computer Systems And Networks,0.56,false,gap
+20260727T104658Z-475eb3,Y3,20,api integration,18,Soft Skills,0.54,false,gap
+20260727T104658Z-475eb3,Y3,20,api integration,18,Object Oriented Programming,0.67,true,gap
+20260727T104658Z-475eb3,Y3,20,api integration,18,Discrete Mathematics,0.54,false,gap
+20260727T104658Z-475eb3,Y3,20,api integration,18,Electronics,0.55,false,gap
+20260727T104658Z-475eb3,Y3,20,api integration,18,Research Methodology,0.56,false,gap
+20260727T104658Z-475eb3,Y3,21,code reviews,18,Information System Analysis And Design,0.64,false,gap
+20260727T104658Z-475eb3,Y3,21,code reviews,18,Algorithm And Programming,0.68,false,gap
+20260727T104658Z-475eb3,Y3,21,code reviews,18,Combinational And Sequential Logics,0.63,false,gap
+20260727T104658Z-475eb3,Y3,21,code reviews,18,Introduction To Computer Systems And Networks,0.58,false,gap
+20260727T104658Z-475eb3,Y3,21,code reviews,18,Soft Skills,0.51,false,gap
+20260727T104658Z-475eb3,Y3,21,code reviews,18,Object Oriented Programming,0.67,false,gap
+20260727T104658Z-475eb3,Y3,21,code reviews,18,Discrete Mathematics,0.68,false,gap
+20260727T104658Z-475eb3,Y3,21,code reviews,18,Electronics,0.68,false,gap
+20260727T104658Z-475eb3,Y3,21,code reviews,18,Research Methodology,0.68,true,gap
+20260727T104658Z-475eb3,Y3,22,data analysis,18,Information System Analysis And Design,0.72,false,borderline
+20260727T104658Z-475eb3,Y3,22,data analysis,18,Algorithm And Programming,0.63,false,gap
+20260727T104658Z-475eb3,Y3,22,data analysis,18,Combinational And Sequential Logics,0.61,false,gap
+20260727T104658Z-475eb3,Y3,22,data analysis,18,Introduction To Computer Systems And Networks,0.58,false,gap
+20260727T104658Z-475eb3,Y3,22,data analysis,18,Soft Skills,0.52,false,gap
+20260727T104658Z-475eb3,Y3,22,data analysis,18,Object Oriented Programming,0.66,false,gap
+20260727T104658Z-475eb3,Y3,22,data analysis,18,Discrete Mathematics,0.73,false,covered
+20260727T104658Z-475eb3,Y3,22,data analysis,18,Electronics,0.72,false,borderline
+20260727T104658Z-475eb3,Y3,22,data analysis,18,Research Methodology,1.0,true,covered
+20260727T104658Z-475eb3,Y3,23,it infrastructure management,18,Information System Analysis And Design,0.72,false,borderline
+20260727T104658Z-475eb3,Y3,23,it infrastructure management,18,Algorithm And Programming,0.59,false,gap
+20260727T104658Z-475eb3,Y3,23,it infrastructure management,18,Combinational And Sequential Logics,0.57,false,gap
+20260727T104658Z-475eb3,Y3,23,it infrastructure management,18,Introduction To Computer Systems And Networks,0.76,true,covered
+20260727T104658Z-475eb3,Y3,23,it infrastructure management,18,Soft Skills,0.54,false,gap
+20260727T104658Z-475eb3,Y3,23,it infrastructure management,18,Object Oriented Programming,0.66,false,gap
+20260727T104658Z-475eb3,Y3,23,it infrastructure management,18,Discrete Mathematics,0.58,false,gap
+20260727T104658Z-475eb3,Y3,23,it infrastructure management,18,Electronics,0.54,false,gap
+20260727T104658Z-475eb3,Y3,23,it infrastructure management,18,Research Methodology,0.58,false,gap
+20260727T104658Z-475eb3,Y3,24,microsoft office proficiency,18,Information System Analysis And Design,0.64,true,gap
+20260727T104658Z-475eb3,Y3,24,microsoft office proficiency,18,Algorithm And Programming,0.59,false,gap
+20260727T104658Z-475eb3,Y3,24,microsoft office proficiency,18,Combinational And Sequential Logics,0.55,false,gap
+20260727T104658Z-475eb3,Y3,24,microsoft office proficiency,18,Introduction To Computer Systems And Networks,0.58,false,gap
+20260727T104658Z-475eb3,Y3,24,microsoft office proficiency,18,Soft Skills,0.49,false,gap
+20260727T104658Z-475eb3,Y3,24,microsoft office proficiency,18,Object Oriented Programming,0.62,false,gap
+20260727T104658Z-475eb3,Y3,24,microsoft office proficiency,18,Discrete Mathematics,0.59,false,gap
+20260727T104658Z-475eb3,Y3,24,microsoft office proficiency,18,Electronics,0.6,false,gap
+20260727T104658Z-475eb3,Y3,24,microsoft office proficiency,18,Research Methodology,0.62,false,gap
+20260727T104658Z-475eb3,Y3,25,software development,18,Information System Analysis And Design,0.63,false,gap
+20260727T104658Z-475eb3,Y3,25,software development,18,Algorithm And Programming,0.66,false,gap
+20260727T104658Z-475eb3,Y3,25,software development,18,Combinational And Sequential Logics,0.6,false,gap
+20260727T104658Z-475eb3,Y3,25,software development,18,Introduction To Computer Systems And Networks,0.55,false,gap
+20260727T104658Z-475eb3,Y3,25,software development,18,Soft Skills,0.55,false,gap
+20260727T104658Z-475eb3,Y3,25,software development,18,Object Oriented Programming,0.74,true,covered
+20260727T104658Z-475eb3,Y3,25,software development,18,Discrete Mathematics,0.6,false,gap
+20260727T104658Z-475eb3,Y3,25,software development,18,Electronics,0.6,false,gap
+20260727T104658Z-475eb3,Y3,25,software development,18,Research Methodology,0.7,false,borderline
+20260727T104658Z-475eb3,Y3,26,system integration,18,Information System Analysis And Design,0.76,true,covered
+20260727T104658Z-475eb3,Y3,26,system integration,18,Algorithm And Programming,0.59,false,gap
+20260727T104658Z-475eb3,Y3,26,system integration,18,Combinational And Sequential Logics,0.64,false,gap
+20260727T104658Z-475eb3,Y3,26,system integration,18,Introduction To Computer Systems And Networks,0.67,false,gap
+20260727T104658Z-475eb3,Y3,26,system integration,18,Soft Skills,0.56,false,gap
+20260727T104658Z-475eb3,Y3,26,system integration,18,Object Oriented Programming,0.7,false,borderline
+20260727T104658Z-475eb3,Y3,26,system integration,18,Discrete Mathematics,0.6,false,gap
+20260727T104658Z-475eb3,Y3,26,system integration,18,Electronics,0.63,false,gap
+20260727T104658Z-475eb3,Y3,26,system integration,18,Research Methodology,0.6,false,gap
+20260727T104658Z-475eb3,Y3,27,vmware virtualization,18,Information System Analysis And Design,0.6,false,gap
+20260727T104658Z-475eb3,Y3,27,vmware virtualization,18,Algorithm And Programming,0.53,false,gap
+20260727T104658Z-475eb3,Y3,27,vmware virtualization,18,Combinational And Sequential Logics,0.57,false,gap
+20260727T104658Z-475eb3,Y3,27,vmware virtualization,18,Introduction To Computer Systems And Networks,0.72,true,borderline
+20260727T104658Z-475eb3,Y3,27,vmware virtualization,18,Soft Skills,0.52,false,gap
+20260727T104658Z-475eb3,Y3,27,vmware virtualization,18,Object Oriented Programming,0.66,false,gap
+20260727T104658Z-475eb3,Y3,27,vmware virtualization,18,Discrete Mathematics,0.53,false,gap
+20260727T104658Z-475eb3,Y3,27,vmware virtualization,18,Electronics,0.53,false,gap
+20260727T104658Z-475eb3,Y3,27,vmware virtualization,18,Research Methodology,0.54,false,gap
+20260727T104658Z-475eb3,Y3,28,performance tuning,17,Information System Analysis And Design,0.63,false,gap
+20260727T104658Z-475eb3,Y3,28,performance tuning,17,Algorithm And Programming,0.6,false,gap
+20260727T104658Z-475eb3,Y3,28,performance tuning,17,Combinational And Sequential Logics,0.68,false,gap
+20260727T104658Z-475eb3,Y3,28,performance tuning,17,Introduction To Computer Systems And Networks,0.62,false,gap
+20260727T104658Z-475eb3,Y3,28,performance tuning,17,Soft Skills,0.57,false,gap
+20260727T104658Z-475eb3,Y3,28,performance tuning,17,Object Oriented Programming,0.7,true,borderline
+20260727T104658Z-475eb3,Y3,28,performance tuning,17,Discrete Mathematics,0.66,false,gap
+20260727T104658Z-475eb3,Y3,28,performance tuning,17,Electronics,0.61,false,gap
+20260727T104658Z-475eb3,Y3,28,performance tuning,17,Research Methodology,0.64,false,gap
+20260727T104658Z-475eb3,Y3,29,disaster recovery planning,16,Information System Analysis And Design,0.6,false,gap
+20260727T104658Z-475eb3,Y3,29,disaster recovery planning,16,Algorithm And Programming,0.52,false,gap
+20260727T104658Z-475eb3,Y3,29,disaster recovery planning,16,Combinational And Sequential Logics,0.57,false,gap
+20260727T104658Z-475eb3,Y3,29,disaster recovery planning,16,Introduction To Computer Systems And Networks,0.62,false,gap
+20260727T104658Z-475eb3,Y3,29,disaster recovery planning,16,Soft Skills,0.51,false,gap
+20260727T104658Z-475eb3,Y3,29,disaster recovery planning,16,Object Oriented Programming,0.58,false,gap
+20260727T104658Z-475eb3,Y3,29,disaster recovery planning,16,Discrete Mathematics,0.55,false,gap
+20260727T104658Z-475eb3,Y3,29,disaster recovery planning,16,Electronics,0.63,false,gap
+20260727T104658Z-475eb3,Y3,29,disaster recovery planning,16,Research Methodology,0.65,true,gap
+20260727T104658Z-475eb3,Y3,30,network administration,16,Information System Analysis And Design,0.62,false,gap
+20260727T104658Z-475eb3,Y3,30,network administration,16,Algorithm And Programming,0.58,false,gap
+20260727T104658Z-475eb3,Y3,30,network administration,16,Combinational And Sequential Logics,0.54,false,gap
+20260727T104658Z-475eb3,Y3,30,network administration,16,Introduction To Computer Systems And Networks,0.84,true,covered
+20260727T104658Z-475eb3,Y3,30,network administration,16,Soft Skills,0.45,false,gap
+20260727T104658Z-475eb3,Y3,30,network administration,16,Object Oriented Programming,0.61,false,gap
+20260727T104658Z-475eb3,Y3,30,network administration,16,Discrete Mathematics,0.56,false,gap
+20260727T104658Z-475eb3,Y3,30,network administration,16,Electronics,0.52,false,gap
+20260727T104658Z-475eb3,Y3,30,network administration,16,Research Methodology,0.57,false,gap

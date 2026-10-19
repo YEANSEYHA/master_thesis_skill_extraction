@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "purpose": "Curated dummy skill inventory for Phase-5 testing. Mixes skills that SHOULD match common CS / engineering courses (so the matcher returns something other than UPDATE) with skills that should NOT match (so gaps are non-empty).",
+    "use_in_production": false,
+    "generated_for": "testing-only",
+    "source": "hand-curated, NOT from real job postings"
+  },
+
+  "skills": {
+    "formal language theory":         12,
+    "automata design":                10,
+    "finite automata construction":   18,
+    "regular expression design":      24,
+    "context-free grammars":           9,
+    "Turing machine analysis":         6,
+    "algorithm design":               58,
+    "computational complexity":       11,
+    "mathematical proof":              7,
+    "discrete mathematics":           21,
+
+    "Python programming":            287,
+    "SQL querying":                  142,
+    "JavaScript development":        118,
+    "React development":              98,
+    "Node.js backend":                76,
+    "REST API design":                88,
+    "Git version control":            65,
+    "Docker containers":              57,
+    "machine learning":              156,
+    "data analysis":                 124,
+    "TensorFlow modeling":            34,
+    "natural language processing":    29,
+
+    "communication skills":          176,
+    "teamwork":                      128,
+    "problem solving":                93,
+    "leadership":                     62,
+    "project management":             54,
+    "stakeholder communication":      45,
+
+    "Microsoft Excel":                77,
+    "Microsoft Word":                 62,
+    "PowerPoint presentation":        38,
+    "AutoCAD design":                 23,
+    "ANSYS simulation":               12,
+    "MATLAB modeling":                19,
+
+    "English language":               94,
+    "Khmer language":                 33,
+    "report writing":                 36,
+    "negotiation":                    59,
+    "customer service":              105
+  }
+}

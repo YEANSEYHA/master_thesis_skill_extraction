@@ -1,0 +1,60 @@
+{
+  "curriculum": {
+    "dir": "./backend/phase5/02_input_curriculum/clo_skills_db",
+    "mode": "db",
+    "n_courses": 8,
+    "courses": [
+      {
+        "file": "1_cloud_computing.json",
+        "n_skills": 18,
+        "sha256": "2898a31d0043c5eedd772df0d0f33c3f68ba72a0da8cd5cd739aae1a38b52999"
+      },
+      {
+        "file": "2_introduction_to_artificial_intelligence.json",
+        "n_skills": 40,
+        "sha256": "00db4e7aac95e484c45a331384039fb7879748e35325b371381f5261b6ad932a"
+      },
+      {
+        "file": "3_natural_language_processing.json",
+        "n_skills": 19,
+        "sha256": "34d9e371a965f0d07de5814e4b1abd134dd077f465e8ef65e2b72a3ab8757ff5"
+      },
+      {
+        "file": "4_data_mining.json",
+        "n_skills": 55,
+        "sha256": "e1cceef2d40c095d2501b2139461e534a79b07def82f1c452247f5846fdb03d0"
+      },
+      {
+        "file": "5_image_processing.json",
+        "n_skills": 41,
+        "sha256": "d9137f17dc68a554ae852fb168596de44e193493880f0644d6f904dff71bff85"
+      },
+      {
+        "file": "6_information_security.json",
+        "n_skills": 14,
+        "sha256": "17f93264c2fc9f1f0ff591095e992c924418308a43564fc98391608b8d199344"
+      },
+      {
+        "file": "7_network_security.json",
+        "n_skills": 21,
+        "sha256": "4870e628a9d89a749224c444a2bc5286a8b779bb7c61d448f412c2a64fece8a1"
+      },
+      {
+        "file": "8_it_project_management.json",
+        "n_skills": 18,
+        "sha256": "4eb0315528cd9047a7450dfc90d9ce23f465619d915024d402381200b7c4398b"
+      }
+    ],
+    "hash": "dc7473f2250d523f5fb71547f167246a7223e4197c31e5abff9602139d885c8f",
+    "cohort": "Y5"
+  },
+  "market": {
+    "dataset": "stage2_result.json",
+    "path": "./backend/phase3_llm_html_data_extraction/outputs/stage2/api_full/stage2_result.json",
+    "bytes": 55714131
+  },
+  "adjudication": {
+    "file": "relationship_adjudication.json",
+    "sha256": "b89e54139cc3ee4b489fdc523e37c2e3f59ac9a9e6d19064761827d71c2941bf"
+  }
+}

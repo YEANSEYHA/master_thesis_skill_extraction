@@ -1,0 +1,46 @@
+[
+  { "skill": "Object-Oriented Programming (OOP)", "source": "weekly_content" },
+  { "skill": "Java Programming", "source": "weekly_content" },
+  {
+    "skill": "Java Development Environment Setup (JDK)",
+    "source": "weekly_content"
+  },
+  { "skill": "Eclipse IDE", "source": "weekly_content" },
+  { "skill": "NetBeans IDE", "source": "weekly_content" },
+  { "skill": "Java Syntax and Data Types", "source": "weekly_content" },
+  {
+    "skill": "Console Input/Output (Scanner Class)",
+    "source": "weekly_content"
+  },
+  {
+    "skill": "Control Statements (If/Else, Switch)",
+    "source": "weekly_content"
+  },
+  {
+    "skill": "Loops (For, While, Do-While, For-Each)",
+    "source": "weekly_content"
+  },
+  { "skill": "Arrays", "source": "weekly_content" },
+  { "skill": "ArrayList", "source": "weekly_content" },
+  { "skill": "Classes and Objects", "source": "weekly_content" },
+  { "skill": "Class/Object Diagram Modeling", "source": "weekly_content" },
+  { "skill": "Static Keyword", "source": "weekly_content" },
+  { "skill": "Java Packages", "source": "weekly_content" },
+  { "skill": "Access Modifiers", "source": "weekly_content" },
+  { "skill": "Inheritance", "source": "weekly_content" },
+  { "skill": "Constructors", "source": "weekly_content" },
+  { "skill": "File Processing (File I/O)", "source": "weekly_content" },
+  { "skill": "Polymorphism", "source": "weekly_content" },
+  { "skill": "Method Overriding and Overloading", "source": "weekly_content" },
+  { "skill": "Upcasting and Downcasting", "source": "weekly_content" },
+  { "skill": "Java Swing", "source": "weekly_content" },
+  { "skill": "Abstraction", "source": "weekly_content" },
+  { "skill": "Encapsulation", "source": "weekly_content" },
+  { "skill": "Getters and Setters (Data Hiding)", "source": "weekly_content" },
+  { "skill": "Interfaces", "source": "weekly_content" },
+  { "skill": "Java Threads", "source": "weekly_content" },
+  { "skill": "Exception Handling", "source": "weekly_content" },
+  { "skill": "Aggregation and Association", "source": "clo" },
+  { "skill": "CRUD Operations", "source": "weekly_content" },
+  { "skill": "Software Analysis and Design with OOP", "source": "clo" }
+]

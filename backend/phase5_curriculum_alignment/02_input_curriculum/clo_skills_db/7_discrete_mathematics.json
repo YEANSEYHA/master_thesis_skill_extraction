@@ -1,0 +1,154 @@
+[
+  {
+    "skill": "Logical Propositions and Equivalence",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Rules of Inference",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Quantifiers",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Mathematical Proofs",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Resolution Proofs",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Mathematical Induction",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Recursive Algorithms",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Well-Ordering Properties",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Functions and Sequences",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Relations and Relational Database Modeling",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Algorithm Analysis",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Modular Arithmetic",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Divisibility and Integer Representations",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Greatest Common Divisor (GCD)",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Congruence Solving",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Cryptography",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Counting and Permutations",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Combinations",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Generalized Permutations and Combinations",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Discrete Probability",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Binomial Coefficients",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Combinatorial Identities",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Pigeonhole Principle",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Recurrence Relations",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Closest-Pair Problem",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Graph Paths and Cycles",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Hamiltonian Cycles",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Traveling Salesperson Problem",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Shortest-Path Algorithms",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Graph Isomorphism",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Planar Graphs",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Trees",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Spanning Trees",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Minimum Spanning Trees",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Binary Trees",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Tree Traversals",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Decision Trees",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Game Trees",
+    "source": "Lesson Topic"
+  }
+]

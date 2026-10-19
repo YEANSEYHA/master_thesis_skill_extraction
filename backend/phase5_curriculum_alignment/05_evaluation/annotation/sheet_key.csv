@@ -1,0 +1,151 @@
+id,skill,clo,course,cosine,band,set
+P001,scripting,Modular Programming,C++ Programming,0.6695,D .66-.69,stratified
+P002,testing,Java Programming,Object-Oriented Programming,0.6660,argmax,decision
+P003,scheduling,Data Backup and Recovery,System Administration,0.5379,F <.55,stratified
+P004,cloud computing,Virtualization,System Administration,0.7429,argmax,decision
+P005,load balancing,K-Means Algorithm,Introduction to AI,0.5561,E .55-.66,stratified
+P006,rust,Java Programming,Object-Oriented Programming,0.6720,D .66-.69,stratified
+P007,project management,Infrastructure Services Management,System Administration,0.6839,argmax,decision
+P008,infrastructure as code,Infrastructure Services Management,System Administration,0.6997,C .69-.73,stratified
+P009,infrastructure as code,Structured Programming,C++ Programming,0.7151,C .69-.73,stratified
+P010,optimization,Classification Algorithms,Introduction to AI,0.7013,C .69-.73,stratified
+P011,business administration,Network Administration,System Administration,0.6853,D .66-.69,stratified
+P012,data pipelines,Arrays,Object-Oriented Programming,0.5514,E .55-.66,stratified
+P013,security analysis,Cyber Threats and Vulnerabilities Analysis,Cybersecurity,0.8508,A >=0.85,stratified
+P014,documentation,Data Preparation,Introduction to AI,0.6913,argmax,decision
+P015,prototyping,Modular Programming,C++ Programming,0.6558,E .55-.66,stratified
+P016,systems analysis,System Operations and Maintenance,System Administration,0.7381,B .73-.85,stratified
+P017,aws,Network Services Deployment and Management,System Administration,0.6394,argmax,decision
+P018,artificial intelligence,Artificial Intelligence Fundamentals,Introduction to AI,0.8372,B .73-.85,stratified
+P019,kerberos,Python Programming,Introduction to AI,0.5716,E .55-.66,stratified
+P020,data visualization,Exploratory Data Analysis (EDA),Introduction to AI,0.7440,B .73-.85,stratified
+P021,remote work,Infrastructure Services Management,System Administration,0.5279,F <.55,stratified
+P022,java,Java Programming,Object-Oriented Programming,0.8747,argmax,decision
+P023,performance tuning,Overfitting and Underfitting Prevention,Introduction to AI,0.6873,D .66-.69,stratified
+P024,full stack development,Network Protocols,System Administration,0.5464,F <.55,stratified
+P025,agile,Structured Programming,C++ Programming,0.6729,argmax,decision
+P026,data management,Data Preparation,Introduction to AI,0.7893,argmax,decision
+P027,programming,Java Programming,Object-Oriented Programming,0.8518,A >=0.85,stratified
+P028,application security,Secure Software Development Ethics,Cybersecurity,0.6962,C .69-.73,stratified
+P029,software development,Secure Software Development Ethics,Cybersecurity,0.6981,argmax,decision
+P030,solidworks,Model Evaluation,Introduction to AI,0.5735,E .55-.66,stratified
+P031,code reviews,Compiler Basics,C++ Programming,0.6734,D .66-.69,stratified
+P032,artificial intelligence,Machine Learning Model Implementation,Introduction to AI,0.6628,D .66-.69,stratified
+P033,design,Algorithm Design,C++ Programming,0.6923,C .69-.73,stratified
+P034,c++,C++ Programming,C++ Programming,0.8712,argmax,decision
+P035,computer science,Computer Fundamentals,C++ Programming,0.7346,argmax,decision
+P036,product development,Data Storage Types,Introduction to AI,0.4919,F <.55,stratified
+P037,application security,Unsupervised Learning,Introduction to AI,0.5045,F <.55,stratified
+P038,oracle,Java Packages,Object-Oriented Programming,0.6182,E .55-.66,stratified
+P039,itil,Exploratory Data Analysis (EDA),Introduction to AI,0.4948,F <.55,stratified
+P040,optimization,K-Means Algorithm,Introduction to AI,0.6637,D .66-.69,stratified
+P041,data science,Interfaces,Object-Oriented Programming,0.5553,E .55-.66,stratified
+P042,mvc,Software Analysis and Design with OOP,Object-Oriented Programming,0.6092,E .55-.66,stratified
+P043,workflows,Java Programming,Object-Oriented Programming,0.6431,E .55-.66,stratified
+P044,servers,Ubuntu Server Administration,System Administration,0.7526,B .73-.85,stratified
+P045,db2,Pandas,Introduction to AI,0.5648,E .55-.66,stratified
+P046,auditing,System Operations and Maintenance,System Administration,0.6258,E .55-.66,stratified
+P047,deep learning,Gradient Boosting,Introduction to AI,0.7006,C .69-.73,stratified
+P048,microsoft office suite,User Account Management,System Administration,0.6198,argmax,decision
+P049,code reviews,Eclipse IDE,Object-Oriented Programming,0.5602,E .55-.66,stratified
+P050,data center operations,Linux/UNIX System Administration,System Administration,0.6721,D .66-.69,stratified
+P051,customer focus,Data Storage Types,Introduction to AI,0.4384,F <.55,stratified
+P052,applications,Regression Models,Introduction to AI,0.6135,E .55-.66,stratified
+P053,emerging technologies,Neural Networks / Deep Learning,Introduction to AI,0.6108,E .55-.66,stratified
+P054,data security,Secure Coding Practices,Cybersecurity,0.7134,C .69-.73,stratified
+P055,hive,Java Packages,Object-Oriented Programming,0.4589,F <.55,stratified
+P056,containerization,Containerization,System Administration,1.0000,A >=0.85,stratified
+P057,storage,Data Storage Types,C++ Programming,0.7965,B .73-.85,stratified
+P058,data security,Secure Data Storage,Cybersecurity,0.8404,B .73-.85,stratified
+P059,vulnerability management,Infrastructure Services Management,System Administration,0.6741,D .66-.69,stratified
+P060,security engineering,Attack-Resistant Software Development,Cybersecurity,0.7215,C .69-.73,stratified
+P061,algorithms,Algorithm Design,C++ Programming,0.8647,A >=0.85,stratified
+P062,software development,Software Analysis and Design with OOP,Object-Oriented Programming,0.6908,C .69-.73,stratified
+P063,network security,Network Security,System Administration,1.0000,A >=0.85,stratified
+P064,automation,System Operations and Maintenance,System Administration,0.6897,argmax,decision
+P065,containerization,Encapsulation,Object-Oriented Programming,0.7094,C .69-.73,stratified
+P066,docker,Containerization,System Administration,0.7666,argmax,decision
+P067,full stack development,Software Analysis and Design with OOP,Object-Oriented Programming,0.6882,D .66-.69,stratified
+P068,systems analysis,Regression Models,Introduction to AI,0.6171,E .55-.66,stratified
+P069,troubleshooting,Network Troubleshooting,System Administration,0.8660,argmax,decision
+P070,verification,Model Evaluation,Introduction to AI,0.5666,E .55-.66,stratified
+P071,python,Java Programming,Object-Oriented Programming,0.7437,B .73-.85,stratified
+P072,authentication,Java Programming,Object-Oriented Programming,0.6015,E .55-.66,stratified
+P073,java,Java Packages,Object-Oriented Programming,0.7492,B .73-.85,stratified
+P074,data preparation,Data Preparation,Introduction to AI,1.0000,A >=0.85,stratified
+P075,machine learning,Gradient Descent,Introduction to AI,0.7581,B .73-.85,stratified
+P076,devops,System Configuration and Management,System Administration,0.6601,argmax,decision
+P077,group policy,Network Services Deployment and Management,System Administration,0.5420,F <.55,stratified
+P078,data preparation,Exploratory Data Analysis (EDA),Introduction to AI,0.6982,C .69-.73,stratified
+P079,pytorch,Input Validation,Cybersecurity,0.4851,F <.55,stratified
+P080,open source frameworks,Network Fundamentals,System Administration,0.6005,E .55-.66,stratified
+P081,quality assurance,Containerization,System Administration,0.5288,F <.55,stratified
+P082,mongodb,Secure Software Development Ethics,Cybersecurity,0.4450,F <.55,stratified
+P083,cism,C++ Programming,C++ Programming,0.5556,E .55-.66,stratified
+P084,computer vision,VMware vSphere,System Administration,0.4522,F <.55,stratified
+P085,distributed systems,Artificial Intelligence Fundamentals,Introduction to AI,0.6117,E .55-.66,stratified
+P086,six sigma,Decision Trees,Introduction to AI,0.5522,E .55-.66,stratified
+P087,git,Console Input/Output (Scanner Class),Object-Oriented Programming,0.5008,F <.55,stratified
+P088,program management,Application Services Management,System Administration,0.7546,B .73-.85,stratified
+P089,dashboards,Arrays,Object-Oriented Programming,0.5764,E .55-.66,stratified
+P090,word,Linear Classification,Introduction to AI,0.5268,F <.55,stratified
+P091,linux,Linux/UNIX System Administration,System Administration,0.7586,argmax,decision
+P092,plc,Data Preparation,Introduction to AI,0.5521,E .55-.66,stratified
+P093,distributed systems,Network Architectures,System Administration,0.7339,B .73-.85,stratified
+P094,computer systems,Operating System Setup and Configuration,System Administration,0.6850,D .66-.69,stratified
+P095,network maintenance,System Configuration and Management,System Administration,0.6949,C .69-.73,stratified
+P096,simulation,Artificial Intelligence Fundamentals,Introduction to AI,0.6501,E .55-.66,stratified
+P097,automation,Abstraction,Object-Oriented Programming,0.6398,E .55-.66,stratified
+P098,system integration,Operating System Setup and Configuration,System Administration,0.7147,C .69-.73,stratified
+P099,networking,Cisco Networking,System Administration,0.8239,argmax,decision
+P100,network maintenance,Network Troubleshooting,System Administration,0.8537,A >=0.85,stratified
+P101,rest,Programming Fundamentals,C++ Programming,0.4933,F <.55,stratified
+P102,network security,Network Monitoring,System Administration,0.7845,B .73-.85,stratified
+P103,authentication,Secure Data Storage,Cybersecurity,0.6718,D .66-.69,stratified
+P104,information assurance,Secure Data Storage,Cybersecurity,0.6668,D .66-.69,stratified
+P105,hybrid work,Network Fundamentals,System Administration,0.5613,E .55-.66,stratified
+P106,programming,Python Programming,Introduction to AI,0.8558,A >=0.85,stratified
+P107,python,Python Programming,Introduction to AI,0.9175,argmax,decision
+P108,machine learning,Decision Trees,Introduction to AI,0.7992,B .73-.85,stratified
+P109,data warehouse,Application Services Management,System Administration,0.6029,E .55-.66,stratified
+P110,databases,Data Storage Types,C++ Programming,0.7035,C .69-.73,stratified
+P111,javascript,Java Programming,Object-Oriented Programming,0.6957,argmax,decision
+P112,threat modeling,NIST Cybersecurity Framework,Cybersecurity,0.6994,C .69-.73,stratified
+P113,system administration,Linux/UNIX System Administration,System Administration,0.8674,A >=0.85,stratified
+P114,root cause analysis,Exploratory Data Analysis (EDA),Introduction to AI,0.7129,C .69-.73,stratified
+P115,access control,Access Control,Cybersecurity,1.0000,A >=0.85,stratified
+P116,oop,Object-Oriented Programming (OOP),Object-Oriented Programming,0.9142,A >=0.85,stratified
+P117,s3,Virtualization,System Administration,0.4703,F <.55,stratified
+P118,sql,SQL Injection Prevention,Cybersecurity,0.6937,argmax,decision
+P119,algorithms,Classification Algorithms,Introduction to AI,0.8175,B .73-.85,stratified
+P120,network analysis,Network Monitoring,System Administration,0.7416,B .73-.85,stratified
+P121,machine learning,Machine Learning Model Implementation,Introduction to AI,0.8515,argmax,decision
+P122,functional programming,C++ Programming,C++ Programming,0.7189,C .69-.73,stratified
+P123,computer systems,System Operations and Maintenance,System Administration,0.7270,C .69-.73,stratified
+P124,pl/sql,Problem Solving and Solution Formulation,C++ Programming,0.5603,E .55-.66,stratified
+P125,network analysis,Network Fundamentals,System Administration,0.7778,B .73-.85,stratified
+P126,unix,Interfaces,Object-Oriented Programming,0.6309,E .55-.66,stratified
+P127,test cases,Inheritance,C++ Programming,0.5611,E .55-.66,stratified
+P128,protocols,Network Protocols,System Administration,0.8679,A >=0.85,stratified
+P129,continuous learning,Classification Algorithms,Introduction to AI,0.6803,D .66-.69,stratified
+P130,emr,Network Troubleshooting,System Administration,0.4733,F <.55,stratified
+P131,security analysis,Exploratory Data Analysis (EDA),Introduction to AI,0.6899,D .66-.69,stratified
+P132,standards,Secure Web Application Development,Cybersecurity,0.4864,F <.55,stratified
+P133,vulnerability management,Access Control Management,System Administration,0.7130,C .69-.73,stratified
+P134,kubernetes,Virtualization,System Administration,0.7292,argmax,decision
+P135,data analysis,Exploratory Data Analysis (EDA),Introduction to AI,0.7884,argmax,decision
+P136,enterprise applications,Exploratory Data Analysis (EDA),Introduction to AI,0.6631,D .66-.69,stratified
+P137,program management,Server Administration,System Administration,0.6755,D .66-.69,stratified
+P138,data mining,Clustering,Introduction to AI,0.7707,B .73-.85,stratified
+P139,oop,Object-Oriented Programming (OOP),C++ Programming,0.9142,A >=0.85,stratified
+P140,vmware,VMware vSphere,System Administration,0.8665,A >=0.85,stratified
+P141,angular,Class Concept,C++ Programming,0.5176,F <.55,stratified
+P142,web services,Application Services Management,System Administration,0.7317,B .73-.85,stratified
+P143,azure,Virtualization,System Administration,0.6907,argmax,decision
+P144,system integration,System Operations and Maintenance,System Administration,0.7724,B .73-.85,stratified
+P145,etl,Exploratory Data Analysis (EDA),Introduction to AI,0.6910,C .69-.73,stratified
+P146,design patterns,Attack-Resistant Software Development,Cybersecurity,0.6622,D .66-.69,stratified
+P147,requirements gathering,Application Services Management,System Administration,0.6804,D .66-.69,stratified
+P148,threat modeling,Cyberattack Stages (Attack Lifecycle),Cybersecurity,0.6792,D .66-.69,stratified
+P149,system administration,Systems Administration,System Administration,0.9489,A >=0.85,stratified
+P150,operations,System Operations and Maintenance,System Administration,0.7775,B .73-.85,stratified

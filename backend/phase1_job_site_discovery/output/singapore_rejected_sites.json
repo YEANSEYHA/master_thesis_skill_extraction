@@ -1,0 +1,241 @@
+[
+  {
+    "url": "https://y-axis.com",
+    "domain": "y-axis.com",
+    "name": "What are the best job portals to apply for jobs in Singapore?",
+    "snippet": "The best job portals to find jobs in Singapore are LinkedIn, MyCareersFuture, JobsDB, Indeed Singapore, Monster Singapore, and Glassdoor.",
+    "found_in_queries": 3,
+    "country": "singapore",
+    "final_url": "https://www.y-axis.com/",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.95,
+      "site_type": "recruitment_agency",
+      "reason": "The website focuses on immigration and visa consultancy services for India, with no job listings, job search features, or Singapore-specific job seeker tools. It's a recruitment agency for immigration services, not a job portal.",
+      "features_found": [
+        "immigration_services",
+        "visa_consultancy",
+        "multi_country_office_locations",
+        "corporate_schema_markup"
+      ]
+    }
+  },
+  {
+    "url": "https://www.maukerja.my",
+    "domain": "maukerja.my",
+    "name": "Kerja Kosong Singapore | March 2026",
+    "snippet": "Paparan 96,523 hasil carian kerja kosong di Singapore. Jangan lepaskan peluang untuk kerja di Singapore terkini! Aktifkan Makluman Pekerjaan Sekarang!",
+    "found_in_queries": 3,
+    "country": "singapore",
+    "final_url": "https://www.maukerja.my",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.95,
+      "site_type": "not_job_site",
+      "reason": "The website explicitly targets Malaysia with content in Malay language and references to Malaysian locations, not Singapore. Meta tags and schema data consistently mention Malaysia as the primary service country.",
+      "features_found": [
+        "job_search_functionality",
+        "organization_schema",
+        "social_media_links",
+        "mobile_optimization"
+      ]
+    }
+  },
+  {
+    "url": "https://jobscentral.com.sg",
+    "domain": "jobscentral.com.sg",
+    "name": "Jobscentral: Find your next job opportunity!",
+    "snippet": "Join Jobscentral and search among thousands of available job posts fitting your criteria. Take the first or the next step in your career.",
+    "found_in_queries": 2,
+    "country": "singapore",
+    "final_url": "https://jobscentral.com.sg",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.6,
+      "site_type": "job_portal",
+      "reason": "Contains employer sections and potential job portal elements, but lacks explicit Singapore focus",
+      "features_found": [
+        "employer_sections"
+      ]
+    }
+  },
+  {
+    "url": "https://www.lemon8-app.com",
+    "domain": "lemon8-app.com",
+    "name": "45 top Singapore Career Website ideas in 2025",
+    "snippet": "**LinkedIn**: This is more than just a networking site; it's a comprehensive job search platform. You can connect with professionals, explore job listings, and ...",
+    "found_in_queries": 2,
+    "country": "singapore",
+    "final_url": "https://www.lemon8-app.com",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.1,
+      "site_type": "not_job_site",
+      "reason": "No job listing elements, search functionality, or career categories detected in the HTML. The content appears to be a generic app interface with banners and modals, but no job-related features.",
+      "features_found": []
+    }
+  },
+  {
+    "url": "https://seek.com",
+    "domain": "seek.com",
+    "name": "SEEK Employer Singapore: #1 for Hiring & Recruitment",
+    "snippet": "Discover SEEK Employer, the best talent sourcing partner & job recruitment site in Singapore. Let us help you hire the right talent!",
+    "found_in_queries": 2,
+    "country": "singapore",
+    "final_url": "https://www.seek.com.au/?tracking=CLP-WEB-SeekLandingPage",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.95,
+      "site_type": "job_portal",
+      "reason": "The site is a global job portal (SEEK) but the HTML content specifically targets Australia (en_GB locale, Australian branding, and job search functionality). It does not show Singapore-specific content or localization.",
+      "features_found": [
+        "job_search",
+        "employer_features",
+        "job_seeker_features",
+        "job_listings"
+      ]
+    }
+  },
+  {
+    "url": "https://www.pinterest.com",
+    "domain": "pinterest.com",
+    "name": "Top 6 Free Job Websites in Singapore to Post Jobs in 2025",
+    "snippet": "Discover the top 6 free job websites in Singapore to post jobs in 2025. Optimize your recruitment process and attract top talent ...",
+    "found_in_queries": 1,
+    "country": "singapore",
+    "final_url": "https://www.pinterest.com",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.1,
+      "site_type": "not_job_site",
+      "reason": "Pinterest is a social media platform for sharing visual content, not a job portal. No job listing features, search functionality, or employer sections detected.",
+      "features_found": []
+    }
+  },
+  {
+    "url": "https://9cv9.com",
+    "domain": "9cv9.com",
+    "name": "Complete Guide to Job Sites in Singapore to Hire Top ...",
+    "snippet": "1. 9cv9 \u00b7 2. JobStreet \u00b7 3. Indeed \u00b7 4. Recruit.net \u00b7 5. Glassdoor \u00b7 6. eFinancialCareers \u00b7 7. JobsDB \u00b7 8. LinkedIn.",
+    "found_in_queries": 1,
+    "country": "singapore",
+    "final_url": "https://9cv9.com",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.1,
+      "site_type": "not_job_site",
+      "reason": "No job listings, search features, or career-related content found. The site appears to be a general-purpose platform with analytics/social media integrations.",
+      "features_found": []
+    }
+  },
+  {
+    "url": "https://jobboardsearch.com",
+    "domain": "jobboardsearch.com",
+    "name": "Find the best niche job boards for Singapore jobs",
+    "snippet": "WorkFromHome.sg is a Singapore\u2011based remote job board offering daily curated listings across industries\u2014from software development and digital marketing to ...",
+    "found_in_queries": 1,
+    "country": "singapore",
+    "final_url": "https://jobboardsearch.com",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.9,
+      "site_type": "classifieds",
+      "reason": "The site appears to be a meta directory of job boards rather than a job portal itself. It describes itself as a 'curated list and meta directory of 731 job boards' with features for promoting job boards, not directly listing jobs or providing job search functionality.",
+      "features_found": [
+        "job_board_directory",
+        "promote_job_boards",
+        "global_job_boards"
+      ]
+    }
+  },
+  {
+    "url": "https://snaphunt.com",
+    "domain": "snaphunt.com",
+    "name": "Top job posting sites in Singapore",
+    "snippet": "Platforms like MyCareersFuture, JobStreet, and JobsCentral give you access to domestic talent, while Snaphunt & LinkedIn unlock both active & ...",
+    "found_in_queries": 1,
+    "country": "singapore",
+    "final_url": "https://snaphunt.com",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.4,
+      "site_type": "recruitment_agency",
+      "reason": "The site focuses on AI-powered recruitment solutions and employer tools rather than direct job listings. It lacks visible job search features, job postings, or location-specific Singapore content.",
+      "features_found": [
+        "employer_posting_tools",
+        "global_hiring_platform",
+        "ai_recruitment_solutions",
+        "career_services"
+      ]
+    }
+  },
+  {
+    "url": "https://www.jobsoid.com",
+    "domain": "jobsoid.com",
+    "name": "5+ Best Job Sites in Singapore",
+    "snippet": "Now, let us look at the 5+ best job sites in Singapore. \u00b7 BeamStart. BeamStart is a global entrepreneurial platform for connecting people to valuable resources ...",
+    "found_in_queries": 1,
+    "country": "singapore",
+    "final_url": "https://www.jobsoid.com",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.2,
+      "site_type": "recruitment_agency",
+      "reason": "The HTML title mentions 'Applicant Tracking & Recruitment Software' suggesting it's a recruitment platform rather than a job board. No job listings, search features, or Singapore-specific content detected in the provided HTML.",
+      "features_found": []
+    }
+  },
+  {
+    "url": "https://www.manatal.com",
+    "domain": "manatal.com",
+    "name": "15 Free Job Portals in Singapore to Attract Top Talent",
+    "snippet": "GrabJobs is a popular and user-friendly job portal among small and medium-sized enterprises (SMEs) in Singapore. It offers free job postings ...",
+    "found_in_queries": 1,
+    "country": "singapore",
+    "final_url": "https://www.manatal.com",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.1,
+      "site_type": "not_job_site",
+      "reason": "The site promotes AI recruitment software services rather than listing jobs or providing job search features. No job listings, search bars, or career sections are present in the provided HTML.",
+      "features_found": []
+    }
+  },
+  {
+    "url": "https://carijob.asia",
+    "domain": "carijob.asia",
+    "name": "Pekerjaan - Singapura (02 2026)",
+    "snippet": "Pekerjaan Terkini ; Clinic Assistant (Aesthetic Clinic) - RB (ID: 7895) \u00b7 Paya Lebar, Kawasan Timur, Singapura ; Kitchen Assistant - NA (ID: 7894) \u00b7 Marina East, ...",
+    "found_in_queries": 1,
+    "country": "singapore",
+    "final_url": "https://carijob.asia/en_us",
+    "verification": {
+      "is_job_site": true,
+      "confidence": 0.6,
+      "site_type": "job_portal",
+      "reason": "Title explicitly mentions Singapore and Malaysia as target countries, but no concrete job listing features or search elements found in the provided HTML",
+      "features_found": []
+    }
+  },
+  {
+    "url": "https://www.wsg.gov.sg",
+    "domain": "wsg.gov.sg",
+    "name": "Workforce Singapore (WSG)",
+    "snippet": "Need career guidance in Singapore? Get complimentary job advice from WSG's Career Guidance team. Explore our career resources, effective job search strategies ...",
+    "found_in_queries": 1,
+    "country": "singapore",
+    "final_url": "https://www.wsg.gov.sg",
+    "verification": {
+      "is_job_site": false,
+      "confidence": 0.95,
+      "site_type": "not_job_site",
+      "reason": "The website is a Singapore government agency (Workforce Singapore) focused on career development resources, training grants, and employment support rather than direct job listings or job search functionality.",
+      "features_found": [
+        "career_guidance",
+        "training_programs",
+        "employment_assistance",
+        "government_resource"
+      ]
+    }
+  }
+]

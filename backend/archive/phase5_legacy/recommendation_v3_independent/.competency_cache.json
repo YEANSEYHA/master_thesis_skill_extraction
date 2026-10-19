@@ -1,0 +1,642 @@
+{
+  "537c2c9a997faebb3fb33c08e05207765032abdb": {
+    "competencies": [
+      {
+        "competency": "Supervised Learning",
+        "source": "course",
+        "evidence": [
+          "Supervised Learning",
+          "Linear Regression",
+          "Decision Trees",
+          "Logistic Regression",
+          "Gradient Descent",
+          "Gradient Boosting",
+          "Algorithm Selection for Datasets",
+          "Algorithm Evaluation"
+        ]
+      },
+      {
+        "competency": "Unsupervised Learning",
+        "source": "course",
+        "evidence": [
+          "Unsupervised Learning",
+          "Clustering",
+          "K-Means",
+          "Gaussian Mixture"
+        ]
+      },
+      {
+        "competency": "Data Preparation and Exploration",
+        "source": "course",
+        "evidence": [
+          "Data Exploration and Analysis (EDA)",
+          "Data Preparation"
+        ]
+      },
+      {
+        "competency": "AI Application Development",
+        "source": "course",
+        "evidence": [
+          "AI Application Development"
+        ]
+      },
+      {
+        "competency": "Cross-Validation and Model Assessment",
+        "source": "course",
+        "evidence": [
+          "Cross-Validation"
+        ]
+      },
+      {
+        "competency": "AI Sub-Fields",
+        "source": "course",
+        "evidence": [
+          "AI Sub-Fields"
+        ]
+      },
+      {
+        "competency": "K-Nearest Neighbor",
+        "source": "course",
+        "evidence": [
+          "K-Nearest Neighbor"
+        ]
+      }
+    ],
+    "course": [
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Data Preparation and Exploration",
+      "AI Application Development",
+      "Cross-Validation and Model Assessment",
+      "AI Sub-Fields",
+      "K-Nearest Neighbor"
+    ],
+    "course_code": "AIECS031",
+    "n_input": 18,
+    "method": "independent_course_grouping"
+  },
+  "5325bf9d7b278d28216aa26d2821cbaa19e048e3": {
+    "competencies": [
+      {
+        "competency": "Supervised Learning",
+        "source": "course",
+        "evidence": [
+          "Supervised Learning",
+          "Linear Regression",
+          "Decision Trees",
+          "Logistic Regression",
+          "Gradient Descent",
+          "Gradient Boosting",
+          "Algorithm Selection for Datasets",
+          "Algorithm Evaluation"
+        ]
+      },
+      {
+        "competency": "Unsupervised Learning",
+        "source": "course",
+        "evidence": [
+          "Unsupervised Learning",
+          "Clustering",
+          "K-Means",
+          "Gaussian Mixture"
+        ]
+      },
+      {
+        "competency": "Data Preparation and Exploration",
+        "source": "course",
+        "evidence": [
+          "Data Exploration and Analysis (EDA)",
+          "Data Preparation"
+        ]
+      },
+      {
+        "competency": "AI Application Development",
+        "source": "course",
+        "evidence": [
+          "AI Application Development"
+        ]
+      },
+      {
+        "competency": "Cross-Validation and Model Assessment",
+        "source": "course",
+        "evidence": [
+          "Cross-Validation"
+        ]
+      },
+      {
+        "competency": "AI Sub-Fields",
+        "source": "course",
+        "evidence": [
+          "AI Sub-Fields"
+        ]
+      },
+      {
+        "competency": "K-Nearest Neighbor",
+        "source": "course",
+        "evidence": [
+          "K-Nearest Neighbor"
+        ]
+      }
+    ],
+    "course": [
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Data Preparation and Exploration",
+      "AI Application Development",
+      "Cross-Validation and Model Assessment",
+      "AI Sub-Fields",
+      "K-Nearest Neighbor"
+    ],
+    "course_code": "AIECS031",
+    "n_input": 18,
+    "method": "independent_course_grouping"
+  },
+  "3c813554018c6ef24e49bbabde16e6a6f013cf0d": {
+    "competencies": [
+      {
+        "competency": "Secure Software Development",
+        "source": "course",
+        "evidence": [
+          "Secure Coding",
+          "Secure Software Development",
+          "Input Validation",
+          "Secure Data Storage",
+          "Access Control",
+          "SQL Injection",
+          "Cross-Site Scripting (XSS)",
+          "Secure Web Application Development"
+        ]
+      },
+      {
+        "competency": "Cybercrime and Digital Forensics",
+        "source": "course",
+        "evidence": [
+          "Cybercrime Analysis",
+          "Digital Forensics",
+          "Digital Evidence Analysis",
+          "Incident Evidence Analysis",
+          "Digital Forensics Tools"
+        ]
+      },
+      {
+        "competency": "Ethical and Legal Considerations in Cybersecurity",
+        "source": "course",
+        "evidence": [
+          "Ethical Software Development",
+          "Ethical Response Planning"
+        ]
+      },
+      {
+        "competency": "Network Security",
+        "source": "course",
+        "evidence": [
+          "Network Security Controls"
+        ]
+      }
+    ],
+    "course": [
+      "Secure Software Development",
+      "Cybercrime and Digital Forensics",
+      "Ethical and Legal Considerations in Cybersecurity",
+      "Network Security"
+    ],
+    "course_code": "AIECS028",
+    "n_input": 16,
+    "method": "independent_course_grouping"
+  },
+  "1e32df80d841a9db4b244d752ef6520ba1e27ebe": {
+    "competencies": [
+      {
+        "competency": "Object-Oriented Programming (OOP) Concepts in Java",
+        "source": "course",
+        "evidence": [
+          "Object-Oriented Programming (OOP)",
+          "Java Inheritance",
+          "Java Constructor Usage",
+          "Java Method Overriding",
+          "Java Upcasting/downcasting",
+          "Java Abstraction",
+          "Java Encapsulation",
+          "Java Interface Implementation",
+          "Software Design Using OOP Principles",
+          "Software Solution Proposal Using OOP"
+        ]
+      },
+      {
+        "competency": "Java Programming Fundamentals",
+        "source": "course",
+        "evidence": [
+          "Java Programming",
+          "Java Syntax",
+          "Java Environment Setup",
+          "Java Class Creation",
+          "Java Object Array Management",
+          "Java File I/O"
+        ]
+      },
+      {
+        "competency": "Software Application Maintenance",
+        "source": "course",
+        "evidence": [
+          "Software Application Maintenance"
+        ]
+      },
+      {
+        "competency": "Collaborative Software Development",
+        "source": "course",
+        "evidence": [
+          "Team Collaboration in Software Development"
+        ]
+      }
+    ],
+    "course": [
+      "Object-Oriented Programming (OOP) Concepts in Java",
+      "Java Programming Fundamentals",
+      "Software Application Maintenance",
+      "Collaborative Software Development"
+    ],
+    "course_code": "OOP",
+    "n_input": 18,
+    "method": "independent_course_grouping"
+  },
+  "9b7a1c9a5791492aa5503db497f9844a5b7ac030": {
+    "competencies": [
+      {
+        "competency": "Programming Fundamentals",
+        "source": "course",
+        "evidence": [
+          "C++ Programming",
+          "Programming Fundamentals",
+          "Flow Control Structures",
+          "Arrays",
+          "Modular Programming",
+          "Structured Programming"
+        ]
+      },
+      {
+        "competency": "Object-Oriented Programming",
+        "source": "course",
+        "evidence": [
+          "Class Concept",
+          "Constructors",
+          "Inheritance",
+          "User-Defined Data Types",
+          "Data Storage Types",
+          "Object-Oriented Programming"
+        ]
+      },
+      {
+        "competency": "Computer Fundamentals and Compilation",
+        "source": "course",
+        "evidence": [
+          "Computer Fundamentals",
+          "Compiler Basics",
+          "File Processing",
+          "C++ Program Writing and Execution"
+        ]
+      },
+      {
+        "competency": "Algorithms and Problem Solving",
+        "source": "course",
+        "evidence": [
+          "Algorithms",
+          "Problem Formulation"
+        ]
+      }
+    ],
+    "course": [
+      "Programming Fundamentals",
+      "Object-Oriented Programming",
+      "Computer Fundamentals and Compilation",
+      "Algorithms and Problem Solving"
+    ],
+    "course_code": "FP-060",
+    "n_input": 18,
+    "method": "independent_course_grouping"
+  },
+  "dae1e1bb98a352294a9d139a4e8ec9a751c43e17": {
+    "competencies": [
+      {
+        "competency": "Supervised Learning",
+        "source": "course",
+        "evidence": [
+          "Supervised Learning",
+          "Linear Regression",
+          "Decision Trees",
+          "Logistic Regression",
+          "Gradient Descent",
+          "Gradient Boosting",
+          "Algorithm Selection for Datasets",
+          "Algorithm Evaluation"
+        ]
+      },
+      {
+        "competency": "Unsupervised Learning",
+        "source": "course",
+        "evidence": [
+          "Unsupervised Learning",
+          "Clustering",
+          "K-Means",
+          "Gaussian Mixture"
+        ]
+      },
+      {
+        "competency": "Programming and Tools",
+        "source": "course",
+        "evidence": [
+          "Python",
+          "Pandas",
+          "Jupyter"
+        ]
+      },
+      {
+        "competency": "Data Exploration and Preparation",
+        "source": "course",
+        "evidence": [
+          "Data Exploration and Analysis (EDA)",
+          "Data Preparation"
+        ]
+      },
+      {
+        "competency": "AI and Machine Learning Fundamentals",
+        "source": "course",
+        "evidence": [
+          "AI Application Development",
+          "AI Sub-Fields"
+        ]
+      },
+      {
+        "competency": "Machine Learning Workflow",
+        "source": "course",
+        "evidence": [
+          "Cross-Validation"
+        ]
+      },
+      {
+        "competency": "K-Nearest Neighbor",
+        "source": "course",
+        "evidence": [
+          "K-Nearest Neighbor"
+        ]
+      }
+    ],
+    "course": [
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Programming and Tools",
+      "Data Exploration and Preparation",
+      "AI and Machine Learning Fundamentals",
+      "Machine Learning Workflow",
+      "K-Nearest Neighbor"
+    ],
+    "course_code": "AIECS031",
+    "n_input": 21,
+    "method": "independent_course_grouping"
+  },
+  "599e15240827d5c525ea819f7661b401230f9d61": {
+    "competencies": [
+      {
+        "competency": "Secure Software Development",
+        "source": "course",
+        "evidence": [
+          "Secure Coding",
+          "Secure Software Development",
+          "Input Validation",
+          "Secure Data Storage",
+          "Access Control",
+          "SQL Injection",
+          "Cross-Site Scripting (XSS)",
+          "Secure Web Application Development"
+        ]
+      },
+      {
+        "competency": "Cybercrime and Digital Forensics",
+        "source": "course",
+        "evidence": [
+          "Cybercrime Analysis",
+          "Digital Forensics",
+          "Digital Evidence Analysis",
+          "Digital Forensics Tools",
+          "Incident Evidence Analysis"
+        ]
+      },
+      {
+        "competency": "Ethical and Legal Considerations in Cybersecurity",
+        "source": "course",
+        "evidence": [
+          "Ethical Software Development",
+          "Ethical Response Planning"
+        ]
+      },
+      {
+        "competency": "Network Security",
+        "source": "course",
+        "evidence": [
+          "Network Security Controls"
+        ]
+      },
+      {
+        "competency": "Sql",
+        "source": "course",
+        "evidence": [
+          "Sql"
+        ]
+      }
+    ],
+    "course": [
+      "Secure Software Development",
+      "Cybercrime and Digital Forensics",
+      "Ethical and Legal Considerations in Cybersecurity",
+      "Network Security",
+      "Sql"
+    ],
+    "course_code": "AIECS028",
+    "n_input": 17,
+    "method": "independent_course_grouping"
+  },
+  "df15c04ae20c98beac19b526f1869ab9e5d7a26c": {
+    "competencies": [
+      {
+        "competency": "Calculus",
+        "source": "course",
+        "evidence": [
+          "Calculus",
+          "First Principles of Derivatives",
+          "Rules of Differentiation",
+          "Further Rules of Differentiation",
+          "Parametric Differentiation",
+          "Implicit Differentiation",
+          "Tangent and Normal",
+          "Maclaurin Series",
+          "Indefinite and Definite Integrals",
+          "Techniques of Integration",
+          "Further Techniques of Integration",
+          "Turning and Inflection Points",
+          "Optimization Problems",
+          "Rate of Change",
+          "Area Under a Curve",
+          "Volume of Revolutions"
+        ]
+      },
+      {
+        "competency": "Trigonometry",
+        "source": "course",
+        "evidence": [
+          "Trigonometry",
+          "Trigonometric Functions",
+          "Trigonometric Identities",
+          "Sine Rule",
+          "Cosine Rule"
+        ]
+      },
+      {
+        "competency": "Complex Numbers",
+        "source": "course",
+        "evidence": [
+          "Complex Numbers",
+          "Different Forms of Complex Numbers",
+          "Complex Operations",
+          "Loci of Complex Numbers",
+          "De Moivre's Theorem"
+        ]
+      },
+      {
+        "competency": "Numerical Methods",
+        "source": "course",
+        "evidence": [
+          "Newton Raphson's",
+          "Trapezium Rule",
+          "Simpson's Rule"
+        ]
+      },
+      {
+        "competency": "Mathematical Analysis",
+        "source": "course",
+        "evidence": [
+          "Mathematical Analysis"
+        ]
+      },
+      {
+        "competency": "Mathematical Terminology",
+        "source": "course",
+        "evidence": [
+          "Mathematical Terminology"
+        ]
+      },
+      {
+        "competency": "Scientific Calculator Usage",
+        "source": "course",
+        "evidence": [
+          "Scientific Calculator Usage"
+        ]
+      },
+      {
+        "competency": "Coordinate Geometry",
+        "source": "course",
+        "evidence": [
+          "Circle Equation and Graph"
+        ]
+      },
+      {
+        "competency": "Rectilinear Motion",
+        "source": "course",
+        "evidence": [
+          "Rectilinear Motion"
+        ]
+      }
+    ],
+    "course": [
+      "Calculus",
+      "Trigonometry",
+      "Complex Numbers",
+      "Numerical Methods",
+      "Mathematical Analysis",
+      "Mathematical Terminology",
+      "Scientific Calculator Usage",
+      "Coordinate Geometry",
+      "Rectilinear Motion"
+    ],
+    "course_code": "FP-041",
+    "n_input": 34,
+    "method": "independent_course_grouping"
+  },
+  "058ea2ce627f89b040c54ca1ad5ad0353d9098b0": {
+    "competencies": [
+      {
+        "competency": "Network Device and System Management",
+        "source": "course",
+        "evidence": [
+          "Network Device Configuration",
+          "User Account Management",
+          "Directory Services",
+          "System Operations",
+          "System Configuration"
+        ]
+      },
+      {
+        "competency": "Network Architecture and Design",
+        "source": "course",
+        "evidence": [
+          "Network Architecture",
+          "Network Service Concepts",
+          "Infrastructure Concepts",
+          "Network Addressing"
+        ]
+      },
+      {
+        "competency": "Network Protocols and Services",
+        "source": "course",
+        "evidence": [
+          "Network Protocols",
+          "Network Service Deployment",
+          "Service Usage Identification"
+        ]
+      },
+      {
+        "competency": "Network Security and Access Control",
+        "source": "course",
+        "evidence": [
+          "Network Security",
+          "Access Control Management",
+          "Security Principles"
+        ]
+      },
+      {
+        "competency": "Network Performance and Troubleshooting",
+        "source": "course",
+        "evidence": [
+          "Network Performance Monitoring",
+          "Network Troubleshooting"
+        ]
+      },
+      {
+        "competency": "Data Backup and Recovery",
+        "source": "course",
+        "evidence": [
+          "Data Backup and Recovery",
+          "Backup and Recovery"
+        ]
+      },
+      {
+        "competency": "Virtualization and Containerization",
+        "source": "course",
+        "evidence": [
+          "Virtualization",
+          "Containerization"
+        ]
+      }
+    ],
+    "course": [
+      "Network Device and System Management",
+      "Network Architecture and Design",
+      "Network Protocols and Services",
+      "Network Security and Access Control",
+      "Network Performance and Troubleshooting",
+      "Data Backup and Recovery",
+      "Virtualization and Containerization"
+    ],
+    "course_code": "AIECS030",
+    "n_input": 21,
+    "method": "independent_course_grouping"
+  }
+}

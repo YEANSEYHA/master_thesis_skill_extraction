@@ -1,0 +1,66 @@
+[
+  {
+    "file": "1_networks_ii.json",
+    "course_id": 48,
+    "course_code": "GICI42NET2",
+    "course_title": "Networks II",
+    "year": "Y4",
+    "n_skills": 8
+  },
+  {
+    "file": "2_systems_and_networks_administration.json",
+    "course_id": 53,
+    "course_code": "GICI42SNA",
+    "course_title": "Systems and Networks Administration",
+    "year": "Y4",
+    "n_skills": 31
+  },
+  {
+    "file": "3_advanced_database_and_database_management_systems.json",
+    "course_id": 58,
+    "course_code": "GICI4DBMS",
+    "course_title": "Advanced Database and Database Management Systems",
+    "year": "Y4",
+    "n_skills": 14
+  },
+  {
+    "file": "4_distributed_systems.json",
+    "course_id": 46,
+    "course_code": "GICI4DS",
+    "course_title": "Distributed Systems",
+    "year": "Y4",
+    "n_skills": 16
+  },
+  {
+    "file": "5_internet_programming_ii.json",
+    "course_id": 44,
+    "course_code": "GICI4IP",
+    "course_title": "Internet Programming II",
+    "year": "Y4",
+    "n_skills": 26
+  },
+  {
+    "file": "6_introduction_to_mobile_application_development.json",
+    "course_id": 45,
+    "course_code": "GICI4MDEV",
+    "course_title": "Introduction to Mobile Application Development",
+    "year": "Y4",
+    "n_skills": 11
+  },
+  {
+    "file": "7_network_design.json",
+    "course_id": 49,
+    "course_code": "GICI4ND",
+    "course_title": "Network Design",
+    "year": "Y4",
+    "n_skills": 22
+  },
+  {
+    "file": "8_software_development_and_it_operations_devops.json",
+    "course_id": 57,
+    "course_code": "GICI4SDO",
+    "course_title": "Software Development and IT Operations (DevOps)",
+    "year": "Y4",
+    "n_skills": 18
+  }
+]

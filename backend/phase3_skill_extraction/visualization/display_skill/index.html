@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stage 2 Viewer</title>
+    <script
+      src="https://unpkg.com/react@18/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <style>
+      /* ── Tokyo Night palette ── */
+      :root {
+        --bg: #1a1b26;
+        --bg-side: #16161e;
+        --bg-card: #1f2335;
+        --bg-hover: #24283b;
+        --bg-active: #2a2f4a;
+        --border: #292e42;
+        --text: #c0caf5;
+        --text-sub: #565f89;
+        --text-dim: #3b4261;
+        --accent: #7aa2f7;
+        --accent2: #bb9af7;
+        --green: #9ece6a;
+        --yellow: #e0af68;
+        --red: #f7768e;
+        --cyan: #7dcfff;
+        --skill-bg: #1a2038;
+        --skill-bd: #2d3a6e;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      html,
+      body,
+      #root {
+        height: 100vh;
+        overflow: hidden;
+      }
+      body {
+        font-family: "Segoe UI", sans-serif;
+        background: var(--bg);
+        color: var(--text);
+      }
+      #root {
+        display: flex;
+      }
+
+      /* Sidebar */
+      #sidebar {
+        width: 300px;
+        min-width: 300px;
+        background: var(--bg-side);
+        border-right: 1px solid var(--border);
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+      }
+      .sidebar-header {
+        padding: 16px;
+        border-bottom: 1px solid var(--border);
+      }
+      .sidebar-header h2 {
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        color: var(--text-sub);
+      }
+      .sidebar-count {
+        font-size: 0.72rem;
+        color: var(--text-dim);
+        margin-top: 4px;
+      }
+      .search-box {
+        margin-top: 10px;
+        width: 100%;
+        background: var(--bg-card);
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        padding: 7px 10px;
+        color: var(--text);
+        font-size: 0.82rem;
+        outline: none;
+      }
+      .stats-btn {
+        width: 100%;
+        margin-top: 10px;
+        padding: 8px;
+        background: var(--accent);
+        color: var(--bg);
+        border: none;
+        border-radius: 6px;
+        font-size: 0.82rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: opacity 0.15s;
+      }
+      .stats-btn:hover {
+        opacity: 0.85;
+      }
+      .search-box:focus {
+        border-color: var(--accent);
+      }
+      .job-list {
+        overflow-y: auto;
+        flex: 1;
+      }
+      .job-item {
+        padding: 12px 16px;
+        border-bottom: 1px solid var(--bg-card);
+        cursor: pointer;
+        transition: background 0.12s;
+        border-left: 3px solid transparent;
+      }
+      .job-item:hover {
+        background: var(--bg-hover);
+      }
+      .job-item.active {
+        background: var(--bg-active);
+        border-left-color: var(--accent);
+      }
+      .job-item-title {
+        font-size: 0.83rem;
+        font-weight: 600;
+        color: var(--text);
+        line-height: 1.3;
+      }
+      .job-item-meta {
+        font-size: 0.72rem;
+        color: var(--text-sub);
+        margin-top: 3px;
+      }
+      .quality-dot {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        margin-right: 6px;
+        flex-shrink: 0;
+      }
+
+      /* Main */
+      #main {
+        flex: 1;
+        overflow-y: auto;
+        padding: 24px;
+        background: var(--bg);
+      }
+      .empty {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        color: var(--text-sub);
+        font-size: 0.9rem;
+      }
+
+      /* Job header */
+      .job-header {
+        background: var(--bg-card);
+        border: 1px solid var(--border);
+        border-left: 4px solid var(--accent);
+        border-radius: 8px;
+        padding: 20px 24px;
+        margin-bottom: 16px;
+      }
+      .job-title {
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: var(--cyan);
+        margin-bottom: 12px;
+      }
+      .meta-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+      .meta-tag {
+        background: var(--bg-hover);
+        border: 1px solid var(--border);
+        border-radius: 4px;
+        padding: 3px 10px;
+        font-size: 0.75rem;
+        color: var(--text-sub);
+      }
+      .meta-tag span {
+        color: var(--text);
+        font-weight: 600;
+      }
+      .null-tag {
+        background: #2a1520;
+        border: 1px solid #4a1a28;
+        color: var(--red);
+        border-radius: 4px;
+        padding: 3px 10px;
+        font-size: 0.75rem;
+      }
+
+      /* Cards */
+      .grid {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        margin-bottom: 14px;
+      }
+      .card {
+        background: var(--bg-card);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 16px 18px;
+      }
+      .card-title {
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: var(--accent2);
+        margin-bottom: 10px;
+        font-weight: 600;
+      }
+      .card p {
+        font-size: 0.84rem;
+        line-height: 1.8;
+        color: var(--text);
+        white-space: pre-wrap;
+        max-height: 160px;
+        overflow-y: auto;
+      }
+
+      /* Skills */
+      .skills-card {
+        background: var(--bg-card);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 16px 18px;
+      }
+      .skills-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 8px;
+      }
+      .skill-tag {
+        background: var(--skill-bg);
+        border: 1px solid var(--skill-bd);
+        color: var(--cyan);
+        border-radius: 20px;
+        padding: 4px 13px;
+        font-size: 0.8rem;
+      }
+      .badge {
+        display: inline-block;
+        background: var(--bg-hover);
+        color: var(--text-sub);
+        border-radius: 10px;
+        padding: 2px 8px;
+        font-size: 0.7rem;
+        margin-left: 6px;
+      }
+
+      /* Quality bar */
+      .quality-bar-wrap {
+        margin-bottom: 16px;
+      }
+      .quality-bar-bg {
+        background: var(--bg-card);
+        border: 1px solid var(--border);
+        border-radius: 4px;
+        height: 8px;
+        width: 100%;
+      }
+      .quality-bar-fill {
+        height: 8px;
+        border-radius: 4px;
+        transition: width 0.4s ease;
+      }
+      .quality-label {
+        font-size: 0.75rem;
+        color: var(--text-sub);
+        margin-top: 5px;
+      }
+
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: var(--border);
+        border-radius: 3px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: var(--text-sub);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+      const { useState, useEffect } = React;
+
+      const KEY_FIELDS = [
+        "job_title",
+        "company_name",
+        "salary",
+        "location",
+        "posted_date",
+        "job_category",
+        "skills",
+      ];
+
+      function qualityScore(job) {
+        return KEY_FIELDS.filter((f) => {
+          const v = job[f];
+          return f === "skills"
+            ? Array.isArray(v) && v.length > 0
+            : v != null && v !== "";
+        }).length;
+      }
+
+      function qualityColor(score) {
+        const pct = score / KEY_FIELDS.length;
+        if (pct >= 0.8) return "#9ece6a"; // green
+        if (pct >= 0.5) return "#e0af68"; // yellow
+        return "#f7768e"; // red
+      }
+
+      // Normalize: supports both old flat format and new {input, output} format
+      function normalize(raw) {
+        if (raw && typeof raw === "object" && "output" in raw) {
+          return { ...raw.output, _input: raw.input };
+        }
+        return raw;
+      }
+
+      function Sidebar({ jobs, selectedIdx, onSelect, search, onSearch }) {
+        return (
+          <div id="sidebar">
+            <div className="sidebar-header">
+              <h2>Stage 2 Output</h2>
+              <div className="sidebar-count">{jobs.length} jobs loaded</div>
+              <button
+                className="stats-btn"
+                onClick={() => window.open("stats.html", "_blank")}
+              >
+                Statistics
+              </button>
+              <input
+                className="search-box"
+                type="text"
+                placeholder="Search jobs..."
+                value={search}
+                onChange={(e) => onSearch(e.target.value)}
+              />
+            </div>
+            <div className="job-list">
+              {jobs.map((job, idx) => {
+                const score = qualityScore(job);
+                const color = qualityColor(score);
+                const skillCount = Array.isArray(job.skills)
+                  ? job.skills.length
+                  : 0;
+                return (
+                  <div
+                    key={idx}
+                    className={`job-item ${selectedIdx === idx ? "active" : ""}`}
+                    onClick={() => onSelect(idx)}
+                  >
+                    <div className="job-item-title">
+                      <span
+                        className="quality-dot"
+                        style={{ background: color }}
+                      />
+                      {job.job_title || "Unknown"}
+                    </div>
+                    <div className="job-item-meta">
+                      {job.company_name || "—"} · {job.job_category || "—"}
+                    </div>
+                    <div className="job-item-meta">
+                      {skillCount} skills · {job.source_file || ""}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        );
+      }
+
+      function MetaTag({ label, value }) {
+        if (value == null || value === "") {
+          return <span className="null-tag">{label}: null</span>;
+        }
+        return (
+          <div className="meta-tag">
+            {label}: <span>{value}</span>
+          </div>
+        );
+      }
+
+      function QualityBar({ job }) {
+        const score = qualityScore(job);
+        const pct = Math.round((score / KEY_FIELDS.length) * 100);
+        const color = qualityColor(score);
+        const missing = KEY_FIELDS.filter((f) => {
+          const v = job[f];
+          return f === "skills"
+            ? !Array.isArray(v) || v.length === 0
+            : v == null || v === "";
+        });
+        return (
+          <div className="quality-bar-wrap">
+            <div className="quality-bar-bg">
+              <div
+                className="quality-bar-fill"
+                style={{ width: `${pct}%`, background: color }}
+              />
+            </div>
+            <div className="quality-label">
+              Extraction quality: {score}/{KEY_FIELDS.length} fields ({pct}%)
+              {missing.length > 0 && (
+                <span style={{ color: "#e53e3e", marginLeft: 8 }}>
+                  Missing: {missing.join(", ")}
+                </span>
+              )}
+            </div>
+          </div>
+        );
+      }
+
+      function JobDetail({ job }) {
+        const skills = Array.isArray(job.skills) ? job.skills : [];
+        return (
+          <div>
+            <QualityBar job={job} />
+
+            <div className="job-header">
+              <div className="job-title">{job.job_title || "Unknown"}</div>
+              <div className="meta-row">
+                <MetaTag label="Company" value={job.company_name} />
+                <MetaTag label="Category" value={job.job_category} />
+                <MetaTag label="Location" value={job.location} />
+                <MetaTag label="Salary" value={job.salary} />
+                <MetaTag label="Posted" value={job.posted_date} />
+                {job.source_file && (
+                  <div className="meta-tag">
+                    File: <span>{job.source_file}</span>
+                  </div>
+                )}
+                {job.full_url && (
+                  <div className="meta-tag">
+                    URL:{" "}
+                    <span>
+                      <a
+                        href={job.full_url}
+                        target="_blank"
+                        rel="noreferrer"
+                        style={{ color: "#7dd3fc" }}
+                      >
+                        {job.full_url}
+                      </a>
+                    </span>
+                  </div>
+                )}
+              </div>
+            </div>
+
+            <div className="grid">
+              <div className="card">
+                <div className="card-title">Job Description</div>
+                <p>{job.job_description || "—"}</p>
+              </div>
+              <div className="card">
+                <div className="card-title">Job Requirements</div>
+                <p>{job.job_requirement || "—"}</p>
+              </div>
+            </div>
+
+            <div className="skills-card">
+              <div className="card-title">
+                Extracted Skills
+                <span className="badge">{skills.length}</span>
+              </div>
+              <div className="skills-wrap">
+                {skills.length > 0 ? (
+                  skills.map((s, i) => (
+                    <span key={i} className="skill-tag">
+                      {s}
+                    </span>
+                  ))
+                ) : (
+                  <span style={{ color: "#4a5568", fontSize: "0.82rem" }}>
+                    No skills extracted
+                  </span>
+                )}
+              </div>
+            </div>
+
+            <div className="card" style={{ marginTop: 14 }}>
+              <div className="card-title">
+                Input — Cleaned Text (fed to LLM)
+              </div>
+              <p
+                style={{
+                  maxHeight: 300,
+                  fontFamily: "monospace",
+                  fontSize: "0.78rem",
+                  color: "var(--text-sub)",
+                }}
+              >
+                {job._input || "— input not available (old format)"}
+              </p>
+            </div>
+          </div>
+        );
+      }
+
+      function App() {
+        const [allJobs, setAllJobs] = useState([]);
+        const [search, setSearch] = useState("");
+        const [selectedIdx, setSelectedIdx] = useState(0);
+        const [error, setError] = useState(null);
+
+        useEffect(() => {
+          fetch("stage2_output.json")
+            .then((r) => r.json())
+            .then((data) => {
+              const jobs = data.map(normalize);
+              setAllJobs(jobs);
+            })
+            .catch((err) => setError(err.message));
+        }, []);
+
+        const filtered = allJobs.filter((job) => {
+          const q = search.toLowerCase();
+          if (!q) return true;
+          return (
+            (job.job_title || "").toLowerCase().includes(q) ||
+            (job.company_name || "").toLowerCase().includes(q) ||
+            (job.job_category || "").toLowerCase().includes(q) ||
+            (job.skills || []).some((s) => s.toLowerCase().includes(q))
+          );
+        });
+
+        const safeIdx = selectedIdx < filtered.length ? selectedIdx : 0;
+
+        if (error)
+          return <div className="empty">Failed to load JSON: {error}</div>;
+        if (allJobs.length === 0)
+          return <div className="empty">Loading...</div>;
+
+        return (
+          <>
+            <Sidebar
+              jobs={filtered}
+              selectedIdx={safeIdx}
+              onSelect={setSelectedIdx}
+              search={search}
+              onSearch={(s) => {
+                setSearch(s);
+                setSelectedIdx(0);
+              }}
+            />
+            <div id="main">
+              {filtered.length === 0 ? (
+                <div className="empty">No jobs match your search.</div>
+              ) : (
+                <JobDetail job={filtered[safeIdx]} />
+              )}
+            </div>
+          </>
+        );
+      }
+
+      ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+    </script>
+  </body>
+</html>

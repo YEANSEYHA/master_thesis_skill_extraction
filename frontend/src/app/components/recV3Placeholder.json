@@ -1,0 +1,118 @@
+{
+  "markdown": {
+    "filename": "Introductionto Artificial Intelligence.pdf",
+    "chars": 12944,
+    "markdown": "**==> picture [143 x 141] intentionally omitted <==**\n\n## **Institute of Technology of Cambodia** \n\n## **International Program in Artificial Intelligence Engineering and CyberSecurity** \n\n**Syllabus of Course** \n\n## **Introduction to Artificial Intelligence** \n\n**Year 2024-2025** \n\n## **Course Information** \n\nCourse: Introduction to Artificial Intelligence   Course’s Code: AIECS031 Semester: 2, Year: 3 Number of Credit: 3 Instructor’s name: [removed] Latest Degree Obtained: Master Pre-requisites NA Tel: [removed] Email: [removed] \n\n## **I. Course Description** \n\nThis course prepares students to understand fundamentals of Artificial Intelligence and existing techniques and their applications. It considers different approaches and techniques (regression models, clustering methods, supervised/unsupervised learning, clustering, neural networks/deep learning). \n\n. \n\n## **II. Course Learning Outcomes (CLOs)** \n\nUpon completing this course, students will be able to \n\n|No|Course Learning Outputs (CLOs)|PLOs|Bloom’s<br>taxonomy|\n|---|---|---|---|\n|CLO1|**Understanding**supervised/unsupervised<br>learningalgorithms,datapreparation|PLO1, PLO2,<br>PLO6|Understanding|\n|CLO2|**Applying**supervised/unsupervised learning to<br>solve any existing datasets|PLO1, PLO2,<br>PLO4|Applying|\n|CLO3|**Analyzing**which algorithms should apply to<br>existingdataset|PLO1, PLO3|Analyzing|\n|CLO4|**Evaluation**the training/testing algorithm result|PLO1, PLO2,<br>PLO4,PLO6|Evaluation|\n|CLO5|**Be able to create**any AI application for<br>outstanding students (e.g., Chatbot)|PLO1, PLO2,<br>PLO4,PLO6,<br>PLO12|Creating|\n\n\n\n## **III. Teaching Approaches** \n\n- Give Lecture \n\n- Practice tutorial \n\n- Make group discussion and Presentation \n\n- Give homework \n\n- Give project/Assignment \n\n- Have Quiz \n\n## **IV. Assessment Policy** \n\n|**No**|**Assessment Task**|**Weighting**<br>**(%)**|**Responded Course Learning**<br>**Outcomes**|\n|---|---|---|---|\n|1|Attendance|10||\n|2|Class Activities andQuiz|10|CLO1,CL02,CLO3|\n|3|Assignment/Report and Presentation|10|CLO1,CL02,CLO3|\n|4|Midterm|30|CLO1,CL02|\n|5|Final|40|CL01, CLO2, CLO3|\n\n\n\n## **V. Grading and Evaluation Criterion** \n\nIn order to pass this subject, student need to \n\n- Get total score of at least 30 (in 100) if the average score more than 50% \n\n- Get total score of at least 50 (in 100) if the average score lower than 50% \n\n- Otherwise, it will be judged by the jury of the department. ￼ \n\n## **VI. Details of Contents, CLOs, LLOs, Teaching and Learning Activities, Assessment, and Supported Materials** \n\n|**Weeks**|**CLOs**|**LLOs**|**Content**|**Teaching Activities**|**Learning Activities**|**Assessment**|**Materials**|\n|---|---|---|---|---|---|---|---|\n|1|CLO1,<br>CLO2|● Understanding the AI<br>definition and sub-field<br>of AI<br>● Understanding and<br>applying data<br>exploratory analysis<br>(EDA)<br>● Be able to explain the<br>sub-field in AI|Lecture 1:<br>Introduction, Data<br>Description|● Tutorial<br>● Group activities<br>● Self-paced<br>instruction<br>● Assignment|● Take note<br>● Discussion<br>● Presentation<br>● Ask question<br>● Report submission<br>● Research|● Attendances<br>● Quality of<br>presentation<br>● Quiz|● Slide<br>Presentation<br>● LCD Projector<br>● Laptop<br>● Slide Pointer<br>● Writing Board|\n|2|CLO1<br>CLO2|● Understanding the<br>unsupervised<br>learning/Clustering, K-<br>mean algorithm<br>● Applying K-means<br>algorithm to movie<br>dataset|Lecture 2:<br>Unsupervised<br>learning (Clustering,<br>K-mean)|● Tutorial<br>● Group activities<br>● Self-paced<br>instruction<br>● Assignment|●  Take note<br>● Discussion<br>● Presentation<br>● Ask question<br>● Report submission<br>● Research|● Attendances<br>● Quality of<br>presentation<br>● Quiz|● Slide<br>Presentation<br>● LCD Projector<br>● Laptop<br>● Slide Pointer<br>● Writing Board|\n|3|CLO1<br>CLO2|● Understanding<br>Gaussian mixture<br>algorithm<br>● Applying Gaussian<br>mixture algorithm to<br>movie dataset|Lecture 3:<br>Unsupervised<br>learning (Gaussian<br>mixture)|● Tutorial<br>● Group activities<br>● Self-paced<br>instruction<br>● Assignment|● Take note<br>● Discussion<br>● Presentation<br>● Ask question<br>● Report submission<br>● Research|● Attendances<br>● Quality of<br>presentation<br>● Quiz|● Slide<br>Presentation<br>● LCD Projector<br>● Laptop<br>● Slide Pointer<br>● Writing Board|\n|4|CLO1<br>CLO4|● Review lesson and quiz<br>about unsupervised<br>learning<br>● Understanding the<br>supervised learning|Lecture 4: review<br>lesson & Supervised<br>learning|● Tutorial<br>● Group activities<br>● Self-paced<br>instruction<br>● Assignment|● Take note<br>● Discussion<br>● Presentation<br>● Ask question<br>● Report submission|● Attendances<br>● Quality of<br>presentation<br>● Quiz|● Slide<br>Presentation<br>● LCD Projector<br>● Laptop<br>● Slide Pointer|\n\n\n\n|||definition and key<br>components|||||● Writing Board|\n|---|---|---|---|---|---|---|---|\n|5|CLO1<br>CLO2|● Understanding the<br>supervised learning and<br>linear regression<br>algorithm<br>● Applying linear<br>regression algorithm to<br>movie dataset|Lecture 5:<br>Supervised learning<br>(linear regression)|● Tutorial<br>● Group activities<br>● Self-paced<br>instruction<br>● Assignment|● Take note<br>● Discussion<br>● Presentation<br>● Ask question<br>● Report submission<br>● Research|● Attendances<br>● Quality of<br>presentation<br>● Quiz|● Slide<br>Presentation<br>● LCD Projector<br>● Laptop<br>● Slide Pointer<br>● Writing Board|\n|6|CLO1<br>CLO2|●  Understanding decision<br>tree algorithm<br>● Applying decision tree<br>algorithm to movie<br>dataset|Lecture 6:<br>Supervised learning<br>(decision tree)|● Tutorial<br>● Group activities<br>● Self-paced<br>instruction<br>● Assignment|● Take note<br>● Discussion<br>● Presentation<br>● Ask question<br>● Report submission<br>● Research|● Attendances<br>● Quality of<br>presentation<br>● Quiz|● Slide<br>Presentation<br>● LCD Projector<br>● Laptop<br>● Slide Pointer<br>● Writing Board|\n|7|CLO1<br>CLO4|● Understanding<br>techniques to avoid<br>overfitting/underfitting<br>methods to do cross-<br>validation and evaluate<br>the model<br>● Quiz|Lecture 7:<br>Supervised learning<br>(overfitting,<br>underfitting, cross<br>validation,<br>evaluation)|● Tutorial<br>● Group activities<br>● Self-paced<br>instruction<br>● Assignment|● Take note<br>● Discussion<br>● Presentation<br>● Ask question<br>● Report submission<br>● Research|● Attendances<br>● Quality of<br>presentation<br>● Quiz|● Slide<br>Presentation<br>● LCD Projector<br>● Laptop<br>● Slide Pointer<br>● Writing Board|\n|8|CLO1<br>CLO2|● Understanding linear<br>classification and logistic<br>regression algorithm<br>● Applying today’s lesson<br>with movie dataset|Lecture 8:<br>Supervised<br>learning (linear<br>classification,<br>logistic regression)|● Tutorial<br>● Group activities<br>● Self-paced<br>instruction<br>● Assignment|● Take note<br>● Discussion<br>● Presentation<br>● Ask question<br>● Report submission<br>● Research|● Attendances<br>● Quality of<br>presentation<br>● Quiz|● Slide<br>Presentation<br>● LCD Projector<br>● Laptop<br>● Slide Pointer<br>● Writing Board|\n\n\n\n|9|CLO1<br>CLO3,<br>CLO5|● Understanding<br>classification algorithm<br>● Ability to define Data<br>Storage Types|Lecture 9:<br>Supervised learning<br>(classification)|● Tutorial<br>● Group activities<br>● Self-paced<br>instruction<br>● Assignment|● Take note<br>● Discussion<br>● Presentation<br>● Ask question<br>● Report submission<br>● Research|● Attendances<br>● Quality of<br>presentation<br>● Quiz|● Slide<br>Presentation<br>● LCD Projector<br>● Laptop<br>● Slide Pointer<br>● Writing Board|\n|---|---|---|---|---|---|---|---|\n|10|CLO1<br>CLO5<br>CLO3|● Understanding K-<br>nearest neighbor<br>algorithm<br>● Applying K-nearest<br>algorithm to movie<br>dataset (student work)|Lecture 10:<br>Supervised<br>learning (K-nearest<br>neighbor)|● Tutorial<br>● Group activities<br>● Self-paced<br>instruction<br>● Assignment|● Take note<br>● Discussion<br>● Presentation<br>● Ask question<br>● Report submission<br>● Research|● Attendances<br>● Quality of<br>presentation<br>● Quiz|● Slide<br>Presentation<br>● LCD Projector<br>● Laptop<br>● Slide Pointer<br>● Writing Board|\n|11|CLO1<br>CLO3<br>CLO5|● Understanding gradient<br>descent algorithm<br>● Applying gradient<br>descent algorithm to<br>movie dataset (student<br>work)|Lecture 11:<br>Supervised learning<br>(gradient descent)|● Tutorial<br>● Group activities<br>● Self-paced<br>instruction<br>● Assignment|● Take note<br>● Discussion<br>● Presentation<br>● Ask question<br>● Report submission<br>● Research|● Attendances<br>● Quality of<br>presentation<br>● Quiz|● Slide<br>Presentation<br>● LCD Projector<br>● Laptop<br>● Slide Pointer<br>● Writing Board|\n|12|CLO1<br>CLO3<br>CLO4,<br>CLO5|● Know techniques to find<br>datasets<br>● Implementation any<br>algorithms to any<br>datasets (students<br>choose a dataset and<br>algorithms)<br>●  Evaluation model<br>●  Write a report for an<br>explanation of their<br>works|Lecturer 12: Project|● Tutorial<br>● Group activities<br>● Self-paced<br>instruction<br>● Assignment|● Take note<br>● Discussion<br>● Presentation<br>● Ask question<br>● Report submission<br>● Research|● Attendances<br>● Quality of<br>presentation<br>● Quiz|● Slide<br>Presentation<br>● LCD Projector<br>● Laptop<br>● Slide Pointer<br>● Writing Board|\n\n\n\n|||●  Preparation slides for<br>presentation||||||\n|---|---|---|---|---|---|---|---|\n|13|CLO1<br>CLO3,<br>CLO5|● Understanding gradient<br>boosting algorithm<br>●  Applying gradient<br>boosting algorithm to<br>movie dataset (student<br>work during class)|Lecture 13:<br>Supervised learning<br>(gradient boosting)|● Tutorial<br>● Group activities<br>● Self-paced<br>instruction<br>● Assignment|● Take note<br>● Discussion<br>● Presentation<br>● Ask question<br>● Report submission<br>● Research|● Attendances<br>● Quality of<br>presentation<br>● Quiz|● Slide<br>Presentation<br>● LCD Projector<br>● Laptop<br>● Slide Pointer<br>● Writing Board|\n|14||- Evaluation of student<br>performance<br>-Receive any feedback<br>to improve teaching|Lecturer 14: Project<br>presentation|● Tutorial<br>● Group activities<br>● Self-paced<br>instruction<br>● Assignment|● Take note<br>● Discussion<br>● Presentation<br>● Ask question<br>● Report submission<br>● Research|||\n|15||Review and Prepare for Final Exam||||||\n|16||Final Exam||||||\n|||||||||\n\n\n\n## **VII. Internal Regulation Related to Students’ Learning and Assessment** \n\nTo preserve the learning good environment in our classrooms, students are expected to adhere to the following rules: \n\n- Students are expected to come to class punctually and regularly. Punctuality reflects that you are ready and willing to undertake the task at hand and are respectful of others involved. If you are late, please come in quietly and take a seat in the back of the room. \n\n- Treat everyone in the classroom with respect and be tolerant of questions asked by fellow classmates. This is a diverse community and we need to respect each other’s differences. \n\n- Be respectful when engaging in online discourse. \n\n- Pay attention and participate actively in the classroom conversation. Participation in class discussion is highly encouraged. \n\n- Refrain from talking to other students during class or interrupting others. No “sidebars.” \n\n- Come to class prepared: always have your assignments, textbook, notebook, and pen. \n\n- If you must leave during class, exit and re-enter as quietly as possible. \n\n- Do not leave class during exam sessions. \n\n- Do not litter in the classroom.  Clean up around your desk before you leave. \n\n- Wait until class has ended before you pack up your bags \n\n## **VIII. References** \n\n## **Main Books** \n\n● **https://dataminingbook.info/** \n\n- **http://ema.cri-info.cm/wp-content/uploads/2019/07/2019BurkovTheHundredpageMachineLearning.pdf** \n\n## **Other Study Resources** \n\n## **1. Dataset** \n\n**- https://archive.ics.uci.edu/datasets** \n\n- **https://www.kaggle.com/** \n\n**- https://datasetsearch.research.google.com/** \n\n   - **https://www.reddit.com/r/datasets/?rdt=48892** \n\n**2. Tools** \n\n**- https://www.w3schools.com/python/** \n\n**-** \n\n**https://colab.research.google.com/github/Yquetzal/Teaching_notebooks/blo b/main/Pandas_hands_on.ipynb - scrollTo=Sun0bs5-qPt3** \n\n**-** \n\n**https://colab.research.google.com/github/Yquetzal/teaching_notebooks/blo b/main/pythonDataStructureIntro.ipynb** \n\n## **Others related course materials** \n\n## **- https://www.coursera.org/ - https://www.edx.org/** \n\n**Remark:** This syllabus is intended to provide guidance as to students’ and the instructor’s obligations for this course, and to provide an outline of topics to be covered during the semester. However, the instructor reserves the right to modify syllabus items as needs arise. Students will be notified in advance of any modifications. \n\n**==> picture [483 x 477] intentionally omitted <==**\n\n"
+  },
+  "skills": {
+    "course": {
+      "title": "Introduction to Artificial Intelligence",
+      "code": "AIECS031",
+      "credits": 3,
+      "programme": "International Program in Artificial Intelligence Engineering and CyberSecurity",
+      "category": "it",
+      "fields": [
+        {
+          "name": "artificial_intelligence",
+          "score": 0.808
+        },
+        {
+          "name": "data_science",
+          "score": 0.794
+        }
+      ]
+    },
+    "skills": [
+      {
+        "name": "Supervised Learning",
+        "source": "Description",
+        "evidence": "existing techniques and their applications. It considers different approaches and techniques (regression models, clustering methods, supervised/unsupervised learning, clustering, neural networks/deep learning)"
+      },
+      {
+        "name": "Unsupervised Learning",
+        "source": "Description",
+        "evidence": "existing techniques and their applications. It considers different approaches and techniques (regression models, clustering methods, supervised/unsupervised learning, clustering, neural networks/deep learning)"
+      },
+      {
+        "name": "Clustering",
+        "source": "Description",
+        "evidence": "existing techniques and their applications. It considers different approaches and techniques (regression models, clustering methods, supervised/unsupervised learning, clustering, neural networks/deep learning)"
+      },
+      {
+        "name": "K-Means",
+        "source": "Lesson Topic",
+        "evidence": "Unsupervised learning (Clustering, K-mean)"
+      },
+      {
+        "name": "Gaussian Mixture",
+        "source": "Lesson Topic",
+        "evidence": "Unsupervised learning (Gaussian mixture)"
+      },
+      {
+        "name": "Linear Regression",
+        "source": "Lesson Topic",
+        "evidence": "Supervised learning (linear regression)"
+      },
+      {
+        "name": "Decision Trees",
+        "source": "Lesson Topic",
+        "evidence": "Supervised learning (decision tree)"
+      },
+      {
+        "name": "Cross-Validation",
+        "source": "Lesson Topic",
+        "evidence": "Supervised learning (overfitting, underfitting, cross validation, evaluation)"
+      },
+      {
+        "name": "Logistic Regression",
+        "source": "Lesson Topic",
+        "evidence": "Supervised learning (linear classification, logistic regression)"
+      },
+      {
+        "name": "K-Nearest Neighbor",
+        "source": "Lesson Topic",
+        "evidence": "Supervised learning (K-nearest neighbor)"
+      },
+      {
+        "name": "Gradient Descent",
+        "source": "Lesson Topic",
+        "evidence": "Supervised learning (gradient descent)"
+      },
+      {
+        "name": "Gradient Boosting",
+        "source": "Lesson Topic",
+        "evidence": "Supervised learning (gradient boosting)"
+      },
+      {
+        "name": "Data Exploration and Analysis (EDA)",
+        "source": "Lesson Topic",
+        "evidence": "Understanding and applying data exploratory analysis (EDA)"
+      },
+      {
+        "name": "AI Application Development",
+        "source": "CLO",
+        "evidence": "CLO5 Be able to create any AI application for outstanding students (e.g., Chatbot)"
+      },
+      {
+        "name": "Algorithm Evaluation",
+        "source": "CLO",
+        "evidence": "CLO4 Evaluation the training/testing algorithm result"
+      },
+      {
+        "name": "Data Preparation",
+        "source": "CLO",
+        "evidence": "CLO1 Understanding supervised/unsupervised learning algorithms, data preparation"
+      },
+      {
+        "name": "Algorithm Selection for Datasets",
+        "source": "CLO",
+        "evidence": "CLO3 Analyzing which algorithms should apply to existing dataset"
+      },
+      {
+        "name": "AI Sub-Fields",
+        "source": "Lesson Topic",
+        "evidence": "Understanding the AI definition and sub-field of AI"
+      }
+    ]
+  }
+}

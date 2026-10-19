@@ -1,0 +1,19 @@
+gold: 60 members + 60 impostors across 12 domains
+
+model          imp-recall  mem-keep     F1   secs
+-------------------------------------------------
+qwen3:14b            98%       80%   0.90   20.2
+llama3.1:8b         100%      100%   1.00   11.6
+qwen3:8b             97%      100%   0.98   11.8
+
+=== qwen3:14b errors ===
+  impostors KEPT (1): qa_testing: product quality auditor
+  members DROPPED (12): data_science: applied scientist; data_science: quantitative researcher; data_science: machine learning scientist; data_science: research data scientist; cloud_devops: site reliability engineer; cloud_devops: cloud engineer; cloud_devops: platform engineer; cloud_devops: kubernetes administrator; web_frontend: react developer; web_frontend: ui developer; web_frontend: web developer; web_frontend: javascript engineer
+
+=== llama3.1:8b errors ===
+  impostors KEPT (0): none
+  members DROPPED (0): none
+
+=== qwen3:8b errors ===
+  impostors KEPT (2): artificial_intelligence: ai sales specialist; game_development: game warden
+  members DROPPED (0): none

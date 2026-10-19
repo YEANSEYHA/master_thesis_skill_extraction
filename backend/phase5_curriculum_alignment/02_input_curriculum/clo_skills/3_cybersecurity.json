@@ -1,0 +1,38 @@
+[
+  { "skill": "Cybercrime Analysis", "source": "weekly_content" },
+  { "skill": "Cybersecurity Fundamentals", "source": "weekly_content" },
+  {
+    "skill": "Cyberattack Stages (Attack Lifecycle)",
+    "source": "weekly_content"
+  },
+  {
+    "skill": "Cyber Threats and Vulnerabilities Analysis",
+    "source": "description"
+  },
+  { "skill": "Secure Coding Practices", "source": "weekly_content" },
+  { "skill": "Input Validation", "source": "weekly_content" },
+  { "skill": "Secure Data Storage", "source": "weekly_content" },
+  { "skill": "Access Control", "source": "weekly_content" },
+  { "skill": "Code Vulnerability Analysis", "source": "weekly_content" },
+  { "skill": "SQL Injection Prevention", "source": "weekly_content" },
+  {
+    "skill": "Cross-Site Scripting (XSS) Prevention",
+    "source": "weekly_content"
+  },
+  { "skill": "Attack-Resistant Software Development", "source": "clo" },
+  { "skill": "Secure Web Application Development", "source": "weekly_content" },
+  {
+    "skill": "Network Security Controls Implementation",
+    "source": "weekly_content"
+  },
+  { "skill": "Digital Forensics", "source": "weekly_content" },
+  { "skill": "Digital Forensics Tools", "source": "weekly_content" },
+  {
+    "skill": "Digital Evidence Identification and Analysis",
+    "source": "weekly_content"
+  },
+  { "skill": "Incident Response", "source": "weekly_content" },
+  { "skill": "Secure Software Development Ethics", "source": "weekly_content" },
+  { "skill": "OWASP Top 10 Web Application Security Risks", "source": "tools" },
+  { "skill": "NIST Cybersecurity Framework", "source": "tools" }
+]

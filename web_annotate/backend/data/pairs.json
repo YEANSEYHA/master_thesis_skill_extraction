@@ -1,0 +1,2517 @@
+{
+ "sheet_hash": "78dfd3fe9b637a36fa0f8afe6f1d2ef567aca85e6c6f9a30fe90d15af579a169",
+ "locked_run": "20260727T105055Z-475eb3",
+ "config_hash": "475eb38e6ff0a1eaabd0f377e56dcf53ca500fe19beb84aca06a771af0a90eb6",
+ "input_hash": "a7c8b24affb0dc5a8732361597373687762e108a9966d11150a59bc76cab04d9",
+ "seed": 20260728,
+ "scoring": "0-10: 0 = not taught here; 5 = related/foundation, not this skill itself; 10 = fully teaches this exact skill. Optional mapping: 0-3 No, 4-6 Partly, 7-10 Yes.",
+ "counts": {
+  "census": 203,
+  "boundary": 17,
+  "controls": 30,
+  "total": 250,
+  "anchor_block": 30
+ },
+ "pairs": [
+  {
+   "row": 1,
+   "skill": "security monitoring",
+   "jobs": 19,
+   "course": "Soft Skills",
+   "clo": "Business Model Canvas",
+   "cohort": "Y3",
+   "anchor": true,
+   "glossary": "watching logs/alerts (SIEM) to detect attacks in progress"
+  },
+  {
+   "row": 2,
+   "skill": "firewall configuration",
+   "jobs": 23,
+   "course": "Information System Analysis and Design",
+   "clo": "Integrity Constraints",
+   "cohort": "Y3",
+   "anchor": true,
+   "glossary": "setting up network firewalls and their traffic rules"
+  },
+  {
+   "row": 3,
+   "skill": "postgresql database",
+   "jobs": 27,
+   "course": "Networks II",
+   "clo": "Link Aggregation (LAG)",
+   "cohort": "Y4",
+   "anchor": true,
+   "glossary": "PostgreSQL \u2014 an open-source relational database system"
+  },
+  {
+   "row": 4,
+   "skill": "data analysis",
+   "jobs": 18,
+   "course": "Introduction to Mobile Application Development",
+   "clo": "Mobile Operating Systems Fundamentals",
+   "cohort": "Y4",
+   "anchor": true,
+   "glossary": null
+  },
+  {
+   "row": 5,
+   "skill": "data analysis",
+   "jobs": 18,
+   "course": "Information System Analysis and Design",
+   "clo": "Data Models",
+   "cohort": "Y3",
+   "anchor": true,
+   "glossary": null
+  },
+  {
+   "row": 6,
+   "skill": "it infrastructure management",
+   "jobs": 18,
+   "course": "Network Security",
+   "clo": "Security Technology Deployment",
+   "cohort": "Y5",
+   "anchor": true,
+   "glossary": "operating an organisation's servers, networks and core IT services"
+  },
+  {
+   "row": 7,
+   "skill": "software development",
+   "jobs": 18,
+   "course": "Introduction to Mobile Application Development",
+   "clo": "Hybrid App Development",
+   "cohort": "Y4",
+   "anchor": true,
+   "glossary": null
+  },
+  {
+   "row": 8,
+   "skill": "docker containerization",
+   "jobs": 24,
+   "course": "Advanced Database and Database Management Systems",
+   "clo": "Database Partitioning",
+   "cohort": "Y4",
+   "anchor": true,
+   "glossary": "packaging applications into portable Docker containers"
+  },
+  {
+   "row": 9,
+   "skill": "postgresql database",
+   "jobs": 27,
+   "course": "Data Mining",
+   "clo": "Database Queries",
+   "cohort": "Y5",
+   "anchor": true,
+   "glossary": "PostgreSQL \u2014 an open-source relational database system"
+  },
+  {
+   "row": 10,
+   "skill": "system integration",
+   "jobs": 18,
+   "course": "Network Design",
+   "clo": "System Reliability Engineering",
+   "cohort": "Y4",
+   "anchor": true,
+   "glossary": "making separate software systems work together as one"
+  },
+  {
+   "row": 11,
+   "skill": "data analysis",
+   "jobs": 18,
+   "course": "Combinational and Sequential Logics",
+   "clo": "Boolean Algebra",
+   "cohort": "Y3",
+   "anchor": true,
+   "glossary": null
+  },
+  {
+   "row": 12,
+   "skill": "network administration",
+   "jobs": 16,
+   "course": "Soft Skills",
+   "clo": "Business Model Canvas",
+   "cohort": "Y3",
+   "anchor": true,
+   "glossary": null
+  },
+  {
+   "row": 13,
+   "skill": "technical support",
+   "jobs": 27,
+   "course": "Network Design",
+   "clo": "Network Maintenance and Troubleshooting",
+   "cohort": "Y4",
+   "anchor": true,
+   "glossary": null
+  },
+  {
+   "row": 14,
+   "skill": "performance tuning",
+   "jobs": 17,
+   "course": "IT Project Management",
+   "clo": "Resource Estimation",
+   "cohort": "Y5",
+   "anchor": true,
+   "glossary": "measuring and improving the speed of systems, databases or code"
+  },
+  {
+   "row": 15,
+   "skill": "restful api development",
+   "jobs": 28,
+   "course": "Introduction to Mobile Application Development",
+   "clo": "Hybrid App Development",
+   "cohort": "Y4",
+   "anchor": true,
+   "glossary": "building web APIs that follow the REST style (HTTP endpoints returning JSON)"
+  },
+  {
+   "row": 16,
+   "skill": "ci/cd pipelines",
+   "jobs": 26,
+   "course": "Introduction to Artificial Intelligence",
+   "clo": "Machine Learning Pipeline",
+   "cohort": "Y5",
+   "anchor": true,
+   "glossary": "automated build-test-deploy chains (e.g. GitHub Actions, Jenkins) that ship code continuously"
+  },
+  {
+   "row": 17,
+   "skill": "security monitoring",
+   "jobs": 19,
+   "course": "Networks II",
+   "clo": "Wi-Fi Security Protocols",
+   "cohort": "Y4",
+   "anchor": true,
+   "glossary": "watching logs/alerts (SIEM) to detect attacks in progress"
+  },
+  {
+   "row": 18,
+   "skill": "mysql database",
+   "jobs": 30,
+   "course": "Information System Analysis and Design",
+   "clo": "Database Management Systems (DBMS)",
+   "cohort": "Y3",
+   "anchor": true,
+   "glossary": "MySQL \u2014 an open-source relational database system"
+  },
+  {
+   "row": 19,
+   "skill": "aws cloud platforms",
+   "jobs": 19,
+   "course": "Information System Analysis and Design",
+   "clo": "Database Management Systems (DBMS)",
+   "cohort": "Y3",
+   "anchor": true,
+   "glossary": "Amazon Web Services \u2014 cloud servers, storage and managed services"
+  },
+  {
+   "row": 20,
+   "skill": "git version control",
+   "jobs": 24,
+   "course": "Data Mining",
+   "clo": "Model Evaluation",
+   "cohort": "Y5",
+   "anchor": true,
+   "glossary": "tracking and merging source-code changes with Git"
+  },
+  {
+   "row": 21,
+   "skill": "software development",
+   "jobs": 18,
+   "course": "Cloud Computing",
+   "clo": "Software as a Service (SaaS)",
+   "cohort": "Y5",
+   "anchor": true,
+   "glossary": null
+  },
+  {
+   "row": 22,
+   "skill": "incident response",
+   "jobs": 19,
+   "course": "Combinational and Sequential Logics",
+   "clo": "Counters",
+   "cohort": "Y3",
+   "anchor": true,
+   "glossary": "the organised process of detecting, containing and recovering from a security incident"
+  },
+  {
+   "row": 23,
+   "skill": "firewall configuration",
+   "jobs": 23,
+   "course": "Internet Programming II",
+   "clo": "Web Server Configuration",
+   "cohort": "Y4",
+   "anchor": true,
+   "glossary": "setting up network firewalls and their traffic rules"
+  },
+  {
+   "row": 24,
+   "skill": "technical documentation",
+   "jobs": 49,
+   "course": "Information Security",
+   "clo": "Security Standards and Policies",
+   "cohort": "Y5",
+   "anchor": true,
+   "glossary": "writing manuals, runbooks and design documents for technical systems"
+  },
+  {
+   "row": 25,
+   "skill": "incident response",
+   "jobs": 19,
+   "course": "Object Oriented Programming",
+   "clo": "Exception Handling",
+   "cohort": "Y3",
+   "anchor": true,
+   "glossary": "the organised process of detecting, containing and recovering from a security incident"
+  },
+  {
+   "row": 26,
+   "skill": "security compliance",
+   "jobs": 23,
+   "course": "Cloud Computing",
+   "clo": "Cloud Computing Security",
+   "cohort": "Y5",
+   "anchor": true,
+   "glossary": "meeting security standards/policies (ISO 27001, PCI-DSS) and passing audits"
+  },
+  {
+   "row": 27,
+   "skill": "database management",
+   "jobs": 42,
+   "course": "Image Processing",
+   "clo": "Pattern Recognition and Classification",
+   "cohort": "Y5",
+   "anchor": true,
+   "glossary": null
+  },
+  {
+   "row": 28,
+   "skill": "system maintenance",
+   "jobs": 34,
+   "course": "Information Security",
+   "clo": "Security Solutions for System Support and Operations",
+   "cohort": "Y5",
+   "anchor": true,
+   "glossary": null
+  },
+  {
+   "row": 29,
+   "skill": "server management",
+   "jobs": 21,
+   "course": "IT Project Management",
+   "clo": "Project Issue Management",
+   "cohort": "Y5",
+   "anchor": true,
+   "glossary": null
+  },
+  {
+   "row": 30,
+   "skill": "git version control",
+   "jobs": 24,
+   "course": "Soft Skills",
+   "clo": "Business Model Canvas",
+   "cohort": "Y3",
+   "anchor": true,
+   "glossary": "tracking and merging source-code changes with Git"
+  },
+  {
+   "row": 31,
+   "skill": "technical documentation",
+   "jobs": 49,
+   "course": "IT Project Management",
+   "clo": "Project Status Reporting",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "writing manuals, runbooks and design documents for technical systems"
+  },
+  {
+   "row": 32,
+   "skill": "data analysis",
+   "jobs": 18,
+   "course": "Research Methodology",
+   "clo": "Data Analysis",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 33,
+   "skill": "network troubleshooting",
+   "jobs": 35,
+   "course": "Network Security",
+   "clo": "Network Devices",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 34,
+   "skill": "git version control",
+   "jobs": 24,
+   "course": "Advanced Database and Database Management Systems",
+   "clo": "Transaction Control (Commit, Rollback, Locking)",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "tracking and merging source-code changes with Git"
+  },
+  {
+   "row": 35,
+   "skill": "security monitoring",
+   "jobs": 19,
+   "course": "Network Design",
+   "clo": "Network Monitoring",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "watching logs/alerts (SIEM) to detect attacks in progress"
+  },
+  {
+   "row": 36,
+   "skill": "mysql database",
+   "jobs": 30,
+   "course": "Advanced Database and Database Management Systems",
+   "clo": "Database Indexing",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "MySQL \u2014 an open-source relational database system"
+  },
+  {
+   "row": 37,
+   "skill": "technical documentation",
+   "jobs": 49,
+   "course": "Network Security",
+   "clo": "Network Protocols and Standards",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "writing manuals, runbooks and design documents for technical systems"
+  },
+  {
+   "row": 38,
+   "skill": "security monitoring",
+   "jobs": 19,
+   "course": "Advanced Database and Database Management Systems",
+   "clo": "Database Security Policy Design",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "watching logs/alerts (SIEM) to detect attacks in progress"
+  },
+  {
+   "row": 39,
+   "skill": "performance tuning",
+   "jobs": 17,
+   "course": "Cloud Computing",
+   "clo": "Cloud Workload Optimization",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "measuring and improving the speed of systems, databases or code"
+  },
+  {
+   "row": 40,
+   "skill": "server management",
+   "jobs": 21,
+   "course": "Network Design",
+   "clo": "Network Management",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 41,
+   "skill": "system integration",
+   "jobs": 18,
+   "course": "Introduction to Computer Systems and Networks",
+   "clo": "Network Architectures",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": "making separate software systems work together as one"
+  },
+  {
+   "row": 42,
+   "skill": "aws cloud platforms",
+   "jobs": 19,
+   "course": "Cloud Computing",
+   "clo": "AWS",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "Amazon Web Services \u2014 cloud servers, storage and managed services"
+  },
+  {
+   "row": 43,
+   "skill": "it infrastructure management",
+   "jobs": 18,
+   "course": "Object Oriented Programming",
+   "clo": "Software Application Maintenance",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": "operating an organisation's servers, networks and core IT services"
+  },
+  {
+   "row": 44,
+   "skill": "network troubleshooting",
+   "jobs": 35,
+   "course": "IT Project Management",
+   "clo": "Project Issue Management",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 45,
+   "skill": "java programming",
+   "jobs": 41,
+   "course": "Image Processing",
+   "clo": "Python",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 46,
+   "skill": "database management",
+   "jobs": 42,
+   "course": "Systems and Networks Administration",
+   "clo": "User Account Management",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 47,
+   "skill": "security compliance",
+   "jobs": 23,
+   "course": "Network Security",
+   "clo": "Security Technology Deployment",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "meeting security standards/policies (ISO 27001, PCI-DSS) and passing audits"
+  },
+  {
+   "row": 48,
+   "skill": "it infrastructure management",
+   "jobs": 18,
+   "course": "Software Development and IT Operations DevOps",
+   "clo": "Infrastructure Provisioning and Management with IaC",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "operating an organisation's servers, networks and core IT services"
+  },
+  {
+   "row": 49,
+   "skill": "restful api development",
+   "jobs": 28,
+   "course": "Internet Programming II",
+   "clo": "Application Programming Interfaces (APIs)",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "building web APIs that follow the REST style (HTTP endpoints returning JSON)"
+  },
+  {
+   "row": 50,
+   "skill": "database management",
+   "jobs": 42,
+   "course": "Advanced Database and Database Management Systems",
+   "clo": "Database Transaction Management",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 51,
+   "skill": "it infrastructure management",
+   "jobs": 18,
+   "course": "Network Design",
+   "clo": "Network Management",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "operating an organisation's servers, networks and core IT services"
+  },
+  {
+   "row": 52,
+   "skill": "system integration",
+   "jobs": 18,
+   "course": "Cloud Computing",
+   "clo": "Virtualization",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "making separate software systems work together as one"
+  },
+  {
+   "row": 53,
+   "skill": "data analysis",
+   "jobs": 18,
+   "course": "Advanced Database and Database Management Systems",
+   "clo": "Data Warehousing",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 54,
+   "skill": "security compliance",
+   "jobs": 23,
+   "course": "Introduction to Mobile Application Development",
+   "clo": "Mobile App Security",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "meeting security standards/policies (ISO 27001, PCI-DSS) and passing audits"
+  },
+  {
+   "row": 55,
+   "skill": "network troubleshooting",
+   "jobs": 35,
+   "course": "Soft Skills",
+   "clo": "Pitching",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 56,
+   "skill": "performance tuning",
+   "jobs": 17,
+   "course": "Data Mining",
+   "clo": "Task-Relevant Data Selection",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "measuring and improving the speed of systems, databases or code"
+  },
+  {
+   "row": 57,
+   "skill": "java programming",
+   "jobs": 41,
+   "course": "Internet Programming II",
+   "clo": "Application Programming Interfaces (APIs)",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 58,
+   "skill": "disaster recovery planning",
+   "jobs": 16,
+   "course": "Network Security",
+   "clo": "Disaster Recovery Planning",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "preparing backup systems and procedures so IT services survive a major failure"
+  },
+  {
+   "row": 59,
+   "skill": "postgresql database",
+   "jobs": 27,
+   "course": "Advanced Database and Database Management Systems",
+   "clo": "Database Partitioning",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "PostgreSQL \u2014 an open-source relational database system"
+  },
+  {
+   "row": 60,
+   "skill": "security monitoring",
+   "jobs": 19,
+   "course": "IT Project Management",
+   "clo": "Project Progress Monitoring",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "watching logs/alerts (SIEM) to detect attacks in progress"
+  },
+  {
+   "row": 61,
+   "skill": "software development",
+   "jobs": 18,
+   "course": "Research Methodology",
+   "clo": "Hypothesis Development",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 62,
+   "skill": "ci/cd pipelines",
+   "jobs": 26,
+   "course": "Distributed Systems",
+   "clo": "Distributed System Processes",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "automated build-test-deploy chains (e.g. GitHub Actions, Jenkins) that ship code continuously"
+  },
+  {
+   "row": 63,
+   "skill": "security monitoring",
+   "jobs": 19,
+   "course": "Systems and Networks Administration",
+   "clo": "Network Monitoring Tools",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "watching logs/alerts (SIEM) to detect attacks in progress"
+  },
+  {
+   "row": 64,
+   "skill": "project management",
+   "jobs": 37,
+   "course": "Network Design",
+   "clo": "Network Management",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 65,
+   "skill": "firewall configuration",
+   "jobs": 23,
+   "course": "Network Security",
+   "clo": "Firewall Technology",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "setting up network firewalls and their traffic rules"
+  },
+  {
+   "row": 66,
+   "skill": "network administration",
+   "jobs": 16,
+   "course": "Information Security",
+   "clo": "Access Control",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 67,
+   "skill": "aws cloud platforms",
+   "jobs": 19,
+   "course": "Data Mining",
+   "clo": "Apache Hadoop",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "Amazon Web Services \u2014 cloud servers, storage and managed services"
+  },
+  {
+   "row": 68,
+   "skill": "system integration",
+   "jobs": 18,
+   "course": "Distributed Systems",
+   "clo": "Distributed System Processes",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "making separate software systems work together as one"
+  },
+  {
+   "row": 69,
+   "skill": "microsoft office proficiency",
+   "jobs": 18,
+   "course": "Soft Skills",
+   "clo": "Business Model Canvas",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": "practical use of Word, Excel and PowerPoint"
+  },
+  {
+   "row": 70,
+   "skill": "api integration",
+   "jobs": 18,
+   "course": "Introduction to Mobile Application Development",
+   "clo": "Hybrid App Architecture",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "connecting software to other systems through their APIs (payment, mapping, messaging services)"
+  },
+  {
+   "row": 71,
+   "skill": "firewall configuration",
+   "jobs": 23,
+   "course": "Soft Skills",
+   "clo": "Business Model Canvas",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": "setting up network firewalls and their traffic rules"
+  },
+  {
+   "row": 72,
+   "skill": "code reviews",
+   "jobs": 18,
+   "course": "Software Development and IT Operations DevOps",
+   "clo": "Infrastructure as Code (IaC)",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "systematically reading a colleague's code changes before they are merged"
+  },
+  {
+   "row": 73,
+   "skill": "security monitoring",
+   "jobs": 19,
+   "course": "Data Mining",
+   "clo": "Sensor Data Collection",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "watching logs/alerts (SIEM) to detect attacks in progress"
+  },
+  {
+   "row": 74,
+   "skill": "technical documentation",
+   "jobs": 49,
+   "course": "Software Development and IT Operations DevOps",
+   "clo": "Monitoring and Logging Strategies",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "writing manuals, runbooks and design documents for technical systems"
+  },
+  {
+   "row": 75,
+   "skill": "server management",
+   "jobs": 21,
+   "course": "Software Development and IT Operations DevOps",
+   "clo": "Load Balancing",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 76,
+   "skill": "java programming",
+   "jobs": 41,
+   "course": "Algorithm and Programming",
+   "clo": "C++ Programming",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 77,
+   "skill": "software development",
+   "jobs": 18,
+   "course": "Algorithm and Programming",
+   "clo": "C++ Programming",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 78,
+   "skill": "performance tuning",
+   "jobs": 17,
+   "course": "Internet Programming II",
+   "clo": "Client-Server Architecture",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "measuring and improving the speed of systems, databases or code"
+  },
+  {
+   "row": 79,
+   "skill": "security compliance",
+   "jobs": 23,
+   "course": "Network Design",
+   "clo": "Network Security Design",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "meeting security standards/policies (ISO 27001, PCI-DSS) and passing audits"
+  },
+  {
+   "row": 80,
+   "skill": "api integration",
+   "jobs": 18,
+   "course": "Distributed Systems",
+   "clo": "Distributed Application Design and Implementation",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "connecting software to other systems through their APIs (payment, mapping, messaging services)"
+  },
+  {
+   "row": 81,
+   "skill": "network troubleshooting",
+   "jobs": 35,
+   "course": "Networks II",
+   "clo": "Network Infrastructure Design",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 82,
+   "skill": "system maintenance",
+   "jobs": 34,
+   "course": "Introduction to Computer Systems and Networks",
+   "clo": "Network Troubleshooting",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 83,
+   "skill": "code reviews",
+   "jobs": 18,
+   "course": "Discrete Mathematics",
+   "clo": "Algorithm Analysis",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": "systematically reading a colleague's code changes before they are merged"
+  },
+  {
+   "row": 84,
+   "skill": "ci/cd pipelines",
+   "jobs": 26,
+   "course": "Cloud Computing",
+   "clo": "DevOps Methodology",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "automated build-test-deploy chains (e.g. GitHub Actions, Jenkins) that ship code continuously"
+  },
+  {
+   "row": 85,
+   "skill": "api integration",
+   "jobs": 18,
+   "course": "Object Oriented Programming",
+   "clo": "Interfaces",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": "connecting software to other systems through their APIs (payment, mapping, messaging services)"
+  },
+  {
+   "row": 86,
+   "skill": "performance tuning",
+   "jobs": 17,
+   "course": "Systems and Networks Administration",
+   "clo": "Network Performance Monitoring",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "measuring and improving the speed of systems, databases or code"
+  },
+  {
+   "row": 87,
+   "skill": "project management",
+   "jobs": 37,
+   "course": "IT Project Management",
+   "clo": "Project Team Management",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 88,
+   "skill": "network troubleshooting",
+   "jobs": 35,
+   "course": "Network Design",
+   "clo": "Network Maintenance and Troubleshooting",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 89,
+   "skill": "server management",
+   "jobs": 21,
+   "course": "Data Mining",
+   "clo": "Database Management Systems (DBMS)",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 90,
+   "skill": "technical documentation",
+   "jobs": 49,
+   "course": "Natural Language Processing",
+   "clo": "Text Processing",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "writing manuals, runbooks and design documents for technical systems"
+  },
+  {
+   "row": 91,
+   "skill": "software development",
+   "jobs": 18,
+   "course": "IT Project Management",
+   "clo": "Agile Project Management",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 92,
+   "skill": "network administration",
+   "jobs": 16,
+   "course": "Internet Programming II",
+   "clo": "Client-Server Architecture",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 93,
+   "skill": "data analysis",
+   "jobs": 18,
+   "course": "Natural Language Processing",
+   "clo": "Text Feature Extraction",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 94,
+   "skill": "software development",
+   "jobs": 18,
+   "course": "Object Oriented Programming",
+   "clo": "Software Requirements Analysis",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 95,
+   "skill": "technical documentation",
+   "jobs": 49,
+   "course": "Information System Analysis and Design",
+   "clo": "Data Integrity and Data Quality Documentation",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": "writing manuals, runbooks and design documents for technical systems"
+  },
+  {
+   "row": 96,
+   "skill": "security monitoring",
+   "jobs": 19,
+   "course": "Discrete Mathematics",
+   "clo": "Cryptography",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": "watching logs/alerts (SIEM) to detect attacks in progress"
+  },
+  {
+   "row": 97,
+   "skill": "api integration",
+   "jobs": 18,
+   "course": "Software Development and IT Operations DevOps",
+   "clo": "Continuous Integration Tools Setup and Configuration",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "connecting software to other systems through their APIs (payment, mapping, messaging services)"
+  },
+  {
+   "row": 98,
+   "skill": "security compliance",
+   "jobs": 23,
+   "course": "Systems and Networks Administration",
+   "clo": "Network Security Measures",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "meeting security standards/policies (ISO 27001, PCI-DSS) and passing audits"
+  },
+  {
+   "row": 99,
+   "skill": "security monitoring",
+   "jobs": 19,
+   "course": "Introduction to Mobile Application Development",
+   "clo": "Mobile App Security",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "watching logs/alerts (SIEM) to detect attacks in progress"
+  },
+  {
+   "row": 100,
+   "skill": "network administration",
+   "jobs": 16,
+   "course": "Systems and Networks Administration",
+   "clo": "Network Administrator Responsibilities",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 101,
+   "skill": "system integration",
+   "jobs": 18,
+   "course": "IT Project Management",
+   "clo": "Project Issue Management",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "making separate software systems work together as one"
+  },
+  {
+   "row": 102,
+   "skill": "database management",
+   "jobs": 42,
+   "course": "Discrete Mathematics",
+   "clo": "Relations and Relational Database Modeling",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 103,
+   "skill": "database management",
+   "jobs": 42,
+   "course": "Data Mining",
+   "clo": "Database Management Systems (DBMS)",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 104,
+   "skill": "vmware virtualization",
+   "jobs": 18,
+   "course": "Distributed Systems",
+   "clo": "Distributed System Processes",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "running many virtual machines on one physical server with VMware"
+  },
+  {
+   "row": 105,
+   "skill": "network administration",
+   "jobs": 16,
+   "course": "Cloud Computing",
+   "clo": "Infrastructure as a Service (IaaS)",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 106,
+   "skill": "network troubleshooting",
+   "jobs": 35,
+   "course": "Systems and Networks Administration",
+   "clo": "Network Troubleshooting",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 107,
+   "skill": "it infrastructure management",
+   "jobs": 18,
+   "course": "Distributed Systems",
+   "clo": "Distributed Systems Architectures",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "operating an organisation's servers, networks and core IT services"
+  },
+  {
+   "row": 108,
+   "skill": "performance tuning",
+   "jobs": 17,
+   "course": "Distributed Systems",
+   "clo": "Distributed System Performance Analysis",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "measuring and improving the speed of systems, databases or code"
+  },
+  {
+   "row": 109,
+   "skill": "technical documentation",
+   "jobs": 49,
+   "course": "Research Methodology",
+   "clo": "Data Collection Methods",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": "writing manuals, runbooks and design documents for technical systems"
+  },
+  {
+   "row": 110,
+   "skill": "system integration",
+   "jobs": 18,
+   "course": "Introduction to Mobile Application Development",
+   "clo": "Hybrid App Architecture",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "making separate software systems work together as one"
+  },
+  {
+   "row": 111,
+   "skill": "security monitoring",
+   "jobs": 19,
+   "course": "Internet Programming II",
+   "clo": "Laravel Security Features",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "watching logs/alerts (SIEM) to detect attacks in progress"
+  },
+  {
+   "row": 112,
+   "skill": "code reviews",
+   "jobs": 18,
+   "course": "Algorithm and Programming",
+   "clo": "C++ Programming",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": "systematically reading a colleague's code changes before they are merged"
+  },
+  {
+   "row": 113,
+   "skill": "it infrastructure management",
+   "jobs": 18,
+   "course": "Natural Language Processing",
+   "clo": "Pointwise Mutual Information (PMI)",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "operating an organisation's servers, networks and core IT services"
+  },
+  {
+   "row": 114,
+   "skill": "mysql database",
+   "jobs": 30,
+   "course": "Internet Programming II",
+   "clo": "Database Seeding",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "MySQL \u2014 an open-source relational database system"
+  },
+  {
+   "row": 115,
+   "skill": "it infrastructure management",
+   "jobs": 18,
+   "course": "IT Project Management",
+   "clo": "Project Issue Management",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "operating an organisation's servers, networks and core IT services"
+  },
+  {
+   "row": 116,
+   "skill": "database management",
+   "jobs": 42,
+   "course": "Combinational and Sequential Logics",
+   "clo": "State Tables",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 117,
+   "skill": "server management",
+   "jobs": 21,
+   "course": "Distributed Systems",
+   "clo": "Distributed System Processes",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 118,
+   "skill": "security monitoring",
+   "jobs": 19,
+   "course": "Information Security",
+   "clo": "Information Security Threat Trend Monitoring",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "watching logs/alerts (SIEM) to detect attacks in progress"
+  },
+  {
+   "row": 119,
+   "skill": "system integration",
+   "jobs": 18,
+   "course": "Advanced Database and Database Management Systems",
+   "clo": "Distributed Database Management",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "making separate software systems work together as one"
+  },
+  {
+   "row": 120,
+   "skill": "firewall configuration",
+   "jobs": 23,
+   "course": "Systems and Networks Administration",
+   "clo": "Firewall Rules",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "setting up network firewalls and their traffic rules"
+  },
+  {
+   "row": 121,
+   "skill": "system maintenance",
+   "jobs": 34,
+   "course": "Cloud Computing",
+   "clo": "Virtualization",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 122,
+   "skill": "security compliance",
+   "jobs": 23,
+   "course": "Distributed Systems",
+   "clo": "Security Models",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "meeting security standards/policies (ISO 27001, PCI-DSS) and passing audits"
+  },
+  {
+   "row": 123,
+   "skill": "system maintenance",
+   "jobs": 34,
+   "course": "Information System Analysis and Design",
+   "clo": "Information System Components",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 124,
+   "skill": "system integration",
+   "jobs": 18,
+   "course": "Software Development and IT Operations DevOps",
+   "clo": "Continuous Integration Tools Setup and Configuration",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "making separate software systems work together as one"
+  },
+  {
+   "row": 125,
+   "skill": "it infrastructure management",
+   "jobs": 18,
+   "course": "Advanced Database and Database Management Systems",
+   "clo": "Distributed Database Management",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "operating an organisation's servers, networks and core IT services"
+  },
+  {
+   "row": 126,
+   "skill": "vmware virtualization",
+   "jobs": 18,
+   "course": "Object Oriented Programming",
+   "clo": "Scalable Software Design",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": "running many virtual machines on one physical server with VMware"
+  },
+  {
+   "row": 127,
+   "skill": "postgresql database",
+   "jobs": 27,
+   "course": "Algorithm and Programming",
+   "clo": "C++ Programming",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": "PostgreSQL \u2014 an open-source relational database system"
+  },
+  {
+   "row": 128,
+   "skill": "system integration",
+   "jobs": 18,
+   "course": "Network Security",
+   "clo": "Security Technology Deployment",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "making separate software systems work together as one"
+  },
+  {
+   "row": 129,
+   "skill": "network administration",
+   "jobs": 16,
+   "course": "Software Development and IT Operations DevOps",
+   "clo": "Infrastructure Provisioning and Management with IaC",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 130,
+   "skill": "java programming",
+   "jobs": 41,
+   "course": "Discrete Mathematics",
+   "clo": "Algorithm Analysis",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 131,
+   "skill": "project management",
+   "jobs": 37,
+   "course": "Information Security",
+   "clo": "Risk Management",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 132,
+   "skill": "database management",
+   "jobs": 42,
+   "course": "Information System Analysis and Design",
+   "clo": "Database Management Systems (DBMS)",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 133,
+   "skill": "server management",
+   "jobs": 21,
+   "course": "Object Oriented Programming",
+   "clo": "Software Application Maintenance",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 134,
+   "skill": "technical documentation",
+   "jobs": 49,
+   "course": "Electronics",
+   "clo": "Truth-Table Derivation From Logic Diagrams",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": "writing manuals, runbooks and design documents for technical systems"
+  },
+  {
+   "row": 135,
+   "skill": "database management",
+   "jobs": 42,
+   "course": "Network Design",
+   "clo": "Network Management",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 136,
+   "skill": "data analysis",
+   "jobs": 18,
+   "course": "Data Mining",
+   "clo": "Correlation Analysis",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 137,
+   "skill": "vmware virtualization",
+   "jobs": 18,
+   "course": "Software Development and IT Operations DevOps",
+   "clo": "Infrastructure Provisioning and Management with IaC",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "running many virtual machines on one physical server with VMware"
+  },
+  {
+   "row": 138,
+   "skill": "system integration",
+   "jobs": 18,
+   "course": "Information Security",
+   "clo": "Security Solutions for System Support and Operations",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "making separate software systems work together as one"
+  },
+  {
+   "row": 139,
+   "skill": "data analysis",
+   "jobs": 18,
+   "course": "Introduction to Artificial Intelligence",
+   "clo": "Principal Component Analysis (PCA)",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 140,
+   "skill": "technical support",
+   "jobs": 27,
+   "course": "Systems and Networks Administration",
+   "clo": "Network Troubleshooting",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 141,
+   "skill": "vmware virtualization",
+   "jobs": 18,
+   "course": "Network Security",
+   "clo": "Cloud Computing Security",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "running many virtual machines on one physical server with VMware"
+  },
+  {
+   "row": 142,
+   "skill": "mysql database",
+   "jobs": 30,
+   "course": "IT Project Management",
+   "clo": "Resource Estimation",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "MySQL \u2014 an open-source relational database system"
+  },
+  {
+   "row": 143,
+   "skill": "security monitoring",
+   "jobs": 19,
+   "course": "Information System Analysis and Design",
+   "clo": "Data Anomaly Resolution",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": "watching logs/alerts (SIEM) to detect attacks in progress"
+  },
+  {
+   "row": 144,
+   "skill": "software development",
+   "jobs": 18,
+   "course": "Distributed Systems",
+   "clo": "Distributed System Processes",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 145,
+   "skill": "java programming",
+   "jobs": 41,
+   "course": "Data Mining",
+   "clo": "Database Queries",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 146,
+   "skill": "project management",
+   "jobs": 37,
+   "course": "Network Security",
+   "clo": "Risk Management and Assessment",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 147,
+   "skill": "system maintenance",
+   "jobs": 34,
+   "course": "Systems and Networks Administration",
+   "clo": "Network Troubleshooting",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 148,
+   "skill": "server management",
+   "jobs": 21,
+   "course": "Network Security",
+   "clo": "Access Control and Permissions",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 149,
+   "skill": "java programming",
+   "jobs": 41,
+   "course": "Object Oriented Programming",
+   "clo": "Java",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 150,
+   "skill": "database management",
+   "jobs": 42,
+   "course": "Introduction to Artificial Intelligence",
+   "clo": "Data Preprocessing",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 151,
+   "skill": "firewall configuration",
+   "jobs": 23,
+   "course": "Introduction to Computer Systems and Networks",
+   "clo": "Firewall Configuration",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": "setting up network firewalls and their traffic rules"
+  },
+  {
+   "row": 152,
+   "skill": "network administration",
+   "jobs": 16,
+   "course": "Network Design",
+   "clo": "Network Management",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 153,
+   "skill": "it infrastructure management",
+   "jobs": 18,
+   "course": "Internet Programming II",
+   "clo": "Production Deployment",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "operating an organisation's servers, networks and core IT services"
+  },
+  {
+   "row": 154,
+   "skill": "network troubleshooting",
+   "jobs": 35,
+   "course": "Distributed Systems",
+   "clo": "Networking Principles for Distributed Systems",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 155,
+   "skill": "it infrastructure management",
+   "jobs": 18,
+   "course": "Information System Analysis and Design",
+   "clo": "Information System Components",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": "operating an organisation's servers, networks and core IT services"
+  },
+  {
+   "row": 156,
+   "skill": "data analysis",
+   "jobs": 18,
+   "course": "Discrete Mathematics",
+   "clo": "Algorithm Analysis",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 157,
+   "skill": "it infrastructure management",
+   "jobs": 18,
+   "course": "Systems and Networks Administration",
+   "clo": "Network Performance Monitoring",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "operating an organisation's servers, networks and core IT services"
+  },
+  {
+   "row": 158,
+   "skill": "network troubleshooting",
+   "jobs": 35,
+   "course": "Software Development and IT Operations DevOps",
+   "clo": "Infrastructure Monitoring",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 159,
+   "skill": "incident response",
+   "jobs": 19,
+   "course": "Software Development and IT Operations DevOps",
+   "clo": "Alerting",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "the organised process of detecting, containing and recovering from a security incident"
+  },
+  {
+   "row": 160,
+   "skill": "system integration",
+   "jobs": 18,
+   "course": "Data Mining",
+   "clo": "Database Management Systems (DBMS)",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "making separate software systems work together as one"
+  },
+  {
+   "row": 161,
+   "skill": "security compliance",
+   "jobs": 23,
+   "course": "Information Security",
+   "clo": "Security Compliance",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "meeting security standards/policies (ISO 27001, PCI-DSS) and passing audits"
+  },
+  {
+   "row": 162,
+   "skill": "data analysis",
+   "jobs": 18,
+   "course": "Electronics",
+   "clo": "Truth Table Analysis",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 163,
+   "skill": "system maintenance",
+   "jobs": 34,
+   "course": "IT Project Management",
+   "clo": "Project Issue Management",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 164,
+   "skill": "project management",
+   "jobs": 37,
+   "course": "Systems and Networks Administration",
+   "clo": "Group Policy Management",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 165,
+   "skill": "system integration",
+   "jobs": 18,
+   "course": "Systems and Networks Administration",
+   "clo": "Virtualization With VMware Workstation",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "making separate software systems work together as one"
+  },
+  {
+   "row": 166,
+   "skill": "code reviews",
+   "jobs": 18,
+   "course": "Electronics",
+   "clo": "Binary Code Encoding and Decoding",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": "systematically reading a colleague's code changes before they are merged"
+  },
+  {
+   "row": 167,
+   "skill": "vmware virtualization",
+   "jobs": 18,
+   "course": "Introduction to Computer Systems and Networks",
+   "clo": "Virtual Network Design",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": "running many virtual machines on one physical server with VMware"
+  },
+  {
+   "row": 168,
+   "skill": "server management",
+   "jobs": 21,
+   "course": "Internet Programming II",
+   "clo": "Web Server Configuration",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 169,
+   "skill": "technical documentation",
+   "jobs": 49,
+   "course": "Introduction to Artificial Intelligence",
+   "clo": "Feature Encoding",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "writing manuals, runbooks and design documents for technical systems"
+  },
+  {
+   "row": 170,
+   "skill": "data analysis",
+   "jobs": 18,
+   "course": "Image Processing",
+   "clo": "Pattern Recognition and Classification",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 171,
+   "skill": "server management",
+   "jobs": 21,
+   "course": "Systems and Networks Administration",
+   "clo": "Ubuntu Server",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 172,
+   "skill": "incident response",
+   "jobs": 19,
+   "course": "Cloud Computing",
+   "clo": "Infrastructure as a Service (IaaS)",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "the organised process of detecting, containing and recovering from a security incident"
+  },
+  {
+   "row": 173,
+   "skill": "technical documentation",
+   "jobs": 49,
+   "course": "Combinational and Sequential Logics",
+   "clo": "State Diagrams",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": "writing manuals, runbooks and design documents for technical systems"
+  },
+  {
+   "row": 174,
+   "skill": "network administration",
+   "jobs": 16,
+   "course": "Distributed Systems",
+   "clo": "Networking Principles for Distributed Systems",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 175,
+   "skill": "security monitoring",
+   "jobs": 19,
+   "course": "Introduction to Computer Systems and Networks",
+   "clo": "Packet Tracer",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": "watching logs/alerts (SIEM) to detect attacks in progress"
+  },
+  {
+   "row": 176,
+   "skill": "incident response",
+   "jobs": 19,
+   "course": "Network Security",
+   "clo": "Disaster Recovery Planning",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "the organised process of detecting, containing and recovering from a security incident"
+  },
+  {
+   "row": 177,
+   "skill": "system integration",
+   "jobs": 18,
+   "course": "Information System Analysis and Design",
+   "clo": "Information System Components",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": "making separate software systems work together as one"
+  },
+  {
+   "row": 178,
+   "skill": "server management",
+   "jobs": 21,
+   "course": "Information System Analysis and Design",
+   "clo": "Database Management Systems (DBMS)",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 179,
+   "skill": "security compliance",
+   "jobs": 23,
+   "course": "Networks II",
+   "clo": "Wi-Fi Security Protocols",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "meeting security standards/policies (ISO 27001, PCI-DSS) and passing audits"
+  },
+  {
+   "row": 180,
+   "skill": "performance tuning",
+   "jobs": 17,
+   "course": "Introduction to Artificial Intelligence",
+   "clo": "Performance Evaluation and Overfitting/Underfitting Diagnosis",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "measuring and improving the speed of systems, databases or code"
+  },
+  {
+   "row": 181,
+   "skill": "security compliance",
+   "jobs": 23,
+   "course": "Information System Analysis and Design",
+   "clo": "Integrity Constraints",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": "meeting security standards/policies (ISO 27001, PCI-DSS) and passing audits"
+  },
+  {
+   "row": 182,
+   "skill": "docker containerization",
+   "jobs": 24,
+   "course": "Software Development and IT Operations DevOps",
+   "clo": "Docker",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "packaging applications into portable Docker containers"
+  },
+  {
+   "row": 183,
+   "skill": "security monitoring",
+   "jobs": 19,
+   "course": "Software Development and IT Operations DevOps",
+   "clo": "Infrastructure Monitoring",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "watching logs/alerts (SIEM) to detect attacks in progress"
+  },
+  {
+   "row": 184,
+   "skill": "vmware virtualization",
+   "jobs": 18,
+   "course": "Cloud Computing",
+   "clo": "Virtualization",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "running many virtual machines on one physical server with VMware"
+  },
+  {
+   "row": 185,
+   "skill": "performance tuning",
+   "jobs": 17,
+   "course": "Network Design",
+   "clo": "Network Optimization",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "measuring and improving the speed of systems, databases or code"
+  },
+  {
+   "row": 186,
+   "skill": "server management",
+   "jobs": 21,
+   "course": "Introduction to Computer Systems and Networks",
+   "clo": "Network Device Management",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 187,
+   "skill": "performance tuning",
+   "jobs": 17,
+   "course": "Combinational and Sequential Logics",
+   "clo": "Asynchronous Counters",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": "measuring and improving the speed of systems, databases or code"
+  },
+  {
+   "row": 188,
+   "skill": "system maintenance",
+   "jobs": 34,
+   "course": "Object Oriented Programming",
+   "clo": "Software Application Maintenance",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 189,
+   "skill": "performance tuning",
+   "jobs": 17,
+   "course": "Advanced Database and Database Management Systems",
+   "clo": "Concurrency Control",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "measuring and improving the speed of systems, databases or code"
+  },
+  {
+   "row": 190,
+   "skill": "code reviews",
+   "jobs": 18,
+   "course": "Research Methodology",
+   "clo": "Literature Review",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": "systematically reading a colleague's code changes before they are merged"
+  },
+  {
+   "row": 191,
+   "skill": "java programming",
+   "jobs": 41,
+   "course": "Natural Language Processing",
+   "clo": "String Comparison",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 192,
+   "skill": "aws cloud platforms",
+   "jobs": 19,
+   "course": "Distributed Systems",
+   "clo": "Distributed Systems Architectures",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "Amazon Web Services \u2014 cloud servers, storage and managed services"
+  },
+  {
+   "row": 193,
+   "skill": "performance tuning",
+   "jobs": 17,
+   "course": "Software Development and IT Operations DevOps",
+   "clo": "Application Performance Monitoring (APM)",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "measuring and improving the speed of systems, databases or code"
+  },
+  {
+   "row": 194,
+   "skill": "git version control",
+   "jobs": 24,
+   "course": "Software Development and IT Operations DevOps",
+   "clo": "Git",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "tracking and merging source-code changes with Git"
+  },
+  {
+   "row": 195,
+   "skill": "network administration",
+   "jobs": 16,
+   "course": "Introduction to Computer Systems and Networks",
+   "clo": "Network Device Management",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 196,
+   "skill": "performance tuning",
+   "jobs": 17,
+   "course": "Object Oriented Programming",
+   "clo": "Scalable Software Design",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": "measuring and improving the speed of systems, databases or code"
+  },
+  {
+   "row": 197,
+   "skill": "disaster recovery planning",
+   "jobs": 16,
+   "course": "Advanced Database and Database Management Systems",
+   "clo": "Database Recovery Techniques",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "preparing backup systems and procedures so IT services survive a major failure"
+  },
+  {
+   "row": 198,
+   "skill": "system integration",
+   "jobs": 18,
+   "course": "Object Oriented Programming",
+   "clo": "Software Application Maintenance",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": "making separate software systems work together as one"
+  },
+  {
+   "row": 199,
+   "skill": "security monitoring",
+   "jobs": 19,
+   "course": "Distributed Systems",
+   "clo": "Distributed System Security",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "watching logs/alerts (SIEM) to detect attacks in progress"
+  },
+  {
+   "row": 200,
+   "skill": "database management",
+   "jobs": 42,
+   "course": "Research Methodology",
+   "clo": "Data Cleaning",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 201,
+   "skill": "network administration",
+   "jobs": 16,
+   "course": "Networks II",
+   "clo": "Network Infrastructure Design",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 202,
+   "skill": "ci/cd pipelines",
+   "jobs": 26,
+   "course": "Software Development and IT Operations DevOps",
+   "clo": "CI/CD Pipeline Implementation",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "automated build-test-deploy chains (e.g. GitHub Actions, Jenkins) that ship code continuously"
+  },
+  {
+   "row": 203,
+   "skill": "server management",
+   "jobs": 21,
+   "course": "Information Security",
+   "clo": "Security Solution Management",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 204,
+   "skill": "network administration",
+   "jobs": 16,
+   "course": "Network Security",
+   "clo": "Network Devices",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 205,
+   "skill": "security compliance",
+   "jobs": 23,
+   "course": "Advanced Database and Database Management Systems",
+   "clo": "Database Security Policy Design",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "meeting security standards/policies (ISO 27001, PCI-DSS) and passing audits"
+  },
+  {
+   "row": 206,
+   "skill": "technical support",
+   "jobs": 27,
+   "course": "Introduction to Computer Systems and Networks",
+   "clo": "Network Troubleshooting",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 207,
+   "skill": "vmware virtualization",
+   "jobs": 18,
+   "course": "Systems and Networks Administration",
+   "clo": "Virtualization With VMware Workstation",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "running many virtual machines on one physical server with VMware"
+  },
+  {
+   "row": 208,
+   "skill": "system maintenance",
+   "jobs": 34,
+   "course": "Distributed Systems",
+   "clo": "Distributed System Processes",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 209,
+   "skill": "it infrastructure management",
+   "jobs": 18,
+   "course": "Networks II",
+   "clo": "Network Infrastructure Design",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "operating an organisation's servers, networks and core IT services"
+  },
+  {
+   "row": 210,
+   "skill": "it infrastructure management",
+   "jobs": 18,
+   "course": "Information Security",
+   "clo": "Information Security Policy Management",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "operating an organisation's servers, networks and core IT services"
+  },
+  {
+   "row": 211,
+   "skill": "system maintenance",
+   "jobs": 34,
+   "course": "Internet Programming II",
+   "clo": "Session Management",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 212,
+   "skill": "it infrastructure management",
+   "jobs": 18,
+   "course": "Introduction to Computer Systems and Networks",
+   "clo": "Network Infrastructure Design",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": "operating an organisation's servers, networks and core IT services"
+  },
+  {
+   "row": 213,
+   "skill": "aws cloud platforms",
+   "jobs": 19,
+   "course": "Systems and Networks Administration",
+   "clo": "Virtualization With VMware Workstation",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "Amazon Web Services \u2014 cloud servers, storage and managed services"
+  },
+  {
+   "row": 214,
+   "skill": "restful api development",
+   "jobs": 28,
+   "course": "Cloud Computing",
+   "clo": "Service-Oriented Architecture",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "building web APIs that follow the REST style (HTTP endpoints returning JSON)"
+  },
+  {
+   "row": 215,
+   "skill": "server management",
+   "jobs": 21,
+   "course": "Advanced Database and Database Management Systems",
+   "clo": "Distributed Database Management",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 216,
+   "skill": "server management",
+   "jobs": 21,
+   "course": "Networks II",
+   "clo": "Network Infrastructure Design",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 217,
+   "skill": "system maintenance",
+   "jobs": 34,
+   "course": "Network Design",
+   "clo": "Network Maintenance and Troubleshooting",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 218,
+   "skill": "mysql database",
+   "jobs": 30,
+   "course": "Data Mining",
+   "clo": "Database Queries",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "MySQL \u2014 an open-source relational database system"
+  },
+  {
+   "row": 219,
+   "skill": "security compliance",
+   "jobs": 23,
+   "course": "Algorithm and Programming",
+   "clo": "C++ Programming",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": "meeting security standards/policies (ISO 27001, PCI-DSS) and passing audits"
+  },
+  {
+   "row": 220,
+   "skill": "postgresql database",
+   "jobs": 27,
+   "course": "Internet Programming II",
+   "clo": "Database Migrations",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "PostgreSQL \u2014 an open-source relational database system"
+  },
+  {
+   "row": 221,
+   "skill": "aws cloud platforms",
+   "jobs": 19,
+   "course": "Network Security",
+   "clo": "Cloud Computing Security",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "Amazon Web Services \u2014 cloud servers, storage and managed services"
+  },
+  {
+   "row": 222,
+   "skill": "security monitoring",
+   "jobs": 19,
+   "course": "Cloud Computing",
+   "clo": "Cloud Computing Security",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "watching logs/alerts (SIEM) to detect attacks in progress"
+  },
+  {
+   "row": 223,
+   "skill": "it infrastructure management",
+   "jobs": 18,
+   "course": "Cloud Computing",
+   "clo": "Infrastructure as a Service (IaaS)",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "operating an organisation's servers, networks and core IT services"
+  },
+  {
+   "row": 224,
+   "skill": "data analysis",
+   "jobs": 18,
+   "course": "Distributed Systems",
+   "clo": "Distributed System Performance Analysis",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 225,
+   "skill": "server management",
+   "jobs": 21,
+   "course": "Cloud Computing",
+   "clo": "Load Balancing",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 226,
+   "skill": "technical documentation",
+   "jobs": 49,
+   "course": "Object Oriented Programming",
+   "clo": "Control Statements",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": "writing manuals, runbooks and design documents for technical systems"
+  },
+  {
+   "row": 227,
+   "skill": "network troubleshooting",
+   "jobs": 35,
+   "course": "Introduction to Computer Systems and Networks",
+   "clo": "Network Troubleshooting",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 228,
+   "skill": "data analysis",
+   "jobs": 18,
+   "course": "Object Oriented Programming",
+   "clo": "Object-Oriented Analysis and Design",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 229,
+   "skill": "disaster recovery planning",
+   "jobs": 16,
+   "course": "Systems and Networks Administration",
+   "clo": "Network Service Backup and Recovery Strategies",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "preparing backup systems and procedures so IT services survive a major failure"
+  },
+  {
+   "row": 230,
+   "skill": "firewall configuration",
+   "jobs": 23,
+   "course": "Networks II",
+   "clo": "VLAN Configuration",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "setting up network firewalls and their traffic rules"
+  },
+  {
+   "row": 231,
+   "skill": "network troubleshooting",
+   "jobs": 35,
+   "course": "Information Security",
+   "clo": "Security Solutions for System Support and Operations",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 232,
+   "skill": "security monitoring",
+   "jobs": 19,
+   "course": "Network Security",
+   "clo": "Security Technology Deployment",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "watching logs/alerts (SIEM) to detect attacks in progress"
+  },
+  {
+   "row": 233,
+   "skill": "postgresql database",
+   "jobs": 27,
+   "course": "Information System Analysis and Design",
+   "clo": "Relational Database Design",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": "PostgreSQL \u2014 an open-source relational database system"
+  },
+  {
+   "row": 234,
+   "skill": "code reviews",
+   "jobs": 18,
+   "course": "Image Processing",
+   "clo": "Huffman Coding",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "systematically reading a colleague's code changes before they are merged"
+  },
+  {
+   "row": 235,
+   "skill": "system maintenance",
+   "jobs": 34,
+   "course": "Software Development and IT Operations DevOps",
+   "clo": "Application Health Monitoring",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 236,
+   "skill": "security compliance",
+   "jobs": 23,
+   "course": "Internet Programming II",
+   "clo": "Laravel Security Features",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "meeting security standards/policies (ISO 27001, PCI-DSS) and passing audits"
+  },
+  {
+   "row": 237,
+   "skill": "disaster recovery planning",
+   "jobs": 16,
+   "course": "Network Design",
+   "clo": "System Reliability Engineering",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "preparing backup systems and procedures so IT services survive a major failure"
+  },
+  {
+   "row": 238,
+   "skill": "git version control",
+   "jobs": 24,
+   "course": "Natural Language Processing",
+   "clo": "Regular Expressions",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "tracking and merging source-code changes with Git"
+  },
+  {
+   "row": 239,
+   "skill": "api integration",
+   "jobs": 18,
+   "course": "Internet Programming II",
+   "clo": "Application Programming Interfaces (APIs)",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "connecting software to other systems through their APIs (payment, mapping, messaging services)"
+  },
+  {
+   "row": 240,
+   "skill": "project management",
+   "jobs": 37,
+   "course": "Distributed Systems",
+   "clo": "Distributed System Processes",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 241,
+   "skill": "code reviews",
+   "jobs": 18,
+   "course": "Object Oriented Programming",
+   "clo": "Scalable Software Design",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": "systematically reading a colleague's code changes before they are merged"
+  },
+  {
+   "row": 242,
+   "skill": "technical support",
+   "jobs": 27,
+   "course": "Information Security",
+   "clo": "Security Solutions for System Support and Operations",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 243,
+   "skill": "java programming",
+   "jobs": 41,
+   "course": "Introduction to Artificial Intelligence",
+   "clo": "Clustering",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 244,
+   "skill": "docker containerization",
+   "jobs": 24,
+   "course": "Cloud Computing",
+   "clo": "Containerization",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "packaging applications into portable Docker containers"
+  },
+  {
+   "row": 245,
+   "skill": "aws cloud platforms",
+   "jobs": 19,
+   "course": "Software Development and IT Operations DevOps",
+   "clo": "Infrastructure Provisioning and Management with IaC",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "Amazon Web Services \u2014 cloud servers, storage and managed services"
+  },
+  {
+   "row": 246,
+   "skill": "system integration",
+   "jobs": 18,
+   "course": "Internet Programming II",
+   "clo": "Integration Testing",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": "making separate software systems work together as one"
+  },
+  {
+   "row": 247,
+   "skill": "performance tuning",
+   "jobs": 17,
+   "course": "Discrete Mathematics",
+   "clo": "Algorithm Analysis",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": "measuring and improving the speed of systems, databases or code"
+  },
+  {
+   "row": 248,
+   "skill": "microsoft office proficiency",
+   "jobs": 18,
+   "course": "Algorithm and Programming",
+   "clo": "C++ Programming",
+   "cohort": "Y3",
+   "anchor": false,
+   "glossary": "practical use of Word, Excel and PowerPoint"
+  },
+  {
+   "row": 249,
+   "skill": "database management",
+   "jobs": 42,
+   "course": "Internet Programming II",
+   "clo": "Database Migrations",
+   "cohort": "Y4",
+   "anchor": false,
+   "glossary": null
+  },
+  {
+   "row": 250,
+   "skill": "performance tuning",
+   "jobs": 17,
+   "course": "Image Processing",
+   "clo": "Image Smoothing",
+   "cohort": "Y5",
+   "anchor": false,
+   "glossary": "measuring and improving the speed of systems, databases or code"
+  }
+ ]
+}

@@ -1,0 +1,126 @@
+[
+  {
+    "skill": "Network Architecture Concepts",
+    "source": "CLO"
+  },
+  {
+    "skill": "Network Administrator Responsibilities",
+    "source": "CLO"
+  },
+  {
+    "skill": "Network Protocols",
+    "source": "CLO"
+  },
+  {
+    "skill": "Network Security Measures",
+    "source": "CLO"
+  },
+  {
+    "skill": "Network Device Configuration",
+    "source": "CLO"
+  },
+  {
+    "skill": "User Account Management",
+    "source": "CLO"
+  },
+  {
+    "skill": "Permissions and Access Control",
+    "source": "CLO"
+  },
+  {
+    "skill": "Group Policy Management",
+    "source": "CLO"
+  },
+  {
+    "skill": "Directory Services",
+    "source": "CLO"
+  },
+  {
+    "skill": "Network Performance Monitoring",
+    "source": "CLO"
+  },
+  {
+    "skill": "Network Troubleshooting",
+    "source": "CLO"
+  },
+  {
+    "skill": "Network Services Deployment",
+    "source": "CLO"
+  },
+  {
+    "skill": "Data Backup and Recovery",
+    "source": "CLO"
+  },
+  {
+    "skill": "Computer Networks",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Virtualization With VMware Workstation",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Ubuntu Server",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "OSI and TCP/IP Models",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "IP Addressing and Subnetting",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "DHCP Service Configuration",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "DNS Service Configuration",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "HTTP",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "FTP",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "SMTP",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Firewall Rules",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "OpenSSH",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "VPN Setup",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Network Monitoring Tools",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Access Control and Permissions",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Auditing",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Network Issue Troubleshooting",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Network Service Backup and Recovery Strategies",
+    "source": "Lesson Topic"
+  }
+]

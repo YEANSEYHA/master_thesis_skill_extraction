@@ -1,0 +1,40 @@
+{
+ "schema_version": 1,
+ "note": "Manual relationship decisions; does not change ranking or selection.",
+ "decisions": {
+  "software development": {
+   "relationship": {
+    "kind": "foundation",
+    "target_status": "missing",
+    "addition_required": true,
+    "course": "Oop",
+    "clo": "Object-Oriented Programming (OOP)",
+    "score": 0.15,
+    "evidence_source": "manual_adjudication",
+    "reason": "OOP provides a programming foundation, but the broader software-development lifecycle is not explicitly evidenced."
+   },
+   "recommended_action": {
+    "kind": "add_module",
+    "title": "Add Software Engineering and Development content",
+    "detail": "Build on OOP by adding requirements, version control, development workflow, testing, documentation and software delivery. Do not duplicate OOP."
+   }
+  },
+  "javascript": {
+   "relationship": {
+    "kind": "review",
+    "target_status": "missing",
+    "addition_required": true,
+    "course": "Oop",
+    "clo": "Object-Oriented Programming (OOP)",
+    "score": null,
+    "evidence_source": "manual_adjudication",
+    "reason": "General programming foundations exist, but Java Programming is not direct JavaScript coverage. Java and JavaScript are distinct languages."
+   },
+   "recommended_action": {
+    "kind": "review_route",
+    "title": "Add JavaScript/Web Development content",
+    "detail": "Route to an existing Web Development course if available; otherwise consider a new module or elective. Final host requires curriculum review."
+   }
+  }
+ }
+}

@@ -1,0 +1,250 @@
+{"id": "R001", "score": 0, "note": "Business Model Canvas is a business planning tool unrelated to security monitoring.", "model": "claude-sonnet-5"}
+{"id": "R002", "score": 0, "note": "Integrity constraints relate to database design, not firewall configuration or network security.", "model": "claude-sonnet-5"}
+{"id": "R003", "score": 0, "note": "LAG is a network link redundancy/throughput technique, unrelated to PostgreSQL database skills.", "model": "claude-sonnet-5"}
+{"id": "R004", "score": 0, "note": "This outcome covers mobile OS fundamentals, not data analysis skills.", "model": "claude-sonnet-5"}
+{"id": "R005", "score": 3, "note": "Data modeling relates to structuring data but doesn't directly teach data analysis techniques.", "model": "claude-sonnet-5"}
+{"id": "R006", "score": 4, "note": "Security deployment supports IT infrastructure but doesn't cover broader infrastructure management like systems, networking, or resource administration.", "model": "claude-sonnet-5"}
+{"id": "R007", "score": 8, "note": "Hybrid app development is a specific form of software development, teaching practical coding skills directly applicable to the job market skill.", "model": "claude-sonnet-5"}
+{"id": "R008", "score": 0, "note": "Database partitioning is unrelated to Docker containerization skills.", "model": "claude-sonnet-5"}
+{"id": "R009", "score": 3, "note": "General database query skills provide a foundation but do not specifically teach PostgreSQL.", "model": "claude-sonnet-5"}
+{"id": "R010", "score": 3, "note": "Focuses on reliability principles rather than integrating disparate systems/components.", "model": "claude-sonnet-5"}
+{"id": "R011", "score": 0, "note": "Boolean algebra for digital logic design does not teach data analysis skills.", "model": "claude-sonnet-5"}
+{"id": "R012", "score": 0, "note": "Business Model Canvas relates to business strategy, not network administration.", "model": "claude-sonnet-5"}
+{"id": "R013", "score": 6, "note": "Troubleshooting skills overlap with technical support, but course focuses on network maintenance rather than broader technical support duties.", "model": "claude-sonnet-5"}
+{"id": "R014", "score": 3, "note": "Resource estimation covers project planning, not technical performance tuning.", "model": "claude-sonnet-5"}
+{"id": "R015", "score": 3, "note": "Hybrid app development may involve consuming APIs but does not directly teach building RESTful APIs", "model": "claude-sonnet-5"}
+{"id": "R016", "score": 1, "note": "ML pipeline concept differs from CI/CD software delivery pipelines; minimal overlap.", "model": "claude-sonnet-5"}
+{"id": "R017", "score": 4, "note": "Covers Wi-Fi security protocols/configuration but not active security monitoring practices like log analysis or intrusion detection.", "model": "claude-sonnet-5"}
+{"id": "R018", "score": 6, "note": "Covers general DBMS concepts relevant to databases, but doesn't specifically address MySQL.", "model": "claude-sonnet-5"}
+{"id": "R019", "score": 0, "note": "DBMS course covers database concepts, not AWS or cloud platforms.", "model": "claude-sonnet-5"}
+{"id": "R020", "score": 0, "note": "Model evaluation relates to assessing data mining models, not git version control.", "model": "claude-sonnet-5"}
+{"id": "R021", "score": 4, "note": "SaaS concept relates to cloud/software delivery but doesn't directly teach software development skills.", "model": "claude-sonnet-5"}
+{"id": "R022", "score": 0, "note": "Course covers digital logic counters, unrelated to incident response skills.", "model": "claude-sonnet-5"}
+{"id": "R023", "score": 1, "note": "Web server configuration is unrelated to firewall configuration, though both involve server/network setup basics.", "model": "claude-sonnet-5"}
+{"id": "R024", "score": 1, "note": "Focuses on security standards/policies, not on technical documentation skills.", "model": "claude-sonnet-5"}
+{"id": "R025", "score": 1, "note": "Exception handling teaches error-handling in code, not security incident response practices.", "model": "claude-sonnet-5"}
+{"id": "R026", "score": 4, "note": "Cloud security course may touch on compliance concepts but doesn't explicitly teach security compliance standards or auditing practices.", "model": "claude-sonnet-5"}
+{"id": "R027", "score": 0, "note": "Pattern recognition/classification in image processing does not teach database management skills.", "model": "claude-sonnet-5"}
+{"id": "R028", "score": 6, "note": "Focuses on security aspects of system support/operations, related to but narrower than general system maintenance.", "model": "claude-sonnet-5"}
+{"id": "R029", "score": 1, "note": "Focuses on general project issue tracking, not server management or infrastructure skills.", "model": "claude-sonnet-5"}
+{"id": "R030", "score": 0, "note": "Business Model Canvas relates to business planning, not git version control.", "model": "claude-sonnet-5"}
+{"id": "R031", "score": 3, "note": "Status reporting is related to documentation practice but not technical documentation of systems/code specifically.", "model": "claude-sonnet-5"}
+{"id": "R032", "score": 10, "note": "Course outcome directly matches the skill: data analysis.", "model": "claude-sonnet-5"}
+{"id": "R033", "score": 4, "note": "Covers network devices/security concepts as foundation, but does not explicitly teach troubleshooting methodology or practice.", "model": "claude-sonnet-5"}
+{"id": "R034", "score": 0, "note": "This teaches database transaction management, not git version control for source code.", "model": "claude-sonnet-5"}
+{"id": "R035", "score": 6, "note": "Network monitoring builds relevant skills for security monitoring but lacks explicit security-event focus.", "model": "claude-sonnet-5"}
+{"id": "R036", "score": 5, "note": "Indexing is a database concept relevant to MySQL but doesn't cover MySQL-specific usage or administration.", "model": "claude-sonnet-5"}
+{"id": "R037", "score": 0, "note": "This outcome covers network protocol/standard knowledge, not technical documentation skills.", "model": "claude-sonnet-5"}
+{"id": "R038", "score": 3, "note": "Focuses on designing security policies for databases, not on active security monitoring/detection.", "model": "claude-sonnet-5"}
+{"id": "R039", "score": 6, "note": "Cloud workload optimization involves related resource/performance tuning but isn't identical to general performance tuning skill.", "model": "claude-sonnet-5"}
+{"id": "R040", "score": 4, "note": "Network management overlaps partially but doesn't specifically cover server administration/management skills.", "model": "claude-sonnet-5"}
+{"id": "R041", "score": 3, "note": "Covers network architecture fundamentals, related but not the practical skill of integrating diverse systems.", "model": "claude-sonnet-5"}
+{"id": "R042", "score": 10, "note": "Directly covers AWS as the cloud platform taught in the course.", "model": "claude-sonnet-5"}
+{"id": "R043", "score": 1, "note": "Software application maintenance in an OOP course relates to code upkeep, not IT infrastructure management.", "model": "claude-sonnet-5"}
+{"id": "R044", "score": 1, "note": "Project issue management concerns tracking project risks/issues, not diagnosing or resolving network problems.", "model": "claude-sonnet-5"}
+{"id": "R045", "score": 1, "note": "Course teaches Python, not Java, so this skill is essentially not covered.", "model": "claude-sonnet-5"}
+{"id": "R046", "score": 3, "note": "User account management relates to systems administration, not database management specifically.", "model": "claude-sonnet-5"}
+{"id": "R047", "score": 5, "note": "Deploying security technology builds foundational security skills but does not directly teach compliance frameworks or regulatory adherence.", "model": "claude-sonnet-5"}
+{"id": "R048", "score": 9, "note": "IaC provisioning directly covers modern IT infrastructure management practices.", "model": "claude-sonnet-5"}
+{"id": "R049", "score": 6, "note": "Covers APIs generally, likely including REST concepts, but not explicitly confirmed as RESTful API development.", "model": "claude-sonnet-5"}
+{"id": "R050", "score": 8, "note": "Transaction management is a core component of database management, though it's a specific subset rather than the full breadth of skills like design, administration, and security.", "model": "claude-sonnet-5"}
+{"id": "R051", "score": 6, "note": "Network management is a core part of IT infrastructure management but doesn't cover servers, systems, or full infrastructure scope.", "model": "claude-sonnet-5"}
+{"id": "R052", "score": 3, "note": "Virtualization is a foundational cloud concept but does not directly teach system integration skills.", "model": "claude-sonnet-5"}
+{"id": "R053", "score": 4, "note": "Data warehousing provides infrastructure for analysis but doesn't itself teach data analysis techniques.", "model": "claude-sonnet-5"}
+{"id": "R054", "score": 4, "note": "Mobile app security touches on secure coding but not formal compliance frameworks or regulatory standards.", "model": "claude-sonnet-5"}
+{"id": "R055", "score": 0, "note": "Pitching is a communication skill unrelated to network troubleshooting.", "model": "claude-sonnet-5"}
+{"id": "R056", "score": 1, "note": "Data selection for mining tasks is unrelated to system/query performance tuning.", "model": "claude-sonnet-5"}
+{"id": "R057", "score": 3, "note": "APIs may be consumed via various languages; course focuses on API usage rather than Java programming specifically.", "model": "claude-sonnet-5"}
+{"id": "R058", "score": 10, "note": "Course outcome directly matches the skill of disaster recovery planning.", "model": "claude-sonnet-5"}
+{"id": "R059", "score": 5, "note": "Covers general database partitioning concepts, a foundation for but not specifically PostgreSQL database skills.", "model": "claude-sonnet-5"}
+{"id": "R060", "score": 1, "note": "Refers to general project progress tracking, not security monitoring.", "model": "claude-sonnet-5"}
+{"id": "R061", "score": 0, "note": "Hypothesis development relates to research methods, not software development skills.", "model": "claude-sonnet-5"}
+{"id": "R062", "score": 0, "note": "Distributed system process concepts do not cover CI/CD pipelines or automation tooling.", "model": "claude-sonnet-5"}
+{"id": "R063", "score": 7, "note": "Network monitoring tools provide foundational skills applicable to security monitoring, though not explicitly focused on security-specific threat detection.", "model": "claude-sonnet-5"}
+{"id": "R064", "score": 0, "note": "Focuses on technical network management, not project management skills.", "model": "claude-sonnet-5"}
+{"id": "R065", "score": 8, "note": "Course directly covers firewall technology, likely including configuration principles, though hands-on configuration depth is unspecified.", "model": "claude-sonnet-5"}
+{"id": "R066", "score": 3, "note": "Access control is a security concept related to but distinct from hands-on network administration skills.", "model": "claude-sonnet-5"}
+{"id": "R067", "score": 1, "note": "Hadoop is a distributed data processing framework, not AWS cloud platform skills; minimal overlap beyond general distributed computing concepts.", "model": "claude-sonnet-5"}
+{"id": "R068", "score": 4, "note": "Covers distributed processes conceptually, related foundation but not explicit system integration skills like APIs/interoperability.", "model": "claude-sonnet-5"}
+{"id": "R069", "score": 0, "note": "Business Model Canvas relates to strategic planning concepts, not Microsoft Office software skills.", "model": "claude-sonnet-5"}
+{"id": "R070", "score": 3, "note": "Covers app architecture generally, not specifically API integration skills.", "model": "claude-sonnet-5"}
+{"id": "R071", "score": 0, "note": "Business Model Canvas is a business planning tool and has no connection to firewall configuration.", "model": "claude-sonnet-5"}
+{"id": "R072", "score": 0, "note": "IaC teaches provisioning infrastructure via code, not code review practices.", "model": "claude-sonnet-5"}
+{"id": "R073", "score": 0, "note": "Sensor data collection for data mining is unrelated to security monitoring practices.", "model": "claude-sonnet-5"}
+{"id": "R074", "score": 1, "note": "Monitoring and logging strategies relate to observability, not technical documentation skills.", "model": "claude-sonnet-5"}
+{"id": "R075", "score": 5, "note": "Load balancing relates to server infrastructure but doesn't directly teach broader server management skills.", "model": "claude-sonnet-5"}
+{"id": "R076", "score": 3, "note": "Teaches C++ programming, which shares OOP concepts with Java but is not Java itself.", "model": "claude-sonnet-5"}
+{"id": "R077", "score": 6, "note": "Teaches core programming in C++, a foundation for software development but not full software engineering practices.", "model": "claude-sonnet-5"}
+{"id": "R078", "score": 1, "note": "Client-server architecture concepts don't cover performance tuning techniques.", "model": "claude-sonnet-5"}
+{"id": "R079", "score": 4, "note": "Focuses on technical network security design rather than compliance standards, policies, or regulatory frameworks.", "model": "claude-sonnet-5"}
+{"id": "R080", "score": 5, "note": "Covers distributed application design/implementation, which relates to but doesn't explicitly teach API integration skills.", "model": "claude-sonnet-5"}
+{"id": "R081", "score": 4, "note": "Design-focused outcome provides networking foundation but doesn't directly teach diagnosing and resolving network issues.", "model": "claude-sonnet-5"}
+{"id": "R082", "score": 5, "note": "Network troubleshooting relates to system maintenance but doesn't cover broader maintenance tasks like updates, backups, or hardware upkeep.", "model": "claude-sonnet-5"}
+{"id": "R083", "score": 0, "note": "Algorithm analysis in discrete math covers theoretical complexity, not code review practices.", "model": "claude-sonnet-5"}
+{"id": "R084", "score": 5, "note": "DevOps methodology provides foundational context but doesn't explicitly teach CI/CD pipeline implementation.", "model": "claude-sonnet-5"}
+{"id": "R085", "score": 3, "note": "Interfaces teach OOP abstraction/contract design, only loosely related to actual API integration skills like consuming external services or REST/HTTP handling.", "model": "claude-sonnet-5"}
+{"id": "R086", "score": 4, "note": "Monitoring network performance provides diagnostic insight but does not directly teach tuning/optimization techniques.", "model": "claude-sonnet-5"}
+{"id": "R087", "score": 9, "note": "Directly covers project team management, a core component of project management skills.", "model": "claude-sonnet-5"}
+{"id": "R088", "score": 10, "note": "Course outcome directly targets network troubleshooting skills.", "model": "claude-sonnet-5"}
+{"id": "R089", "score": 2, "note": "DBMS course covers database concepts, not server administration or management skills.", "model": "claude-sonnet-5"}
+{"id": "R090", "score": 1, "note": "NLP text processing focuses on computational language analysis, not writing technical documentation.", "model": "claude-sonnet-5"}
+{"id": "R091", "score": 5, "note": "Agile PM builds relevant project skills but doesn't directly teach software development coding/technical skills.", "model": "claude-sonnet-5"}
+{"id": "R092", "score": 3, "note": "Covers client-server concepts relevant to networked apps, but not network administration skills like configuring, securing, or managing networks.", "model": "claude-sonnet-5"}
+{"id": "R093", "score": 5, "note": "Text feature extraction supports data analysis but is a narrower NLP preprocessing skill, not general data analysis.", "model": "claude-sonnet-5"}
+{"id": "R094", "score": 3, "note": "Requirements analysis is a related but distinct precursor skill to actual software development/implementation.", "model": "claude-sonnet-5"}
+{"id": "R095", "score": 5, "note": "Covers documentation of data integrity/quality specifically, not general technical documentation skills.", "model": "claude-sonnet-5"}
+{"id": "R096", "score": 2, "note": "Cryptography theory relates only tangentially to operational security monitoring, not the skill itself.", "model": "claude-sonnet-5"}
+{"id": "R097", "score": 2, "note": "CI tooling setup relates to integration pipelines but doesn't teach API integration skills directly.", "model": "claude-sonnet-5"}
+{"id": "R098", "score": 5, "note": "Covers network security techniques but not compliance frameworks or regulatory standards explicitly.", "model": "claude-sonnet-5"}
+{"id": "R099", "score": 3, "note": "Focuses on securing mobile apps rather than security monitoring practices like log analysis, alerting, or threat detection.", "model": "claude-sonnet-5"}
+{"id": "R100", "score": 10, "note": "Course outcome directly covers network administrator responsibilities, matching the skill exactly.", "model": "claude-sonnet-5"}
+{"id": "R101", "score": 2, "note": "Issue management relates to project oversight, not the technical skill of integrating systems.", "model": "claude-sonnet-5"}
+{"id": "R102", "score": 5, "note": "Covers relational modeling theory, a foundation for database management but not practical DB administration or SQL skills.", "model": "claude-sonnet-5"}
+{"id": "R103", "score": 9, "note": "Course explicitly covers DBMS, directly teaching database management skills.", "model": "claude-sonnet-5"}
+{"id": "R104", "score": 1, "note": "Distributed systems process concepts are unrelated to hands-on VMware virtualization skills.", "model": "claude-sonnet-5"}
+{"id": "R105", "score": 3, "note": "IaaS covers provisioning virtual infrastructure but doesn't directly teach hands-on network administration skills.", "model": "claude-sonnet-5"}
+{"id": "R106", "score": 10, "note": "Course outcome directly matches the network troubleshooting skill.", "model": "claude-sonnet-5"}
+{"id": "R107", "score": 5, "note": "Distributed systems architecture provides foundational knowledge relevant to IT infrastructure but doesn't directly teach infrastructure management practices like provisioning, monitoring, or maintena", "model": "claude-sonnet-5"}
+{"id": "R108", "score": 6, "note": "Analyzing distributed system performance provides foundation for tuning but doesn't explicitly teach optimization techniques.", "model": "claude-sonnet-5"}
+{"id": "R109", "score": 0, "note": "Data collection methods relate to research design, not technical documentation skills.", "model": "claude-sonnet-5"}
+{"id": "R110", "score": 3, "note": "Hybrid app architecture touches on combining web/native components but doesn't directly teach broader system integration skills.", "model": "claude-sonnet-5"}
+{"id": "R111", "score": 5, "note": "Covers securing a Laravel app (e.g., preventing vulnerabilities) but not active security monitoring/logging practices.", "model": "claude-sonnet-5"}
+{"id": "R112", "score": 1, "note": "Teaches C++ programming basics, not code review practices or peer review skills.", "model": "claude-sonnet-5"}
+{"id": "R113", "score": 0, "note": "PMI is an NLP statistical measure unrelated to IT infrastructure management.", "model": "claude-sonnet-5"}
+{"id": "R114", "score": 4, "note": "Database seeding relates to populating databases but doesn't directly teach MySQL database skills like schema design or querying.", "model": "claude-sonnet-5"}
+{"id": "R115", "score": 3, "note": "Focuses on general project issue tracking, not IT infrastructure management specifically.", "model": "claude-sonnet-5"}
+{"id": "R116", "score": 0, "note": "Refers to logic/truth tables in digital circuit design, not database management.", "model": "claude-sonnet-5"}
+{"id": "R117", "score": 3, "note": "Covers distributed process concepts, not direct server administration/management skills.", "model": "claude-sonnet-5"}
+{"id": "R118", "score": 8, "note": "Directly teaches monitoring of security threat trends, closely aligning with security monitoring skill.", "model": "claude-sonnet-5"}
+{"id": "R119", "score": 4, "note": "Distributed databases relate to integrating data systems but don't explicitly cover broader system integration skills like APIs or middleware.", "model": "claude-sonnet-5"}
+{"id": "R120", "score": 9, "note": "Directly covers configuring firewall rules, matching the job-market skill.", "model": "claude-sonnet-5"}
+{"id": "R121", "score": 4, "note": "Virtualization is foundational for cloud infrastructure but doesn't directly teach system maintenance practices.", "model": "claude-sonnet-5"}
+{"id": "R122", "score": 4, "note": "Security models provide theoretical foundation but don't directly teach compliance standards, auditing, or regulatory practices.", "model": "claude-sonnet-5"}
+{"id": "R123", "score": 2, "note": "Covers understanding IS components, not the skill of maintaining systems.", "model": "claude-sonnet-5"}
+{"id": "R124", "score": 6, "note": "CI tooling setup relates to integration processes but focuses on code build/test pipelines rather than broader system integration.", "model": "claude-sonnet-5"}
+{"id": "R125", "score": 3, "note": "Distributed database management touches infrastructure concepts but doesn't cover broader IT infrastructure management skills like networking, servers, or systems administration.", "model": "claude-sonnet-5"}
+{"id": "R126", "score": 0, "note": "Course covers OOP scalable design, unrelated to VMware virtualization skills.", "model": "claude-sonnet-5"}
+{"id": "R127", "score": 0, "note": "C++ programming fundamentals do not cover PostgreSQL or database skills.", "model": "claude-sonnet-5"}
+{"id": "R128", "score": 3, "note": "Focuses on deploying security technologies, not general system integration skills.", "model": "claude-sonnet-5"}
+{"id": "R129", "score": 4, "note": "IaC provisioning relates to infrastructure/network configuration but doesn't directly teach traditional network administration tasks.", "model": "claude-sonnet-5"}
+{"id": "R130", "score": 1, "note": "Algorithm analysis is a theoretical foundation, not Java programming instruction.", "model": "claude-sonnet-5"}
+{"id": "R131", "score": 4, "note": "Risk management is related to project management but focuses on security risk assessment, not broader project management skills.", "model": "claude-sonnet-5"}
+{"id": "R132", "score": 10, "note": "Course outcome directly covers database management systems, matching the skill exactly.", "model": "claude-sonnet-5"}
+{"id": "R133", "score": 1, "note": "OOP course outcome about software maintenance does not address server management skills.", "model": "claude-sonnet-5"}
+{"id": "R134", "score": 0, "note": "This outcome covers digital logic analysis, not technical documentation skills.", "model": "claude-sonnet-5"}
+{"id": "R135", "score": 0, "note": "Network management focuses on network infrastructure, not database management skills.", "model": "claude-sonnet-5"}
+{"id": "R136", "score": 8, "note": "Correlation analysis is a core statistical data analysis technique, though only one specific method within broader data analysis skills.", "model": "claude-sonnet-5"}
+{"id": "R137", "score": 3, "note": "IaC provisioning relates to virtualization/infrastructure concepts but doesn't specifically teach VMware tools or skills.", "model": "claude-sonnet-5"}
+{"id": "R138", "score": 3, "note": "Focuses on securing systems/operations, not on integrating disparate systems together.", "model": "claude-sonnet-5"}
+{"id": "R139", "score": 6, "note": "PCA is a specific data analysis/dimensionality reduction technique but doesn't cover broader data analysis skills like cleaning, exploration, or visualization.", "model": "claude-sonnet-5"}
+{"id": "R140", "score": 6, "note": "Network troubleshooting builds core technical support skills but doesn't cover the full scope of general IT support.", "model": "claude-sonnet-5"}
+{"id": "R141", "score": 3, "note": "Cloud security concepts overlap with virtualization environments but don't specifically teach VMware virtualization skills.", "model": "claude-sonnet-5"}
+{"id": "R142", "score": 0, "note": "Resource estimation in project management is unrelated to MySQL database skills.", "model": "claude-sonnet-5"}
+{"id": "R143", "score": 3, "note": "Anomaly resolution relates to data quality/database design, not security monitoring practices like threat detection or log analysis.", "model": "claude-sonnet-5"}
+{"id": "R144", "score": 3, "note": "Covers distributed systems concepts, related foundation but not general software development skills directly.", "model": "claude-sonnet-5"}
+{"id": "R145", "score": 0, "note": "Database querying knowledge is unrelated to Java programming skills.", "model": "claude-sonnet-5"}
+{"id": "R146", "score": 3, "note": "Focuses on security risk assessment, not general project management practices like scheduling or resource planning.", "model": "claude-sonnet-5"}
+{"id": "R147", "score": 5, "note": "Network troubleshooting supports maintenance but doesn't cover broader system upkeep tasks like updates, backups, or configuration management.", "model": "claude-sonnet-5"}
+{"id": "R148", "score": 3, "note": "Access control/permissions is a security subtopic related to server administration but doesn't cover broader server management tasks.", "model": "claude-sonnet-5"}
+{"id": "R149", "score": 10, "note": "Course outcome directly names Java, matching the skill exactly.", "model": "claude-sonnet-5"}
+{"id": "R150", "score": 2, "note": "Data preprocessing relates to handling data but does not teach database management systems or skills.", "model": "claude-sonnet-5"}
+{"id": "R151", "score": 10, "note": "Course outcome directly matches the job-market skill of firewall configuration.", "model": "claude-sonnet-5"}
+{"id": "R152", "score": 9, "note": "Network Management outcome directly covers core network administration competencies.", "model": "claude-sonnet-5"}
+{"id": "R153", "score": 3, "note": "Deploying a web app touches infrastructure but doesn't teach broader IT infrastructure management.", "model": "claude-sonnet-5"}
+{"id": "R154", "score": 3, "note": "Covers theoretical networking principles for distributed systems, not practical troubleshooting skills.", "model": "claude-sonnet-5"}
+{"id": "R155", "score": 4, "note": "Covers IS components conceptually but not hands-on IT infrastructure management.", "model": "claude-sonnet-5"}
+{"id": "R156", "score": 2, "note": "Algorithm analysis focuses on complexity/correctness, not data analysis techniques like statistics or data interpretation.", "model": "claude-sonnet-5"}
+{"id": "R157", "score": 6, "note": "Network performance monitoring is a component of IT infrastructure management but doesn't cover broader infrastructure aspects like servers, storage, or overall system administration.", "model": "claude-sonnet-5"}
+{"id": "R158", "score": 4, "note": "Monitoring infrastructure supports detection of network issues but doesn't directly teach troubleshooting techniques or resolution skills.", "model": "claude-sonnet-5"}
+{"id": "R159", "score": 3, "note": "Alerting supports detection, a precursor to incident response, but doesn't teach the broader response process itself.", "model": "claude-sonnet-5"}
+{"id": "R160", "score": 1, "note": "DBMS knowledge relates to data storage, not system integration skills.", "model": "claude-sonnet-5"}
+{"id": "R161", "score": 10, "note": "Course outcome directly names and teaches security compliance.", "model": "claude-sonnet-5"}
+{"id": "R162", "score": 2, "note": "Truth table analysis is digital logic evaluation, only loosely related to broader data analysis skills.", "model": "claude-sonnet-5"}
+{"id": "R163", "score": 3, "note": "Issue management in project contexts relates loosely to maintenance but doesn't teach ongoing system upkeep skills.", "model": "claude-sonnet-5"}
+{"id": "R164", "score": 0, "note": "Group Policy Management is a Windows administration feature, unrelated to project management skills.", "model": "claude-sonnet-5"}
+{"id": "R165", "score": 3, "note": "Teaches VM setup skills but not directly system integration across platforms/services.", "model": "claude-sonnet-5"}
+{"id": "R166", "score": 0, "note": "Binary encoding/decoding relates to electronics data representation, not software code review practices.", "model": "claude-sonnet-5"}
+{"id": "R167", "score": 4, "note": "Covers virtual network design concepts but not VMware-specific virtualization tools or skills.", "model": "claude-sonnet-5"}
+{"id": "R168", "score": 6, "note": "Web server configuration teaches a specific subset of server management, not full administration skills.", "model": "claude-sonnet-5"}
+{"id": "R169", "score": 0, "note": "Feature encoding is a data preprocessing technique, unrelated to technical documentation skills.", "model": "claude-sonnet-5"}
+{"id": "R170", "score": 4, "note": "Pattern recognition/classification relates to analytical methods but is domain-specific to image processing, not general data analysis skills.", "model": "claude-sonnet-5"}
+{"id": "R171", "score": 8, "note": "Ubuntu Server directly teaches installing and managing a real server OS, core to server management.", "model": "claude-sonnet-5"}
+{"id": "R172", "score": 0, "note": "IaaS conceptual outcome does not address incident response skills.", "model": "claude-sonnet-5"}
+{"id": "R173", "score": 1, "note": "State diagrams are a logic design tool, not technical documentation skill training.", "model": "claude-sonnet-5"}
+{"id": "R174", "score": 4, "note": "Covers networking principles relevant to distributed systems, but not hands-on network administration skills.", "model": "claude-sonnet-5"}
+{"id": "R175", "score": 2, "note": "Packet Tracer teaches network simulation/config, not security monitoring practices.", "model": "claude-sonnet-5"}
+{"id": "R176", "score": 5, "note": "Disaster recovery planning provides related resilience/continuity foundation but doesn't specifically teach incident response processes like detection, containment, and remediation.", "model": "claude-sonnet-5"}
+{"id": "R177", "score": 4, "note": "Covers IS components as foundation but doesn't directly teach integrating systems together", "model": "claude-sonnet-5"}
+{"id": "R178", "score": 3, "note": "DBMS knowledge provides some foundation but does not directly teach server management skills.", "model": "claude-sonnet-5"}
+{"id": "R179", "score": 3, "note": "Covers Wi-Fi security technical protocols but not broader security compliance frameworks or standards.", "model": "claude-sonnet-5"}
+{"id": "R180", "score": 4, "note": "Covers model performance evaluation and diagnosis, but not general system/application performance tuning.", "model": "claude-sonnet-5"}
+{"id": "R181", "score": 1, "note": "Integrity constraints relate to data validity in DB design, not security compliance.", "model": "claude-sonnet-5"}
+{"id": "R182", "score": 10, "note": "Course outcome directly covers Docker containerization.", "model": "claude-sonnet-5"}
+{"id": "R183", "score": 4, "note": "Covers general infrastructure monitoring but not specifically security monitoring practices.", "model": "claude-sonnet-5"}
+{"id": "R184", "score": 8, "note": "Course covers virtualization concepts directly relevant to VMware, though tool-specific VMware skills aren't explicitly confirmed.", "model": "claude-sonnet-5"}
+{"id": "R185", "score": 3, "note": "Network optimization relates to network design, not general performance tuning of systems/applications/databases.", "model": "claude-sonnet-5"}
+{"id": "R186", "score": 4, "note": "Covers managing network devices, which relates to but is not the same as server administration.", "model": "claude-sonnet-5"}
+{"id": "R187", "score": 0, "note": "Asynchronous counter design is unrelated to software/system performance tuning.", "model": "claude-sonnet-5"}
+{"id": "R188", "score": 9, "note": "Directly covers software maintenance, closely aligning with system maintenance skill.", "model": "claude-sonnet-5"}
+{"id": "R189", "score": 3, "note": "Concurrency control relates to database internals but doesn't directly teach performance tuning techniques.", "model": "claude-sonnet-5"}
+{"id": "R190", "score": 0, "note": "Literature review is an academic research skill unrelated to code review practices in software development.", "model": "claude-sonnet-5"}
+{"id": "R191", "score": 1, "note": "String comparison concept relates to NLP text processing, not Java programming skill specifically.", "model": "claude-sonnet-5"}
+{"id": "R192", "score": 3, "note": "Covers distributed architecture concepts relevant to cloud systems, but does not specifically teach AWS or its services.", "model": "claude-sonnet-5"}
+{"id": "R193", "score": 6, "note": "APM teaches monitoring and identifying performance issues, which supports but isn't identical to hands-on performance tuning.", "model": "claude-sonnet-5"}
+{"id": "R194", "score": 10, "note": "Course outcome directly names Git, matching the version control skill exactly.", "model": "claude-sonnet-5"}
+{"id": "R195", "score": 8, "note": "Network device management directly supports core network administration tasks, though broader admin scope may not be fully covered.", "model": "claude-sonnet-5"}
+{"id": "R196", "score": 3, "note": "Scalable design touches on architectural efficiency but doesn't directly teach performance tuning techniques like profiling or optimization.", "model": "claude-sonnet-5"}
+{"id": "R197", "score": 4, "note": "Covers database-level recovery techniques (e.g., logging, backup/restore) which is related but not full-scale disaster recovery planning across systems/infrastructure.", "model": "claude-sonnet-5"}
+{"id": "R198", "score": 1, "note": "Software maintenance in OOP context is unrelated to system integration skills.", "model": "claude-sonnet-5"}
+{"id": "R199", "score": 5, "note": "Covers security foundations for distributed systems but not explicitly security monitoring practices/tools.", "model": "claude-sonnet-5"}
+{"id": "R200", "score": 3, "note": "Data cleaning relates to data handling but does not teach database management skills like design, querying, or administration.", "model": "claude-sonnet-5"}
+{"id": "R201", "score": 6, "note": "Designing network infrastructure builds core knowledge for administration but doesn't directly cover day-to-day network admin tasks like monitoring, maintenance, and troubleshooting.", "model": "claude-sonnet-5"}
+{"id": "R202", "score": 10, "note": "Directly teaches CI/CD pipeline implementation, matching the required skill exactly.", "model": "claude-sonnet-5"}
+{"id": "R203", "score": 4, "note": "Security solution management relates to but is not the same as broader server management skills.", "model": "claude-sonnet-5"}
+{"id": "R204", "score": 3, "note": "Covers network devices/security concepts but not hands-on network administration tasks.", "model": "claude-sonnet-5"}
+{"id": "R205", "score": 6, "note": "Designing DB security policies builds compliance-relevant skills but doesn't cover broader security compliance frameworks/regulations.", "model": "claude-sonnet-5"}
+{"id": "R206", "score": 6, "note": "Network troubleshooting builds core technical support skills but doesn't cover the full scope of general IT support tasks.", "model": "claude-sonnet-5"}
+{"id": "R207", "score": 10, "note": "Directly teaches VMware Workstation virtualization skills.", "model": "claude-sonnet-5"}
+{"id": "R208", "score": 2, "note": "Covers distributed system concepts, not practical system maintenance skills", "model": "claude-sonnet-5"}
+{"id": "R209", "score": 6, "note": "Covers network design, a core component of IT infrastructure management, but not full scope like servers, systems, or support operations.", "model": "claude-sonnet-5"}
+{"id": "R210", "score": 3, "note": "Policy management touches security governance but doesn't directly teach IT infrastructure management (hardware, networks, systems).", "model": "claude-sonnet-5"}
+{"id": "R211", "score": 2, "note": "Session management relates to web app state handling, not general system maintenance.", "model": "claude-sonnet-5"}
+{"id": "R212", "score": 6, "note": "Covers network design, a core part of IT infrastructure management, but omits broader infrastructure areas like servers, systems, and support.", "model": "claude-sonnet-5"}
+{"id": "R213", "score": 2, "note": "VMware virtualization builds foundational virtualization concepts but does not teach AWS cloud platform skills specifically.", "model": "claude-sonnet-5"}
+{"id": "R214", "score": 4, "note": "SOA covers architectural principles related to APIs but doesn't specifically teach RESTful API development.", "model": "claude-sonnet-5"}
+{"id": "R215", "score": 3, "note": "Distributed database concepts touch on server-related architecture but don't directly teach server management skills like administration, provisioning, or maintenance.", "model": "claude-sonnet-5"}
+{"id": "R216", "score": 3, "note": "Focuses on network design/topology rather than server administration and management tasks.", "model": "claude-sonnet-5"}
+{"id": "R217", "score": 6, "note": "Covers maintenance/troubleshooting for networks specifically, not general system maintenance.", "model": "claude-sonnet-5"}
+{"id": "R218", "score": 4, "note": "General database query skills provide foundation but don't specifically cover MySQL implementation.", "model": "claude-sonnet-5"}
+{"id": "R219", "score": 0, "note": "C++ programming fundamentals do not address security compliance concepts or practices.", "model": "claude-sonnet-5"}
+{"id": "R220", "score": 4, "note": "Database migrations relate to schema management but don't specifically teach PostgreSQL usage or features.", "model": "claude-sonnet-5"}
+{"id": "R221", "score": 4, "note": "Covers general cloud security concepts but not AWS-specific platform skills or tools.", "model": "claude-sonnet-5"}
+{"id": "R222", "score": 5, "note": "Covers cloud security concepts broadly but doesn't specifically teach security monitoring practices.", "model": "claude-sonnet-5"}
+{"id": "R223", "score": 6, "note": "IaaS covers cloud-based infrastructure provisioning but not full IT infrastructure management scope (networking, on-prem systems, support processes).", "model": "claude-sonnet-5"}
+{"id": "R224", "score": 5, "note": "Focuses on analyzing distributed system performance, not general data analysis skills.", "model": "claude-sonnet-5"}
+{"id": "R225", "score": 5, "note": "Load balancing relates to server management but covers only one aspect, not full server administration.", "model": "claude-sonnet-5"}
+{"id": "R226", "score": 0, "note": "Control statements teach programming logic, not technical documentation skills.", "model": "claude-sonnet-5"}
+{"id": "R227", "score": 10, "note": "Course outcome directly matches the skill of network troubleshooting.", "model": "claude-sonnet-5"}
+{"id": "R228", "score": 1, "note": "OOAD focuses on software design methodology, not data analysis skills like statistics or data interpretation.", "model": "claude-sonnet-5"}
+{"id": "R229", "score": 6, "note": "Covers backup/recovery for network services, a core component of disaster recovery but not full DR planning (risk assessment, RTO/RPO, business continuity).", "model": "claude-sonnet-5"}
+{"id": "R230", "score": 2, "note": "VLAN configuration is a related networking skill but does not teach firewall configuration.", "model": "claude-sonnet-5"}
+{"id": "R231", "score": 2, "note": "Focuses on security solutions, not general network troubleshooting skills.", "model": "claude-sonnet-5"}
+{"id": "R232", "score": 6, "note": "Deploying security technologies provides related infrastructure but doesn't explicitly teach ongoing security monitoring practices.", "model": "claude-sonnet-5"}
+{"id": "R233", "score": 5, "note": "Covers general relational database design principles but not PostgreSQL specifically.", "model": "claude-sonnet-5"}
+{"id": "R234", "score": 0, "note": "Huffman coding is a data compression technique unrelated to code review practices.", "model": "claude-sonnet-5"}
+{"id": "R235", "score": 5, "note": "Health monitoring supports system maintenance but doesn't cover full maintenance tasks like updates, patches, and troubleshooting.", "model": "claude-sonnet-5"}
+{"id": "R236", "score": 5, "note": "Covers application-level security features but not broader security compliance/regulatory practices.", "model": "claude-sonnet-5"}
+{"id": "R237", "score": 3, "note": "Reliability engineering relates to but does not explicitly cover disaster recovery planning.", "model": "claude-sonnet-5"}
+{"id": "R238", "score": 0, "note": "Regular expressions are unrelated to git version control; no overlap in skill content.", "model": "claude-sonnet-5"}
+{"id": "R239", "score": 8, "note": "Course directly covers APIs, closely matching the API integration skill though hands-on integration depth is unclear.", "model": "claude-sonnet-5"}
+{"id": "R240", "score": 0, "note": "This outcome covers distributed system processes, not project management.", "model": "claude-sonnet-5"}
+{"id": "R241", "score": 1, "note": "Focuses on scalable OOP design principles, not on the practice or process of code reviews.", "model": "claude-sonnet-5"}
+{"id": "R242", "score": 4, "note": "Course focuses on security solutions/design, not general technical support skills like troubleshooting or user assistance.", "model": "claude-sonnet-5"}
+{"id": "R243", "score": 0, "note": "Clustering is an AI/ML concept unrelated to Java programming skill.", "model": "claude-sonnet-5"}
+{"id": "R244", "score": 10, "note": "Directly teaches containerization, the core skill behind Docker.", "model": "claude-sonnet-5"}
+{"id": "R245", "score": 5, "note": "IaC teaches infrastructure automation concepts applicable to cloud platforms, but doesn't specifically cover AWS services or tools.", "model": "claude-sonnet-5"}
+{"id": "R246", "score": 5, "note": "Integration testing relates to verifying system integration but does not directly teach how to design or perform system integration itself.", "model": "claude-sonnet-5"}
+{"id": "R247", "score": 4, "note": "Algorithm analysis builds theoretical foundation for efficiency but doesn't directly teach practical performance tuning techniques.", "model": "claude-sonnet-5"}
+{"id": "R248", "score": 0, "note": "C++ programming does not teach Microsoft Office proficiency.", "model": "claude-sonnet-5"}
+{"id": "R249", "score": 6, "note": "Database migrations involve managing schema changes, a relevant subset of database management but not full coverage.", "model": "claude-sonnet-5"}
+{"id": "R250", "score": 0, "note": "Image smoothing relates to image processing techniques, not performance tuning of systems or applications.", "model": "claude-sonnet-5"}

@@ -1,0 +1,241 @@
+run_id,cohort,rank,market_skill,job_count,course_name,cosine,is_row_max,cell_status
+20260727T104742Z-475eb3,Y4,1,technical documentation,49,Networks Ii,0.59,false,gap
+20260727T104742Z-475eb3,Y4,1,technical documentation,49,Systems And Networks Administration,0.65,false,gap
+20260727T104742Z-475eb3,Y4,1,technical documentation,49,Advanced Database And Database Management Systems,0.63,false,gap
+20260727T104742Z-475eb3,Y4,1,technical documentation,49,Distributed Systems,0.64,false,gap
+20260727T104742Z-475eb3,Y4,1,technical documentation,49,Internet Programming Ii,0.62,false,gap
+20260727T104742Z-475eb3,Y4,1,technical documentation,49,Introduction To Mobile Application Development,0.58,false,gap
+20260727T104742Z-475eb3,Y4,1,technical documentation,49,Network Design,0.64,false,gap
+20260727T104742Z-475eb3,Y4,1,technical documentation,49,Software Development And It Operations Devops,0.69,true,borderline
+20260727T104742Z-475eb3,Y4,2,database management,42,Networks Ii,0.57,false,gap
+20260727T104742Z-475eb3,Y4,2,database management,42,Systems And Networks Administration,0.72,false,borderline
+20260727T104742Z-475eb3,Y4,2,database management,42,Advanced Database And Database Management Systems,0.86,true,covered
+20260727T104742Z-475eb3,Y4,2,database management,42,Distributed Systems,0.65,false,gap
+20260727T104742Z-475eb3,Y4,2,database management,42,Internet Programming Ii,0.79,false,covered
+20260727T104742Z-475eb3,Y4,2,database management,42,Introduction To Mobile Application Development,0.58,false,gap
+20260727T104742Z-475eb3,Y4,2,database management,42,Network Design,0.69,false,borderline
+20260727T104742Z-475eb3,Y4,2,database management,42,Software Development And It Operations Devops,0.63,false,gap
+20260727T104742Z-475eb3,Y4,3,java programming,41,Networks Ii,0.56,false,gap
+20260727T104742Z-475eb3,Y4,3,java programming,41,Systems And Networks Administration,0.61,false,gap
+20260727T104742Z-475eb3,Y4,3,java programming,41,Advanced Database And Database Management Systems,0.62,false,gap
+20260727T104742Z-475eb3,Y4,3,java programming,41,Distributed Systems,0.62,false,gap
+20260727T104742Z-475eb3,Y4,3,java programming,41,Internet Programming Ii,0.68,true,gap
+20260727T104742Z-475eb3,Y4,3,java programming,41,Introduction To Mobile Application Development,0.61,false,gap
+20260727T104742Z-475eb3,Y4,3,java programming,41,Network Design,0.58,false,gap
+20260727T104742Z-475eb3,Y4,3,java programming,41,Software Development And It Operations Devops,0.63,false,gap
+20260727T104742Z-475eb3,Y4,4,project management,37,Networks Ii,0.58,false,gap
+20260727T104742Z-475eb3,Y4,4,project management,37,Systems And Networks Administration,0.66,false,gap
+20260727T104742Z-475eb3,Y4,4,project management,37,Advanced Database And Database Management Systems,0.6,false,gap
+20260727T104742Z-475eb3,Y4,4,project management,37,Distributed Systems,0.66,false,gap
+20260727T104742Z-475eb3,Y4,4,project management,37,Internet Programming Ii,0.6,false,gap
+20260727T104742Z-475eb3,Y4,4,project management,37,Introduction To Mobile Application Development,0.58,false,gap
+20260727T104742Z-475eb3,Y4,4,project management,37,Network Design,0.7,true,borderline
+20260727T104742Z-475eb3,Y4,4,project management,37,Software Development And It Operations Devops,0.62,false,gap
+20260727T104742Z-475eb3,Y4,5,network troubleshooting,35,Networks Ii,0.74,false,covered
+20260727T104742Z-475eb3,Y4,5,network troubleshooting,35,Systems And Networks Administration,1.0,true,covered
+20260727T104742Z-475eb3,Y4,5,network troubleshooting,35,Advanced Database And Database Management Systems,0.61,false,gap
+20260727T104742Z-475eb3,Y4,5,network troubleshooting,35,Distributed Systems,0.7,false,borderline
+20260727T104742Z-475eb3,Y4,5,network troubleshooting,35,Internet Programming Ii,0.65,false,gap
+20260727T104742Z-475eb3,Y4,5,network troubleshooting,35,Introduction To Mobile Application Development,0.57,false,gap
+20260727T104742Z-475eb3,Y4,5,network troubleshooting,35,Network Design,0.95,false,covered
+20260727T104742Z-475eb3,Y4,5,network troubleshooting,35,Software Development And It Operations Devops,0.67,false,gap
+20260727T104742Z-475eb3,Y4,6,system maintenance,34,Networks Ii,0.59,false,gap
+20260727T104742Z-475eb3,Y4,6,system maintenance,34,Systems And Networks Administration,0.69,false,borderline
+20260727T104742Z-475eb3,Y4,6,system maintenance,34,Advanced Database And Database Management Systems,0.64,false,gap
+20260727T104742Z-475eb3,Y4,6,system maintenance,34,Distributed Systems,0.7,false,borderline
+20260727T104742Z-475eb3,Y4,6,system maintenance,34,Internet Programming Ii,0.66,false,gap
+20260727T104742Z-475eb3,Y4,6,system maintenance,34,Introduction To Mobile Application Development,0.61,false,gap
+20260727T104742Z-475eb3,Y4,6,system maintenance,34,Network Design,0.79,true,covered
+20260727T104742Z-475eb3,Y4,6,system maintenance,34,Software Development And It Operations Devops,0.75,false,covered
+20260727T104742Z-475eb3,Y4,7,mysql database,30,Networks Ii,0.56,false,gap
+20260727T104742Z-475eb3,Y4,7,mysql database,30,Systems And Networks Administration,0.62,false,gap
+20260727T104742Z-475eb3,Y4,7,mysql database,30,Advanced Database And Database Management Systems,0.7,false,borderline
+20260727T104742Z-475eb3,Y4,7,mysql database,30,Distributed Systems,0.57,false,gap
+20260727T104742Z-475eb3,Y4,7,mysql database,30,Internet Programming Ii,0.71,true,borderline
+20260727T104742Z-475eb3,Y4,7,mysql database,30,Introduction To Mobile Application Development,0.55,false,gap
+20260727T104742Z-475eb3,Y4,7,mysql database,30,Network Design,0.52,false,gap
+20260727T104742Z-475eb3,Y4,7,mysql database,30,Software Development And It Operations Devops,0.56,false,gap
+20260727T104742Z-475eb3,Y4,8,restful api development,28,Networks Ii,0.59,false,gap
+20260727T104742Z-475eb3,Y4,8,restful api development,28,Systems And Networks Administration,0.65,false,gap
+20260727T104742Z-475eb3,Y4,8,restful api development,28,Advanced Database And Database Management Systems,0.58,false,gap
+20260727T104742Z-475eb3,Y4,8,restful api development,28,Distributed Systems,0.63,false,gap
+20260727T104742Z-475eb3,Y4,8,restful api development,28,Internet Programming Ii,0.76,true,covered
+20260727T104742Z-475eb3,Y4,8,restful api development,28,Introduction To Mobile Application Development,0.65,false,gap
+20260727T104742Z-475eb3,Y4,8,restful api development,28,Network Design,0.6,false,gap
+20260727T104742Z-475eb3,Y4,8,restful api development,28,Software Development And It Operations Devops,0.62,false,gap
+20260727T104742Z-475eb3,Y4,9,postgresql database,27,Networks Ii,0.49,false,gap
+20260727T104742Z-475eb3,Y4,9,postgresql database,27,Systems And Networks Administration,0.63,false,gap
+20260727T104742Z-475eb3,Y4,9,postgresql database,27,Advanced Database And Database Management Systems,0.67,false,gap
+20260727T104742Z-475eb3,Y4,9,postgresql database,27,Distributed Systems,0.57,false,gap
+20260727T104742Z-475eb3,Y4,9,postgresql database,27,Internet Programming Ii,0.67,true,gap
+20260727T104742Z-475eb3,Y4,9,postgresql database,27,Introduction To Mobile Application Development,0.57,false,gap
+20260727T104742Z-475eb3,Y4,9,postgresql database,27,Network Design,0.51,false,gap
+20260727T104742Z-475eb3,Y4,9,postgresql database,27,Software Development And It Operations Devops,0.56,false,gap
+20260727T104742Z-475eb3,Y4,10,technical support,27,Networks Ii,0.56,false,gap
+20260727T104742Z-475eb3,Y4,10,technical support,27,Systems And Networks Administration,0.69,false,borderline
+20260727T104742Z-475eb3,Y4,10,technical support,27,Advanced Database And Database Management Systems,0.6,false,gap
+20260727T104742Z-475eb3,Y4,10,technical support,27,Distributed Systems,0.59,false,gap
+20260727T104742Z-475eb3,Y4,10,technical support,27,Internet Programming Ii,0.61,false,gap
+20260727T104742Z-475eb3,Y4,10,technical support,27,Introduction To Mobile Application Development,0.54,false,gap
+20260727T104742Z-475eb3,Y4,10,technical support,27,Network Design,0.7,true,borderline
+20260727T104742Z-475eb3,Y4,10,technical support,27,Software Development And It Operations Devops,0.6,false,gap
+20260727T104742Z-475eb3,Y4,11,ci/cd pipelines,26,Networks Ii,0.56,false,gap
+20260727T104742Z-475eb3,Y4,11,ci/cd pipelines,26,Systems And Networks Administration,0.61,false,gap
+20260727T104742Z-475eb3,Y4,11,ci/cd pipelines,26,Advanced Database And Database Management Systems,0.6,false,gap
+20260727T104742Z-475eb3,Y4,11,ci/cd pipelines,26,Distributed Systems,0.7,false,borderline
+20260727T104742Z-475eb3,Y4,11,ci/cd pipelines,26,Internet Programming Ii,0.65,false,gap
+20260727T104742Z-475eb3,Y4,11,ci/cd pipelines,26,Introduction To Mobile Application Development,0.57,false,gap
+20260727T104742Z-475eb3,Y4,11,ci/cd pipelines,26,Network Design,0.59,false,gap
+20260727T104742Z-475eb3,Y4,11,ci/cd pipelines,26,Software Development And It Operations Devops,0.96,true,covered
+20260727T104742Z-475eb3,Y4,12,docker containerization,24,Networks Ii,0.57,false,gap
+20260727T104742Z-475eb3,Y4,12,docker containerization,24,Systems And Networks Administration,0.61,false,gap
+20260727T104742Z-475eb3,Y4,12,docker containerization,24,Advanced Database And Database Management Systems,0.59,false,gap
+20260727T104742Z-475eb3,Y4,12,docker containerization,24,Distributed Systems,0.64,false,gap
+20260727T104742Z-475eb3,Y4,12,docker containerization,24,Internet Programming Ii,0.64,false,gap
+20260727T104742Z-475eb3,Y4,12,docker containerization,24,Introduction To Mobile Application Development,0.56,false,gap
+20260727T104742Z-475eb3,Y4,12,docker containerization,24,Network Design,0.57,false,gap
+20260727T104742Z-475eb3,Y4,12,docker containerization,24,Software Development And It Operations Devops,0.88,true,covered
+20260727T104742Z-475eb3,Y4,13,git version control,24,Networks Ii,0.49,false,gap
+20260727T104742Z-475eb3,Y4,13,git version control,24,Systems And Networks Administration,0.56,false,gap
+20260727T104742Z-475eb3,Y4,13,git version control,24,Advanced Database And Database Management Systems,0.65,false,gap
+20260727T104742Z-475eb3,Y4,13,git version control,24,Distributed Systems,0.58,false,gap
+20260727T104742Z-475eb3,Y4,13,git version control,24,Internet Programming Ii,0.58,false,gap
+20260727T104742Z-475eb3,Y4,13,git version control,24,Introduction To Mobile Application Development,0.52,false,gap
+20260727T104742Z-475eb3,Y4,13,git version control,24,Network Design,0.54,false,gap
+20260727T104742Z-475eb3,Y4,13,git version control,24,Software Development And It Operations Devops,0.82,true,covered
+20260727T104742Z-475eb3,Y4,14,firewall configuration,23,Networks Ii,0.75,false,covered
+20260727T104742Z-475eb3,Y4,14,firewall configuration,23,Systems And Networks Administration,0.85,true,covered
+20260727T104742Z-475eb3,Y4,14,firewall configuration,23,Advanced Database And Database Management Systems,0.55,false,gap
+20260727T104742Z-475eb3,Y4,14,firewall configuration,23,Distributed Systems,0.63,false,gap
+20260727T104742Z-475eb3,Y4,14,firewall configuration,23,Internet Programming Ii,0.73,false,covered
+20260727T104742Z-475eb3,Y4,14,firewall configuration,23,Introduction To Mobile Application Development,0.53,false,gap
+20260727T104742Z-475eb3,Y4,14,firewall configuration,23,Network Design,0.65,false,gap
+20260727T104742Z-475eb3,Y4,14,firewall configuration,23,Software Development And It Operations Devops,0.62,false,gap
+20260727T104742Z-475eb3,Y4,15,security compliance,23,Networks Ii,0.67,false,gap
+20260727T104742Z-475eb3,Y4,15,security compliance,23,Systems And Networks Administration,0.73,false,covered
+20260727T104742Z-475eb3,Y4,15,security compliance,23,Advanced Database And Database Management Systems,0.69,false,borderline
+20260727T104742Z-475eb3,Y4,15,security compliance,23,Distributed Systems,0.73,true,covered
+20260727T104742Z-475eb3,Y4,15,security compliance,23,Internet Programming Ii,0.66,false,gap
+20260727T104742Z-475eb3,Y4,15,security compliance,23,Introduction To Mobile Application Development,0.66,false,gap
+20260727T104742Z-475eb3,Y4,15,security compliance,23,Network Design,0.7,false,borderline
+20260727T104742Z-475eb3,Y4,15,security compliance,23,Software Development And It Operations Devops,0.63,false,gap
+20260727T104742Z-475eb3,Y4,16,server management,21,Networks Ii,0.67,false,gap
+20260727T104742Z-475eb3,Y4,16,server management,21,Systems And Networks Administration,0.76,false,covered
+20260727T104742Z-475eb3,Y4,16,server management,21,Advanced Database And Database Management Systems,0.74,false,covered
+20260727T104742Z-475eb3,Y4,16,server management,21,Distributed Systems,0.74,false,covered
+20260727T104742Z-475eb3,Y4,16,server management,21,Internet Programming Ii,0.78,false,covered
+20260727T104742Z-475eb3,Y4,16,server management,21,Introduction To Mobile Application Development,0.6,false,gap
+20260727T104742Z-475eb3,Y4,16,server management,21,Network Design,0.82,true,covered
+20260727T104742Z-475eb3,Y4,16,server management,21,Software Development And It Operations Devops,0.76,false,covered
+20260727T104742Z-475eb3,Y4,17,aws cloud platforms,19,Networks Ii,0.58,false,gap
+20260727T104742Z-475eb3,Y4,17,aws cloud platforms,19,Systems And Networks Administration,0.68,true,gap
+20260727T104742Z-475eb3,Y4,17,aws cloud platforms,19,Advanced Database And Database Management Systems,0.59,false,gap
+20260727T104742Z-475eb3,Y4,17,aws cloud platforms,19,Distributed Systems,0.67,false,gap
+20260727T104742Z-475eb3,Y4,17,aws cloud platforms,19,Internet Programming Ii,0.64,false,gap
+20260727T104742Z-475eb3,Y4,17,aws cloud platforms,19,Introduction To Mobile Application Development,0.59,false,gap
+20260727T104742Z-475eb3,Y4,17,aws cloud platforms,19,Network Design,0.59,false,gap
+20260727T104742Z-475eb3,Y4,17,aws cloud platforms,19,Software Development And It Operations Devops,0.68,false,gap
+20260727T104742Z-475eb3,Y4,18,incident response,19,Networks Ii,0.56,false,gap
+20260727T104742Z-475eb3,Y4,18,incident response,19,Systems And Networks Administration,0.62,false,gap
+20260727T104742Z-475eb3,Y4,18,incident response,19,Advanced Database And Database Management Systems,0.56,false,gap
+20260727T104742Z-475eb3,Y4,18,incident response,19,Distributed Systems,0.6,false,gap
+20260727T104742Z-475eb3,Y4,18,incident response,19,Internet Programming Ii,0.56,false,gap
+20260727T104742Z-475eb3,Y4,18,incident response,19,Introduction To Mobile Application Development,0.53,false,gap
+20260727T104742Z-475eb3,Y4,18,incident response,19,Network Design,0.59,false,gap
+20260727T104742Z-475eb3,Y4,18,incident response,19,Software Development And It Operations Devops,0.68,true,gap
+20260727T104742Z-475eb3,Y4,19,security monitoring,19,Networks Ii,0.7,false,borderline
+20260727T104742Z-475eb3,Y4,19,security monitoring,19,Systems And Networks Administration,0.82,false,covered
+20260727T104742Z-475eb3,Y4,19,security monitoring,19,Advanced Database And Database Management Systems,0.69,false,borderline
+20260727T104742Z-475eb3,Y4,19,security monitoring,19,Distributed Systems,0.76,false,covered
+20260727T104742Z-475eb3,Y4,19,security monitoring,19,Internet Programming Ii,0.67,false,gap
+20260727T104742Z-475eb3,Y4,19,security monitoring,19,Introduction To Mobile Application Development,0.67,false,gap
+20260727T104742Z-475eb3,Y4,19,security monitoring,19,Network Design,0.86,true,covered
+20260727T104742Z-475eb3,Y4,19,security monitoring,19,Software Development And It Operations Devops,0.82,false,covered
+20260727T104742Z-475eb3,Y4,20,api integration,18,Networks Ii,0.56,false,gap
+20260727T104742Z-475eb3,Y4,20,api integration,18,Systems And Networks Administration,0.59,false,gap
+20260727T104742Z-475eb3,Y4,20,api integration,18,Advanced Database And Database Management Systems,0.56,false,gap
+20260727T104742Z-475eb3,Y4,20,api integration,18,Distributed Systems,0.61,false,gap
+20260727T104742Z-475eb3,Y4,20,api integration,18,Internet Programming Ii,0.83,true,covered
+20260727T104742Z-475eb3,Y4,20,api integration,18,Introduction To Mobile Application Development,0.66,false,gap
+20260727T104742Z-475eb3,Y4,20,api integration,18,Network Design,0.55,false,gap
+20260727T104742Z-475eb3,Y4,20,api integration,18,Software Development And It Operations Devops,0.7,false,borderline
+20260727T104742Z-475eb3,Y4,21,code reviews,18,Networks Ii,0.56,false,gap
+20260727T104742Z-475eb3,Y4,21,code reviews,18,Systems And Networks Administration,0.57,false,gap
+20260727T104742Z-475eb3,Y4,21,code reviews,18,Advanced Database And Database Management Systems,0.6,false,gap
+20260727T104742Z-475eb3,Y4,21,code reviews,18,Distributed Systems,0.59,false,gap
+20260727T104742Z-475eb3,Y4,21,code reviews,18,Internet Programming Ii,0.63,false,gap
+20260727T104742Z-475eb3,Y4,21,code reviews,18,Introduction To Mobile Application Development,0.63,false,gap
+20260727T104742Z-475eb3,Y4,21,code reviews,18,Network Design,0.58,false,gap
+20260727T104742Z-475eb3,Y4,21,code reviews,18,Software Development And It Operations Devops,0.67,true,gap
+20260727T104742Z-475eb3,Y4,22,data analysis,18,Networks Ii,0.6,false,gap
+20260727T104742Z-475eb3,Y4,22,data analysis,18,Systems And Networks Administration,0.59,false,gap
+20260727T104742Z-475eb3,Y4,22,data analysis,18,Advanced Database And Database Management Systems,0.7,true,borderline
+20260727T104742Z-475eb3,Y4,22,data analysis,18,Distributed Systems,0.66,false,gap
+20260727T104742Z-475eb3,Y4,22,data analysis,18,Internet Programming Ii,0.62,false,gap
+20260727T104742Z-475eb3,Y4,22,data analysis,18,Introduction To Mobile Application Development,0.55,false,gap
+20260727T104742Z-475eb3,Y4,22,data analysis,18,Network Design,0.61,false,gap
+20260727T104742Z-475eb3,Y4,22,data analysis,18,Software Development And It Operations Devops,0.62,false,gap
+20260727T104742Z-475eb3,Y4,23,it infrastructure management,18,Networks Ii,0.76,false,covered
+20260727T104742Z-475eb3,Y4,23,it infrastructure management,18,Systems And Networks Administration,0.69,false,borderline
+20260727T104742Z-475eb3,Y4,23,it infrastructure management,18,Advanced Database And Database Management Systems,0.66,false,gap
+20260727T104742Z-475eb3,Y4,23,it infrastructure management,18,Distributed Systems,0.68,false,gap
+20260727T104742Z-475eb3,Y4,23,it infrastructure management,18,Internet Programming Ii,0.66,false,gap
+20260727T104742Z-475eb3,Y4,23,it infrastructure management,18,Introduction To Mobile Application Development,0.58,false,gap
+20260727T104742Z-475eb3,Y4,23,it infrastructure management,18,Network Design,0.81,true,covered
+20260727T104742Z-475eb3,Y4,23,it infrastructure management,18,Software Development And It Operations Devops,0.79,false,covered
+20260727T104742Z-475eb3,Y4,24,microsoft office proficiency,18,Networks Ii,0.52,false,gap
+20260727T104742Z-475eb3,Y4,24,microsoft office proficiency,18,Systems And Networks Administration,0.6,false,gap
+20260727T104742Z-475eb3,Y4,24,microsoft office proficiency,18,Advanced Database And Database Management Systems,0.56,false,gap
+20260727T104742Z-475eb3,Y4,24,microsoft office proficiency,18,Distributed Systems,0.55,false,gap
+20260727T104742Z-475eb3,Y4,24,microsoft office proficiency,18,Internet Programming Ii,0.6,true,gap
+20260727T104742Z-475eb3,Y4,24,microsoft office proficiency,18,Introduction To Mobile Application Development,0.59,false,gap
+20260727T104742Z-475eb3,Y4,24,microsoft office proficiency,18,Network Design,0.56,false,gap
+20260727T104742Z-475eb3,Y4,24,microsoft office proficiency,18,Software Development And It Operations Devops,0.59,false,gap
+20260727T104742Z-475eb3,Y4,25,software development,18,Networks Ii,0.55,false,gap
+20260727T104742Z-475eb3,Y4,25,software development,18,Systems And Networks Administration,0.57,false,gap
+20260727T104742Z-475eb3,Y4,25,software development,18,Advanced Database And Database Management Systems,0.6,false,gap
+20260727T104742Z-475eb3,Y4,25,software development,18,Distributed Systems,0.66,false,gap
+20260727T104742Z-475eb3,Y4,25,software development,18,Internet Programming Ii,0.65,false,gap
+20260727T104742Z-475eb3,Y4,25,software development,18,Introduction To Mobile Application Development,0.72,true,borderline
+20260727T104742Z-475eb3,Y4,25,software development,18,Network Design,0.62,false,gap
+20260727T104742Z-475eb3,Y4,25,software development,18,Software Development And It Operations Devops,0.65,false,gap
+20260727T104742Z-475eb3,Y4,26,system integration,18,Networks Ii,0.64,false,gap
+20260727T104742Z-475eb3,Y4,26,system integration,18,Systems And Networks Administration,0.66,false,gap
+20260727T104742Z-475eb3,Y4,26,system integration,18,Advanced Database And Database Management Systems,0.66,false,gap
+20260727T104742Z-475eb3,Y4,26,system integration,18,Distributed Systems,0.76,false,covered
+20260727T104742Z-475eb3,Y4,26,system integration,18,Internet Programming Ii,0.82,false,covered
+20260727T104742Z-475eb3,Y4,26,system integration,18,Introduction To Mobile Application Development,0.67,false,gap
+20260727T104742Z-475eb3,Y4,26,system integration,18,Network Design,0.72,false,borderline
+20260727T104742Z-475eb3,Y4,26,system integration,18,Software Development And It Operations Devops,0.82,true,covered
+20260727T104742Z-475eb3,Y4,27,vmware virtualization,18,Networks Ii,0.62,false,gap
+20260727T104742Z-475eb3,Y4,27,vmware virtualization,18,Systems And Networks Administration,0.94,true,covered
+20260727T104742Z-475eb3,Y4,27,vmware virtualization,18,Advanced Database And Database Management Systems,0.63,false,gap
+20260727T104742Z-475eb3,Y4,27,vmware virtualization,18,Distributed Systems,0.69,false,borderline
+20260727T104742Z-475eb3,Y4,27,vmware virtualization,18,Internet Programming Ii,0.65,false,gap
+20260727T104742Z-475eb3,Y4,27,vmware virtualization,18,Introduction To Mobile Application Development,0.62,false,gap
+20260727T104742Z-475eb3,Y4,27,vmware virtualization,18,Network Design,0.63,false,gap
+20260727T104742Z-475eb3,Y4,27,vmware virtualization,18,Software Development And It Operations Devops,0.69,false,borderline
+20260727T104742Z-475eb3,Y4,28,performance tuning,17,Networks Ii,0.63,false,gap
+20260727T104742Z-475eb3,Y4,28,performance tuning,17,Systems And Networks Administration,0.72,false,borderline
+20260727T104742Z-475eb3,Y4,28,performance tuning,17,Advanced Database And Database Management Systems,0.67,false,gap
+20260727T104742Z-475eb3,Y4,28,performance tuning,17,Distributed Systems,0.76,true,covered
+20260727T104742Z-475eb3,Y4,28,performance tuning,17,Internet Programming Ii,0.69,false,borderline
+20260727T104742Z-475eb3,Y4,28,performance tuning,17,Introduction To Mobile Application Development,0.6,false,gap
+20260727T104742Z-475eb3,Y4,28,performance tuning,17,Network Design,0.69,false,borderline
+20260727T104742Z-475eb3,Y4,28,performance tuning,17,Software Development And It Operations Devops,0.75,false,covered
+20260727T104742Z-475eb3,Y4,29,disaster recovery planning,16,Networks Ii,0.62,false,gap
+20260727T104742Z-475eb3,Y4,29,disaster recovery planning,16,Systems And Networks Administration,0.7,true,borderline
+20260727T104742Z-475eb3,Y4,29,disaster recovery planning,16,Advanced Database And Database Management Systems,0.68,false,gap
+20260727T104742Z-475eb3,Y4,29,disaster recovery planning,16,Distributed Systems,0.65,false,gap
+20260727T104742Z-475eb3,Y4,29,disaster recovery planning,16,Internet Programming Ii,0.6,false,gap
+20260727T104742Z-475eb3,Y4,29,disaster recovery planning,16,Introduction To Mobile Application Development,0.54,false,gap
+20260727T104742Z-475eb3,Y4,29,disaster recovery planning,16,Network Design,0.67,false,gap
+20260727T104742Z-475eb3,Y4,29,disaster recovery planning,16,Software Development And It Operations Devops,0.61,false,gap
+20260727T104742Z-475eb3,Y4,30,network administration,16,Networks Ii,0.73,false,covered
+20260727T104742Z-475eb3,Y4,30,network administration,16,Systems And Networks Administration,0.88,false,covered
+20260727T104742Z-475eb3,Y4,30,network administration,16,Advanced Database And Database Management Systems,0.62,false,gap
+20260727T104742Z-475eb3,Y4,30,network administration,16,Distributed Systems,0.7,false,borderline
+20260727T104742Z-475eb3,Y4,30,network administration,16,Internet Programming Ii,0.66,false,gap
+20260727T104742Z-475eb3,Y4,30,network administration,16,Introduction To Mobile Application Development,0.58,false,gap
+20260727T104742Z-475eb3,Y4,30,network administration,16,Network Design,0.89,true,covered
+20260727T104742Z-475eb3,Y4,30,network administration,16,Software Development And It Operations Devops,0.68,false,gap

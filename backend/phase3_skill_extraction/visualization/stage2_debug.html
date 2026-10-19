@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stage 2 Debug Viewer</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', sans-serif; background: #0f1117; color: #e2e8f0; display: flex; height: 100vh; overflow: hidden; }
+
+    /* ── Sidebar ── */
+    #sidebar {
+      width: 280px;
+      min-width: 280px;
+      background: #161b27;
+      border-right: 1px solid #2d3748;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    #sidebar-header {
+      padding: 16px;
+      border-bottom: 1px solid #2d3748;
+      flex-shrink: 0;
+    }
+    #sidebar-header h2 { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: #718096; }
+    #job-count { font-size: 0.72rem; color: #4a5568; margin-top: 4px; }
+    #search {
+      margin-top: 10px;
+      width: 100%;
+      background: #1e2330;
+      border: 1px solid #2d3748;
+      border-radius: 6px;
+      padding: 7px 10px;
+      color: #e2e8f0;
+      font-size: 0.82rem;
+      outline: none;
+    }
+    #search:focus { border-color: #6366f1; }
+    #job-list { overflow-y: auto; flex: 1; }
+    .job-item {
+      padding: 12px 16px;
+      border-bottom: 1px solid #1e2330;
+      cursor: pointer;
+      transition: background 0.12s;
+    }
+    .job-item:hover { background: #1e2330; }
+    .job-item.active { background: #1a2240; border-left: 3px solid #6366f1; }
+    .job-item-title { font-size: 0.83rem; font-weight: 600; color: #e2e8f0; line-height: 1.3; }
+    .job-item-meta { font-size: 0.72rem; color: #718096; margin-top: 4px; }
+    .job-item-skills { font-size: 0.70rem; color: #4a5568; margin-top: 3px; }
+
+    /* ── Main content ── */
+    #main {
+      flex: 1;
+      overflow-y: auto;
+      padding: 24px;
+    }
+    #empty-state {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      color: #4a5568;
+      font-size: 0.9rem;
+    }
+
+    /* ── Job detail ── */
+    .job-header {
+      background: #1e2330;
+      border: 1px solid #2d3748;
+      border-left: 4px solid #6366f1;
+      border-radius: 8px;
+      padding: 20px 24px;
+      margin-bottom: 16px;
+    }
+    .job-title { font-size: 1.3rem; font-weight: 700; color: #e2e8f0; margin-bottom: 10px; }
+    .meta-row { display: flex; flex-wrap: wrap; gap: 8px; }
+    .meta-tag {
+      background: #2d3748;
+      border-radius: 4px;
+      padding: 3px 10px;
+      font-size: 0.75rem;
+      color: #a0aec0;
+    }
+    .meta-tag span { color: #e2e8f0; font-weight: 600; }
+
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px; }
+    .card {
+      background: #1e2330;
+      border: 1px solid #2d3748;
+      border-radius: 8px;
+      padding: 16px 18px;
+    }
+    .card-title {
+      font-size: 0.70rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #718096;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+    .card p { font-size: 0.84rem; line-height: 1.75; color: #cbd5e0; white-space: pre-wrap; }
+
+    .skills-card {
+      background: #1e2330;
+      border: 1px solid #2d3748;
+      border-radius: 8px;
+      padding: 16px 18px;
+    }
+    .skills-wrap { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+    .skill-tag {
+      background: #1a2e4a;
+      border: 1px solid #2b4a7a;
+      color: #7dd3fc;
+      border-radius: 20px;
+      padding: 4px 13px;
+      font-size: 0.80rem;
+    }
+    .badge {
+      display: inline-block;
+      background: #2d3748;
+      color: #a0aec0;
+      border-radius: 10px;
+      padding: 2px 8px;
+      font-size: 0.70rem;
+      margin-left: 6px;
+      vertical-align: middle;
+    }
+
+    /* scrollbar */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: #2d3748; border-radius: 3px; }
+  </style>
+</head>
+<body>
+
+<div id="sidebar">
+  <div id="sidebar-header">
+    <h2>Stage 2 Output</h2>
+    <div id="job-count">Loading...</div>
+    <input id="search" type="text" placeholder="Search jobs...">
+  </div>
+  <div id="job-list"></div>
+</div>
+
+<div id="main">
+  <div id="empty-state">← Select a job to view details</div>
+  <div id="detail" style="display:none"></div>
+</div>
+
+<script>
+  let allJobs = [];
+
+  fetch('stage2_output.json')
+    .then(r => r.json())
+    .then(data => {
+      allJobs = data;
+      document.getElementById('job-count').textContent = `${data.length} jobs loaded`;
+      renderList(data);
+      if (data.length > 0) selectJob(0);
+    })
+    .catch(err => {
+      document.getElementById('job-count').textContent = 'Failed to load JSON';
+      console.error(err);
+    });
+
+  function renderList(jobs) {
+    const list = document.getElementById('job-list');
+    list.innerHTML = '';
+    jobs.forEach((job, idx) => {
+      const el = document.createElement('div');
+      el.className = 'job-item';
+      el.dataset.idx = idx;
+      const skillCount = (job.skills || []).length;
+      el.innerHTML = `
+        <div class="job-item-title">${job.job_title || 'Unknown'}</div>
+        <div class="job-item-meta">${job.company_name || ''} · ${job.job_category || ''}</div>
+        <div class="job-item-skills">${skillCount} skills · ${job.source_file || ''}</div>
+      `;
+      el.addEventListener('click', () => selectJob(idx));
+      list.appendChild(el);
+    });
+  }
+
+  function selectJob(idx) {
+    // highlight sidebar
+    document.querySelectorAll('.job-item').forEach(el => el.classList.remove('active'));
+    const activeEl = document.querySelector(`.job-item[data-idx="${idx}"]`);
+    if (activeEl) activeEl.classList.add('active');
+
+    const job = allJobs[idx];
+    document.getElementById('empty-state').style.display = 'none';
+    const detail = document.getElementById('detail');
+    detail.style.display = 'block';
+
+    const skills = (job.skills || []);
+    const skillTags = skills.map(s => `<span class="skill-tag">${s}</span>`).join('');
+
+    detail.innerHTML = `
+      <div class="job-header">
+        <div class="job-title">${job.job_title || 'Unknown'}</div>
+        <div class="meta-row">
+          ${job.company_name   ? `<div class="meta-tag">Company: <span>${job.company_name}</span></div>` : ''}
+          ${job.job_category   ? `<div class="meta-tag">Category: <span>${job.job_category}</span></div>` : ''}
+          ${job.location       ? `<div class="meta-tag">Location: <span>${job.location}</span></div>` : ''}
+          ${job.salary         ? `<div class="meta-tag">Salary: <span>${job.salary}</span></div>` : ''}
+          ${job.posted_date    ? `<div class="meta-tag">Posted: <span>${job.posted_date}</span></div>` : ''}
+          ${job.source_file    ? `<div class="meta-tag">File: <span>${job.source_file}</span></div>` : ''}
+        </div>
+      </div>
+
+      <div class="grid">
+        <div class="card">
+          <div class="card-title">Job Description</div>
+          <p>${job.job_description || '—'}</p>
+        </div>
+        <div class="card">
+          <div class="card-title">Job Requirements</div>
+          <p>${job.job_requirement || '—'}</p>
+        </div>
+      </div>
+
+      <div class="skills-card">
+        <div class="card-title">
+          Extracted Skills
+          <span class="badge">${skills.length}</span>
+        </div>
+        <div class="skills-wrap">${skillTags || '<span style="color:#4a5568;font-size:0.82rem">No skills extracted</span>'}</div>
+      </div>
+    `;
+  }
+
+  // search filter
+  document.getElementById('search').addEventListener('input', function() {
+    const q = this.value.toLowerCase();
+    const filtered = allJobs.filter((job, idx) => {
+      job._origIdx = idx;
+      return (job.job_title || '').toLowerCase().includes(q)
+          || (job.company_name || '').toLowerCase().includes(q)
+          || (job.job_category || '').toLowerCase().includes(q)
+          || (job.skills || []).some(s => s.toLowerCase().includes(q));
+    });
+    renderList(filtered);
+    if (filtered.length > 0) selectJob(filtered[0]._origIdx ?? 0);
+  });
+</script>
+</body>
+</html>

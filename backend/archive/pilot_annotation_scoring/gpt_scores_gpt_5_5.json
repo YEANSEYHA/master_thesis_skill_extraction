@@ -1,0 +1,1838 @@
+{
+ "summary": {
+  "model": "gpt-5.5",
+  "n_pairs": 200,
+  "unparsed_rows": [],
+  "gpt_verdicts": {
+   "Yes": 48,
+   "No": 84,
+   "Partly": 68
+  },
+  "gpt_score_mean": 4.21,
+  "vs_instrument": {
+   "n": 200,
+   "agreement": 0.66,
+   "instrument_vs_gpt_prf": {
+    "Yes": {
+     "precision": 0.698,
+     "recall": 0.771,
+     "f1": 0.733
+    },
+    "Partly": {
+     "precision": 0.556,
+     "recall": 0.294,
+     "f1": 0.385
+    },
+    "No": {
+     "precision": 0.676,
+     "recall": 0.893,
+     "f1": 0.769
+    }
+   },
+   "pearson_cos_vs_score": 0.803,
+   "spearman_cos_vs_score": 0.778
+  }
+ },
+ "rows": [
+  {
+   "row": 1,
+   "skill": "artificial intelligence",
+   "clo": "Machine Learning Model Implementation",
+   "course": "Introduction to AI",
+   "gpt_score": 8,
+   "gpt_verdict": "Yes",
+   "note": "Machine learning model implementation is a core practical component of artificial intelligence."
+  },
+  {
+   "row": 2,
+   "skill": "c++",
+   "clo": "Object-Oriented Programming (OOP)",
+   "course": "C++ Programming",
+   "gpt_score": 7,
+   "gpt_verdict": "Yes",
+   "note": "OOP is a core part of C++ programming, but it does not cover the full C++ skill set."
+  },
+  {
+   "row": 3,
+   "skill": "authentication",
+   "clo": "Java Programming",
+   "course": "Object-Oriented Programming",
+   "gpt_score": 3,
+   "gpt_verdict": "No",
+   "note": "Java programming is a general foundation but does not specifically teach authentication."
+  },
+  {
+   "row": 4,
+   "skill": "docker",
+   "clo": "Modular Programming",
+   "course": "C++ Programming",
+   "gpt_score": 0,
+   "gpt_verdict": "No",
+   "note": "Modular programming in C++ does not teach Docker or containerization."
+  },
+  {
+   "row": 5,
+   "skill": "computer vision",
+   "clo": "VMware vSphere",
+   "course": "System Administration",
+   "gpt_score": 0,
+   "gpt_verdict": "No",
+   "note": "VMware vSphere covers virtualization/system administration, not computer vision."
+  },
+  {
+   "row": 6,
+   "skill": "customer focus",
+   "clo": "Data Storage Types",
+   "course": "Introduction to AI",
+   "gpt_score": 0,
+   "gpt_verdict": "No",
+   "note": "Data storage types do not teach customer focus or customer-oriented practices."
+  },
+  {
+   "row": 7,
+   "skill": "network security",
+   "clo": "Network Security",
+   "course": "System Administration",
+   "gpt_score": 10,
+   "gpt_verdict": "Yes",
+   "note": "The learning outcome exactly matches the market skill of network security."
+  },
+  {
+   "row": 8,
+   "skill": "algorithms",
+   "clo": "Algorithm Design",
+   "course": "C++ Programming",
+   "gpt_score": 10,
+   "gpt_verdict": "Yes",
+   "note": "The outcome directly teaches algorithm design, which is central to algorithms."
+  },
+  {
+   "row": 9,
+   "skill": "business administration",
+   "clo": "Network Administration",
+   "course": "System Administration",
+   "gpt_score": 0,
+   "gpt_verdict": "No",
+   "note": "Network administration is a technical IT skill, not business administration."
+  },
+  {
+   "row": 10,
+   "skill": "threat modeling",
+   "clo": "NIST Cybersecurity Framework",
+   "course": "Cybersecurity",
+   "gpt_score": 5,
+   "gpt_verdict": "Partly",
+   "note": "NIST CSF provides risk management context related to threat modeling but does not specifically teach threat modeling techniques."
+  },
+  {
+   "row": 11,
+   "skill": "computer science",
+   "clo": "Computer Fundamentals",
+   "course": "C++ Programming",
+   "gpt_score": 6,
+   "gpt_verdict": "Partly",
+   "note": "Computer fundamentals provide a foundation for computer science but do not cover the full discipline."
+  },
+  {
+   "row": 12,
+   "skill": "automation",
+   "clo": "System Configuration and Management",
+   "course": "System Administration",
+   "gpt_score": 5,
+   "gpt_verdict": "Partly",
+   "note": "System configuration and management is related foundation for automation but does not explicitly teach automation itself."
+  },
+  {
+   "row": 13,
+   "skill": "data analysis",
+   "clo": "Exploratory Data Analysis (EDA)",
+   "course": "Introduction to AI",
+   "gpt_score": 9,
+   "gpt_verdict": "Yes",
+   "note": "Exploratory Data Analysis is a core data analysis skill, though it may not cover the full breadth of data analysis."
+  },
+  {
+   "row": 14,
+   "skill": "data warehouse",
+   "clo": "Application Services Management",
+   "course": "System Administration",
+   "gpt_score": 2,
+   "gpt_verdict": "No",
+   "note": "Application services management is only indirectly related to operating data warehouse systems and does not teach data warehousing concepts."
+  },
+  {
+   "row": 15,
+   "skill": "project management",
+   "clo": "System Configuration and Management",
+   "course": "System Administration",
+   "gpt_score": 1,
+   "gpt_verdict": "No",
+   "note": "This outcome covers managing system configurations, not project management practices."
+  },
+  {
+   "row": 16,
+   "skill": "data management",
+   "clo": "Data Storage Types",
+   "course": "Introduction to AI",
+   "gpt_score": 5,
+   "gpt_verdict": "Partly",
+   "note": "Covers a foundational aspect of data management, but not broader management practices."
+  },
+  {
+   "row": 17,
+   "skill": "network maintenance",
+   "clo": "System Configuration and Management",
+   "course": "System Administration",
+   "gpt_score": 6,
+   "gpt_verdict": "Partly",
+   "note": "System configuration and management supports maintenance tasks but does not explicitly focus on network maintenance."
+  },
+  {
+   "row": 18,
+   "skill": "aws",
+   "clo": "Network Services Deployment and Management",
+   "course": "System Administration",
+   "gpt_score": 4,
+   "gpt_verdict": "Partly",
+   "note": "Network service deployment is relevant foundation, but AWS-specific cloud services are not explicitly taught."
+  },
+  {
+   "row": 19,
+   "skill": "python",
+   "clo": "Java Programming",
+   "course": "Object-Oriented Programming",
+   "gpt_score": 4,
+   "gpt_verdict": "Partly",
+   "note": "Java programming builds general OOP skills but does not teach Python specifically."
+  },
+  {
+   "row": 20,
+   "skill": "programming",
+   "clo": "Java Programming",
+   "course": "Object-Oriented Programming",
+   "gpt_score": 9,
+   "gpt_verdict": "Yes",
+   "note": "Java programming directly teaches core programming skills."
+  },
+  {
+   "row": 21,
+   "skill": "aws",
+   "clo": "Server Administration",
+   "course": "System Administration",
+   "gpt_score": 4,
+   "gpt_verdict": "Partly",
+   "note": "Server administration provides relevant infrastructure foundations but does not specifically teach AWS."
+  },
+  {
+   "row": 22,
+   "skill": "servers",
+   "clo": "Ubuntu Server Administration",
+   "course": "System Administration",
+   "gpt_score": 9,
+   "gpt_verdict": "Yes",
+   "note": "Ubuntu Server Administration directly teaches practical server management, though focused on Ubuntu."
+  },
+  {
+   "row": 23,
+   "skill": "functional programming",
+   "clo": "C++ Programming",
+   "course": "C++ Programming",
+   "gpt_score": 3,
+   "gpt_verdict": "No",
+   "note": "General C++ programming may include some relevant concepts but does not specifically teach functional programming."
+  },
+  {
+   "row": 24,
+   "skill": "software development",
+   "clo": "Secure Software Development Ethics",
+   "course": "Cybersecurity",
+   "gpt_score": 5,
+   "gpt_verdict": "Partly",
+   "note": "The outcome addresses ethical aspects of secure software development, but not general software development practice itself."
+  },
+  {
+   "row": 25,
+   "skill": "c++",
+   "clo": "Compiler Basics",
+   "course": "C++ Programming",
+   "gpt_score": 4,
+   "gpt_verdict": "Partly",
+   "note": "Compiler basics are related to C++ development but do not directly teach C++ programming skills."
+  },
+  {
+   "row": 26,
+   "skill": "testing",
+   "clo": "Constructors",
+   "course": "Object-Oriented Programming",
+   "gpt_score": 0,
+   "gpt_verdict": "No",
+   "note": "Constructors are an OOP concept and do not address testing."
+  },
+  {
+   "row": 27,
+   "skill": "root cause analysis",
+   "clo": "Exploratory Data Analysis (EDA)",
+   "course": "Introduction to AI",
+   "gpt_score": 4,
+   "gpt_verdict": "Partly",
+   "note": "EDA can support investigating causes in data but does not directly teach root cause analysis methods."
+  },
+  {
+   "row": 28,
+   "skill": "group policy",
+   "clo": "Network Services Deployment and Management",
+   "course": "System Administration",
+   "gpt_score": 4,
+   "gpt_verdict": "Partly",
+   "note": "Network services management is related to system administration but does not explicitly teach Group Policy."
+  },
+  {
+   "row": 29,
+   "skill": "programming",
+   "clo": "Python Programming",
+   "course": "Introduction to AI",
+   "gpt_score": 10,
+   "gpt_verdict": "Yes",
+   "note": "The outcome directly teaches programming through Python."
+  },
+  {
+   "row": 30,
+   "skill": "vulnerability management",
+   "clo": "K-Nearest Neighbors (KNN)",
+   "course": "Introduction to AI",
+   "gpt_score": 0,
+   "gpt_verdict": "No",
+   "note": "KNN is a machine learning topic and does not teach vulnerability management."
+  },
+  {
+   "row": 31,
+   "skill": "optimization",
+   "clo": "Classification Algorithms",
+   "course": "Introduction to AI",
+   "gpt_score": 4,
+   "gpt_verdict": "Partly",
+   "note": "Classification algorithms may use optimization internally, but the outcome does not directly teach optimization methods."
+  },
+  {
+   "row": 32,
+   "skill": "full stack development",
+   "clo": "Network Protocols",
+   "course": "System Administration",
+   "gpt_score": 2,
+   "gpt_verdict": "No",
+   "note": "Network protocols provide background knowledge but do not teach full stack development."
+  },
+  {
+   "row": 33,
+   "skill": "system administration",
+   "clo": "Linux/UNIX System Administration",
+   "course": "System Administration",
+   "gpt_score": 9,
+   "gpt_verdict": "Yes",
+   "note": "Directly teaches system administration, specifically for Linux/UNIX environments."
+  },
+  {
+   "row": 34,
+   "skill": "system integration",
+   "clo": "Operating System Setup and Configuration",
+   "course": "System Administration",
+   "gpt_score": 5,
+   "gpt_verdict": "Partly",
+   "note": "OS setup and configuration is foundational for system integration but does not directly teach integrating multiple systems."
+  },
+  {
+   "row": 35,
+   "skill": "agile",
+   "clo": "Modular Programming",
+   "course": "C++ Programming",
+   "gpt_score": 1,
+   "gpt_verdict": "No",
+   "note": "Modular programming is a coding/design concept, not agile methodology."
+  },
+  {
+   "row": 36,
+   "skill": "threat modeling",
+   "clo": "Cyberattack Stages (Attack Lifecycle)",
+   "course": "Cybersecurity",
+   "gpt_score": 5,
+   "gpt_verdict": "Partly",
+   "note": "Attack lifecycle knowledge supports threat modeling but does not teach the threat modeling process itself."
+  },
+  {
+   "row": 37,
+   "skill": "requirements gathering",
+   "clo": "Application Services Management",
+   "course": "System Administration",
+   "gpt_score": 1,
+   "gpt_verdict": "No",
+   "note": "Application services management does not directly cover eliciting or documenting user requirements."
+  },
+  {
+   "row": 38,
+   "skill": "mvc",
+   "clo": "Network Administration",
+   "course": "System Administration",
+   "gpt_score": 0,
+   "gpt_verdict": "No",
+   "note": "Network administration does not teach the MVC software architecture pattern."
+  },
+  {
+   "row": 39,
+   "skill": "machine learning",
+   "clo": "Decision Trees",
+   "course": "Introduction to AI",
+   "gpt_score": 7,
+   "gpt_verdict": "Yes",
+   "note": "Decision trees are a core machine learning method, but this covers only one part of the broader skill."
+  },
+  {
+   "row": 40,
+   "skill": "azure",
+   "clo": "VMware vSphere",
+   "course": "System Administration",
+   "gpt_score": 3,
+   "gpt_verdict": "No",
+   "note": "VMware vSphere provides virtualization foundations but does not teach Microsoft Azure directly."
+  },
+  {
+   "row": 41,
+   "skill": "automation",
+   "clo": "Artificial Intelligence Fundamentals",
+   "course": "Introduction to AI",
+   "gpt_score": 4,
+   "gpt_verdict": "Partly",
+   "note": "AI fundamentals provide related concepts but do not explicitly teach automation skills."
+  },
+  {
+   "row": 42,
+   "skill": "rust",
+   "clo": "Java Programming",
+   "course": "Object-Oriented Programming",
+   "gpt_score": 3,
+   "gpt_verdict": "No",
+   "note": "Java programming provides general coding foundations but does not teach Rust."
+  },
+  {
+   "row": 43,
+   "skill": "network maintenance",
+   "clo": "Network Troubleshooting",
+   "course": "System Administration",
+   "gpt_score": 8,
+   "gpt_verdict": "Yes",
+   "note": "Network troubleshooting is a core component of network maintenance, though maintenance also includes preventive and ongoing administration tasks."
+  },
+  {
+   "row": 44,
+   "skill": "microsoft office suite",
+   "clo": "User Account Management",
+   "course": "System Administration",
+   "gpt_score": 0,
+   "gpt_verdict": "No",
+   "note": "User account management does not teach Microsoft Office Suite applications."
+  },
+  {
+   "row": 45,
+   "skill": "aws",
+   "clo": "Systems Administration",
+   "course": "System Administration",
+   "gpt_score": 3,
+   "gpt_verdict": "No",
+   "note": "General systems administration is foundational but does not specifically teach AWS."
+  },
+  {
+   "row": 46,
+   "skill": "application security",
+   "clo": "Secure Software Development Ethics",
+   "course": "Cybersecurity",
+   "gpt_score": 6,
+   "gpt_verdict": "Partly",
+   "note": "Secure software development relates to application security, but the outcome emphasizes ethics rather than technical application security practices."
+  },
+  {
+   "row": 47,
+   "skill": "sql",
+   "clo": "SQL Injection Prevention",
+   "course": "Cybersecurity",
+   "gpt_score": 5,
+   "gpt_verdict": "Partly",
+   "note": "Covers SQL-related security concepts but not general SQL querying or database use."
+  },
+  {
+   "row": 48,
+   "skill": "standards",
+   "clo": "Secure Web Application Development",
+   "course": "Cybersecurity",
+   "gpt_score": 3,
+   "gpt_verdict": "No",
+   "note": "Secure web application development may reference security standards, but standards are not explicitly taught."
+  },
+  {
+   "row": 49,
+   "skill": "full stack development",
+   "clo": "Software Analysis and Design with OOP",
+   "course": "Object-Oriented Programming",
+   "gpt_score": 4,
+   "gpt_verdict": "Partly",
+   "note": "OOP analysis and design supports software development but does not cover full stack front-end, back-end, database, or deployment skills."
+  },
+  {
+   "row": 50,
+   "skill": "emr",
+   "clo": "Network Troubleshooting",
+   "course": "System Administration",
+   "gpt_score": 0,
+   "gpt_verdict": "No",
+   "note": "Network troubleshooting does not teach electronic medical records (EMR) systems."
+  },
+  {
+   "row": 51,
+   "skill": "quality assurance",
+   "clo": "Containerization",
+   "course": "System Administration",
+   "gpt_score": 2,
+   "gpt_verdict": "No",
+   "note": "Containerization can support consistent testing environments but does not directly teach quality assurance practices."
+  },
+  {
+   "row": 52,
+   "skill": "applications",
+   "clo": "Regression Models",
+   "course": "Introduction to AI",
+   "gpt_score": 2,
+   "gpt_verdict": "No",
+   "note": "Regression models are an AI technique, but the outcome does not directly teach general applications."
+  },
+  {
+   "row": 53,
+   "skill": "db2",
+   "clo": "Pandas",
+   "course": "Introduction to AI",
+   "gpt_score": 2,
+   "gpt_verdict": "No",
+   "note": "Pandas supports data manipulation but does not teach IBM DB2 database skills."
+  },
+  {
+   "row": 54,
+   "skill": "c++",
+   "clo": "C++ Programming",
+   "course": "C++ Programming",
+   "gpt_score": 10,
+   "gpt_verdict": "Yes",
+   "note": "The outcome directly teaches C++ programming."
+  },
+  {
+   "row": 55,
+   "skill": "databases",
+   "clo": "Data Storage Types",
+   "course": "C++ Programming",
+   "gpt_score": 3,
+   "gpt_verdict": "No",
+   "note": "Data storage types in C++ are only a basic programming foundation and do not teach database systems."
+  },
+  {
+   "row": 56,
+   "skill": "security analysis",
+   "clo": "Cyber Threats and Vulnerabilities Analysis",
+   "course": "Cybersecurity",
+   "gpt_score": 9,
+   "gpt_verdict": "Yes",
+   "note": "The outcome directly covers analyzing cyber threats and vulnerabilities, a core part of security analysis."
+  },
+  {
+   "row": 57,
+   "skill": "java",
+   "clo": "Java Swing",
+   "course": "Object-Oriented Programming",
+   "gpt_score": 7,
+   "gpt_verdict": "Yes",
+   "note": "Java Swing teaches a Java-based GUI framework, covering part of the broader Java skill."
+  },
+  {
+   "row": 58,
+   "skill": "docker",
+   "clo": "Virtualization",
+   "course": "System Administration",
+   "gpt_score": 5,
+   "gpt_verdict": "Partly",
+   "note": "Virtualization is related infrastructure knowledge but does not specifically teach Docker or containerization."
+  },
+  {
+   "row": 59,
+   "skill": "storage",
+   "clo": "Data Storage Types",
+   "course": "C++ Programming",
+   "gpt_score": 5,
+   "gpt_verdict": "Partly",
+   "note": "Covers data storage concepts in programming, but not broader storage systems skills."
+  },
+  {
+   "row": 60,
+   "skill": "data science",
+   "clo": "Interfaces",
+   "course": "Object-Oriented Programming",
+   "gpt_score": 2,
+   "gpt_verdict": "No",
+   "note": "Interfaces are a general programming concept and do not teach data science methods or workflows."
+  },
+  {
+   "row": 61,
+   "skill": "unix",
+   "clo": "Interfaces",
+   "course": "Object-Oriented Programming",
+   "gpt_score": 0,
+   "gpt_verdict": "No",
+   "note": "Interfaces in object-oriented programming do not teach Unix skills."
+  },
+  {
+   "row": 62,
+   "skill": "infrastructure as code",
+   "clo": "Infrastructure Services Management",
+   "course": "System Administration",
+   "gpt_score": 4,
+   "gpt_verdict": "Partly",
+   "note": "Infrastructure services management is related to infrastructure operations but does not specifically teach infrastructure as code."
+  },
+  {
+   "row": 63,
+   "skill": "data analysis",
+   "clo": "Logistic Regression",
+   "course": "Introduction to AI",
+   "gpt_score": 7,
+   "gpt_verdict": "Yes",
+   "note": "Logistic regression is a core data analysis modeling technique, but it covers only one part of the broader skill."
+  },
+  {
+   "row": 64,
+   "skill": "documentation",
+   "clo": "System Configuration and Management",
+   "course": "System Administration",
+   "gpt_score": 2,
+   "gpt_verdict": "No",
+   "note": "System configuration and management may involve documentation, but it is not explicitly taught."
+  },
+  {
+   "row": 65,
+   "skill": "data management",
+   "clo": "Data Preparation",
+   "course": "Introduction to AI",
+   "gpt_score": 6,
+   "gpt_verdict": "Partly",
+   "note": "Data preparation is a core component of data management but does not cover the broader skill comprehensively."
+  },
+  {
+   "row": 66,
+   "skill": "simulation",
+   "clo": "Artificial Intelligence Fundamentals",
+   "course": "Introduction to AI",
+   "gpt_score": 4,
+   "gpt_verdict": "Partly",
+   "note": "AI fundamentals may introduce concepts related to simulation, but the outcome does not explicitly teach simulation skills."
+  },
+  {
+   "row": 67,
+   "skill": "itil",
+   "clo": "Exploratory Data Analysis (EDA)",
+   "course": "Introduction to AI",
+   "gpt_score": 0,
+   "gpt_verdict": "No",
+   "note": "EDA in an AI course does not teach ITIL service management practices."
+  },
+  {
+   "row": 68,
+   "skill": "network analysis",
+   "clo": "Network Fundamentals",
+   "course": "System Administration",
+   "gpt_score": 5,
+   "gpt_verdict": "Partly",
+   "note": "Network fundamentals provide a foundation for network analysis but do not explicitly teach analysis methods."
+  },
+  {
+   "row": 69,
+   "skill": "network security",
+   "clo": "Network Monitoring",
+   "course": "System Administration",
+   "gpt_score": 5,
+   "gpt_verdict": "Partly",
+   "note": "Network monitoring is related to network security but does not by itself teach security principles or controls."
+  },
+  {
+   "row": 70,
+   "skill": "documentation",
+   "clo": "Compiler Basics",
+   "course": "C++ Programming",
+   "gpt_score": 0,
+   "gpt_verdict": "No",
+   "note": "Compiler basics does not address documentation skills."
+  },
+  {
+   "row": 71,
+   "skill": "networking",
+   "clo": "Cisco Networking",
+   "course": "System Administration",
+   "gpt_score": 10,
+   "gpt_verdict": "Yes",
+   "note": "Cisco Networking directly teaches core networking skills."
+  },
+  {
+   "row": 72,
+   "skill": "linux",
+   "clo": "System Configuration and Management",
+   "course": "System Administration",
+   "gpt_score": 6,
+   "gpt_verdict": "Partly",
+   "note": "Covers system configuration and management relevant to Linux administration, but Linux is not explicitly specified."
+  },
+  {
+   "row": 73,
+   "skill": "optimization",
+   "clo": "K-Means Algorithm",
+   "course": "Introduction to AI",
+   "gpt_score": 5,
+   "gpt_verdict": "Partly",
+   "note": "K-Means involves an optimization objective, but it does not teach optimization as a general skill."
+  },
+  {
+   "row": 74,
+   "skill": "data pipelines",
+   "clo": "Arrays",
+   "course": "Object-Oriented Programming",
+   "gpt_score": 2,
+   "gpt_verdict": "No",
+   "note": "Arrays provide basic data handling foundations but do not teach building data pipelines."
+  },
+  {
+   "row": 75,
+   "skill": "troubleshooting",
+   "clo": "System Operations and Maintenance",
+   "course": "System Administration",
+   "gpt_score": 6,
+   "gpt_verdict": "Partly",
+   "note": "System operations and maintenance is closely related to troubleshooting, but the outcome does not explicitly state diagnosing or resolving faults."
+  },
+  {
+   "row": 76,
+   "skill": "data preparation",
+   "clo": "Exploratory Data Analysis (EDA)",
+   "course": "Introduction to AI",
+   "gpt_score": 6,
+   "gpt_verdict": "Partly",
+   "note": "EDA is closely related to data preparation but does not explicitly cover cleaning, transforming, or structuring data."
+  },
+  {
+   "row": 77,
+   "skill": "word",
+   "clo": "Linear Classification",
+   "course": "Introduction to AI",
+   "gpt_score": 0,
+   "gpt_verdict": "No",
+   "note": "Linear classification in an AI course does not teach Word or word-processing skills."
+  },
+  {
+   "row": 78,
+   "skill": "automation",
+   "clo": "Abstraction",
+   "course": "Object-Oriented Programming",
+   "gpt_score": 3,
+   "gpt_verdict": "No",
+   "note": "Abstraction is a programming foundation that can support automation but does not teach automation itself."
+  },
+  {
+   "row": 79,
+   "skill": "program management",
+   "clo": "Server Administration",
+   "course": "System Administration",
+   "gpt_score": 0,
+   "gpt_verdict": "No",
+   "note": "Server administration is a technical operations skill and does not teach program management."
+  },
+  {
+   "row": 80,
+   "skill": "db2",
+   "clo": "Data Types and Operators",
+   "course": "C++ Programming",
+   "gpt_score": 0,
+   "gpt_verdict": "No",
+   "note": "C++ data types and operators do not teach IBM DB2 database skills."
+  },
+  {
+   "row": 81,
+   "skill": "oracle",
+   "clo": "Java Packages",
+   "course": "Object-Oriented Programming",
+   "gpt_score": 0,
+   "gpt_verdict": "No",
+   "note": "Java packages do not teach Oracle technologies or databases."
+  },
+  {
+   "row": 82,
+   "skill": "remote work",
+   "clo": "Infrastructure Services Management",
+   "course": "System Administration",
+   "gpt_score": 2,
+   "gpt_verdict": "No",
+   "note": "Infrastructure services management may support remote access, but it does not directly teach remote work practices."
+  },
+  {
+   "row": 83,
+   "skill": "product development",
+   "clo": "Data Storage Types",
+   "course": "Introduction to AI",
+   "gpt_score": 1,
+   "gpt_verdict": "No",
+   "note": "Data storage types may support technical implementation but do not teach product development."
+  },
+  {
+   "row": 84,
+   "skill": "cloud computing",
+   "clo": "Virtualization",
+   "course": "System Administration",
+   "gpt_score": 6,
+   "gpt_verdict": "Partly",
+   "note": "Virtualization is a core foundation of cloud computing, but it does not by itself cover cloud platforms or services."
+  },
+  {
+   "row": 85,
+   "skill": "devops",
+   "clo": "System Configuration and Management",
+   "course": "System Administration",
+   "gpt_score": 5,
+   "gpt_verdict": "Partly",
+   "note": "System configuration and management is foundational for DevOps but does not cover DevOps practices like CI/CD or automation explicitly."
+  },
+  {
+   "row": 86,
+   "skill": "machine learning",
+   "clo": "Gradient Descent",
+   "course": "Introduction to AI",
+   "gpt_score": 6,
+   "gpt_verdict": "Partly",
+   "note": "Gradient descent is a core optimization method used in machine learning, but it is only one component of the broader skill."
+  },
+  {
+   "row": 87,
+   "skill": "network analysis",
+   "clo": "Network Monitoring",
+   "course": "System Administration",
+   "gpt_score": 7,
+   "gpt_verdict": "Yes",
+   "note": "Network monitoring is closely related to network analysis but may not cover deeper analytical methods fully."
+  },
+  {
+   "row": 88,
+   "skill": "documentation",
+   "clo": "Data Preparation",
+   "course": "Introduction to AI",
+   "gpt_score": 1,
+   "gpt_verdict": "No",
+   "note": "Data preparation does not explicitly teach documentation skills."
+  },
+  {
+   "row": 89,
+   "skill": "pytorch",
+   "clo": "Input Validation",
+   "course": "Cybersecurity",
+   "gpt_score": 0,
+   "gpt_verdict": "No",
+   "note": "Input validation in cybersecurity does not teach the PyTorch machine learning framework."
+  },
+  {
+   "row": 90,
+   "skill": "javascript",
+   "clo": "Control Statements (If/Else, Switch)",
+   "course": "Object-Oriented Programming",
+   "gpt_score": 5,
+   "gpt_verdict": "Partly",
+   "note": "Control statements are foundational for JavaScript, but the outcome does not teach JavaScript itself."
+  },
+  {
+   "row": 91,
+   "skill": "data center operations",
+   "clo": "Linux/UNIX System Administration",
+   "course": "System Administration",
+   "gpt_score": 6,
+   "gpt_verdict": "Partly",
+   "note": "Linux/UNIX administration is a core part of server operations but does not cover broader data center operations."
+  },
+  {
+   "row": 92,
+   "skill": "dashboards",
+   "clo": "Arrays",
+   "course": "Object-Oriented Programming",
+   "gpt_score": 1,
+   "gpt_verdict": "No",
+   "note": "Arrays are a basic programming concept but do not teach dashboard creation or design."
+  },
+  {
+   "row": 93,
+   "skill": "docker",
+   "clo": "Containerization",
+   "course": "System Administration",
+   "gpt_score": 8,
+   "gpt_verdict": "Yes",
+   "note": "Containerization directly covers the core concepts behind Docker, though Docker itself is not explicitly named."
+  },
+  {
+   "row": 94,
+   "skill": "mvc",
+   "clo": "Software Analysis and Design with OOP",
+   "course": "Object-Oriented Programming",
+   "gpt_score": 5,
+   "gpt_verdict": "Partly",
+   "note": "OOP analysis and design provides relevant foundations but does not explicitly teach MVC."
+  },
+  {
+   "row": 95,
+   "skill": "data analysis",
+   "clo": "Data Preparation",
+   "course": "Introduction to AI",
+   "gpt_score": 6,
+   "gpt_verdict": "Partly",
+   "note": "Data preparation is a key foundation for data analysis but does not cover analysis itself."
+  },
+  {
+   "row": 96,
+   "skill": "computer systems",
+   "clo": "Operating System Setup and Configuration",
+   "course": "System Administration",
+   "gpt_score": 7,
+   "gpt_verdict": "Yes",
+   "note": "OS setup and configuration is a core practical part of working with computer systems, though the skill is broader."
+  },
+  {
+   "row": 97,
+   "skill": "operations",
+   "clo": "System Operations and Maintenance",
+   "course": "System Administration",
+   "gpt_score": 9,
+   "gpt_verdict": "Yes",
+   "note": "The outcome directly covers system operations and maintenance, closely matching the operations skill."
+  },
+  {
+   "row": 98,
+   "skill": "microsoft office suite",
+   "clo": "Operating System Setup and Configuration",
+   "course": "System Administration",
+   "gpt_score": 1,
+   "gpt_verdict": "No",
+   "note": "Operating system setup is only tangentially related and does not teach Microsoft Office Suite skills."
+  },
+  {
+   "row": 99,
+   "skill": "rest",
+   "clo": "Programming Fundamentals",
+   "course": "C++ Programming",
+   "gpt_score": 2,
+   "gpt_verdict": "No",
+   "note": "Programming fundamentals provide general coding foundation but do not teach REST APIs specifically."
+  },
+  {
+   "row": 100,
+   "skill": "software development",
+   "clo": "Software Analysis and Design with OOP",
+   "course": "Object-Oriented Programming",
+   "gpt_score": 7,
+   "gpt_verdict": "Yes",
+   "note": "OOP analysis and design is a core part of software development, though the outcome does not explicitly cover implementation or full development lifecycle."
+  },
+  {
+   "row": 101,
+   "skill": "javascript",
+   "clo": "Cross-Site Scripting (XSS) Prevention",
+   "course": "Cybersecurity",
+   "gpt_score": 4,
+   "gpt_verdict": "Partly",
+   "note": "XSS prevention relates to JavaScript security but does not teach JavaScript programming itself."
+  },
+  {
+   "row": 102,
+   "skill": "containerization",
+   "clo": "Containerization",
+   "course": "System Administration",
+   "gpt_score": 10,
+   "gpt_verdict": "Yes",
+   "note": "The learning outcome directly matches the market skill of containerization."
+  },
+  {
+   "row": 103,
+   "skill": "data visualization",
+   "clo": "Exploratory Data Analysis (EDA)",
+   "course": "Introduction to AI",
+   "gpt_score": 7,
+   "gpt_verdict": "Yes",
+   "note": "EDA commonly includes using visualizations to explore and understand data, but the outcome is broader than data visualization alone."
+  },
+  {
+   "row": 104,
+   "skill": "machine learning",
+   "clo": "Supervised Learning",
+   "course": "Introduction to AI",
+   "gpt_score": 8,
+   "gpt_verdict": "Yes",
+   "note": "Supervised learning is a core machine learning topic, but it does not cover the full breadth of machine learning."
+  },
+  {
+   "row": 105,
+   "skill": "cism",
+   "clo": "C++ Programming",
+   "course": "C++ Programming",
+   "gpt_score": 0,
+   "gpt_verdict": "No",
+   "note": "C++ programming does not teach CISM or information security management."
+  },
+  {
+   "row": 106,
+   "skill": "six sigma",
+   "clo": "Decision Trees",
+   "course": "Introduction to AI",
+   "gpt_score": 1,
+   "gpt_verdict": "No",
+   "note": "Decision trees are an AI/ML technique and do not teach Six Sigma methodology."
+  },
+  {
+   "row": 107,
+   "skill": "java",
+   "clo": "Java Programming",
+   "course": "Object-Oriented Programming",
+   "gpt_score": 10,
+   "gpt_verdict": "Yes",
+   "note": "The outcome directly teaches Java programming, matching the Java skill."
+  },
+  {
+   "row": 108,
+   "skill": "python",
+   "clo": "Python Programming",
+   "course": "Introduction to AI",
+   "gpt_score": 10,
+   "gpt_verdict": "Yes",
+   "note": "The outcome directly teaches Python programming."
+  },
+  {
+   "row": 109,
+   "skill": "performance tuning",
+   "clo": "Linux/UNIX System Administration",
+   "course": "System Administration",
+   "gpt_score": 6,
+   "gpt_verdict": "Partly",
+   "note": "Linux/UNIX system administration is related and may include performance tuning, but the outcome does not explicitly teach it."
+  },
+  {
+   "row": 110,
+   "skill": "troubleshooting",
+   "clo": "Network Troubleshooting",
+   "course": "System Administration",
+   "gpt_score": 9,
+   "gpt_verdict": "Yes",
+   "note": "The outcome directly teaches troubleshooting, specifically in a network context."
+  },
+  {
+   "row": 111,
+   "skill": "linux",
+   "clo": "Operating System Setup and Configuration",
+   "course": "System Administration",
+   "gpt_score": 6,
+   "gpt_verdict": "Partly",
+   "note": "OS setup and configuration is relevant to Linux administration but does not explicitly specify Linux."
+  },
+  {
+   "row": 112,
+   "skill": "s3",
+   "clo": "Virtualization",
+   "course": "System Administration",
+   "gpt_score": 0,
+   "gpt_verdict": "No",
+   "note": "Virtualization does not directly teach Amazon S3 usage or concepts."
+  },
+  {
+   "row": 113,
+   "skill": "etl",
+   "clo": "Exploratory Data Analysis (EDA)",
+   "course": "Introduction to AI",
+   "gpt_score": 4,
+   "gpt_verdict": "Partly",
+   "note": "EDA is related to working with data but does not teach ETL pipeline design or loading processes."
+  },
+  {
+   "row": 114,
+   "skill": "deep learning",
+   "clo": "Gradient Boosting",
+   "course": "Introduction to AI",
+   "gpt_score": 2,
+   "gpt_verdict": "No",
+   "note": "Gradient boosting is a machine learning method but not deep learning."
+  },
+  {
+   "row": 115,
+   "skill": "computer science",
+   "clo": "C++ Programming",
+   "course": "C++ Programming",
+   "gpt_score": 5,
+   "gpt_verdict": "Partly",
+   "note": "C++ programming is a foundational part of computer science but does not cover the broader field."
+  },
+  {
+   "row": 116,
+   "skill": "azure",
+   "clo": "Virtualization",
+   "course": "System Administration",
+   "gpt_score": 4,
+   "gpt_verdict": "Partly",
+   "note": "Virtualization is foundational to cloud platforms like Azure but does not teach Azure itself."
+  },
+  {
+   "row": 117,
+   "skill": "python",
+   "clo": "C++ Programming",
+   "course": "C++ Programming",
+   "gpt_score": 3,
+   "gpt_verdict": "No",
+   "note": "C++ programming builds general programming foundations but does not teach Python."
+  },
+  {
+   "row": 118,
+   "skill": "testing",
+   "clo": "Java Programming",
+   "course": "Object-Oriented Programming",
+   "gpt_score": 3,
+   "gpt_verdict": "No",
+   "note": "Java programming is foundational but does not explicitly teach software testing."
+  },
+  {
+   "row": 119,
+   "skill": "agile",
+   "clo": "Structured Programming",
+   "course": "C++ Programming",
+   "gpt_score": 0,
+   "gpt_verdict": "No",
+   "note": "Structured programming does not teach agile methodology or practices."
+  },
+  {
+   "row": 120,
+   "skill": "web services",
+   "clo": "Application Services Management",
+   "course": "System Administration",
+   "gpt_score": 6,
+   "gpt_verdict": "Partly",
+   "note": "Application services management is related to administering web services but does not explicitly teach web services themselves."
+  },
+  {
+   "row": 121,
+   "skill": "systems analysis",
+   "clo": "Regression Models",
+   "course": "Introduction to AI",
+   "gpt_score": 1,
+   "gpt_verdict": "No",
+   "note": "Regression models teach statistical prediction, not systems analysis."
+  },
+  {
+   "row": 122,
+   "skill": "verification",
+   "clo": "Model Evaluation",
+   "course": "Introduction to AI",
+   "gpt_score": 6,
+   "gpt_verdict": "Partly",
+   "note": "Model evaluation supports verifying AI model performance but is not general verification."
+  },
+  {
+   "row": 123,
+   "skill": "data preparation",
+   "clo": "Data Preparation",
+   "course": "Introduction to AI",
+   "gpt_score": 10,
+   "gpt_verdict": "Yes",
+   "note": "The learning outcome directly matches the market skill of data preparation."
+  },
+  {
+   "row": 124,
+   "skill": "kerberos",
+   "clo": "Python Programming",
+   "course": "Introduction to AI",
+   "gpt_score": 0,
+   "gpt_verdict": "No",
+   "note": "Python programming does not teach the Kerberos authentication protocol."
+  },
+  {
+   "row": 125,
+   "skill": "cloud computing",
+   "clo": "Network Services Deployment and Management",
+   "course": "System Administration",
+   "gpt_score": 4,
+   "gpt_verdict": "Partly",
+   "note": "Network services deployment is relevant foundation for cloud computing but does not explicitly teach cloud platforms or cloud architecture."
+  },
+  {
+   "row": 126,
+   "skill": "mongodb",
+   "clo": "Secure Software Development Ethics",
+   "course": "Cybersecurity",
+   "gpt_score": 0,
+   "gpt_verdict": "No",
+   "note": "The outcome focuses on secure software development ethics and does not teach MongoDB."
+  },
+  {
+   "row": 127,
+   "skill": "plc",
+   "clo": "Data Preparation",
+   "course": "Introduction to AI",
+   "gpt_score": 0,
+   "gpt_verdict": "No",
+   "note": "Data preparation in an AI course does not teach programmable logic controllers (PLC)."
+  },
+  {
+   "row": 128,
+   "skill": "vulnerability management",
+   "clo": "Infrastructure Services Management",
+   "course": "System Administration",
+   "gpt_score": 4,
+   "gpt_verdict": "Partly",
+   "note": "Infrastructure services management is related to system administration foundations but does not explicitly teach vulnerability management."
+  },
+  {
+   "row": 129,
+   "skill": "computer systems",
+   "clo": "System Operations and Maintenance",
+   "course": "System Administration",
+   "gpt_score": 8,
+   "gpt_verdict": "Yes",
+   "note": "System operations and maintenance directly develops practical computer systems administration skills."
+  },
+  {
+   "row": 130,
+   "skill": "workflows",
+   "clo": "Java Programming",
+   "course": "Object-Oriented Programming",
+   "gpt_score": 1,
+   "gpt_verdict": "No",
+   "note": "Java programming is a general coding skill and does not specifically teach workflows."
+  },
+  {
+   "row": 131,
+   "skill": "prototyping",
+   "clo": "Modular Programming",
+   "course": "C++ Programming",
+   "gpt_score": 4,
+   "gpt_verdict": "Partly",
+   "note": "Modular programming supports building prototypes but does not directly teach prototyping."
+  },
+  {
+   "row": 132,
+   "skill": "design",
+   "clo": "Algorithm Design",
+   "course": "C++ Programming",
+   "gpt_score": 7,
+   "gpt_verdict": "Yes",
+   "note": "Algorithm design teaches a specific technical form of design, but not design broadly."
+  },
+  {
+   "row": 133,
+   "skill": "open source frameworks",
+   "clo": "Network Fundamentals",
+   "course": "System Administration",
+   "gpt_score": 2,
+   "gpt_verdict": "No",
+   "note": "Network fundamentals provides general IT foundation but does not teach open source frameworks."
+  },
+  {
+   "row": 134,
+   "skill": "git",
+   "clo": "Console Input/Output (Scanner Class)",
+   "course": "Object-Oriented Programming",
+   "gpt_score": 0,
+   "gpt_verdict": "No",
+   "note": "Console input/output with Scanner does not teach Git or version control."
+  },
+  {
+   "row": 135,
+   "skill": "verification",
+   "clo": "Constructors",
+   "course": "C++ Programming",
+   "gpt_score": 0,
+   "gpt_verdict": "No",
+   "note": "Constructors in C++ do not teach verification skills."
+  },
+  {
+   "row": 136,
+   "skill": "project management",
+   "clo": "Application Services Management",
+   "course": "System Administration",
+   "gpt_score": 2,
+   "gpt_verdict": "No",
+   "note": "Application services management is operationally related but does not teach project management methods or skills."
+  },
+  {
+   "row": 137,
+   "skill": "system integration",
+   "clo": "System Operations and Maintenance",
+   "course": "System Administration",
+   "gpt_score": 4,
+   "gpt_verdict": "Partly",
+   "note": "System operations and maintenance is related to managing integrated environments but does not directly teach system integration."
+  },
+  {
+   "row": 138,
+   "skill": "devops",
+   "clo": "Network Services Deployment and Management",
+   "course": "System Administration",
+   "gpt_score": 5,
+   "gpt_verdict": "Partly",
+   "note": "Covers deployment and operations foundations, but not DevOps practices like CI/CD, automation, or collaboration workflows."
+  },
+  {
+   "row": 139,
+   "skill": "kubernetes",
+   "clo": "Virtualization",
+   "course": "System Administration",
+   "gpt_score": 4,
+   "gpt_verdict": "Partly",
+   "note": "Virtualization is a related infrastructure foundation, but it does not specifically teach Kubernetes or container orchestration."
+  },
+  {
+   "row": 140,
+   "skill": "load balancing",
+   "clo": "K-Means Algorithm",
+   "course": "Introduction to AI",
+   "gpt_score": 0,
+   "gpt_verdict": "No",
+   "note": "K-Means clustering does not teach load balancing."
+  },
+  {
+   "row": 141,
+   "skill": "enterprise applications",
+   "clo": "Exploratory Data Analysis (EDA)",
+   "course": "Introduction to AI",
+   "gpt_score": 1,
+   "gpt_verdict": "No",
+   "note": "EDA is a data analysis skill and does not teach enterprise applications."
+  },
+  {
+   "row": 142,
+   "skill": "software development",
+   "clo": "Object-Oriented Programming (OOP)",
+   "course": "Object-Oriented Programming",
+   "gpt_score": 7,
+   "gpt_verdict": "Yes",
+   "note": "OOP is a core software development skill but does not cover the full development lifecycle."
+  },
+  {
+   "row": 143,
+   "skill": "artificial intelligence",
+   "clo": "Artificial Intelligence Fundamentals",
+   "course": "Introduction to AI",
+   "gpt_score": 9,
+   "gpt_verdict": "Yes",
+   "note": "The outcome directly covers artificial intelligence fundamentals, aligning strongly with the AI skill."
+  },
+  {
+   "row": 144,
+   "skill": "vulnerability management",
+   "clo": "Access Control Management",
+   "course": "System Administration",
+   "gpt_score": 4,
+   "gpt_verdict": "Partly",
+   "note": "Access control management is security-related but does not cover the broader process of identifying, assessing, and remediating vulnerabilities."
+  },
+  {
+   "row": 145,
+   "skill": "hybrid work",
+   "clo": "Network Fundamentals",
+   "course": "System Administration",
+   "gpt_score": 2,
+   "gpt_verdict": "No",
+   "note": "Network fundamentals can support remote connectivity, but it does not teach hybrid work practices."
+  },
+  {
+   "row": 146,
+   "skill": "emerging technologies",
+   "clo": "Neural Networks / Deep Learning",
+   "course": "Introduction to AI",
+   "gpt_score": 7,
+   "gpt_verdict": "Yes",
+   "note": "Neural networks and deep learning are key emerging technologies, but the outcome is narrower than the broad skill."
+  },
+  {
+   "row": 147,
+   "skill": "linux",
+   "clo": "Linux/UNIX System Administration",
+   "course": "System Administration",
+   "gpt_score": 10,
+   "gpt_verdict": "Yes",
+   "note": "The outcome directly teaches Linux/UNIX system administration, covering the Linux skill."
+  },
+  {
+   "row": 148,
+   "skill": "java",
+   "clo": "Java Packages",
+   "course": "Object-Oriented Programming",
+   "gpt_score": 6,
+   "gpt_verdict": "Partly",
+   "note": "Covers a specific Java language feature but not full Java programming."
+  },
+  {
+   "row": 149,
+   "skill": "test cases",
+   "clo": "Inheritance",
+   "course": "C++ Programming",
+   "gpt_score": 1,
+   "gpt_verdict": "No",
+   "note": "Inheritance is an object-oriented programming concept and does not teach writing or using test cases."
+  },
+  {
+   "row": 150,
+   "skill": "systems analysis",
+   "clo": "System Operations and Maintenance",
+   "course": "System Administration",
+   "gpt_score": 4,
+   "gpt_verdict": "Partly",
+   "note": "Operations and maintenance are related to understanding systems but do not directly teach systems analysis."
+  },
+  {
+   "row": 151,
+   "skill": "automation",
+   "clo": "System Operations and Maintenance",
+   "course": "System Administration",
+   "gpt_score": 5,
+   "gpt_verdict": "Partly",
+   "note": "System operations and maintenance is related to automation in sysadmin work, but automation is not explicitly taught in the outcome."
+  },
+  {
+   "row": 152,
+   "skill": "application security",
+   "clo": "Unsupervised Learning",
+   "course": "Introduction to AI",
+   "gpt_score": 0,
+   "gpt_verdict": "No",
+   "note": "Unsupervised learning does not teach application security."
+  },
+  {
+   "row": 153,
+   "skill": "access control",
+   "clo": "Access Control",
+   "course": "Cybersecurity",
+   "gpt_score": 10,
+   "gpt_verdict": "Yes",
+   "note": "The course outcome directly matches and teaches the access control skill."
+  },
+  {
+   "row": 154,
+   "skill": "authentication",
+   "clo": "Secure Data Storage",
+   "course": "Cybersecurity",
+   "gpt_score": 2,
+   "gpt_verdict": "No",
+   "note": "Secure data storage is related to cybersecurity but does not directly teach authentication mechanisms."
+  },
+  {
+   "row": 155,
+   "skill": "pl/sql",
+   "clo": "Problem Solving and Solution Formulation",
+   "course": "C++ Programming",
+   "gpt_score": 2,
+   "gpt_verdict": "No",
+   "note": "General problem-solving in C++ is foundational but does not teach PL/SQL."
+  },
+  {
+   "row": 156,
+   "skill": "solidworks",
+   "clo": "Model Evaluation",
+   "course": "Introduction to AI",
+   "gpt_score": 0,
+   "gpt_verdict": "No",
+   "note": "Model evaluation in AI does not teach SolidWorks or CAD modeling skills."
+  },
+  {
+   "row": 157,
+   "skill": "data security",
+   "clo": "Secure Data Storage",
+   "course": "Cybersecurity",
+   "gpt_score": 8,
+   "gpt_verdict": "Yes",
+   "note": "Secure data storage directly addresses a core part of data security, though not all aspects of the broader skill."
+  },
+  {
+   "row": 158,
+   "skill": "code reviews",
+   "clo": "Eclipse IDE",
+   "course": "Object-Oriented Programming",
+   "gpt_score": 1,
+   "gpt_verdict": "No",
+   "note": "Using Eclipse IDE is only tangentially related and does not teach code review practices."
+  },
+  {
+   "row": 159,
+   "skill": "machine learning",
+   "clo": "Classification Algorithms",
+   "course": "Introduction to AI",
+   "gpt_score": 8,
+   "gpt_verdict": "Yes",
+   "note": "Classification algorithms are a core machine learning topic, but they cover only part of the broader skill."
+  },
+  {
+   "row": 160,
+   "skill": "kubernetes",
+   "clo": "Containerization",
+   "course": "System Administration",
+   "gpt_score": 5,
+   "gpt_verdict": "Partly",
+   "note": "Containerization is a foundation for Kubernetes but does not explicitly teach Kubernetes orchestration."
+  },
+  {
+   "row": 161,
+   "skill": "distributed systems",
+   "clo": "Artificial Intelligence Fundamentals",
+   "course": "Introduction to AI",
+   "gpt_score": 0,
+   "gpt_verdict": "No",
+   "note": "AI fundamentals do not directly cover distributed systems."
+  },
+  {
+   "row": 162,
+   "skill": "devops",
+   "clo": "System Operations and Maintenance",
+   "course": "System Administration",
+   "gpt_score": 5,
+   "gpt_verdict": "Partly",
+   "note": "System operations and maintenance is foundational to DevOps but does not explicitly cover DevOps practices like CI/CD or automation."
+  },
+  {
+   "row": 163,
+   "skill": "infrastructure as code",
+   "clo": "Structured Programming",
+   "course": "C++ Programming",
+   "gpt_score": 2,
+   "gpt_verdict": "No",
+   "note": "Structured programming provides basic coding foundations but does not teach infrastructure as code."
+  },
+  {
+   "row": 164,
+   "skill": "computer science",
+   "clo": "Object-Oriented Programming (OOP)",
+   "course": "Object-Oriented Programming",
+   "gpt_score": 5,
+   "gpt_verdict": "Partly",
+   "note": "OOP is a core computer science topic but does not cover the broader field of computer science."
+  },
+  {
+   "row": 165,
+   "skill": "auditing",
+   "clo": "System Operations and Maintenance",
+   "course": "System Administration",
+   "gpt_score": 4,
+   "gpt_verdict": "Partly",
+   "note": "System operations and maintenance may involve logs and checks, but auditing is not explicitly taught."
+  },
+  {
+   "row": 166,
+   "skill": "microsoft office suite",
+   "clo": "System Configuration and Management",
+   "course": "System Administration",
+   "gpt_score": 1,
+   "gpt_verdict": "No",
+   "note": "System configuration and management does not teach Microsoft Office Suite skills directly."
+  },
+  {
+   "row": 167,
+   "skill": "containerization",
+   "clo": "Encapsulation",
+   "course": "Object-Oriented Programming",
+   "gpt_score": 0,
+   "gpt_verdict": "No",
+   "note": "Encapsulation is an OOP concept and does not teach software containerization."
+  },
+  {
+   "row": 168,
+   "skill": "protocols",
+   "clo": "Network Protocols",
+   "course": "System Administration",
+   "gpt_score": 10,
+   "gpt_verdict": "Yes",
+   "note": "The outcome directly covers network protocols, matching the requested skill."
+  },
+  {
+   "row": 169,
+   "skill": "performance tuning",
+   "clo": "Overfitting and Underfitting Prevention",
+   "course": "Introduction to AI",
+   "gpt_score": 5,
+   "gpt_verdict": "Partly",
+   "note": "Overfitting and underfitting prevention supports ML model performance tuning but not general performance tuning as a broad skill."
+  },
+  {
+   "row": 170,
+   "skill": "sql",
+   "clo": "Java Programming",
+   "course": "Object-Oriented Programming",
+   "gpt_score": 0,
+   "gpt_verdict": "No",
+   "note": "Java programming does not indicate teaching SQL."
+  },
+  {
+   "row": 171,
+   "skill": "hive",
+   "clo": "Java Packages",
+   "course": "Object-Oriented Programming",
+   "gpt_score": 0,
+   "gpt_verdict": "No",
+   "note": "Java packages in OOP do not teach Apache Hive or related data warehousing skills."
+  },
+  {
+   "row": 172,
+   "skill": "design patterns",
+   "clo": "Attack-Resistant Software Development",
+   "course": "Cybersecurity",
+   "gpt_score": 4,
+   "gpt_verdict": "Partly",
+   "note": "Attack-resistant software development may touch secure design practices but does not specifically teach software design patterns."
+  },
+  {
+   "row": 173,
+   "skill": "angular",
+   "clo": "Class Concept",
+   "course": "C++ Programming",
+   "gpt_score": 2,
+   "gpt_verdict": "No",
+   "note": "C++ class concepts provide minor OOP foundation but do not teach Angular."
+  },
+  {
+   "row": 174,
+   "skill": "kubernetes",
+   "clo": "Network Services Deployment and Management",
+   "course": "System Administration",
+   "gpt_score": 4,
+   "gpt_verdict": "Partly",
+   "note": "Covers general service deployment and management but not Kubernetes specifically."
+  },
+  {
+   "row": 175,
+   "skill": "troubleshooting",
+   "clo": "System Configuration and Management",
+   "course": "System Administration",
+   "gpt_score": 5,
+   "gpt_verdict": "Partly",
+   "note": "System configuration and management is related to troubleshooting but does not explicitly teach diagnostic or problem-resolution skills."
+  },
+  {
+   "row": 176,
+   "skill": "security engineering",
+   "clo": "Attack-Resistant Software Development",
+   "course": "Cybersecurity",
+   "gpt_score": 8,
+   "gpt_verdict": "Yes",
+   "note": "Attack-resistant software development directly covers a core area of security engineering, though not the full breadth of the field."
+  },
+  {
+   "row": 177,
+   "skill": "machine learning",
+   "clo": "Machine Learning Model Implementation",
+   "course": "Introduction to AI",
+   "gpt_score": 10,
+   "gpt_verdict": "Yes",
+   "note": "The outcome directly teaches implementing machine learning models."
+  },
+  {
+   "row": 178,
+   "skill": "emerging technologies",
+   "clo": "Polymorphism",
+   "course": "Object-Oriented Programming",
+   "gpt_score": 2,
+   "gpt_verdict": "No",
+   "note": "Polymorphism is a core OOP concept, not instruction in emerging technologies."
+  },
+  {
+   "row": 179,
+   "skill": "agile",
+   "clo": "Object-Oriented Programming (OOP)",
+   "course": "Object-Oriented Programming",
+   "gpt_score": 0,
+   "gpt_verdict": "No",
+   "note": "The outcome covers object-oriented programming, not agile methods or practices."
+  },
+  {
+   "row": 180,
+   "skill": "project management",
+   "clo": "Infrastructure Services Management",
+   "course": "System Administration",
+   "gpt_score": 4,
+   "gpt_verdict": "Partly",
+   "note": "It covers managing IT infrastructure services, but not project management methods or practices directly."
+  },
+  {
+   "row": 181,
+   "skill": "code reviews",
+   "clo": "Compiler Basics",
+   "course": "C++ Programming",
+   "gpt_score": 1,
+   "gpt_verdict": "No",
+   "note": "Compiler basics may support programming understanding but does not teach code review practices."
+  },
+  {
+   "row": 182,
+   "skill": "security analysis",
+   "clo": "Exploratory Data Analysis (EDA)",
+   "course": "Introduction to AI",
+   "gpt_score": 2,
+   "gpt_verdict": "No",
+   "note": "EDA builds general analytical skills but does not teach security analysis specifically."
+  },
+  {
+   "row": 183,
+   "skill": "distributed systems",
+   "clo": "Network Architectures",
+   "course": "System Administration",
+   "gpt_score": 5,
+   "gpt_verdict": "Partly",
+   "note": "Network architectures provide foundational knowledge for distributed systems but do not teach distributed systems concepts directly."
+  },
+  {
+   "row": 184,
+   "skill": "oop",
+   "clo": "Object-Oriented Programming (OOP)",
+   "course": "C++ Programming",
+   "gpt_score": 10,
+   "gpt_verdict": "Yes",
+   "note": "The outcome directly and fully covers object-oriented programming."
+  },
+  {
+   "row": 185,
+   "skill": "vmware",
+   "clo": "VMware vSphere",
+   "course": "System Administration",
+   "gpt_score": 10,
+   "gpt_verdict": "Yes",
+   "note": "The outcome directly covers VMware vSphere, a core VMware virtualization platform."
+  },
+  {
+   "row": 186,
+   "skill": "scheduling",
+   "clo": "Data Backup and Recovery",
+   "course": "System Administration",
+   "gpt_score": 3,
+   "gpt_verdict": "No",
+   "note": "Backup and recovery may involve scheduled jobs, but scheduling is not explicitly taught."
+  },
+  {
+   "row": 187,
+   "skill": "sql",
+   "clo": "Python Programming",
+   "course": "Introduction to AI",
+   "gpt_score": 2,
+   "gpt_verdict": "No",
+   "note": "Python programming is a general coding foundation but does not teach SQL itself."
+  },
+  {
+   "row": 188,
+   "skill": "data mining",
+   "clo": "Clustering",
+   "course": "Introduction to AI",
+   "gpt_score": 7,
+   "gpt_verdict": "Yes",
+   "note": "Clustering is a core data mining technique, but it covers only part of the broader data mining skill set."
+  },
+  {
+   "row": 189,
+   "skill": "javascript",
+   "clo": "Java Programming",
+   "course": "Object-Oriented Programming",
+   "gpt_score": 3,
+   "gpt_verdict": "No",
+   "note": "Java programming provides general programming/OOP foundation but does not teach JavaScript itself."
+  },
+  {
+   "row": 190,
+   "skill": "azure",
+   "clo": "Network Services Deployment and Management",
+   "course": "System Administration",
+   "gpt_score": 3,
+   "gpt_verdict": "No",
+   "note": "Network services deployment is relevant foundation, but Azure is not specifically taught."
+  },
+  {
+   "row": 191,
+   "skill": "algorithms",
+   "clo": "Classification Algorithms",
+   "course": "Introduction to AI",
+   "gpt_score": 7,
+   "gpt_verdict": "Yes",
+   "note": "Covers a specific class of algorithms, but not algorithms broadly."
+  },
+  {
+   "row": 192,
+   "skill": "networking",
+   "clo": "Network Protocols",
+   "course": "System Administration",
+   "gpt_score": 8,
+   "gpt_verdict": "Yes",
+   "note": "Network protocols are a core component of networking, though the outcome is narrower than the full skill."
+  },
+  {
+   "row": 193,
+   "skill": "data security",
+   "clo": "Secure Coding Practices",
+   "course": "Cybersecurity",
+   "gpt_score": 7,
+   "gpt_verdict": "Yes",
+   "note": "Secure coding directly supports protecting data but does not cover the full scope of data security."
+  },
+  {
+   "row": 194,
+   "skill": "information assurance",
+   "clo": "Secure Data Storage",
+   "course": "Cybersecurity",
+   "gpt_score": 6,
+   "gpt_verdict": "Partly",
+   "note": "Secure data storage is an important component of information assurance but does not cover the full breadth of the skill."
+  },
+  {
+   "row": 195,
+   "skill": "scripting",
+   "clo": "Modular Programming",
+   "course": "C++ Programming",
+   "gpt_score": 4,
+   "gpt_verdict": "Partly",
+   "note": "Modular C++ programming provides general coding foundations but does not directly teach scripting."
+  },
+  {
+   "row": 196,
+   "skill": "continuous learning",
+   "clo": "Classification Algorithms",
+   "course": "Introduction to AI",
+   "gpt_score": 0,
+   "gpt_verdict": "No",
+   "note": "Classification algorithms do not address the professional skill of continuous learning."
+  },
+  {
+   "row": 197,
+   "skill": "networking",
+   "clo": "Network Administration",
+   "course": "System Administration",
+   "gpt_score": 10,
+   "gpt_verdict": "Yes",
+   "note": "Network Administration directly teaches networking skills."
+  },
+  {
+   "row": 198,
+   "skill": "system administration",
+   "clo": "Systems Administration",
+   "course": "System Administration",
+   "gpt_score": 10,
+   "gpt_verdict": "Yes",
+   "note": "The learning outcome directly matches the market skill of system administration."
+  },
+  {
+   "row": 199,
+   "skill": "program management",
+   "clo": "Application Services Management",
+   "course": "System Administration",
+   "gpt_score": 2,
+   "gpt_verdict": "No",
+   "note": "Application services management is a technical administration topic, not program management."
+  },
+  {
+   "row": 200,
+   "skill": "cloud computing",
+   "clo": "System Configuration and Management",
+   "course": "System Administration",
+   "gpt_score": 5,
+   "gpt_verdict": "Partly",
+   "note": "System configuration and management is a foundation for cloud administration but does not explicitly teach cloud computing."
+  }
+ ]
+}

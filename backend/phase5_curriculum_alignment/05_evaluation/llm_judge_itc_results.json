@@ -1,0 +1,224 @@
+{
+ "n_scored": 150,
+ "thresholds": {
+  "covered": 0.73,
+  "borderline": 0.69,
+  "host_min": 0.66
+ },
+ "judge_label_counts": {
+  "claude": {
+   "Yes": 30,
+   "Partly": 49,
+   "No": 71
+  },
+  "gpt": {
+   "Yes": 31,
+   "Partly": 47,
+   "No": 72
+  }
+ },
+ "instrument_label_counts": {
+  "Yes": 47,
+  "Partly": 26,
+  "No": 77
+ },
+ "claude_vs_instrument_agreement": 0.713,
+ "gpt_vs_instrument_agreement": 0.72,
+ "inter_judge": {
+  "agreement": 0.893,
+  "kappa": 0.83
+ },
+ "disagreements": [
+  {
+   "id": "P003",
+   "claude": "No",
+   "gpt": "Partly",
+   "skill": "scheduling",
+   "clo": "Data Backup and Recovery",
+   "cos": 0.538
+  },
+  {
+   "id": "P007",
+   "claude": "Partly",
+   "gpt": "No",
+   "skill": "project management",
+   "clo": "Infrastructure Services Management",
+   "cos": 0.684
+  },
+  {
+   "id": "P010",
+   "claude": "No",
+   "gpt": "Partly",
+   "skill": "optimization",
+   "clo": "Classification Algorithms",
+   "cos": 0.701
+  },
+  {
+   "id": "P020",
+   "claude": "Partly",
+   "gpt": "Yes",
+   "skill": "data visualization",
+   "clo": "Exploratory Data Analysis (EDA)",
+   "cos": 0.744
+  },
+  {
+   "id": "P032",
+   "claude": "Partly",
+   "gpt": "Yes",
+   "skill": "artificial intelligence",
+   "clo": "Machine Learning Model Implementation",
+   "cos": 0.663
+  },
+  {
+   "id": "P060",
+   "claude": "Yes",
+   "gpt": "Partly",
+   "skill": "security engineering",
+   "clo": "Attack-Resistant Software Development",
+   "cos": 0.721
+  },
+  {
+   "id": "P066",
+   "claude": "Yes",
+   "gpt": "Partly",
+   "skill": "docker",
+   "clo": "Containerization",
+   "cos": 0.767
+  },
+  {
+   "id": "P070",
+   "claude": "No",
+   "gpt": "Partly",
+   "skill": "verification",
+   "clo": "Model Evaluation",
+   "cos": 0.567
+  },
+  {
+   "id": "P088",
+   "claude": "Partly",
+   "gpt": "No",
+   "skill": "program management",
+   "clo": "Application Services Management",
+   "cos": 0.755
+  },
+  {
+   "id": "P103",
+   "claude": "Partly",
+   "gpt": "No",
+   "skill": "authentication",
+   "clo": "Secure Data Storage",
+   "cos": 0.672
+  },
+  {
+   "id": "P108",
+   "claude": "Partly",
+   "gpt": "Yes",
+   "skill": "machine learning",
+   "clo": "Decision Trees",
+   "cos": 0.799
+  },
+  {
+   "id": "P110",
+   "claude": "Partly",
+   "gpt": "No",
+   "skill": "databases",
+   "clo": "Data Storage Types",
+   "cos": 0.703
+  },
+  {
+   "id": "P132",
+   "claude": "No",
+   "gpt": "Partly",
+   "skill": "standards",
+   "clo": "Secure Web Application Development",
+   "cos": 0.486
+  },
+  {
+   "id": "P134",
+   "claude": "Partly",
+   "gpt": "No",
+   "skill": "kubernetes",
+   "clo": "Virtualization",
+   "cos": 0.729
+  },
+  {
+   "id": "P144",
+   "claude": "Partly",
+   "gpt": "No",
+   "skill": "system integration",
+   "clo": "System Operations and Maintenance",
+   "cos": 0.772
+  },
+  {
+   "id": "P145",
+   "claude": "No",
+   "gpt": "Partly",
+   "skill": "etl",
+   "clo": "Exploratory Data Analysis (EDA)",
+   "cos": 0.691
+  }
+ ],
+ "strict_yes_only": {
+  "frozen": {
+   "precision": 0.667,
+   "recall": 1.0,
+   "f1": 0.8,
+   "tp": 28,
+   "fp": 14,
+   "fn": 0
+  },
+  "t_star": 0.8,
+  "t_star_macro_f1": 0.928,
+  "n_consensus": 134
+ },
+ "lenient_yes_partly": {
+  "frozen": {
+   "precision": 0.952,
+   "recall": 0.588,
+   "f1": 0.727,
+   "tp": 40,
+   "fp": 2,
+   "fn": 28
+  },
+  "t_star": 0.685,
+  "t_star_macro_f1": 0.858,
+  "n_consensus": 134
+ },
+ "per_band": {
+  "A >=0.85": {
+   "Yes": 14,
+   "Partly": 1,
+   "No": 0
+  },
+  "B .73-.85": {
+   "Yes": 6,
+   "Partly": 8,
+   "No": 2
+  },
+  "C .69-.73": {
+   "Yes": 0,
+   "Partly": 12,
+   "No": 4
+  },
+  "D .66-.69": {
+   "Yes": 0,
+   "Partly": 7,
+   "No": 11
+  },
+  "E .55-.66": {
+   "Yes": 0,
+   "Partly": 2,
+   "No": 27
+  },
+  "F <.55": {
+   "Yes": 0,
+   "Partly": 1,
+   "No": 17
+  },
+  "argmax": {
+   "Yes": 8,
+   "Partly": 9,
+   "No": 5
+  }
+ }
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "skill": "Network Security Concepts",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Network Threats and Attacks",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Network Vulnerability Scanning",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Cryptography",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Encryption Techniques",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Network Protocols and Standards",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Firewall Technology",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Intrusion Detection System (IDS)",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Intrusion Prevention System (IPS)",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Network Security Policies",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Access Control and Permissions",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Risk Management and Assessment",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Disaster Recovery Planning",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Penetration Testing",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Cloud Computing Security",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "IoT Devices Security",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "AI and Machine Learning Security",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Network Devices",
+    "source": "CLO"
+  },
+  {
+    "skill": "Security Technology Deployment",
+    "source": "CLO"
+  },
+  {
+    "skill": "Threat Modeling and Mitigation Demonstration",
+    "source": "CLO"
+  },
+  {
+    "skill": "Network Security Assessment",
+    "source": "CLO"
+  }
+]

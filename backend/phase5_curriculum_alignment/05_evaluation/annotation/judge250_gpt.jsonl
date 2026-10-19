@@ -1,0 +1,250 @@
+{"id": "R001", "score": 0, "note": "Business Model Canvas does not teach security monitoring.", "model": "gpt-5.6-terra"}
+{"id": "R002", "score": 0, "note": "Integrity constraints in system analysis and design do not teach firewall configuration.", "model": "gpt-5.6-terra"}
+{"id": "R003", "score": 0, "note": "Link aggregation is a networking topic and does not teach PostgreSQL databases.", "model": "gpt-5.6-terra"}
+{"id": "R004", "score": 0, "note": "Mobile operating systems fundamentals do not teach data analysis.", "model": "gpt-5.6-terra"}
+{"id": "R005", "score": 3, "note": "Data modeling supports organizing data but does not directly teach data analysis methods.", "model": "gpt-5.6-terra"}
+{"id": "R006", "score": 6, "note": "Security technology deployment supports infrastructure management but focuses specifically on securing rather than managing all IT infrastructure.", "model": "gpt-5.6-terra"}
+{"id": "R007", "score": 8, "note": "Hybrid app development directly develops software development skills in a mobile application context.", "model": "gpt-5.6-terra"}
+{"id": "R008", "score": 0, "note": "Database partitioning does not teach Docker containerization.", "model": "gpt-5.6-terra"}
+{"id": "R009", "score": 5, "note": "Database query skills provide a foundation for PostgreSQL, but the outcome does not specify PostgreSQL itself.", "model": "gpt-5.6-terra"}
+{"id": "R010", "score": 3, "note": "System reliability engineering supports integrated systems operation but does not explicitly teach system integration.", "model": "gpt-5.6-terra"}
+{"id": "R011", "score": 1, "note": "Boolean algebra supports logical reasoning but does not teach data analysis methods.", "model": "gpt-5.6-terra"}
+{"id": "R012", "score": 0, "note": "Business Model Canvas does not teach network administration.", "model": "gpt-5.6-terra"}
+{"id": "R013", "score": 8, "note": "Network maintenance and troubleshooting strongly teaches the technical problem-solving central to technical support.", "model": "gpt-5.6-terra"}
+{"id": "R014", "score": 2, "note": "Resource estimation supports project planning but does not teach technical performance tuning.", "model": "gpt-5.6-terra"}
+{"id": "R015", "score": 2, "note": "Hybrid app development may involve consuming APIs but does not explicitly teach RESTful API development.", "model": "gpt-5.6-terra"}
+{"id": "R016", "score": 4, "note": "Machine learning pipelines relate to workflow automation but do not specifically teach CI/CD pipelines.", "model": "gpt-5.6-terra"}
+{"id": "R017", "score": 4, "note": "Wi-Fi security protocols provide relevant security knowledge but do not directly teach ongoing security monitoring.", "model": "gpt-5.6-terra"}
+{"id": "R018", "score": 5, "note": "DBMS concepts support MySQL use, but the outcome does not specify MySQL or its practical administration.", "model": "gpt-5.6-terra"}
+{"id": "R019", "score": 1, "note": "DBMS knowledge does not teach AWS cloud platform skills.", "model": "gpt-5.6-terra"}
+{"id": "R020", "score": 0, "note": "Model evaluation does not teach Git version control.", "model": "gpt-5.6-terra"}
+{"id": "R021", "score": 6, "note": "SaaS covers software delivery and deployment concepts but not the full practice of software development.", "model": "gpt-5.6-terra"}
+{"id": "R022", "score": 0, "note": "Counters in digital logic do not teach cybersecurity incident response.", "model": "gpt-5.6-terra"}
+{"id": "R023", "score": 2, "note": "Web server configuration may involve basic security settings but does not directly teach firewall configuration.", "model": "gpt-5.6-terra"}
+{"id": "R024", "score": 3, "note": "Security standards and policies may involve documentation, but do not explicitly teach technical documentation skills.", "model": "gpt-5.6-terra"}
+{"id": "R025", "score": 2, "note": "Exception handling supports software error management but does not teach operational incident response.", "model": "gpt-5.6-terra"}
+{"id": "R026", "score": 7, "note": "Cloud computing security likely covers compliance requirements in cloud contexts, but not necessarily broader security compliance practice.", "model": "gpt-5.6-terra"}
+{"id": "R027", "score": 1, "note": "Pattern recognition in image processing does not teach database management.", "model": "gpt-5.6-terra"}
+{"id": "R028", "score": 7, "note": "Security solutions for system support and operations substantially supports maintenance, though it focuses specifically on security aspects.", "model": "gpt-5.6-terra"}
+{"id": "R029", "score": 2, "note": "Project issue management may touch operational coordination but does not teach server administration.", "model": "gpt-5.6-terra"}
+{"id": "R030", "score": 0, "note": "Business Model Canvas does not teach Git or version control practices.", "model": "gpt-5.6-terra"}
+{"id": "R031", "score": 8, "note": "Project status reporting directly develops concise technical and project documentation skills.", "model": "gpt-5.6-terra"}
+{"id": "R032", "score": 10, "note": "The learning outcome explicitly teaches data analysis.", "model": "gpt-5.6-terra"}
+{"id": "R033", "score": 4, "note": "Network devices provide relevant foundational knowledge, but troubleshooting is not explicitly taught.", "model": "gpt-5.6-terra"}
+{"id": "R034", "score": 1, "note": "Database transaction commits and rollbacks are distinct from Git version control workflows.", "model": "gpt-5.6-terra"}
+{"id": "R035", "score": 9, "note": "Network Monitoring directly teaches core concepts and practices relevant to security monitoring.", "model": "gpt-5.6-terra"}
+{"id": "R036", "score": 7, "note": "Database indexing is a core MySQL database concept but does not cover the full database system.", "model": "gpt-5.6-terra"}
+{"id": "R037", "score": 2, "note": "Network protocols and standards may involve interpreting technical documents, but does not teach technical documentation skills.", "model": "gpt-5.6-terra"}
+{"id": "R038", "score": 4, "note": "Database security policy design supports security governance but does not directly teach operational security monitoring.", "model": "gpt-5.6-terra"}
+{"id": "R039", "score": 9, "note": "Cloud workload optimization directly develops performance tuning skills in cloud environments.", "model": "gpt-5.6-terra"}
+{"id": "R040", "score": 7, "note": "Network management substantially supports server management, though it may not cover server administration in depth.", "model": "gpt-5.6-terra"}
+{"id": "R041", "score": 5, "note": "Network architecture provides relevant foundations but does not explicitly teach system integration practice.", "model": "gpt-5.6-terra"}
+{"id": "R042", "score": 10, "note": "The outcome explicitly covers AWS cloud platforms.", "model": "gpt-5.6-terra"}
+{"id": "R043", "score": 2, "note": "Software application maintenance is only tangentially related to managing IT infrastructure.", "model": "gpt-5.6-terra"}
+{"id": "R044", "score": 2, "note": "It covers managing project issues generally, not diagnosing or resolving network faults.", "model": "gpt-5.6-terra"}
+{"id": "R045", "score": 0, "note": "The outcome teaches Python, not Java programming.", "model": "gpt-5.6-terra"}
+{"id": "R046", "score": 2, "note": "User account management is a systems administration task and only minimally relates to database management.", "model": "gpt-5.6-terra"}
+{"id": "R047", "score": 4, "note": "Deploying security technologies supports compliance but does not explicitly teach compliance requirements or auditing.", "model": "gpt-5.6-terra"}
+{"id": "R048", "score": 10, "note": "The outcome directly teaches infrastructure provisioning and management through infrastructure-as-code practices.", "model": "gpt-5.6-terra"}
+{"id": "R049", "score": 8, "note": "The API-focused outcome likely covers RESTful API development, though REST is not explicitly stated.", "model": "gpt-5.6-terra"}
+{"id": "R050", "score": 8, "note": "Transaction management is a core component of database management, though it does not cover all management tasks.", "model": "gpt-5.6-terra"}
+{"id": "R051", "score": 8, "note": "Network management directly supports IT infrastructure management, though the outcome may focus mainly on networking.", "model": "gpt-5.6-terra"}
+{"id": "R052", "score": 6, "note": "Virtualization supports integrating systems in cloud environments but does not fully teach system integration.", "model": "gpt-5.6-terra"}
+{"id": "R053", "score": 8, "note": "Data warehousing strongly supports data analysis through integrated, structured analytical data management.", "model": "gpt-5.6-terra"}
+{"id": "R054", "score": 3, "note": "Mobile app security is related to compliance but does not explicitly teach security compliance requirements or frameworks.", "model": "gpt-5.6-terra"}
+{"id": "R055", "score": 0, "note": "Pitching does not teach network troubleshooting.", "model": "gpt-5.6-terra"}
+{"id": "R056", "score": 2, "note": "Selecting relevant data may reduce processing workload but does not directly teach performance tuning.", "model": "gpt-5.6-terra"}
+{"id": "R057", "score": 3, "note": "API development is programming-related but does not specifically teach Java.", "model": "gpt-5.6-terra"}
+{"id": "R058", "score": 10, "note": "The learning outcome exactly matches disaster recovery planning.", "model": "gpt-5.6-terra"}
+{"id": "R059", "score": 8, "note": "Database partitioning is an advanced PostgreSQL-relevant database administration skill, though it does not cover PostgreSQL broadly.", "model": "gpt-5.6-terra"}
+{"id": "R060", "score": 2, "note": "Project progress monitoring concerns delivery tracking, not monitoring security events or threats.", "model": "gpt-5.6-terra"}
+{"id": "R061", "score": 1, "note": "Hypothesis development supports research design but does not teach software development.", "model": "gpt-5.6-terra"}
+{"id": "R062", "score": 1, "note": "Distributed system processes do not directly teach CI/CD pipeline design or automation.", "model": "gpt-5.6-terra"}
+{"id": "R063", "score": 9, "note": "Network monitoring tools directly support security monitoring, though the outcome does not explicitly mention security analysis.", "model": "gpt-5.6-terra"}
+{"id": "R064", "score": 2, "note": "Network management may involve operational coordination but does not directly teach project management.", "model": "gpt-5.6-terra"}
+{"id": "R065", "score": 10, "note": "The outcome directly covers firewall technology, including firewall configuration.", "model": "gpt-5.6-terra"}
+{"id": "R066", "score": 3, "note": "Access control supports network security but does not broadly teach network administration.", "model": "gpt-5.6-terra"}
+{"id": "R067", "score": 2, "note": "Apache Hadoop involves distributed computing but does not teach AWS cloud platforms specifically.", "model": "gpt-5.6-terra"}
+{"id": "R068", "score": 4, "note": "Distributed system processes provide relevant foundations but do not explicitly teach system integration.", "model": "gpt-5.6-terra"}
+{"id": "R069", "score": 1, "note": "Business Model Canvas does not teach Microsoft Office proficiency.", "model": "gpt-5.6-terra"}
+{"id": "R070", "score": 6, "note": "Hybrid app architecture likely covers concepts relevant to integrating APIs, but does not explicitly teach API integration.", "model": "gpt-5.6-terra"}
+{"id": "R071", "score": 0, "note": "Business Model Canvas does not teach firewall configuration.", "model": "gpt-5.6-terra"}
+{"id": "R072", "score": 1, "note": "Infrastructure as Code may involve code artifacts, but it does not teach code review practices.", "model": "gpt-5.6-terra"}
+{"id": "R073", "score": 3, "note": "Sensor data collection may support monitoring but does not specifically teach security monitoring.", "model": "gpt-5.6-terra"}
+{"id": "R074", "score": 2, "note": "Monitoring and logging may produce operational records but do not directly teach technical documentation.", "model": "gpt-5.6-terra"}
+{"id": "R075", "score": 7, "note": "Load balancing teaches an important component of server management, though not full server administration.", "model": "gpt-5.6-terra"}
+{"id": "R076", "score": 5, "note": "C++ programming provides transferable object-oriented programming foundations but does not teach Java specifically.", "model": "gpt-5.6-terra"}
+{"id": "R077", "score": 8, "note": "C++ programming substantially teaches software development through practical coding and algorithm implementation.", "model": "gpt-5.6-terra"}
+{"id": "R078", "score": 4, "note": "Client-server architecture provides relevant system design context but does not explicitly teach performance tuning.", "model": "gpt-5.6-terra"}
+{"id": "R079", "score": 4, "note": "Network security design supports compliance-related controls but does not explicitly teach compliance requirements or auditing.", "model": "gpt-5.6-terra"}
+{"id": "R080", "score": 7, "note": "Designing and implementing distributed applications likely includes integrating APIs, though APIs are not explicitly stated.", "model": "gpt-5.6-terra"}
+{"id": "R081", "score": 7, "note": "Designing network infrastructure provides substantial relevant knowledge for diagnosing network issues, though troubleshooting is not explicitly stated.", "model": "gpt-5.6-terra"}
+{"id": "R082", "score": 8, "note": "Network troubleshooting strongly supports maintaining networked computer systems, though it may not cover all system maintenance tasks.", "model": "gpt-5.6-terra"}
+{"id": "R083", "score": 2, "note": "Algorithm analysis provides limited foundational reasoning but does not teach code review practices.", "model": "gpt-5.6-terra"}
+{"id": "R084", "score": 8, "note": "DevOps methodology strongly covers the practices underlying CI/CD pipelines, though pipeline implementation is not explicit.", "model": "gpt-5.6-terra"}
+{"id": "R085", "score": 2, "note": "OOP interfaces provide a conceptual foundation but do not teach API integration.", "model": "gpt-5.6-terra"}
+{"id": "R086", "score": 8, "note": "Network performance monitoring strongly supports identifying and diagnosing performance issues, though tuning itself is not explicit.", "model": "gpt-5.6-terra"}
+{"id": "R087", "score": 10, "note": "The outcome directly teaches managing project teams, a core component of project management.", "model": "gpt-5.6-terra"}
+{"id": "R088", "score": 10, "note": "The outcome directly teaches network maintenance and troubleshooting.", "model": "gpt-5.6-terra"}
+{"id": "R089", "score": 2, "note": "DBMS knowledge is loosely related to servers but does not teach server management.", "model": "gpt-5.6-terra"}
+{"id": "R090", "score": 3, "note": "Text processing may support documentation work but does not directly teach technical documentation skills.", "model": "gpt-5.6-terra"}
+{"id": "R091", "score": 4, "note": "Agile project management supports software development processes but does not directly teach software development.", "model": "gpt-5.6-terra"}
+{"id": "R092", "score": 4, "note": "Client-server architecture provides relevant networking concepts but does not directly teach network administration.", "model": "gpt-5.6-terra"}
+{"id": "R093", "score": 6, "note": "Text feature extraction provides a relevant NLP foundation for analyzing textual data but does not cover data analysis broadly.", "model": "gpt-5.6-terra"}
+{"id": "R094", "score": 4, "note": "Requirements analysis supports software development planning but does not itself teach implementation skills.", "model": "gpt-5.6-terra"}
+{"id": "R095", "score": 8, "note": "The outcome directly covers documentation focused on data integrity and quality, though not all forms of technical documentation.", "model": "gpt-5.6-terra"}
+{"id": "R096", "score": 1, "note": "Cryptography is security-related but does not teach security monitoring practices.", "model": "gpt-5.6-terra"}
+{"id": "R097", "score": 6, "note": "CI tool setup can support API integration workflows but does not directly teach integrating APIs.", "model": "gpt-5.6-terra"}
+{"id": "R098", "score": 8, "note": "Network security measures strongly support security compliance, though compliance requirements are not explicitly stated.", "model": "gpt-5.6-terra"}
+{"id": "R099", "score": 3, "note": "Mobile app security covers security principles but does not specifically teach security monitoring.", "model": "gpt-5.6-terra"}
+{"id": "R100", "score": 9, "note": "The outcome directly addresses the responsibilities central to network administration.", "model": "gpt-5.6-terra"}
+{"id": "R101", "score": 2, "note": "Project issue management may support coordination during integration but does not teach system integration itself.", "model": "gpt-5.6-terra"}
+{"id": "R102", "score": 6, "note": "Relational database modeling supports database management concepts but does not cover full database administration or operations.", "model": "gpt-5.6-terra"}
+{"id": "R103", "score": 7, "note": "A DBMS outcome teaches core database management concepts, though data mining may not cover full operational administration.", "model": "gpt-5.6-terra"}
+{"id": "R104", "score": 4, "note": "Distributed systems may cover virtualization concepts indirectly, but it does not specifically teach VMware administration.", "model": "gpt-5.6-terra"}
+{"id": "R105", "score": 7, "note": "IaaS covers provisioning and managing cloud network infrastructure, though not all traditional network administration tasks.", "model": "gpt-5.6-terra"}
+{"id": "R106", "score": 10, "note": "The learning outcome exactly matches the job-market skill of network troubleshooting.", "model": "gpt-5.6-terra"}
+{"id": "R107", "score": 4, "note": "Distributed systems architecture provides relevant infrastructure concepts but does not directly teach infrastructure management.", "model": "gpt-5.6-terra"}
+{"id": "R108", "score": 10, "note": "The outcome directly teaches performance analysis, a core component of performance tuning in distributed systems.", "model": "gpt-5.6-terra"}
+{"id": "R109", "score": 2, "note": "Data collection methods may involve recording procedures but do not directly teach technical documentation.", "model": "gpt-5.6-terra"}
+{"id": "R110", "score": 6, "note": "Hybrid app architecture provides relevant foundations for integrating mobile components and services, but does not explicitly teach system integration broadly.", "model": "gpt-5.6-terra"}
+{"id": "R111", "score": 4, "note": "Laravel security features support application protection but do not directly teach security monitoring.", "model": "gpt-5.6-terra"}
+{"id": "R112", "score": 3, "note": "C++ programming builds code-reading foundations but does not explicitly teach code review practices.", "model": "gpt-5.6-terra"}
+{"id": "R113", "score": 0, "note": "PMI in natural language processing does not teach IT infrastructure management.", "model": "gpt-5.6-terra"}
+{"id": "R114", "score": 4, "note": "Database seeding uses databases but does not specifically teach MySQL.", "model": "gpt-5.6-terra"}
+{"id": "R115", "score": 4, "note": "Project issue management supports managing IT projects but does not directly teach IT infrastructure management.", "model": "gpt-5.6-terra"}
+{"id": "R116", "score": 1, "note": "State tables concern digital logic design, not database management.", "model": "gpt-5.6-terra"}
+{"id": "R117", "score": 3, "note": "Distributed system processes provide related concepts but do not directly teach server administration or management.", "model": "gpt-5.6-terra"}
+{"id": "R118", "score": 10, "note": "The outcome directly teaches monitoring trends in information security threats.", "model": "gpt-5.6-terra"}
+{"id": "R119", "score": 5, "note": "Distributed database management provides relevant foundations for integrating systems and data sources but does not directly teach system integration.", "model": "gpt-5.6-terra"}
+{"id": "R120", "score": 10, "note": "The outcome directly covers configuring firewall rules.", "model": "gpt-5.6-terra"}
+{"id": "R121", "score": 6, "note": "Virtualization supports system maintenance skills but does not directly cover maintenance practices.", "model": "gpt-5.6-terra"}
+{"id": "R122", "score": 5, "note": "Security models provide a conceptual foundation for compliance but do not directly teach security compliance practices.", "model": "gpt-5.6-terra"}
+{"id": "R123", "score": 3, "note": "Understanding information system components provides limited foundational knowledge but does not teach system maintenance.", "model": "gpt-5.6-terra"}
+{"id": "R124", "score": 8, "note": "Setting up and configuring CI tools strongly supports integrating software components and delivery workflows.", "model": "gpt-5.6-terra"}
+{"id": "R125", "score": 4, "note": "Distributed database management covers a component of infrastructure administration but not overall IT infrastructure management.", "model": "gpt-5.6-terra"}
+{"id": "R126", "score": 1, "note": "Scalable software design is only tangentially related and does not teach VMware virtualization.", "model": "gpt-5.6-terra"}
+{"id": "R127", "score": 1, "note": "C++ programming does not directly teach PostgreSQL database use or administration.", "model": "gpt-5.6-terra"}
+{"id": "R128", "score": 6, "note": "Deploying security technologies involves integrating security components into network systems, but does not fully cover general system integration.", "model": "gpt-5.6-terra"}
+{"id": "R129", "score": 8, "note": "Infrastructure provisioning and management strongly supports network administration, though IaC may not cover all operational networking tasks.", "model": "gpt-5.6-terra"}
+{"id": "R130", "score": 1, "note": "Algorithm analysis is language-independent and does not teach Java programming.", "model": "gpt-5.6-terra"}
+{"id": "R131", "score": 4, "note": "Risk management supports project management but does not cover the broader project management skill.", "model": "gpt-5.6-terra"}
+{"id": "R132", "score": 7, "note": "The DBMS outcome directly covers database management concepts, though likely within systems analysis and design context.", "model": "gpt-5.6-terra"}
+{"id": "R133", "score": 2, "note": "Software application maintenance is only tangentially related to managing servers.", "model": "gpt-5.6-terra"}
+{"id": "R134", "score": 0, "note": "Deriving truth tables from logic diagrams does not teach technical documentation.", "model": "gpt-5.6-terra"}
+{"id": "R135", "score": 1, "note": "Network management is largely unrelated to database management.", "model": "gpt-5.6-terra"}
+{"id": "R136", "score": 8, "note": "Correlation analysis is a core data-analysis technique, though it covers only one part of the broader skill.", "model": "gpt-5.6-terra"}
+{"id": "R137", "score": 6, "note": "IaC-based infrastructure provisioning is relevant to virtualized environments but does not explicitly teach VMware.", "model": "gpt-5.6-terra"}
+{"id": "R138", "score": 3, "note": "It covers security solutions in operations, not general system integration.", "model": "gpt-5.6-terra"}
+{"id": "R139", "score": 7, "note": "PCA teaches a core data analysis technique for dimensionality reduction and pattern exploration.", "model": "gpt-5.6-terra"}
+{"id": "R140", "score": 9, "note": "Network troubleshooting directly develops core technical support skills for diagnosing and resolving system issues.", "model": "gpt-5.6-terra"}
+{"id": "R141", "score": 3, "note": "Cloud security may cover virtualized environments but does not specifically teach VMware virtualization.", "model": "gpt-5.6-terra"}
+{"id": "R142", "score": 1, "note": "Resource estimation in project management does not teach MySQL database skills.", "model": "gpt-5.6-terra"}
+{"id": "R143", "score": 6, "note": "Resolving data anomalies supports identifying and addressing irregularities, but does not directly teach security monitoring.", "model": "gpt-5.6-terra"}
+{"id": "R144", "score": 4, "note": "It provides distributed-systems concepts relevant to development but does not explicitly teach general software development.", "model": "gpt-5.6-terra"}
+{"id": "R145", "score": 1, "note": "Database query skills provide minimal indirect programming exposure but do not teach Java programming.", "model": "gpt-5.6-terra"}
+{"id": "R146", "score": 3, "note": "Risk assessment is relevant to managing project risks but does not cover broad project management.", "model": "gpt-5.6-terra"}
+{"id": "R147", "score": 8, "note": "Network troubleshooting strongly supports maintaining networked systems, though it may not cover all system maintenance tasks.", "model": "gpt-5.6-terra"}
+{"id": "R148", "score": 6, "note": "Access control and permissions are important server management tasks but do not cover full server administration.", "model": "gpt-5.6-terra"}
+{"id": "R149", "score": 10, "note": "The outcome explicitly teaches Java programming.", "model": "gpt-5.6-terra"}
+{"id": "R150", "score": 3, "note": "Data preprocessing may involve preparing database data but does not teach database management itself.", "model": "gpt-5.6-terra"}
+{"id": "R151", "score": 10, "note": "The learning outcome exactly matches firewall configuration.", "model": "gpt-5.6-terra"}
+{"id": "R152", "score": 8, "note": "Network Management strongly covers core network administration concepts and practices.", "model": "gpt-5.6-terra"}
+{"id": "R153", "score": 4, "note": "Production deployment provides relevant operational foundations but does not fully cover broad IT infrastructure management.", "model": "gpt-5.6-terra"}
+{"id": "R154", "score": 6, "note": "Networking principles provide a foundation for troubleshooting but do not explicitly teach diagnostic practice.", "model": "gpt-5.6-terra"}
+{"id": "R155", "score": 3, "note": "Understanding information system components provides limited foundational context but does not teach infrastructure management.", "model": "gpt-5.6-terra"}
+{"id": "R156", "score": 2, "note": "Algorithm analysis develops analytical reasoning but does not teach data analysis methods.", "model": "gpt-5.6-terra"}
+{"id": "R157", "score": 8, "note": "Network performance monitoring strongly supports managing and maintaining IT infrastructure.", "model": "gpt-5.6-terra"}
+{"id": "R158", "score": 8, "note": "Infrastructure monitoring strongly supports diagnosing and troubleshooting network issues, though it may not cover all network-specific repair techniques.", "model": "gpt-5.6-terra"}
+{"id": "R159", "score": 6, "note": "Alerting supports incident detection and response but does not cover the full incident response process.", "model": "gpt-5.6-terra"}
+{"id": "R160", "score": 3, "note": "DBMS knowledge supports data integration but does not directly teach system integration.", "model": "gpt-5.6-terra"}
+{"id": "R161", "score": 10, "note": "The learning outcome exactly matches the job-market skill of security compliance.", "model": "gpt-5.6-terra"}
+{"id": "R162", "score": 1, "note": "Truth table analysis concerns digital logic rather than general data analysis.", "model": "gpt-5.6-terra"}
+{"id": "R163", "score": 4, "note": "Project issue management supports handling operational problems but does not directly teach system maintenance.", "model": "gpt-5.6-terra"}
+{"id": "R164", "score": 1, "note": "Group Policy Management covers network administration rather than general project management.", "model": "gpt-5.6-terra"}
+{"id": "R165", "score": 4, "note": "VMware virtualization supports integration environments but does not directly teach system integration.", "model": "gpt-5.6-terra"}
+{"id": "R166", "score": 0, "note": "Binary code encoding and decoding does not teach software code review practices.", "model": "gpt-5.6-terra"}
+{"id": "R167", "score": 3, "note": "Virtual network design provides related networking concepts but does not specifically teach VMware virtualization.", "model": "gpt-5.6-terra"}
+{"id": "R168", "score": 9, "note": "Web server configuration directly teaches key aspects of server management.", "model": "gpt-5.6-terra"}
+{"id": "R169", "score": 0, "note": "Feature encoding does not teach technical documentation skills.", "model": "gpt-5.6-terra"}
+{"id": "R170", "score": 6, "note": "Pattern recognition and classification teach analytical methods, but primarily for image data rather than general data analysis.", "model": "gpt-5.6-terra"}
+{"id": "R171", "score": 10, "note": "Ubuntu Server directly teaches server management in a common server environment.", "model": "gpt-5.6-terra"}
+{"id": "R172", "score": 3, "note": "IaaS provides infrastructure context but does not specifically teach incident response processes.", "model": "gpt-5.6-terra"}
+{"id": "R173", "score": 1, "note": "State diagrams may support system representation but do not teach technical documentation.", "model": "gpt-5.6-terra"}
+{"id": "R174", "score": 5, "note": "It provides networking foundations but does not explicitly cover network administration tasks.", "model": "gpt-5.6-terra"}
+{"id": "R175", "score": 3, "note": "Packet Tracer can support basic network observation but does not directly teach security monitoring.", "model": "gpt-5.6-terra"}
+{"id": "R176", "score": 6, "note": "Disaster recovery planning supports post-incident recovery but does not fully teach incident response processes.", "model": "gpt-5.6-terra"}
+{"id": "R177", "score": 5, "note": "Understanding information system components provides a foundation for system integration but does not explicitly teach integration practice.", "model": "gpt-5.6-terra"}
+{"id": "R178", "score": 3, "note": "DBMS knowledge supports managing database servers but does not directly teach general server management.", "model": "gpt-5.6-terra"}
+{"id": "R179", "score": 4, "note": "Wi-Fi security protocols support network security knowledge but do not directly teach compliance requirements.", "model": "gpt-5.6-terra"}
+{"id": "R180", "score": 7, "note": "It teaches evaluation and diagnosis of model performance, but not broader system or application performance tuning.", "model": "gpt-5.6-terra"}
+{"id": "R181", "score": 2, "note": "Integrity constraints support data control but do not teach security compliance requirements or practices.", "model": "gpt-5.6-terra"}
+{"id": "R182", "score": 10, "note": "The learning outcome explicitly teaches Docker containerization.", "model": "gpt-5.6-terra"}
+{"id": "R183", "score": 9, "note": "Infrastructure monitoring directly develops monitoring skills, though security-specific monitoring is not explicit.", "model": "gpt-5.6-terra"}
+{"id": "R184", "score": 8, "note": "The outcome directly covers virtualization, though it does not specifically mention VMware tools.", "model": "gpt-5.6-terra"}
+{"id": "R185", "score": 8, "note": "Network optimization substantially teaches performance tuning in a networking context.", "model": "gpt-5.6-terra"}
+{"id": "R186", "score": 7, "note": "Network device management provides relevant administration skills, though it may not fully cover server-specific management.", "model": "gpt-5.6-terra"}
+{"id": "R187", "score": 1, "note": "Asynchronous counters cover digital logic timing but do not teach performance tuning.", "model": "gpt-5.6-terra"}
+{"id": "R188", "score": 8, "note": "The outcome directly covers maintaining software applications, a major component of system maintenance.", "model": "gpt-5.6-terra"}
+{"id": "R189", "score": 4, "note": "Concurrency control supports database efficiency but does not directly teach performance tuning.", "model": "gpt-5.6-terra"}
+{"id": "R190", "score": 3, "note": "Literature review develops critical evaluation skills but does not teach reviewing software code.", "model": "gpt-5.6-terra"}
+{"id": "R191", "score": 1, "note": "String comparison may involve coding but does not teach Java programming as a skill.", "model": "gpt-5.6-terra"}
+{"id": "R192", "score": 4, "note": "Distributed systems architecture provides relevant cloud concepts but does not specifically teach AWS platforms.", "model": "gpt-5.6-terra"}
+{"id": "R193", "score": 8, "note": "APM directly supports identifying and improving application performance, though tuning techniques are not explicitly stated.", "model": "gpt-5.6-terra"}
+{"id": "R194", "score": 10, "note": "The learning outcome explicitly teaches Git, the core version control tool.", "model": "gpt-5.6-terra"}
+{"id": "R195", "score": 9, "note": "Network device management directly develops core network administration skills.", "model": "gpt-5.6-terra"}
+{"id": "R196", "score": 7, "note": "Scalable software design supports performance tuning but does not necessarily teach profiling or optimization techniques directly.", "model": "gpt-5.6-terra"}
+{"id": "R197", "score": 7, "note": "Database recovery techniques provide substantial foundations for disaster recovery but may not cover organization-wide recovery planning.", "model": "gpt-5.6-terra"}
+{"id": "R198", "score": 3, "note": "Software maintenance is related to integrating components but does not explicitly teach system integration.", "model": "gpt-5.6-terra"}
+{"id": "R199", "score": 7, "note": "Distributed system security likely covers security concepts relevant to monitoring, but monitoring is not explicitly stated.", "model": "gpt-5.6-terra"}
+{"id": "R200", "score": 3, "note": "Data cleaning supports data quality but does not teach database management itself.", "model": "gpt-5.6-terra"}
+{"id": "R201", "score": 8, "note": "Designing network infrastructure strongly supports network administration, though it emphasizes planning over ongoing operations.", "model": "gpt-5.6-terra"}
+{"id": "R202", "score": 10, "note": "The outcome explicitly teaches CI/CD pipeline implementation.", "model": "gpt-5.6-terra"}
+{"id": "R203", "score": 4, "note": "Security solution management relates to securing servers but does not directly teach general server administration.", "model": "gpt-5.6-terra"}
+{"id": "R204", "score": 6, "note": "Network devices are relevant to administration, but the security-focused outcome does not fully cover network administration.", "model": "gpt-5.6-terra"}
+{"id": "R205", "score": 8, "note": "Designing database security policies strongly supports security compliance, though it may not cover broader organizational compliance requirements.", "model": "gpt-5.6-terra"}
+{"id": "R206", "score": 8, "note": "Network troubleshooting directly develops a core component of technical support.", "model": "gpt-5.6-terra"}
+{"id": "R207", "score": 10, "note": "The outcome directly teaches VMware virtualization using VMware Workstation.", "model": "gpt-5.6-terra"}
+{"id": "R208", "score": 2, "note": "Distributed system processes provide limited conceptual background but do not directly teach system maintenance.", "model": "gpt-5.6-terra"}
+{"id": "R209", "score": 8, "note": "Designing network infrastructure strongly supports IT infrastructure management, though management operations are not explicit.", "model": "gpt-5.6-terra"}
+{"id": "R210", "score": 6, "note": "Security policy management supports governance of IT infrastructure but does not fully teach infrastructure management.", "model": "gpt-5.6-terra"}
+{"id": "R211", "score": 1, "note": "Session management in web programming does not meaningfully teach system maintenance.", "model": "gpt-5.6-terra"}
+{"id": "R212", "score": 7, "note": "Network infrastructure design strongly supports infrastructure management but does not explicitly cover ongoing administration and operations.", "model": "gpt-5.6-terra"}
+{"id": "R213", "score": 3, "note": "VMware virtualization provides related infrastructure concepts but does not teach AWS cloud platforms directly.", "model": "gpt-5.6-terra"}
+{"id": "R214", "score": 7, "note": "Service-Oriented Architecture strongly supports RESTful API development concepts, though it may not explicitly teach REST implementation.", "model": "gpt-5.6-terra"}
+{"id": "R215", "score": 4, "note": "Distributed database management provides related administration concepts but does not fully cover general server management.", "model": "gpt-5.6-terra"}
+{"id": "R216", "score": 4, "note": "Network infrastructure design supports server deployment planning but does not directly teach server management.", "model": "gpt-5.6-terra"}
+{"id": "R217", "score": 8, "note": "Network maintenance and troubleshooting directly teaches much of system maintenance, especially for network systems.", "model": "gpt-5.6-terra"}
+{"id": "R218", "score": 6, "note": "Database querying is relevant to MySQL, but the outcome does not specify MySQL database administration or use.", "model": "gpt-5.6-terra"}
+{"id": "R219", "score": 0, "note": "C++ programming does not teach security compliance requirements or practices.", "model": "gpt-5.6-terra"}
+{"id": "R220", "score": 6, "note": "Database migrations likely involve PostgreSQL-related schema management, but do not fully teach PostgreSQL database skills.", "model": "gpt-5.6-terra"}
+{"id": "R221", "score": 4, "note": "Cloud security is relevant to AWS platforms but does not specifically teach AWS services or administration.", "model": "gpt-5.6-terra"}
+{"id": "R222", "score": 7, "note": "Cloud computing security likely covers monitoring concepts, but security monitoring is not explicitly stated.", "model": "gpt-5.6-terra"}
+{"id": "R223", "score": 8, "note": "IaaS directly covers managing cloud-based IT infrastructure, though not necessarily all on-premises infrastructure management.", "model": "gpt-5.6-terra"}
+{"id": "R224", "score": 6, "note": "Performance analysis develops analytical skills for distributed systems, but not broad data analysis methods.", "model": "gpt-5.6-terra"}
+{"id": "R225", "score": 7, "note": "Load balancing teaches an important server-management capability but does not cover full server administration.", "model": "gpt-5.6-terra"}
+{"id": "R226", "score": 0, "note": "Control statements do not teach technical documentation skills.", "model": "gpt-5.6-terra"}
+{"id": "R227", "score": 10, "note": "The learning outcome explicitly teaches network troubleshooting.", "model": "gpt-5.6-terra"}
+{"id": "R228", "score": 3, "note": "Object-oriented analysis and design develops analytical thinking but does not directly teach data analysis methods.", "model": "gpt-5.6-terra"}
+{"id": "R229", "score": 9, "note": "Backup and recovery strategies strongly support disaster recovery planning, though broader organizational planning may be only partly covered.", "model": "gpt-5.6-terra"}
+{"id": "R230", "score": 3, "note": "VLAN configuration is related network administration knowledge but does not directly teach firewall configuration.", "model": "gpt-5.6-terra"}
+{"id": "R231", "score": 4, "note": "Security solutions for system operations may support troubleshooting but does not explicitly teach network troubleshooting.", "model": "gpt-5.6-terra"}
+{"id": "R232", "score": 8, "note": "Deploying security technologies strongly supports security monitoring, though monitoring operations are not explicitly stated.", "model": "gpt-5.6-terra"}
+{"id": "R233", "score": 6, "note": "Relational database design supports PostgreSQL use but does not specifically teach the PostgreSQL platform.", "model": "gpt-5.6-terra"}
+{"id": "R234", "score": 0, "note": "Huffman coding does not teach code review practices.", "model": "gpt-5.6-terra"}
+{"id": "R235", "score": 8, "note": "Application health monitoring strongly supports maintaining systems by detecting and diagnosing operational issues.", "model": "gpt-5.6-terra"}
+{"id": "R236", "score": 6, "note": "Laravel security features support secure development but do not fully teach security compliance requirements.", "model": "gpt-5.6-terra"}
+{"id": "R237", "score": 5, "note": "System reliability engineering supports resilience concepts but does not explicitly teach disaster recovery planning.", "model": "gpt-5.6-terra"}
+{"id": "R238", "score": 0, "note": "Regular expressions do not teach Git version control.", "model": "gpt-5.6-terra"}
+{"id": "R239", "score": 9, "note": "The outcome explicitly covers APIs, strongly aligning with API integration skills.", "model": "gpt-5.6-terra"}
+{"id": "R240", "score": 1, "note": "Distributed system processes are technical concepts and do not teach project management.", "model": "gpt-5.6-terra"}
+{"id": "R241", "score": 4, "note": "Scalable software design supports code quality concepts but does not explicitly teach conducting code reviews.", "model": "gpt-5.6-terra"}
+{"id": "R242", "score": 6, "note": "It covers security aspects of system support and operations, but not general technical support skills.", "model": "gpt-5.6-terra"}
+{"id": "R243", "score": 1, "note": "Clustering may involve implementation but does not specifically teach Java programming.", "model": "gpt-5.6-terra"}
+{"id": "R244", "score": 10, "note": "The outcome directly teaches containerization, including Docker-related skills.", "model": "gpt-5.6-terra"}
+{"id": "R245", "score": 7, "note": "IaC directly supports cloud infrastructure management, but the outcome does not specifically mention AWS platforms.", "model": "gpt-5.6-terra"}
+{"id": "R246", "score": 8, "note": "Integration testing strongly supports system integration by validating interactions between integrated components.", "model": "gpt-5.6-terra"}
+{"id": "R247", "score": 6, "note": "Algorithm analysis provides a foundation for evaluating efficiency but does not directly teach practical performance tuning.", "model": "gpt-5.6-terra"}
+{"id": "R248", "score": 0, "note": "C++ programming does not teach Microsoft Office proficiency.", "model": "gpt-5.6-terra"}
+{"id": "R249", "score": 7, "note": "Database migrations teach practical database schema management but not the full scope of database management.", "model": "gpt-5.6-terra"}
+{"id": "R250", "score": 1, "note": "Image smoothing covers filtering techniques, not performance tuning of systems or applications.", "model": "gpt-5.6-terra"}

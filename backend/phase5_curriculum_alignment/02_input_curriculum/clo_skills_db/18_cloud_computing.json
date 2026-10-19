@@ -1,0 +1,74 @@
+[
+  {
+    "skill": "Cloud Computing Architectures",
+    "source": "CLO"
+  },
+  {
+    "skill": "Virtualization",
+    "source": "CLO"
+  },
+  {
+    "skill": "Multi-Tenancy",
+    "source": "CLO"
+  },
+  {
+    "skill": "Service-Oriented Architecture",
+    "source": "CLO"
+  },
+  {
+    "skill": "Infrastructure as a Service (IaaS)",
+    "source": "CLO"
+  },
+  {
+    "skill": "Platform as a Service (PaaS)",
+    "source": "CLO"
+  },
+  {
+    "skill": "Software as a Service (SaaS)",
+    "source": "CLO"
+  },
+  {
+    "skill": "Cloud Deployment Models",
+    "source": "CLO"
+  },
+  {
+    "skill": "Cloud Computing Security",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "AWS",
+    "source": "CLO"
+  },
+  {
+    "skill": "Cloud Workload Optimization",
+    "source": "CLO"
+  },
+  {
+    "skill": "Load Balancing",
+    "source": "CLO"
+  },
+  {
+    "skill": "Auto-Scaling",
+    "source": "CLO"
+  },
+  {
+    "skill": "Containerization",
+    "source": "CLO"
+  },
+  {
+    "skill": "DevOps Methodology",
+    "source": "CLO"
+  },
+  {
+    "skill": "OpenStack",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "OpenStack (IaaS)",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "CentOS",
+    "source": "Lesson Topic"
+  }
+]

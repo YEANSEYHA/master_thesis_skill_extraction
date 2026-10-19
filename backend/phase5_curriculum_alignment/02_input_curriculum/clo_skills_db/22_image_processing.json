@@ -1,0 +1,166 @@
+[
+  {
+    "skill": "Digital Image Sampling",
+    "source": "CLO"
+  },
+  {
+    "skill": "Image Quantization",
+    "source": "CLO"
+  },
+  {
+    "skill": "Color Models",
+    "source": "CLO"
+  },
+  {
+    "skill": "RGB Color Model",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "HSI Color Model",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "CMYK Color Model",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Linear Filtering",
+    "source": "CLO"
+  },
+  {
+    "skill": "Non-Linear Filtering",
+    "source": "CLO"
+  },
+  {
+    "skill": "Averaging Filters",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Median Filtering",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Image Histogram Equalization",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Histogram Stretching",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Image Smoothing",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Image Sharpening",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Image Degradation Model",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Inverse Filtering",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Wiener Filter",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Motion Blur Removal",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Two-Dimensional Fourier Transform (2D-DFT)",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Frequency Domain Filtering",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Image Formation Model",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Point Spread Function (PSF)",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Erosion",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Dilation",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Opening",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Closing",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Thresholding",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Region-Based Segmentation",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Edge-Based Segmentation",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Canny Edge Detector",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Feature Extraction",
+    "source": "CLO"
+  },
+  {
+    "skill": "Pattern Recognition and Classification",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Image Compression",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Run-Length Encoding (RLE)",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Huffman Coding",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "JPEG Compression",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "OpenCV",
+    "source": "CLO"
+  },
+  {
+    "skill": "Python",
+    "source": "CLO"
+  },
+  {
+    "skill": "MATLAB",
+    "source": "Lesson Topic"
+  },
+  {
+    "skill": "Object Recognition",
+    "source": "CLO"
+  },
+  {
+    "skill": "Image Segmentation",
+    "source": "Description"
+  }
+]

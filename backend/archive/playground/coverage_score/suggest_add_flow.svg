@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="912" viewBox="0 0 680 912" role="img">
+  <title>Suggest-ADD method — CLEAN, RANK, JUDGE</title>
+  <desc>How sql and data visualization were selected as ADD suggestions for the Intro-AI course, with the real numbers from the run.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0L10,5L0,10z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <style>
+    .th { font: 700 15px ui-sans-serif, -apple-system, Helvetica, Arial, sans-serif; fill: #0f172a; }
+    .tt { font: 700 13px ui-sans-serif, -apple-system, Helvetica, Arial, sans-serif; fill: #0f172a; }
+    .t  { font: 400 12px ui-sans-serif, -apple-system, Helvetica, Arial, sans-serif; fill: #334155; }
+    .ts { font: 400 11px ui-sans-serif, -apple-system, Helvetica, Arial, sans-serif; fill: #64748b; }
+    .m  { font: 400 11px ui-monospace, Menlo, Consolas, monospace; fill: #334155; }
+    .mg { font: 700 11px ui-monospace, Menlo, Consolas, monospace; fill: #047857; }
+    .arr { stroke: #64748b; stroke-width: 1.5; fill: none; }
+  </style>
+
+  <rect x="0" y="0" width="680" height="912" fill="#ffffff"/>
+
+  <text x="340" y="32" text-anchor="middle" class="th">Suggest-ADD — CLEAN → RANK → JUDGE</text>
+  <text x="340" y="52" text-anchor="middle" class="ts">why sql and data visualization were recommended for Intro-AI (AIECS031)</text>
+
+  <!-- INPUT -->
+  <g>
+    <rect x="90" y="72" width="500" height="80" rx="8" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.5"/>
+    <text x="110" y="94" class="tt">INPUT</text>
+    <text x="110" y="114" class="m">it_postings.jsonl = 142,733 IT job postings (skills per posting)</text>
+    <text x="110" y="132" class="m">course: 18 taught units · 5 anchors = {python, machine learning,</text>
+    <text x="110" y="146" class="m">        statistics, data analysis, analytical skills}</text>
+  </g>
+  <line x1="340" y1="152" x2="340" y2="188" class="arr" marker-end="url(#arrow)"/>
+  <text x="352" y="174" class="ts">142,733 postings · skills normalized</text>
+
+  <!-- STEP 1 CLEAN -->
+  <g>
+    <rect x="90" y="190" width="500" height="102" rx="8" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+    <text x="110" y="212" class="tt">1 · CLEAN — build the candidate pool</text>
+    <text x="110" y="232" class="t">merge variants ("data-viz" ≈ "data viz", "sql skills" → sql) — 10 merged</text>
+    <text x="110" y="250" class="t">take top-200 market skills, then drop 34 soft/credential entries</text>
+    <text x="110" y="266" class="ts">(communication, teamwork, bachelor's degree, computer science…)</text>
+    <text x="110" y="284" class="t">drop what the course already teaches (python, machine learning, pandas…)</text>
+  </g>
+  <line x1="340" y1="292" x2="340" y2="328" class="arr" marker-end="url(#arrow)"/>
+  <text x="352" y="314" class="ts">hard-skill candidates only</text>
+
+  <!-- STEP 2 RANK: cohort split -->
+  <g>
+    <rect x="90" y="330" width="500" height="76" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+    <text x="110" y="352" class="tt">2 · RANK — course-conditioned demand</text>
+    <text x="110" y="372" class="t">split the corpus: keep postings that demand ≥ 1 anchor skill</text>
+    <text x="110" y="392" class="m">cohort = 42,815 of 142,733 postings (30.0%) "related to this course"</text>
+  </g>
+  <line x1="340" y1="406" x2="340" y2="442" class="arr" marker-end="url(#arrow)"/>
+  <text x="352" y="428" class="ts">count each candidate in both worlds</text>
+
+  <!-- worked table -->
+  <g>
+    <rect x="40" y="444" width="600" height="176" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+    <text x="60" y="466" class="tt">lift = P(s | course cohort) ÷ P(s | whole market) · rank = P(s|course) × lift</text>
+    <text x="60" y="490" class="m">skill        P(s) market            P(s|course) cohort       lift    rank</text>
+    <text x="60" y="510" class="mg">sql          14,879/142,733 =10.4%  10,118/42,815 =23.6%     2.27×   53.6</text>
+    <text x="60" y="530" class="mg">data visual.  4,353/142,733 = 3.1%   3,788/42,815 = 8.9%     2.90×   25.7</text>
+    <text x="60" y="550" class="m">… + 23 more candidates that passed lift ≥ 1.15 …</text>
+    <text x="60" y="576" class="t">embedding evidence (nearest taught unit, cosine):</text>
+    <text x="60" y="596" class="m">sql ↔ pandas 0.61 · data visualization ↔ statistics 0.63</text>
+  </g>
+  <line x1="340" y1="620" x2="340" y2="656" class="arr" marker-end="url(#arrow)"/>
+  <text x="352" y="642" class="ts">top 25 by rank → committee</text>
+
+  <!-- STEP 3 JUDGE -->
+  <g>
+    <rect x="90" y="658" width="500" height="102" rx="8" fill="#ffe4e6" stroke="#e11d48" stroke-width="1.5"/>
+    <text x="110" y="680" class="tt">3 · JUDGE — qwen3:14b curriculum committee</text>
+    <text x="110" y="700" class="t">one binary question per candidate:</text>
+    <text x="110" y="718" class="t">"should THIS intro-AI course teach it, at its level?" → add / skip + reason</text>
+    <text x="110" y="740" class="m">reviewed 25 → add 2 · skip 23 (java, aws, r, docker, kubernetes,</text>
+    <text x="110" y="754" class="m">spark… = wrong level or different specialization)</text>
+  </g>
+  <line x1="340" y1="760" x2="340" y2="796" class="arr" marker-end="url(#arrow)"/>
+  <text x="352" y="782" class="ts">only approved ADDs survive</text>
+
+  <!-- OUTPUT -->
+  <g>
+    <rect x="90" y="798" width="500" height="94" rx="8" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+    <text x="110" y="820" class="tt">OUTPUT — ✚ ADD</text>
+    <text x="110" y="842" class="mg">sql                 24% · 2.27×   near pandas (one lesson from dataframes)</text>
+    <text x="110" y="862" class="mg">data visualization   9% · 2.90×   near statistics (matplotlib/seaborn slot)</text>
+    <text x="110" y="882" class="ts">% = share of the 42,815 course-related postings · × = lift vs whole market</text>
+  </g>
+</svg>

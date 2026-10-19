@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+httpx
+psycopg2-binary
+python-dotenv
+anthropic
+openai
+
+# Syllabus ingestion (V8 Step 1)
+boto3                 # Cloudflare R2 archive (S3-compatible)
+pymupdf4llm           # PDF  -> Markdown
+docling               # DOCX -> Markdown. Install as: pip install docling "numpy<2"
+                      # — unpinned it resolves numpy 2.x, which torch 2.2.2
+                      # cannot import. Needs Python < 3.14.
